@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_dev_blackbox_2x2m" materials="units/dev_tools/blackbox/dev_blackbox" />
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_dev_blackbox_2x2m"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

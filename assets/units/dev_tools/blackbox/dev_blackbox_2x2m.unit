@@ -1,0 +1,6 @@
+<unit type="dev" slot="1" >
+    <object file="units/dev_tools/blackbox/dev_blackbox_2x2m" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

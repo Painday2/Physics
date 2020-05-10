@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mat_black" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/dev_tools/blackbox/dev_blackbox_pd2_logo_df"/>
+    </material>
+</materials>
