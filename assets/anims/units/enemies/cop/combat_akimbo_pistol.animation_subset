@@ -1,0 +1,327 @@
+<xml>
+	<!-- Stand -->
+	
+		<!-- Still -->
+	
+			<!-- Idle -->
+			<anim name="cbt_akimbo_pistol_idle" file="anims/shared/akimbo_pistol/combat/cbt_std_idle" blend_set="upper_body_aim"/>
+
+			<!-- Idle VR --> 
+			<anim name="cbt_akimbo_pistol_idle_l" file="anims/shared/akimbo_pistol/combat/cbt_std_idle" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_idle_r" file="anims/shared/akimbo_pistol/combat/cbt_std_idle" blend_set="upper_body_right"/>
+			<!-- End Idle VR -->
+
+			<!-- <anim name="equip_berreta_husk1" file="anims/shared/pistol/neutral/husk1/ntl_std_equip" blend_set="upper_body_aim"/>
+			<anim name="equip_berreta_husk2" file="anims/shared/pistol/neutral/husk2/ntl_std_equip" blend_set="upper_body_aim"/>
+			<anim name="equip_berreta_husk3" file="anims/shared/pistol/neutral/husk3/ntl_std_equip" blend_set="upper_body_aim"/>
+			<anim name="equip_berreta_husk4" file="anims/shared/pistol/neutral/husk4/ntl_std_equip" blend_set="upper_body_aim"/>-->
+			
+			<!-- Melee -->
+			<anim name="cbt_akimbo_pistol_melee" file="anims/shared/akimbo_pistol/combat/cbt_std_melee" blend_set="upper_body_aim"/>
+			<!-- <anim name="cbt_akimbo_pistol_melee_knife_var1" file="anims/shared/pistol/combat/cbt_std_melee_knife_var1" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_melee_knife_var2" file="anims/shared/pistol/combat/cbt_std_melee_knife_var2" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_melee_fist_var1" file="anims/shared/pistol/combat/cbt_std_melee_fist_var1" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_melee_fist_var2" file="anims/shared/pistol/combat/cbt_std_melee_fist_var2" blend_set="upper_body_aim"/> -->
+			
+			<!-- Grenade -->
+			<anim name="cbt_akimbo_pistol_throw_grenade" file="anims/shared/akimbo_pistol/combat/cbt_std_throw" blend_set="upper_body_aim"/>
+			
+			<!-- Transition -->
+			<anim name="cbt_akimbo_pistol_std_to_crh" file="anims/shared/akimbo_pistol/combat/cbt_std_to_crh" blend_set="upper_body_aim"/>	
+			<anim name="cbt_akimbo_pistol_crh_to_std" file="anims/shared/akimbo_pistol/combat/cbt_crh_to_std" blend_set="upper_body_aim"/>
+
+			<!-- Transition VR --> 
+			<anim name="cbt_akimbo_pistol_std_to_crh_l" file="anims/shared/akimbo_pistol/combat/cbt_std_to_crh" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_std_to_crh_r" file="anims/shared/akimbo_pistol/combat/cbt_std_to_crh" blend_set="upper_body_right"/>
+			<anim name="cbt_akimbo_pistol_crh_to_std_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_to_std" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_crh_to_std_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_to_std" blend_set="upper_body_right"/>
+			<!-- End Transition VR --> 
+
+			<!-- Hurt -->
+			<!-- <anim name="cbt_akimbo_pistol_std_hurt_upbdy_left" file="anims/shared/pistol/combat/cbt_std_hurt_upbdy_left" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_hurt_upbdy_left" file="anims/shared/pistol/combat/cbt_crh_hurt_upbdy_left" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_sup_hurt_upbdy_left" file="anims/shared/pistol/combat/cbt_sup_hurt_upbdy_left" blend_set="upper_body_aim"/>
+			
+			<anim name="cbt_akimbo_pistol_std_hurt_upbdy_right" file="anims/shared/pistol/combat/cbt_std_hurt_upbdy_right" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_hurt_upbdy_right" file="anims/shared/pistol/combat/cbt_crh_hurt_upbdy_right" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_sup_hurt_upbdy_right" file="anims/shared/pistol/combat/cbt_sup_hurt_upbdy_right" blend_set="upper_body_aim"/>
+			
+			<anim name="cbt_akimbo_pistol_std_hurt_lowbdy_left" file="anims/shared/pistol/combat/cbt_std_hurt_lowbdy_left" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_hurt_lowbdy_left" file="anims/shared/pistol/combat/cbt_crh_hurt_lowbdy_left" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_sup_hurt_lowbdy_left" file="anims/shared/pistol/combat/cbt_sup_hurt_lowbdy_left" blend_set="upper_body_aim"/>
+			
+			<anim name="cbt_akimbo_pistol_std_hurt_lowbdy_right" file="anims/shared/pistol/combat/cbt_std_hurt_lowbdy_right" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_hurt_lowbdy_right" file="anims/shared/pistol/combat/cbt_crh_hurt_lowbdy_right" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_sup_hurt_lowbdy_right" file="anims/shared/pistol/combat/cbt_sup_hurt_lowbdy_right" blend_set="upper_body_aim"/>
+			
+			<anim name="cbt_akimbo_pistol_std_hurt_upbdy_back" file="anims/shared/pistol/combat/cbt_std_hurt_upbdy_back" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_hurt_upbdy_back" file="anims/shared/pistol/combat/cbt_crh_hurt_upbdy_back" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_sup_hurt_upbdy_back" file="anims/shared/pistol/combat/cbt_sup_hurt_upbdy_back" blend_set="upper_body_aim"/> -->
+			
+			<!-- Turn -->
+			<anim name="cbt_akimbo_pistol_turn_l_45" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_l45" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_turn_l_90" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_l90" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_turn_l_135" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_l135" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_turn_r_45" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_r45" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_turn_r_90" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_r90" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_turn_r_135" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_r135" blend_set="upper_body_aim"/>
+
+			<!-- Turn VR -->
+			<anim name="cbt_akimbo_pistol_turn_l_45_l" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_l45" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_turn_l_45_r" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_l45" blend_set="upper_body_right"/>
+			<anim name="cbt_akimbo_pistol_turn_l_90_l" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_l90" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_turn_l_90_r" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_l90" blend_set="upper_body_right"/>
+			<anim name="cbt_akimbo_pistol_turn_l_135_l" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_l135" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_turn_l_135_r" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_l135" blend_set="upper_body_right"/>
+			<anim name="cbt_akimbo_pistol_turn_r_45_l" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_r45" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_turn_r_45_r" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_r45" blend_set="upper_body_right"/>
+			<anim name="cbt_akimbo_pistol_turn_r_90_l" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_r90" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_turn_r_90_r" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_r90" blend_set="upper_body_right"/>
+			<anim name="cbt_akimbo_pistol_turn_r_135_l" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_r135" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_turn_r_135_r" file="anims/shared/akimbo_pistol/combat/cbt_std_turn_r135" blend_set="upper_body_right"/>
+			<!-- End Turn VR -->
+
+			<!-- Arrest -->
+			<anim name="cbt_akimbo_pistol_arrest_gesture_var1" file="anims/shared/pistol/combat/cbt_std_arrest_gesture_var1" blend_set="upper_body_aim"/>
+			
+			<!-- Stop -->
+			<anim name="cbt_akimbo_pistol_stop_gesture_var1" file="anims/shared/pistol/combat/cbt_std_halt_gesture_var1" blend_set="upper_body_aim"/>
+			
+			
+			
+		<!-- Walk -->
+		<anim name="cbt_akimbo_pistol_walk_fwd" file="anims/shared/akimbo_pistol/combat/cbt_std_walk_fwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_walk_bwd" file="anims/shared/akimbo_pistol/combat/cbt_std_walk_bwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_walk_l" file="anims/shared/akimbo_pistol/combat/cbt_std_walk_l" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_walk_r" file="anims/shared/akimbo_pistol/combat/cbt_std_walk_r" blend_set="upper_body_aim"/>
+
+		<!-- Walk VR -->
+		<anim name="cbt_akimbo_pistol_walk_fwd_l" file="anims/shared/akimbo_pistol/combat/cbt_std_walk_fwd" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_walk_fwd_r" file="anims/shared/akimbo_pistol/combat/cbt_std_walk_fwd" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_walk_bwd_l" file="anims/shared/akimbo_pistol/combat/cbt_std_walk_bwd" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_walk_bwd_r" file="anims/shared/akimbo_pistol/combat/cbt_std_walk_bwd" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_walk_l_l" file="anims/shared/akimbo_pistol/combat/cbt_std_walk_l" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_walk_l_r" file="anims/shared/akimbo_pistol/combat/cbt_std_walk_l" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_walk_r_l" file="anims/shared/akimbo_pistol/combat/cbt_std_walk_r" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_walk_r_r" file="anims/shared/akimbo_pistol/combat/cbt_std_walk_r" blend_set="upper_body_right"/>
+		<!-- End walk VR -->
+
+		<!-- Run -->
+		<anim name="cbt_akimbo_pistol_run_fwd" file="anims/shared/akimbo_pistol/combat/cbt_std_run_fwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_run_bwd" file="anims/shared/akimbo_pistol/combat/cbt_std_run_bwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_run_l" file="anims/shared/akimbo_pistol/combat/cbt_std_run_l" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_run_r" file="anims/shared/akimbo_pistol/combat/cbt_std_run_r" blend_set="upper_body_aim"/>
+
+		<!-- Run VR -->
+		<anim name="cbt_akimbo_pistol_run_fwd_l" file="anims/shared/akimbo_pistol/combat/cbt_std_run_fwd" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_run_fwd_r" file="anims/shared/akimbo_pistol/combat/cbt_std_run_fwd" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_run_bwd_l" file="anims/shared/akimbo_pistol/combat/cbt_std_run_bwd" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_run_bwd_r" file="anims/shared/akimbo_pistol/combat/cbt_std_run_bwd" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_run_l_l" file="anims/shared/akimbo_pistol/combat/cbt_std_run_l" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_run_l_r" file="anims/shared/akimbo_pistol/combat/cbt_std_run_l" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_run_r_l" file="anims/shared/akimbo_pistol/combat/cbt_std_run_r" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_run_r_r" file="anims/shared/akimbo_pistol/combat/cbt_std_run_r" blend_set="upper_body_right"/>
+		<!-- End run VR -->
+
+			<!-- Start -->
+			<!-- <anim name="cbt_akimbo_pistol_run_start_fwd" file="anims/shared/akimbo_pistol/combat/cbt_std_idle_to_cbt_std_run_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_run_start_bwd" file="anims/shared/akimbo_pistol/combat/cbt_std_idle_to_cbt_std_run_bwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_run_start_l" file="anims/shared/akimbo_pistol/combat/cbt_std_idle_to_cbt_std_l_run" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_run_start_r" file="anims/shared/akimbo_pistol/combat/cbt_std_idle_to_cbt_std_r_run" blend_set="upper_body_aim"/> -->
+			
+			<!-- Start Turn -->
+			<!-- <anim name="cbt_akimbo_pistol_run_start_turn_bwd" file="anims/shared/akimbo_pistol/combat/cbt_std_idle_to_turn_180_cbt_std_run_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_run_start_turn_l" file="anims/shared/akimbo_pistol/combat/cbt_std_idle_to_turn_l_cbt_std_run_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_run_start_turn_r" file="anims/shared/akimbo_pistol/combat/cbt_std_idle_to_turn_r_cbt_std_run_fwd" blend_set="upper_body_aim"/> -->
+			
+			<!-- Stop Run -->
+			<!-- <anim name="cbt_akimbo_pistol_run_stop_fwd" file="anims/shared/akimbo_pistol/combat/cbt_std_run_fwd_to_cbt_std_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_run_stop_bwd" file="anims/shared/akimbo_pistol/combat/cbt_std_run_bwd_to_cbt_std_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_run_stop_l" file="anims/shared/akimbo_pistol/combat/cbt_std_run_l_to_cbt_std_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_run_stop_r" file="anims/shared/akimbo_pistol/combat/cbt_std_run_r_to_cbt_std_idle" blend_set="upper_body_aim"/> -->
+		
+		<!-- Sprint -->
+		<anim name="cbt_akimbo_pistol_sprint_fwd" file="anims/shared/akimbo_pistol/combat/cbt_sprint_fwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_sprint_bwd" file="anims/shared/akimbo_pistol/combat/cbt_sprint_bwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_sprint_l" file="anims/shared/akimbo_pistol/combat/cbt_sprint_left" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_sprint_r" file="anims/shared/akimbo_pistol/combat/cbt_sprint_right" blend_set="upper_body_aim"/>
+
+		<!-- Sprint VR -->
+		<anim name="cbt_akimbo_pistol_sprint_fwd_l" file="anims/shared/akimbo_pistol/combat/cbt_sprint_fwd" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_sprint_fwd_r" file="anims/shared/akimbo_pistol/combat/cbt_sprint_fwd" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_sprint_bwd_l" file="anims/shared/akimbo_pistol/combat/cbt_sprint_bwd" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_sprint_bwd_r" file="anims/shared/akimbo_pistol/combat/cbt_sprint_bwd" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_sprint_l_l" file="anims/shared/akimbo_pistol/combat/cbt_sprint_left" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_sprint_l_r" file="anims/shared/akimbo_pistol/combat/cbt_sprint_left" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_sprint_r_l" file="anims/shared/akimbo_pistol/combat/cbt_sprint_right" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_sprint_r_r" file="anims/shared/akimbo_pistol/combat/cbt_sprint_right" blend_set="upper_body_right"/>
+		<!-- End sprint VR -->
+		
+		
+		<!-- Recoil -->
+		<anim name="stand_akimbo_pistol_recoil_auto" file="anims/shared/pistol/combat/cbt_std_shoot_aut" blend_set="upper_body_aim"/>
+		<anim name="stand_akimbo_pistol_recoil" file="anims/shared/akimbo_pistol/combat/cbt_std_shoot" blend_set="upper_body_aim"/>
+		
+		<!-- Reload -->
+		<anim name="stand_akimbo_pistol_reload" file="anims/shared/akimbo_pistol/combat/cbt_std_reload_akimbo" blend_set="upper_body_aim"/>
+		
+		<!-- Equip -->
+		<!--<anim name="equip_beretta" file="anims/shared/pistol/neutral/ntl_std_equip" blend_set="upper_body_aim"/>-->
+		
+	<!-- Crouch -->
+	
+		<!-- Still -->
+	
+			<!-- Idle -->
+			<anim name="cbt_akimbo_pistol_crh_idle" file="anims/shared/akimbo_pistol/combat/cbt_crh_idle" blend_set="upper_body_aim"/>
+
+			<!-- Idle VR --> 
+			<anim name="cbt_akimbo_pistol_crh_idle_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_idle" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_crh_idle_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_idle" blend_set="upper_body_right"/>
+			<!-- End Idle VR --> 
+
+			<!-- Suppressed -->
+			<!--<anim name="cbt_akimbo_pistol_sup_idle" file="anims/shared/pistol/combat/cbt_sup_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_to_sup" file="anims/shared/pistol/combat/cbt_crh_idle_to_cbt_sup_idle" blend_set="all_aim"/>
+			<anim name="cbt_akimbo_pistol_std_to_sup" file="anims/shared/pistol/combat/cbt_std_idle_to_cbt_sup_idle" blend_set="all_aim"/>-->
+			
+			<!-- Turn -->
+			<anim name="cbt_akimbo_pistol_crh_turn_l_45" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_l45" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_l_90" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_l90" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_l_135" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_l135" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_r_45" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_r45" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_r_90" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_r90" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_r_135" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_r135" blend_set="upper_body_aim"/>
+
+			<!-- Turn VR --> 
+			<anim name="cbt_akimbo_pistol_crh_turn_l_45_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_l45" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_l_45_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_l45" blend_set="upper_body_right"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_l_90_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_l90" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_l_90_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_l90" blend_set="upper_body_right"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_l_135_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_l135" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_l_135_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_l135" blend_set="upper_body_right"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_r_45_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_r45" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_r_45_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_r45" blend_set="upper_body_right"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_r_90_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_r90" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_r_90_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_r90" blend_set="upper_body_right"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_r_135_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_r135" blend_set="upper_body_left"/>
+			<anim name="cbt_akimbo_pistol_crh_turn_r_135_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_turn_r135" blend_set="upper_body_right"/>
+			<!-- End Turn VR --> 
+
+				<!-- Turn Suppressed -->
+				<!-- <anim name="cbt_akimbo_pistol_sup_turn_l_45" file="anims/shared/pistol/combat/cbt_sup_turn_l45" blend_set="upper_body_aim"/>
+				<anim name="cbt_akimbo_pistol_sup_turn_l_90" file="anims/shared/pistol/combat/cbt_sup_turn_l90" blend_set="upper_body_aim"/>
+				<anim name="cbt_akimbo_pistol_sup_turn_l_135" file="anims/shared/pistol/combat/cbt_sup_turn_l135" blend_set="upper_body_aim"/>
+				<anim name="cbt_akimbo_pistol_sup_turn_r_45" file="anims/shared/pistol/combat/cbt_sup_turn_r45" blend_set="upper_body_aim"/>
+				<anim name="cbt_akimbo_pistol_sup_turn_r_90" file="anims/shared/pistol/combat/cbt_sup_turn_r90" blend_set="upper_body_aim"/>
+				<anim name="cbt_akimbo_pistol_sup_turn_r_135" file="anims/shared/pistol/combat/cbt_sup_turn_r135" blend_set="upper_body_aim"/>-->
+				
+		<!-- Walk -->
+		<anim name="cbt_akimbo_pistol_crh_walk_fwd" file="anims/shared/akimbo_pistol/combat/cbt_crh_walk_fwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_crh_walk_bwd" file="anims/shared/akimbo_pistol/combat/cbt_crh_walk_bwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_crh_walk_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_walk_l" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_crh_walk_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_walk_r" blend_set="upper_body_aim"/>
+
+		<!-- Walk VR --> 
+		<anim name="cbt_akimbo_pistol_crh_walk_fwd_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_walk_fwd" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_crh_walk_fwd_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_walk_fwd" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_crh_walk_bwd_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_walk_bwd" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_crh_walk_bwd_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_walk_bwd" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_crh_walk_l_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_walk_l" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_crh_walk_l_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_walk_l" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_crh_walk_r_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_walk_r" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_crh_walk_r_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_walk_r" blend_set="upper_body_right"/>
+		<!-- End Walk VR --> 
+
+			<!-- Walk Suppressed-->
+			<!--<anim name="cbt_akimbo_pistol_sup_walk_fwd" file="anims/shared/pistol/combat/cbt_sup_walk_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_sup_walk_l" file="anims/shared/pistol/combat/cbt_sup_walk_l" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_sup_walk_r" file="anims/shared/pistol/combat/cbt_sup_walk_r" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_sup_walk_bwd" file="anims/shared/pistol/combat/cbt_sup_walk_bwd" blend_set="upper_body_aim"/>-->
+			
+		<!-- Run -->
+		<anim name="cbt_akimbo_pistol_crh_run_fwd" file="anims/shared/akimbo_pistol/combat/cbt_crh_run_fwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_crh_run_bwd" file="anims/shared/akimbo_pistol/combat/cbt_crh_run_bwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_crh_run_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_run_l" blend_set="upper_body_aim"/>
+		<anim name="cbt_akimbo_pistol_crh_run_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_run_r" blend_set="upper_body_aim"/>
+
+		<!-- Run VR --> 
+		<anim name="cbt_akimbo_pistol_crh_run_fwd_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_run_fwd" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_crh_run_fwd_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_run_fwd" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_crh_run_bwd_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_run_bwd" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_crh_run_bwd_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_run_bwd" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_crh_run_l_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_run_l" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_crh_run_l_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_run_l" blend_set="upper_body_right"/>
+		<anim name="cbt_akimbo_pistol_crh_run_r_l" file="anims/shared/akimbo_pistol/combat/cbt_crh_run_r" blend_set="upper_body_left"/>
+		<anim name="cbt_akimbo_pistol_crh_run_r_r" file="anims/shared/akimbo_pistol/combat/cbt_crh_run_r" blend_set="upper_body_right"/>
+		<!-- End Run VR --> 
+
+			<!-- Run Suppressed-->
+			<!-- <anim name="cbt_akimbo_pistol_sup_run_fwd" file="anims/shared/pistol/combat/cbt_sup_run_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_sup_run_l" file="anims/shared/pistol/combat/cbt_sup_run_l" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_sup_run_r" file="anims/shared/pistol/combat/cbt_sup_run_r" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_sup_run_bwd" file="anims/shared/pistol/combat/cbt_sup_run_bwd" blend_set="upper_body_aim"/> -->
+			
+			<!-- Start -->
+			<!-- <anim name="cbt_akimbo_pistol_crh_run_start_fwd" file="anims/shared/pistol/combat/cbt_crh_idle_to_cbt_crh_run_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_run_start_bwd" file="anims/shared/pistol/combat/cbt_crh_idle_to_cbt_crh_run_bwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_run_start_l" file="anims/shared/pistol/combat/cbt_crh_idle_to_cbt_crh_run_l" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_run_start_r" file="anims/shared/pistol/combat/cbt_crh_idle_to_cbt_crh_run_r" blend_set="upper_body_aim"/> -->
+			
+				<!-- Start Suppressed -->
+				<!-- <anim name="cbt_akimbo_pistol_sup_run_start_fwd" file="anims/shared/pistol/combat/cbt_sup_idle_to_cbt_sup_run_fwd" blend_set="upper_body_aim"/>
+				<anim name="cbt_akimbo_pistol_sup_run_start_bwd" file="anims/shared/pistol/combat/cbt_sup_idle_to_cbt_sup_run_bwd" blend_set="upper_body_aim"/>
+				<anim name="cbt_akimbo_pistol_sup_run_start_l" file="anims/shared/pistol/combat/cbt_sup_idle_to_cbt_sup_run_l" blend_set="upper_body_aim"/>
+				<anim name="cbt_akimbo_pistol_sup_run_start_r" file="anims/shared/pistol/combat/cbt_sup_idle_to_cbt_sup_run_r" blend_set="upper_body_aim"/> -->
+				
+			<!-- Start Turn -->
+			<!-- <anim name="cbt_akimbo_pistol_crh_run_start_turn_bwd" file="anims/shared/pistol/combat/cbt_crh_idle_to_turn_180_cbt_crh_run_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_run_start_turn_l" file="anims/shared/pistol/combat/cbt_crh_idle_to_turn_l_cbt_crh_run_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_run_start_turn_r" file="anims/shared/pistol/combat/cbt_crh_idle_to_turn_r_cbt_crh_run_fwd" blend_set="upper_body_aim"/> -->
+			
+			<!-- Stop Run -->
+			<!-- <anim name="cbt_akimbo_pistol_crh_run_stop_fwd" file="anims/shared/pistol/combat/cbt_crh_run_fwd_to_cbt_crh_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_run_stop_bwd" file="anims/shared/pistol/combat/cbt_crh_run_bwd_to_cbt_crh_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_run_stop_l" file="anims/shared/pistol/combat/cbt_crh_run_l_to_cbt_crh_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_akimbo_pistol_crh_run_stop_r" file="anims/shared/pistol/combat/cbt_crh_run_r_to_cbt_crh_idle" blend_set="upper_body_aim"/> -->
+			
+				<!-- Stop Run Suppressed -->
+				<!-- <anim name="cbt_akimbo_pistol_sup_run_stop_fwd" file="anims/shared/pistol/combat/cbt_sup_run_fwd_to_cbt_sup_idle" blend_set="upper_body_aim"/>
+				<anim name="cbt_akimbo_pistol_sup_run_stop_bwd" file="anims/shared/pistol/combat/cbt_sup_run_bwd_to_cbt_sup_idle" blend_set="upper_body_aim"/>
+				<anim name="cbt_akimbo_pistol_sup_run_stop_l" file="anims/shared/pistol/combat/cbt_sup_run_l_to_cbt_sup_idle" blend_set="upper_body_aim"/>
+				<anim name="cbt_akimbo_pistol_sup_run_stop_r" file="anims/shared/pistol/combat/cbt_sup_run_r_to_cbt_sup_idle" blend_set="upper_body_aim"/> -->
+				
+		<!-- Recoil -->
+		<anim name="crh_akimbo_pistol_recoil_auto" file="anims/shared/pistol/combat/cbt_crh_shoot_aut" blend_set="upper_body_aim"/>
+		<anim name="crh_akimbo_pistol_recoil" file="anims/shared/akimbo_pistol/combat/cbt_crh_shoot" blend_set="upper_body_aim"/>
+		<!-- <anim name="sup_akimbo_pistol_recoil_auto" file="anims/shared/pistol/combat/cbt_sup_shoot_aut" blend_set="upper_body_aim"/>
+		<anim name="sup_akimbo_pistol_recoil" file="anims/shared/pistol/combat/cbt_sup_shoot" blend_set="upper_body_aim"/> -->
+		
+		<!-- Reload -->
+		<anim name="crh_akimbo_pistol_reload" file="anims/shared/akimbo_pistol/combat/cbt_crh_reload" blend_set="upper_body_aim"/>
+		<!--<anim name="sup_reload_beretta" file="anims/shared/pistol/combat/cbt_sup_reload" blend_set="upper_body_aim"/>-->
+		
+	<!-- Bleedout -->
+	<!--<anim name="cbt_bleedout_enter" file="anims/shared/pistol/combat/cbt_bleedout_enter" blend_set="all_no_root"/>
+	<anim name="cbt_bleedout_exit" file="anims/shared/pistol/combat/cbt_bleedout_exit" blend_set="all_no_root"/>
+	<anim name="cbt_bleedout_reload" file="anims/shared/pistol/combat/cbt_bleedout_reload" blend_set="all_no_root"/>-->
+	<!-- <anim name="cbt_akimbo_pistol_bleedout_0" file="anims/shared/akimbo_pistol/combat/cbt_bleedout_0" blend_set="all_no_root"/>
+	<anim name="cbt_akimbo_pistol_bleedout_180" file="anims/shared/akimbo_pistol/combat/cbt_bleedout_180" blend_set="all_no_root"/>
+	<anim name="cbt_akimbo_pistol_bleedout_l90" file="anims/shared/akimbo_pistol/combat/cbt_bleedout_l90" blend_set="all_no_root"/>
+	<anim name="cbt_akimbo_pistol_bleedout_r90" file="anims/shared/akimbo_pistol/combat/cbt_bleedout_r90" blend_set="all_no_root"/> -->
+	
+	<!-- Fatal -->
+	<!--<anim name="cbt_fatal_enter" file="anims/shared/pistol/combat/cbt_fatal_enter" blend_set="all_no_root"/>
+	<anim name="cbt_fatal_idle" file="anims/shared/pistol/combat/cbt_fatal_idle" blend_set="all_no_root"/>
+	<anim name="cbt_fatal_death" file="anims/shared/pistol/combat/cbt_fatal_death" blend_set="all_no_root"/>
+	<anim name="cbt_fatal_exit" file="anims/shared/pistol/combat/cbt_fatal_exit" blend_set="all_no_root"/>-->
+	
+	<!-- Dodge -->
+	<!-- <anim name="cbt_akimbo_pistol_dodge_side_step_fwd" file="anims/shared/pistol/combat/cbt_std_dodge_fwd" blend_set="all"/>
+	<anim name="cbt_akimbo_pistol_dodge_cbt_side_step_bwd" file="anims/shared/pistol/combat/cbt_std_dodge_bwd" blend_set="all"/>
+	<anim name="cbt_akimbo_pistol_dodge_cbt_side_step_l" file="anims/shared/pistol/combat/cbt_std_dodge_left" blend_set="all"/>
+	<anim name="cbt_akimbo_pistol_dodge_cbt_side_step_r" file="anims/shared/pistol/combat/cbt_std_dodge_right" blend_set="all"/> -->
+	
+	<!-- SO -->
+	
+</xml>

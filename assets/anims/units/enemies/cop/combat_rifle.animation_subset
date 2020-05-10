@@ -1,0 +1,382 @@
+<xml>
+	<!-- Stand -->
+	
+		<!-- Still -->
+	
+			<!-- Idle -->
+			<anim name="cbt_rifle_idle" file="anims/shared/rifle/combat/cbt_std_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_idle_vr" file="anims/shared/rifle/combat/cbt_std_idle" blend_set="upper_body_right"/>
+			<anim name="tank_idle" file="anims/shared/boss/tank/cbt_std_idle" blend_set="upper_body_aim"/>
+			
+			<!-- Melee -->
+			<anim name="cbt_rifle_melee" file="anims/shared/rifle/combat/cbt_std_melee" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_melee_bayonet" file="anims/shared/rifle/combat/cbt_std_melee_bayonet" blend_set="upper_body_aim"/>
+
+			<anim name="cbt_rifle_melee_knife_var1" file="anims/shared/rifle/combat/cbt_std_melee_knife_var1" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_melee_knife_var2" file="anims/shared/rifle/combat/cbt_std_melee_knife_var2" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_knife_enter" file="anims/shared/rifle/combat/cbt_std_melee_knife_enter" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_knife_enter_ext" file="anims/shared/rifle/combat/cbt_std_melee_knife_enter" blend_set="hand_left"/>
+			<anim name="cbt_std_melee_knife_charge" file="anims/shared/rifle/combat/cbt_std_melee_knife_charge" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_knife_charge_ext" file="anims/shared/rifle/combat/cbt_std_melee_knife_charge" blend_set="hand_left"/>
+			<anim name="cbt_std_melee_knife_attack" file="anims/shared/rifle/combat/cbt_std_melee_knife_attack" blend_set="upper_body_aim"/>
+
+			<anim name="cbt_rifle_melee_fist_var1" file="anims/shared/rifle/combat/cbt_std_melee_fist_var1" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_melee_fist_var2" file="anims/shared/rifle/combat/cbt_std_melee_fist_var2" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_fist_enter" file="anims/shared/rifle/combat/cbt_std_melee_fist_enter" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_fist_enter_ext" file="anims/shared/rifle/combat/cbt_std_melee_fist_enter" blend_set="hand_left"/>
+			<anim name="cbt_std_melee_fist_charge" file="anims/shared/rifle/combat/cbt_std_melee_fist_charge" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_fist_charge_ext" file="anims/shared/rifle/combat/cbt_std_melee_fist_charge" blend_set="hand_left"/>
+			<anim name="cbt_std_melee_fist_attack" file="anims/shared/rifle/combat/cbt_std_melee_fist_attack" blend_set="upper_body_aim"/>
+
+			<anim name="cbt_rifle_melee_baton_var1" file="anims/shared/rifle/combat/cbt_std_melee_baton_var1" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_melee_baton_var2" file="anims/shared/rifle/combat/cbt_std_melee_baton_var2" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_baton_enter" file="anims/shared/rifle/combat/cbt_std_melee_baton_enter" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_baton_enter_ext" file="anims/shared/rifle/combat/cbt_std_melee_baton_enter" blend_set="hand_left"/>
+			<anim name="cbt_std_melee_baton_charge" file="anims/shared/rifle/combat/cbt_std_melee_baton_charge" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_baton_charge_ext" file="anims/shared/rifle/combat/cbt_std_melee_baton_charge" blend_set="hand_left"/>
+			<anim name="cbt_std_melee_baton_attack" file="anims/shared/rifle/combat/cbt_std_melee_baton_attack" blend_set="upper_body_aim"/>
+
+			<anim name="cbt_rifle_melee_axe_var1" file="anims/shared/rifle/combat/cbt_std_melee_axe_var1" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_melee_axe_var2" file="anims/shared/rifle/combat/cbt_std_melee_axe_var2" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_axe_enter" file="anims/shared/rifle/combat/cbt_std_melee_axe_enter" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_axe_enter_ext" file="anims/shared/rifle/combat/cbt_std_melee_axe_enter" blend_set="hand_left"/>
+			<anim name="cbt_std_melee_axe_charge" file="anims/shared/rifle/combat/cbt_std_melee_axe_charge" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_axe_charge_ext" file="anims/shared/rifle/combat/cbt_std_melee_axe_charge" blend_set="hand_left"/>
+			<anim name="cbt_std_melee_axe_attack" file="anims/shared/rifle/combat/cbt_std_melee_axe_attack" blend_set="upper_body_aim"/>
+
+			<anim name="cbt_rifle_melee_baseballbat_var1" file="anims/shared/rifle/combat/cbt_std_melee_axe_var1" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_melee_baseballbat_var2" file="anims/shared/rifle/combat/cbt_std_melee_axe_var2" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_melee_baseballbat_enter" file="anims/shared/rifle/combat/cbt_std_melee_axe_enter" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_melee_baseballbat_enter_ext" file="anims/shared/rifle/combat/cbt_std_melee_axe_enter" blend_set="hand_left"/>
+			<anim name="cbt_rifle_melee_baseballbat_charge" file="anims/shared/rifle/combat/cbt_std_melee_axe_charge" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_melee_baseballbat_charge_ext" file="anims/shared/rifle/combat/cbt_std_melee_axe_charge" blend_set="hand_left"/>
+			<anim name="cbt_rifle_melee_baseballbat_attack" file="anims/shared/rifle/combat/cbt_std_melee_axe_attack" blend_set="upper_body_aim"/>
+
+			<anim name="cbt_rifle_melee_briefcase_var1" file="anims/shared/rifle/combat/cbt_rifle_melee_briefcase_var1" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_melee_briefcase_var2" file="anims/shared/rifle/combat/cbt_rifle_melee_briefcase_var2" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_briefcase_enter" file="anims/shared/rifle/combat/cbt_std_melee_briefcase_enter" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_briefcase_enter_ext" file="anims/shared/rifle/combat/cbt_std_melee_briefcase_enter" blend_set="hand_left"/>
+			<anim name="cbt_std_melee_briefcase_charge" file="anims/shared/rifle/combat/cbt_std_melee_briefcase_charge" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_briefcase_charge_ext" file="anims/shared/rifle/combat/cbt_std_melee_briefcase_charge" blend_set="hand_left"/>
+			<anim name="cbt_std_melee_briefcase_attack" file="anims/shared/rifle/combat/cbt_std_melee_briefcase_attack" blend_set="upper_body_aim"/>
+
+			<anim name="cbt_rifle_melee_flag_var1" file="anims/shared/rifle/combat/cbt_std_melee_flag_var1" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_melee_flag_var2" file="anims/shared/rifle/combat/cbt_std_melee_flag_var2" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_flag_enter" file="anims/shared/rifle/combat/cbt_std_melee_flag_enter" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_flag_enter_ext" file="anims/shared/rifle/combat/cbt_std_melee_flag_enter" blend_set="hand_left"/>
+			<anim name="cbt_std_melee_flag_charge" file="anims/shared/rifle/combat/cbt_std_melee_flag_charge" blend_set="upper_body_aim"/>
+			<anim name="cbt_std_melee_flag_charge_ext" file="anims/shared/rifle/combat/cbt_std_melee_flag_charge" blend_set="hand_left"/>
+			<anim name="cbt_std_melee_flag_attack" file="anims/shared/rifle/combat/cbt_std_melee_flag_attack" blend_set="upper_body_aim"/>
+
+			<anim name="tank_melee" file="anims/shared/boss/tank/cbt_std_melee" blend_set="upper_body_aim"/>
+			
+			<!-- Grenade -->
+			<anim name="cbt_rifle_throw_grenade" file="anims/shared/rifle/combat/cbt_std_throw" blend_set="upper_body_aim"/>
+						
+			<!-- Transition -->
+			<anim name="cbt_rifle_std_to_crh" file="anims/shared/rifle/combat/cbt_std_to_crh" blend_set="upper_body_aim"/>	
+			<anim name="cbt_rifle_crh_to_std" file="anims/shared/rifle/combat/cbt_crh_to_std" blend_set="upper_body_aim"/>
+			
+			<anim name="cbt_rifle_std_to_crh_vr" file="anims/shared/rifle/combat/cbt_std_to_crh" blend_set="upper_body_right"/>	
+			<anim name="cbt_rifle_crh_to_std_vr" file="anims/shared/rifle/combat/cbt_crh_to_std" blend_set="upper_body_right"/>
+			
+			<!-- Hurt -->
+			<anim name="cbt_rifle_std_hurt_upbdy_left" file="anims/shared/rifle/combat/cbt_std_hurt_upbdy_left" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_hurt_upbdy_left" file="anims/shared/rifle/combat/cbt_crh_hurt_upbdy_left" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_sup_hurt_upbdy_left" file="anims/shared/rifle/combat/cbt_sup_hurt_upbdy_left" blend_set="upper_body_aim"/>
+			
+			<anim name="cbt_rifle_std_hurt_upbdy_right" file="anims/shared/rifle/combat/cbt_std_hurt_upbdy_right" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_hurt_upbdy_right" file="anims/shared/rifle/combat/cbt_crh_hurt_upbdy_right" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_sup_hurt_upbdy_right" file="anims/shared/rifle/combat/cbt_sup_hurt_upbdy_right" blend_set="upper_body_aim"/>
+			
+			<anim name="cbt_rifle_std_hurt_lowbdy_left" file="anims/shared/rifle/combat/cbt_std_hurt_lowbdy_left" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_hurt_lowbdy_left" file="anims/shared/rifle/combat/cbt_crh_hurt_lowbdy_left" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_sup_hurt_lowbdy_left" file="anims/shared/rifle/combat/cbt_sup_hurt_lowbdy_left" blend_set="upper_body_aim"/>
+			
+			<anim name="cbt_rifle_std_hurt_lowbdy_right" file="anims/shared/rifle/combat/cbt_std_hurt_lowbdy_right" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_hurt_lowbdy_right" file="anims/shared/rifle/combat/cbt_crh_hurt_lowbdy_right" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_sup_hurt_lowbdy_right" file="anims/shared/rifle/combat/cbt_sup_hurt_lowbdy_right" blend_set="upper_body_aim"/>
+			
+			<anim name="cbt_rifle_std_hurt_upbdy_back" file="anims/shared/rifle/combat/cbt_std_hurt_upbdy_back" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_hurt_upbdy_back" file="anims/shared/rifle/combat/cbt_crh_hurt_upbdy_back" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_sup_hurt_upbdy_back" file="anims/shared/rifle/combat/cbt_sup_hurt_upbdy_back" blend_set="upper_body_aim"/>
+			
+			<anim name="cbt_tank_light_hurt_upbdy_l" file="anims/shared/boss/tank/cbt_std_hurt_upbdy_left" blend_set="upper_body_aim"/>
+			<anim name="cbt_tank_light_hurt_upbdy_r" file="anims/shared/boss/tank/cbt_std_hurt_upbdy_right" blend_set="upper_body_aim"/>
+			<anim name="cbt_tank_light_hurt_upbdy_back" file="anims/shared/boss/tank/cbt_std_hurt_upbdy_back" blend_set="upper_body_aim"/>
+			<anim name="cbt_tank_light_hurt_lowbdy_l" file="anims/shared/boss/tank/cbt_std_hurt_lowbdy_left" blend_set="upper_body_aim"/>
+			<anim name="cbt_tank_light_hurt_lowbdy_r" file="anims/shared/boss/tank/cbt_std_hurt_lowbdy_right" blend_set="upper_body_aim"/>
+			
+			<anim name="cbt_crh_shield_hurt_light" file="anims/shared/boss/shield/cbt_crh_shield_hurt" blend_set="upper_body_aim"/>
+			<anim name="cbt_crh_shield_hurt" file="anims/shared/boss/shield/cbt_crh_shield_hurt" blend_set="all"/>
+	
+			<!-- Turn -->
+			<anim name="cbt_rifle_turn_l_45" file="anims/shared/rifle/combat/cbt_std_turn_l45" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_turn_l_90" file="anims/shared/rifle/combat/cbt_std_turn_l90" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_turn_l_135" file="anims/shared/rifle/combat/cbt_std_turn_l135" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_turn_r_45" file="anims/shared/rifle/combat/cbt_std_turn_r45" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_turn_r_90" file="anims/shared/rifle/combat/cbt_std_turn_r90" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_turn_r_135" file="anims/shared/rifle/combat/cbt_std_turn_r135" blend_set="upper_body_aim"/>
+
+			<anim name="cbt_rifle_turn_l_45_vr" file="anims/shared/rifle/combat/cbt_std_turn_l45" blend_set="upper_body_right"/>
+			<anim name="cbt_rifle_turn_l_90_vr" file="anims/shared/rifle/combat/cbt_std_turn_l90" blend_set="upper_body_right"/>
+			<anim name="cbt_rifle_turn_l_135_vr" file="anims/shared/rifle/combat/cbt_std_turn_l135" blend_set="upper_body_right"/>
+			<anim name="cbt_rifle_turn_r_45_vr" file="anims/shared/rifle/combat/cbt_std_turn_r45" blend_set="upper_body_right"/>
+			<anim name="cbt_rifle_turn_r_90_vr" file="anims/shared/rifle/combat/cbt_std_turn_r90" blend_set="upper_body_right"/>
+			<anim name="cbt_rifle_turn_r_135_vr" file="anims/shared/rifle/combat/cbt_std_turn_r135" blend_set="upper_body_right"/>
+			
+			<anim name="tank_turn_l_45" file="anims/shared/boss/tank/cbt_std_turn_l45" blend_set="upper_body_aim"/>
+			<anim name="tank_turn_l_90" file="anims/shared/boss/tank/cbt_std_turn_l90" blend_set="upper_body_aim"/>
+			<anim name="tank_turn_l_135" file="anims/shared/boss/tank/cbt_std_turn_l135" blend_set="upper_body_aim"/>
+			<anim name="tank_turn_r_45" file="anims/shared/boss/tank/cbt_std_turn_r45" blend_set="upper_body_aim"/>
+			<anim name="tank_turn_r_90" file="anims/shared/boss/tank/cbt_std_turn_r90" blend_set="upper_body_aim"/>
+			<anim name="tank_turn_r_135" file="anims/shared/boss/tank/cbt_std_turn_r135" blend_set="upper_body_aim"/>
+			
+			<!-- Arrest -->
+			<anim name="tank_arrest_gesture_var1" file="anims/shared/boss/tank/cbt_std_arrest_gesture_var1" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_arrest_gesture_var1" file="anims/shared/rifle/combat/cbt_std_arrest_gesture_var1" blend_set="upper_body_aim"/>
+			
+			<!-- Stop -->
+			<anim name="cbt_rifle_stop_gesture_var1" file="anims/shared/rifle/combat/cbt_std_halt_gesture_var1" blend_set="upper_body_aim"/>
+			
+			
+		<!-- Walk -->
+		<anim name="cbt_rifle_walk_fwd" file="anims/shared/rifle/combat/cbt_std_walk_fwd_fast" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_walk_bwd" file="anims/shared/rifle/combat/cbt_std_walk_bwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_walk_l" file="anims/shared/rifle/combat/cbt_std_walk_l" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_walk_r" file="anims/shared/rifle/combat/cbt_std_walk_r" blend_set="upper_body_aim"/>
+		
+		<anim name="cbt_rifle_walk_fwd_vr" file="anims/shared/rifle/combat/cbt_std_walk_fwd_fast" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_walk_bwd_vr" file="anims/shared/rifle/combat/cbt_std_walk_bwd" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_walk_l_vr" file="anims/shared/rifle/combat/cbt_std_walk_l" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_walk_r_vr" file="anims/shared/rifle/combat/cbt_std_walk_r" blend_set="upper_body_right"/>
+
+		<anim name="tank_walk_fwd_slow" file="anims/shared/boss/tank/cbt_std_walk_fwd_slow" blend_set="upper_body_aim"/>
+		<anim name="tank_walk_bwd" file="anims/shared/boss/tank/cbt_std_walk_bwd" blend_set="upper_body_aim"/>
+		<anim name="tank_walk_l" file="anims/shared/boss/tank/cbt_std_walk_l" blend_set="upper_body_aim"/>
+		<anim name="tank_walk_r" file="anims/shared/boss/tank/cbt_std_walk_r" blend_set="upper_body_aim"/>
+		
+		<!-- Run -->
+		<anim name="cbt_rifle_run_fwd" file="anims/shared/rifle/combat/cbt_std_run_fwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_run_bwd" file="anims/shared/rifle/combat/cbt_std_run_bwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_run_l" file="anims/shared/rifle/combat/cbt_std_run_l" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_run_r" file="anims/shared/rifle/combat/cbt_std_run_r" blend_set="upper_body_aim"/>
+
+		<anim name="cbt_rifle_run_fwd_vr" file="anims/shared/rifle/combat/cbt_std_run_fwd" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_run_bwd_vr" file="anims/shared/rifle/combat/cbt_std_run_bwd" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_run_l_vr" file="anims/shared/rifle/combat/cbt_std_run_l" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_run_r_vr" file="anims/shared/rifle/combat/cbt_std_run_r" blend_set="upper_body_right"/>
+		
+		<anim name="tank_run_fwd" file="anims/shared/boss/tank/cbt_std_run_fwd" blend_set="upper_body_aim"/>
+		<anim name="tank_run_bwd" file="anims/shared/boss/tank/cbt_std_run_bwd" blend_set="upper_body_aim"/>
+		<anim name="tank_run_l" file="anims/shared/boss/tank/cbt_std_run_l" blend_set="upper_body_aim"/>
+		<anim name="tank_run_r" file="anims/shared/boss/tank/cbt_std_run_r" blend_set="upper_body_aim"/>
+		
+			<!-- Start -->
+			<anim name="cbt_rifle_run_start_fwd" file="anims/shared/rifle/combat/cbt_std_idle_to_cbt_std_run_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_run_start_bwd" file="anims/shared/rifle/combat/cbt_std_idle_to_cbt_std_run_bwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_run_start_l" file="anims/shared/rifle/combat/cbt_std_idle_to_cbt_std_l_run" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_run_start_r" file="anims/shared/rifle/combat/cbt_std_idle_to_cbt_std_r_run" blend_set="upper_body_aim"/>
+			
+			<!-- Start Turn -->
+			<anim name="cbt_rifle_run_start_turn_bwd" file="anims/shared/rifle/combat/cbt_std_idle_to_turn_180_cbt_std_run_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_run_start_turn_l" file="anims/shared/rifle/combat/cbt_std_idle_to_turn_l_cbt_std_run_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_run_start_turn_r" file="anims/shared/rifle/combat/cbt_std_idle_to_turn_r_cbt_std_run_fwd" blend_set="upper_body_aim"/>
+			
+			<!-- Stop Run -->
+			<anim name="cbt_rifle_run_stop_fwd" file="anims/shared/rifle/combat/cbt_std_run_fwd_to_cbt_std_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_run_stop_bwd" file="anims/shared/rifle/combat/cbt_std_run_bwd_to_cbt_std_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_run_stop_l" file="anims/shared/rifle/combat/cbt_std_run_l_to_cbt_std_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_run_stop_r" file="anims/shared/rifle/combat/cbt_std_run_r_to_cbt_std_idle" blend_set="upper_body_aim"/>
+		
+		<!-- Sprint -->
+		<anim name="cbt_rifle_sprint_fwd" file="anims/shared/rifle/combat/cbt_sprint_fwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_sprint_bwd" file="anims/shared/rifle/combat/cbt_sprint_bwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_sprint_l" file="anims/shared/rifle/combat/cbt_sprint_left" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_sprint_r" file="anims/shared/rifle/combat/cbt_sprint_right" blend_set="upper_body_aim"/>
+
+		<anim name="cbt_rifle_sprint_fwd_vr" file="anims/shared/rifle/combat/cbt_sprint_fwd" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_sprint_bwd_vr" file="anims/shared/rifle/combat/cbt_sprint_bwd" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_sprint_l_vr" file="anims/shared/rifle/combat/cbt_sprint_left" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_sprint_r_vr" file="anims/shared/rifle/combat/cbt_sprint_right" blend_set="upper_body_right"/>
+		
+		<!-- Recoil -->
+		<anim name="stand_rifle_recoil_auto" file="anims/shared/rifle/combat/cbt_std_shoot_aut_loop" blend_set="upper_body_aim"/>
+		<anim name="stand_rifle_recoil_auto_enter" file="anims/shared/rifle/combat/cbt_std_shoot_aut_enter" blend_set="upper_body_aim"/>
+		<anim name="stand_rifle_recoil_auto_exit" file="anims/shared/rifle/combat/cbt_std_shoot_aut_exit" blend_set="upper_body_aim"/>
+		<anim name="stand_rifle_recoil" file="anims/shared/rifle/combat/cbt_std_shoot" blend_set="upper_body_aim"/>
+		<anim name="stand_r870_recoil" file="anims/shared/rifle/combat/cbt_std_shotgun_shoot" blend_set="upper_body_aim"/><!-- TEMP -->
+		
+		<!--anim name="tank_rifle_recoil" file="anims/shared/boss/tank/cbt_std_shoot_aut" blend_set="upper_body_aim"/>
+		<anim name="tank_rifle_recoil_hvy" file="anims/shared/boss/tank/cbt_std_shoot" blend_set="upper_body_aim"/-->
+		<anim name="tank_recoil_shotgun" file="anims/shared/boss/tank/cbt_std_shotgun_shoot" blend_set="upper_body_aim"/>
+		<anim name="tank_recoil_saiga" file="anims/shared/boss/tank/cbt_std_shoot_saiga" blend_set="upper_body_aim"/>
+		
+		<!-- Reload -->
+		<anim name="stand_reload_m4" file="anims/shared/rifle/combat/cbt_std_reload" blend_set="upper_body_aim"/>
+		<anim name="stand_reload_r870" file="anims/shared/rifle/combat/cbt_std_shotgun_reload" blend_set="upper_body_aim"/>
+		<anim name="stand_reload_m4_bullpup" file="anims/shared/rifle/combat/cbt_std_reload_bullpup" blend_set="upper_body_aim"/>
+		<anim name="stand_reload_m4_uzi" file="anims/shared/rifle/combat/cbt_std_reload_uzi" blend_set="upper_body_aim"/>
+
+		<anim name="std_reload_shell_loop_enter" file="anims/shared/rifle/combat/cbt_std_shell_reload_enter" blend_set="upper_body_aim" />
+		<anim name="std_reload_shell_loop" file="anims/shared/rifle/combat/cbt_std_shell_reload_loop" blend_set="upper_body_aim" />
+		<anim name="std_reload_shell_loop_exit" file="anims/shared/rifle/combat/cbt_std_shell_reload_exit" blend_set="upper_body_aim" />
+		
+		<anim name="tank_reload_shotgun" file="anims/shared/boss/tank/cbt_std_shotgun_reload" blend_set="upper_body_aim"/>
+		<anim name="tank_reload_saiga" file="anims/shared/boss/tank/cbt_std_reload_saiga" blend_set="upper_body_aim"/>
+		<anim name="tank_reload_lmg" file="anims/shared/boss/tank/cbt_std_lmg_reload" blend_set="upper_body_aim"/>
+
+		<!-- Weapon Switch -->
+		<anim name="std_switch_enter" file="anims/shared/special/cbt_std_switch_gesture_start" blend_set="upper_body_aim"/>
+		<anim name="std_switch_exit" file="anims/shared/special/cbt_std_switch_gesture_exit" blend_set="upper_body_aim"/>
+		<anim name="crh_switch_enter" file="anims/shared/special/cbt_crh_switch_gesture_start" blend_set="upper_body_aim"/>
+		<anim name="crh_switch_exit" file="anims/shared/special/cbt_crh_switch_gesture_exit" blend_set="upper_body_aim"/>
+
+	<!-- Crouch -->
+	
+		<!-- Still -->
+	
+			<!-- Idle -->
+			<anim name="cbt_rifle_crh_idle" file="anims/shared/rifle/combat/cbt_crh_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_idle_vr" file="anims/shared/rifle/combat/cbt_crh_idle" blend_set="upper_body_right"/>
+			
+			<!-- Suppressed -->
+			<anim name="cbt_rifle_sup_idle" file="anims/shared/rifle/combat/cbt_sup_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_to_sup" file="anims/shared/rifle/combat/cbt_crh_idle_to_cbt_sup_idle" blend_set="all_aim"/>
+			<anim name="cbt_rifle_std_to_sup" file="anims/shared/rifle/combat/cbt_std_idle_to_cbt_sup_idle" blend_set="all_aim"/>
+			
+			<!-- Turn -->
+			<anim name="cbt_rifle_crh_turn_l_45" file="anims/shared/rifle/combat/cbt_crh_turn_l45" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_turn_l_90" file="anims/shared/rifle/combat/cbt_crh_turn_l90" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_turn_l_135" file="anims/shared/rifle/combat/cbt_crh_turn_l135" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_turn_r_45" file="anims/shared/rifle/combat/cbt_crh_turn_r45" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_turn_r_90" file="anims/shared/rifle/combat/cbt_crh_turn_r90" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_turn_r_135" file="anims/shared/rifle/combat/cbt_crh_turn_r135" blend_set="upper_body_aim"/>
+
+			<anim name="cbt_rifle_crh_turn_l_45_vr" file="anims/shared/rifle/combat/cbt_crh_turn_l45" blend_set="upper_body_right"/>
+			<anim name="cbt_rifle_crh_turn_l_90_vr" file="anims/shared/rifle/combat/cbt_crh_turn_l90" blend_set="upper_body_right"/>
+			<anim name="cbt_rifle_crh_turn_l_135_vr" file="anims/shared/rifle/combat/cbt_crh_turn_l135" blend_set="upper_body_right"/>
+			<anim name="cbt_rifle_crh_turn_r_45_vr" file="anims/shared/rifle/combat/cbt_crh_turn_r45" blend_set="upper_body_right"/>
+			<anim name="cbt_rifle_crh_turn_r_90_vr" file="anims/shared/rifle/combat/cbt_crh_turn_r90" blend_set="upper_body_right"/>
+			<anim name="cbt_rifle_crh_turn_r_135_vr" file="anims/shared/rifle/combat/cbt_crh_turn_r135" blend_set="upper_body_right"/>
+			
+				<!-- Turn Suppressed -->
+				<anim name="cbt_rifle_sup_turn_l_45" file="anims/shared/rifle/combat/cbt_sup_turn_l45" blend_set="upper_body_aim"/>
+				<anim name="cbt_rifle_sup_turn_l_90" file="anims/shared/rifle/combat/cbt_sup_turn_l90" blend_set="upper_body_aim"/>
+				<anim name="cbt_rifle_sup_turn_l_135" file="anims/shared/rifle/combat/cbt_sup_turn_l135" blend_set="upper_body_aim"/>
+				<anim name="cbt_rifle_sup_turn_r_45" file="anims/shared/rifle/combat/cbt_sup_turn_r45" blend_set="upper_body_aim"/>
+				<anim name="cbt_rifle_sup_turn_r_90" file="anims/shared/rifle/combat/cbt_sup_turn_r90" blend_set="upper_body_aim"/>
+				<anim name="cbt_rifle_sup_turn_r_135" file="anims/shared/rifle/combat/cbt_sup_turn_r135" blend_set="upper_body_aim"/>
+				
+		<!-- Walk -->
+		<anim name="cbt_rifle_crh_walk_fwd" file="anims/shared/rifle/combat/cbt_crh_walk_fwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_crh_walk_bwd" file="anims/shared/rifle/combat/cbt_crh_walk_bwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_crh_walk_l" file="anims/shared/rifle/combat/cbt_crh_walk_l" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_crh_walk_r" file="anims/shared/rifle/combat/cbt_crh_walk_r" blend_set="upper_body_aim"/>
+
+		<anim name="cbt_rifle_crh_walk_fwd_vr" file="anims/shared/rifle/combat/cbt_crh_walk_fwd" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_crh_walk_bwd_vr" file="anims/shared/rifle/combat/cbt_crh_walk_bwd" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_crh_walk_l_vr" file="anims/shared/rifle/combat/cbt_crh_walk_l" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_crh_walk_r_vr" file="anims/shared/rifle/combat/cbt_crh_walk_r" blend_set="upper_body_right"/>
+		
+			<!-- Run Suppressed-->
+			<anim name="cbt_rifle_sup_walk_fwd" file="anims/shared/rifle/combat/cbt_sup_walk_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_sup_walk_l" file="anims/shared/rifle/combat/cbt_sup_walk_l" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_sup_walk_r" file="anims/shared/rifle/combat/cbt_sup_walk_r" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_sup_walk_bwd" file="anims/shared/rifle/combat/cbt_sup_walk_bwd" blend_set="upper_body_aim"/>
+			
+		<!-- Run -->
+		<anim name="cbt_rifle_crh_run_fwd" file="anims/shared/rifle/combat/cbt_crh_run_fwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_crh_run_bwd" file="anims/shared/rifle/combat/cbt_crh_run_bwd" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_crh_run_l" file="anims/shared/rifle/combat/cbt_crh_run_l" blend_set="upper_body_aim"/>
+		<anim name="cbt_rifle_crh_run_r" file="anims/shared/rifle/combat/cbt_crh_run_r" blend_set="upper_body_aim"/>
+
+		<anim name="cbt_rifle_crh_run_fwd_vr" file="anims/shared/rifle/combat/cbt_crh_run_fwd" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_crh_run_bwd_vr" file="anims/shared/rifle/combat/cbt_crh_run_bwd" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_crh_run_l_vr" file="anims/shared/rifle/combat/cbt_crh_run_l" blend_set="upper_body_right"/>
+		<anim name="cbt_rifle_crh_run_r_vr" file="anims/shared/rifle/combat/cbt_crh_run_r" blend_set="upper_body_right"/>
+			
+			<!-- Run Suppressed-->
+			<anim name="cbt_rifle_sup_run_fwd" file="anims/shared/rifle/combat/cbt_sup_run_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_sup_run_l" file="anims/shared/rifle/combat/cbt_sup_run_l" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_sup_run_r" file="anims/shared/rifle/combat/cbt_sup_run_r" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_sup_run_bwd" file="anims/shared/rifle/combat/cbt_sup_run_bwd" blend_set="upper_body_aim"/>
+			
+			<!-- Start -->
+			<anim name="cbt_rifle_crh_run_start_fwd" file="anims/shared/rifle/combat/cbt_crh_idle_to_cbt_crh_run_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_run_start_bwd" file="anims/shared/rifle/combat/cbt_crh_idle_to_cbt_crh_run_bwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_run_start_l" file="anims/shared/rifle/combat/cbt_crh_idle_to_cbt_crh_run_l" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_run_start_r" file="anims/shared/rifle/combat/cbt_crh_idle_to_cbt_crh_run_r" blend_set="upper_body_aim"/>
+			
+				<!-- Start Suppressed -->
+				<anim name="cbt_rifle_sup_run_start_fwd" file="anims/shared/rifle/combat/cbt_sup_idle_to_cbt_sup_run_fwd" blend_set="upper_body_aim"/>
+				<anim name="cbt_rifle_sup_run_start_bwd" file="anims/shared/rifle/combat/cbt_sup_idle_to_cbt_sup_run_bwd" blend_set="upper_body_aim"/>
+				<anim name="cbt_rifle_sup_run_start_l" file="anims/shared/rifle/combat/cbt_sup_idle_to_cbt_sup_run_l" blend_set="upper_body_aim"/>
+				<anim name="cbt_rifle_sup_run_start_r" file="anims/shared/rifle/combat/cbt_sup_idle_to_cbt_sup_run_r" blend_set="upper_body_aim"/>
+				
+			<!-- Start Turn -->
+			<anim name="cbt_rifle_crh_run_start_turn_bwd" file="anims/shared/rifle/combat/cbt_crh_idle_to_turn_180_cbt_crh_run_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_run_start_turn_l" file="anims/shared/rifle/combat/cbt_crh_idle_to_turn_l_cbt_crh_run_fwd" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_run_start_turn_r" file="anims/shared/rifle/combat/cbt_crh_idle_to_turn_r_cbt_crh_run_fwd" blend_set="upper_body_aim"/>
+			
+			<!-- Stop Run -->
+			<anim name="cbt_rifle_crh_run_stop_fwd" file="anims/shared/rifle/combat/cbt_crh_run_fwd_to_cbt_crh_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_run_stop_bwd" file="anims/shared/rifle/combat/cbt_crh_run_bwd_to_cbt_crh_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_run_stop_l" file="anims/shared/rifle/combat/cbt_crh_run_l_to_cbt_crh_idle" blend_set="upper_body_aim"/>
+			<anim name="cbt_rifle_crh_run_stop_r" file="anims/shared/rifle/combat/cbt_crh_run_r_to_cbt_crh_idle" blend_set="upper_body_aim"/>
+			
+				<!-- Stop Run Suppressed -->
+				<anim name="cbt_rifle_sup_run_stop_fwd" file="anims/shared/rifle/combat/cbt_sup_run_fwd_to_cbt_sup_idle" blend_set="upper_body_aim"/>
+				<anim name="cbt_rifle_sup_run_stop_bwd" file="anims/shared/rifle/combat/cbt_sup_run_bwd_to_cbt_sup_idle" blend_set="upper_body_aim"/>
+				<anim name="cbt_rifle_sup_run_stop_l" file="anims/shared/rifle/combat/cbt_sup_run_l_to_cbt_sup_idle" blend_set="upper_body_aim"/>
+				<anim name="cbt_rifle_sup_run_stop_r" file="anims/shared/rifle/combat/cbt_sup_run_r_to_cbt_sup_idle" blend_set="upper_body_aim"/>
+				
+		<!-- Recoil -->
+		<anim name="crh_rifle_recoil" file="anims/shared/rifle/combat/cbt_crh_shoot" blend_set="upper_body_aim"/>
+		<anim name="crh_r870_recoil" file="anims/shared/rifle/combat/cbt_crh_shotgun_shoot" blend_set="upper_body_aim"/>
+		<anim name="crh_rifle_recoil_auto" file="anims/shared/rifle/combat/cbt_crh_shoot_aut_loop" blend_set="upper_body_aim"/>
+		<anim name="crh_rifle_recoil_auto_enter" file="anims/shared/rifle/combat/cbt_crh_shoot_aut_enter" blend_set="upper_body_aim"/>
+		<anim name="crh_rifle_recoil_auto_exit" file="anims/shared/rifle/combat/cbt_crh_shoot_aut_exit" blend_set="upper_body_aim"/>
+		<anim name="sup_rifle_recoil_auto" file="anims/shared/rifle/combat/cbt_sup_shoot_aut" blend_set="upper_body_aim"/>
+		<anim name="sup_rifle_recoil" file="anims/shared/rifle/combat/cbt_sup_shoot" blend_set="upper_body_aim"/>
+		<anim name="sup_shotgun_recoil" file="anims/shared/rifle/combat/cbt_sup_shotgun_shoot" blend_set="upper_body_aim"/>
+		
+		
+		<!-- Reload -->
+		<anim name="crh_reload_m4" file="anims/shared/rifle/combat/cbt_crh_rel" blend_set="upper_body_aim"/>
+		<anim name="crh_reload_m4_bullpup" file="anims/shared/rifle/combat/cbt_crh_reload_bullpup" blend_set="upper_body_aim"/>
+		<anim name="crh_reload_r870" file="anims/shared/rifle/combat/cbt_crh_shotgun_rel" blend_set="upper_body_aim"/>
+		<anim name="crh_reload_mp5" file="anims/shared/rifle/combat/cbt_crh_rel" blend_set="upper_body_aim"/><!-- TEMP -->
+		<anim name="crh_reload_m4_uzi" file="anims/shared/rifle/combat/cbt_crh_reload_uzi" blend_set="upper_body_aim"/>
+
+		<anim name="crh_reload_shell_loop_enter" file="anims/shared/rifle/combat/cbt_crh_shell_reload_enter" blend_set="upper_body_aim" />
+		<anim name="crh_reload_shell_loop" file="anims/shared/rifle/combat/cbt_crh_shell_reload_loop" blend_set="upper_body_aim" />
+		<anim name="crh_reload_shell_loop_exit" file="anims/shared/rifle/combat/cbt_crh_shell_reload_exit" blend_set="upper_body_aim" />
+
+		<anim name="sup_reload_m4" file="anims/shared/rifle/combat/cbt_sup_reload" blend_set="upper_body_aim"/>
+		<anim name="sup_reload_shotgun" file="anims/shared/rifle/combat/cbt_sup_shotgun_reload" blend_set="upper_body_aim"/>
+		<anim name="sup_reload_mp5" file="anims/shared/rifle/combat/cbt_sup_reload" blend_set="upper_body_aim"/><!-- TEMP -->
+	
+	<!-- Dodge -->
+	<anim name="cbt_rifle_dodge_side_step_fwd" file="anims/shared/rifle/combat/cbt_std_dodge_fwd" blend_set="all"/>
+	<anim name="cbt_rifle_dodge_cbt_side_step_bwd" file="anims/shared/rifle/combat/cbt_std_dodge_bwd" blend_set="all"/>
+	<anim name="cbt_rifle_dodge_cbt_side_step_l" file="anims/shared/rifle/combat/cbt_std_dodge_left" blend_set="all"/>
+	<anim name="cbt_rifle_dodge_cbt_side_step_r" file="anims/shared/rifle/combat/cbt_std_dodge_right" blend_set="all"/>
+	
+	<!-- Interaction -->
+	<anim name="cbt_std_interact_enter_rifle" file="anims/shared/rifle/combat/cbt_std_interact_enter" blend_set="upper_body_aim"/>
+	<anim name="cbt_std_interact_loop_rifle" file="anims/shared/rifle/combat/cbt_std_interact_loop" blend_set="upper_body_aim"/>
+	<anim name="cbt_std_interact_exit_rifle" file="anims/shared/rifle/combat/cbt_std_interact_exit" blend_set="upper_body_aim"/>
+	<anim name="cbt_crh_interact_enter_rifle" file="anims/shared/rifle/combat/cbt_crh_interact_enter" blend_set="upper_body_aim"/>
+	<anim name="cbt_crh_interact_loop_rifle" file="anims/shared/rifle/combat/cbt_crh_interact_loop" blend_set="upper_body_aim"/>
+	<anim name="cbt_crh_interact_exit_rifle" file="anims/shared/rifle/combat/cbt_crh_interact_exit" blend_set="upper_body_aim"/>
+
+	<anim name="cbt_std_revive_enter_rifle" file="anims/shared/rifle/combat/cbt_std_rifle_revive_enter" blend_set="upper_body_aim"/>
+	<anim name="cbt_std_revive_loop_rifle" file="anims/shared/rifle/combat/cbt_std_rifle_revive_loop" blend_set="upper_body_aim"/>
+	<anim name="cbt_std_revive_exit_rifle" file="anims/shared/rifle/combat/cbt_std_rifle_revive_exit" blend_set="upper_body_aim"/>
+	<anim name="cbt_crh_revive_enter_rifle" file="anims/shared/rifle/combat/cbt_crh_rifle_revive_enter" blend_set="upper_body_aim"/>
+	<anim name="cbt_crh_revive_loop_rifle" file="anims/shared/rifle/combat/cbt_crh_rifle_revive_loop" blend_set="upper_body_aim"/>
+	<anim name="cbt_crh_revive_exit_rifle" file="anims/shared/rifle/combat/cbt_crh_rifle_revive_exit" blend_set="upper_body_aim"/>
+
+</xml>
+

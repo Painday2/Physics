@@ -28,6 +28,8 @@
 		</outro_event>
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="packages/escape_park"/>
+			<value_node value="packages/narr_framing_1"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

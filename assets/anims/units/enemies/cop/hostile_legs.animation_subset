@@ -1,0 +1,136 @@
+<xml>
+	<!-- Stand -->
+	
+		<!-- Still -->
+	
+			<!-- Idle -->
+			<anim name="hos_legs_idle" file="anims/shared/rifle/hostile/hos_std_idle" blend_set="legs"/>
+			
+			<!-- Suppressed -->
+			<anim name="hos_legs_sup_idle" file="anims/shared/rifle/hostile/hos_sup_idle" blend_set="legs"/>
+			
+			<!-- Transition -->
+			<anim name="hos_legs_std_to_crh" file="anims/shared/rifle/hostile/hos_std_to_crh" blend_set="legs"/>
+			<anim name="hos_legs_crh_to_std" file="anims/shared/rifle/hostile/hos_crh_to_std" blend_set="legs"/>
+		
+			<!-- Turn -->
+			<anim name="hos_legs_turn_l_45" file="anims/shared/rifle/hostile/hos_std_turn_l45" blend_set="legs_and_root"/>
+			<anim name="hos_legs_turn_l_90" file="anims/shared/rifle/hostile/hos_std_turn_l90" blend_set="legs_and_root"/>
+			<anim name="hos_legs_turn_l_135" file="anims/shared/rifle/hostile/hos_std_turn_l135" blend_set="legs_and_root"/>
+			<anim name="hos_legs_turn_r_45" file="anims/shared/rifle/hostile/hos_std_turn_r45" blend_set="legs_and_root"/>
+			<anim name="hos_legs_turn_r_90" file="anims/shared/rifle/hostile/hos_std_turn_r90" blend_set="legs_and_root"/>
+			<anim name="hos_legs_turn_r_135" file="anims/shared/rifle/hostile/hos_std_turn_r135" blend_set="legs_and_root"/>
+			
+		<!-- Walk -->
+		<anim name="hos_legs_walk_fwd" file="anims/shared/rifle/hostile/hos_std_walk_fwd_fast" blend_set="legs"/>
+		<anim name="hos_legs_walk_bwd" file="anims/shared/rifle/hostile/hos_std_walk_bwd" blend_set="legs"/>
+		<anim name="hos_legs_walk_l" file="anims/shared/rifle/hostile/hos_std_walk_l" blend_set="legs"/>
+		<anim name="hos_legs_walk_r" file="anims/shared/rifle/hostile/hos_std_walk_r" blend_set="legs"/>
+		
+		<!-- Run -->
+		<anim name="hos_legs_run_fwd" file="anims/shared/rifle/hostile/hos_std_run_fwd" blend_set="legs"/>
+		<anim name="hos_legs_run_bwd" file="anims/shared/rifle/hostile/hos_std_run_bwd" blend_set="legs"/>
+		<anim name="hos_legs_run_l" file="anims/shared/rifle/hostile/hos_std_run_l" blend_set="legs"/>
+		<anim name="hos_legs_run_r" file="anims/shared/rifle/hostile/hos_std_run_r" blend_set="legs"/>
+		
+			<!-- Start -->
+			<anim name="hos_legs_run_start_fwd" file="anims/shared/rifle/hostile/hos_std_idle_to_hos_std_run_fwd" blend_set="legs_and_root"/>
+			<anim name="hos_legs_run_start_bwd" file="anims/shared/rifle/hostile/hos_std_idle_to_hos_std_run_bwd" blend_set="legs_and_root"/>
+			<anim name="hos_legs_run_start_l" file="anims/shared/rifle/hostile/hos_std_idle_to_hos_std_l_run" blend_set="legs_and_root"/>
+			<anim name="hos_legs_run_start_r" file="anims/shared/rifle/hostile/hos_std_idle_to_hos_std_r_run" blend_set="legs_and_root"/>
+			
+			<!-- Start Turn -->
+			<anim name="hos_legs_run_start_turn_bwd" file="anims/shared/rifle/hostile/hos_std_idle_to_turn_180_hos_std_run_fwd" blend_set="legs_and_root"/>
+			<anim name="hos_legs_run_start_turn_l" file="anims/shared/rifle/hostile/hos_std_idle_to_turn_l_hos_std_run_fwd" blend_set="legs_and_root"/>
+			<anim name="hos_legs_run_start_turn_r" file="anims/shared/rifle/hostile/hos_std_idle_to_turn_r_hos_std_run_fwd" blend_set="legs_and_root"/>
+			
+			<!-- Stop Run -->
+			<anim name="hos_legs_run_stop_fwd" file="anims/shared/rifle/hostile/hos_std_run_fwd_to_hos_std_idle" blend_set="legs"/>
+			<anim name="hos_legs_run_stop_bwd" file="anims/shared/rifle/hostile/hos_std_run_fwd_to_hos_std_idle" blend_set="legs"/>
+			<anim name="hos_legs_run_stop_l" file="anims/shared/rifle/hostile/hos_std_run_fwd_to_hos_std_idle" blend_set="legs"/>
+			<anim name="hos_legs_run_stop_r" file="anims/shared/rifle/hostile/hos_std_run_fwd_to_hos_std_idle" blend_set="legs"/>
+		
+		<!-- Sprint -->
+		<anim name="hos_legs_sprint_fwd" file="anims/shared/rifle/hostile/sprint_fwd" blend_set="legs"/>
+		<anim name="hos_legs_sprint_bwd" file="anims/shared/rifle/hostile/sprint_bwd" blend_set="legs"/>
+		<anim name="hos_legs_sprint_l" file="anims/shared/rifle/hostile/sprint_left" blend_set="legs"/>
+		<anim name="hos_legs_sprint_r" file="anims/shared/rifle/hostile/sprint_right" blend_set="legs"/>
+		
+		
+	<!-- Crouch -->
+	
+		<!-- Still -->
+	
+			<!-- Idle -->
+			<anim name="hos_legs_crh_idle" file="anims/shared/rifle/hostile/hos_crh_idle" blend_set="legs"/>
+		
+			<!-- Turn -->
+			<anim name="hos_legs_crh_turn_l_45" file="anims/shared/rifle/hostile/hos_crh_turn_l45" blend_set="legs_and_root"/>
+			<anim name="hos_legs_crh_turn_l_90" file="anims/shared/rifle/hostile/hos_crh_turn_l90" blend_set="legs_and_root"/>
+			<anim name="hos_legs_crh_turn_l_135" file="anims/shared/rifle/hostile/hos_crh_turn_l135" blend_set="legs_and_root"/>
+			<anim name="hos_legs_crh_turn_r_45" file="anims/shared/rifle/hostile/hos_crh_turn_r45" blend_set="legs_and_root"/>
+			<anim name="hos_legs_crh_turn_r_90" file="anims/shared/rifle/hostile/hos_crh_turn_r90" blend_set="legs_and_root"/>
+			<anim name="hos_legs_crh_turn_r_135" file="anims/shared/rifle/hostile/hos_crh_turn_r135" blend_set="legs_and_root"/>
+			
+				<!-- Turn Suppressed -->
+				<anim name="hos_legs_sup_turn_l_45" file="anims/shared/rifle/hostile/hos_sup_turn_l45" blend_set="legs_and_root"/>
+				<anim name="hos_legs_sup_turn_l_90" file="anims/shared/rifle/hostile/hos_sup_turn_l90" blend_set="legs_and_root"/>
+				<anim name="hos_legs_sup_turn_l_135" file="anims/shared/rifle/hostile/hos_sup_turn_l135" blend_set="legs_and_root"/>
+				<anim name="hos_legs_sup_turn_r_45" file="anims/shared/rifle/hostile/hos_sup_turn_r45" blend_set="legs_and_root"/>
+				<anim name="hos_legs_sup_turn_r_90" file="anims/shared/rifle/hostile/hos_sup_turn_r90" blend_set="legs_and_root"/>
+				<anim name="hos_legs_sup_turn_r_135" file="anims/shared/rifle/hostile/hos_sup_turn_r135" blend_set="legs_and_root"/>
+			
+		<!-- Walk -->
+		<anim name="hos_legs_crh_walk_fwd" file="anims/shared/rifle/hostile/hos_crh_walk_fwd" blend_set="legs"/>
+		<anim name="hos_legs_crh_walk_bwd" file="anims/shared/rifle/hostile/hos_crh_walk_bwd" blend_set="legs"/>
+		<anim name="hos_legs_crh_walk_l" file="anims/shared/rifle/hostile/hos_crh_walk_l" blend_set="legs"/>
+		<anim name="hos_legs_crh_walk_r" file="anims/shared/rifle/hostile/hos_crh_walk_r" blend_set="legs"/>
+			
+			<!-- Walk Suppressed-->
+			<anim name="hos_legs_sup_walk_fwd" file="anims/shared/rifle/hostile/hos_sup_walk_fwd" blend_set="legs"/>
+			<anim name="hos_legs_sup_walk_l" file="anims/shared/rifle/hostile/hos_sup_walk_l" blend_set="legs"/>
+			<anim name="hos_legs_sup_walk_r" file="anims/shared/rifle/hostile/hos_sup_walk_r" blend_set="legs"/>
+			<anim name="hos_legs_sup_walk_bwd" file="anims/shared/rifle/hostile/hos_sup_walk_bwd" blend_set="legs"/>
+			
+		<!-- Run -->
+		<anim name="hos_legs_crh_run_fwd" file="anims/shared/rifle/hostile/hos_crh_run_fwd" blend_set="legs"/>
+		<anim name="hos_legs_crh_run_bwd" file="anims/shared/rifle/hostile/hos_crh_run_bwd" blend_set="legs"/>
+		<anim name="hos_legs_crh_run_l" file="anims/shared/rifle/hostile/hos_crh_run_l" blend_set="legs"/>
+		<anim name="hos_legs_crh_run_r" file="anims/shared/rifle/hostile/hos_crh_run_r" blend_set="legs"/>
+		
+			<!-- Run Suppressed-->
+			<anim name="hos_legs_sup_run_fwd" file="anims/shared/rifle/hostile/hos_sup_run_fwd" blend_set="legs"/>
+			<anim name="hos_legs_sup_run_l" file="anims/shared/rifle/hostile/hos_sup_run_l" blend_set="legs"/>
+			<anim name="hos_legs_sup_run_r" file="anims/shared/rifle/hostile/hos_sup_run_r" blend_set="legs"/>
+			<anim name="hos_legs_sup_run_bwd" file="anims/shared/rifle/hostile/hos_sup_run_bwd" blend_set="legs"/>
+			
+			<!-- Start -->
+			<anim name="hos_legs_crh_run_start_fwd" file="anims/shared/rifle/hostile/hos_crh_idle_to_hos_crh_run_fwd" blend_set="legs_and_root"/>
+			<anim name="hos_legs_crh_run_start_bwd" file="anims/shared/rifle/hostile/hos_crh_idle_to_hos_crh_run_bwd" blend_set="legs_and_root"/>
+			<anim name="hos_legs_crh_run_start_l" file="anims/shared/rifle/hostile/hos_crh_idle_to_hos_crh_run_l" blend_set="legs_and_root"/>
+			<anim name="hos_legs_crh_run_start_r" file="anims/shared/rifle/hostile/hos_crh_idle_to_hos_crh_run_r" blend_set="legs_and_root"/>
+				
+				<!-- Start Suppressed -->
+				<anim name="hos_legs_sup_run_start_fwd" file="anims/shared/rifle/hostile/hos_sup_idle_to_hos_sup_run_fwd" blend_set="legs_and_root"/>
+				<anim name="hos_legs_sup_run_start_bwd" file="anims/shared/rifle/hostile/hos_sup_idle_to_hos_sup_run_bwd" blend_set="legs_and_root"/>
+				<anim name="hos_legs_sup_run_start_l" file="anims/shared/rifle/hostile/hos_sup_idle_to_hos_sup_run_l" blend_set="legs_and_root"/>
+				<anim name="hos_legs_sup_run_start_r" file="anims/shared/rifle/hostile/hos_sup_idle_to_hos_sup_run_r" blend_set="legs_and_root"/>
+			
+			<!-- Start Turn -->
+			<anim name="hos_legs_crh_run_start_turn_bwd" file="anims/shared/rifle/hostile/hos_crh_idle_to_turn_180_hos_crh_run_fwd" blend_set="legs_and_root"/>
+			<anim name="hos_legs_crh_run_start_turn_l" file="anims/shared/rifle/hostile/hos_crh_idle_to_turn_l_hos_crh_run_fwd" blend_set="legs_and_root"/>
+			<anim name="hos_legs_crh_run_start_turn_r" file="anims/shared/rifle/hostile/hos_crh_idle_to_turn_r_hos_crh_run_fwd" blend_set="legs_and_root"/>
+			
+			<!-- Stop Run -->
+			<anim name="hos_legs_crh_run_stop_fwd" file="anims/shared/rifle/hostile/hos_crh_run_fwd_to_hos_crh_idle" blend_set="legs"/>
+			<anim name="hos_legs_crh_run_stop_bwd" file="anims/shared/rifle/hostile/hos_crh_run_bwd_to_hos_crh_idle" blend_set="legs"/>
+			<anim name="hos_legs_crh_run_stop_l" file="anims/shared/rifle/hostile/hos_crh_run_l_to_hos_crh_idle" blend_set="legs"/>
+			<anim name="hos_legs_crh_run_stop_r" file="anims/shared/rifle/hostile/hos_crh_run_r_to_hos_crh_idle" blend_set="legs"/>
+				
+				<!-- Stop Run Suppressed -->
+				<anim name="hos_legs_sup_run_stop_fwd" file="anims/shared/rifle/hostile/hos_sup_run_fwd_to_hos_sup_idle" blend_set="legs"/>
+				<anim name="hos_legs_sup_run_stop_bwd" file="anims/shared/rifle/hostile/hos_sup_run_bwd_to_hos_sup_idle" blend_set="legs"/>
+				<anim name="hos_legs_sup_run_stop_l" file="anims/shared/rifle/hostile/hos_sup_run_l_to_hos_sup_idle" blend_set="legs"/>
+				<anim name="hos_legs_sup_run_stop_r" file="anims/shared/rifle/hostile/hos_sup_run_r_to_hos_sup_idle" blend_set="legs"/>
+	
+</xml>

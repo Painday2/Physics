@@ -1,0 +1,41 @@
+<materials version="3" group="civ_female_casual_1">
+	<material name="mtr_civ_female_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_1_head_nm"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_1_head_df"/>
+	</material>
+	<material name="mtr_civ_female_casual" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_1_nm"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_1_df"/>
+	</material>
+	<material name="mtr_civ_female_hair" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_1_hair_nm"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_1_hair_df"/>
+	</material>
+    
+	<material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+
+	<material name="mtr_civ_female_head_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_1_head_nm" mip="1"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_1_head_df" mip="1"/>
+	</material>
+	<material name="mtr_civ_female_head_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_1_head_nm" mip="4"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_1_head_df" mip="4"/>
+	</material>
+	<material name="mtr_civ_female_casual_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_1_nm" mip="1"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_1_df" mip="1"/>
+	</material>
+	<material name="mtr_civ_female_casual_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_1_nm" mip="4"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_1_df" mip="4"/>
+	</material>
+	<material name="mtr_civ_female_hair_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_1_hair_nm" mip="1"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_1_hair_df" mip="1"/>
+	</material>
+	<material name="mtr_civ_female_hair_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture file="units/payday2/characters/shared_textures/civ_female_1_hair_nm" mip="4"/>
+		<diffuse_texture file="units/payday2/characters/shared_textures/civ_female_1_hair_df" mip="4"/>
+	</material>
+</materials>

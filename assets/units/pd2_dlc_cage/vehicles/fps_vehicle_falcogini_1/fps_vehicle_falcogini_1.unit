@@ -1,0 +1,61 @@
+<unit type="vhc" slot="39" >
+	<object file="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" />
+	<network sync="bodies" />
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" />
+		<depends_on effect="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" />
+		<depends_on bnk="soundbanks/regular_car_sfx" />
+		<depends_on bnk="soundbanks/car_falcogini" />
+		<depends_on bnk="soundbanks/regular_car_sfx" />
+		<depends_on unit="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" />
+	</dependencies>
+	<extensions>
+		<extension class="ScriptUnitData" name="unit_data" />
+		<extension name="sync_unit_data" class="SyncUnitData" />
+		<extension name="network" class="NetworkBaseExtension" />
+		<extension class="UnitDamage" name="damage" />
+		<extension name="interaction" class="DrivingInteractionExt">
+			<var name="tweak_data" value="driving_drive" />
+			<var name="_interact_object" value="anim_body"/>
+			<var name="_ray_object_names" type="table" >
+				<var value="interact_driver"/>
+				<var value="interact_passenger_front"/>
+				<var value="passenger_front"/>
+				<var value="passenger_back_left"/>
+				<var value="passenger_back_right"/>
+				<var value="loot_left"/>
+				<var value="loot_right"/>
+				<var value="interact_loot"/>
+			</var>
+		</extension>
+        <extension name="character_damage" class="VehicleDamage" />
+		<extension name="carry_data" class="CarryData">
+			<var name="_carry_id" value="vehicle_falcogini" />
+		</extension>
+		<extension name="attention" class="AIAttentionObject">
+			<var name="_attention_obj_name" value="attention" />
+		</extension>
+ 		<extension class="VehicleDrivingExt" name="vehicle_driving" >
+<!--
+				Dino: Not used for now, this parameter has no effect - for future use
+				Inertia modifier determines feel of drive on bumps and curves
+				Reasonable vaules are from 0.5 - 20
+				0.5 - Tractor with really bad seating
+				20  - Ferrari
+-->			
+			<var name="inertia_modifier" value="20.0"/>
+			<var name="tweak_data" value="falcogini"/>
+ 
+ 		</extension>
+		<extension name="camera" class="VehicleCamera" >
+			<var name="_camera_object_names" type="table" >
+				<var value="a_front_camera_1"/>
+			</var>
+ 			<var name="_back_camera_object_name" value="a_back_camera_1"/>
+		</extension>	
+	</extensions>
+	<sounds>
+		<default_soundsource source="snd_engine"/>
+		<soundsource name="engine" source="snd_engine" />
+	</sounds>
+</unit>

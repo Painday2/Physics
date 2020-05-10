@@ -1,0 +1,159 @@
+<xml>
+	<!-- Stand -->
+	
+		<!-- Still -->
+	
+			<!-- Idle -->
+			<anim name="cbt_legs_idle" file="anims/shared/rifle/combat/cbt_std_idle" blend_set="legs"/>
+			<anim name="tank_legs_idle" file="anims/shared/boss/tank/cbt_std_idle" blend_set="legs"/>
+			
+			<!-- Transition -->
+			<anim name="cbt_legs_std_to_crh" file="anims/shared/rifle/combat/cbt_std_to_crh" blend_set="legs"/>
+			<anim name="cbt_legs_crh_to_std" file="anims/shared/rifle/combat/cbt_crh_to_std" blend_set="legs"/>
+					
+			<!-- Turn -->
+			<anim name="cbt_legs_turn_l_45" file="anims/shared/rifle/combat/cbt_std_turn_l45" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_turn_l_90" file="anims/shared/rifle/combat/cbt_std_turn_l90" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_turn_l_135" file="anims/shared/rifle/combat/cbt_std_turn_l135" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_turn_r_45" file="anims/shared/rifle/combat/cbt_std_turn_r45" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_turn_r_90" file="anims/shared/rifle/combat/cbt_std_turn_r90" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_turn_r_135" file="anims/shared/rifle/combat/cbt_std_turn_r135" blend_set="legs_and_root"/>
+			
+			<anim name="tank_legs_turn_l_45" file="anims/shared/boss/tank/cbt_std_turn_l45" blend_set="legs_and_root"/>
+			<anim name="tank_legs_turn_l_90" file="anims/shared/boss/tank/cbt_std_turn_l90" blend_set="legs_and_root"/>
+			<anim name="tank_legs_turn_l_135" file="anims/shared/boss/tank/cbt_std_turn_l135" blend_set="legs_and_root"/>
+			<anim name="tank_legs_turn_r_45" file="anims/shared/boss/tank/cbt_std_turn_r45" blend_set="legs_and_root"/>
+			<anim name="tank_legs_turn_r_90" file="anims/shared/boss/tank/cbt_std_turn_r90" blend_set="legs_and_root"/>
+			<anim name="tank_legs_turn_r_135" file="anims/shared/boss/tank/cbt_std_turn_r135" blend_set="legs_and_root"/>
+			
+		<!-- Walk -->
+		<anim name="cbt_legs_walk_fwd" file="anims/shared/rifle/combat/cbt_std_walk_fwd_fast" blend_set="legs"/>
+		<anim name="cbt_legs_walk_bwd" file="anims/shared/rifle/combat/cbt_std_walk_bwd" blend_set="legs"/>
+		<anim name="cbt_legs_walk_l" file="anims/shared/rifle/combat/cbt_std_walk_l" blend_set="legs"/>
+		<anim name="cbt_legs_walk_r" file="anims/shared/rifle/combat/cbt_std_walk_r" blend_set="legs"/>
+		
+		<anim name="tank_legs_walk_fwd_slow" file="anims/shared/boss/tank/cbt_std_walk_fwd_slow" blend_set="legs"/>
+		<anim name="tank_legs_walk_bwd" file="anims/shared/boss/tank/cbt_std_walk_bwd" blend_set="legs"/>
+		<anim name="tank_legs_walk_l" file="anims/shared/boss/tank/cbt_std_walk_l" blend_set="legs"/>
+		<anim name="tank_legs_walk_r" file="anims/shared/boss/tank/cbt_std_walk_r" blend_set="legs"/>
+		
+		<!-- Run -->
+		<anim name="cbt_legs_run_fwd" file="anims/shared/rifle/combat/cbt_std_run_fwd" blend_set="legs"/>
+		<anim name="cbt_legs_run_bwd" file="anims/shared/rifle/combat/cbt_std_run_bwd" blend_set="legs"/>
+		<anim name="cbt_legs_run_l" file="anims/shared/rifle/combat/cbt_std_run_l" blend_set="legs"/>
+		<anim name="cbt_legs_run_r" file="anims/shared/rifle/combat/cbt_std_run_r" blend_set="legs"/>
+		
+		<anim name="tank_legs_run_fwd" file="anims/shared/boss/tank/cbt_std_run_fwd" blend_set="legs"/>
+		<anim name="tank_legs_run_bwd" file="anims/shared/boss/tank/cbt_std_run_bwd" blend_set="legs"/>
+		<anim name="tank_legs_run_l" file="anims/shared/boss/tank/cbt_std_run_l" blend_set="legs"/>
+		<anim name="tank_legs_run_r" file="anims/shared/boss/tank/cbt_std_run_r" blend_set="legs"/>
+		
+			<!-- Start -->
+			<anim name="cbt_legs_run_start_fwd" file="anims/shared/rifle/combat/cbt_std_idle_to_cbt_std_run_fwd" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_run_start_bwd" file="anims/shared/rifle/combat/cbt_std_idle_to_cbt_std_run_bwd" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_run_start_l" file="anims/shared/rifle/combat/cbt_std_idle_to_cbt_std_l_run" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_run_start_r" file="anims/shared/rifle/combat/cbt_std_idle_to_cbt_std_r_run" blend_set="legs_and_root"/>
+			
+			<!-- Start Turn -->
+			<anim name="cbt_legs_run_start_turn_bwd" file="anims/shared/rifle/combat/cbt_std_idle_to_turn_180_cbt_std_run_fwd" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_run_start_turn_l" file="anims/shared/rifle/combat/cbt_std_idle_to_turn_l_cbt_std_run_fwd" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_run_start_turn_r" file="anims/shared/rifle/combat/cbt_std_idle_to_turn_r_cbt_std_run_fwd" blend_set="legs_and_root"/>
+			
+			<!-- Stop Run -->
+			<anim name="cbt_legs_run_stop_fwd" file="anims/shared/rifle/combat/cbt_std_run_fwd_to_cbt_std_idle" blend_set="legs"/>
+			<anim name="cbt_legs_run_stop_bwd" file="anims/shared/rifle/combat/cbt_std_run_bwd_to_cbt_std_idle" blend_set="legs"/>
+			<anim name="cbt_legs_run_stop_l" file="anims/shared/rifle/combat/cbt_std_run_l_to_cbt_std_idle" blend_set="legs"/>
+			<anim name="cbt_legs_run_stop_r" file="anims/shared/rifle/combat/cbt_std_run_r_to_cbt_std_idle" blend_set="legs"/>
+			
+	<!-- Crouch -->
+	
+		<!-- Still -->
+	
+			<!-- Idle -->
+			<anim name="cbt_legs_crh_idle" file="anims/shared/rifle/combat/cbt_crh_idle" blend_set="legs"/>
+			
+			<!-- Suppressed -->
+			<anim name="cbt_legs_sup_idle" file="anims/shared/rifle/combat/cbt_sup_idle" blend_set="legs"/>
+			
+			<!-- Turn -->
+			<anim name="cbt_legs_crh_turn_l_45" file="anims/shared/rifle/combat/cbt_crh_turn_l45" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_crh_turn_l_90" file="anims/shared/rifle/combat/cbt_crh_turn_l90" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_crh_turn_l_135" file="anims/shared/rifle/combat/cbt_crh_turn_l135" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_crh_turn_r_45" file="anims/shared/rifle/combat/cbt_crh_turn_r45" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_crh_turn_r_90" file="anims/shared/rifle/combat/cbt_crh_turn_r90" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_crh_turn_r_135" file="anims/shared/rifle/combat/cbt_crh_turn_r135" blend_set="legs_and_root"/>
+			
+				<!-- Turn Suppressed -->
+				<anim name="cbt_legs_sup_turn_l_45" file="anims/shared/rifle/combat/cbt_sup_turn_l45" blend_set="legs_and_root"/>
+				<anim name="cbt_legs_sup_turn_l_90" file="anims/shared/rifle/combat/cbt_sup_turn_l90" blend_set="legs_and_root"/>
+				<anim name="cbt_legs_sup_turn_l_135" file="anims/shared/rifle/combat/cbt_sup_turn_l135" blend_set="legs_and_root"/>
+				<anim name="cbt_legs_sup_turn_r_45" file="anims/shared/rifle/combat/cbt_sup_turn_r45" blend_set="legs_and_root"/>
+				<anim name="cbt_legs_sup_turn_r_90" file="anims/shared/rifle/combat/cbt_sup_turn_r90" blend_set="legs_and_root"/>
+				<anim name="cbt_legs_sup_turn_r_135" file="anims/shared/rifle/combat/cbt_sup_turn_r135" blend_set="legs_and_root"/>
+				
+		<!-- Walk -->
+		<anim name="cbt_legs_crh_walk_fwd" file="anims/shared/rifle/combat/cbt_crh_walk_fwd" blend_set="legs"/>
+		<anim name="cbt_legs_crh_walk_bwd" file="anims/shared/rifle/combat/cbt_crh_walk_bwd" blend_set="legs"/>
+		<anim name="cbt_legs_crh_walk_l" file="anims/shared/rifle/combat/cbt_crh_walk_l" blend_set="legs"/>
+		<anim name="cbt_legs_crh_walk_r" file="anims/shared/rifle/combat/cbt_crh_walk_r" blend_set="legs"/>
+		
+			<!-- Walk Suppressed-->
+			<anim name="cbt_legs_sup_walk_fwd" file="anims/shared/rifle/combat/cbt_sup_walk_fwd" blend_set="legs"/>
+			<anim name="cbt_legs_sup_walk_l" file="anims/shared/rifle/combat/cbt_sup_walk_l" blend_set="legs"/>
+			<anim name="cbt_legs_sup_walk_r" file="anims/shared/rifle/combat/cbt_sup_walk_r" blend_set="legs"/>
+			<anim name="cbt_legs_sup_walk_bwd" file="anims/shared/rifle/combat/cbt_sup_walk_bwd" blend_set="legs"/>
+			
+		<!-- Run -->
+		<anim name="cbt_legs_crh_run_fwd" file="anims/shared/rifle/combat/cbt_crh_run_fwd" blend_set="legs"/>
+		<anim name="cbt_legs_crh_run_bwd" file="anims/shared/rifle/combat/cbt_crh_run_bwd" blend_set="legs"/>
+		<anim name="cbt_legs_crh_run_l" file="anims/shared/rifle/combat/cbt_crh_run_l" blend_set="legs"/>
+		<anim name="cbt_legs_crh_run_r" file="anims/shared/rifle/combat/cbt_crh_run_r" blend_set="legs"/>
+		
+			<!-- Run Suppressed-->
+			<anim name="cbt_legs_sup_run_fwd" file="anims/shared/rifle/combat/cbt_sup_run_fwd" blend_set="legs"/>
+			<anim name="cbt_legs_sup_run_l" file="anims/shared/rifle/combat/cbt_sup_run_l" blend_set="legs"/>
+			<anim name="cbt_legs_sup_run_r" file="anims/shared/rifle/combat/cbt_sup_run_r" blend_set="legs"/>
+			<anim name="cbt_legs_sup_run_bwd" file="anims/shared/rifle/combat/cbt_sup_run_bwd" blend_set="legs"/>
+			
+			<!-- Start -->
+			<anim name="cbt_legs_crh_run_start_fwd" file="anims/shared/rifle/combat/cbt_crh_idle_to_cbt_crh_run_fwd" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_crh_run_start_bwd" file="anims/shared/rifle/combat/cbt_crh_idle_to_cbt_crh_run_bwd" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_crh_run_start_l" file="anims/shared/rifle/combat/cbt_crh_idle_to_cbt_crh_run_l" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_crh_run_start_r" file="anims/shared/rifle/combat/cbt_crh_idle_to_cbt_crh_run_r" blend_set="legs_and_root"/>
+			
+				<!-- Start Suppressed -->
+				<anim name="cbt_legs_sup_run_start_fwd" file="anims/shared/rifle/combat/cbt_sup_idle_to_cbt_sup_run_fwd" blend_set="legs_and_root"/>
+				<anim name="cbt_legs_sup_run_start_bwd" file="anims/shared/rifle/combat/cbt_sup_idle_to_cbt_sup_run_bwd" blend_set="legs_and_root"/>
+				<anim name="cbt_legs_sup_run_start_l" file="anims/shared/rifle/combat/cbt_sup_idle_to_cbt_sup_run_l" blend_set="legs_and_root"/>
+				<anim name="cbt_legs_sup_run_start_r" file="anims/shared/rifle/combat/cbt_sup_idle_to_cbt_sup_run_r" blend_set="legs_and_root"/>
+				
+			<!-- Start Turn -->
+			<anim name="cbt_legs_crh_run_start_turn_bwd" file="anims/shared/rifle/combat/cbt_crh_idle_to_turn_180_cbt_crh_run_fwd" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_crh_run_start_turn_l" file="anims/shared/rifle/combat/cbt_crh_idle_to_turn_l_cbt_crh_run_fwd" blend_set="legs_and_root"/>
+			<anim name="cbt_legs_crh_run_start_turn_r" file="anims/shared/rifle/combat/cbt_crh_idle_to_turn_r_cbt_crh_run_fwd" blend_set="legs_and_root"/>
+			
+			<!-- Stop Run -->
+			<anim name="cbt_legs_crh_run_stop_fwd" file="anims/shared/rifle/combat/cbt_crh_run_fwd_to_cbt_crh_idle" blend_set="legs"/>
+			<anim name="cbt_legs_crh_run_stop_bwd" file="anims/shared/rifle/combat/cbt_crh_run_bwd_to_cbt_crh_idle" blend_set="legs"/>
+			<anim name="cbt_legs_crh_run_stop_l" file="anims/shared/rifle/combat/cbt_crh_run_l_to_cbt_crh_idle" blend_set="legs"/>
+			<anim name="cbt_legs_crh_run_stop_r" file="anims/shared/rifle/combat/cbt_crh_run_r_to_cbt_crh_idle" blend_set="legs"/>
+			
+				<!-- Stop Run Suppressed -->
+				<anim name="cbt_legs_sup_run_stop_fwd" file="anims/shared/rifle/combat/cbt_sup_run_fwd_to_cbt_sup_idle" blend_set="legs"/>
+				<anim name="cbt_legs_sup_run_stop_bwd" file="anims/shared/rifle/combat/cbt_sup_run_bwd_to_cbt_sup_idle" blend_set="legs"/>
+				<anim name="cbt_legs_sup_run_stop_l" file="anims/shared/rifle/combat/cbt_sup_run_l_to_cbt_sup_idle" blend_set="legs"/>
+				<anim name="cbt_legs_sup_run_stop_r" file="anims/shared/rifle/combat/cbt_sup_run_r_to_cbt_sup_idle" blend_set="legs"/>
+				
+	<!-- Jump -->
+	<anim name="cbt_legs_jump_up_enter" file="anims/shared/rifle/combat/cbt_std_jump_up_enter" blend_set="legs"/>
+	<anim name="cbt_legs_jump_up_loop" file="anims/shared/rifle/combat/cbt_std_jump_up_loop" blend_set="legs"/>
+	<anim name="cbt_legs_jump_up_land" file="anims/shared/rifle/combat/cbt_std_jump_up_land" blend_set="legs"/>
+	<anim name="cbt_legs_jump_fwd_enter" file="anims/shared/rifle/combat/cbt_std_jump_fwd_enter" blend_set="legs"/>
+	<anim name="cbt_legs_jump_fwd_loop" file="anims/shared/rifle/combat/cbt_std_jump_fwd_loop" blend_set="legs"/>
+	<anim name="cbt_legs_jump_fwd_land" file="anims/shared/rifle/combat/cbt_std_jump_fwd_land" blend_set="legs"/>
+
+	<anim name="cbt_legs_jump_bwd_land" file="anims/shared/rifle/combat/cbt_std_jump_fwd_land" blend_set="legs"/>
+	<anim name="cbt_legs_jump_l_land" file="anims/shared/rifle/combat/cbt_std_jump_fwd_land" blend_set="legs"/>
+	<anim name="cbt_legs_jump_r_land" file="anims/shared/rifle/combat/cbt_std_jump_fwd_land" blend_set="legs"/>
+				
+</xml>

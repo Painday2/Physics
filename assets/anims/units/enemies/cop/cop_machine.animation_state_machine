@@ -1,0 +1,56 @@
+
+<state_machine name="cop" timebase="frames">
+	<segment name="base"/>
+	<segment name="upper_body"/>
+	<segment name="upper_body_ext"/>
+	
+	<global name="ntl" value="1"/>
+	<global name="hos" value="0"/>
+	<global name="cbt" value="0"/>
+	
+	<global name="wnd" value="0"/>
+	<global name="sup" value="0"/>
+	
+	<!-- Hold type -->
+	<global name="rifle" value="0"/>
+	<global name="bullpup" value="0"/>
+	<global name="pistol" value="0"/>
+	<global name="uzi" value="0"/>
+	<global name="akimbo_pistol" value="0"/>
+	<global name="bow" value="0"/>
+
+	<!-- Weapon usage -->
+	<global name="is_pistol" value="0"/>
+	<global name="is_revolver" value="0"/>
+	<global name="is_rifle" value="0"/>
+	<global name="is_bullpup" value="0"/>
+	<global name="is_lmg" value="0"/>
+	<global name="is_smg" value="0"/>
+	<global name="is_shotgun_pump" value="0"/>
+	<global name="is_shotgun_mag" value="0"/>
+	<global name="shield" value="0"/>
+	<global name="mini" value="0"/>
+	
+	<global name="is_npc" value="0"/>
+	<global name="cop" value="0"/>
+	<global name="tank" value="0"/>
+	
+	<global name="husk1" value="0"/>
+	<global name="husk2" value="0"/>
+	<global name="husk3" value="0"/>
+	<global name="husk4" value="0"/>
+	
+	<global name="female" value="0"/>
+	
+	<global name="cough" value="0"/>
+	<global name="ears" value="0"/>
+	<global name="puke" value="0"/>
+		
+	<global name="vr" value="0"/>
+
+	<default state="std/spawn/loop"/>
+	
+	<states file="anims/units/enemies/cop/std"/>
+	<states file="anims/units/enemies/cop/civilian"/>
+	
+</state_machine>

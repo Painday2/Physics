@@ -1,0 +1,1835 @@
+<xml>
+	
+	<!-- Surrender -->
+	<anim name="hands_up_enter" file="anims/shared/rifle/generic/gen_sup_lvl1_enter_var1" blend_set="all"/>
+	<anim name="hands_up_loop" file="anims/shared/rifle/generic/gen_sup_lvl1_idle_var1" blend_set="all"/>
+	
+	<anim name="hands_back_enter" file="anims/shared/rifle/generic/gen_sup_lvl2_enter_var1" blend_set="all"/>
+	<anim name="hands_back_loop" file="anims/shared/rifle/generic/gen_sup_lvl2_idle_var1" blend_set="all"/>
+	
+	<anim name="hands_tied_enter_v1" file="anims/shared/rifle/generic/gen_tied_enter_var1" blend_set="all"/>
+	<anim name="hands_tied_enter_all_in_one_from_stand" file="anims/shared/rifle/generic/gen_tied_all_in_one" blend_set="all"/>
+	<anim name="hands_tied_loop_v1" file="anims/shared/rifle/generic/gen_tied_idle_var1" blend_set="all"/>
+	
+	<anim name="attached_collar_enter" file="anims/shared/rifle/generic/possessed_cop" blend_set="all"/>
+	
+	<!-- HURT------------------------------------------------------>
+	
+	<!-- fwd -->
+	<anim name="rifle_hurt_fwd_1" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_fwd_var1" blend_set="all"/>
+	<anim name="rifle_hurt_fwd_2" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_fwd_var2" blend_set="all"/>
+	<anim name="rifle_hurt_fwd_3" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_fwd_var3" blend_set="all"/>
+	<anim name="rifle_hurt_fwd_4" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_fwd_var4" blend_set="all"/>
+	<anim name="rifle_hurt_fwd_5" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_fwd_var5" blend_set="all"/>
+	<anim name="rifle_hurt_fwd_6" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_fwd_var6" blend_set="all"/>
+	<anim name="rifle_hurt_fwd_7" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_fwd_var7" blend_set="all"/>
+	<anim name="rifle_hurt_fwd_8" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_fwd_var8" blend_set="all"/>
+	<anim name="rifle_hurt_fwd_9" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_fwd_var9" blend_set="all"/>
+	<anim name="rifle_hurt_fwd_10" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_fwd_var10" blend_set="all"/>
+	<anim name="rifle_hurt_fwd_11" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_fwd_var11" blend_set="all"/>
+	<anim name="rifle_hurt_fwd_12" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_fwd_var12" blend_set="all"/>
+	<anim name="rifle_hurt_fwd_13" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_fwd_var13" blend_set="all"/>
+	<!-- bwd -->
+	<anim name="rifle_hurt_bwd_1" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_bwd_var1" blend_set="all"/>
+	<anim name="rifle_hurt_bwd_2" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_bwd_var2" blend_set="all"/>
+	<anim name="rifle_hurt_bwd_3" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_bwd_var3" blend_set="all"/>
+	<anim name="rifle_hurt_bwd_4" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_bwd_var4" blend_set="all"/>
+	<anim name="rifle_hurt_bwd_5" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_bwd_var5" blend_set="all"/>
+	<!-- left -->
+	<anim name="rifle_hurt_l_1" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_left_var1" blend_set="all"/>
+	<anim name="rifle_hurt_l_2" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_left_var2" blend_set="all"/>
+	<anim name="rifle_hurt_l_3" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_left_var3" blend_set="all"/>
+	<anim name="rifle_hurt_l_4" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_left_var4" blend_set="all"/>
+	<anim name="rifle_hurt_l_5" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_left_var5" blend_set="all"/>
+	<!-- right -->
+	<anim name="rifle_hurt_r_1" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_right_var1" blend_set="all"/>
+	<anim name="rifle_hurt_r_2" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_right_var2" blend_set="all"/>
+	<anim name="rifle_hurt_r_3" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_right_var3" blend_set="all"/>
+	<anim name="rifle_hurt_r_4" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_right_var4" blend_set="all"/>
+	<anim name="rifle_hurt_r_5" file="anims/shared/rifle/generic/gen_hrt_range_upbdy_right_var5" blend_set="all"/>
+	<!-- fwd low -->
+	<anim name="rifle_hurt_low_fwd_1" file="anims/shared/rifle/generic/gen_hrt_range_lowbdy_fwd_var1" blend_set="all"/>
+	<anim name="rifle_hurt_low_fwd_2" file="anims/shared/rifle/generic/gen_hrt_range_lowbdy_fwd_var2" blend_set="all"/>
+	<anim name="rifle_hurt_low_fwd_3" file="anims/shared/rifle/generic/gen_hrt_range_lowbdy_fwd_var3" blend_set="all"/>
+	<anim name="rifle_hurt_low_fwd_4" file="anims/shared/rifle/generic/gen_hrt_range_lowbdy_fwd_var4" blend_set="all"/>
+	<anim name="rifle_hurt_low_fwd_5" file="anims/shared/rifle/generic/gen_hrt_range_lowbdy_fwd_var5" blend_set="all"/>
+	<!-- bwd low -->
+	<anim name="rifle_hurt_low_bwd_1" file="anims/shared/rifle/generic/gen_hrt_range_lowbdy_bwd_var1" blend_set="all"/>
+	<anim name="rifle_hurt_low_bwd_2" file="anims/shared/rifle/generic/gen_hrt_range_lowbdy_bwd_var2" blend_set="all"/>
+	<!-- left low -->
+	<anim name="rifle_hurt_low_l_1" file="anims/shared/rifle/generic/gen_hrt_range_lowbdy_left_var1" blend_set="all"/>
+	<anim name="rifle_hurt_low_l_2" file="anims/shared/rifle/generic/gen_hrt_range_lowbdy_left_var2" blend_set="all"/>
+	<!-- right low -->
+	<anim name="rifle_hurt_low_r_1" file="anims/shared/rifle/generic/gen_hrt_range_lowbdy_right_var1" blend_set="all"/>
+	<anim name="rifle_hurt_low_r_2" file="anims/shared/rifle/generic/gen_hrt_range_lowbdy_right_var2" blend_set="all"/>
+	<!-- heavy fwd -->
+	<anim name="rifle_hurt_hvy_fwd_1" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var1" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_2" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var2" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_3" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var3" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_4" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var4" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_5" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var5" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_6" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var6" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_7" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var7" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_8" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var8" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_9" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var9" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_10" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var10" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_11" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var11" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_12" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var12" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_13" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var13" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_14" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var14" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_15" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var15" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_16" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var16" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_17" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var17" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_18" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var18" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_19" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var19" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_20" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var20" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_fwd_21" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_fwd_var21" blend_set="all"/>
+	
+	<!-- heavy bwd -->
+	<anim name="rifle_hurt_hvy_bwd_1" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_bwd_var1" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_bwd_2" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_bwd_var2" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_bwd_3" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_bwd_var3" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_bwd_4" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_bwd_var4" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_bwd_5" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_bwd_var5" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_bwd_6" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_bwd_var6" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_bwd_7" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_bwd_var7" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_bwd_8" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_bwd_var8" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_bwd_9" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_bwd_var9" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_bwd_10" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_bwd_var10" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_bwd_11" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_bwd_var11" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_bwd_12" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_bwd_var12" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_bwd_13" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_bwd_var13" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_bwd_14" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_bwd_var14" blend_set="all"/>
+	
+	<!-- heavy left -->
+	<anim name="rifle_hurt_hvy_l_1" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_left_var1" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_l_2" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_left_var2" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_l_3" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_left_var3" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_l_4" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_left_var4" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_l_5" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_left_var5" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_l_6" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_left_var6" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_l_7" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_left_var7" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_l_8" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_left_var8" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_l_9" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_left_var9" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_l_10" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_left_var10" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_l_11" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_left_var11" blend_set="all"/>
+	
+	<!-- heavy right -->
+	<anim name="rifle_hurt_hvy_r_1" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_right_var1" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_r_2" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_right_var2" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_r_3" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_right_var3" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_r_4" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_right_var4" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_r_5" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_right_var5" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_r_6" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_right_var6" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_r_7" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_right_var7" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_r_8" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_right_var8" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_r_9" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_right_var9" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_r_10" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_right_var10" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_r_11" file="anims/shared/rifle/generic/gen_hrt_range_hvy_upbdy_right_var11" blend_set="all"/>
+	
+	
+	<!-- heavy low fwd -->
+	<anim name="rifle_hurt_hvy_low_fwd_1" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_fwd_var1" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_fwd_2" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_fwd_var2" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_fwd_3" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_fwd_var3" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_fwd_4" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_fwd_var4" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_fwd_5" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_fwd_var5" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_fwd_6" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_fwd_var6" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_fwd_7" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_fwd_var7" blend_set="all"/>
+	<!-- heavy low bwd -->
+	<anim name="rifle_hurt_hvy_low_bwd_1" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_bwd_var1" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_bwd_2" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_bwd_var2" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_bwd_3" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_bwd_var3" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_bwd_4" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_bwd_var4" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_bwd_5" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_bwd_var5" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_bwd_6" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_bwd_var6" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_bwd_7" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_bwd_var7" blend_set="all"/>
+	
+	<!-- heavy low left -->
+	<anim name="rifle_hurt_hvy_low_l_1" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_left_var1" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_l_2" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_left_var2" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_l_3" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_left_var3" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_l_4" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_left_var4" blend_set="all"/>
+	<!-- heavy low right -->
+	<anim name="rifle_hurt_hvy_low_r_1" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_right_var1" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_r_2" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_right_var2" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_r_3" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_right_var3" blend_set="all"/>
+	<anim name="rifle_hurt_hvy_low_r_4" file="anims/shared/rifle/generic/gen_hrt_range_hvy_lowbdy_right_var4" blend_set="all"/>
+	
+	<anim name="gen_hrt_electrocuted" file="anims/shared/rifle/generic/gen_hrt_electrocuted" blend_set="all"/>
+	<anim name="gen_hrt_electrocuted_var2" file="anims/shared/rifle/generic/gen_hrt_electrocuted_var2" blend_set="all"/>
+
+	<!-- tasor_tased --> 
+	<anim name="gen_hrt_tased_var1" file="anims/shared/rifle/generic/gen_hrt_tased_var1" blend_set="all"/>
+	<anim name="gen_hrt_tased_var2" file="anims/shared/rifle/generic/gen_hrt_tased_var2" blend_set="all"/>
+	<anim name="gen_hrt_tased_var3" file="anims/shared/rifle/generic/gen_hrt_tased_var3" blend_set="all"/>
+	<anim name="gen_hrt_tased_var4" file="anims/shared/rifle/generic/gen_hrt_tased_var4" blend_set="all"/>
+	
+	<!-- Heavy Hurt Running -->	
+	<anim name="gen_hrt_range_run_fwd_var1" file="anims/shared/rifle/generic/gen_hrt_range_run_fwd_var1" blend_set="all"/>
+	<anim name="gen_hrt_range_run_fwd_var2" file="anims/shared/rifle/generic/gen_hrt_range_run_fwd_var2" blend_set="all"/>
+	<anim name="gen_hrt_range_run_fwd_var3" file="anims/shared/rifle/generic/gen_hrt_range_run_fwd_var3" blend_set="all"/>
+	<anim name="gen_hrt_range_run_fwd_var4" file="anims/shared/rifle/generic/gen_hrt_range_run_fwd_var4" blend_set="all"/>
+	<anim name="gen_hrt_range_run_fwd_var5" file="anims/shared/rifle/generic/gen_hrt_range_run_fwd_var5" blend_set="all"/>
+	<anim name="gen_hrt_range_run_fwd_var6" file="anims/shared/rifle/generic/gen_hrt_range_run_fwd_var6" blend_set="all"/>
+	<anim name="gen_hrt_range_run_fwd_var7" file="anims/shared/rifle/generic/gen_hrt_range_run_fwd_var7" blend_set="all"/>
+	<anim name="gen_hrt_range_run_fwd_var8" file="anims/shared/rifle/generic/gen_hrt_range_run_fwd_var8" blend_set="all"/>
+	<anim name="gen_hrt_range_run_fwd_var9" file="anims/shared/rifle/generic/gen_hrt_range_run_fwd_var9" blend_set="all"/>
+	<anim name="gen_hrt_range_run_fwd_var10" file="anims/shared/rifle/generic/gen_hrt_range_run_fwd_var10" blend_set="all"/>
+	<anim name="gen_hrt_range_run_fwd_var11" file="anims/shared/rifle/generic/gen_hrt_range_run_fwd_var11" blend_set="all"/>
+	<anim name="gen_hrt_range_run_fwd_var12" file="anims/shared/rifle/generic/gen_hrt_range_run_fwd_var12" blend_set="all"/>
+	<anim name="gen_hrt_range_run_fwd_var13" file="anims/shared/rifle/generic/gen_hrt_range_run_fwd_var13" blend_set="all"/>
+	<anim name="gen_hrt_range_run_fwd_var14" file="anims/shared/rifle/generic/gen_hrt_range_run_fwd_var14" blend_set="all"/>
+	
+	<!-- Explosion Hurt -->
+	<anim name="gen_hrt_explo_hvy_fwd_var1" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var1" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_fwd_var2" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var2" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_fwd_var3" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var3" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_fwd_var4" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var4" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_fwd_var5" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var5" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_fwd_var6" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var6" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_fwd_var7" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var7" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_fwd_var8" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var8" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_fwd_var9" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var9" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_fwd_var10" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var10" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_fwd_var11" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var11" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_fwd_var12" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var12" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_fwd_var13" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var13" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_fwd_var14" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var14" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_fwd_var15" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var15" blend_set="all"/>
+	
+	<anim name="gen_hrt_explo_hvy_bwd_var1" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_bwd_var1" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_bwd_var2" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_bwd_var2" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_bwd_var3" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_bwd_var3" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_bwd_var4" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_bwd_var4" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_bwd_var5" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_bwd_var5" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_bwd_var6" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_bwd_var6" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_bwd_var7" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_bwd_var7" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_bwd_var8" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_bwd_var8" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_bwd_var9" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var9" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_bwd_var10" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_bwd_var10" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_bwd_var11" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_bwd_var11" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_bwd_var12" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_bwd_var12" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_bwd_var13" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_bwd_var13" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_bwd_var14" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_bwd_var14" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_bwd_var15" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_bwd_var15" blend_set="all"/>
+	
+	<anim name="gen_hrt_explo_hvy_left_var1" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_left_var1" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_left_var2" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_left_var2" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_left_var3" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_left_var3" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_left_var4" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_left_var4" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_left_var5" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_left_var5" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_left_var6" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_left_var6" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_left_var7" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_left_var7" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_left_var8" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_left_var8" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_left_var9" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var9" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_left_var10" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_left_var10" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_left_var11" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_left_var11" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_left_var12" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_left_var12" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_left_var13" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_left_var13" blend_set="all"/>
+	
+	<anim name="gen_hrt_explo_hvy_right_var1" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_right_var1" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_right_var2" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_right_var2" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_right_var3" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_right_var3" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_right_var4" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_right_var4" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_right_var5" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_right_var5" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_right_var6" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_right_var6" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_right_var7" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_right_var7" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_right_var8" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_right_var8" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_right_var9" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_fwd_var9" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_right_var10" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_right_var10" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_right_var11" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_right_var11" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_right_var12" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_right_var12" blend_set="all"/>
+	<anim name="gen_hrt_explo_hvy_right_var13" file="anims/shared/rifle/generic/gen_hrt_explo_hvy_right_var13" blend_set="all"/>
+	
+	<anim name="shield_hrt_explo_hvy_fwd_var1" file="anims/shared/rifle/generic/shield_hrt_explo_hvy_fwd_var1" blend_set="all"/>
+	<anim name="shield_hrt_explo_hvy_fwd_var2" file="anims/shared/rifle/generic/shield_hrt_explo_hvy_fwd_var2" blend_set="all"/>
+	<anim name="shield_hrt_explo_hvy_bwd_var1" file="anims/shared/rifle/generic/shield_hrt_explo_hvy_bwd_var1" blend_set="all"/>
+	<anim name="shield_hrt_explo_hvy_bwd_var2" file="anims/shared/rifle/generic/shield_hrt_explo_hvy_bwd_var2" blend_set="all"/>
+	<anim name="shield_hrt_explo_hvy_left_var1" file="anims/shared/rifle/generic/shield_hrt_explo_hvy_left_var1" blend_set="all"/>
+	<anim name="shield_hrt_explo_hvy_left_var2" file="anims/shared/rifle/generic/shield_hrt_explo_hvy_left_var2" blend_set="all"/>
+	<anim name="shield_hrt_explo_hvy_right_var1" file="anims/shared/rifle/generic/shield_hrt_explo_hvy_right_var1" blend_set="all"/>
+	<anim name="shield_hrt_explo_hvy_right_var2" file="anims/shared/rifle/generic/shield_hrt_explo_hvy_right_var2" blend_set="all"/>
+	
+	<anim name="bulldozer_hrt_explo_hvy" file="anims/shared/rifle/generic/bulldozer_hrt_explo_hvy" blend_set="all"/>
+
+	<!-- Concussion Hurt / Stun -->
+	<anim name="gen_stun_conc_left" file="anims/shared/rifle/generic/gen_hrt_concussion_left" blend_set="all"/>
+	<anim name="gen_stun_conc_right" file="anims/shared/rifle/generic/gen_hrt_concussion_right" blend_set="all"/>
+	<anim name="gen_stun_conc_bwd" file="anims/shared/rifle/generic/gen_hrt_concussion_bwd" blend_set="all"/>
+	<anim name="gen_stun_conc_fwd" file="anims/shared/rifle/generic/gen_hrt_concussion_fwd" blend_set="all"/>
+
+	<anim name="gen_stun_conc_var1" file="anims/shared/rifle/generic/gen_hrt_concussion_gen_var1" blend_set="all"/>
+	<anim name="gen_stun_conc_var2" file="anims/shared/rifle/generic/gen_hrt_concussion_gen_var2" blend_set="all"/>
+	<anim name="gen_stun_conc_var3" file="anims/shared/rifle/generic/gen_hrt_concussion_gen_var3" blend_set="all"/>
+	<anim name="gen_stun_conc_var4" file="anims/shared/rifle/generic/gen_hrt_concussion_gen_var4" blend_set="all"/>
+	<anim name="gen_stun_conc_var5" file="anims/shared/rifle/generic/gen_hrt_concussion_gen_var5" blend_set="all"/>
+
+	<anim name="gen_stun_conc_shield_var1" file="anims/shared/boss/shield/cbt_std_hurt_concussion_var1" blend_set="all"/>
+	<anim name="gen_stun_conc_shield_var2" file="anims/shared/boss/shield/cbt_std_hurt_concussion_var2" blend_set="all"/>
+	<anim name="gen_stun_conc_shield_var3" file="anims/shared/boss/shield/cbt_std_hurt_concussion_var3" blend_set="all"/>
+	<anim name="gen_stun_conc_shield_var4" file="anims/shared/boss/shield/cbt_std_hurt_concussion_var4" blend_set="all"/>
+
+	<!-- Fire Hurt -->
+	<anim name="gen_hrt_fire_hvy_bwd_var1" file="anims/shared/rifle/generic/gen_hrt_fire_hvy_bwd_var1" blend_set="all"/>
+	<anim name="gen_hrt_fire_hvy_fwd_var1" file="anims/shared/rifle/generic/gen_hrt_fire_hvy_fwd_var1" blend_set="all"/>
+	<anim name="gen_hrt_fire_hvy_left_var1" file="anims/shared/rifle/generic/gen_hrt_fire_hvy_left_var1" blend_set="all"/>
+	<anim name="gen_hrt_fire_hvy_right_var1" file="anims/shared/rifle/generic/gen_hrt_fire_hvy_right_var1" blend_set="all"/>
+	
+	<!-- Dodge -->
+	<anim name="dodge_dive_fwd" file="anims/shared/rifle/generic/gen_std_panicdodge_fwd_to_crh" blend_set="all"/>
+	<anim name="dodge_dive_bwd" file="anims/shared/rifle/generic/gen_std_panicdodge_bwd_to_crh" blend_set="all"/>
+	<anim name="dodge_dive_l" file="anims/shared/rifle/generic/gen_std_panicdodge_l_to_crh" blend_set="all"/>
+	<anim name="dodge_dive_r" file="anims/shared/rifle/generic/gen_std_panicdodge_r_to_crh" blend_set="all"/>
+	
+	<anim name="hos_dodge_side_step_fwd" file="anims/shared/rifle/generic/gen_std_step_dodge_fwd" blend_set="all"/>
+	<anim name="hos_dodge_side_step_bwd" file="anims/shared/rifle/generic/gen_std_step_dodge_bwd" blend_set="all"/>
+	<anim name="hos_dodge_side_step_l" file="anims/shared/rifle/generic/gen_std_step_dodge_left" blend_set="all"/>
+	<anim name="hos_dodge_side_step_r" file="anims/shared/rifle/generic/gen_std_step_dodge_right" blend_set="all"/>
+	
+	<anim name="dodge_roll_fwd" file="anims/shared/rifle/generic/gen_std_dodge_fwd_to_crh" blend_set="all"/>
+	<anim name="dodge_roll_bwd" file="anims/shared/rifle/generic/gen_std_dodge_bwd_to_crh" blend_set="all"/>
+	<anim name="dodge_roll_l" file="anims/shared/rifle/generic/gen_std_dodge_left_to_crh" blend_set="all"/>
+	<anim name="dodge_roll_r" file="anims/shared/rifle/generic/gen_std_dodge_right_to_crh" blend_set="all"/>
+	
+	<anim name="dodge_wheel_fwd" file="anims/shared/boss/spooc/spooc_dodge_fwd" blend_set="all"/>
+	<anim name="dodge_wheel_bwd" file="anims/shared/boss/spooc/spooc_dodge_bwd" blend_set="all"/>
+	<anim name="dodge_wheel_l" file="anims/shared/boss/spooc/spooc_dodge_left" blend_set="all"/>
+	<anim name="dodge_wheel_r" file="anims/shared/boss/spooc/spooc_dodge_right" blend_set="all"/>
+	
+
+	<anim name="use_syringe" file="anims/shared/rifle/generic/gen_use_syringe" blend_set="all"/>
+	<anim name="heal" file="anims/shared/rifle/combat/cbt_std_medic_gesture" blend_set="all"/>
+
+
+	<!-- Death -->
+	
+	<!-- forward upper body -->
+	<anim name="rifle_death_up_fwd_1" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var1" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_2" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var2" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_3" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var3" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_4" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var4" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_5" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var5" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_6" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var6" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_7" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var7" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_8" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var8" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_9" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var9" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_10" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var10" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_11" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var11" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_12" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var12" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_13" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var13" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_14" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var14" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_15" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var15" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_16" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var16" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_17" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var17" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_18" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var18" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_19" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var19" blend_set="all"/>
+	<anim name="rifle_death_up_fwd_20" file="anims/shared/rifle/generic/gen_dth_range_upbdy_fwd_var20" blend_set="all"/>
+	
+	<!-- forward lower body -->
+	<anim name="rifle_death_low_fwd_1" file="anims/shared/rifle/generic/gen_dth_range_lowbdy_fwd_var1" blend_set="all"/>
+	<anim name="rifle_death_low_fwd_2" file="anims/shared/rifle/generic/gen_dth_range_lowbdy_fwd_var2" blend_set="all"/>
+	<anim name="rifle_death_low_fwd_3" file="anims/shared/rifle/generic/gen_dth_range_lowbdy_fwd_var3" blend_set="all"/>
+	<anim name="rifle_death_low_fwd_4" file="anims/shared/rifle/generic/gen_dth_range_lowbdy_fwd_var4" blend_set="all"/>
+	<anim name="rifle_death_low_fwd_5" file="anims/shared/rifle/generic/gen_dth_range_lowbdy_fwd_var5" blend_set="all"/>
+	<anim name="rifle_death_low_fwd_6" file="anims/shared/rifle/generic/gen_dth_range_lowbdy_fwd_var6" blend_set="all"/>
+	<anim name="rifle_death_low_fwd_7" file="anims/shared/rifle/generic/gen_dth_range_lowbdy_fwd_var7" blend_set="all"/>
+		
+	<!-- backward upper body -->
+	<anim name="rifle_death_up_bwd_1" file="anims/shared/rifle/generic/gen_dth_range_upbdy_bwd_var1" blend_set="all"/>
+	<anim name="rifle_death_up_bwd_2" file="anims/shared/rifle/generic/gen_dth_range_upbdy_bwd_var2" blend_set="all"/>
+	<anim name="rifle_death_up_bwd_3" file="anims/shared/rifle/generic/gen_dth_range_upbdy_bwd_var3" blend_set="all"/>
+	<anim name="rifle_death_up_bwd_4" file="anims/shared/rifle/generic/gen_dth_range_upbdy_bwd_var4" blend_set="all"/>
+	
+	<!-- backward lower body -->
+	<anim name="rifle_death_low_bwd_1" file="anims/shared/rifle/generic/gen_dth_range_lowbdy_bwd_var1" blend_set="all"/>
+	<anim name="rifle_death_low_bwd_2" file="anims/shared/rifle/generic/gen_dth_range_lowbdy_bwd_var2" blend_set="all"/>
+	<anim name="rifle_death_low_bwd_3" file="anims/shared/rifle/generic/gen_dth_range_lowbdy_bwd_var3" blend_set="all"/>
+	
+	<!-- Left lower body -->
+	<anim name="rifle_death_low_l_1" file="anims/shared/rifle/generic/gen_dth_range_lowbdy_left_var1" blend_set="all"/>
+	<anim name="rifle_death_low_l_2" file="anims/shared/rifle/generic/gen_dth_range_lowbdy_left_var2" blend_set="all"/>
+	
+	<!-- Left upper body -->
+	<anim name="rifle_death_up_l_1" file="anims/shared/rifle/generic/gen_dth_range_upbdy_left_var1" blend_set="all"/>
+	<anim name="rifle_death_up_l_2" file="anims/shared/rifle/generic/gen_dth_range_upbdy_left_var2" blend_set="all"/>
+	<anim name="rifle_death_up_l_3" file="anims/shared/rifle/generic/gen_dth_range_upbdy_left_var3" blend_set="all"/>
+	<anim name="rifle_death_up_l_4" file="anims/shared/rifle/generic/gen_dth_range_upbdy_left_var4" blend_set="all"/>
+	
+	<!-- right lower body -->
+	<anim name="rifle_death_low_r_1" file="anims/shared/rifle/generic/gen_dth_range_lowbdy_right_var1" blend_set="all"/>
+	<anim name="rifle_death_low_r_2" file="anims/shared/rifle/generic/gen_dth_range_lowbdy_right_var2" blend_set="all"/>
+	
+	<!-- right upper body -->
+	<anim name="rifle_death_up_r_1" file="anims/shared/rifle/generic/gen_dth_range_upbdy_right_var1" blend_set="all"/>
+	<anim name="rifle_death_up_r_2" file="anims/shared/rifle/generic/gen_dth_range_upbdy_right_var2" blend_set="all"/>
+	<anim name="rifle_death_up_r_3" file="anims/shared/rifle/generic/gen_dth_range_upbdy_right_var3" blend_set="all"/>
+	<anim name="rifle_death_up_r_4" file="anims/shared/rifle/generic/gen_dth_range_upbdy_right_var4" blend_set="all"/>
+	
+		<!-- Female -->
+		<anim name="rifle_death_fe_var1" file="anims/shared/unarmed/neutral/gen_fe_dth_range_std" blend_set="all"/>
+		<anim name="rifle_death_fe_var2" file="anims/shared/unarmed/neutral/gen_fe_dth_range_std_var2" blend_set="all"/>
+		<anim name="rifle_death_fe_var3" file="anims/shared/unarmed/neutral/gen_fe_dth_range_std_var3" blend_set="all"/>
+		
+		<anim name="rifle_fe_death_crouch_low_fwd_1" file="anims/shared/unarmed/fe_death/gen_dth_fe_crh_range_lowbdy_fwd_var1" blend_set="all"/>
+		<anim name="rifle_fe_death_crouch_low_fwd_2" file="anims/shared/unarmed/fe_death/gen_dth_fe_crh_range_lowbdy_fwd_var2" blend_set="all"/>
+		
+		<anim name="rifle_fe_death_crouch_up_bwd_1" file="anims/shared/unarmed/fe_death/gen_dth_fe_crh_range_upbdy_bwd_var1" blend_set="all"/>
+		<anim name="rifle_fe_death_crouch_up_bwd_2" file="anims/shared/unarmed/fe_death/gen_dth_fe_crh_range_upbdy_bwd_var2" blend_set="all"/>
+		
+		<anim name="rifle_fe_death_crouch_up_left_1" file="anims/shared/unarmed/fe_death/gen_dth_fe_crh_range_upbdy_left_var1" blend_set="all"/>
+		<anim name="rifle_fe_death_crouch_up_left_2" file="anims/shared/unarmed/fe_death/gen_dth_fe_crh_range_upbdy_left_var2" blend_set="all"/>
+		
+		<anim name="rifle_fe_death_crouch_up_right_1" file="anims/shared/unarmed/fe_death/gen_dth_fe_crh_range_upbdy_right_var1" blend_set="all"/>
+		<anim name="rifle_fe_death_crouch_up_right_2" file="anims/shared/unarmed/fe_death/gen_dth_fe_crh_range_upbdy_right_var2" blend_set="all"/>
+		
+		<anim name="rifle_fe_death_crouch_up_fwd_1" file="anims/shared/unarmed/fe_death/gen_dth_fe_crh_range_upbdy_fwd_var1" blend_set="all"/>
+		<anim name="rifle_fe_death_crouch_up_fwd_2" file="anims/shared/unarmed/fe_death/gen_dth_fe_crh_range_upbdy_fwd_var2" blend_set="all"/>
+		<anim name="rifle_fe_death_crouch_up_fwd_3" file="anims/shared/unarmed/fe_death/gen_dth_fe_crh_range_upbdy_fwd_var3" blend_set="all"/>
+		<anim name="rifle_fe_death_crouch_up_fwd_4" file="anims/shared/unarmed/fe_death/gen_dth_fe_crh_range_upbdy_fwd_var4" blend_set="all"/>
+		<anim name="rifle_fe_death_crouch_up_fwd_5" file="anims/shared/unarmed/fe_death/gen_dth_fe_crh_range_upbdy_fwd_var5" blend_set="all"/>
+		
+		<anim name="rifle_fe_death_run_fwd_1" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_running_var1" blend_set="all"/>
+		<anim name="rifle_fe_death_run_fwd_2" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_running_var2" blend_set="all"/>
+		<anim name="rifle_fe_death_run_fwd_3" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_running_var3" blend_set="all"/>
+		<anim name="rifle_fe_death_run_fwd_4" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_running_var4" blend_set="all"/>
+		<anim name="rifle_fe_death_run_fwd_5" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_running_var5" blend_set="all"/>
+		
+		<anim name="rifle_fe_death_low_fwd_1" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_lowbdy_fwd_var1" blend_set="all"/>
+		<anim name="rifle_fe_death_low_fwd_2" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_lowbdy_fwd_var2" blend_set="all"/>
+		
+		<anim name="rifle_fe_death_up_bwd_1" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_bwd_var1" blend_set="all"/>
+		<anim name="rifle_fe_death_up_bwd_2" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_bwd_var2" blend_set="all"/>
+		<anim name="rifle_fe_death_up_bwd_3" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_bwd_var3" blend_set="all"/>
+		
+		<anim name="rifle_fe_death_up_right_1" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_right_var1" blend_set="all"/>
+		<anim name="rifle_fe_death_up_right_2" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_right_var2" blend_set="all"/>
+		
+		<anim name="rifle_fe_death_up_left_1" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_left_var1" blend_set="all"/>
+		<anim name="rifle_fe_death_up_left_2" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_left_var2" blend_set="all"/>
+		
+		<anim name="rifle_fe_death_up_fwd_1" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_fwd_var1" blend_set="all"/>
+		<anim name="rifle_fe_death_up_fwd_2" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_fwd_var2" blend_set="all"/>
+		<anim name="rifle_fe_death_up_fwd_3" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_fwd_var3" blend_set="all"/>
+		<anim name="rifle_fe_death_up_fwd_4" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_fwd_var4" blend_set="all"/>
+		<anim name="rifle_fe_death_up_fwd_5" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_fwd_var5" blend_set="all"/>
+		<anim name="rifle_fe_death_up_fwd_6" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_fwd_var6" blend_set="all"/>
+		<!--<anim name="rifle_fe_death_up_fwd_7" file="anims/shared/unarmed/fe_death/gen_dth_fe_range_upbdy_fwd_var7" blend_set="all"/>-->
+		
+		<!-- Run -->
+			<!-- Hurt -->
+			<anim name="rifle_wounded_run_fwd_1" file="anims/shared/rifle/generic/gen_hrt_run_fwd_var1" blend_set="all"/>
+			
+			<!-- Death -->
+			<anim name="rifle_death_run_fwd_1" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var1" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_2" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var2" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_3" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var3" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_4" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var4" blend_set="all"/>
+		    <anim name="rifle_death_run_fwd_5" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var5" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_6" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var6" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_7" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var7" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_8" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var8" blend_set="all"/>
+		    <anim name="rifle_death_run_fwd_9" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var9" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_10" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var10" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_11" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var11" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_12" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var12" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_13" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var13" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_14" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var14" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_15" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var15" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_16" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var16" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_17" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var17" blend_set="all"/>
+		    <anim name="rifle_death_run_fwd_18" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var18" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_19" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var19" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_20" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var20" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_21" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var21" blend_set="all"/>
+		    <anim name="rifle_death_run_fwd_22" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var22" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_23" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var23" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_24" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var24" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_25" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var25" blend_set="all"/>
+			<anim name="rifle_death_run_fwd_26" file="anims/shared/rifle/generic/gen_dth_range_upbdy_running_var26" blend_set="all"/>
+		<!-- Crouching -->
+		
+		<!-- forward upper body -->
+		<anim name="rifle_death_crouch_up_fwd_1" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var1" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_2" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var2" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_3" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var3" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_4" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var4" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_5" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var5" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_6" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var6" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_7" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var7" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_8" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var8" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_9" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var9" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_10" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var10" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_11" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var11" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_12" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var12" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_13" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var13" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_14" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var14" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_15" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var15" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_16" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var16" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_17" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var17" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_18" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var18" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_19" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var19" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_20" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var20" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_fwd_21" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_fwd_var21" blend_set="all"/>
+				
+		
+		<!-- forward lower body -->
+		<anim name="rifle_death_crouch_low_fwd_1" file="anims/shared/rifle/generic/gen_dth_crh_range_lowbdy_fwd_var1" blend_set="all"/>
+		<anim name="rifle_death_crouch_low_fwd_2" file="anims/shared/rifle/generic/gen_dth_crh_range_lowbdy_fwd_var2" blend_set="all"/>
+		<anim name="rifle_death_crouch_low_fwd_3" file="anims/shared/rifle/generic/gen_dth_crh_range_lowbdy_fwd_var3" blend_set="all"/>
+		<anim name="rifle_death_crouch_low_fwd_4" file="anims/shared/rifle/generic/gen_dth_crh_range_lowbdy_fwd_var4" blend_set="all"/>
+		<anim name="rifle_death_crouch_low_fwd_5" file="anims/shared/rifle/generic/gen_dth_crh_range_lowbdy_fwd_var5" blend_set="all"/>
+		<anim name="rifle_death_crouch_low_fwd_6" file="anims/shared/rifle/generic/gen_dth_crh_range_lowbdy_fwd_var6" blend_set="all"/>
+		<anim name="rifle_death_crouch_low_fwd_7" file="anims/shared/rifle/generic/gen_dth_crh_range_lowbdy_fwd_var7" blend_set="all"/>
+		
+		
+		<!-- backwards upper body -->
+		<anim name="rifle_death_crouch_up_bwd_1" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_bwd_var1" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_bwd_2" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_bwd_var2" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_bwd_3" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_bwd_var3" blend_set="all"/>
+		
+		<!-- backward lower body -->
+		<anim name="rifle_death_crouch_low_bwd_1" file="anims/shared/rifle/generic/gen_dth_crh_range_lowbdy_bwd_var1" blend_set="all"/>
+				
+		<!-- left lower body -->
+		<anim name="rifle_death_crouch_low_left_1" file="anims/shared/rifle/generic/gen_dth_crh_range_lowbdy_left_var1" blend_set="all"/>
+		<anim name="rifle_death_crouch_low_left_2" file="anims/shared/rifle/generic/gen_dth_crh_range_lowbdy_left_var2" blend_set="all"/>
+		
+		<!-- left upper body -->
+		<anim name="rifle_death_crouch_up_left_1" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_left_var1" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_left_2" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_left_var2" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_left_3" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_left_var3" blend_set="all"/>
+		
+		<!-- right lower body -->
+		<anim name="rifle_death_crouch_low_right_1" file="anims/shared/rifle/generic/gen_dth_crh_range_lowbdy_right_var1" blend_set="all"/>
+		<anim name="rifle_death_crouch_low_right_2" file="anims/shared/rifle/generic/gen_dth_crh_range_lowbdy_right_var2" blend_set="all"/>
+		
+				
+		<!-- right upper body -->
+		<anim name="rifle_death_crouch_up_right_1" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_right_var1" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_right_2" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_right_var2" blend_set="all"/>
+		<anim name="rifle_death_crouch_up_right_3" file="anims/shared/rifle/generic/gen_dth_crh_range_upbdy_right_var3" blend_set="all"/>
+		
+		
+
+	<!-- FIRE DEATH -->
+	<anim name="gen_death_fire_var1" file="anims/shared/rifle/generic/gen_death_fire_var1" blend_set="all"/>
+	<anim name="gen_death_fire_var2" file="anims/shared/rifle/generic/gen_death_fire_var2" blend_set="all"/>
+	<anim name="gen_death_fire_var3" file="anims/shared/rifle/generic/gen_death_fire_var3" blend_set="all"/>
+	<anim name="gen_death_fire_var4" file="anims/shared/rifle/generic/gen_death_fire_var4" blend_set="all"/>
+	<anim name="gen_death_fire_var5" file="anims/shared/rifle/generic/gen_death_fire_var5" blend_set="all"/>
+
+
+		
+		
+	<!-- Sick Hurts -->
+		<!-- Enter -->
+	<anim name="cough_enter" file="anims/shared/special/cough_enter" blend_set="all"/>
+	<anim name="ears_enter" file="anims/shared/special/ears_enter" blend_set="all"/>
+	
+		<!-- Loop -->
+	<anim name="cough_loop" file="anims/shared/special/cough_loop" blend_set="all"/>
+	<anim name="ears_loop" file="anims/shared/special/ears_loop" blend_set="all"/>
+	
+		<!-- Exit -->
+	<anim name="cough_exit" file="anims/shared/special/cough_exit" blend_set="all"/>
+	<anim name="ears_exit" file="anims/shared/special/ears_exit" blend_set="all"/>
+		
+		
+		
+		
+	<!-- Surprised -->
+	<anim name="surprised_rifle" file="anims/shared/rifle/hostile/hos_std_surprised_fwd" blend_set="all"/>
+	<anim name="surprised_pistol" file="anims/shared/pistol/hostile/hos_std_surprised_fwd" blend_set="all"/>
+	<anim name="surprised_shield" file="anims/shared/boss/shield/cbt_crh_surprised_fwd" blend_set="all"/>
+	<anim name="cbt_crh_surprised_fwd" file="anims/shared/boss/shield/cbt_crh_surprised_fwd" blend_set="all"/>
+	<anim name="cbt_crh_surprised_fwd2" file="anims/shared/boss/shield/cbt_crh_surprised_fwd2" blend_set="all"/>
+	<anim name="cbt_crh_surprised_fwd3" file="anims/shared/boss/shield/cbt_crh_surprised_fwd3" blend_set="all"/>
+	<anim name="cbt_crh_surprised_fwd4" file="anims/shared/boss/shield/cbt_crh_surprised_fwd4" blend_set="all"/>
+	<anim name="cbt_crh_surprised_fwd5" file="anims/shared/boss/shield/cbt_crh_surprised_fwd5" blend_set="all"/>
+	
+	<!-- Revive & Rescue -->
+	<anim name="revive_enter" file="anims/shared/rifle/generic/gen_revive_enter" blend_set="all"/>
+	<anim name="revive_loop" file="anims/shared/rifle/generic/gen_revive_idle" blend_set="all"/>
+	<anim name="revive_exit" file="anims/shared/rifle/generic/gen_revive_exit" blend_set="all"/>
+	
+	<anim name="untie_enter" file="anims/shared/rifle/generic/gen_untie_enter" blend_set="all"/>
+	<anim name="untie_loop" file="anims/shared/rifle/generic/gen_untie_idle" blend_set="all"/>
+	<anim name="untie_exit" file="anims/shared/rifle/generic/gen_untie_exit" blend_set="all"/>
+	
+	<!-- Spooc -->
+	<anim name="spooc_strike_enter_var1" file="anims/shared/special/cbt_std_melee_enter_var1" blend_set="all"/>
+	<anim name="spooc_strike_enter_var2" file="anims/shared/special/cbt_std_melee_enter_var2" blend_set="all"/>
+	<anim name="spooc_strike_enter_var3" file="anims/shared/special/cbt_std_melee_enter_var3" blend_set="all"/>
+	<anim name="spooc_strike_enter_var4" file="anims/shared/special/cbt_std_melee_enter_var4" blend_set="all"/>
+	<anim name="spooc_strike_enter_var5" file="anims/shared/special/cbt_std_melee_enter_var5" blend_set="all"/>
+	<anim name="spooc_strike_enter_var6" file="anims/shared/special/cbt_std_melee_enter_var6" blend_set="all"/>
+	<anim name="spooc_strike_enter_var7" file="anims/shared/special/cbt_std_melee_enter_var7" blend_set="all"/>
+	<anim name="spooc_strike_enter_var8" file="anims/shared/special/cbt_std_melee_enter_var8" blend_set="all"/>
+	<anim name="spooc_strike_enter_var9" file="anims/shared/special/cbt_std_melee_enter_var9" blend_set="all"/>
+	<anim name="spooc_strike_enter_var10" file="anims/shared/special/cbt_std_melee_enter_var10" blend_set="all"/>
+	<anim name="spooc_strike_enter_var11" file="anims/shared/special/cbt_std_melee_enter_var11" blend_set="all"/>
+	<anim name="spooc_strike_enter_var12" file="anims/shared/special/cbt_std_melee_enter_var12" blend_set="all"/>
+	<anim name="spooc_strike_exit" file="anims/shared/special/cbt_std_melee_exit" blend_set="all"/>
+	<anim name="spooc_strike_loop_var1" file="anims/shared/special/cbt_std_melee_hit_var1" blend_set="all"/>
+	<anim name="spooc_strike_loop_var2" file="anims/shared/special/cbt_std_melee_hit_var2" blend_set="all"/>
+	
+	<anim name="spooc_flying_strike" file="anims/shared/boss/spooc/cloaker_jump_attack" blend_set="all"/>
+	<anim name="spooc_flying_strike_var2" file="anims/shared/boss/spooc/cloaker_jump_attack_var2" blend_set="all"/>
+	
+	<!-- Kick Drill -->
+	<anim name="e_so_kickdrill_low" file="anims/shared/special/e_so_kickdrill_low" blend_set="all"/>
+	<anim name="e_so_kickdrill_mid" file="anims/shared/special/e_so_kickdrill_mid" blend_set="all"/>
+	<anim name="e_so_kickdrill_high" file="anims/shared/special/e_so_kickdrill_high" blend_set="all"/>
+	
+	<!-- Spawn -->
+	<anim name="e_sp_car_exit_pistol_front_l" file="anims/shared/special/e_sp_car_exit_pistol_front_l" blend_set="all"/>
+	<anim name="e_sp_car_exit_pistol_front_r" file="anims/shared/special/e_sp_car_exit_pistol_front_r" blend_set="all"/>
+	<anim name="e_sp_car_exit_pistol_front_l_var2" file="anims/shared/special/e_sp_car_exit_pistol_front_l_var2" blend_set="all"/>
+	<anim name="e_sp_car_exit_pistol_front_r_var2" file="anims/shared/special/e_sp_car_exit_pistol_front_r_var2" blend_set="all"/>
+	<anim name="e_sp_car_exit_pistol_front_l_var3" file="anims/shared/special/e_sp_car_exit_pistol_front_l_var3" blend_set="all"/>
+	<anim name="e_sp_car_exit_pistol_front_r_var3" file="anims/shared/special/e_sp_car_exit_pistol_front_r_var3" blend_set="all"/>
+	
+	<anim name="e_sp_ss_dropbag" file="anims/shared/special/e_sp_ss_dropbag" blend_set="all"/>
+	<anim name="e_sp_ss_exitcar_right" file="anims/shared/special/e_sp_ss_exitcar_right" blend_set="all"/>
+	<anim name="e_sp_down_10m_swing_in" file="anims/shared/special/e_sp_down_10m_swing_in" blend_set="all"/>
+	<anim name="e_sp_climb_up_8m_right" file="anims/shared/special/e_sp_climb_up_8m_right" blend_set="all"/>
+	<anim name="e_sp_climb_up_8m_left" file="anims/shared/special/e_sp_climb_up_8m_left" blend_set="all"/>
+	<anim name="e_sp_jump_cliff_to_roof" file="anims/shared/special/e_sp_jump_cliff_to_roof" blend_set="all"/>
+	<anim name="e_sp_down_17m_cliff" file="anims/shared/special/e_sp_down_17m_cliff" blend_set="all"/>
+	<anim name="e_sp_climb_up_11m_down_0_7m" file="anims/shared/special/e_sp_climb_up_11m_down_0_7m" blend_set="all"/>
+	<anim name="e_sp_up_0_5_down_10m_swing_in" file="anims/shared/special/e_sp_up_0_5_down_10m_swing_in" blend_set="all"/>
+	<anim name="e_sp_up_1m_down_5_5m_swing_in" file="anims/shared/special/e_sp_up_1m_down_5_5m_swing_in" blend_set="all"/>
+	<anim name="e_sp_car_exit_ntrl_front_r" file="anims/shared/special/e_sp_car_exit_ntrl_front_r" blend_set="all"/>
+	<anim name="e_sp_car_exit_ntrl_front_l" file="anims/shared/special/e_sp_car_exit_ntrl_front_l" blend_set="all"/>
+	<anim name="e_sp_down_5_5m" file="anims/shared/special/e_sp_down_5_5m" blend_set="all"/>
+	<anim name="e_sp_down_6m" file="anims/shared/special/e_sp_down_6m" blend_set="all"/>
+	<anim name="e_sp_down_6m_var2" file="anims/shared/special/e_sp_down_6m_var2" blend_set="all"/>
+	<anim name="e_sp_down_7m" file="anims/shared/special/e_sp_down_7m" blend_set="all"/>
+	<anim name="e_sp_down_7m_var2" file="anims/shared/special/e_sp_down_7m_var2" blend_set="all"/>
+	<anim name="e_sp_up_ledge" file="anims/shared/special/e_sp_up_ledge" blend_set="all"/>
+	<anim name="e_sp_stumble_var2" file="anims/shared/special/e_sp_stumble_var2" blend_set="all"/>
+	<anim name="e_sp_stumble_var1" file="anims/shared/special/e_sp_stumble_var1" blend_set="all"/>
+	<anim name="e_sp_fwd_1m_dwn_7_5m" file="anims/shared/special/e_sp_fwd_1m_dwn_7_5m" blend_set="all"/>
+	<anim name="e_sp_window_down_4_5m" file="anims/shared/special/e_sp_window_down_4_5m" blend_set="all"/>
+	
+	
+	<anim name="e_sp_dah_up_climb_to_roof" file="anims/shared/special/e_sp_dah_up_climb_to_roof" blend_set="all"/>
+	<anim name="e_sp_dah_up_balcony" file="anims/shared/special/e_sp_dah_up_balcony" blend_set="all"/>
+	
+	<anim name="e_sp_dah_up_climb_one_window" file="anims/shared/special/e_sp_dah_up_climb_one_window" blend_set="all"/>
+	
+	
+	
+	
+	<anim name="e_so_down_stairs_5m" file="anims/shared/special/e_so_down_stairs_5m" blend_set="all"/>
+	<anim name="e_so_up_stairs_5m" file="anims/shared/special/e_so_up_stairs_5m" blend_set="all"/>	
+	
+	
+	
+	
+	<anim name="e_so_umbrella_var1" file="anims/shared/special/e_so_umbrella_var1" blend_set="all"/>
+	<anim name="e_so_umbrella_var2" file="anims/shared/special/e_so_umbrella_var2" blend_set="all"/>
+	<anim name="e_so_umbrella_var3" file="anims/shared/special/e_so_umbrella_var3" blend_set="all"/>
+	
+
+	<anim name="e_so_release_hostage_back" file="anims/shared/special/e_so_release_hostage_back" blend_set="all"/>
+	<anim name="e_so_release_hostage_left" file="anims/shared/special/e_so_release_hostage_left" blend_set="all"/>
+	<anim name="e_so_release_hostage_right" file="anims/shared/special/e_so_release_hostage_right" blend_set="all"/>
+	
+	
+	
+	<anim name="e_so_cell_l_loop" file="anims/shared/special/e_so_cell_l_loop" blend_set="all"/>
+	<anim name="e_so_cell_r_loop" file="anims/shared/special/e_so_cell_r_loop" blend_set="all"/>
+	<anim name="e_so_run_short_l" file="anims/shared/special/e_so_run_short_l" blend_set="all"/>
+	<anim name="e_so_run_short_r" file="anims/shared/special/e_so_run_short_r" blend_set="all"/>
+	<anim name="e_so_run_long_r" file="anims/shared/special/e_so_run_long_r" blend_set="all"/>
+	<anim name="e_so_run_long_l" file="anims/shared/special/e_so_run_long_l" blend_set="all"/>
+	
+	
+	
+	<anim name="e_so_idle_rifle_guard_var1" file="anims/shared/special/e_so_idle_rifle_guard_var1" blend_set="all"/>
+	<anim name="e_so_idle_rifle_guard_var2" file="anims/shared/special/e_so_idle_rifle_guard_var2" blend_set="all"/>
+	<anim name="e_so_idle_rifle_guard_var3" file="anims/shared/special/e_so_idle_rifle_guard_var3" blend_set="all"/>
+	<anim name="e_so_idle_rifle_guard_var4" file="anims/shared/special/e_so_idle_rifle_guard_var4" blend_set="all"/>
+	
+	
+	
+	
+	<anim name="e_so_wheelchair_fail" file="anims/shared/special/e_so_wheelchair_fail" blend_set="all"/>
+	<anim name="e_so_wheelchair_idle" file="anims/shared/special/e_so_wheelchair_idle" blend_set="all"/>
+	<anim name="e_so_gun_point" file="anims/shared/special/e_so_gun_point" blend_set="all"/>
+	<anim name="e_so_gun_point_fail" file="anims/shared/special/e_so_gun_point_fail" blend_set="all"/>
+	<anim name="e_so_hands_up_fail" file="anims/shared/special/e_so_hands_up_fail" blend_set="all"/>
+	<anim name="e_so_hands_up" file="anims/shared/special/e_so_hands_up" blend_set="all"/>
+	
+
+	<anim name="e_sp_uno_ground" file="anims/shared/special/e_sp_uno_ground" blend_set="all"/>
+	<anim name="e_sp_uno_wall" file="anims/shared/special/e_sp_uno_wall" blend_set="all"/>
+	<anim name="e_sp_uno_jump_in" file="anims/shared/special/e_sp_uno_jump_in" blend_set="all"/>
+	
+	
+	
+	<anim name="e_sp_boat_stairs_var1" file="anims/shared/special/e_sp_boat_stairs_var1" blend_set="all"/>
+	<anim name="e_sp_boat_stairs_var2" file="anims/shared/special/e_sp_boat_stairs_var2" blend_set="all"/>
+	<anim name="e_sp_boat_stairs_var3" file="anims/shared/special/e_sp_boat_stairs_var3" blend_set="all"/>
+	<anim name="e_sp_boat_climb" file="anims/shared/special/e_sp_boat_climb" blend_set="all"/>
+	
+	<anim name="e_sp_over_3_35m" file="anims/shared/special/e_sp_over_3_35m" blend_set="all"/>
+	<anim name="e_sp_jump_down_heli_right" file="anims/shared/special/e_sp_jump_down_heli_right" blend_set="all"/>
+	<anim name="e_sp_jump_down_heli_left" file="anims/shared/special/e_sp_jump_down_heli_left" blend_set="all"/>
+	<anim name="e_sp_hurt_from_truck" file="anims/shared/special/e_sp_hurt_from_truck" blend_set="all"/>
+	<anim name="e_sp_aim_rifle_crh" file="anims/shared/special/e_sp_aim_rifle_crh" blend_set="all"/>
+	<anim name="e_sp_aim_rifle_std" file="anims/shared/special/e_sp_aim_rifle_std" blend_set="all"/>
+	<anim name="e_sp_crh_to_std_rifle" file="anims/shared/special/e_sp_crh_to_std_rifle" blend_set="all"/>
+	<anim name="e_sp_down_12m" file="anims/shared/special/e_sp_down_12m" blend_set="all"/>
+	<anim name="e_sp_down_16m" file="anims/shared/special/e_sp_down_16m" blend_set="all"/>
+	<anim name="e_sp_down_17m" file="anims/shared/special/e_sp_down_17m" blend_set="all"/>
+	<anim name="e_sp_down_17m_var2" file="anims/shared/special/e_sp_down_17m_var2" blend_set="all"/>
+	<anim name="e_sp_up_1_down_9_25m" file="anims/shared/special/e_sp_up_1_down_9_25m" blend_set="all"/>
+	<anim name="e_sp_up_2_75_down_1_25m" file="anims/shared/special/e_sp_up_2_75_down_1_25m" blend_set="all"/>
+	<anim name="e_sp_dwn_10_25m" file="anims/shared/special/e_sp_dwn_10_25m" blend_set="all"/>
+	<anim name="e_sp_dwn_11m" file="anims/shared/special/e_sp_dwn_11m" blend_set="all"/>
+	<anim name="e_sp_up_1_down_9m" file="anims/shared/special/e_sp_up_1_down_9m" blend_set="all"/>
+	<anim name="e_sp_up_1_down_13m" file="anims/shared/special/e_sp_up_1_down_13m" blend_set="all"/>
+	<anim name="e_sp_down_8m" file="anims/shared/special/e_sp_down_8m" blend_set="all"/>
+	<anim name="e_sp_window_down_4m" file="anims/shared/special/e_sp_window_down_4m" blend_set="all"/>
+	<anim name="e_sp_window_down_8m" file="anims/shared/special/e_sp_window_down_8m" blend_set="all"/>
+	<anim name="e_sp_down_12m_var2" file="anims/shared/special/e_sp_down_12m_var2" blend_set="all"/>
+	<anim name="e_sp_down_8m_var2" file="anims/shared/special/e_sp_down_8m_var2" blend_set="all"/>
+	<anim name="e_sp_down_4m_var2" file="anims/shared/special/e_sp_down_4m_var2" blend_set="all"/>
+	<anim name="e_sp_down_4m_var1" file="anims/shared/special/e_sp_down_4m_var1" blend_set="all"/>
+	<anim name="e_sp_down_9_6m" file="anims/shared/special/e_sp_down_9_6m" blend_set="all"/>
+	<anim name="e_sp_fwd_4m_jump_dwn_4_5m" file="anims/shared/special/e_sp_fwd_4m_jump_dwn_4_5m" blend_set="all"/>
+	<anim name="e_sp_dwn_5m" file="anims/shared/special/e_sp_dwn_5m" blend_set="all"/>
+	<anim name="e_sp_dwn_10m" file="anims/shared/special/e_sp_dwn_10m" blend_set="all"/>
+	<anim name="e_sp_dwn_11m_var2" file="anims/shared/special/e_sp_dwn_11m_var2" blend_set="all"/>
+	<anim name="e_sp_run_jump_far" file="anims/shared/special/e_sp_run_jump_far" blend_set="all"/>
+	<anim name="e_sp_repel_into_window" file="anims/shared/special/e_sp_repel_into_window" blend_set="all"/>
+	<anim name="e_sp_down_16m_right" file="anims/shared/special/e_sp_down_16m_right" blend_set="all"/>
+	<anim name="e_sp_down_16m_left" file="anims/shared/special/e_sp_down_16m_left" blend_set="all"/>
+	<anim name="e_sp_down_8m_right" file="anims/shared/special/e_sp_down_8m_right" blend_set="all"/>
+	<anim name="e_sp_down_8m_left" file="anims/shared/special/e_sp_down_8m_left" blend_set="all"/>
+	<anim name="e_sp_up_1_down_9m_var2" file="anims/shared/special/e_sp_up_1_down_9m_var2" blend_set="all"/>
+	<anim name="e_sp_up_1_down_9m_var3" file="anims/shared/special/e_sp_up_1_down_9m_var3" blend_set="all"/>
+	<anim name="e_sp_up_1_5_down_9m" file="anims/shared/special/e_sp_up_1_5_down_9m" blend_set="all"/>
+	<anim name="e_sp_down_8m_var3" file="anims/shared/special/e_sp_down_8m_var3" blend_set="all"/>
+	<anim name="e_sp_down_8m_var4" file="anims/shared/special/e_sp_down_8m_var4" blend_set="all"/>
+	<anim name="e_sp_armored_truck_1st" file="anims/shared/special/e_sp_armored_truck_1st" blend_set="all"/>
+	<anim name="e_sp_armored_truck_2nd" file="anims/shared/special/e_sp_armored_truck_2nd" blend_set="all"/>
+	<anim name="e_sp_armored_truck_3rd" file="anims/shared/special/e_sp_armored_truck_3rd" blend_set="all"/>
+	<anim name="e_sp_dizzy_stand" file="anims/shared/special/e_sp_dizzy_stand" blend_set="all"/>
+	<anim name="e_sp_dizzy_get_up" file="anims/shared/special/e_sp_dizzy_get_up" blend_set="all"/>
+	<anim name="e_sp_dizzy_walk_left" file="anims/shared/special/e_sp_dizzy_walk_left" blend_set="all"/>	
+	<anim name="e_sp_dizzy_walk_right" file="anims/shared/special/e_sp_dizzy_walk_right" blend_set="all"/>	
+	<anim name="e_sp_dizzy_fall_get_up" file="anims/shared/special/e_sp_dizzy_fall_get_up" blend_set="all"/>	
+	<anim name="e_sp_dizzy_stand_v2" file="anims/shared/special/e_sp_dizzy_stand_v2" blend_set="all"/>
+	<anim name="e_sp_dizzy_walk_inplace" file="anims/shared/special/e_sp_dizzy_walk_inplace" blend_set="all"/>
+	<anim name="e_sp_dizzy_look_around" file="anims/shared/special/e_sp_dizzy_look_around" blend_set="all"/>
+	<anim name="e_sp_clk_3m_dwn_vent" file="anims/shared/special/e_sp_clk_3m_dwn_vent" blend_set="all"/>
+	<anim name="e_sp_clk_3_5m_dwn_vent" file="anims/shared/special/e_sp_clk_3_5m_dwn_vent" blend_set="all"/>
+	<anim name="e_sp_clk_3_5m_dwn_vent_var2" file="anims/shared/special/e_sp_clk_3_5m_dwn_vent_var2" blend_set="all"/>
+	<anim name="e_sp_clk_up_manhole" file="anims/shared/special/e_sp_clk_up_manhole" blend_set="all"/>
+	<anim name="e_sp_clk_up_water" file="anims/shared/special/e_sp_clk_up_water" blend_set="all"/>
+	<anim name="e_sp_clk_over_2_5m" file="anims/shared/special/e_sp_clk_over_2_5m" blend_set="all"/>
+	<anim name="e_sp_clk_jump_dwn_5m_heli_l" file="anims/shared/special/e_sp_clk_jump_dwn_5m_heli_l" blend_set="all"/>
+	<anim name="e_sp_clk_4_5m_dwn_vent" file="anims/shared/special/e_sp_clk_4_5m_dwn_vent" blend_set="all"/>
+	<anim name="e_sp_unarmed_helicopter_step_out1" file="anims/shared/special/e_sp_unarmed_helicopter_step_out1" blend_set="all"/>
+	<anim name="e_sp_unarmed_helicopter_step_out2" file="anims/shared/special/e_sp_unarmed_helicopter_step_out2" blend_set="all"/>
+	<anim name="e_sp_elevator_escape" file="anims/shared/special/e_sp_elevator_escape" blend_set="all"/>
+	<anim name="e_sp_climb_over_2m" file="anims/shared/special/e_sp_climb_over_2m" blend_set="all"/>
+	<anim name="e_sp_window_down_7n25m" file="anims/shared/special/e_sp_window_down_7n25m" blend_set="all"/>
+	<anim name="e_sp_over_1m_down_7m" file="anims/shared/special/e_sp_over_1m_down_7m" blend_set="all"/>
+	<anim name="e_sp_over_1_3m_down_8_3_m" file="anims/shared/special/e_sp_over_1_3m_down_8_3_m" blend_set="all"/>
+	<anim name="e_sp_climb_up_3m_down_1m" file="anims/shared/special/e_sp_climb_up_3m_down_1m" blend_set="all"/>
+	<anim name="e_sp_climb_up_6m_down_1m" file="anims/shared/special/e_sp_climb_up_6m_down_1m" blend_set="all"/>
+	<anim name="e_sp_bulldozer_turn_chair" file="anims/shared/special/e_sp_bulldozer_turn_chair" blend_set="all"/>
+	<anim name="e_sp_clk_exit_vent_1_5m" file="anims/shared/special/e_sp_clk_exit_vent_1_5m" blend_set="all"/>
+	<anim name="e_sp_over_1m_swing_dwn_7m_window" file="anims/shared/special/e_sp_over_1m_swing_dwn_7m_window" blend_set="all"/>
+	<anim name="e_sp_over_1m_dwn_8m_swing" file="anims/shared/special/e_sp_over_1m_dwn_8m_swing" blend_set="all"/>
+	<anim name="e_sp_over_1m_dwn_7m" file="anims/shared/special/e_sp_over_1m_dwn_7m" blend_set="all"/>
+	<anim name="e_sp_swing_dwn_7m_window" file="anims/shared/special/e_sp_swing_dwn_7m_window" blend_set="all"/>
+	<anim name="e_sp_swing_in_4_2m" file="anims/shared/special/e_sp_swing_in_4_2m" blend_set="all"/>
+	<anim name="e_sp_kick_enter" file="anims/shared/special/e_nl_kick_enter" blend_set="all"/>
+	<anim name="e_sp_kick" file="anims/shared/special/e_sp_kick" blend_set="all"/>
+	<anim name="e_sp_kicked" file="anims/shared/special/e_sp_kicked" blend_set="all"/>
+	<anim name="e_sp_fight_winner" file="anims/shared/special/e_sp_fight_winner" blend_set="all"/>
+	<anim name="e_sp_stand_sniper_loop" file="anims/shared/special/e_so_stand_sniper_loop" blend_set="all"/>
+	<anim name="e_sp_right_to_roof" file="anims/shared/special/e_sp_right_to_roof" blend_set="all"/>
+	
+	<anim name="e_sp_climb_up_bridge_v2" file="anims/shared/special/e_sp_climb_up_bridge_v2" blend_set="all"/>
+	<anim name="e_sp_right_to_floor_4" file="anims/shared/special/e_sp_right_to_floor_4" blend_set="all"/>
+	<anim name="e_sp_right_to_floor_3" file="anims/shared/special/e_sp_right_to_floor_3" blend_set="all"/>
+	<anim name="e_sp_right_to_floor_2" file="anims/shared/special/e_sp_right_to_floor_2" blend_set="all"/>
+	
+	<anim name="e_sp_right_to_floor_3_var2" file="anims/shared/special/e_sp_right_to_floor_3_var2" blend_set="all"/>
+	<anim name="e_sp_right_to_floor_2_var2" file="anims/shared/special/e_sp_right_to_floor_2_var2" blend_set="all"/>
+	<anim name="e_sp_right_to_floor_4_var2" file="anims/shared/special/e_sp_right_to_floor_4_var2" blend_set="all"/>
+	<anim name="e_sp_left_to_floor_2_var2" file="anims/shared/special/e_sp_left_to_floor_2_var2" blend_set="all"/>
+	<anim name="e_sp_left_to_floor_1_3_4_var2" file="anims/shared/special/e_sp_left_to_floor_1_3_4_var2" blend_set="all"/>
+	
+	<anim name="e_sp_left_to_roof" file="anims/shared/special/e_sp_left_to_roof" blend_set="all"/>
+	<anim name="e_sp_back_to_roof" file="anims/shared/special/e_sp_back_to_roof" blend_set="all"/>
+	<anim name="e_sp_left_to_floor_4" file="anims/shared/special/e_sp_left_to_floor_4" blend_set="all"/>
+	<anim name="e_sp_left_to_floor_3" file="anims/shared/special/e_sp_left_to_floor_3" blend_set="all"/>
+	<anim name="e_sp_left_to_floor_2" file="anims/shared/special/e_sp_left_to_floor_2" blend_set="all"/>
+	<anim name="e_sp_left_to_floor_1" file="anims/shared/special/e_sp_left_to_floor_1" blend_set="all"/>
+	<anim name="e_sp_up_1_down_19_5m" file="anims/shared/special/e_sp_up_1_down_19_5m" blend_set="all"/>
+	<anim name="e_sp_back_to_floor_3" file="anims/shared/special/e_sp_back_to_floor_3" blend_set="all"/>
+	<anim name="e_sp_back_to_floor_2" file="anims/shared/special/e_sp_back_to_floor_2" blend_set="all"/>
+	<anim name="e_sp_back_to_floor_1" file="anims/shared/special/e_sp_back_to_floor_1" blend_set="all"/>
+	<anim name="e_sp_down_10m_swing_in_var3" file="anims/shared/special/e_sp_down_10m_swing_in_var3" blend_set="all"/>
+	<anim name="e_sp_down_10m_swing_in_var2" file="anims/shared/special/e_sp_down_10m_swing_in_var2" blend_set="all"/>
+	<anim name="e_sp_fight_looser_r" file="anims/shared/special/e_sp_fight_looser_r" blend_set="all"/>
+	<anim name="e_sp_fight_looser_l" file="anims/shared/special/e_sp_fight_looser_l" blend_set="all"/>
+	<anim name="e_sp_loop_aim_shout" file="anims/shared/special/e_sp_loop_aim_shout" blend_set="all"/>
+	<anim name="e_sp_loop_hands_up" file="anims/shared/special/e_sp_loop_hands_up" blend_set="all"/>
+	<anim name="e_sp_kick_enter_bulldozer" file="anims/shared/special/e_sp_kick_enter_bulldozer" blend_set="all"/>
+	<anim name="e_sp_fwd_5m_dwn_11m" file="anims/shared/special/e_sp_fwd_5m_dwn_11m" blend_set="all"/>
+	<anim name="e_sp_up_1m_dwn_4_5m_roll" file="anims/shared/special/e_sp_up_1m_dwn_4_5m_roll" blend_set="all"/>
+	<anim name="e_sp_up_1m_dwn_4_5m" file="anims/shared/special/e_sp_up_1m_dwn_4_5m" blend_set="all"/>
+	<anim name="e_sp_over_3m" file="anims/shared/special/e_sp_over_3m" blend_set="all"/>
+	<anim name="e_sp_crawl_out_down_1m_var1" file="anims/shared/special/e_sp_crawl_out_down_1m_var1" blend_set="all"/>
+	<anim name="e_sp_crawl_out_down_1m_var2" file="anims/shared/special/e_sp_crawl_out_down_1m_var2" blend_set="all"/>
+	<anim name="e_sp_crawl_out_down_1m_var3" file="anims/shared/special/e_sp_crawl_out_down_1m_var3" blend_set="all"/>
+	<anim name="e_sp_over_3m_fwd_2m_roll" file="anims/shared/special/e_sp_over_3m_fwd_2m_roll" blend_set="all"/>
+	<anim name="e_sp_over_3m_fwd_4m" file="anims/shared/special/e_sp_over_3m_fwd_4m" blend_set="all"/>
+	<anim name="e_sp_run_2m_turn_r_10m" file="anims/shared/special/e_sp_run_2m_turn_r_10m" blend_set="all"/>
+	<anim name="e_sp_run_2m_turn_l_10m" file="anims/shared/special/e_sp_run_2m_turn_l_10m" blend_set="all"/>
+	<anim name="e_sp_run_2m_turn_r_14m" file="anims/shared/special/e_sp_run_2m_turn_r_14m" blend_set="all"/>
+	<anim name="e_sp_run_2m_turn_l_14m" file="anims/shared/special/e_sp_run_2m_turn_l_14m" blend_set="all"/>
+	<anim name="e_sp_over_1m_dwn_12m" file="anims/shared/special/e_sp_over_1m_dwn_12m" blend_set="all"/>
+	<anim name="e_sp_up_ 2_75_fwd_2_7_dwn_2_75m" file="anims/shared/special/e_sp_up_ 2_75_fwd_2_7_dwn_2_75m" blend_set="all"/>
+	<anim name="e_sp_dwn_22m" file="anims/shared/special/e_sp_dwn_22m" blend_set="all"/>
+	<anim name="e_sp_dwn_21m" file="anims/shared/special/e_sp_dwn_21m" blend_set="all"/>
+	<anim name="e_sp_down_13m" file="anims/shared/special/e_sp_down_13m" blend_set="all"/>
+	<anim name="e_sp_down_15m_var1" file="anims/shared/special/e_sp_down_15m_var1" blend_set="all"/>
+	<anim name="e_sp_down_15m_var2" file="anims/shared/special/e_sp_down_15m_var2" blend_set="all"/>
+	<anim name="e_sp_down_15m_var3" file="anims/shared/special/e_sp_down_15m_var3" blend_set="all"/>
+	<anim name="e_sp_down_4_5m" file="anims/shared/special/e_sp_down_4_5m" blend_set="all"/>
+	<anim name="e_sp_down_train_roof_hatch" file="anims/shared/special/e_sp_down_train_roof_hatch" blend_set="all"/>
+	<anim name="e_sp_climb_over_4m" file="anims/shared/special/e_sp_climb_over_4m" blend_set="all"/>
+	<anim name="e_sp_barn_door_open_r" file="anims/shared/special/e_so_barn_door_open_r" blend_set="all"/>
+	<anim name="e_sp_barn_door_open_l" file="anims/shared/special/e_so_barn_door_open_l" blend_set="all"/>
+	<anim name="e_sp_over_2_3m" file="anims/shared/special/e_sp_over_2_3m" blend_set="all"/>
+	
+	<!-- Gestures -->
+	<anim name="cmd_stop_rifle" file="anims/shared/rifle/combat/cbt_std_halt_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_stop_pistol" file="anims/shared/pistol/combat/cbt_std_halt_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_stop_akimbo_pistol" file="anims/shared/akimbo_pistol/combat/cbt_std_halt_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_stop_bow" file="anims/shared/bow/combat/cbt_std_halt_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_come_rifle" file="anims/shared/rifle/combat/cbt_std_comehere_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_come_pistol" file="anims/shared/pistol/combat/cbt_std_comehere_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_come_akimbo_pistol" file="anims/shared/akimbo_pistol/combat/cbt_std_comehere_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_come_bow" file="anims/shared/bow/combat/cbt_std_comehere_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_down_rifle" file="anims/shared/rifle/combat/cbt_std_arrest_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_down_pistol" file="anims/shared/pistol/combat/cbt_std_arrest_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_down_akimbo_pistol" file="anims/shared/akimbo_pistol/combat/cbt_std_arrest_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_down_bow" file="anims/shared/bow/combat/cbt_std_arrest_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_point_rifle" file="anims/shared/rifle/combat/cbt_std_point_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_point_pistol" file="anims/shared/pistol/combat/cbt_std_point_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_point_akimbo_pistol" file="anims/shared/akimbo_pistol/combat/cbt_std_point_gesture_var1" blend_set="upper_body_aim"/>
+	<anim name="cmd_point_bow" file="anims/shared/bow/combat/cbt_std_point_gesture_var1" blend_set="upper_body_aim"/>
+	
+	<!-- Nav Link -->
+	<anim name="e_sp_climb_up_bridge" file="anims/shared/special/e_sp_climb_up_bridge" blend_set="all"/>
+	<anim name="e_nl_ss_run_dunk_hood" file="anims/shared/special/e_nl_ss_run_dunk_hood" blend_set="all"/>
+	<anim name="gen_stun_conc" file="anims/shared/rifle/generic/gen_hrt_concussion_gen_var1" blend_set="all"/>
+	<anim name="gen_stun_conc_shield" file="anims/shared/boss/shield/cbt_std_hurt_concussion_var1" blend_set="all"/>
+	<anim name="e_nl_up_0_5_down_5_5m" file="anims/shared/special/e_nl_up_0_5_down_5_5m" blend_set="all"/>
+	<anim name="e_nl_up_2_75_down_1m" file="anims/shared/special/e_nl_up_2_75_down_1m" blend_set="all"/>
+	<anim name="e_nl_climb_over_2m" file="anims/shared/special/e_nl_climb_over_2m" blend_set="all"/>
+	<anim name="e_nl_jump_dwn_1_4m_fwd_2_35m" file="anims/shared/special/e_nl_jump_dwn_1_4m_fwd_2_35m" blend_set="all"/>
+	<anim name="e_nl_jump_over_1m_var1" file="anims/shared/special/e_nl_jump_over_1m_var1" blend_set="all"/>
+	<anim name="e_nl_over_1_9m" file="anims/shared/special/e_nl_over_1_9m" blend_set="all"/>
+	<anim name="e_nl_jump_over_1m_var2" file="anims/shared/special/e_nl_jump_over_1m_var2" blend_set="all"/>
+	<anim name="e_nl_jump_down_2_5m" file="anims/shared/special/e_nl_jump_down_2_5m" blend_set="all"/>
+	<anim name="e_nl_down_5_5m" file="anims/shared/special/e_nl_down_5_5m" blend_set="all"/>
+	<anim name="e_nl_down_5_5m_var2" file="anims/shared/special/e_nl_down_5_5m_var2" blend_set="all"/>
+	<anim name="e_nl_down_4m" file="anims/shared/special/e_nl_down_4m" blend_set="all"/>
+	<anim name="e_nl_up_0_8_down_1_25m" file="anims/shared/special/e_nl_up_0_8_down_1_25m" blend_set="all"/>
+	<anim name="e_nl_up_1_25_down_0_8m" file="anims/shared/special/e_nl_up_1_25_down_0_8m" blend_set="all"/>
+	<anim name="e_nl_up_1m_down_4m" file="anims/shared/special/e_nl_up_1m_down_4m" blend_set="all"/>
+	<anim name="e_nl_up_2m_down_1m" file="anims/shared/special/e_nl_up_2m_down_1m" blend_set="all"/>
+	<anim name="e_nl_up_1m_down_2m" file="anims/shared/special/e_nl_up_1m_down_2m" blend_set="all"/>
+	<anim name="e_nl_up_1_75m" file="anims/shared/special/e_nl_up_1_75m" blend_set="all"/>
+	<anim name="e_nl_down_1_75m" file="anims/shared/special/e_nl_down_1_75m" blend_set="all"/>
+	<anim name="e_nl_up_5_down_1m" file="anims/shared/special/e_nl_up_5_down_1m" blend_set="all"/>
+	<anim name="e_nl_kick_enter" file="anims/shared/special/e_nl_kick_enter" blend_set="all"/>
+	<anim name="e_nl_kick_enter_special" file="anims/shared/special/e_nl_kick_enter_special" blend_set="all"/>
+	<anim name="e_nl_open_door" file="anims/shared/special/e_nl_open_door" blend_set="all"/>
+	<anim name="e_nl_plant_run_through" file="anims/shared/special/e_nl_plant_run_through" blend_set="all"/>
+	<anim name="e_nl_crawl_3_5m" file="anims/shared/special/e_nl_crawl_3_5m" blend_set="all"/>
+	<anim name="e_nl_up_1_5m_dwn_1m" file="anims/shared/special/e_nl_up_1_5m_dwn_1m" blend_set="all"/>
+	<anim name="e_nl_down_stairs_4m_hos_pis" file="anims/shared/special/e_nl_down_stairs_4m_pis" blend_set="upper_body_aim"/>
+	<anim name="e_nl_down_stairs_4m_cbt_pis" file="anims/shared/special/e_nl_down_stairs_4m_pis" blend_set="upper_body_aim"/>
+	<anim name="e_nl_down_stairs_4m_hos_rif" file="anims/shared/special/e_nl_down_stairs_4m_rif" blend_set="upper_body_aim"/>
+	<anim name="e_nl_down_stairs_4m_cbt_rif" file="anims/shared/special/e_nl_down_stairs_4m_rif" blend_set="upper_body_aim"/>
+	<anim name="e_nl_down_stairs_4m_hos_legs" file="anims/shared/special/e_nl_down_stairs_4m_rif" blend_set="legs_and_root"/>
+	<anim name="e_nl_down_3m" file="anims/shared/special/e_nl_down_3m" blend_set="all"/>
+	<anim name="e_nl_over_1m_fwd_1_5m" file="anims/shared/special/e_nl_over_1m_fwd_1_5m" blend_set="all"/>
+	
+	<anim name="e_nl_up_2_5m_down_1m" file="anims/shared/special/e_nl_up_2_5m_down_1m" blend_set="all"/>
+	<anim name="e_nl_up_1m_down_2_5m" file="anims/shared/special/e_nl_up_1m_down_2_5m" blend_set="all"/>
+	<anim name="e_nl_jump_dwn_3m_fwd_7m_dwn_0_5m" file="anims/shared/special/e_nl_jump_dwn_3m_fwd_7m_dwn_0_5m" blend_set="all"/>
+	<anim name="e_nl_pool_jump" file="anims/shared/special/e_nl_pool_jump" blend_set="all"/>
+	<anim name="e_nl_up_5_5m_down_0_5m" file="anims/shared/special/e_nl_up_5_5m_down_0_5m" blend_set="all"/>
+	<anim name="e_nl_up_5_5m_down_1m" file="anims/shared/special/e_nl_up_5_5m_down_1m" blend_set="all"/>
+	<anim name="e_nl_jump_over_1m_shoot_cbt_rifle" file="anims/shared/special/e_nl_jump_over_1m_shoot_cbt" blend_set="upper_body_aim"/>
+	<anim name="e_nl_jump_over_1m_shoot_hos_pis" file="anims/shared/special/e_nl_jump_over_1m_shoot_pis" blend_set="upper_body_aim"/>
+	<anim name="e_nl_jump_over_1m_shoot_hos_rifle" file="anims/shared/special/e_nl_jump_over_1m_shoot" blend_set="upper_body_aim"/>
+	<anim name="e_nl_jump_over_1m_shoot_cbt_pis" file="anims/shared/special/e_nl_jump_over_1m_shoot_pis_cbt" blend_set="upper_body_aim"/>
+	<anim name="e_nl_jump_over_1m_shoot_hos_legs" file="anims/shared/special/e_nl_jump_over_1m_shoot" blend_set="legs_and_root"/>
+	<anim name="e_nl_down_7m_rappel" file="anims/shared/special/e_nl_down_7m_rappel" blend_set="all"/>
+	<anim name="e_nl_down_10m_rappel" file="anims/shared/special/e_nl_down_10m_rappel" blend_set="all"/>
+	<anim name="e_nl_down_8_5m_rappel" file="anims/shared/special/e_nl_down_8_5m_rappel" blend_set="all"/>
+	<anim name="e_nl_dwn_3_75m" file="anims/shared/special/e_nl_dwn_3_75m" blend_set="all"/>
+	<anim name="e_nl_down_7m_swing_in" file="anims/shared/special/e_nl_down_7m_swing_in" blend_set="all"/>
+	<anim name="e_nl_down_6m_swing_in" file="anims/shared/special/e_nl_down_6m_swing_in" blend_set="all"/>
+	<anim name="e_nl_down_6m_swing_in_var2" file="anims/shared/special/e_nl_down_6m_swing_in_var2" blend_set="all"/>
+	<anim name="e_nl_up_6_down_1m_right" file="anims/shared/special/e_nl_up_6_down_1m_right" blend_set="all"/>
+	<anim name="e_nl_up_4_down_1m_right" file="anims/shared/special/e_nl_up_4_down_1m_right" blend_set="all"/>
+	<anim name="e_nl_down_5m_swing_in" file="anims/shared/special/e_nl_down_5m_swing_in" blend_set="all"/>
+	<anim name="e_nl_down_8m_swing_in" file="anims/shared/special/e_nl_down_8m_swing_in" blend_set="all"/>
+	<anim name="e_nl_down_4_1m_swing_in" file="anims/shared/special/e_nl_down_4_1m_swing_in" blend_set="all"/>
+	<anim name="e_nl_down_9m_swing_in" file="anims/shared/special/e_nl_down_9m_swing_in" blend_set="all"/>
+	<anim name="e_nl_down_9_3m_rappel" file="anims/shared/special/e_nl_down_9_3m_rappel" blend_set="all"/>
+	<anim name="e_nl_down_4m_roll" file="anims/shared/special/e_nl_down_4m_roll" blend_set="all"/>
+	<anim name="e_nl_jump_climb_through_barbwire" file="anims/shared/special/e_nl_jump_climb_through_barbwire" blend_set="all"/>
+	<anim name="e_nl_over_1m_dwn_5m_roll" file="anims/shared/special/e_nl_over_1m_dwn_5m_roll" blend_set="all"/>
+	<anim name="e_nl_over_1m_dwn_5m" file="anims/shared/special/e_nl_over_1m_dwn_5m" blend_set="all"/>
+	<anim name="e_nl_over_1m_dwn_5_5m_roll" file="anims/shared/special/e_nl_over_1m_dwn_5_5m_roll" blend_set="all"/>
+	<anim name="e_nl_over_1m_dwn_5_5m" file="anims/shared/special/e_nl_over_1m_dwn_5_5m" blend_set="all"/>
+	<anim name="e_nl_over_1m_dwn_6m_roll" file="anims/shared/special/e_nl_over_1m_dwn_6m_roll" blend_set="all"/>
+	<anim name="e_nl_over_1m_dwn_7m" file="anims/shared/special/e_nl_over_1m_dwn_7m" blend_set="all"/>
+	<anim name="e_nl_over_1m_dwn_6m" file="anims/shared/special/e_nl_over_1m_dwn_6m" blend_set="all"/>
+	<anim name="e_nl_over_2_4m" file="anims/shared/special/e_nl_over_2_4m" blend_set="all"/>	
+	<anim name="e_nl_jump_4m_long_5m_down" file="anims/shared/special/e_nl_jump_4m_long_5m_down" blend_set="all"/>
+	<anim name="e_nl_up_0_25m_dwn_5_75m" file="anims/shared/special/e_nl_up_0_25m_dwn_5_75m" blend_set="all"/>
+	<anim name="e_nl_up_5_75m_dwn_0_25m_var2" file="anims/shared/special/e_nl_up_5_75m_dwn_0_25m_var2" blend_set="all"/>
+	<anim name="e_nl_up_0_25m_dwn_0_75m" file="anims/shared/special/e_nl_up_0_25m_dwn_0_75m" blend_set="all"/>
+	<anim name="e_nl_up_0_75m_dwn_0_25m" file="anims/shared/special/e_nl_up_0_75m_dwn_0_25m" blend_set="all"/>
+	<anim name="e_nl_up_5_75m_dwn_0_25m" file="anims/shared/special/e_nl_up_5_75m_dwn_0_25m" blend_set="all"/>
+	<anim name="e_nl_up_1_5_down_2_75m" file="anims/shared/special/e_nl_up_1_5_down_2_75m" blend_set="all"/>
+	<anim name="e_nl_up_1_5_down_3_4m" file="anims/shared/special/e_nl_up_1_5_down_3_4m" blend_set="all"/>
+	<anim name="e_nl_up_2_75_down_1_5m" file="anims/shared/special/e_nl_up_2_75_down_1_5m" blend_set="all"/>
+	<anim name="e_nl_up_3_4_down_1_5m" file="anims/shared/special/e_nl_up_3_4_down_1_5m" blend_set="all"/>
+	<anim name="e_nl_down_13m" file="anims/shared/special/e_nl_down_13m" blend_set="all"/>
+	<anim name="e_nl_over_3_2m" file="anims/shared/special/e_nl_over_3_2m" blend_set="all"/>
+	<anim name="e_nl_jump_4m_long_5m_down_roll" file="anims/shared/special/e_nl_jump_4m_long_5m_down_roll" blend_set="all"/>
+	<anim name="e_nl_over_1m_dwn_10_5m" file="anims/shared/special/e_nl_over_1m_dwn_10_5m" blend_set="all"/>
+	<anim name="e_nl_over_1m_dwn_13m" file="anims/shared/special/e_nl_over_1m_dwn_13m" blend_set="all"/>
+	<anim name="e_nl_jump_climb_through_barbwire_var2" file="anims/shared/special/e_nl_jump_climb_through_barbwire_var2" blend_set="all"/>
+	<anim name="e_nl_jump_over_2_5m" file="anims/shared/special/e_nl_jump_over_2_5m" blend_set="all"/>
+	<anim name="e_nl_down_6m" file="anims/shared/special/e_nl_down_6m" blend_set="all"/>
+	<anim name="e_nl_down_7_75m" file="anims/shared/special/e_nl_down_7_75m" blend_set="all"/>
+	<anim name="e_nl_over_1m_dwn_8m" file="anims/shared/special/e_nl_over_1m_dwn_8m" blend_set="all"/>
+	<anim name="e_nl_over_1_5m_dwn_8m" file="anims/shared/special/e_nl_over_1_5m_dwn_8m" blend_set="all"/>
+	<anim name="e_nl_over_1_7m_dwn_8m" file="anims/shared/special/e_nl_over_1_7m_dwn_8m" blend_set="all"/>
+	<anim name="e_nl_over_1m_dwn_11_5m" file="anims/shared/special/e_nl_over_1m_dwn_11_5m" blend_set="all"/>
+	<anim name="e_nl_over_1m_dwn_11m" file="anims/shared/special/e_nl_over_1m_dwn_11m" blend_set="all"/>
+	<anim name="e_nl_over_1m_dwn_12m" file="anims/shared/special/e_nl_over_1m_dwn_12m" blend_set="all"/>
+	<anim name="e_nl_up_1_down_4_8m" file="anims/shared/special/e_nl_up_1_down_4_8m" blend_set="all"/>
+	<anim name="e_nl_up_1_5m_down_5m" file="anims/shared/special/e_nl_up_1_5m_down_5m" blend_set="all"/>
+	<anim name="e_nl_up_5_5m" file="anims/shared/special/e_nl_up_5_5m" blend_set="all"/>
+	<anim name="e_nl_up_0_8m_down_2_3m" file="anims/shared/special/e_nl_up_0_8m_down_2_3m" blend_set="all"/>
+	<anim name="e_nl_up_1m_dwn_9m" file="anims/shared/special/e_nl_up_1m_dwn_9m" blend_set="all"/>
+	<anim name="e_nl_over_3m_fwd_4m" file="anims/shared/special/e_nl_over_3m_fwd_4m" blend_set="all"/>
+	<anim name="e_nl_over_3m_fwd_2m_roll" file="anims/shared/special/e_nl_over_3m_fwd_2m_roll" blend_set="all"/>
+	<anim name="e_nl_climb_over_3m" file="anims/shared/special/e_nl_climb_over_3m" blend_set="all"/>
+	<anim name="e_nl_jump_over_0_5m" file="anims/shared/special/e_nl_jump_over_0_5m" blend_set="all"/>
+	<anim name="e_nl_press_button_enter" file="anims/shared/special/e_nl_press_button_enter" blend_set="all"/>
+	<anim name="e_nl_down_4_fwd_4m" file="anims/shared/special/e_nl_down_4_fwd_4m" blend_set="all"/>
+	<anim name="e_nl_fwd_4m" file="anims/shared/special/e_nl_fwd_4m" blend_set="all"/>
+	<anim name="e_nl_fwd_2m" file="anims/shared/special/e_nl_fwd_2m" blend_set="all"/>
+	<anim name="e_nl_up_1_down_3m" file="anims/shared/special/e_nl_up_1_down_3m" blend_set="all"/>
+	<anim name="e_nl_climb_right_door_frames_up_4m" file="anims/shared/special/e_nl_climb_right_door_frames_up_4m" blend_set="all"/>
+	<anim name="e_nl_climb_left_door_frames_up_4m" file="anims/shared/special/e_nl_climb_left_door_frames_up_4m" blend_set="all"/>
+	<anim name="e_nl_down_4m_swing_in" file="anims/shared/special/e_nl_down_4m_swing_in" blend_set="all"/>
+	<anim name="e_nl_up_1_down_6_5m" file="anims/shared/special/e_nl_up_1_down_6_5m" blend_set="all"/>
+	<anim name="e_nl_down_6_5m" file="anims/shared/special/e_nl_down_6_5m" blend_set="all"/>
+	<anim name="e_nl_down_6_5m_var2" file="anims/shared/special/e_nl_down_6_5m_var2" blend_set="all"/>
+	<anim name="e_nl_up_4_5m_down_1m" file="anims/shared/special/e_nl_up_4_5m_down_1m" blend_set="all"/>
+	<anim name="e_nl_up_4_5m_down_1m_var2" file="anims/shared/special/e_nl_up_4_5m_down_1m_var2" blend_set="all"/>
+	<anim name="e_nl_up_4_5m_down_1m_var3" file="anims/shared/special/e_nl_up_4_5m_down_1m_var3" blend_set="all"/>
+	<anim name="e_nl_up_1m_down_4_5m" file="anims/shared/special/e_nl_up_1m_down_4_5m" blend_set="all"/>
+	<anim name="e_nl_up_1m_down_4_5m_var2" file="anims/shared/special/e_nl_up_1m_down_4_5m_var2" blend_set="all"/>
+	<anim name="e_nl_up_1m_down_4_5m_var3" file="anims/shared/special/e_nl_up_1m_down_4_5m_var3" blend_set="all"/>
+	<anim name="e_nl_down_4m_swing_in_var2" file="anims/shared/special/e_nl_down_4m_swing_in_var2" blend_set="all"/>
+	<anim name="e_nl_jump_fwd_2m_climb_up_2m" file="anims/shared/special/e_nl_jump_fwd_2m_climb_up_2m" blend_set="all"/>
+	<anim name="e_nl_jump_2_35m_fwd_2m_down" file="anims/shared/special/e_nl_jump_2_35m_fwd_2m_down" blend_set="all"/>
+	<anim name="e_nl_jump_5_25m_fwd_2m_down" file="anims/shared/special/e_nl_jump_5_25m_fwd_2m_down" blend_set="all"/>
+	<anim name="e_nl_jump_5_25m_fwd_2m_down_roll" file="anims/shared/special/e_nl_jump_5_25m_fwd_2m_down_roll" blend_set="all"/>
+	<anim name="e_nl_up_1_down_5m" file="anims/shared/special/e_nl_up_1_down_5m" blend_set="all"/>
+	<anim name="e_nl_up_2_75m" file="anims/shared/special/e_nl_up_2_75m" blend_set="all"/>
+	<anim name="e_nl_up_2_5m" file="anims/shared/special/e_nl_up_2_5m" blend_set="all"/>
+	<anim name="e_nl_up_2m" file="anims/shared/special/e_nl_up_2m" blend_set="all"/>
+	<anim name="e_nl_up_2_25_fwd_2_5_dwn_2_25m" file="anims/shared/special/e_nl_up_2_25_fwd_2_5_dwn_2_25m" blend_set="all"/>
+	<anim name="e_nl_up_0_5m_dwn_5_5m" file="anims/shared/special/e_nl_up_0_5m_dwn_5_5m" blend_set="all"/>
+	<anim name="e_nl_up_0_5m_dwn_9m" file="anims/shared/special/e_nl_up_0_5m_dwn_9m" blend_set="all"/>
+	<anim name="e_nl_up_3m" file="anims/shared/special/e_nl_up_3m" blend_set="all"/>
+	<anim name="e_nl_down_2_75m" file="anims/shared/special/e_nl_down_2_75m" blend_set="all"/>
+	<anim name="e_nl_down_4_25m" file="anims/shared/special/e_nl_down_4_25m" blend_set="all"/>
+	<anim name="e_nl_down_5m" file="anims/shared/special/e_nl_down_5m" blend_set="all"/>
+	<anim name="e_nl_down_7m" file="anims/shared/special/e_nl_down_7m" blend_set="all"/>
+	<anim name="e_nl_up_1_down_8m" file="anims/shared/special/e_nl_up_1_down_8m" blend_set="all"/>
+	<anim name="e_nl_up_1_down_9m" file="anims/shared/special/e_nl_up_1_down_9m" blend_set="all"/>
+	<anim name="e_nl_up_1_down_13m" file="anims/shared/special/e_nl_up_1_down_13m" blend_set="all"/>
+	<anim name="e_nl_up_1_down_15_50m" file="anims/shared/special/e_nl_up_1_down_15_50m" blend_set="all"/>
+	<anim name="e_nl_up_4_6_down_0_6m" file="anims/shared/special/e_nl_up_4_6_down_0_6m" blend_set="all"/>
+	<anim name="e_nl_up_4m_down_1m" file="anims/shared/special/e_nl_up_4m_down_1m" blend_set="all"/>
+	<anim name="e_nl_over_3_35m" file="anims/shared/special/e_nl_over_3_35m" blend_set="all"/>
+	<anim name="e_nl_10m_turn_r_2m" file="anims/shared/special/e_nl_10m_turn_r_2m" blend_set="all"/>
+	<anim name="e_nl_10m_turn_l_2m" file="anims/shared/special/e_nl_10m_turn_l_2m" blend_set="all"/>
+	<anim name="e_nl_down_2_7_fwd_2m" file="anims/shared/special/e_nl_down_2_7_fwd_2m" blend_set="all"/>
+	<anim name="e_nl_up_3_down_1m" file="anims/shared/special/e_nl_up_3_down_1m" blend_set="all"/>
+	<anim name="e_nl_up_6m" file="anims/shared/special/e_nl_up_6m" blend_set="all"/>
+	<anim name="e_nl_up_6m_var2" file="anims/shared/special/e_nl_up_6m_var2" blend_set="all"/>
+	<anim name="e_nl_up_6m_var3" file="anims/shared/special/e_nl_up_6m_var3" blend_set="all"/>
+	<anim name="e_nl_up_12m" file="anims/shared/special/e_nl_up_12m" blend_set="all"/>
+	<anim name="e_nl_up_rats_roof" file="anims/shared/special/e_nl_up_rats_roof" blend_set="all"/>
+	<anim name="e_nl_down_12m" file="anims/shared/special/e_nl_down_12m" blend_set="all"/>
+	<anim name="e_nl_down_12m_var2" file="anims/shared/special/e_nl_down_12m_var2" blend_set="all"/>
+	<anim name="e_nl_down_19m" file="anims/shared/special/e_nl_down_19m" blend_set="all"/>
+	<anim name="e_nl_down_8m" file="anims/shared/special/e_nl_down_8m" blend_set="all"/>
+	<anim name="e_nl_down_7_3m_cliff" file="anims/shared/special/e_nl_down_7_3m_cliff" blend_set="all"/>
+	<anim name="e_nl_down_6_3m_cliff" file="anims/shared/special/e_nl_down_6_3m_cliff" blend_set="all"/>
+	<anim name="e_nl_down_7_6m_cliff" file="anims/shared/special/e_nl_down_7_6m_cliff" blend_set="all"/>
+	<anim name="e_nl_down_10m_cliff" file="anims/shared/special/e_nl_down_10m_cliff" blend_set="all"/>
+	<anim name="e_nl_down_2m" file="anims/shared/special/e_nl_down_2m" blend_set="all"/>
+	<anim name="e_nl_down_1_25m" file="anims/shared/special/e_nl_down_1_25m" blend_set="all"/>
+	<anim name="e_nl_down_1_5m" file="anims/shared/special/e_nl_down_1_5m" blend_set="all"/>
+	<anim name="e_nl_up_1_5m" file="anims/shared/special/e_nl_up_1_5m" blend_set="all"/>
+	<anim name="e_nl_up_4m" file="anims/shared/special/e_nl_up_4m" blend_set="all"/>
+	<anim name="e_nl_up_1_fwd_1_5m" file="anims/shared/special/e_nl_up_1_fwd_1_5m" blend_set="all"/>
+	<anim name="e_nl_up_1_fwd_1_5m_var2" file="anims/shared/special/e_nl_up_1_fwd_1_5m_var2" blend_set="all"/>
+	<anim name="e_nl_slide_fwd_4m" file="anims/shared/special/e_nl_slide_fwd_4m" blend_set="all"/>
+	<anim name="e_nl_up_2_2_down_1m" file="anims/shared/special/e_nl_up_2_2_down_1m" blend_set="all"/>
+	<anim name="e_nl_up_6_2_down_1m_var2" file="anims/shared/special/e_nl_up_6_2_down_1m_var2" blend_set="all"/>
+	<anim name="e_nl_up_6_2_down_1m_var3" file="anims/shared/special/e_nl_up_6_2_down_1m_var3" blend_set="all"/>
+	<anim name="e_nl_up_6_2_down_1m" file="anims/shared/special/e_nl_up_6_2_down_1m" blend_set="all"/>
+	<anim name="e_nl_up_7_down_1m" file="anims/shared/special/e_nl_up_7_down_1m" blend_set="all"/>
+	<anim name="e_nl_up_5_down_1m_var2" file="anims/shared/special/e_nl_up_5_down_1m_var2" blend_set="all"/>
+	<anim name="e_nl_up_5_down_1m_right" file="anims/shared/special/e_nl_up_5_down_1m_right" blend_set="all"/>
+	<anim name="e_nl_up_9_down_1m" file="anims/shared/special/e_nl_up_9_down_1m" blend_set="all"/>
+	<anim name="e_nl_up_7_down_1m_var2" file="anims/shared/special/e_nl_up_7_down_1m_var2" blend_set="all"/>
+	<anim name="e_nl_up_2_down_8_2m" file="anims/shared/special/e_nl_up_2_down_8_2m" blend_set="all"/>
+	<anim name="e_nl_down_3_35m" file="anims/shared/special/e_nl_down_3_35m" blend_set="all"/>
+	<anim name="e_nl_down_8m_var2" file="anims/shared/special/e_nl_down_8m_var2" blend_set="all"/>
+	<anim name="e_nl_down_8m_var3" file="anims/shared/special/e_nl_down_8m_var3" blend_set="all"/>
+	<anim name="e_nl_up_5m" file="anims/shared/special/e_nl_up_5m" blend_set="all"/>
+	<anim name="e_nl_up_ladder_4m" file="anims/shared/special/e_nl_up_ladder_4m" blend_set="all"/>
+	<anim name="e_nl_up_ladder_4m_left_exit" file="anims/shared/special/e_nl_up_ladder_4m_left_exit" blend_set="all"/>
+	<anim name="e_nl_up_ladder_2_5m" file="anims/shared/special/e_nl_up_ladder_2_5m" blend_set="all"/>
+	<anim name="e_nl_down_5m_var2" file="anims/shared/special/e_nl_down_5m_var2" blend_set="all"/>
+	<anim name="e_nl_down_5m_var3" file="anims/shared/special/e_nl_down_5m_var3" blend_set="all"/>
+	<anim name="e_nl_down_5m_var4" file="anims/shared/special/e_nl_down_5m_var4" blend_set="all"/>
+	<anim name="e_nl_down_4m_var3" file="anims/shared/special/e_nl_down_4m_var3" blend_set="all"/>
+	<anim name="e_nl_down_6m_var3" file="anims/shared/special/e_nl_down_6m_var3" blend_set="all"/>
+	<anim name="e_nl_down_4m_var2" file="anims/shared/special/e_nl_down_4m_var2" blend_set="all"/>
+	<anim name="e_nl_up_1_down_7_1m" file="anims/shared/special/e_nl_up_1_down_7_1m" blend_set="all"/>
+	<anim name="e_nl_clk_over_1_8m" file="anims/shared/special/e_nl_clk_over_1_8m" blend_set="all"/>
+	<anim name="e_nl_up_1_down_6m" file="anims/shared/special/e_nl_up_1_down_6m" blend_set="all"/>
+	<anim name="e_nl_up_1_down_6m_v2" file="anims/shared/special/e_nl_up_1_down_6m_v2" blend_set="all"/>
+	<anim name="e_nl_up_1_down_6m_var3" file="anims/shared/special/e_nl_up_1_down_6m_var3" blend_set="all"/>
+	<anim name="e_nl_jump_4m_long" file="anims/shared/special/e_nl_jump_4m_long" blend_set="all"/>
+	<anim name="e_nl_jump_5m_long" file="anims/shared/special/e_nl_jump_5m_long" blend_set="all"/>
+	<anim name="e_nl_cs_up_long_ladder" file="anims/shared/special/e_nl_cs_up_long_ladder" blend_set="all"/>
+	<anim name="e_nl_cs_up_short_ladder" file="anims/shared/special/e_nl_cs_up_short_ladder" blend_set="all"/>
+	<anim name="e_nl_cs_up_front_ladder" file="anims/shared/special/e_nl_cs_up_front_ladder" blend_set="all"/>
+	<anim name="e_nl_cs_up_back_ladder" file="anims/shared/special/e_nl_cs_up_back_ladder" blend_set="all"/>
+	<anim name="e_nl_cs_jump_window" file="anims/shared/special/e_nl_cs_jump_window" blend_set="all"/>
+	<anim name="e_nl_cs_jump_desk" file="anims/shared/special/e_nl_cs_jump_desk" blend_set="all"/>
+	<anim name="e_nl_cs_dwn_front" file="anims/shared/special/e_nl_cs_dwn_front" blend_set="all"/>
+	<anim name="e_nl_cs_dwn_back" file="anims/shared/special/e_nl_cs_dwn_back" blend_set="all"/>
+	<anim name="e_nl_cs_up_sewer_ladder" file="anims/shared/special/e_nl_cs_up_sewer_ladder" blend_set="all"/>
+	<anim name="e_nl_cs_dwn_sewer" file="anims/shared/special/e_nl_cs_dwn_sewer" blend_set="all"/>
+	<anim name="e_nl_cs_up_8m_ladder" file="anims/shared/special/e_nl_cs_up_8m_ladder" blend_set="all"/>
+	<anim name="e_nl_up1m_fwd2m_through_window" file="anims/shared/special/e_nl_up1m_fwd2m_through_window" blend_set="all"/>
+	<anim name="e_nl_down_elevator_shaft" file="anims/shared/special/e_nl_down_elevator_shaft" blend_set="all"/>
+	<anim name="e_nl_up_elevator_shaft" file="anims/shared/special/e_nl_up_elevator_shaft" blend_set="all"/>
+	<anim name="e_nl_down_thermite_hole" file="anims/shared/special/e_nl_down_thermite_hole" blend_set="all"/>
+	<anim name="e_nl_up_7m_ladder" file="anims/shared/special/e_nl_up_7m_ladder" blend_set="all"/>
+	<anim name="e_nl_up_1m_dwn_4m_roll" file="anims/shared/special/e_nl_up_1m_dwn_4m_roll" blend_set="all"/>
+	<anim name="e_nl_up_1m_dwn_4m" file="anims/shared/special/e_nl_up_1m_dwn_4m" blend_set="all"/>
+	<anim name="e_nl_up_2_2m_down_2m" file="anims/shared/special/e_nl_up_2_2m_down_2m" blend_set="all"/>
+	<anim name="e_nl_down_4m_jump" file="anims/shared/special/e_nl_down_4m_jump" blend_set="all"/>
+	<anim name="e_nl_hox_enter_car" file="anims/shared/special/e_nl_hox_enter_car" blend_set="all"/>
+	<anim name="e_nl_dwn_4_75m" file="anims/shared/special/e_nl_dwn_4_75m" blend_set="all"/>
+	<anim name="e_nl_button_slide_under" file="anims/shared/special/e_nl_button_slide_under" blend_set="all"/>
+	<anim name="e_nl_door_open_hack_code" file="anims/shared/special/e_nl_door_open_hack_code" blend_set="all"/>
+	<anim name="e_nl_up_1m_swing_dwn_3_5m" file="anims/shared/special/e_nl_up_1m_swing_dwn_3_5m" blend_set="all"/>
+	<anim name="e_nl_down_1m" file="anims/shared/special/e_nl_down_1m" blend_set="all"/>
+	<anim name="e_nl_4m_long_2m_dwn" file="anims/shared/special/e_nl_4m_long_2m_dwn" blend_set="all"/>
+	<anim name="e_nl_jump_2m_long" file="anims/shared/special/e_nl_jump_2m_long" blend_set="all"/>
+	<anim name="e_nl_actionjump_2m_forward" file="anims/shared/special/e_nl_actionjump_2m_forward" blend_set="all"/>
+	<anim name="e_nl_actionjump_2m_forward_var2" file="anims/shared/special/e_nl_actionjump_2m_forward_var2" blend_set="all"/>
+	<anim name="e_nl_over_4_25m" file="anims/shared/special/e_nl_over_4_25m" blend_set="all"/>
+	<anim name="e_nl_up_1_3m" file="anims/shared/special/e_nl_up_1_3m" blend_set="all"/>
+	<anim name="e_nl_under_0_7m" file="anims/shared/special/e_nl_under_0_7m" blend_set="all"/>
+	<anim name="e_nl_climb_up_4_75m" file="anims/shared/special/e_nl_climb_up_4_75m" blend_set="all"/>
+	<anim name="e_nl_climb_up_2_2m" file="anims/shared/special/e_nl_climb_up_2_2m" blend_set="all"/>
+	<anim name="e_nl_up_3m_var3" file="anims/shared/special/e_nl_up_3m_var3" blend_set="all"/>
+	<anim name="e_nl_up_3m_var2" file="anims/shared/special/e_nl_up_3m_var2" blend_set="all"/>
+	<anim name="e_nl_dwn_3_5m_var2" file="anims/shared/special/e_nl_dwn_3_5m_var2" blend_set="all"/>
+	<anim name="e_nl_dwn_3_5m" file="anims/shared/special/e_nl_dwn_3_5m" blend_set="all"/>
+	
+	<anim name="e_nl_up_1m" file="anims/shared/special/e_nl_up_1m" blend_set="all"/>
+	<anim name="e_nl_over_and_fwd_1m_var2" file="anims/shared/special/e_nl_over_and_fwd_1m_var2" blend_set="all"/>
+	<anim name="e_nl_over_and_fwd_1m" file="anims/shared/special/e_nl_over_and_fwd_1m" blend_set="all"/>
+	<anim name="e_nl_up_8m_right_2m_over_1m" file="anims/shared/special/e_nl_up_8m_right_2m_over_1m" blend_set="all"/>
+	<anim name="e_nl_up_8m_left_2m_over_1m" file="anims/shared/special/e_nl_up_8m_left_2m_over_1m" blend_set="all"/>
+	<anim name="e_nl_up_1m_dwn_4_5m_roll" file="anims/shared/special/e_nl_up_1m_dwn_4_5m_roll" blend_set="all"/>
+	<anim name="e_nl_slide_4m_dwn_2m" file="anims/shared/special/e_nl_slide_4m_dwn_2m" blend_set="all"/>
+	<anim name="e_nl_up_1m_dwn_4_5m" file="anims/shared/special/e_nl_up_1m_dwn_4_5m" blend_set="all"/>
+	<anim name="e_nl_run_jump_far_var2" file="anims/shared/special/e_nl_run_jump_far_var2" blend_set="all"/>
+	<anim name="e_nl_run_jump_far_var1" file="anims/shared/special/e_nl_run_jump_far_var1" blend_set="all"/>
+	<anim name="e_nl_run_jump_far_var3" file="anims/shared/special/e_nl_run_jump_far_var3" blend_set="all"/>
+	<anim name="e_nl_zipline_glace" file="anims/shared/special/e_nl_zipline_glace" blend_set="all"/>
+	<anim name="e_nl_down_4_75m_swing" file="anims/shared/special/e_nl_down_4_75m_swing" blend_set="all"/>
+	<anim name="e_nl_up_1m_dwn_18m" file="anims/shared/special/e_nl_up_1m_dwn_18m" blend_set="all"/>
+	<anim name="e_nl_up_1m_down_4_5m_swing" file="anims/shared/special/e_nl_up_1m_down_4_5m_swing" blend_set="all"/>
+	<anim name="e_nl_up_1m_down_5m_swing" file="anims/shared/special/e_nl_up_1m_down_5m_swing" blend_set="all"/>
+	<anim name="e_up_1m_down_3m" file="anims/shared/special/e_up_1m_down_3m" blend_set="all"/>
+	<anim name="e_nl_up_1_5m_dwn_0_8m" file="anims/shared/special/e_nl_up_1_5m_dwn_0_8m" blend_set="all"/>
+	<anim name="e_nl_up_4_3m_dwn_1m" file="anims/shared/special/e_nl_up_4_3m_dwn_1m" blend_set="all"/>
+	<anim name="e_nl_up_4_3m_dwn_1m_var2" file="anims/shared/special/e_nl_up_4_3m_dwn_1m_var2" blend_set="all"/>
+	<anim name="e_nl_up_8m_dwn_0_8m_left" file="anims/shared/special/e_nl_up_8m_dwn_0_8m_left" blend_set="all"/>
+	<anim name="e_nl_up_1m_down_4_3m_swing" file="anims/shared/special/e_nl_up_1m_down_4_3m_swing" blend_set="all"/>
+	<anim name="e_nl_up_11_5m_down_1m" file="anims/shared/special/e_nl_up_11_5m_down_1m" blend_set="all"/>
+	<anim name="e_nl_up_7_5m_down_1m" file="anims/shared/special/e_nl_up_7_5m_down_1m" blend_set="all"/>
+	<anim name="e_nl_dwn_repel_11_25m" file="anims/shared/special/e_nl_dwn_repel_11_25m" blend_set="all"/>
+	<anim name="e_nl_up_1_down_4_5m_drill" file="anims/shared/special/e_nl_up_1_down_4_5m_drill" blend_set="all"/>
+	<anim name="e_nl_down_rocks_8m" file="anims/shared/special/e_nl_down_rocks_8m" blend_set="all"/>
+	<anim name="e_nl_down_rocks_10m" file="anims/shared/special/e_nl_down_rocks_10m" blend_set="all"/>
+	<anim name="e_nl_down_rocks_6_5m" file="anims/shared/special/e_nl_down_rocks_6_5m" blend_set="all"/>
+	<anim name="e_nl_up_1m_down_4m_window" file="anims/shared/special/e_nl_up_1m_down_4m_window" blend_set="all"/>
+	<anim name="e_nl_dwn_jump_4_5m" file="anims/shared/special/e_nl_dwn_jump_4_5m" blend_set="all"/>
+	<anim name="e_nl_dwn_jump_5_25m" file="anims/shared/special/e_nl_dwn_jump_5_25m" blend_set="all"/>
+	<anim name="e_nl_over_1m_jump_window" file="anims/shared/special/e_nl_over_1m_jump_window" blend_set="all"/>
+	<anim name="e_nl_enter_wall_hole" file="anims/shared/special/e_nl_enter_wall_hole" blend_set="all"/>
+	<anim name="e_nl_dwn_11m" file="anims/shared/special/e_nl_dwn_11m" blend_set="all"/>
+	<anim name="e_nl_up_2_5m_right_2m_jump" file="anims/shared/special/e_nl_up_2_5m_right_2m_jump" blend_set="all"/>
+	<anim name="e_nl_up_3m_dwn_0_5m" file="anims/shared/special/e_nl_up_3m_dwn_0_5m" blend_set="all"/>
+	<anim name="e_nl_up_3_2m_down_1m" file="anims/shared/special/e_nl_up_3_2m_down_1m" blend_set="all"/>
+	<anim name="e_nl_up_0_5m_window_out" file="anims/shared/special/e_nl_up_0_5m_window_out" blend_set="all"/>
+	<anim name="e_nl_dwn_0_5m_window_in" file="anims/shared/special/e_nl_dwn_0_5m_window_in" blend_set="all"/>
+	<anim name="e_nl_up_0_5m_dwn_1m_window_out" file="anims/shared/special/e_nl_up_0_5m_dwn_1m_window_out" blend_set="all"/>
+	<anim name="e_nl_up_0_9m_dwn_1m_window_out" file="anims/shared/special/e_nl_up_0_9m_dwn_1m_window_out" blend_set="all"/>
+	<anim name="e_nl_up_1m_dwn_0_9m_window_in" file="anims/shared/special/e_nl_up_1m_dwn_0_9m_window_in" blend_set="all"/>
+	<anim name="e_nl_up_1m_dwn_0_5m_window_in" file="anims/shared/special/e_nl_up_1m_dwn_0_5m_window_in" blend_set="all"/>
+	<anim name="e_nl_dwn_3_5m_slide_cliff" file="anims/shared/special/e_nl_dwn_3_5m_slide_cliff" blend_set="all"/>
+	<anim name="e_nl_dwn_4_5m_slide_cliff" file="anims/shared/special/e_nl_dwn_4_5m_slide_cliff" blend_set="all"/>
+	<anim name="e_nl_ladder_up_3m" file="anims/shared/special/e_nl_ladder_up_3m" blend_set="all"/>
+	<anim name="e_nl_ladder_up_16m" file="anims/shared/special/e_nl_ladder_up_16m" blend_set="all"/>
+	<anim name="e_nl_ladder_dwn_16m" file="anims/shared/special/e_nl_ladder_dwn_16m" blend_set="all"/>
+	<anim name="e_nl_ladder_up_4_4m" file="anims/shared/special/e_nl_ladder_up_4_4m" blend_set="all"/>
+	<anim name="e_nl_dwn_4_4m_jump" file="anims/shared/special/e_nl_dwn_4_4m_jump" blend_set="all"/>
+	<anim name="e_nl_dwn_4_4m_hang" file="anims/shared/special/e_nl_dwn_4_4m_hang" blend_set="all"/>
+	<anim name="e_nl_up_3_3m" file="anims/shared/special/e_nl_up_3_3m" blend_set="all"/>
+	<anim name="e_nl_climb_up_3_5m" file="anims/shared/special/e_nl_climb_up_3_5m" blend_set="all"/>
+	<anim name="e_nl_climb_up_3_15m" file="anims/shared/special/e_nl_climb_up_3_15m" blend_set="all"/>
+	<anim name="e_nl_up_4_4m_dwn_0_5m" file="anims/shared/special/e_nl_up_4_4m_dwn_0_5m" blend_set="all"/>
+	<anim name="e_nl_up_5m_1m_dwn_right_stairs" file="anims/shared/special/e_nl_up_5m_1m_dwn_right_stairs" blend_set="all"/>
+	<anim name="e_nl_up_5m_1m_dwn_left_stairs" file="anims/shared/special/e_nl_up_5m_1m_dwn_left_stairs" blend_set="all"/>
+	<anim name="e_nl_jump_fwd_5m_down_3m" file="anims/shared/special/e_nl_jump_fwd_5m_down_3m" blend_set="all"/>
+	<anim name="e_nl_down_5_3m" file="anims/shared/special/e_nl_down_5_3m" blend_set="all"/>
+	<anim name="e_nl_up_0_85_dwn_5_3m" file="anims/shared/special/e_nl_up_0_85_dwn_5_3m" blend_set="all"/>
+	
+	
+	<anim name="e_nl_dah_climd_down_elevator" file="anims/shared/special/e_nl_dah_climd_down_elevator" blend_set="all"/>
+	<anim name="e_nl_dah_climd_up_elevator" file="anims/shared/special/e_nl_dah_climd_up_elevator" blend_set="all"/>
+	<anim name="e_nl_dah_down_roof_hi" file="anims/shared/special/e_nl_dah_down_roof_hi" blend_set="all"/>
+	<anim name="e_nl_dah_up_roof_low" file="anims/shared/special/e_nl_dah_up_roof_low" blend_set="all"/>
+	<anim name="e_nl_dah_up_roof_hi" file="anims/shared/special/e_nl_dah_up_roof_hi" blend_set="all"/>
+	<anim name="e_nl_dah_climb_to_roof" file="anims/shared/special/e_nl_dah_climb_to_roof" blend_set="all"/>
+	<anim name="e_nl_dah_climb_up" file="anims/shared/special/e_nl_dah_climb_up" blend_set="all"/>
+	<anim name="e_nl_dah_jump_down" file="anims/shared/special/e_nl_dah_jump_down" blend_set="all"/>
+	<anim name="e_nl_dah_jump_climd_up_left" file="anims/shared/special/e_nl_dah_jump_climd_up_left" blend_set="all"/>
+	<anim name="e_nl_dah_jump_climd_up_right" file="anims/shared/special/e_nl_dah_jump_climd_up_right" blend_set="all"/>
+	<anim name="e_nl_dah_climd_up_window_left" file="anims/shared/special/e_nl_dah_climd_up_window_left" blend_set="all"/>
+	<anim name="e_nl_dah_climd_up_window_right" file="anims/shared/special/e_nl_dah_climd_up_window_right" blend_set="all"/>
+	<anim name="e_nl_dah_down_window_swing" file="anims/shared/special/e_nl_dah_down_window_swing" blend_set="all"/>
+	<anim name="e_nl_dah_down_roof_rapel" file="anims/shared/special/e_nl_dah_down_roof_rapel" blend_set="all"/>
+	
+	
+	<anim name="e_nl_over_2_3m" file="anims/shared/special/e_nl_over_2_3m" blend_set="all"/>
+	<anim name="e_nl_up_0_8_dwn_6_1m" file="anims/shared/special/e_nl_up_0_8_dwn_6_1m" blend_set="all"/>
+	<anim name="e_nl_up_2_9_dwn_0_8m" file="anims/shared/special/e_nl_up_2_9_dwn_0_8m" blend_set="all"/>
+	<anim name="e_nl_dwn_5_6m" file="anims/shared/special/e_nl_dwn_5_6m" blend_set="all"/>
+	<anim name="e_nl_up_0_7m" file="anims/shared/special/e_nl_up_0_7m" blend_set="all"/>
+	<anim name="e_nl_dwn_0_7m" file="anims/shared/special/e_nl_dwn_0_7m" blend_set="all"/>
+	<anim name="e_nl_dwn_8_7m" file="anims/shared/special/e_nl_dwn_8_7m" blend_set="all"/>
+	<anim name="e_nl_dwn_5_9m" file="anims/shared/special/e_nl_dwn_5_9m" blend_set="all"/>
+	<anim name="e_nl_fwd_1_5_up_1_5m" file="anims/shared/special/e_nl_fwd_1_5_up_1_5m" blend_set="all"/>
+	<anim name="e_nl_over_1_3m" file="anims/shared/special/e_nl_over_1_3m" blend_set="all"/>
+	<anim name="e_nl_over_1_5m" file="anims/shared/special/e_nl_over_1_5m" blend_set="all"/>
+	<anim name="e_nl_over_1_5m_var2" file="anims/shared/special/e_nl_over_1_5m_var2" blend_set="all"/>
+	<anim name="e_nl_over_1_15m" file="anims/shared/special/e_nl_over_1_15m" blend_set="all"/>
+	<anim name="e_nl_fwd_4_up_1_dwn_4_1m" file="anims/shared/special/e_nl_fwd_4_up_1_dwn_4_1m" blend_set="all"/>
+	<anim name="e_nl_up_3_5_dwn_1m" file="anims/shared/special/e_nl_up_3_5_dwn_1m" blend_set="all"/>
+	<anim name="e_nl_up_5_dwn_1m_var3" file="anims/shared/special/e_nl_up_5_dwn_1m_var3" blend_set="all"/>
+	<anim name="e_nl_up_4_8m" file="anims/shared/special/e_nl_up_4_8m" blend_set="all"/>
+	<anim name="e_nl_up_3_5m" file="anims/shared/special/e_nl_up_3_5m" blend_set="all"/>
+	<anim name="e_nl_up_3_9m" file="anims/shared/special/e_nl_up_3_9m" blend_set="all"/>
+	<anim name="e_nl_down_10_3m" file="anims/shared/special/e_nl_down_10_3m" blend_set="all"/>
+	
+	<anim name="e_nl_up_0_8_dwn_6_1m_var2" file="anims/shared/special/e_nl_up_0_8_dwn_6_1m_var2" blend_set="all"/>
+	<anim name="e_nl_up_1_75_dwn_0_75m" file="anims/shared/special/e_nl_up_1_75_dwn_0_75m" blend_set="all"/>
+	<anim name="e_nl_up_0_75_dwn_1_75m" file="anims/shared/special/e_nl_up_0_75_dwn_1_75m" blend_set="all"/>
+	<anim name="e_nl_up_0_75_dwn_1_75m_var2" file="anims/shared/special/e_nl_up_0_75_dwn_1_75m_var2" blend_set="all"/>
+	<anim name="e_nl_window_climb_up_8m" file="anims/shared/special/e_nl_window_climb_up_8m" blend_set="all"/>
+	<anim name="e_nl_window_climb_up_4m" file="anims/shared/special/e_nl_window_climb_up_4m" blend_set="all"/>
+	
+	<anim name="e_nl_over_1m_dwn_22m_rapel" file="anims/shared/special/e_nl_over_1m_dwn_22m_rapel" blend_set="all"/>
+	<anim name="e_nl_up_0_3m_dwn_6_5m" file="anims/shared/special/e_nl_up_0_3m_dwn_6_5m" blend_set="all"/>
+	<anim name="e_nl_up_0_3m_dwn_7m" file="anims/shared/special/e_nl_up_0_3m_dwn_7m" blend_set="all"/>
+	<anim name="e_nl_up_0_3m_dwn_6m" file="anims/shared/special/e_nl_up_0_3m_dwn_6m" blend_set="all"/>
+	<anim name="e_nl_up_0_3m_dwn_9m" file="anims/shared/special/e_nl_up_0_3m_dwn_9m" blend_set="all"/>
+	<anim name="e_nl_up_0_3m_dwn_13m" file="anims/shared/special/e_nl_up_0_3m_dwn_13m" blend_set="all"/>
+	<anim name="e_nl_up_1m_dwn_6_5m" file="anims/shared/special/e_nl_up_1m_dwn_6_5m" blend_set="all"/>
+	
+	<!-- SO -->
+	<anim name="e_so_climb_up_out_3m" file="anims/shared/special/e_so_climb_up_out_3m" blend_set="all"/>
+	<anim name="e_so_low_kicks" file="anims/shared/special/e_so_low_kicks" blend_set="all"/>
+	<anim name="e_so_balloon_var2" file="anims/shared/special/e_so_balloon_var2" blend_set="all"/>
+	<anim name="e_so_tube_interact" file="anims/shared/special/e_so_tube_interact" blend_set="all"/>
+	<anim name="e_so_balloon" file="anims/shared/special/e_so_balloon" blend_set="all"/>
+	<anim name="e_so_walk_investigate" file="anims/shared/special/e_so_walk_investigate" blend_set="all"/>
+	<anim name="e_so_walk_investigate_unarmed" file="anims/shared/special/e_so_walk_investigate_unarmed" blend_set="all"/>
+	<anim name="e_so_take_gun" file="anims/shared/special/e_so_take_gun" blend_set="all"/>
+	<anim name="e_so_use_key" file="anims/shared/special/e_so_use_key" blend_set="all"/>
+	<anim name="e_so_gun_shot" file="anims/shared/special/e_so_gun_shot" blend_set="all"/>
+	<anim name="e_so_shouting" file="anims/shared/special/e_so_shouting" blend_set="all"/>
+	<anim name="e_so_hit_turn" file="anims/shared/special/e_so_hit_turn" blend_set="all"/>
+	<anim name="e_so_insert_keycard_ntl" file="anims/shared/special/e_so_insert_keycard_ntl" blend_set="all"/>
+	<anim name="e_so_investigate_window" file="anims/shared/special/e_so_investigate_window" blend_set="all"/>
+	<anim name="e_so_investigate_window_unarmed" file="anims/shared/special/e_so_investigate_window_unarmed" blend_set="all"/>
+	<anim name="e_so_look_ledge_down_var2" file="anims/shared/special/e_so_look_ledge_down_var2" blend_set="all"/>
+	<anim name="e_so_look_corner_var2" file="anims/shared/special/e_so_look_corner_var2" blend_set="all"/>
+	<anim name="e_so_look_corner_var2_unarmed" file="anims/shared/special/e_so_look_corner_var2_unarmed" blend_set="all"/>
+	<anim name="e_so_investigate_object_armed" file="anims/shared/special/e_so_investigate_object_armed" blend_set="all"/>
+	<anim name="e_so_investigate_object_unarmed" file="anims/shared/special/e_so_investigate_object_unarmed" blend_set="all"/>
+	<anim name="e_so_barn_door_open_r" file="anims/shared/special/e_so_barn_door_open_r" blend_set="all"/>
+	<anim name="e_so_barn_door_open_l" file="anims/shared/special/e_so_barn_door_open_l" blend_set="all"/>
+	<anim name="e_so_ntl_vendingmachine" file="anims/shared/special/e_so_ntl_vendingmachine" blend_set="all"/>
+	<anim name="e_so_ntl_idle_tired" file="anims/shared/special/e_so_ntl_stretch_shoulders" blend_set="all"/>
+	<anim name="e_so_ntl_idle_kickpebble" file="anims/shared/special/e_so_ntl_idle_stand" blend_set="all"/>
+	<anim name="e_so_ntl_idle_look" file="anims/shared/special/e_so_unarmed_idle_look" blend_set="all"/>
+	<anim name="e_so_ntl_idle_look2" file="anims/shared/special/e_so_unarmed_idle_look2" blend_set="all"/>
+	<anim name="e_so_ntl_idle_look3" file="anims/shared/special/e_so_unarmed_idle_look2" blend_set="all"/>
+	<anim name="e_so_ntl_idle_clock" file="anims/shared/special/e_so_unarmed_idle_clock" blend_set="all"/>
+	<anim name="e_so_ntl_idle_brush" file="anims/shared/special/e_so_ntl_look_around" blend_set="all"/>
+	<anim name="e_so_ntl_idle_stickygum" file="anims/shared/special/e_so_ntl_idle_breath" blend_set="all"/>
+	<anim name="e_so_ntl_brush_jacket" file="anims/shared/special/e_so_ntl_brush_jacket" blend_set="all"/>
+	<anim name="e_so_ntl_brush_shoe" file="anims/shared/special/e_so_ntl_look_around" blend_set="all"/>
+	<anim name="e_so_ntl_clear_throat" file="anims/shared/special/e_so_ntl_clear_throat" blend_set="all"/>
+	<anim name="e_so_ntl_idle_breath" file="anims/shared/special/e_so_ntl_idle_breath" blend_set="all"/>
+	<anim name="e_so_ntl_idle_stand" file="anims/shared/special/e_so_ntl_idle_stand" blend_set="all"/>
+	<anim name="e_so_ntl_idle_thinking" file="anims/shared/special/e_so_ntl_idle_thinking" blend_set="all"/>
+	<anim name="e_so_ntl_jawn" file="anims/shared/special/e_so_ntl_jawn" blend_set="all"/>
+	<anim name="e_so_ntl_look_around" file="anims/shared/special/e_so_ntl_look_around" blend_set="all"/>
+	<anim name="e_so_ntl_look_behind" file="anims/shared/special/e_so_ntl_look_behind" blend_set="all"/>
+	<anim name="e_so_ntl_look_up" file="anims/shared/special/e_so_ntl_look_up" blend_set="all"/>
+	<anim name="e_so_ntl_pick_up" file="anims/shared/special/e_so_ntl_pick_up" blend_set="all"/>
+	<anim name="e_so_ntl_restless" file="anims/shared/special/e_so_ntl_restless" blend_set="all"/>
+	<anim name="e_so_ntl_scratches_chin" file="anims/shared/special/e_so_ntl_scratches_chin" blend_set="all"/>
+	<anim name="e_so_ntl_stretch_shoulders" file="anims/shared/special/e_so_ntl_stretch_shoulders" blend_set="all"/>
+	<anim name="e_so_ntl_watch_look_calm" file="anims/shared/special/e_so_ntl_watch_look_calm" blend_set="all"/>
+	<anim name="e_so_ntl_idle_backoff" file="anims/shared/special/e_so_ntl_idle_breath" blend_set="all"/>
+	<anim name="e_so_ntl_piss" file="anims/shared/special/e_so_unarmed_piss" blend_set="all"/>
+	<anim name="e_so_ntl_wave_camera" file="anims/shared/special/e_so_unarmed_wave_camera" blend_set="all"/>
+	<anim name="e_so_ntl_smoke_enter" file="anims/shared/special/e_so_unarmed_smoke_enter" blend_set="all"/>
+	<anim name="e_so_ntl_smoke_loop" file="anims/shared/special/e_so_unarmed_smoke_loop" blend_set="all"/>
+	<anim name="e_so_ntl_smoke_loop_lean" file="anims/shared/special/e_so_unarmed_smoke_loop_lean" blend_set="all"/>
+	<anim name="e_so_ntl_smoke_loop_turn" file="anims/shared/special/e_so_unarmed_smoke_loop_turn" blend_set="all"/>
+	<anim name="e_so_ntl_smoke_exit" file="anims/shared/special/e_so_unarmed_smoke_exit" blend_set="all"/>
+	<anim name="e_so_ntl_leanwall_enter" file="anims/shared/special/e_so_unarmed_leanwall_enter" blend_set="all"/>
+	<anim name="e_so_ntl_leanwall_loop_look" file="anims/shared/special/e_so_unarmed_leanwall_loop_look" blend_set="all"/>
+	<anim name="e_so_ntl_leanwall_loop_kickpebble" file="anims/shared/special/e_so_unarmed_leanwall_loop_kickpebble" blend_set="all"/>
+	<anim name="e_so_ntl_leanwall_loop_clock" file="anims/shared/special/e_so_unarmed_leanwall_loop_clock" blend_set="all"/>
+	<anim name="e_so_ntl_leanwall_loop_fingers" file="anims/shared/special/e_so_unarmed_leanwall_loop_fingers" blend_set="all"/>
+	<anim name="e_so_ntl_leanwall_exit" file="anims/shared/special/e_so_unarmed_leanwall_exit" blend_set="all"/>
+	<anim name="e_so_ntl_leanwall_smoke_enter" file="anims/shared/special/e_so_unarmed_leanwall_smoke_enter" blend_set="all"/>
+	<anim name="e_so_ntl_leanwall_smoke_loop" file="anims/shared/special/e_so_unarmed_leanwall_smoke_loop" blend_set="all"/>
+	<anim name="e_so_ntl_leanwall_smoke_exit" file="anims/shared/special/e_so_unarmed_leanwall_smoke_exit" blend_set="all"/>
+	<anim name="e_so_unarmed_shake_fence" file="anims/shared/special/e_so_unarmed_shake_fence" blend_set="all"/>
+	<anim name="e_so_unarmed_scrape_foot_truck" file="anims/shared/special/e_so_unarmed_scrape_foot_truck" blend_set="all"/>
+	<anim name="e_so_unarmed_sick_puke_sink_enter" file="anims/shared/special/e_so_unarmed_sick_puke_sink_enter" blend_set="all"/>
+	<anim name="e_so_unarmed_sick_puke_sink" file="anims/shared/special/e_so_unarmed_sick_puke_sink" blend_set="all"/>
+	<anim name="e_so_unarmed_sick_puke_sink_exit" file="anims/shared/special/e_so_unarmed_sick_puke_sink_exit" blend_set="all"/>
+	<anim name="e_so_talking_in_megaphone_enter" file="anims/shared/special/e_so_talking_in_megaphone_enter" blend_set="all"/>
+	<anim name="e_so_talking_in_megaphone" file="anims/shared/special/e_so_talking_in_megaphone" blend_set="all"/>
+	<anim name="e_so_talking_in_megaphone_exit" file="anims/shared/special/e_so_talking_in_megaphone_exit" blend_set="all"/>
+	<anim name="e_so_push_button_low" file="anims/shared/special/e_so_push_button_low" blend_set="all"/>
+	<anim name="e_so_push_button" file="anims/shared/special/e_so_push_button" blend_set="all"/>
+	<anim name="e_so_try_kick_door" file="anims/shared/special/e_so_try_kick_door" blend_set="all"/>
+	<anim name="e_so_try_kick_door_loop" file="anims/shared/special/e_so_try_kick_door_loop" blend_set="all"/>
+	<anim name="e_so_throw_grenade" file="anims/shared/special/e_so_throw_grenade" blend_set="all"/>	
+	<anim name="e_so_stand_back_to_crouch" file="anims/shared/special/e_so_stand_back_to_crouch" blend_set="all"/>	
+	<anim name="e_so_stand_sniper_loop" file="anims/shared/special/e_so_stand_sniper_loop" blend_set="all"/>	
+	<anim name="e_so_ntl_talk_phone" file="anims/shared/special/e_so_unarmed_talk_phone" blend_set="all"/>
+	<anim name="e_so_not_dizzy_look" file="anims/shared/special/e_so_not_dizzy_look" blend_set="all"/>
+	<anim name="e_so_not_dizzy_look_v2" file="anims/shared/special/e_so_not_dizzy_look_v2" blend_set="all"/>
+	<anim name="e_so_interact_mid" file="anims/shared/special/e_so_interact_mid" blend_set="all"/>
+	<anim name="e_so_plant_c4_hi" file="anims/shared/special/e_so_plant_c4_hi" blend_set="all"/>
+	<anim name="e_so_plant_c4_floor" file="anims/shared/special/e_so_plant_c4_floor" blend_set="all"/>
+	<anim name="e_so_plant_c4_low" file="anims/shared/special/e_so_plant_c4_low" blend_set="all"/>
+	<anim name="e_so_disarm_bomb" file="anims/shared/special/e_so_disarm_bomb" blend_set="all"/>
+	<anim name="e_so_ntl_look_up_wall" file="anims/shared/special/e_so_look_up_wall" blend_set="all"/>
+	<anim name="e_so_alarm_under_table" file="anims/shared/special/e_so_alarm_under_table" blend_set="all"/>
+	<anim name="e_so_std_alarm" file="anims/shared/special/e_so_std_alarm" blend_set="all"/>
+	<anim name="e_so_pull_lever" file="anims/shared/special/e_so_pull_lever" blend_set="all"/>
+	<anim name="e_so_ntl_look_corner" file="anims/shared/special/e_so_look_corner" blend_set="all"/>
+	<anim name="e_so_ntl_look_ledge_down" file="anims/shared/special/e_so_look_ledge_down" blend_set="all"/>
+	<anim name="e_so_ntl_look_ledge_up" file="anims/shared/special/e_so_look_ledge_up" blend_set="all"/>
+	<anim name="e_so_ntl_look_under_table" file="anims/shared/special/e_so_look_under_table" blend_set="all"/>
+	<anim name="e_so_ntl_look_under_car" file="anims/shared/special/e_so_look_under_car" blend_set="all"/>
+	<anim name="e_so_investigate_truck" file="anims/shared/special/e_so_investigate_truck" blend_set="all"/>
+	<anim name="e_so_investigate_truck_slope" file="anims/shared/special/e_so_investigate_truck_slope" blend_set="all"/>
+	<anim name="e_so_ntl_boxing" file="anims/shared/special/e_so_ntl_boxing" blend_set="all"/>
+	<anim name="e_so_ntl_boxing_bag_hold" file="anims/shared/special/e_so_ntl_boxing_bag_hold" blend_set="all"/>
+	<anim name="e_so_ntl_bouncer_idle" file="anims/shared/special/e_so_bouncer_idle" blend_set="all"/>
+	<anim name="e_so_ntl_bouncer_step_right" file="anims/shared/special/e_so_bouncer_step_right" blend_set="all"/>
+	<anim name="e_so_ntl_bouncer_stop" file="anims/shared/special/e_so_bouncer_stop" blend_set="all"/>
+	<anim name="e_so_shield_throw_grenade" file="anims/shared/special/e_so_shield_throw_grenade" blend_set="all"/>	
+	<anim name="e_so_blow_torch_take_new" file="anims/shared/special/e_so_blow_torch_take_new" blend_set="all"/>
+	<anim name="e_so_blow_torch_to_empty" file="anims/shared/special/e_so_blow_torch_to_empty" blend_set="all"/>
+	<anim name="e_so_blow_torch_to_work" file="anims/shared/special/e_so_blow_torch_to_work" blend_set="all"/>
+	<anim name="e_so_blow_torch_work" file="anims/shared/special/e_so_blow_torch_work" blend_set="all"/>
+	<anim name="e_so_blow_torch_empty" file="anims/shared/special/e_so_blow_torch_empty" blend_set="all"/>
+	<anim name="e_so_blow_torch_react" file="anims/shared/special/e_so_blow_torch_react" blend_set="all"/>
+	<anim name="e_so_idle_to_door_or_point" file="anims/shared/special/e_so_idle_to_door_or_point" blend_set="all"/>
+	<anim name="e_so_door_open" file="anims/shared/special/e_so_door_open" blend_set="all"/>
+	<anim name="e_so_door_knock" file="anims/shared/special/e_so_door_knock" blend_set="all"/>
+	<anim name="e_so_point_right" file="anims/shared/special/e_so_point_right" blend_set="all"/>
+	<anim name="e_so_sit_to_point_at" file="anims/shared/special/e_so_sit_to_point_at" blend_set="all"/>
+	<anim name="e_so_point_at" file="anims/shared/special/e_so_point_at" blend_set="all"/>
+	<anim name="e_so_point_at_exit_idle" file="anims/shared/special/e_so_point_at_exit_idle" blend_set="all"/>
+	<anim name="e_so_work_medium" file="anims/shared/special/e_so_work_medium" blend_set="all"/>
+	<anim name="e_so_work_low_loop" file="anims/shared/special/e_so_work_low_loop" blend_set="all"/>
+	
+	<anim name="e_so_checkbag_short" file="anims/shared/special/e_so_checkbag_short" blend_set="all"/>
+	<anim name="e_so_sit_stair1" file="anims/shared/special/e_so_sit_stair1" blend_set="all"/>
+	<anim name="e_so_sit_stair_exit1" file="anims/shared/special/e_so_sit_stair_exit1" blend_set="all"/>
+	<anim name="e_so_stair_idle1" file="anims/shared/special/e_so_stair_idle1" blend_set="all"/>
+	<anim name="e_so_stair_idle1_pose" file="anims/shared/special/e_so_stair_idle1_pose" blend_set="all"/>
+	<anim name="e_so_sit_stair2" file="anims/shared/special/e_so_sit_stair2" blend_set="all"/>
+	<anim name="e_so_sit_stair_exit2" file="anims/shared/special/e_so_sit_stair_exit2" blend_set="all"/>
+	<anim name="e_so_stair_idle2" file="anims/shared/special/e_so_stair_idle2" blend_set="all"/>
+	<anim name="e_so_stair_idle2_pose" file="anims/shared/special/e_so_stair_idle2_pose" blend_set="all"/>
+	<anim name="e_so_weapon_butt" file="anims/shared/special/e_so_weapon_butt" blend_set="all"/>
+	<anim name="e_so_react_var1" file="anims/shared/special/e_so_react_var1" blend_set="all"/>
+	<anim name="e_so_react_var2" file="anims/shared/special/e_so_react_var2" blend_set="all"/>
+	<anim name="e_so_react_var3" file="anims/shared/special/e_so_react_var3" blend_set="all"/>
+	<anim name="e_so_react_var4" file="anims/shared/special/e_so_react_var4" blend_set="all"/>
+	<anim name="e_so_react_var5" file="anims/shared/special/e_so_react_var5" blend_set="all"/>
+	<anim name="e_so_react_var6" file="anims/shared/special/e_so_react_var6" blend_set="all"/>
+	
+	<anim name="e_so_sit_1m_idle" file="anims/shared/special/e_so_sit_1m_idle" blend_set="all"/>
+	<anim name="e_so_aim_pistol_at" file="anims/shared/special/e_so_aim_pistol_at" blend_set="all"/>
+	<anim name="e_so_hands_on_1m_table" file="anims/shared/special/e_so_hands_on_1m_table" blend_set="all"/>
+	<anim name="e_so_lean_back_hand_on_1m" file="anims/shared/special/e_so_lean_back_hand_on_1m" blend_set="all"/>
+	<anim name="e_so_idle_hand_on_belt" file="anims/shared/special/e_so_idle_hand_on_belt" blend_set="all"/>
+	<anim name="e_so_lean_relaxed" file="anims/shared/special/e_so_lean_relaxed" blend_set="all"/>
+	
+	
+	<anim name="e_so_rvd_van_loop" file="anims/shared/special/e_so_rvd_van_loop" blend_set="all"/>
+	<anim name="e_so_rvd_enter_van" file="anims/shared/special/e_so_rvd_enter_van" blend_set="all"/>
+	<anim name="e_so_rvd_walk" file="anims/shared/special/e_so_rvd_walk" blend_set="all"/>
+	<anim name="e_so_rvd_idle" file="anims/shared/special/e_so_rvd_idle" blend_set="all"/>
+	<anim name="e_so_rvd_remove_tape" file="anims/shared/special/e_so_rvd_remove_tape" blend_set="all"/>
+	<anim name="e_so_rvd_listen" file="anims/shared/special/e_so_rvd_listen" blend_set="all"/>
+	<anim name="e_so_rvd_move_hostage" file="anims/shared/special/e_so_rvd_move_hostage" blend_set="all"/>
+	<anim name="e_so_rvd_cover_loop" file="anims/shared/special/e_so_rvd_cover_loop" blend_set="all"/>
+	<anim name="e_so_rvd_cover_exit" file="anims/shared/special/e_so_rvd_cover_exit" blend_set="all"/>
+	<anim name="e_so_lean_drink" file="anims/shared/special/e_so_lean_drink" blend_set="all"/>
+	<anim name="e_so_lean_drink_exit" file="anims/shared/special/e_so_lean_drink_exit" blend_set="all"/>
+	<anim name="e_so_car_enter" file="anims/shared/special/e_so_car_enter" blend_set="all"/>
+	<anim name="e_so_car_loop" file="anims/shared/special/e_so_car_loop" blend_set="all"/>
+	
+	<anim name="e_so_rvd_sit_remove_tape" file="anims/shared/special/e_so_rvd_sit_remove_tape" blend_set="all"/>
+	<anim name="e_so_rvd_sit_idle_tied_loop" file="anims/shared/special/e_so_rvd_sit_idle_tied_loop" blend_set="all"/>
+	<anim name="e_so_rvd_sit_move_hostage" file="anims/shared/special/e_so_rvd_sit_move_hostage" blend_set="all"/>
+	<anim name="e_so_rvd_on_ground_loop" file="anims/shared/special/e_so_rvd_on_ground_loop" blend_set="all"/>
+	
+	
+	
+	
+	<anim name="e_nl_boat_climb_to_boat" file="anims/shared/special/e_nl_boat_climb_to_boat" blend_set="all"/>
+	<anim name="e_so_idle_by_container" file="anims/shared/special/e_so_idle_by_container" blend_set="all"/>
+	<anim name="e_so_open_container" file="anims/shared/special/e_so_open_container" blend_set="all"/>
+	<anim name="e_so_escape_car" file="anims/shared/special/e_so_escape_car" blend_set="all_no_root"/>
+	<anim name="e_so_guard_hostage_var1" file="anims/shared/special/e_so_guard_hostage_var1" blend_set="all"/>
+	<anim name="e_so_guard_hostage_var2" file="anims/shared/special/e_so_guard_hostage_var2" blend_set="all"/>
+	<anim name="e_so_guard_hostage_var3" file="anims/shared/special/e_so_guard_hostage_var3" blend_set="all"/>
+	<anim name="e_so_guard_hostage_var4" file="anims/shared/special/e_so_guard_hostage_var4" blend_set="all"/>
+	<anim name="e_so_hostage_var1" file="anims/shared/special/e_so_hostage_var1" blend_set="all"/>
+	<anim name="e_so_hostage_var2" file="anims/shared/special/e_so_hostage_var2" blend_set="all"/>
+	<anim name="e_so_hostage_var3" file="anims/shared/special/e_so_hostage_var3" blend_set="all"/>
+	<anim name="e_so_hostage_var4" file="anims/shared/special/e_so_hostage_var4" blend_set="all"/>
+	<anim name="e_so_hostage_exit_var1" file="anims/shared/special/e_so_hostage_exit_var1" blend_set="all"/>
+	<anim name="e_so_hostage_exit_var2" file="anims/shared/special/e_so_hostage_exit_var2" blend_set="all"/>
+	<anim name="e_so_hostage_exit_var3" file="anims/shared/special/e_so_hostage_exit_var3" blend_set="all"/>
+	<anim name="e_so_hostage_exit_var4" file="anims/shared/special/e_so_hostage_exit_var4" blend_set="all"/>
+	<anim name="e_so_leo" file="anims/shared/special/e_so_leo" blend_set="all"/>
+	<anim name="e_so_kate" file="anims/shared/special/e_so_kate" blend_set="all"/>
+	
+	
+	
+	
+	<anim name="e_so_des_walk_exit"  file="anims/shared/special/e_so_des_walk_exit" blend_set="all"/>
+	<anim name="e_so_des_walk_enter"  file="anims/shared/special/e_so_des_walk_enter" blend_set="all"/>
+	<anim name="e_so_des_walk_idle"  file="anims/shared/special/e_so_des_walk_idle" blend_set="all"/>
+	<anim name="e_so_pull_lever_var2"  file="anims/shared/special/e_so_pull_lever_var2" blend_set="all"/>
+	<anim name="e_so_press_button_mid"  file="anims/shared/special/e_so_press_button_mid" blend_set="all"/>
+	
+	
+	
+	<anim name="e_so_ntl_bored" file="anims/shared/special/e_so_ntl_bored" blend_set="all"/>
+	<anim name="e_so_ntl_open_door_in" file="anims/shared/special/e_so_ntl_open_door_in" blend_set="all"/>
+	<anim name="e_so_ntl_open_door_out" file="anims/shared/special/e_so_ntl_open_door_out" blend_set="all"/>
+	<anim name="e_so_sit_student_var1" file="anims/shared/special/e_so_sit_student_var1" blend_set="all"/>
+	<anim name="e_so_sit_student_var2" file="anims/shared/special/e_so_sit_student_var2" blend_set="all"/>
+	<anim name="e_so_sit_student_var3" file="anims/shared/special/e_so_sit_student_var3" blend_set="all"/>
+	<anim name="e_so_sit_student_var4" file="anims/shared/special/e_so_sit_student_var4" blend_set="all"/>
+	<anim name="e_so_sit_student_var5" file="anims/shared/special/e_so_sit_student_var5" blend_set="all"/>
+	<anim name="e_so_sit_student_var6" file="anims/shared/special/e_so_sit_student_var6" blend_set="all"/>
+	<anim name="e_so_sit_student_var7" file="anims/shared/special/e_so_sit_student_var7" blend_set="all"/>
+	<anim name="e_so_sit_student_var8" file="anims/shared/special/e_so_sit_student_var8" blend_set="all"/>
+	<anim name="e_so_ntl_mobile_enter_angry"  file="anims/shared/special/e_so_ntl_mobile_enter" blend_set="all"/>
+	<anim name="e_so_ntl_mobile_exit_angry"  file="anims/shared/special/e_so_ntl_mobile_exit" blend_set="all"/>
+	<anim name="e_so_ntl_mobile_loop_angry"  file="anims/shared/special/e_so_ntl_mobile_loop_angry" blend_set="all"/>
+	<anim name="e_so_ntl_mobile_enter"  file="anims/shared/special/e_so_ntl_mobile_enter" blend_set="all"/>
+	<anim name="e_so_ntl_mobile_exit"  file="anims/shared/special/e_so_ntl_mobile_exit" blend_set="all"/>
+	<anim name="e_so_ntl_mobile_loop"  file="anims/shared/special/e_so_ntl_mobile_loop" blend_set="all"/>
+	<anim name="e_so_ntl_mobile_enter_var2"  file="anims/shared/special/e_so_ntl_mobile_enter" blend_set="all"/>
+	<anim name="e_so_ntl_mobile_exit_var2"  file="anims/shared/special/e_so_ntl_mobile_exit" blend_set="all"/>
+	<anim name="e_so_ntl_mobile_loop_var2"  file="anims/shared/special/e_so_ntl_mobile_loop_var2" blend_set="all"/>
+	<anim name="e_so_ntl_stand_inspect_var1"  file="anims/shared/special/e_so_ntl_stand_inspect_var1" blend_set="all"/>
+	<anim name="e_so_ntl_stand_inspect_var2"  file="anims/shared/special/e_so_ntl_stand_inspect_var2" blend_set="all"/>
+	<anim name="e_so_ntl_stand_inspect_var3"  file="anims/shared/special/e_so_ntl_stand_inspect_var3" blend_set="all"/>
+	<anim name="e_so_ntl_sms_enter"  file="anims/shared/special/e_so_ntl_sms_enter" blend_set="all"/>
+	<anim name="e_so_ntl_sms_exit"  file="anims/shared/special/e_so_ntl_sms_exit" blend_set="all"/>
+	<anim name="e_so_ntl_sms_loop"  file="anims/shared/special/e_so_ntl_sms_loop" blend_set="all"/>
+	<anim name="e_so_ntl_eat_enter"  file="anims/shared/special/e_so_ntl_eat_enter" blend_set="all"/>
+	<anim name="e_so_ntl_eat_exit"  file="anims/shared/special/e_so_ntl_eat_exit" blend_set="all"/>
+	<anim name="e_so_ntl_eat_loop"  file="anims/shared/special/e_so_ntl_eat_loop" blend_set="all"/>
+	<anim name="e_so_ntl_lever_press"  file="anims/shared/special/e_so_ntl_lever_press" blend_set="all"/>
+	<anim name="e_so_ntl_run_push_door"  file="anims/shared/special/e_so_ntl_run_push_door" blend_set="all"/>
+	
+	
+	
+	<anim name="e_so_sit_cigar_exit" file="anims/shared/special/e_so_sit_cigar_exit" blend_set="all"/>
+	<anim name="e_so_sit_cigar" file="anims/shared/special/e_so_sit_cigar" blend_set="all"/>
+	
+	<anim name="e_so_sit_drink_exit" file="anims/shared/special/e_so_sit_drink_exit" blend_set="all"/>
+	<anim name="e_so_sit_drink" file="anims/shared/special/e_so_sit_drink" blend_set="all"/>
+	<anim name="e_so_stand_drink" file="anims/shared/special/e_so_stand_drink" blend_set="all"/>
+	<anim name="e_so_stand_drink_exit" file="anims/shared/special/e_so_stand_drink_exit" blend_set="all"/>
+	
+	
+	
+	<anim name="e_so_low_lockpick_exit" file="anims/shared/special/e_so_low_lockpick_exit" blend_set="all"/>
+	<anim name="e_so_low_lockpick_enter" file="anims/shared/special/e_so_low_lockpick_enter" blend_set="all"/>
+	<anim name="e_so_low_lockpick_loop" file="anims/shared/special/e_so_low_lockpick_loop" blend_set="all"/>
+	<anim name="e_so_attack_spooc" file="anims/shared/special/e_so_attack_spooc" blend_set="all"/>
+	<anim name="e_so_talk_npc_1" file="anims/shared/special/e_so_talk_npc_1" blend_set="all"/>
+	<anim name="e_so_talk_npc_2" file="anims/shared/special/e_so_talk_npc_2" blend_set="all"/>
+	<anim name="e_so_talk_npc_3" file="anims/shared/special/e_so_talk_npc_3" blend_set="all"/>
+	<anim name="e_so_npc_shots" file="anims/shared/special/e_so_npc_shots" blend_set="all"/>
+	<anim name="e_so_attack_spooc_var2" file="anims/shared/special/e_so_attack_spooc_var2" blend_set="all"/>
+	<anim name="e_so_talk_boss_1" file="anims/shared/special/e_so_talk_boss_1" blend_set="all"/>
+	<anim name="e_so_talk_boss_2" file="anims/shared/special/e_so_talk_boss_2" blend_set="all"/>
+	<anim name="e_so_talk_boss_3" file="anims/shared/special/e_so_talk_boss_3" blend_set="all"/>
+	<anim name="e_so_boss_react_die" file="anims/shared/special/e_so_boss_react_die" blend_set="all"/>
+	
+	<anim name="e_so_guard_arms_crossed" file="anims/shared/special/e_so_guard_arms_crossed" blend_set="all"/>
+	<anim name="e_so_guard_arms_crossed_draw_gun" file="anims/shared/special/e_so_guard_arms_crossed_draw_gun" blend_set="all"/>
+	
+	<anim name="e_so_guard_idle" file="anims/shared/special/e_so_guard_idle" blend_set="all"/>
+	<anim name="e_so_guard_idle_draw_gun" file="anims/shared/special/e_so_guard_idle_draw_gun" blend_set="all"/>
+	
+	<anim name="e_so_blindfire_exit" file="anims/shared/special/e_so_blindfire_exit" blend_set="all"/>
+	<anim name="e_so_blindfire_enter" file="anims/shared/special/e_so_blindfire_enter" blend_set="all"/>
+	<anim name="e_so_blindfire_cover" file="anims/shared/special/e_so_blindfire_cover" blend_set="all"/>
+	<anim name="e_so_blindfire_shooting_left" file="anims/shared/special/e_so_blindfire_shooting" blend_set="all"/>
+	<anim name="e_so_blindfire_shooting_right" file="anims/shared/special/e_so_blindfire_shooting_var2" blend_set="all"/>
+	<anim name="e_so_blindfire_shooting_forward" file="anims/shared/special/e_so_blindfire_shooting_var3" blend_set="all"/>
+	<anim name="cm_so_stand_fire_exit" file="anims/shared/special/cm_so_stand_fire_exit" blend_set="all"/>
+	<anim name="cm_so_stand_fire_enter" file="anims/shared/special/cm_so_stand_fire_enter" blend_set="all"/>
+	<anim name="cm_so_stand_fire_loop" file="anims/shared/special/cm_so_stand_fire_loop" blend_set="all"/>
+	
+	
+	
+	<anim name="e_nl_down_elevator" file="anims/shared/special/e_nl_down_elevator" blend_set="all"/>
+	<anim name="e_nl_down_elevator_var2" file="anims/shared/special/e_nl_down_elevator_var2" blend_set="all"/>
+	<anim name="e_so_sit_enter" file="anims/shared/special/e_so_sit_enter" blend_set="all"/>
+	<anim name="e_so_sit_loop" file="anims/shared/special/e_so_sit_loop" blend_set="all"/>
+	<anim name="e_so_sit_exit" file="anims/shared/special/e_so_sit_exit" blend_set="all"/>
+	<anim name="e_so_loose_balance_var1" file="anims/shared/special/e_so_loose_balance_var1" blend_set="all"/>
+	<anim name="e_so_loose_balance_var2" file="anims/shared/special/e_so_loose_balance_var2" blend_set="all"/>
+	<anim name="e_so_loose_balance_var3" file="anims/shared/special/e_so_loose_balance_var3" blend_set="all"/>
+	
+	
+	<anim name="e_so_sit_on_car_hood_exit" file="anims/shared/special/e_so_sit_on_car_hood_exit" blend_set="all"/>
+	<anim name="e_so_sit_on_car_hood_idle" file="anims/shared/special/e_so_sit_on_car_hood_idle" blend_set="all"/>
+	
+	<anim name="e_so_teleport_var1" file="anims/shared/special/e_so_teleport_var1" blend_set="all"/>
+	<anim name="e_so_teleport_var2" file="anims/shared/special/e_so_teleport_var2" blend_set="all"/>
+	<anim name="e_so_teleport_var3" file="anims/shared/special/e_so_teleport_var3" blend_set="all"/>
+	
+	<anim name="e_so_exit_car_hood_var2" file="anims/shared/special/e_so_exit_car_hood_var2" blend_set="all"/>
+	<anim name="e_so_enter_car_hood_var2" file="anims/shared/special/e_so_enter_car_hood_var2" blend_set="all"/>
+	<anim name="e_so_loop_car_hood_var2" file="anims/shared/special/e_so_loop_car_hood_var2" blend_set="all"/>
+	<anim name="e_so_exit_car_hood" file="anims/shared/special/e_so_exit_car_hood" blend_set="all"/>
+	<anim name="e_so_enter_car_hood" file="anims/shared/special/e_so_enter_car_hood" blend_set="all"/>
+	<anim name="e_so_loop_car_hood" file="anims/shared/special/e_so_loop_car_hood" blend_set="all"/>
+	<anim name="e_so_exit_speech" file="anims/shared/special/e_so_exit_speech" blend_set="all"/>
+	<anim name="e_so_enter_speech" file="anims/shared/special/e_so_enter_speech" blend_set="all"/>
+	<anim name="e_so_loop_speech" file="anims/shared/special/e_so_loop_speech" blend_set="all"/>
+	
+	<anim name="e_so_cover_l" file="anims/shared/special/e_so_cover_l" blend_set="all"/>
+	<anim name="e_so_exit_cover_l" file="anims/shared/special/e_so_exit_cover_l" blend_set="all"/>
+	<anim name="e_so_enter_cover_l" file="anims/shared/special/e_so_enter_cover_l" blend_set="all"/>
+	<anim name="e_so_loop_cover_l" file="anims/shared/special/e_so_loop_cover_l" blend_set="all"/>
+	<anim name="e_so_exit_cover_r" file="anims/shared/special/e_so_exit_cover_r" blend_set="all"/>
+	<anim name="e_so_enter_cover_r" file="anims/shared/special/e_so_enter_cover_r" blend_set="all"/>
+	<anim name="e_so_loop_cover_r" file="anims/shared/special/e_so_loop_cover_r" blend_set="all"/>
+	
+	<anim name="e_so_tied_to_chair_loop" file="anims/shared/unarmed/neutral/cm_so_tied_to_chair_loop" blend_set="all"/>
+	<anim name="e_so_tied_to_chair_exit" file="anims/shared/unarmed/neutral/cm_so_tied_to_chair_exit" blend_set="all"/>
+	
+	<anim name="e_so_enter_hawk" file="anims/shared/special/e_so_enter_hawk" blend_set="all"/>
+	
+	<anim name="e_so_up_dwn_car_hood" file="anims/shared/special/e_so_up_dwn_car_hood" blend_set="all"/>
+	
+	<anim name="e_so_talk_greetings" file="anims/shared/special/e_so_talk_greetings" blend_set="all"/>
+	<anim name="e_so_talk_point_right" file="anims/shared/special/e_so_talk_point_right" blend_set="all"/>
+	<anim name="e_so_crawl_vent_berry" file="anims/shared/special/e_so_crawl_vent_berry" blend_set="all"/>
+	
+	<anim name="e_so_container_impact_01" file="anims/shared/special/e_so_container_impact_01" blend_set="all"/>
+	<anim name="e_so_container_impact_02" file="anims/shared/special/e_so_container_impact_02" blend_set="all"/>
+	<anim name="e_so_container_impact_03" file="anims/shared/special/e_so_container_impact_03" blend_set="all"/>
+	<anim name="e_so_container_kick" file="anims/shared/special/e_so_container_kick" blend_set="all"/>
+	
+	<anim name="e_so_saw" file="anims/shared/special/e_so_saw" blend_set="all"/>
+	<anim name="e_so_saw_pull" file="anims/shared/special/e_so_saw_pull" blend_set="all"/>
+	
+		<!-- Sneak SO -->
+		<anim name="e_so_crh_sneak_wait_enter" file="anims/shared/special/e_so_sit_wait_enter" blend_set="all"/>
+		<anim name="e_so_crh_sneak_wait_loop" file="anims/shared/special/e_so_sit_wait_loop" blend_set="all"/>
+		<anim name="e_so_crh_sneak_wait_exit" file="anims/shared/special/e_so_sit_wait_exit" blend_set="all"/>
+		
+		<anim name="e_so_crh_sneak_wait_enter_var2" file="anims/shared/special/e_so_sit_wait_enter_var2" blend_set="all"/>
+		<anim name="e_so_crh_sneak_wait_loop_var2" file="anims/shared/special/e_so_sit_wait_loop_var2" blend_set="all"/>
+		<anim name="e_so_crh_sneak_wait_exit_var2" file="anims/shared/special/e_so_sit_wait_exit_var2" blend_set="all"/>
+		
+		<anim name="e_so_crh_sneak_wait_enter_var3" file="anims/shared/special/e_so_sit_wait_enter_var3" blend_set="all"/>
+		<anim name="e_so_crh_sneak_wait_loop_var3" file="anims/shared/special/e_so_sit_wait_loop_var3" blend_set="all"/>
+		<anim name="e_so_crh_sneak_wait_exit_var3" file="anims/shared/special/e_so_sit_wait_exit_var3" blend_set="all"/>
+		
+		<anim name="e_so_std_sneak_wait_enter" file="anims/shared/special/e_so_stand_wait_enter" blend_set="all"/>
+		<anim name="e_so_std_sneak_wait_loop" file="anims/shared/special/e_so_stand_wait_loop" blend_set="all"/>
+		<anim name="e_so_std_sneak_wait_exit" file="anims/shared/special/e_so_stand_wait_exit" blend_set="all"/>
+	
+		<anim name="e_so_keyboard_type_enter" file="anims/shared/special/e_so_keyboard_type_enter" blend_set="all"/>
+		<anim name="e_so_keyboard_type_loop" file="anims/shared/special/e_so_keyboard_type_loop" blend_set="all"/>
+		<anim name="e_so_keyboard_type_exit" file="anims/shared/special/e_so_keyboard_type_exit" blend_set="all"/>
+		
+		<!-- Hide SO -->
+		<anim name="e_so_crh_hide_under_car_enter" file="anims/shared/boss/spooc/car_enter" blend_set="all"/>
+		<anim name="e_so_crh_hide_under_car_loop" file="anims/shared/boss/spooc/car_loop" blend_set="all"/>
+		<anim name="e_so_crh_hide_under_car_exit" file="anims/shared/boss/spooc/car_exit" blend_set="all"/>
+		
+		<anim name="e_so_crh_hide_2_5m_vent_enter" file="anims/shared/boss/spooc/e_so_clk_2_5m_vent_enter" blend_set="all"/>
+		<anim name="e_so_crh_hide_2_5m_vent_loop" file="anims/shared/boss/spooc/e_so_clk_2_5m_vent_loop" blend_set="all"/>
+		<anim name="e_so_crh_hide_2_5m_vent_exit" file="anims/shared/boss/spooc/e_so_clk_2_5m_vent_exit" blend_set="all"/>
+		
+		<anim name="e_so_crh_hide_behind_door_enter" file="anims/shared/boss/spooc/e_so_clk_behind_door_enter" blend_set="all"/>
+		<anim name="e_so_crh_hide_behind_door_loop" file="anims/shared/boss/spooc/e_so_clk_behind_door_loop" blend_set="all"/>
+		<anim name="e_so_crh_hide_behind_door_exit" file="anims/shared/boss/spooc/e_so_clk_behind_door_exit" blend_set="all"/>
+		
+		<anim name="e_so_crh_hide_ledge_enter" file="anims/shared/boss/spooc/e_so_clk_ledge_enter" blend_set="all"/>
+		<anim name="e_so_crh_hide_ledge_loop" file="anims/shared/boss/spooc/e_so_clk_ledge_loop" blend_set="all"/>
+		<anim name="e_so_crh_hide_ledge_exit" file="anims/shared/boss/spooc/e_so_clk_ledge_exit" blend_set="all"/>
+		
+		<!-- Zipline -->
+		<anim name="cbt_rifle_zipline_fwd" file="anims/shared/special/zipline_idle_front" blend_set="all_no_root"/>
+		<anim name="cbt_rifle_zipline_l" file="anims/shared/special/zipline_idle_left" blend_set="all_no_root"/>
+		<anim name="cbt_rifle_zipline_r" file="anims/shared/special/zipline_idle_right" blend_set="all_no_root"/>
+		
+		<!-- Fumbles -->
+		<anim name="e_so_fumble_sup_still_1" file="anims/shared/special/fumbles/e_sup_dodge_var1" blend_set="all"/>
+		<anim name="e_so_fumble_sup_still_2" file="anims/shared/special/fumbles/e_sup_dodge_var2" blend_set="all"/>
+		<anim name="e_so_fumble_sup_still_3" file="anims/shared/special/fumbles/e_sup_dodge_var3" blend_set="all"/>
+		<anim name="e_so_fumble_sup_still_4" file="anims/shared/special/fumbles/e_sup_dodge_var4" blend_set="all"/>
+		<anim name="e_so_fumble_sup_run_fwd_1" file="anims/shared/special/fumbles/e_sup_dodge_var4" blend_set="all"/>
+		
+		<!-- Vehicles -->
+		<!-- Falcogini -->
+		<anim name="drive_falcogini_passenger_look_fwd" file="anims/shared/vehicle/falcogini/passenger_look_fwd" blend_set="all"/>
+		<anim name="drive_falcogini_passenger_look_l" file="anims/shared/vehicle/falcogini/passenger_look_fwd"  blend_set="all"/>
+		<anim name="drive_falcogini_passenger_look_r" file="anims/shared/vehicle/falcogini/passenger_look_fwd" blend_set="all"/>
+		<anim name="drive_falcogini_passenger_pistol_fwd" file="anims/shared/vehicle/falcogini/passenger_pistol_fwd" blend_set="all"/>
+		<anim name="drive_falcogini_passenger_pistol_l" file="anims/shared/vehicle/falcogini/passenger_pistol_left"  blend_set="all"/>
+		<anim name="drive_falcogini_passenger_pistol_r" file="anims/shared/vehicle/falcogini/passenger_pistol_right" blend_set="all"/>
+		<anim name="drive_falcogini_passenger_pistol_bwd" file="anims/shared/vehicle/falcogini/passenger_pistol_bwd" blend_set="all"/>
+		<anim name="drive_falcogini_passenger_akimbo_fwd" file="anims/shared/vehicle/falcogini/passenger_akimbo_fwd" blend_set="all"/>
+		<anim name="drive_falcogini_passenger_akimbo_l" file="anims/shared/vehicle/falcogini/passenger_akimbo_left"  blend_set="all"/>
+		<anim name="drive_falcogini_passenger_akimbo_r" file="anims/shared/vehicle/falcogini/passenger_akimbo_right" blend_set="all"/>
+		<anim name="drive_falcogini_passenger_akimbo_bwd" file="anims/shared/vehicle/falcogini/passenger_akimbo_bwd" blend_set="all"/>
+		<anim name="drive_falcogini_passenger_rifle_fwd" file="anims/shared/vehicle/falcogini/passenger_rifle_fwd" blend_set="all"/>
+		<anim name="drive_falcogini_passenger_rifle_l" file="anims/shared/vehicle/falcogini/passenger_rifle_left"  blend_set="all"/>
+		<anim name="drive_falcogini_passenger_rifle_r" file="anims/shared/vehicle/falcogini/passenger_rifle_right" blend_set="all"/>
+		<anim name="drive_falcogini_passenger_rifle_bwd" file="anims/shared/vehicle/falcogini/passenger_rifle_bwd" blend_set="all"/>
+		<anim name="drive_falcogini_passenger_bow_fwd" file="anims/shared/vehicle/falcogini/passenger_bow_fwd" blend_set="all"/>
+		<anim name="drive_falcogini_passenger_bow_l" file="anims/shared/vehicle/falcogini/passenger_bow_left"  blend_set="all"/>
+		<anim name="drive_falcogini_passenger_bow_r" file="anims/shared/vehicle/falcogini/passenger_bow_right" blend_set="all"/>
+		<anim name="drive_falcogini_passenger_bow_bwd" file="anims/shared/vehicle/falcogini/passenger_bow_bwd" blend_set="all"/>
+				
+		<anim name="drive_falcogini_driver_fwd" file="anims/shared/vehicle/falcogini/driver_steer_fwd" blend_set="all"/>
+		<anim name="drive_falcogini_driver_l" file="anims/shared/vehicle/falcogini/driver_steer_left"  blend_set="all"/>
+		<anim name="drive_falcogini_driver_r" file="anims/shared/vehicle/falcogini/driver_steer_right" blend_set="all"/>
+
+		
+		<!-- Forklift -->
+		<anim name="drive_forklift_passenger_look_fwd" file="anims/shared/vehicle/forklift/passenger_look_fwd" blend_set="all"/>
+		<anim name="drive_forklift_passenger_look_l" file="anims/shared/vehicle/forklift/passenger_look_left"  blend_set="all"/>
+		<anim name="drive_forklift_passenger_look_r" file="anims/shared/vehicle/forklift/passenger_look_right" blend_set="all"/>
+		<anim name="drive_forklift_passenger_pistol_fwd" file="anims/shared/vehicle/forklift/passenger_pistol_fwd" blend_set="all_aim"/>
+		<anim name="drive_forklift_passenger_pistol_l" file="anims/shared/vehicle/forklift/passenger_pistol_left"  blend_set="all_aim"/>
+		<anim name="drive_forklift_passenger_pistol_r" file="anims/shared/vehicle/forklift/passenger_pistol_right" blend_set="all_aim"/>
+		<!-- <anim name="drive_forklift_passenger_pistol_bwd" file="anims/shared/vehicle/forklift/passenger_pistol_bwd" blend_set="all_aim"/> -->
+		<anim name="drive_forklift_passenger_akimbo_fwd" file="anims/shared/vehicle/forklift/passenger_akimbo_fwd" blend_set="all_aim"/>
+		<anim name="drive_forklift_passenger_akimbo_l" file="anims/shared/vehicle/forklift/passenger_akimbo_left"  blend_set="all_aim"/>
+		<anim name="drive_forklift_passenger_akimbo_r" file="anims/shared/vehicle/forklift/passenger_akimbo_right" blend_set="all_aim"/>
+		<!-- <anim name="drive_forklift_passenger_akimbo_bwd" file="anims/shared/vehicle/forklift/passenger_akimbo_bwd" blend_set="all_aim"/> -->
+		<anim name="drive_forklift_passenger_rifle_fwd" file="anims/shared/vehicle/forklift/passenger_rifle_fwd" blend_set="all_aim"/>
+		<anim name="drive_forklift_passenger_rifle_l" file="anims/shared/vehicle/forklift/passenger_rifle_left"  blend_set="all_aim"/>
+		<anim name="drive_forklift_passenger_rifle_r" file="anims/shared/vehicle/forklift/passenger_rifle_right" blend_set="all_aim"/>
+		<!-- <anim name="drive_forklift_passenger_rifle_bwd" file="anims/shared/vehicle/forklift/passenger_rifle_bwd" blend_set="all_aim"/> -->
+		<anim name="drive_forklift_passenger_bow_fwd" file="anims/shared/vehicle/forklift/passenger_bow_fwd" blend_set="all_aim"/>
+		<anim name="drive_forklift_passenger_bow_l" file="anims/shared/vehicle/forklift/passenger_bow_left"  blend_set="all_aim"/>
+		<anim name="drive_forklift_passenger_bow_r" file="anims/shared/vehicle/forklift/passenger_bow_right" blend_set="all_aim"/>
+		
+		<anim name="drive_forklift_driver_fwd" file="anims/shared/vehicle/forklift/driver_steer_fwd" blend_set="all"/>
+		<anim name="drive_forklift_driver_l" file="anims/shared/vehicle/forklift/driver_steer_left"  blend_set="all"/>
+		<anim name="drive_forklift_driver_r" file="anims/shared/vehicle/forklift/driver_steer_right" blend_set="all"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Muscle car -->
+		<anim name="drive_muscle_passenger_look_fwd" file="anims/shared/vehicle/muscle_1/passenger_look_fwd" blend_set="all_no_root"/>
+		<anim name="drive_muscle_passenger_look_l" file="anims/shared/vehicle/muscle_1/passenger_look_fwd"  blend_set="all_no_root"/>
+		<anim name="drive_muscle_passenger_look_r" file="anims/shared/vehicle/muscle_1/passenger_look_fwd" blend_set="all_no_root"/>
+		<anim name="drive_muscle_passenger_pistol_fwd" file="anims/shared/vehicle/muscle_1/passenger_pistol_fwd" blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_pistol_l" file="anims/shared/vehicle/muscle_1/passenger_pistol_left"  blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_pistol_r" file="anims/shared/vehicle/muscle_1/passenger_pistol_right" blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_pistol_bwd" file="anims/shared/vehicle/muscle_1/passenger_pistol_bwd" blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_akimbo_fwd" file="anims/shared/vehicle/muscle_1/passenger_akimbo_fwd" blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_akimbo_l" file="anims/shared/vehicle/muscle_1/passenger_akimbo_left"  blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_akimbo_r" file="anims/shared/vehicle/muscle_1/passenger_akimbo_right" blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_akimbo_bwd" file="anims/shared/vehicle/muscle_1/passenger_akimbo_bwd" blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_rifle_fwd" file="anims/shared/vehicle/muscle_1/passenger_rifle_fwd" blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_rifle_l" file="anims/shared/vehicle/muscle_1/passenger_rifle_left"  blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_rifle_r" file="anims/shared/vehicle/muscle_1/passenger_rifle_right" blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_rifle_bwd" file="anims/shared/vehicle/muscle_1/passenger_rifle_bwd" blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_bow_fwd" file="anims/shared/vehicle/muscle_1/passenger_bow_fwd" blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_bow_l" file="anims/shared/vehicle/muscle_1/passenger_bow_left"  blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_bow_r" file="anims/shared/vehicle/muscle_1/passenger_bow_right" blend_set="all_aim_no_root"/>
+		<anim name="drive_muscle_passenger_bow_bwd" file="anims/shared/vehicle/muscle_1/passenger_bow_bwd" blend_set="all_aim_no_root"/>
+
+		<anim name="drive_muscle_driver_fwd" file="anims/shared/vehicle/muscle_1/driver_steer_fwd" blend_set="all"/>
+		<anim name="drive_muscle_driver_l" file="anims/shared/vehicle/muscle_1/driver_steer_left"  blend_set="all"/>
+		<anim name="drive_muscle_driver_r" file="anims/shared/vehicle/muscle_1/driver_steer_right" blend_set="all"/>		
+		<anim name="drive_muscle_back_left_fwd" file="anims/shared/vehicle/muscle_1/back_seat_muscle_car_left" blend_set="all"/>
+		<anim name="drive_muscle_back_left_l" file="anims/shared/vehicle/muscle_1/back_seat_muscle_car_left"  blend_set="all"/>
+		<anim name="drive_muscle_back_left_r" file="anims/shared/vehicle/muscle_1/back_seat_muscle_car_left" blend_set="all"/>		
+		<anim name="drive_muscle_back_right_fwd" file="anims/shared/vehicle/muscle_1/back_seat_muscle_car_right" blend_set="all"/>
+		<anim name="drive_muscle_back_right_l" file="anims/shared/vehicle/muscle_1/back_seat_muscle_car_right"  blend_set="all"/>
+		<anim name="drive_muscle_back_right_r" file="anims/shared/vehicle/muscle_1/back_seat_muscle_car_right" blend_set="all"/>		
+
+		<!-- truck car -->
+		<anim name="drive_truck_passenger_look_fwd" file="anims/shared/vehicle/truck/passenger_look_fwd" blend_set="all_no_root"/>
+		<anim name="drive_truck_passenger_look_l" file="anims/shared/vehicle/truck/passenger_look_fwd"  blend_set="all_no_root"/>
+		<anim name="drive_truck_passenger_look_r" file="anims/shared/vehicle/truck/passenger_look_fwd" blend_set="all_no_root"/>
+		<anim name="drive_truck_passenger_pistol_fwd" file="anims/shared/vehicle/truck/passenger_pistol_fwd" blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_pistol_l" file="anims/shared/vehicle/truck/passenger_pistol_left"  blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_pistol_r" file="anims/shared/vehicle/truck/passenger_pistol_right" blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_pistol_bwd" file="anims/shared/vehicle/truck/passenger_pistol_bwd" blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_akimbo_fwd" file="anims/shared/vehicle/truck/passenger_akimbo_fwd" blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_akimbo_l" file="anims/shared/vehicle/truck/passenger_akimbo_left"  blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_akimbo_r" file="anims/shared/vehicle/truck/passenger_akimbo_right" blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_akimbo_bwd" file="anims/shared/vehicle/truck/passenger_akimbo_bwd" blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_rifle_fwd" file="anims/shared/vehicle/truck/passenger_rifle_fwd" blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_rifle_l" file="anims/shared/vehicle/truck/passenger_rifle_left"  blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_rifle_r" file="anims/shared/vehicle/truck/passenger_rifle_right" blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_rifle_bwd" file="anims/shared/vehicle/truck/passenger_rifle_bwd" blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_bow_fwd" file="anims/shared/vehicle/truck/passenger_bow_fwd" blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_bow_l" file="anims/shared/vehicle/truck/passenger_bow_left"  blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_bow_r" file="anims/shared/vehicle/truck/passenger_bow_right" blend_set="all_aim_no_root"/>
+		<anim name="drive_truck_passenger_bow_bwd" file="anims/shared/vehicle/truck/passenger_bow_bwd" blend_set="all_aim_no_root"/>
+
+		<anim name="drive_truck_driver_fwd" file="anims/shared/vehicle/truck/driver_steer_fwd" blend_set="all"/>
+		<anim name="drive_truck_driver_l" file="anims/shared/vehicle/truck/driver_steer_left"  blend_set="all"/>
+		<anim name="drive_truck_driver_r" file="anims/shared/vehicle/truck/driver_steer_right" blend_set="all"/>		
+		
+		
+		<anim name="drive_truck_back_left_pistol_fwd" file="anims/shared/vehicle/truck/back_left_passenger_pistol_fwd" blend_set="all_aim"/>
+		<anim name="drive_truck_back_left_pistol_l" file="anims/shared/vehicle/truck/back_left_passenger_pistol_left"  blend_set="all_aim"/>
+		<anim name="drive_truck_back_left_pistol_r" file="anims/shared/vehicle/truck/back_left_passenger_pistol_right" blend_set="all_aim"/>
+		
+		<anim name="drive_truck_back_left_akimbo_fwd" file="anims/shared/vehicle/truck/back_left_passenger_akimbo_fwd" blend_set="all_aim"/>
+		<anim name="drive_truck_back_left_akimbo_l" file="anims/shared/vehicle/truck/back_left_passenger_akimbo_left"  blend_set="all_aim"/>
+		<anim name="drive_truck_back_left_akimbo_r" file="anims/shared/vehicle/truck/back_left_passenger_akimbo_right" blend_set="all_aim"/>
+		
+		<anim name="drive_truck_back_left_rifle_fwd" file="anims/shared/vehicle/truck/back_left_passenger_rifle_fwd" blend_set="all_aim"/>
+		<anim name="drive_truck_back_left_rifle_l" file="anims/shared/vehicle/truck/back_left_passenger_rifle_left"  blend_set="all_aim"/>
+		<anim name="drive_truck_back_left_rifle_r" file="anims/shared/vehicle/truck/back_left_passenger_rifle_right" blend_set="all_aim"/>
+		
+		<anim name="drive_truck_back_left_bow_fwd" file="anims/shared/vehicle/truck/back_left_passenger_bow_fwd" blend_set="all_aim"/>
+		<anim name="drive_truck_back_left_bow_l" file="anims/shared/vehicle/truck/back_left_passenger_bow_left"  blend_set="all_aim"/>
+		<anim name="drive_truck_back_left_bow_r" file="anims/shared/vehicle/truck/back_left_passenger_bow_right" blend_set="all_aim"/>
+		
+		
+		<anim name="drive_truck_back_right_pistol_fwd" file="anims/shared/vehicle/truck/back_right_passenger_pistol_fwd" blend_set="all_aim"/>
+		<anim name="drive_truck_back_right_pistol_l" file="anims/shared/vehicle/truck/back_right_passenger_pistol_left"  blend_set="all_aim"/>
+		<anim name="drive_truck_back_right_pistol_r" file="anims/shared/vehicle/truck/back_right_passenger_pistol_right" blend_set="all_aim"/>
+		
+		<anim name="drive_truck_back_right_akimbo_fwd" file="anims/shared/vehicle/truck/back_right_passenger_akimbo_fwd" blend_set="all_aim"/>
+		<anim name="drive_truck_back_right_akimbo_l" file="anims/shared/vehicle/truck/back_right_passenger_akimbo_left"  blend_set="all_aim"/>
+		<anim name="drive_truck_back_right_akimbo_r" file="anims/shared/vehicle/truck/back_right_passenger_akimbo_right" blend_set="all_aim"/>
+		
+		<anim name="drive_truck_back_right_rifle_fwd" file="anims/shared/vehicle/truck/back_right_passenger_rifle_fwd" blend_set="all_aim"/>
+		<anim name="drive_truck_back_right_rifle_l" file="anims/shared/vehicle/truck/back_right_passenger_rifle_left"  blend_set="all_aim"/>
+		<anim name="drive_truck_back_right_rifle_r" file="anims/shared/vehicle/truck/back_right_passenger_rifle_right" blend_set="all_aim"/>
+		
+		<anim name="drive_truck_back_right_bow_fwd" file="anims/shared/vehicle/truck/back_right_passenger_bow_fwd" blend_set="all_aim"/>
+		<anim name="drive_truck_back_right_bow_l" file="anims/shared/vehicle/truck/back_right_passenger_bow_left"  blend_set="all_aim"/>
+		<anim name="drive_truck_back_right_bow_r" file="anims/shared/vehicle/truck/back_right_passenger_bow_right" blend_set="all_aim"/>
+		
+
+		<anim name="drive_mower_1_driver_fwd" file="anims/shared/vehicle/mower_1/driver_steer_fwd" blend_set="all"/>
+		<anim name="drive_mower_1_driver_l" file="anims/shared/vehicle/mower_1/driver_steer_left"  blend_set="all"/>
+		<anim name="drive_mower_1_driver_r" file="anims/shared/vehicle/mower_1/driver_steer_right" blend_set="all"/>
+
+
+
+	<!-- Parachuting -->
+	<anim name="freefall_jump" file="anims/shared/special/freefall_jump" blend_set="all"/>
+	<anim name="freefall_fwd" file="anims/shared/special/freefall_fwd" blend_set="all"/>
+	<anim name="freefall_r" file="anims/shared/special/freefall_right" blend_set="all"/>
+	<anim name="freefall_l" file="anims/shared/special/freefall_left" blend_set="all"/>
+	<anim name="freefall_to_parachute" file="anims/shared/special/freefall_to_parachute" blend_set="all"/>
+	<anim name="parachute_fwd" file="anims/shared/special/parachute_fwd" blend_set="all"/>
+	<anim name="parachute_r" file="anims/shared/special/parachute_right" blend_set="all"/>
+	<anim name="parachute_l" file="anims/shared/special/parachute_left" blend_set="all"/>
+
+
+	<anim name="drive_boat_rib_1_driver_fwd"			file="anims/shared/vehicle/boat_rib_1/driver_steer_fwd"				blend_set="all"/>
+	<!-- <anim name="drive_boat_rib_1_driver_l"				file="anims/shared/vehicle/boat_rib_1/driver_steer_left" 			blend_set="all"/> -->
+	<!-- <anim name="drive_boat_rib_1_driver_r"				file="anims/shared/vehicle/boat_rib_1/driver_steer_right"			blend_set="all"/> -->
+	<anim name="drive_boat_rib_1_driver_l"				file="anims/shared/vehicle/boat_rib_1/driver_steer_fwd" 			blend_set="all"/>
+	<anim name="drive_boat_rib_1_driver_r"				file="anims/shared/vehicle/boat_rib_1/driver_steer_fwd"			blend_set="all"/>
+	
+	<!-- ///////////////////////////////////////////////// -->
+	<anim name="drive_boat_rib_1_passenger_pistol_fwd"	file="anims/shared/vehicle/boat_rib_1/front_passenger_pistol_fwd"	blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_passenger_pistol_l"	file="anims/shared/vehicle/boat_rib_1/front_passenger_pistol_l" 	blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_passenger_pistol_r"	file="anims/shared/vehicle/boat_rib_1/front_passenger_pistol_r"		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_passenger_akimbo_fwd"	file="anims/shared/vehicle/boat_rib_1/front_passenger_akimbo_fwd"	blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_passenger_akimbo_l"	file="anims/shared/vehicle/boat_rib_1/front_passenger_akimbo_l" 	blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_passenger_akimbo_r"	file="anims/shared/vehicle/boat_rib_1/front_passenger_akimbo_r"		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_passenger_rifle_fwd"	file="anims/shared/vehicle/boat_rib_1/front_passenger_rifle_fwd"	blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_passenger_rifle_l"		file="anims/shared/vehicle/boat_rib_1/front_passenger_rifle_l" 		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_passenger_rifle_r"		file="anims/shared/vehicle/boat_rib_1/front_passenger_rifle_r"		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_passenger_bow_fwd"		file="anims/shared/vehicle/boat_rib_1/front_passenger_bow_fwd"		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_passenger_bow_l"		file="anims/shared/vehicle/boat_rib_1/front_passenger_bow_l" 		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_passenger_bow_r"		file="anims/shared/vehicle/boat_rib_1/front_passenger_bow_r"		blend_set="all_aim"/>
+	
+	<anim name="drive_boat_rib_1_back_left_pistol_fwd"	file="anims/shared/vehicle/boat_rib_1/left_passenger_pistol_fwd"	blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_left_pistol_l"	file="anims/shared/vehicle/boat_rib_1/left_passenger_pistol_l" 		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_left_pistol_r"	file="anims/shared/vehicle/boat_rib_1/left_passenger_pistol_r"		blend_set="all_aim"/>
+	
+	<anim name="drive_boat_rib_1_back_left_akimbo_fwd"	file="anims/shared/vehicle/boat_rib_1/left_passenger_akimbo_fwd"	blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_left_akimbo_l"	file="anims/shared/vehicle/boat_rib_1/left_passenger_akimbo_l" 		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_left_akimbo_r"	file="anims/shared/vehicle/boat_rib_1/left_passenger_akimbo_r"		blend_set="all_aim"/>
+	
+	<anim name="drive_boat_rib_1_back_left_rifle_fwd"	file="anims/shared/vehicle/boat_rib_1/left_passenger_rifle_fwd"		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_left_rifle_l"		file="anims/shared/vehicle/boat_rib_1/left_passenger_rifle_l" 		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_left_rifle_r"		file="anims/shared/vehicle/boat_rib_1/left_passenger_rifle_r"		blend_set="all_aim"/>
+	
+	<anim name="drive_boat_rib_1_back_left_bow_fwd"		file="anims/shared/vehicle/boat_rib_1/left_passenger_bow_fwd"		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_left_bow_l"		file="anims/shared/vehicle/boat_rib_1/left_passenger_bow_l" 		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_left_bow_r"		file="anims/shared/vehicle/boat_rib_1/left_passenger_bow_r"			blend_set="all_aim"/>
+		
+	<anim name="drive_boat_rib_1_back_right_pistol_fwd"	file="anims/shared/vehicle/boat_rib_1/right_passenger_pistol_fwd"	blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_right_pistol_l"	file="anims/shared/vehicle/boat_rib_1/right_passenger_pistol_l" 	blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_right_pistol_r"	file="anims/shared/vehicle/boat_rib_1/right_passenger_pistol_r"		blend_set="all_aim"/>
+	
+	<anim name="drive_boat_rib_1_back_right_akimbo_fwd"	file="anims/shared/vehicle/boat_rib_1/right_passenger_akimbo_fwd"	blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_right_akimbo_l"	file="anims/shared/vehicle/boat_rib_1/right_passenger_akimbo_l" 	blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_right_akimbo_r"	file="anims/shared/vehicle/boat_rib_1/right_passenger_akimbo_r"		blend_set="all_aim"/>
+	
+	<anim name="drive_boat_rib_1_back_right_rifle_fwd"	file="anims/shared/vehicle/boat_rib_1/right_passenger_rifle_fwd"	blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_right_rifle_l"	file="anims/shared/vehicle/boat_rib_1/right_passenger_rifle_l" 		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_right_rifle_r"	file="anims/shared/vehicle/boat_rib_1/right_passenger_rifle_r"		blend_set="all_aim"/>
+	
+	<anim name="drive_boat_rib_1_back_right_bow_fwd"	file="anims/shared/vehicle/boat_rib_1/right_passenger_bow_fwd"		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_right_bow_l"		file="anims/shared/vehicle/boat_rib_1/right_passenger_bow_l" 		blend_set="all_aim"/>
+	<anim name="drive_boat_rib_1_back_right_bow_r"		file="anims/shared/vehicle/boat_rib_1/right_passenger_bow_r"		blend_set="all_aim"/>
+
+
+
+	<!-- blackhawk  -->
+	<anim name="drive_blackhawk_1_passenger_look_fwd"		file="anims/shared/vehicle/blackhawk_1/passenger_look_fwd"			blend_set="all_aim"/>
+	<anim name="drive_blackhawk_1_passenger_look_l"			file="anims/shared/vehicle/blackhawk_1/passenger_look_left" 		blend_set="all_aim"/>
+	<anim name="drive_blackhawk_1_passenger_look_r"			file="anims/shared/vehicle/blackhawk_1/passenger_look_right"		blend_set="all_aim"/>
+	<!-- <anim name="drive_blackhawk_1_passenger_pistol_fwd"		file="anims/shared/vehicle/blackhawk_1/passenger_pistol_fwd"		blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_pistol_l"		file="anims/shared/vehicle/blackhawk_1/passenger_pistol_left" 		blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_pistol_r"		file="anims/shared/vehicle/blackhawk_1/passenger_pistol_right"		blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_pistol_bwd"		file="anims/shared/vehicle/blackhawk_1/passenger_pistol_bwd"		blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_akimbo_fwd"		file="anims/shared/vehicle/blackhawk_1/passenger_akimbo_fwd"		blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_akimbo_l"		file="anims/shared/vehicle/blackhawk_1/passenger_akimbo_left" 		blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_akimbo_r"		file="anims/shared/vehicle/blackhawk_1/passenger_akimbo_right"		blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_akimbo_bwd"		file="anims/shared/vehicle/blackhawk_1/passenger_akimbo_bwd"		blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_rifle_fwd"		file="anims/shared/vehicle/blackhawk_1/passenger_rifle_fwd"			blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_rifle_l"		file="anims/shared/vehicle/blackhawk_1/passenger_rifle_left" 		blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_rifle_r"		file="anims/shared/vehicle/blackhawk_1/passenger_rifle_right"		blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_rifle_bwd"		file="anims/shared/vehicle/blackhawk_1/passenger_rifle_bwd"			blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_bow_fwd"		file="anims/shared/vehicle/blackhawk_1/passenger_bow_fwd"			blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_bow_l"			file="anims/shared/vehicle/blackhawk_1/passenger_bow_left" 			blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_bow_r"			file="anims/shared/vehicle/blackhawk_1/passenger_bow_right"			blend_set="all_aim"/> -->
+	<!-- <anim name="drive_blackhawk_1_passenger_bow_bwd"		file="anims/shared/vehicle/blackhawk_1/passenger_bow_bwd"			blend_set="all_aim"/> -->
+
+	<anim name="drive_blackhawk_1_driver"					file="anims/shared/vehicle/blackhawk_1/passenger_look_fwd"		blend_set="all"/>
+	<anim name="drive_blackhawk_1_driver_fwd"				file="anims/shared/vehicle/blackhawk_1/passenger_look_fwd"		blend_set="all"/>
+	<anim name="drive_blackhawk_1_driver_l"					file="anims/shared/vehicle/blackhawk_1/passenger_look_left"		blend_set="all"/>
+	<anim name="drive_blackhawk_1_driver_r"					file="anims/shared/vehicle/blackhawk_1/passenger_look_right"	blend_set="all"/>
+	<anim name="drive_blackhawk_1_back_left_fwd"			file="anims/shared/vehicle/blackhawk_1/passenger_look_fwd"		blend_set="all"/>
+	<anim name="drive_blackhawk_1_back_left_l"				file="anims/shared/vehicle/blackhawk_1/passenger_look_left"		blend_set="all"/>
+	<anim name="drive_blackhawk_1_back_left_r"				file="anims/shared/vehicle/blackhawk_1/passenger_look_right"	blend_set="all"/>		
+	<anim name="drive_blackhawk_1_back_right_fwd"			file="anims/shared/vehicle/blackhawk_1/passenger_look_fwd"		blend_set="all"/>
+	<anim name="drive_blackhawk_1_back_right_l"				file="anims/shared/vehicle/blackhawk_1/passenger_look_left"		blend_set="all"/>
+	<anim name="drive_blackhawk_1_back_right_r"				file="anims/shared/vehicle/blackhawk_1/passenger_look_right"	blend_set="all"/>
+
+
+
+	<anim name="drive_bike_1_driver_fwd" file="anims/shared/vehicle/bike_1/driver_steer_fwd" blend_set="all"/>
+	<anim name="drive_bike_1_driver_l" file="anims/shared/vehicle/bike_1/driver_steer_left"  blend_set="all"/>
+	<anim name="drive_bike_1_driver_r" file="anims/shared/vehicle/bike_1/driver_steer_right" blend_set="all"/>
+
+
+</xml>
+

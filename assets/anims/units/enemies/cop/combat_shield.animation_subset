@@ -1,0 +1,35 @@
+<xml>
+	<!-- Crouch -->
+	
+		<!-- Still -->
+	
+			<!-- Idle -->
+			<anim name="cbt_shield_crh_idle" file="anims/shared/boss/shield/cbt_crh_idle" blend_set="all_aim"/>
+			
+			<!-- Turn -->
+			<anim name="cbt_shield_crh_turn_l_45" file="anims/shared/boss/shield/cbt_crh_turn_l45" blend_set="all_aim"/>
+			<anim name="cbt_shield_crh_turn_l_90" file="anims/shared/boss/shield/cbt_crh_turn_l90" blend_set="all_aim"/>
+			<anim name="cbt_shield_crh_turn_l_135" file="anims/shared/boss/shield/cbt_crh_turn_l90" blend_set="all_aim"/><!-- TEMP -->
+			<anim name="cbt_shield_crh_turn_r_45" file="anims/shared/boss/shield/cbt_crh_turn_r45" blend_set="all_aim"/>
+			<anim name="cbt_shield_crh_turn_r_90" file="anims/shared/boss/shield/cbt_crh_turn_r90" blend_set="all_aim"/>
+			<anim name="cbt_shield_crh_turn_r_135" file="anims/shared/boss/shield/cbt_crh_turn_r90" blend_set="all_aim"/><!-- TEMP -->
+			
+		<!-- Walk -->
+		<anim name="cbt_shield_crh_walk_fwd" file="anims/shared/boss/shield/cbt_crh_walk_fwd" blend_set="all_aim"/>
+		<anim name="cbt_shield_crh_walk_bwd" file="anims/shared/boss/shield/cbt_crh_walk_bwd" blend_set="all_aim"/>
+		<anim name="cbt_shield_crh_walk_l" file="anims/shared/boss/shield/cbt_crh_walk_l" blend_set="all_aim"/>
+		<anim name="cbt_shield_crh_walk_r" file="anims/shared/boss/shield/cbt_crh_walk_r" blend_set="all_aim"/>
+		
+		<!-- Run -->  
+		<anim name="cbt_shield_crh_run_fwd" file="anims/shared/boss/shield/cbt_crh_run_fwd" blend_set="all_aim"/>
+		<anim name="cbt_shield_crh_run_bwd" file="anims/shared/boss/shield/cbt_crh_run_bwd" blend_set="all_aim"/>
+		<anim name="cbt_shield_crh_run_l" file="anims/shared/boss/shield/cbt_crh_run_l" blend_set="all_aim"/>
+		<anim name="cbt_shield_crh_run_r" file="anims/shared/boss/shield/cbt_crh_run_r" blend_set="all_aim"/>
+		
+		<!-- Recoil -->
+		<anim name="crh_shield_recoil" file="anims/shared/boss/shield/cbt_crh_shoot" blend_set="upper_body_aim"/>
+		<anim name="crh_shield_recoil_auto" file="anims/shared/boss/shield/cbt_crh_shoot_aut" blend_set="upper_body_aim"/>
+		
+		<!-- Reload -->
+		<anim name="crh_reload_shield" file="anims/shared/boss/shield/cbt_crh_reload" blend_set="upper_body_aim"/>
+</xml>

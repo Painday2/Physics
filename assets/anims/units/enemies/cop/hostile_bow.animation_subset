@@ -1,0 +1,71 @@
+<xml>
+	<!-- Stand -->
+	
+		<!-- Still -->
+	
+			<!-- Idle -->
+			<anim name="hos_bow_idle" file="anims/shared/bow/hostile/hos_std_idle" blend_set="upper_body_aim"/>
+			
+			<!-- Transition -->
+			<anim name="hos_bow_std_to_crh" file="anims/shared/bow/hostile/hos_std_to_crh" blend_set="upper_body_aim"/>	
+			<anim name="hos_bow_crh_to_std" file="anims/shared/bow/hostile/hos_crh_to_std" blend_set="upper_body_aim"/>
+			
+			<!-- Turn -->
+			<anim name="hos_bow_turn_l_45" file="anims/shared/bow/hostile/hos_std_turn_l45" blend_set="upper_body_aim"/>
+			<anim name="hos_bow_turn_l_90" file="anims/shared/bow/hostile/hos_std_turn_l90" blend_set="upper_body_aim"/>
+			<anim name="hos_bow_turn_l_135" file="anims/shared/bow/hostile/hos_std_turn_l135" blend_set="upper_body_aim"/>
+			<anim name="hos_bow_turn_r_45" file="anims/shared/bow/hostile/hos_std_turn_r45" blend_set="upper_body_aim"/>
+			<anim name="hos_bow_turn_r_90" file="anims/shared/bow/hostile/hos_std_turn_r90" blend_set="upper_body_aim"/>
+			<anim name="hos_bow_turn_r_135" file="anims/shared/bow/hostile/hos_std_turn_r135" blend_set="upper_body_aim"/>
+			
+		<!-- Walk -->
+		<anim name="hos_bow_walk_fwd" file="anims/shared/bow/hostile/hos_std_walk_fwd" blend_set="upper_body_aim"/>
+		<anim name="hos_bow_walk_bwd" file="anims/shared/bow/hostile/hos_std_walk_bwd" blend_set="upper_body_aim"/>
+		<anim name="hos_bow_walk_l" file="anims/shared/bow/hostile/hos_std_walk_l" blend_set="upper_body_aim"/>
+		<anim name="hos_bow_walk_r" file="anims/shared/bow/hostile/hos_std_walk_r" blend_set="upper_body_aim"/>
+		
+		<!-- Run -->
+		<anim name="hos_bow_run_fwd" file="anims/shared/bow/hostile/hos_std_run_fwd" blend_set="upper_body_aim"/>
+		<anim name="hos_bow_run_bwd" file="anims/shared/bow/hostile/hos_std_run_bwd" blend_set="upper_body_aim"/>
+		<anim name="hos_bow_run_l" file="anims/shared/bow/hostile/hos_std_run_l" blend_set="upper_body_aim"/>
+		<anim name="hos_bow_run_r" file="anims/shared/bow/hostile/hos_std_run_r" blend_set="upper_body_aim"/>
+		
+	<!-- Crouch -->
+	
+		<!-- Still -->
+	
+			<!-- Idle -->
+			<anim name="hos_bow_crh_idle" file="anims/shared/bow/hostile/hos_crh_idle" blend_set="upper_body_aim"/>
+			
+			<!-- Turn -->
+			<anim name="hos_bow_crh_turn_l_45" file="anims/shared/bow/hostile/hos_crh_turn_l45" blend_set="upper_body_aim"/>
+			<anim name="hos_bow_crh_turn_l_90" file="anims/shared/bow/hostile/hos_crh_turn_l90" blend_set="upper_body_aim"/>
+			<anim name="hos_bow_crh_turn_l_135" file="anims/shared/bow/hostile/hos_crh_turn_l135" blend_set="upper_body_aim"/>
+			<anim name="hos_bow_crh_turn_r_45" file="anims/shared/bow/hostile/hos_crh_turn_r45" blend_set="upper_body_aim"/>
+			<anim name="hos_bow_crh_turn_r_90" file="anims/shared/bow/hostile/hos_crh_turn_r90" blend_set="upper_body_aim"/>
+			<anim name="hos_bow_crh_turn_r_135" file="anims/shared/bow/hostile/hos_crh_turn_r135" blend_set="upper_body_aim"/>
+			
+		<!-- Walk -->
+		<anim name="hos_bow_crh_walk_fwd" file="anims/shared/bow/hostile/hos_crh_walk_fwd" blend_set="upper_body_aim"/>
+		<anim name="hos_bow_crh_walk_bwd" file="anims/shared/bow/hostile/hos_crh_walk_bwd" blend_set="upper_body_aim"/>
+		<anim name="hos_bow_crh_walk_l" file="anims/shared/bow/hostile/hos_crh_walk_l" blend_set="upper_body_aim"/>
+		<anim name="hos_bow_crh_walk_r" file="anims/shared/bow/hostile/hos_crh_walk_r" blend_set="upper_body_aim"/>
+			
+		<!-- Run -->
+		<anim name="hos_bow_crh_run_fwd" file="anims/shared/bow/hostile/hos_crh_run_fwd" blend_set="upper_body_aim"/>
+		<anim name="hos_bow_crh_run_bwd" file="anims/shared/bow/hostile/hos_crh_run_bwd" blend_set="upper_body_aim"/>
+		<anim name="hos_bow_crh_run_l" file="anims/shared/bow/hostile/hos_crh_run_l" blend_set="upper_body_aim"/>
+		<anim name="hos_bow_crh_run_r" file="anims/shared/bow/hostile/hos_crh_run_r" blend_set="upper_body_aim"/>
+		
+			<!-- Sprint -->
+			<anim name="hos_bow_sprint_fwd" file="anims/shared/bow/hostile/hos_sprint_fwd" blend_set="upper_body_aim"/>
+			<anim name="hos_bow_sprint_bwd" file="anims/shared/bow/hostile/hos_sprint_bwd" blend_set="upper_body_aim"/>
+			<anim name="hos_bow_sprint_l" file="anims/shared/bow/hostile/hos_sprint_left" blend_set="upper_body_aim"/>
+			<anim name="hos_bow_sprint_r" file="anims/shared/bow/hostile/hos_sprint_right" blend_set="upper_body_aim"/>
+			
+	<!-- Equip -->
+	<anim name="equip_bow" file="anims/shared/bow/hostile/ntl_std_equip" blend_set="upper_body_aim"/>
+				
+	<!-- SO -->
+	<!-- <anim name="hos_akimbo_pistol_std_call" file="anims/shared/pistol/hostile/hos_std_call" blend_set="upper_body_aim"/> -->
+</xml>
