@@ -1,0 +1,43 @@
+<dynamic_object>
+	<diesel materials="units/payday2/equipment/gen_interactable_door_corridor/gen_interactable_door_corridor_debris" orientation_object="rp_gen_interactable_door_corridor_debris" />
+	<bodies>
+		<body name="body_collision_01" enabled="true" template="debris">
+			<object name="c_convex_1" collision_type="convex" padding="-2.5" mass="100"/>
+		</body>
+		<body name="body_collision_02" enabled="true" template="debris">
+			<object name="c_convex_2" collision_type="convex" padding="-2.5"  mass="100"/>
+		</body>
+		<body name="body_collision_03" enabled="true" template="debris">
+			<object name="c_convex_3" collision_type="convex" padding="-2.5"  mass="100"/>
+		</body>
+		<body name="body_collision_04" enabled="true" template="debris">
+			<object name="c_convex_4" collision_type="convex" padding="-2.5"  mass="100"/>
+		</body>
+		<body name="body_collision_05" enabled="true" template="debris">
+			<object name="c_convex_5" collision_type="convex" padding="-2.5"  mass="100"/>
+		</body>
+		<body name="body_collision_06" enabled="true" template="debris">
+			<object name="c_convex_6" collision_type="convex" padding="-2.5"  mass="100"/>
+		</body>
+		<body name="body_collision_07" enabled="true" template="debris">
+			<object name="c_convex_7" collision_type="convex" padding="-2.5"  mass="100"/>
+		</body>
+		<body name="body_collision_08" enabled="true" template="debris">
+			<object name="c_convex_8" collision_type="convex" padding="-2.5"  mass="100"/>
+		</body>
+		<body name="body_collision_09" enabled="true" template="debris">
+			<object name="c_convex_9" collision_type="convex" padding="-2.5"  mass="100"/>
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_door_broken_1" enabled="true" />
+		<object name="g_door_broken_2" enabled="true" />
+		<object name="g_door_broken_3" enabled="true" />
+		<object name="g_door_broken_4" enabled="true" />
+		<object name="g_door_broken_5" enabled="true" />
+		<object name="g_door_broken_6" enabled="true" />
+		<object name="g_door_broken_7" enabled="true" />
+		<object name="g_door_broken_8" enabled="true" />
+		<object name="g_door_broken_9" enabled="true" />
+	</graphics>
+</dynamic_object>

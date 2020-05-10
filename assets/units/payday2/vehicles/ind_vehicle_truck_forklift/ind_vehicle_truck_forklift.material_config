@@ -1,0 +1,10 @@
+<materials version="3">
+    <material name="mtr_decals" render_template="decal:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift_decal_df"/>
+    </material>
+    <material name="mtr_forklift" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift_df"/>
+        <bump_normal_texture file="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift_nm"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

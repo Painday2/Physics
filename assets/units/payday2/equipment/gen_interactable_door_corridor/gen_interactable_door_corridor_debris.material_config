@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="mat_gen_interactable_door_corridor_broken" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <bump_normal_texture file="units/payday2/equipment/gen_interactable_door_corridor/gen_interactable_door_corridor_nm"/>
+        <diffuse_texture file="units/payday2/equipment/gen_interactable_door_corridor/gen_interactable_door_corridor_df"/>
+    </material>
+</materials>

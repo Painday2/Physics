@@ -1,0 +1,22 @@
+<dynamic_object>
+    <diesel materials="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" orientation_object="rp_ind_vehicle_truck_forklift" />
+    <bodies>
+        <body enabled="true" template="static" name="forklift" >
+            <object collision_type="mesh_mopp" name="c_c" />
+        </body>
+        <body name="body_blocker_graph" enabled="true" template="graph_blocker">
+			<object name="rp_ind_vehicle_truck_forklift" />
+			<object name="c_c" collision_type="box" padding="25" />
+		</body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_tires" material="rubber" />
+        <decal_mesh enabled="true" name="dm_dm" material="sheet_metal" />
+        <decal_mesh enabled="true" name="dm_seat" material="cloth_stuffed" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_decals" />
+        <object enabled="true" name="g_forklift" />
+		<object enabled="true" shadow_caster="true" name="s_s" />
+    </graphics>
+</dynamic_object>
