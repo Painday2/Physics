@@ -579,4 +579,14 @@
 		<texture path="effects/textures/bullet_hit/e_dist_heat" unload="true"/>
 		<texture path="effects/textures/misc/e_dist_radial" unload="true"/>
 	</add>
+	<add path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" unload="true"/>
+	</add>
+	<add path="units/test/jocke/oneplanetorulethemall" type="unit">
+		<unit path="units/test/jocke/oneplanetorulethemall" unload="true"/>
+		<object path="units/test/jocke/oneplanetorulethemall" unload="true"/>
+		<material_config path="units/test/jocke/simple_temp" unload="true"/>
+	</add>
 </table>

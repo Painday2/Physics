@@ -1,2 +1,9 @@
 {
+    "heist_BoWorks_name" : "gayday vr",
+    "heist_BoWorks_brief" : "Epic Description",
+
+    "boworks_mission1" : "Learn all about StockOS",
+    "boworks_mission1_desc" : "PLACEHOLDER DESCRIPTION /// Educate yourself about the fabulous history of StockOS, from primitive April Fools jokes and rushed level copy-pastes to the revolutionary, innovative experience StockOS is today.",
+    "boworks_mission2" : "Search StockOS for Bo",
+    "boworks_mission2_desc" : "PLACEHOLDER DESCRIPTION /// Find Bo."
 }

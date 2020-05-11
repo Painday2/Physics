@@ -1,2 +1,4 @@
 <table>
+	<objective description="boworks_mission1_desc" id="boworks_mission1" text="boworks_mission1"/>
+	<objective description="boworks_mission2_desc" id="boworks_mission2" text="boworks_mission2"/>
 </table>
