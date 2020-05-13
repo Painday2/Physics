@@ -194,11 +194,6 @@
 		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" unload="true"/>
 		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" unload="true"/>
 	</add>
-	<add path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" type="unit">
-		<material_config path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" unload="true"/>
-		<object path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" unload="true"/>
-		<unit path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" unload="true"/>
-	</add>
 	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" type="unit">
 		<material_config path="core/material_configs/hub_elements" unload="true"/>
 		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" unload="true"/>
@@ -526,67 +521,14 @@
 		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" unload="true"/>
 		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" unload="true"/>
 	</add>
-	<add path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" type="unit">
-		<unit path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" unload="true"/>
-		<object path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" unload="true"/>
-		<cooked_physics path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" unload="true"/>
-		<model path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" unload="true"/>
-		<material_config path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1_red" unload="true"/>
-		<texture path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/falco_interior_df" unload="true"/>
-		<texture path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/falco_interior_nm" unload="true"/>
-		<texture path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/falco_interior_il" unload="true"/>
-		<texture path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/sticker_df" unload="true"/>
-		<texture path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/sticker_nm" unload="true"/>
-		<texture path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/str_vehicle_car_sport1_red_df" unload="true"/>
-		<texture path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/str_vehicle_car_sport1_nm" unload="true"/>
-		<texture path="units/glass/vehicle_glass_op" unload="true"/>
-		<texture path="units/glass/vehicle_glass_df" unload="true"/>
-		<texture path="units/payday2/cubemaps/cubemap_carshop_indoor" unload="true"/>
-		<texture path="units/dev_tools/tangent_test/blank_nm" unload="true"/>
-		<texture path="units/payday2/cubemaps/cubemap_car_interior" unload="true"/>
-		<texture path="units/payday2/glass/glass_shattered_op" unload="true"/>
-		<texture path="units/payday2/glass/glass_shattered_df" unload="true"/>
-		<texture path="units/payday2/glass/glass_shattered_nm" unload="true"/>
-		<texture path="units/gui/gui_brackets_df" unload="true"/>
-		<texture path="units/white_df" unload="true"/>
-		<texture path="units/transparent_op" unload="true"/>
-		<texture path="units/gui/gui_drive_driver_df" unload="true"/>
-		<texture path="units/gui/gui_drive_passenger_df" unload="true"/>
-		<texture path="units/gui/gui_drive_trunk_df" unload="true"/>
-		<texture path="units/gui/gui_drive_repair_df" unload="true"/>
-		<texture path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/car_rear_light_flare_df" unload="true"/>
-		<texture path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/car_front_light_flare_df" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" unload="true"/>
-		<texture path="effects/textures/effects_atlas" unload="true"/>
-		<texture path="effects/textures/bullet_hit/e_smoke_04_6x6_seq_loop" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" unload="true"/>
-		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
-		<bnk path="soundbanks/car_falcogini" unload="true"/>
-		<unit path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
-		<object path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
-		<cooked_physics path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
-		<model path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
-		<material_config path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
-		<texture path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag_df" unload="true"/>
-		<texture path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag_nm" unload="true"/>
-		<sequence_manager path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/dye_pack/dye_pack_smoke" unload="true"/>
-		<texture path="effects/textures/smoke/smoke_loop_64f_df" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/explosions/bag_explosion" unload="true"/>
-		<effect load="true" path="effects/particles/explosions/burnpuff" unload="true"/>
-		<texture path="effects/textures/add_atlas_df" unload="true"/>
-		<texture path="effects/textures/bullet_hit/e_dist_heat" unload="true"/>
-		<texture path="effects/textures/misc/e_dist_radial" unload="true"/>
-	</add>
 	<add path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" type="unit">
 		<material_config path="core/material_configs/hub_elements" unload="true"/>
 		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" unload="true"/>
 		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" unload="true"/>
 	</add>
 	<add path="units/test/jocke/oneplanetorulethemall" type="unit">
-		<unit path="units/test/jocke/oneplanetorulethemall" unload="true"/>
-		<object path="units/test/jocke/oneplanetorulethemall" unload="true"/>
 		<material_config path="units/test/jocke/simple_temp" unload="true"/>
+		<object path="units/test/jocke/oneplanetorulethemall" unload="true"/>
+		<unit path="units/test/jocke/oneplanetorulethemall" unload="true"/>
 	</add>
 </table>
