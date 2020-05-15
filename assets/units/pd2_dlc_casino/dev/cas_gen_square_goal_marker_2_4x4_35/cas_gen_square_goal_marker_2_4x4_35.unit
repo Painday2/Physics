@@ -1,0 +1,8 @@
+<unit type="cas" slot="1" >
+    <object file="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" />
+	<network sync="spawn"/>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+	<extension name="damage" class="UnitDamage" />
+  </extensions>
+</unit>

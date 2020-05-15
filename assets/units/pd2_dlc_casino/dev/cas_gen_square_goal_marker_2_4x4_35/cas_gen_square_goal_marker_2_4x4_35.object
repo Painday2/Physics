@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" orientation_object="rp_cas_gen_square_goal_marker_2_4x4_35" />
+  <sequence_manager file="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" />
+  <bodies>
+    <body name="static_body" enabled="true" template="editor">
+      <object name="rp_cas_gen_square_goal_marker_2_4x4_35" />
+      <object name="c_cube" collision_type="box" />
+    </body>
+  </bodies>
+
+  <graphics>
+    <object name="g_goal" enabled="true" />
+    <object name="g_icon" enabled="true" />
+  </graphics>
+</dynamic_object>
