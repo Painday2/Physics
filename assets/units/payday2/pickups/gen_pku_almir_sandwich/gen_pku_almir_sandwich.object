@@ -1,0 +1,12 @@
+<dynamic_object>
+	<diesel materials="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" orientation_object="rp_gen_pku_almir_sandwich" />
+	<sequence_manager file="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" />
+	<bodies>
+		<body name="body_editor" enabled="true" template="editor">
+			<object name="g_sandwich" collision_type="box" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_sandwich" enabled="true" />
+	</graphics>
+</dynamic_object>

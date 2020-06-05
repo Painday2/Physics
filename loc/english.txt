@@ -4,6 +4,9 @@
     "heist_BoWorks_name" : "BOWORKS",
     "heist_BoWorks_brief" : "Alright guys, I got in contact with the dude who made virtual reality again. You remember that dude, right? He just gave us exclusive early access to his sick new game.\n\nIf we go into VR and masturbate to poorly-executed gameplay mechanics, we'll be able to win the grand prize. I don't know what the prize is, but I fucking want it. So go do that for me.\n\nHe says he's been testing this since last year, so it should be bug free. Right?",
 
+    "menu_jukebox_pain3_cbt" : "Cocke and Bo Torture",
+    "menu_jukebox_screen_pain3_cbt" : "Cocke and Bo Torture",
+
     "boworks_mission1" : "Learn all about StockOS",
     "boworks_mission1_desc" : "PLACEHOLDER DESCRIPTION /// Educate yourself about the fabulous history of StockOS, from primitive April Fools jokes and rushed level copy-pastes to the revolutionary, innovative experience StockOS is today.",
     "boworks_mission2" : "Search StockOS for Bo",

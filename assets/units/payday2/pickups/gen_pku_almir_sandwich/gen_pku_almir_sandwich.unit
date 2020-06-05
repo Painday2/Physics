@@ -1,0 +1,19 @@
+<unit type="gen" slot="1" >
+    <object file="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" />
+    <network sync="spawn"/>
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/grab/grab_coke" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="CarryInteractionExt">
+			<var name="tweak_data" value="gen_pku_sandwich" />
+			<var name="_remove_on_interact" value="true" />
+			<var name="_global_event" value="pku_sandwich" />
+		</extension>
+		<extension name="carry_data" class="CarryData">
+			<var name="_carry_id" value="sandwich" />
+		</extension>
+	</extensions>
+</unit>
