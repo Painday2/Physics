@@ -37,6 +37,8 @@
 			<value_node value="packages/escape_park"/>
 			<value_node value="packages/narr_framing_1"/>
 			<value_node value="levels/instances/unique/hlm_box_contraband002/world/world"/>
+			<value_node value="levels/instances/unique/rat_methlab_special/world/world"/>
+			<value_node value="packages/narr_run"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
