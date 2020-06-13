@@ -1,4 +1,8 @@
 <table>
 	<objective description="boworks_mission1_desc" id="boworks_mission1" text="boworks_mission1"/>
 	<objective description="boworks_mission2_desc" id="boworks_mission2" text="boworks_mission2"/>
+	<objective description="boworks_mission3_desc" id="boworks_mission3" text="boworks_mission3"/>
+	<objective description="boworks_mission4_desc" id="boworks_mission4" text="boworks_mission4"/>
+	<objective description="boworks_mission5_desc" id="boworks_mission5" text="boworks_mission5"/>
+	<objective description="boworks_mission6_desc" id="boworks_mission6" text="boworks_mission6"/>
 </table>
