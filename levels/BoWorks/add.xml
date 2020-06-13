@@ -555,11 +555,52 @@
 		<unit path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" unload="true"/>
 	</add>
 	<add path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" type="unit">
-		<unit path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>
-		<object path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>
-		<material_config path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>
-		<sequence_manager path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>
 		<effect load="true" path="effects/payday2/particles/grab/grab_coke" unload="true"/>
 		<effect load="true" path="effects/payday2/particles/grab/parts/coke_smoke" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m" unload="true"/>
+	</add>
+	<add path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_a" type="unit">
+		<material_config path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel" unload="true"/>
+		<object path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_a" unload="true"/>
+		<unit path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_a" unload="true"/>
+	</add>
+	<add path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_dmg_a" type="unit">
+		<material_config path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel" unload="true"/>
+		<object path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_dmg_a" unload="true"/>
+		<unit path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_dmg_a" unload="true"/>
+	</add>
+	<add path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_dmg_c" type="unit">
+		<material_config path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel" unload="true"/>
+		<object path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_dmg_c" unload="true"/>
+		<unit path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_dmg_c" unload="true"/>
+	</add>
+	<add path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_lid_a" type="unit">
+		<material_config path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel" unload="true"/>
+		<object path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_lid_a" unload="true"/>
+		<unit path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_lid_a" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
 	</add>
 </table>

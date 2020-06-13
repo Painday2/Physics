@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/lux/lux" orientation_object="rp_lux_ext_glass_long_b" />
+	<sequence_manager file="units/payday2/architecture/lux/lux_ext_glass_long_b" />
+    <bodies>
+
+
+        <body name="body_glass1" enabled="true" template="static" remove_ray_type="vis_graph ai_vision">
+             <object name="rp_lux_ext_glass_long_b" />
+			<object name="c_box_glass_01" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+
+    
+    <graphics>
+        <object enabled="true" name="g_glass_1" instance_struct="world_tm" />
+		
+        <object enabled="false" name="g_glass_1shatter" instance_struct="world_tm" />
+        <object enabled="true" name="g_glass_1" instance_struct="world_tm" />
+        <object enabled="false" name="g_glass_1crack" instance_struct="world_tm" />
+    </graphics>
+    
+</dynamic_object>

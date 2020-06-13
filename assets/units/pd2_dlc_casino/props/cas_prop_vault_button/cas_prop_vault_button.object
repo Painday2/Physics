@@ -1,0 +1,22 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button" orientation_object="rp_cas_prop_vault_button" />
+	<sequence_manager file="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button" />
+	<animations>
+		<animation_group name="anim" enabled="false">
+			<object name="a_button" />
+			<object name="a_main" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_a_button" enabled="true" template="editor">
+			<object name="a_button" />
+			<object name="c_box_01" collision_type="box" />
+		</body>
+	</bodies>
+	<graphics>
+		<lod_object name="button">
+			<object name="g_button" enabled="true"  max_distance="700"  max_draw_lod="0" />
+			<object name="g_button_lod" enabled="true"  lod="1" />
+		</lod_object>
+	</graphics>
+</dynamic_object>

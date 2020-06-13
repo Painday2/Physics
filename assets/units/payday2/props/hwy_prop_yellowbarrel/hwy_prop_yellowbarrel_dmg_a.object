@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel" orientation_object="rp_hwy_prop_yellowbarrel_dmg_a" />
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_hwy_prop_yellowbarrel_dmg_a"/>
+            <object collision_type="convex" enabled="true" name="convex_01" padding="-2.5"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="plastic" static="true">
+		<decal_mesh name="dm_hwy_prop_yellowbarrel_dmg_a" material="plastic" enabled="true"/>
+	</decal_surfaces> 
+	
+    <graphics>
+        <object enabled="true" name="g_hwy_prop_yellowbarrel_dmg_a" shadow_caster="false" />
+        <object enabled="true" name="s_hwy_prop_yellowbarrel_dmg_a" shadow_caster="true" />
+    </graphics>
+</dynamic_object> 

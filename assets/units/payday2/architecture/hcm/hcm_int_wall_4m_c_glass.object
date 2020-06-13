@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/hcm/hcm_int" orientation_object="rp_hcm_int_wall_4m_c_glass" />
+	<sequence_manager file="units/payday2/architecture/hcm/hcm_int_wall_4m_c_glass" />
+	<bodies>
+		<body name="body_frame" enabled="true" template="static">
+			<object name="rp_hcm_int_wall_4m_c_glass" />
+			<object name="c_box_00" collision_type="box" padding="-2.5"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_window_left" enabled="true" template="static" remove_ray_type="vis_graph ai_vision">
+			<object name="e_window_left" />
+			<object name="g_window_left" collision_type="box" />
+		</body>
+		<body name="body_window_top" enabled="true" template="static" remove_ray_type="vis_graph ai_vision">
+			<object name="e_window_top" />
+			<object name="g_window_top" collision_type="box" />
+		</body>
+		<body name="body_window_right" enabled="true" template="static" remove_ray_type="vis_graph ai_vision">
+			<object name="e_window_right" />
+			<object name="g_window_right" collision_type="box" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="dm_hcm_int_wall_4m_c_glass_wood" 	enabled="true" material="hardwood" />
+		<decal_mesh name="g_window_left" 				enabled="true" material="glass_breakable" />
+		<decal_mesh name="g_window_top" 				enabled="true" material="glass_breakable" />
+		<decal_mesh name="g_window_right" 				enabled="true" material="glass_breakable" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_hcm_int_wall_4m_c_glass" 	enabled="true" shadow_caster="false" />
+		<!-- <object name="s_hcm_int_wall_4m_c_glass" 	enabled="true" shadow_caster="true" /> -->
+		<object name="g_window_left" 				enabled="true" shadow_caster="false" />
+		<object name="g_window_top" 				enabled="true" shadow_caster="false" />
+		<object name="g_window_right" 				enabled="true" shadow_caster="false" />
+	</graphics>
+</dynamic_object>

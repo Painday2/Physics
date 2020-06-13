@@ -1,0 +1,14 @@
+<unit type="gen" slot="1" >
+    <object file="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button" />
+    <network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="push_button" />
+			<var name="_ray_object_names" type="table" >
+				<var value="a_ray_object_1"/>
+			</var>
+		</extension>
+	</extensions>
+</unit>

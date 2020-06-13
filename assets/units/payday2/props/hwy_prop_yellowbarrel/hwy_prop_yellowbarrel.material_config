@@ -1,0 +1,7 @@
+<materials version="3">
+    <material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+    <material name="mat_hwy_prop_yellowbarrel" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_df"/>
+        <bump_normal_texture file="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_nm"/>
+    </material>
+</materials>

@@ -1,0 +1,6 @@
+<unit type="str" slot="1" >
+    <object file="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_dmg_c" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

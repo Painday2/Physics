@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<unit type="str" slot="1">
+	<object file="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="button_infopad" />
+		</extension>	
+	</extensions>
+</unit>
