@@ -1,0 +1,5 @@
+<materials version="3">
+	<material name="mat_digitalwalltimer01" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/pd2_dlc_nmh/props/nmh_prop_digitalwalltimer01/nmh_prop_digitalwalltimer01_df" />
+	</material>
+</materials>

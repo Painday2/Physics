@@ -1,0 +1,12 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_nmh/props/nmh_prop_digitalwalltimer01/nmh_prop_digitalwalltimer01" orientation_object="rp_nmh_prop_digitalwalltimer01" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_nmh_prop_digitalwalltimer01" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_digitalwalltimer01" enabled="true" />
+	</graphics>
+</dynamic_object>
