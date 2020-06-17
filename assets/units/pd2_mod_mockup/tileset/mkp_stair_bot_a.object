@@ -5,6 +5,9 @@
 		<body name="body_static" enabled="true" template="static">
 			<object name="g_stair_bot_a" collision_type="convex" padding="-2.5"/>
 		</body>
+		<body name="body_nav" enabled="true" template="nav_walk">
+			<object name="c_stair_bot_a" collision_type="mesh_mopp" />
+		</body>	
 	</bodies>
 	
 	<decal_surfaces default_material="stone" static="true">
