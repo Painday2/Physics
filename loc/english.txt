@@ -6,6 +6,8 @@
 
     "menu_jukebox_music_pain3_cbt" : "Cocke and Bo Torture",
     "menu_jukebox_screen_music_pain3_cbt" : "Cocke and Bo Torture",
+    "menu_jukebox_music_pain3_sex" : "Stock Exception",
+    "menu_jukebox_screen_music_pain3_sex" : "Stock Exception",
 
     "boworks_mission0" : "Continue Forward",
     "boworks_mission0_desc" : "Make your way towards the next area",

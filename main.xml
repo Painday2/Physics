@@ -6,6 +6,12 @@
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
 		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
+	<HeistMusic directory="assets/music/pain3_sex" id="music_pain3_sex" volume="0.7">
+		<event name="setup" source="null.ogg"/>
+		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
+		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
+		<event name="control" source="null.ogg" start_source="controlintro.ogg"/>
+	</HeistMusic>
 	<Localization default="english.txt" directory="loc"/>
 	<level ai_group_type="America" briefing_dialog="" id="BoWorks" intro_event="" max_bags="54" player_style="generic" team_ai_off="false">
 		<add file="levels/BoWorks/add.xml"/>
