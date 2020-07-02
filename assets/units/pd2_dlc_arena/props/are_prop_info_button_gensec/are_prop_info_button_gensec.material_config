@@ -1,0 +1,6 @@
+<materials version="3">
+	<material name="mat_gensec_info_button" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec_df" />
+		<bump_normal_texture file="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec_nm" />
+	</material>
+</materials>

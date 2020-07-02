@@ -1,0 +1,117 @@
+<dynamic_object>
+    <diesel orientation_object="rp_bnk_vault_door_medium" materials="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" />
+	<sequence_manager file="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium"/>
+	
+	<animations>
+        <animation_group name="door_90" enabled="false" >		
+            <object name="anim_hinge" 		enabled="true" />
+            <object name="anim_door" 		enabled="true" />
+        </animation_group>
+        <animation_group name="door_180" enabled="false" >		
+            <object name="anim_hinge_180" 	enabled="true" />
+            <object name="anim_door_180" 	enabled="true" />
+        </animation_group>
+		
+		<animation_group name="open" enabled="false" >
+			<object name="anim_lock_ring" />
+			<object name="anim_pull_01" />
+			<object name="anim_pull_02" />
+			<object name="anim_pull_03" />
+			<object name="anim_pull_04" />
+			<object name="anim_pull_05" />
+			<object name="anim_pull_06" />
+			<object name="anim_pull_07" />
+			<object name="anim_pull_08" />
+			<object name="anim_pull_09" />
+			<object name="anim_pull_10" />
+			<object name="anim_pull_11" />
+			<object name="anim_pull_12" />
+			<object name="anim_rotate_01" />
+			<object name="anim_rotate_02" />
+			<object name="anim_rotate_03" />
+			<object name="anim_rotate_04" />
+			<object name="anim_rotate_05" />
+			<object name="anim_rotate_06" />
+			<object name="anim_rotate_07" />
+			<object name="anim_rotate_08" />
+			<object name="anim_rotate_09" />
+			<object name="anim_rotate_10" />
+			<object name="anim_rotate_11" />
+			<object name="anim_rotate_12" />
+			<object name="anim_09_lock" />
+			<object name="anim_01_lock" />
+			<object name="anim_05_lock" />
+			<object name="anim_big_wheel" />
+			<object name="anim_small_wheel" />
+			<object name="anim_ramp" />
+		</animation_group>		
+	</animations>
+	
+    <bodies>
+        <body name="body" enabled="true" template="static" >
+            <object name="c_wall" collision_type="mesh_mopp" />
+        </body>
+        <body name="blocker" enabled="true" template="graph_blocker" >
+            <object name="c_graphblocker_1" collision_type="box" 	/>
+            <object name="c_graphblocker_2" collision_type="box" 	/>
+        </body>
+        <body name="walkway" enabled="true" template="nav_walk" >
+            <object name="c_walkway" collision_type="convex"  />
+        </body>
+		<body name="body_hinge" enabled="true" template="animated" >
+            <object name="anim_hinge" />
+            <object name="c_hinge" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_door" enabled="true" template="animated" >
+            <object name="anim_door" />
+            <object name="c_door" collision_type="mesh_mopp" />
+		</body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh name="dm_wall" 	enabled="true" material="steel" />
+        <decal_mesh name="dm_hinge" enabled="true" material="steel" />
+        <decal_mesh name="dm_door"	enabled="true" material="steel" />
+        <decal_mesh name="dm_glass" enabled="true" material="glass_unbreakable" />
+    </decal_surfaces>
+    <graphics>
+        <object name="g_lock_ring" 			enabled="true" />		
+		
+        <object name="g_cylinder_01" 		enabled="true" />
+        <object name="g_cylinder_02" 		enabled="true" />
+        <object name="g_cylinder_03" 		enabled="true" />
+        <object name="g_cylinder_04" 		enabled="true" />
+        <object name="g_cylinder_05" 		enabled="true" />
+        <object name="g_cylinder_06" 		enabled="true" />
+        <object name="g_cylinder_07" 		enabled="true" />
+        <object name="g_cylinder_08" 		enabled="true" />
+        <object name="g_cylinder_09" 		enabled="true" />
+        <object name="g_cylinder_10" 		enabled="true" />
+        <object name="g_cylinder_11" 		enabled="true" />
+        <object name="g_cylinder_12" 		enabled="true" />
+		
+        <object name="g_cylinder_small_01" 	enabled="true" />
+        <object name="g_cylinder_small_02" 	enabled="true" />
+        <object name="g_cylinder_small_03" 	enabled="true" />
+        <object name="g_cylinder_small_04" 	enabled="true" />
+        <object name="g_cylinder_small_05" 	enabled="true" />
+        <object name="g_cylinder_small_06" 	enabled="true" />
+        <object name="g_cylinder_small_07" 	enabled="true" />
+        <object name="g_cylinder_small_08" 	enabled="true" />
+        <object name="g_cylinder_small_09" 	enabled="true" />
+        <object name="g_cylinder_small_10" 	enabled="true" />
+        <object name="g_cylinder_small_11" 	enabled="true" />
+        <object name="g_cylinder_small_12" 	enabled="true" />	
+		
+        <object name="g_09_lock" 			enabled="true" />
+        <object name="g_01_lock" 			enabled="true" />
+        <object name="g_05_lock" 			enabled="true" />
+		
+        <object name="g_big_wheel" 			enabled="true" />
+        <object name="g_small_wheel" 		enabled="true" />
+        <object name="g_glass" 				enabled="true" />
+        <object name="g_door" 				enabled="true" />
+        <object name="g_hinge" 				enabled="true" />
+        <object name="g_ramp" 				enabled="true" />
+        <object name="g_wall" 				enabled="true" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,7 @@
+<unit type="debris" slot="18" >
+	<object file="units/payday2/equipment/gen_interactable_door_wooden_a/spawn_debris_door_wooden_a" />
+	<!-- <network sync="spawn"/> --> <!-- not allowed in temporary slots like slot 18 -->
+	<extensions>
+		<extension class="ScriptUnitData" name="unit_data" />
+	</extensions>
+</unit>

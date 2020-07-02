@@ -1,0 +1,12 @@
+<unit type="are" slot="1">
+	<object file="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec" />
+	<network sync="spawn" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="button_infopad" />
+			<var name="_interact_object" value="interact" />
+		</extension>
+	</extensions>
+</unit>

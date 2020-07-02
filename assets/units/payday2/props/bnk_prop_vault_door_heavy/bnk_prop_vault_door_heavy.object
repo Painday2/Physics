@@ -1,0 +1,224 @@
+<dynamic_object>
+    <diesel orientation_object="rp_bnk_vault_door_heavy" materials="units/payday2/props/bnk_prop_vault_door_heavy/bnk_prop_vault_door_heavy" />
+	<sequence_manager file="units/payday2/props/bnk_prop_vault_door_heavy/bnk_prop_vault_door_heavy"/>
+    <animations>
+        <animation_group name="door_90" enabled="false" >		
+            <object name="anim_hinge" 				enabled="true" />
+            <object name="anim_door" 				enabled="true" />
+        </animation_group>
+        <animation_group name="door_75" enabled="false" >		
+            <object name="anim_hinge_75" 			enabled="true" />
+            <object name="anim_door_75" 			enabled="true" />
+        </animation_group>
+        <animation_group name="door_180" enabled="false" >		
+            <object name="anim_hinge_180" 			enabled="true" />
+            <object name="anim_door_180" 			enabled="true" />
+        </animation_group>
+			
+        <animation_group name="open" enabled="false" >
+            <object name="anim_ramp" 				enabled="true" />
+			
+            <object name="anim_big_wheel" 			enabled="true" />
+            <object name="anim_small_handle_01" 	enabled="true" />
+            <object name="anim_small_handle_02" 	enabled="true" />
+            <object name="anim_big_wheel3" 			enabled="true" />
+			
+            <object name="anim_rotate_cogwheel" 	enabled="true" />
+			
+			<object name="anim_rotate_01" 			enabled="true" />
+			<object name="anim_rotate_02" 			enabled="true" />
+			<object name="anim_rotate_03" 			enabled="true" />
+			<object name="anim_rotate_04" 			enabled="true" />
+			<object name="anim_rotate_05" 			enabled="true" />
+			<object name="anim_rotate_06" 			enabled="true" />
+			<object name="anim_rotate_07" 			enabled="true" />
+			<object name="anim_rotate_08" 			enabled="true" />
+			<object name="anim_rotate_09" 			enabled="true" />
+			<object name="anim_rotate_10" 			enabled="true" />
+			<object name="anim_rotate_11" 			enabled="true" />
+			<object name="anim_rotate_12" 			enabled="true" />
+			<object name="anim_rotate_13" 			enabled="true" />
+			<object name="anim_rotate_14" 			enabled="true" />
+			<object name="anim_rotate_15" 			enabled="true" />
+			<object name="anim_rotate_16" 			enabled="true" />
+			<object name="anim_rotate_17" 			enabled="true" />
+			<object name="anim_rotate_18" 			enabled="true" />
+			<object name="anim_rotate_19" 			enabled="true" />
+			<object name="anim_rotate_20" 			enabled="true" />
+			<object name="anim_rotate_21" 			enabled="true" />
+			<object name="anim_rotate_22" 			enabled="true" />
+			<object name="anim_rotate_23" 			enabled="true" />
+			<object name="anim_rotate_24" 			enabled="true" />
+			
+			<object name="anim_pull_01" 			enabled="true" />
+			<object name="anim_pull_02" 			enabled="true" />
+			<object name="anim_pull_03" 			enabled="true" />
+			<object name="anim_pull_04" 			enabled="true" />
+			<object name="anim_pull_05" 			enabled="true" />
+			<object name="anim_pull_06" 			enabled="true" />
+			<object name="anim_pull_07" 			enabled="true" />
+			<object name="anim_pull_08" 			enabled="true" />
+			<object name="anim_pull_09" 			enabled="true" />
+			<object name="anim_pull_10" 			enabled="true" />
+			<object name="anim_pull_11" 			enabled="true" />
+			<object name="anim_pull_12" 			enabled="true" />
+			<object name="anim_pull_13" 			enabled="true" />
+			<object name="anim_pull_14" 			enabled="true" />
+			<object name="anim_pull_15" 			enabled="true" />
+			<object name="anim_pull_16" 			enabled="true" />
+			<object name="anim_pull_17" 			enabled="true" />
+			<object name="anim_pull_18" 			enabled="true" />
+			<object name="anim_pull_19" 			enabled="true" />
+			<object name="anim_pull_20" 			enabled="true" />
+			<object name="anim_pull_21" 			enabled="true" />
+			<object name="anim_pull_22" 			enabled="true" />
+			<object name="anim_pull_23" 			enabled="true" />
+			<object name="anim_pull_24" 			enabled="true" />
+			
+			<object name="anim_rotate_cogwheel_01" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_02" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_03" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_04" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_05" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_06" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_07" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_08" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_09" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_10" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_11" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_12" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_13" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_14" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_15" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_16" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_17" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_18" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_19" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_20" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_21" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_22" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_23" 			enabled="true" />
+			<object name="anim_rotate_cogwheel_24" 			enabled="true" />
+        </animation_group>
+    </animations>
+	
+	
+    <bodies>
+        <body name="body" enabled="true" template="static" >
+            <object name="rp_bnk_vault_door_heavy" />
+            <object name="c_wall" collision_type="mesh_mopp" />
+        </body>
+        <body name="blocker" enabled="true" template="graph_blocker" >
+            <object name="rp_bnk_vault_door_heavy" />
+            <object name="c_graphblocker_1" collision_type="box" 	/>
+            <object name="c_graphblocker_2" collision_type="box" 	/>
+        </body>
+        <body name="walkway" enabled="true" template="nav_walk" >
+            <object name="rp_bnk_vault_door_heavy" />
+            <object name="c_walkway" collision_type="convex"  />
+        </body>
+		<body name="body_hinge" enabled="true" template="animated" >
+            <object name="anim_hinge" />
+            <object name="c_hinge" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_door" enabled="true" template="animated" >
+            <object name="anim_door" />
+            <object name="c_door" collision_type="mesh_mopp" />
+		</body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh name="dm_wall" 	enabled="true" material="steel" />
+        <decal_mesh name="dm_hinge" enabled="true" material="steel" />
+        <decal_mesh name="dm_door"	enabled="true" material="steel" />
+        <decal_mesh name="dm_glass" enabled="true" material="glass_unbreakable" />
+    </decal_surfaces>
+	
+	
+    <graphics>
+			<object name="g_big_wheel" 				enabled="true" />
+			<object name="g_small_handle_01" 		enabled="true" />
+			<object name="g_small_handle_02" 		enabled="true" />
+			<object name="g_coglock" 				enabled="true" />
+			<object name="g_glass" 					enabled="true" />
+			<object name="g_the_cog" 				enabled="true" />
+			<object name="g_door" 					enabled="true" />
+			<object name="g_hinge" 					enabled="true" />
+			<object name="g_ramp" 					enabled="true" />
+			<object name="g_wall" 					enabled="true" />
+			
+			<object name="g_cogwheel_01" 			enabled="true" />
+			<object name="g_cogwheel_02" 			enabled="true" />
+			<object name="g_cogwheel_03" 			enabled="true" />
+			<object name="g_cogwheel_04" 			enabled="true" />
+			<object name="g_cogwheel_05" 			enabled="true" />
+			<object name="g_cogwheel_06" 			enabled="true" />
+			<object name="g_cogwheel_07" 			enabled="true" />
+			<object name="g_cogwheel_08" 			enabled="true" />
+			<object name="g_cogwheel_09" 			enabled="true" />
+			<object name="g_cogwheel_10" 			enabled="true" />
+			<object name="g_cogwheel_11" 			enabled="true" />
+			<object name="g_cogwheel_12" 			enabled="true" />
+			<object name="g_cogwheel_13" 			enabled="true" />
+			<object name="g_cogwheel_14" 			enabled="true" />
+			<object name="g_cogwheel_15" 			enabled="true" />
+			<object name="g_cogwheel_16" 			enabled="true" />
+			<object name="g_cogwheel_17" 			enabled="true" />
+			<object name="g_cogwheel_18" 			enabled="true" />
+			<object name="g_cogwheel_19" 			enabled="true" />
+			<object name="g_cogwheel_20" 			enabled="true" />
+			<object name="g_cogwheel_21" 			enabled="true" />
+			<object name="g_cogwheel_22" 			enabled="true" />
+			<object name="g_cogwheel_23" 			enabled="true" />
+			<object name="g_cogwheel_24" 			enabled="true" />
+					
+			<object name="g_cog_01" 				enabled="true" />
+			<object name="g_cog_02" 				enabled="true" />
+			<object name="g_cog_03" 				enabled="true" />
+			<object name="g_cog_04" 				enabled="true" />
+			<object name="g_cog_05" 				enabled="true" />
+			<object name="g_cog_06" 				enabled="true" />
+			<object name="g_cog_07" 				enabled="true" />
+			<object name="g_cog_08" 				enabled="true" />
+			<object name="g_cog_09" 				enabled="true" />
+			<object name="g_cog_10" 				enabled="true" />
+			<object name="g_cog_11" 				enabled="true" />
+			<object name="g_cog_12" 				enabled="true" />
+			<object name="g_cog_13" 				enabled="true" />
+			<object name="g_cog_14" 				enabled="true" />
+			<object name="g_cog_15" 				enabled="true" />
+			<object name="g_cog_16" 				enabled="true" />
+			<object name="g_cog_17" 				enabled="true" />
+			<object name="g_cog_18" 				enabled="true" />
+			<object name="g_cog_19" 				enabled="true" />
+			<object name="g_cog_20" 				enabled="true" />
+			<object name="g_cog_21" 				enabled="true" />
+			<object name="g_cog_22" 				enabled="true" />
+			<object name="g_cog_23" 				enabled="true" />
+			<object name="g_cog_24" 				enabled="true" />
+					
+			<object name="g_cyl_01" 				enabled="true" />
+			<object name="g_cyl_02" 				enabled="true" />
+			<object name="g_cyl_03" 				enabled="true" />
+			<object name="g_cyl_04" 				enabled="true" />
+			<object name="g_cyl_05" 				enabled="true" />
+			<object name="g_cyl_06" 				enabled="true" />
+			<object name="g_cyl_07" 				enabled="true" />
+			<object name="g_cyl_08" 				enabled="true" />
+			<object name="g_cyl_09" 				enabled="true" />
+			<object name="g_cyl_10" 				enabled="true" />
+			<object name="g_cyl_11" 				enabled="true" />
+			<object name="g_cyl_12" 				enabled="true" />
+			<object name="g_cyl_13" 				enabled="true" />
+			<object name="g_cyl_14" 				enabled="true" />
+			<object name="g_cyl_15" 				enabled="true" />
+			<object name="g_cyl_16" 				enabled="true" />
+			<object name="g_cyl_17" 				enabled="true" />
+			<object name="g_cyl_18" 				enabled="true" />
+			<object name="g_cyl_19" 				enabled="true" />
+			<object name="g_cyl_20" 				enabled="true" />
+			<object name="g_cyl_21" 				enabled="true" />
+			<object name="g_cyl_22" 				enabled="true" />
+			<object name="g_cyl_23" 				enabled="true" />
+			<object name="g_cyl_24" 				enabled="true" />
+    </graphics>
+</dynamic_object>

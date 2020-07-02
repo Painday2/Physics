@@ -1,0 +1,21 @@
+<unit type="bnk" slot="1" >
+    <object file="units/payday2/props/bnk_prop_vault_door_heavy/bnk_prop_vault_door_heavy" />
+    <network sync="spawn"/>
+    <dependencies>
+    	<depends_on bnk="soundbanks/regular_sfx" />
+    </dependencies>
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+        <extension class="UnitDamage" name="damage" />
+        <extension name="interaction" class="UseInteractionExt">
+            <var name="tweak_data" value="hold_open_vault" />
+            <var name="_interact_object" value="anim_big_wheel"/>
+        </extension>
+        <extension name="attention" class="AIAttentionObject" />
+    </extensions>
+	
+	<sounds>
+		<default_soundsource source="anim_door"/>
+        <soundsource name="snd" source="snd" />
+	</sounds>
+</unit>
