@@ -673,16 +673,31 @@
 		<unit path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
 	</add>
 	<add path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" type="unit">
-		<unit path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
-		<object path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
-		<material_config path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
-		<sequence_manager path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
 	</add>
-	<add path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" type="unit" unload_on_restart="true"> 
+	<add path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" type="unit" unload_on_restart="true">
 		<material_config path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" unload="true"/>
 		<model path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" unload="true"/>
 		<object path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" unload="true"/>
 		<unit path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_collision/dev_collision_8x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_8x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_8x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_collision/dev_collision_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_1x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_1x3m" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" unload="true"/>
 	</add>
 </table>
