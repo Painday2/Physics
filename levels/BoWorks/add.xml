@@ -679,4 +679,10 @@
 		<sequence_manager path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
 	</add>
+	<add path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" type="unit" unload_on_restart="true"> 
+		<material_config path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" unload="true"/>
+		<model path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" unload="true"/>
+		<object path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" unload="true"/>
+		<unit path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" unload="true"/>
+	</add>
 </table>
