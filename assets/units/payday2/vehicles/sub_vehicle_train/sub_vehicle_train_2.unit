@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="sub" slot="1">
+  <object file="units/payday2/vehicles/sub_vehicle_train/sub_vehicle_train_2" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+  </extensions>
+</unit>

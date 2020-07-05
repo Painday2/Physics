@@ -1,0 +1,11 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE" version="2" name="mat_safehouse_light_fluorescent_hanging_a">
+        <diffuse_texture file="units/payday2/architecture/safehouse/safehouse_light_fluorescent_hanging_a_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_safehouse_light_fluorescent_hanging_a_ill" version="2">
+        <diffuse_texture file="units/payday2/architecture/safehouse/safehouse_light_fluorescent_hanging_a_df"/>
+        <self_illumination_texture file="units/payday2/architecture/safehouse/safehouse_light_fluorescent_hanging_a_il"/>
+        <variable type="scalar" name="il_multiplier" value="sun"/>
+        <variable type="scalar" name="il_bloom" value="3"/>
+    </material>
+</materials>

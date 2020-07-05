@@ -1,0 +1,18 @@
+<materials version="3">
+    <material name="sub01_train_ext" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture file="units/payday2/vehicles/shared_textures/sub01_train_ext_df"/>
+        <bump_normal_texture file="units/payday2/vehicles/shared_textures/sub01_train_ext_nm"/>
+    </material>
+    <material name="sub01_train_int" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture file="units/payday2/vehicles/shared_textures/sub01_train_int_df"/>
+        <bump_normal_texture file="units/payday2/vehicles/shared_textures/sub01_train_int_nm"/>
+    </material>
+    <material name="sub01_train_doors" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture file="units/payday2/vehicles/shared_textures/sub01_train_ext_df"/>
+        <bump_normal_texture file="units/payday2/vehicles/shared_textures/sub01_train_ext_nm"/>
+    </material>
+    <material name="sub01_train_seats" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture file="units/payday2/vehicles/shared_textures/sub01_train_int_df"/>
+        <bump_normal_texture file="units/payday2/vehicles/shared_textures/sub01_train_int_nm"/>
+    </material>
+</materials>

@@ -1,0 +1,12 @@
+<unit type="tag" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_dlc_tag/props/tag_prop_security_barrier/tag_prop_security_barrier" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="hacking_barrier" />
+			<var name="_interact_object" value="interact"/>
+		</extension>
+	</extensions>
+</unit>

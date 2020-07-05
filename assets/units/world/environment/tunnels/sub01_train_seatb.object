@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/payday2/vehicles/shared_textures/sub_vehicle_train" orientation_object="rp_sub01_train_seatb" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_sub01_train_seatb_meshmopp" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <graphics>
+    <object name="g_sub01_train_seatb" enabled="true"  />
+  </graphics>
+</dynamic_object>

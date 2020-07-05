@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<unit name="light_spot" type="dev" slot="1">
+  <object file="core/units/light_spot/light_spot" />
+  <movers />
+  <dependencies />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData">
+      <var name="only_visible_in_editor" value="true" />
+    </extension>
+  </extensions>
+  <sounds>
+    <default_soundsource />
+  </sounds>
+</unit>

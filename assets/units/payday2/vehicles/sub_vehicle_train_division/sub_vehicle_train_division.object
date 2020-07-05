@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/vehicles/shared_textures/sub_vehicle_train" orientation_object="rp_sub_vehicle_train_division" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="c_sub_vehicle_train_division_box" collision_type="box" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="sheet_metal">
+		<decal_mesh name="g_sub_vehicle_train_division" enabled="true" material="sheet_metal" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_sub_vehicle_train_division" enabled="true" />
+	</graphics>
+</dynamic_object>

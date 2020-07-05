@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_garage_ticketdispenser" materials="units/payday2/props/com_prop_garage_ticketdispenser/com_prop_garage_ticketdispenser" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="rp_com_prop_garage_ticketdispenser" />
+			<object name="c_box_1" collision_type="box" padding="-2.5"/>
+			<object name="c_box_2" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    <decal_surfaces>
+		<decal_mesh name="dm_sheet_metal" enabled="true" material="sheet_metal"/>
+    </decal_surfaces>
+    <graphics>
+		<object name="g_g" enabled="true"/>
+		<object name="s_s" enabled="true" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<unit type="sub" slot="1" >
+	<object file="units/payday2/vehicles/sub_vehicle_train_frontdoor/sub_vehicle_train_frontdoor" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

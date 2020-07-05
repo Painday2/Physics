@@ -1,0 +1,28 @@
+<dynamic_object>  
+    <diesel materials="units/payday2/vehicles/shared_textures/sub_vehicle_train" orientation_object="rp_sub_vehicle_train_sidedoors" />
+    <sequence_manager file="units/payday2/vehicles/sub_vehicle_train_sidedoors/sub_vehicle_train_sidedoors" />
+    <animations>
+    	<animation_group name="anim" enabled="false">
+    		<object name="dynamic_right_door" />
+    		<object name="dynamic_left_door" />
+    	</animation_group>
+    </animations>
+    <bodies>
+        <body name="body_right_door" enabled="true" template="animated" >
+            <object name="c_right_box" collision_type="box" padding="-2.5" />
+        </body>
+        <body name="body_left_door" enabled="true" template="animated" >
+            <object name="c_left_box" collision_type="box" padding="-2.5" />
+        </body>
+    </bodies>
+	<decal_surfaces default_material="metal_chassis">
+		<decal_mesh name="g_sub_vehicle_train_sidedoor_right" enabled="true" material="metal_chassis" />
+		<decal_mesh name="g_sub_vehicle_train_sidedoor_left" enabled="true" material="metal_chassis" />
+	</decal_surfaces>
+    <graphics>
+    	<graphic_group name="grp_doors" enabled="true" culling_object="co_cull">
+	        <object name="g_sub_vehicle_train_sidedoor_right" enabled="true" />
+	        <object name="g_sub_vehicle_train_sidedoor_left" enabled="true" />
+    	</graphic_group>
+    </graphics>
+</dynamic_object>

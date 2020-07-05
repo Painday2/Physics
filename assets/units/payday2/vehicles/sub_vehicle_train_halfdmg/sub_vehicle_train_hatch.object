@@ -1,0 +1,20 @@
+<dynamic_object>
+    <diesel materials="units/payday2/vehicles/shared_textures/sub_vehicle_train" orientation_object="rp_sub_vehicle_train_hatch"/>
+	<sequence_manager file="units/payday2/vehicles/sub_vehicle_train_halfdmg/sub_vehicle_train_hatch" />
+	<animations>
+		<animation_group name="top" enabled="false" >
+			<object name="a_top" />
+			<object name="g_hatch_top" enabled="true"/>
+		</animation_group>
+	</animations>
+    <bodies>
+        <body enabled="true" template="animated" name="animated_body_top" >
+            <object collision_type="box" name="c_box_top" />
+            <object name="g_hatch_top" />
+        </body>
+    </bodies>
+    <graphics>
+		<object name="g_hatch_top" enabled="true"/>
+    </graphics>
+
+</dynamic_object>

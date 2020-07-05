@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_garage_ticketpass" materials="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="c_convex" collision_type="convex" padding="-2.5"/>
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_sheet_metal" material="sheet_metal" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+        <object enabled="true" shadow_caster="true" name="s_s" />
+    </graphics>
+</dynamic_object>

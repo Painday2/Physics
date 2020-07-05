@@ -1,0 +1,16 @@
+<materials version="3">
+    <material name="mat_window_frame" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/architecture/are/are_off_int_window_frame_lab_df"/>
+        <bump_normal_texture file="units/payday2/architecture/are/are_off_int_window_frame_lab_nm"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gallery_int" type="cubemap"/>
+    </material>
+    <material name="mat_lamp" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/payday2/architecture/are/are_int_lamp_df"/>
+        <self_illumination_texture file="units/payday2/architecture/are/are_int_lamp_il"/>
+        <variable value="megatron" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_glow" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+        <variable value="0.5" type="scalar" name="intensity"/>
+        <diffuse_texture file="units/pd2_dlc_arena/props/are_int_light_fluorescent_tube_gensec_arena/light_glow_df"/>
+    </material>
+</materials>

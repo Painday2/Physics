@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="com_prop_garage_ticketpass_com_prop_garage_ticketpass" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass_nm"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>
