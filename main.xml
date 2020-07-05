@@ -19,6 +19,10 @@
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
 		</assets>
+		<hooks directory="hooks">
+			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
+		</hooks>
 		<include directory="levels/BoWorks">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>

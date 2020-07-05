@@ -700,4 +700,15 @@
 		<object path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" unload="true"/>
 		<unit path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" unload="true"/>
 	</add>
+	<add unload_on_restart="true">
+		<model path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
+		<object path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
+		<unit load="true" path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
+		<material_config path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
+		<sequence_manager path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
+		<material_config path="units/pd2_mod_bowks/equipment/bowks_4klift_tps"/>
+		<model path="units/pd2_mod_bowks/equipment/bowks_4klift_tps"/>
+		<object path="units/pd2_mod_bowks/equipment/bowks_4klift_tps"/>
+		<unit load="true" path="units/pd2_mod_bowks/equipment/bowks_4klift_tps"/>
+	</add>
 </table>
