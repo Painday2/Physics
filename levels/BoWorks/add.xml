@@ -705,10 +705,21 @@
 		<object path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
 		<unit load="true" path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
 		<material_config path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
-		<sequence_manager path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
 		<material_config path="units/pd2_mod_bowks/equipment/bowks_4klift_tps"/>
 		<model path="units/pd2_mod_bowks/equipment/bowks_4klift_tps"/>
 		<object path="units/pd2_mod_bowks/equipment/bowks_4klift_tps"/>
 		<unit load="true" path="units/pd2_mod_bowks/equipment/bowks_4klift_tps"/>
+		<sequence_manager path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
+	</add>
+	<add path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" type="unit">
+		<material_config path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" unload="true"/>
+		<object path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" unload="true"/>
+		<unit path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" unload="true"/>
+	</add>
+	<add path="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash" type="unit">
+		<unit path="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash" unload="true"/>
+		<object path="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash" unload="true"/>
+		<material_config path="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash" unload="true"/>
+		<sequence_manager path="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash" unload="true"/>
 	</add>
 </table>

@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="mtr_bench" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_park_bench/com_prop_park_bench_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_park_bench/com_prop_park_bench_nm"/>
+    </material>
+</materials>

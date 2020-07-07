@@ -1,0 +1,19 @@
+<materials version="3">
+    <material name="mat_trashbin_trash" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash_df"/>
+        <bump_normal_texture file="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash_nm"/>
+    </material>
+	<material name="mat_trashbin_bottles" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_bottles_df"/>
+        <bump_normal_texture file="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash_nm"/>
+    </material>
+    <material name="mat_trashbin_trash_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash_df" mip="4"/>
+        <bump_normal_texture file="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash_nm" mip="4"/>
+    </material>
+	<material name="mat_trashbin_bottles_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_bottles_df" mip="4"/>
+        <bump_normal_texture file="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash_nm" mip="4"/>
+    </material>
+	<material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>
