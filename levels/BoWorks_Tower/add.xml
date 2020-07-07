@@ -320,8 +320,43 @@
 		<unit path="units/dev_tools/editable_text_short/editable_text_short" unload="true"/>
 	</add>
 	<add path="units/dev_tools/editable_text_long/editable_text_long" type="unit">
-		<unit path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
-		<object path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
 		<material_config path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+		<object path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+		<unit path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_aru/props/aru_prop_projector/aru_prop_projector" type="unit">
+		<material_config path="units/pd2_dlc_aru/props/aru_prop_projector/aru_prop_projector" unload="true"/>
+		<object path="units/pd2_dlc_aru/props/aru_prop_projector/aru_prop_projector" unload="true"/>
+		<unit path="units/pd2_dlc_aru/props/aru_prop_projector/aru_prop_projector" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_aru/props/aru_prop_projector/aru_prop_projector_film" type="unit">
+		<material_config path="units/pd2_dlc_aru/props/aru_prop_projector/aru_prop_projector_film" unload="true"/>
+		<object path="units/pd2_dlc_aru/props/aru_prop_projector/aru_prop_projector_film" unload="true"/>
+		<unit path="units/pd2_dlc_aru/props/aru_prop_projector/aru_prop_projector_film" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_64x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_64x32m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_64x32m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m" unload="true"/>
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
 	</add>
 </table>

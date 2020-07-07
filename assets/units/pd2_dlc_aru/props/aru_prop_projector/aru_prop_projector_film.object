@@ -1,0 +1,12 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_aru/props/aru_prop_projector/aru_prop_projector_film" orientation_object="rp_aru_prop_projector_film" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_aru_prop_projector_film" />
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_film" enabled="true" />
+	</graphics>
+</dynamic_object>

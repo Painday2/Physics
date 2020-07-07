@@ -1,0 +1,11 @@
+<dynamic_object>
+	<diesel materials="core/material_configs/hub_elements" orientation_object="rp_dev_vehicle_only_collision_4x3m" />
+	<bodies>
+		<body name="static_body" enabled="true" template="vehicle_only_blocker">
+			<object name="c_box_01" collision_type="box" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_g" enabled="true" instance_struct="world_tm" />
+	</graphics>
+</dynamic_object>

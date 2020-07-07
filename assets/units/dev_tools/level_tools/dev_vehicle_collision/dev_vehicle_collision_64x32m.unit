@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<unit type="dev" slot="1">
+  <object file="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_64x32m" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData">
+      <var name="only_visible_in_editor" value="true" />
+    </extension>
+	<extension name="damage" class="UnitDamage" />
+  </extensions>
+</unit>
