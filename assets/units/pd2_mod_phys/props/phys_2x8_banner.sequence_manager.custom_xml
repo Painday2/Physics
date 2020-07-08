@@ -1,0 +1,32 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'trading'" triggable="true">
+			<material_config    name="'units/pd2_mod_phys/props/phys_2x8_banner'"/>
+			<object enabled="true"  name="'g_1'"/>
+			<object enabled="false" name="'g_2'"/>
+			<object enabled="false" name="'g_3'"/>
+			<object enabled="false" name="'g_4'"/>
+		</sequence>
+		<sequence editable_state="true" name="'emporium'" triggable="true">
+			<material_config    name="'units/pd2_mod_phys/props/phys_2x8_banner'"/>
+			<object enabled="false" name="'g_1'"/>
+			<object enabled="true"  name="'g_2'"/>
+			<object enabled="false" name="'g_3'"/>
+			<object enabled="false" name="'g_4'"/>
+		</sequence>
+		<sequence editable_state="true" name="'vape'" triggable="true">
+			<material_config    name="'units/pd2_mod_phys/props/phys_2x8_banner'"/>
+			<object enabled="false" name="'g_1'"/>
+			<object enabled="false" name="'g_2'"/>
+			<object enabled="true"  name="'g_3'"/>
+			<object enabled="false" name="'g_4'"/>
+		</sequence>
+		<sequence editable_state="true" name="'food'" triggable="true">
+			<material_config    name="'units/pd2_mod_phys/props/phys_2x8_banner'"/>
+			<object enabled="false" name="'g_1'"/>
+			<object enabled="false" name="'g_2'"/>
+			<object enabled="false" name="'g_3'"/>
+			<object enabled="true" name="'g_4'"/>
+		</sequence>
+	</unit>
+</table>

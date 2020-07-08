@@ -1,6 +1,6 @@
 <materials version="3">
-	<material unique="true" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE" version="2" name="mtr_sign">
+	<material unique="true" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" version="2" name="mtr_sign">
         <diffuse_texture file="units/pd2_mod_phys/props/phys_2x2_1"/>
-        <variable type="vector3" name="uv_speed" value="0 -0.5 0"/>
+        <variable value="0.2" type="scalar" name="alpha_ref"/>
     </material>
 </materials>
