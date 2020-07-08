@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/world/architecture/hospital/props/chair_cafeteria/chair_cafeteria" orientation_object="rp_chair_cafeteria" />
+	<!-- <sequence_manager file="units/world/architecture/hospital/props/chair_cafeteria/chair_cafeteria" /> -->
+
+	<bodies>
+		<body name="dynamic_body" enabled="false" template="small_prop" ray="ignore" collides_with_mover="false">
+			<object name="rp_chair_cafeteria"/>
+			<object name="c_physics" collision_type="convex" mass="4" />
+			<object name="g_chair_cafeteria" />
+		</body>
+		<body name="bullet" enabled="true" template="raycoll" collides_with_mover="false">
+			<object name="rp_chair_cafeteria"/>
+			<object name="c_chair_cafeteria_1" padding="-4" collision_type="box" />
+			<object name="c_chair_cafeteria_2" padding="-4" collision_type="box" />
+			<object name="c_chair_cafeteria_3" padding="-4" collision_type="box" />
+			<object name="c_chair_cafeteria_4" padding="-4" collision_type="box" />
+			<object name="c_chair_cafeteria_5" padding="-4" collision_type="box" />
+			<object name="c_chair_cafeteria_6" padding="-4" collision_type="box" />
+		</body>
+		<body name="static_body_player" enabled="true" template="static" collides_with_mover="true" remove_ray_type="bullet">
+			<object name="rp_chair_cafeteria" />
+			<object name="c_chair_cafeteria_1" padding="-4" collision_type="box" />
+			<object name="c_chair_cafeteria_2" padding="-4" collision_type="box" />
+			<object name="c_chair_cafeteria_3" padding="-4" collision_type="box" />
+			<object name="c_chair_cafeteria_4" padding="-4" collision_type="box" />
+			<object name="c_chair_cafeteria_5" padding="-4" collision_type="box" />
+			<object name="c_chair_cafeteria_6" padding="-4" collision_type="box" />
+		</body>
+	</bodies>
+
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic"/>
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_chair_cafeteria" enabled="true"/>
+	</graphics>
+</dynamic_object> 

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/street/hotdog_stand/hotdog_stand" orientation_object="rp_hotdog_stand" />
+  <sequence_manager file="units/world/props/street/hotdog_stand/hotdog_stand" />
+	<bodies>
+	    <body name="static_body" enabled="true" template="static">
+			<object name="rp_hotdog_stand" />			
+			<object name="c_hotdog_stand" collision_type="mesh_mopp"/>			
+		</body>
+		<body name="glass_breakable" enabled="true" template="static">
+			<object name="g_glass" enabled="true" collision_type="box"/>
+		</body>
+		<body name="nav_block" enabled="true" template="graph_blocker">
+			<object name="graph_blocker" collision_type="box" />
+		</body>
+	</bodies>
+	
+  <decal_surfaces default_material="sheet_metal" static="true">
+    <decal_mesh name="dm_rubber" material="rubber" enabled="true" />
+    <decal_mesh name="dm_sheet_metal" material="sheet_metal" enabled="true" />
+    <decal_mesh name="dm_plastic" material="plastic" enabled="true" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_hotdog_stand" enabled="true" />
+    <object name="s_hotdog_stand" enabled="true" shadow_caster="true" />
+    <object name="g_glass" enabled="true" />
+    <object name="g_glass_dmg" enabled="false" />
+    <object name="g_glass_broken" enabled="false" />
+  </graphics>
+  
+  <objects>
+    <object name="e_win_1" enabled="true" />
+  </objects>
+</dynamic_object>

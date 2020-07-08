@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_store_hotdogmachine" materials="units/payday2/props/com_prop_store_hotdogmachine/com_prop_store_hotdogmachine" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_com_prop_store_hotdogmachine" />
+            <object collision_type="box" name="c_box_01" />
+            <object collision_type="box" name="c_convex_01" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_sheet_metal" material="sheet_metal" />
+        <decal_mesh enabled="true" name="dm_glass" material="glass_breakable" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

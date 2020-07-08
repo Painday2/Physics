@@ -1,0 +1,6 @@
+<unit type="nmh" slot="1">
+	<object file="units/pd2_dlc_nmh/props/nmh_prop_cafeteria_table_a/nmh_prop_table_cafeteria_a" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

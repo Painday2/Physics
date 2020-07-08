@@ -355,8 +355,41 @@
 		<unit path="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m" unload="true"/>
 	</add>
 	<add path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m" unload="true"/>
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
 		<object path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_nmh/props/nmh_prop_cafeteria_table_a/nmh_prop_table_cafeteria_a" type="unit">
+		<material_config path="units/pd2_dlc_nmh/props/nmh_prop_cafeteria_table_a/nmh_prop_table_cafeteria_a" unload="true"/>
+		<object path="units/pd2_dlc_nmh/props/nmh_prop_cafeteria_table_a/nmh_prop_table_cafeteria_a" unload="true"/>
+		<unit path="units/pd2_dlc_nmh/props/nmh_prop_cafeteria_table_a/nmh_prop_table_cafeteria_a" unload="true"/>
+	</add>
+	<add path="units/world/architecture/hospital/props/chair_cafeteria/chair_cafeteria" type="unit">
+		<material_config path="units/world/architecture/hospital/props/chair_cafeteria/chair_cafeteria" unload="true"/>
+		<object path="units/world/architecture/hospital/props/chair_cafeteria/chair_cafeteria" unload="true"/>
+		<unit path="units/world/architecture/hospital/props/chair_cafeteria/chair_cafeteria" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" unload="true"/>
+	</add>
+	<add path="units/world/props/street/hotdog_stand/hotdog_stand" type="unit">
+		<material_config path="units/world/props/street/hotdog_stand/hotdog_stand" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_small" unload="true"/>
+		<object path="units/world/props/street/hotdog_stand/hotdog_stand" unload="true"/>
+		<sequence_manager path="units/world/props/street/hotdog_stand/hotdog_stand" unload="true"/>
+		<unit path="units/world/props/street/hotdog_stand/hotdog_stand" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" unload="true"/>
 		<material_config path="core/material_configs/hub_elements" unload="true"/>
 	</add>
 </table>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<unit type="hsp" slot="1">
+	<object file="units/world/architecture/hospital/props/chair_cafeteria/chair_cafeteria" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<!-- <extension name="damage" class="UnitDamage" />	 -->
+	</extensions>
+</unit> 
