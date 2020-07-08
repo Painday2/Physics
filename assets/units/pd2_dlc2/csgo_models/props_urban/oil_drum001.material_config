@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mat_oil_drum001" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc2/csgo_models/props_urban/oil_drum001_df"/>
+    </material>
+</materials>

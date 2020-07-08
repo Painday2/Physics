@@ -1,0 +1,8 @@
+<unit type="are" slot="1">
+	<object file="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_lobby_tv_rack" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

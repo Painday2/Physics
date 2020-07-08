@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mtr_tv" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/world/props/diamond_heist/apartment/apartment_livingroom/textures/t_tv_df"/>
+    </material>
+</materials>

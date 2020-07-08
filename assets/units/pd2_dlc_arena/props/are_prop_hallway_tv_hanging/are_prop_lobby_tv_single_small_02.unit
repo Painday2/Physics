@@ -1,0 +1,6 @@
+<unit type="are" slot="1">
+	<object file="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_lobby_tv_single_small_02" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+    <diesel materials="units/pd2_dlc2/csgo_models/props_urban/oil_drum001" orientation_object="rp_oil_drum001" />
+    <sequence_manager file="units/pd2_dlc2/csgo_models/props_urban/oil_drum001" />
+    <animations>
+        <animation_group name="anim_barrel" enabled="false">
+                <object name="anim_barrel" />
+        </animation_group>
+    </animations>
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_oil_drum001"/>
+            <object name="c_convex_1" collision_type="capsule" padding="0"/>
+        </body>
+        <body name="dynamic_body" template="dynamic" enabled="false">
+            <object name="anim_barrel"/>
+            <object name="c_convex_1" collision_type="capsule" padding="-2.5" mass="1"/>
+            <object name="c_convex_1" collision_type="convex" padding="-5" mass="1"/>
+        </body>
+    </bodies>
+    
+    <decal_surfaces default_material="sheet_metal" static="true">
+        <decal_mesh name="g_oil_drum001" material="sheet_metal" enabled="true"/>
+    </decal_surfaces> 
+    
+    <graphics>
+        <object enabled="true" name="g_oil_drum001" shadow_caster="true"/>
+    </graphics>
+</dynamic_object> 
