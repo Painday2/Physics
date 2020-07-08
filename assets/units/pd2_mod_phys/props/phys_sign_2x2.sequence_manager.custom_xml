@@ -1,0 +1,34 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'chair/blammo'" triggable="true">
+			<object enabled="true"  name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'stars/therapist'" triggable="true">
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="true"  name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'cover/starvr'" triggable="true">
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="true"  name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'fuckbo/cinema'" triggable="true">
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="true" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'matconfg1'" triggable="true">
+			<material_config    name="'units/pd2_mod_phys/props/phys_sign_2x2_1'"/>
+		</sequence>
+		<sequence editable_state="true" name="'matconfg2'" triggable="true">
+			<material_config    name="'units/pd2_mod_phys/props/phys_sign_2x2_2'"/>
+		</sequence>
+	</unit>
+</table>

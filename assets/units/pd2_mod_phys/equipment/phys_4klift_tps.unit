@@ -1,5 +1,5 @@
 <unit type="tst" slot="1">
-	<object file="units/pd2_mod_bowks/equipment/bowks_4klift_tps" />
+	<object file="units/pd2_mod_phys/equipment/phys_4klift_tps" />
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 	</extensions>

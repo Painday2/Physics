@@ -1,5 +1,5 @@
 <dynamic_object>
-	<diesel materials="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" orientation_object="rp_bph_prop_reinforced_window_03" />
+	<diesel materials="units/pd2_mod_phys/props/phys_prop_reinforced_window/phys_prop_reinforced_window" orientation_object="rp_bph_prop_reinforced_window_03" />
 	<bodies>
 		<body name="window1" enabled="true" template="static">
 			<object name="g_1" collision_type="box" padding="-2.5" />

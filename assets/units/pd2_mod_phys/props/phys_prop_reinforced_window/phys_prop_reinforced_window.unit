@@ -1,6 +1,6 @@
 <unit type="bph" slot="1">
 	<network sync="spawn"/>
-	<object file="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" />
+	<object file="units/pd2_mod_phys/props/phys_prop_reinforced_window/phys_prop_reinforced_window" />
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" class="UnitDamage" />

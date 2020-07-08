@@ -679,11 +679,11 @@
 		<sequence_manager path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
 		<unit path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
 	</add>
-	<add path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" type="unit" unload_on_restart="true">
-		<material_config path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" unload="true"/>
-		<model path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" unload="true"/>
-		<object path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" unload="true"/>
-		<unit path="units/pd2_mod_bowks/props/bowks_prop_reinforced_window/bowks_prop_reinforced_window" unload="true"/>
+	<add path="units/pd2_mod_phys/props/phys_prop_reinforced_window/phys_prop_reinforced_window" type="unit" unload_on_restart="true">
+		<material_config path="units/pd2_mod_phys/props/phys_prop_reinforced_window/phys_prop_reinforced_window" unload="true"/>
+		<model path="units/pd2_mod_phys/props/phys_prop_reinforced_window/phys_prop_reinforced_window" unload="true"/>
+		<object path="units/pd2_mod_phys/props/phys_prop_reinforced_window/phys_prop_reinforced_window" unload="true"/>
+		<unit path="units/pd2_mod_phys/props/phys_prop_reinforced_window/phys_prop_reinforced_window" unload="true"/>
 	</add>
 	<add path="units/dev_tools/level_tools/dev_collision/dev_collision_8x3m" type="unit">
 		<material_config path="core/material_configs/hub_elements" unload="true"/>
@@ -701,15 +701,32 @@
 		<unit path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
-		<model path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
-		<object path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
-		<unit load="true" path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
-		<material_config path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
-		<material_config path="units/pd2_mod_bowks/equipment/bowks_4klift_tps"/>
-		<model path="units/pd2_mod_bowks/equipment/bowks_4klift_tps"/>
-		<object path="units/pd2_mod_bowks/equipment/bowks_4klift_tps"/>
-		<unit load="true" path="units/pd2_mod_bowks/equipment/bowks_4klift_tps"/>
-		<sequence_manager path="units/pd2_mod_bowks/equipment/bowks_4klift"/>
+		<model path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<object path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<unit load="true" path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<material_config path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<material_config path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
+		<model path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
+		<object path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
+		<unit load="true" path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
+		<sequence_manager path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<texture path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1"/>
+		<material_config path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+		<object path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+		<unit path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+		<model path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+		<material_config path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
+		<object path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
+		<unit path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
+		<model path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
+		<texture path="units/pd2_mod_phys/props/phys_2x2_1"/>
+		<texture path="units/pd2_mod_phys/props/phys_2x2_2"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_sign_2x2_1"/>
+		<material_config path="units/pd2_mod_phys/props/phys_sign_2x2_2"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_2x2"/>	
 	</add>
 	<add path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" type="unit">
 		<material_config path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" unload="true"/>

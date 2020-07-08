@@ -1,5 +1,5 @@
 <unit type="gen" slot="14">
-	<object file="units/pd2_mod_bowks/equipment/bowks_4klift" />
+	<object file="units/pd2_mod_phys/equipment/phys_4klift" />
 	<network sync="bodies" remote_unit=""/>
 	<dependencies>
 		
