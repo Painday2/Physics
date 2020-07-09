@@ -30,11 +30,14 @@
 			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world_sounds.world_sounds" type="binary"/>
 			<file file="world_cameras.world_cameras" type="binary"/>
-			<file file="editor_only/editor_only.continent" type="binary"/>
-			<file file="editor_only/editor_only.mission" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
+			<file file="sewer_ceiling/sewer_ceiling.continent" type="binary"/>
+			<file file="sewer_ceiling/sewer_ceiling.mission" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
 			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/physics_tower_exterior.environment" type="custom_xml"/>
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
 		<outro_event>
@@ -80,6 +83,7 @@
 			<file file="tower_exterior/tower_exterior.continent" type="binary"/>
 			<file file="tower_exterior/tower_exterior.mission" type="binary"/>
 			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/physics_tower_interior.environment" type="custom_xml"/>
 			<file file="environments/physics_tower_exterior.environment" type="custom_xml"/>
 		</include>
 		<outro_event>
