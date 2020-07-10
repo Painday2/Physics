@@ -728,6 +728,14 @@
 		<unit path="units/pd2_mod_phys/props/phys_sign_2x2"/>
 		<model path="units/pd2_mod_phys/props/phys_sign_2x2"/>
 	</add>
+	<add path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" type="unit">
+		<material_config path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<object path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<unit path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<sequence_manager path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<model path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<cooked_physics path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+	</add>
 	<add path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" type="unit">
 		<material_config path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" unload="true"/>
 		<object path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" unload="true"/>
@@ -763,9 +771,14 @@
 		<unit path="units/payday2/vehicles/sub_vehicle_train_halfdmg/sub_vehicle_train_hatch" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_tag/props/tag_prop_security_barrier/tag_prop_security_barrier" type="unit">
-		<unit path="units/pd2_dlc_tag/props/tag_prop_security_barrier/tag_prop_security_barrier" unload="true"/>
-		<object path="units/pd2_dlc_tag/props/tag_prop_security_barrier/tag_prop_security_barrier" unload="true"/>
 		<material_config path="units/pd2_dlc_tag/props/tag_prop_security_barrier/tag_prop_security_barrier" unload="true"/>
+		<object path="units/pd2_dlc_tag/props/tag_prop_security_barrier/tag_prop_security_barrier" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_tag/props/tag_prop_security_barrier/tag_prop_security_barrier" unload="true"/>
+		<unit path="units/pd2_dlc_tag/props/tag_prop_security_barrier/tag_prop_security_barrier" unload="true"/>
+	</add>
+	<add path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" type="unit">
+		<material_config path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" unload="true"/>
+		<object path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" unload="true"/>
+		<unit path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" unload="true"/>
 	</add>
 </table>

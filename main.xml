@@ -22,6 +22,7 @@
 		<hooks directory="hooks">
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 		</hooks>
 		<include directory="levels/BoWorks">
 			<file file="world.world" type="binary"/>
@@ -30,6 +31,8 @@
 			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world_sounds.world_sounds" type="binary"/>
 			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="skybox/skybox.continent" type="binary"/>
+			<file file="skybox/skybox.mission" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
 			<file file="sewer_ceiling/sewer_ceiling.continent" type="binary"/>
@@ -37,7 +40,6 @@
 			<file file="editor_only/editor_only.continent" type="binary"/>
 			<file file="editor_only/editor_only.mission" type="binary"/>
 			<file file="cover_data.cover_data" type="binary"/>
-			<file file="environments/physics_tower_exterior.environment" type="custom_xml"/>
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
 		<outro_event>

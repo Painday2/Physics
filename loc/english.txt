@@ -11,6 +11,10 @@
 	"menu_jukebox_music_pain3_sex":"Stock Exception",
 	"menu_jukebox_screen_music_pain3_sex":"Stock Exception",
 
+	"hud_carry_forklift":"Forklift",
+	"hud_carry_meth_lab":"Meth Lab",
+	"hud_carry_guilt":"The weight of what you done",
+
 	"boworks_mission9_desc":"You are going to carry the weight of what you have done for the rest of your life. Bag up your guilt.",
 	"boworks_mission4":"Take Cocke to the exit",
 	"boworks_mission5_desc":"We need to cook a forklift to get out of the sewer, but there is no meth lab to use. Wait for Dial to drop the parts and then assemble it.",
