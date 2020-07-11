@@ -551,14 +551,28 @@
 		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
 		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
 		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
-		<gui path="guis/timer_gui" unload="true"/>
 		<effect load="true" path="effects/payday2/environment/drill" unload="true"/>
 		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles" unload="true"/>
 		<effect load="true" path="effects/payday2/environment/parts/drill_sparks" unload="true"/>
 		<effect load="true" path="effects/payday2/environment/drill_jammed" unload="true"/>
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
-		<physic_effect path="physic_effects/push_sphere" unload="true"/>
 		<effect load="true" path="effects/particles/explosions/explosion_grenade" unload="true"/>
 		<effect load="true" path="effects/particles/dest/smoke_pocket_puff" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv" type="unit">
+		<texture force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv_screens_il" unload="true"/>
+		<texture force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv_screens_df" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv" unload="true"/>
+		<object force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_moon/props/moo_props_store_boxes/moo_props_store_boxes_vr_headset" type="unit">
+		<unit path="units/pd2_dlc_moon/props/moo_props_store_boxes/moo_props_store_boxes_vr_headset" unload="true"/>
+		<object path="units/pd2_dlc_moon/props/moo_props_store_boxes/moo_props_store_boxes_vr_headset" unload="true"/>
+		<material_config path="units/pd2_dlc_moon/props/moo_props_store_boxes/moo_props_store_boxes" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_moon/props/moo_props_store_boxes/moo_props_store_boxes" unload="true"/>
 	</add>
 </table>

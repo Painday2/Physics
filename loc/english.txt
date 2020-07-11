@@ -13,7 +13,9 @@
 
 	"hud_carry_forklift":"Forklift",
 	"hud_carry_meth_lab":"Meth Lab",
-	"hud_carry_guilt":"The weight of what you done",
+	"hud_carry_guilt":"weight of what you did",
+	"hud_int_hold_take_guilt":"Hold $BTN_INTERACT to live with what you've done",
+	"hud_action_taking_guilt":"Taking responsibility for what they've done",
 
 	"boworks_mission9_desc":"You are going to carry the weight of what you have done for the rest of your life. Bag up your guilt.",
 	"boworks_mission4":"Take Cocke to the exit",

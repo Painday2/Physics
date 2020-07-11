@@ -729,12 +729,12 @@
 		<model path="units/pd2_mod_phys/props/phys_sign_2x2"/>
 	</add>
 	<add path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" type="unit">
-		<material_config path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
-		<object path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
-		<unit path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
-		<sequence_manager path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
-		<model path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
 		<cooked_physics path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<material_config path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<model path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<object path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<sequence_manager path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<unit path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
 	</add>
 	<add path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" type="unit">
 		<material_config path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" unload="true"/>
@@ -780,5 +780,10 @@
 		<material_config path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" unload="true"/>
 		<object path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" unload="true"/>
 		<unit path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass" type="unit">
+		<unit path="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass" unload="true"/>
+		<object path="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass" unload="true"/>
 	</add>
 </table>

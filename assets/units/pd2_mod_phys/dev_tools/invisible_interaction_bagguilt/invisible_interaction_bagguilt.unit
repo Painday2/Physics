@@ -8,7 +8,7 @@
 		<extension name="interaction" class="CarryInteractionExt">
 			<var name="tweak_data" value="gen_pku_guilt" />
 			<var name="_remove_on_interact" value="true" />
-			<var name="_global_event" value="pku_guilt" />
+			<var name="_global_event" value="pku_red_diamond" /> <!--Can't be fucked figuring out how to add 'pku_guilt' to elementglobaleventtrigger-->
 		</extension>
 		<extension name="carry_data" class="CarryData">
 			<var name="_carry_id" value="guilt" />
