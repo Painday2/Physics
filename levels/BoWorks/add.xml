@@ -719,6 +719,9 @@
 		<object path="units/pd2_mod_phys/props/phys_sign_2x2"/>
 		<unit path="units/pd2_mod_phys/props/phys_sign_2x2"/>
 		<model path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_1x1"/>
 	</add>
 	<add path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" type="unit">
 		<cooked_physics path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
@@ -800,5 +803,45 @@
 		<material_config path="units/payday2/characters/npc_acc_tools_bag_1/npc_acc_tools_bag_1" unload="true"/>
 		<object path="units/payday2/characters/npc_acc_tools_bag_1/npc_acc_tools_bag_1" unload="true"/>
 		<unit path="units/payday2/characters/npc_acc_tools_bag_1/npc_acc_tools_bag_1" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large" type="unit">
+		<effect load="true" path="effects/payday2/environment/thermal_lance" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_fire" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_spark" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large" type="unit">
+		<effect load="true" path="effects/payday2/environment/thermal_lance" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_fire" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_spark" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<material_config path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large" unload="true"/>
+		<object path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large" unload="true"/>
+		<unit path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" type="unit">
+		<material_config path="units/pickups/pickup_bank_manager_key/pickup_bank_manager_key" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+	</add>
+	<add path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard" type="unit">
+		<material_config path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<object path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<unit path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+	</add>
+	<add path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" type="unit">
+		<unit path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
 	</add>
 </table>
