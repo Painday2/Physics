@@ -11,7 +11,7 @@
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
 		<event name="control" source="null.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
-	<level ai_group_type="America" briefing_dialog="" id="physics_citystreets" intro_event="" max_bags="4" orig_id="BoWorks" player_style="generic" team_ai_off="false">
+	<level ai_group_type="America" briefing_dialog="" id="physics_citystreets" intro_event="" max_bags="5" orig_id="BoWorks" player_style="generic" team_ai_off="false">
 		<add file="levels/BoWorks/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -109,6 +109,25 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<instance id="physics_instance_d1_ticketmachine" orig_id="physics_instance_d1_ticketmachine">
+		<add directory="assets"/>
+		<include directory="levels/instances/physics_instance_d1_ticketmachine">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
 	<narrative briefing_event="" contact="Pain" id="physics">
 		<chain>
 			<table level_id="physics_citystreets" type="d" type_id="heist_type_assault"/>

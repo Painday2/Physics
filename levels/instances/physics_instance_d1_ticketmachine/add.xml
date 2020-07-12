@@ -1,0 +1,12 @@
+<table directory="assets">
+	<add path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" type="unit">
+		<unit path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<object path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<sequence_manager path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass" type="unit">
+		<material_config path="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass" unload="true"/>
+		<object path="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass" unload="true"/>
+		<unit path="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass" unload="true"/>
+	</add>
+</table>
