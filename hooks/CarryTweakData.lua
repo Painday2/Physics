@@ -16,7 +16,7 @@ Hooks:PostHook(CarryTweakData, "init", "init_boworks", function(self, tweak_data
 	}
 
 	self.guilt = {
-		type = "mega_heavy",
+		type = "very_heavy",
 		name_id = "hud_carry_guilt",
 		unit = "units/payday2/pickups/gen_pku_bodybag/gen_pku_bodybag",
 		visual_unit_name = "units/payday2/characters/npc_acc_body_bag_1/npc_acc_body_bag_1",

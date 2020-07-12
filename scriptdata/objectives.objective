@@ -9,4 +9,6 @@
 	<objective description="boworks_mission8_desc" id="boworks_mission8" text="boworks_mission8"/>
 	<objective description="boworks_mission9_desc" id="boworks_mission9" text="boworks_mission9"/>
 	<objective description="boworks_mission10_desc" id="boworks_mission10" text="boworks_mission10"/>
+	<objective description="boworks_mission11_desc" id="boworks_mission11" text="boworks_mission11"/>
+	<objective description="boworks_mission11a_desc" id="boworks_mission11a" text="boworks_mission11a"/>
 </table>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/equipment/c4_charge/c4_plantable" orientation_object="rp_c4_plantable" />
+  <sequence_manager file="units/equipment/c4_charge/c4_plantable" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static" remove_ray_type="walk">
+      <object name="rp_c4_plantable" />
+      <object name="c_c4_box" collision_type="box" />
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="plastic" static="true">
+    <decal_mesh name="g_c4" enabled="true" material="plastic" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_c4" enabled="false" instance_struct="world_tm" />
+    <object name="g_c4_glow" enabled="true" />
+  </graphics>
+  
+  <lights>
+    <light name="li_red" enabled="false" type="omni|specular" multiplier="identity" />
+  </lights>
+</dynamic_object>

@@ -3,7 +3,7 @@
   <diesel materials="units/pd2_mod_phys/props/phys_2x8_banner" orientation_object="rp_root" />
   <sequence_manager file="units/pd2_mod_phys/props/phys_2x8_banner" />
   <bodies>
-    <body name="static_body" enabled="false" template="static">
+    <body name="static_body" enabled="true"  template="editor" collides_with_mover="false" remove_ray_type="bullet">
       <object name="g_1" enabled="true" collision_type="box" />
     </body>
   </bodies>

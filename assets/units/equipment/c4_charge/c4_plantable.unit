@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<unit type="fwb" slot="1">
+  <object file="units/equipment/c4_charge/c4_plantable" />
+  <network sync="spawn"/>
+   <dependencies>
+	
+  </dependencies>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+	<extension name="damage" class="UnitDamage" />
+	<extension name="interaction" class="UseInteractionExt">
+      <var name="tweak_data" value="c4" />
+	  </extension>
+  </extensions>
+  <sounds>
+	<default_soundsource source="e_sound"/>
+  	<soundsource name="sound" source="e_sound" />
+  </sounds>
+</unit>
