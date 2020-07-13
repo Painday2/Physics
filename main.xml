@@ -11,7 +11,7 @@
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
 		<event name="control" source="null.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
-	<level ai_group_type="America" briefing_dialog="" id="physics_citystreets" intro_event="" max_bags="5" orig_id="BoWorks" player_style="generic" team_ai_off="false">
+	<level ai_group_type="America" briefing_dialog="physics_citystreets_briefing_dialog" id="physics_citystreets" intro_event="physics_citystreets_intro_event" max_bags="5" orig_id="BoWorks" player_style="generic" team_ai_off="false">
 		<add file="levels/BoWorks/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -45,7 +45,7 @@
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
 		<outro_event>
-			<value_node value=""/>
+			<value_node value="physics_citystreets_outro_event"/>
 		</outro_event>
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
@@ -63,7 +63,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="America" briefing_dialog="" id="physics_tower" intro_event="" max_bags="54" orig_id="BoWorks_Tower" player_style="generic">
+	<level ai_group_type="America" briefing_dialog="physics_tower_briefing_dialog" id="physics_tower" intro_event="physics_tower_intro_event" max_bags="54" orig_id="BoWorks_Tower" player_style="generic">
 		<add file="levels/BoWorks_Tower/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -93,7 +93,7 @@
 			<file file="environments/physics_tower_exterior.environment" type="custom_xml"/>
 		</include>
 		<outro_event>
-			<value_node value=""/>
+			<value_node value="physics_tower_outro_event"/>
 		</outro_event>
 		<packages>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
@@ -109,8 +109,23 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<Sounds directory="assets/sounds/vo">
+		<sound id="physics_briefing_event" path="brief/physics_briefing_event.ogg"/>
+		<sound id="physics_crimenet_callouts" path="brief/physics_crimenet_callouts.ogg"/>
+		<sound id="physics_debrief_event" path="brief/physics_debrief_event.ogg"/>
+		<sound id="physics_citystreets_briefing_dialog" path="brief/physics_citystreets_briefing_dialog.ogg"/>
+		<sound id="physics_citystreets_intro_event" path="brief/physics_citystreets_intro_event.ogg" subtitle_id="physics_citystreets_intro_event_sub"/>
+		<sound id="physics_citystreets_intro_event" path="brief/physics_citystreets_outro_event.ogg"/>
+		<sound id="physics_tower_briefing_dialog" path="brief/physics_tower_briefing_dialog.ogg"/>
+		<sound id="physics_tower_intro_event" path="brief/physics_tower_intro_event.ogg" subtitle_id="physics_tower_intro_event_sub"/>
+		<sound id="physics_tower_intro_event" path="brief/physics_tower_outro_event.ogg"/>
+		<sound id="museum_info_history_1" path="day1/museum_info_history_1.ogg" subtitle_id="museum_info_history_1_sub"/>
+		<sound id="museum_info_history_2" path="day1/museum_info_history_2.ogg" subtitle_id="museum_info_history_2_sub"/>
+		<sound id="museum_info_history_3" path="day1/museum_info_history_3.ogg" subtitle_id="museum_info_history_3_sub"/>
+		<sound id="museum_info_history_4" path="day1/museum_info_history_4.ogg" subtitle_id="museum_info_history_4_sub"/>
+	</Sounds>
 	<instance id="physics_instance_d1_ticketmachine" orig_id="physics_instance_d1_ticketmachine">
-		<add directory="assets"/>
+		<add file="levels/instances/physics_instance_d1_ticketmachine/add.xml"/>
 		<include directory="levels/instances/physics_instance_d1_ticketmachine">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
@@ -128,7 +143,7 @@
 		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
-	<narrative briefing_event="" contact="Pain" id="physics">
+	<narrative briefing_event="physics_briefing_event" contact="Pain" id="physics">
 		<chain>
 			<table level_id="physics_citystreets" type="d" type_id="heist_type_assault"/>
 			<table level_id="physics_tower" type="d" type_id="heist_type_assault"/>
@@ -143,13 +158,13 @@
 			<value_node value="100000"/>
 		</contract_cost>
 		<crimenet_callouts>
-			<value_node value="nothing"/>
+			<value_node value="physics_crimenet_callouts"/>
 		</crimenet_callouts>
 		<crimenet_videos>
 			<value_node value="cn_branchbank2"/>
 		</crimenet_videos>
 		<debrief_event>
-			<value_node value=""/>
+			<value_node value="physics_debrief_event"/>
 		</debrief_event>
 		<experience_mul>
 			<value_node value="1"/>
