@@ -1,7 +1,853 @@
-<table>
-	<texture path="levels/mods/physics_citystreets/cube_lights/103814"/>
-	<texture path="levels/mods/physics_citystreets/cube_lights/103815"/>
-	<texture path="levels/mods/physics_citystreets/cube_lights/103816"/>
-	<texture path="levels/mods/physics_citystreets/cube_lights/103817"/>
-	<texture path="levels/mods/physics_citystreets/cube_lights/103818"/>
+<table directory="assets">
+	<add path="units/dev_tools/editable_text_long/editable_text_long" type="unit">
+		<material_config path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+		<object path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+		<unit path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_ext_1m_cube" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_ext_1m_cube" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_ext_1m_cube" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_2m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_2m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_2m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_050m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_050m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_050m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_c" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_d" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_d" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_d" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_e" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_e" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_e" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_f" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_f" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_f" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_c" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_d" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_d" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_d" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_e" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_e" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_e" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_f" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_f" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_f" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_c" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_door_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_door_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_door_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_window_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_window_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_window_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_c" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_c" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_door_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_door_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_door_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" unload="true"/>
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+	</add>
+	<add path="units/test/jocke/plane_black_temp" type="unit">
+		<material_config path="units/test/jocke/plane_black_temp" unload="true"/>
+		<object path="units/test/jocke/plane_black_temp" unload="true"/>
+		<unit path="units/test/jocke/plane_black_temp" unload="true"/>
+	</add>
+	<add path="units/dev_tools/editable_text_short/editable_text_short" type="unit">
+		<material_config path="units/dev_tools/editable_text_short/editable_text_short" unload="true"/>
+		<object path="units/dev_tools/editable_text_short/editable_text_short" unload="true"/>
+		<unit path="units/dev_tools/editable_text_short/editable_text_short" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_doorway_splitter_2x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_doorway_splitter_2x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_doorway_splitter_2x3m" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" type="unit">
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_door_corridor/spawn_debris_interactable_door_corridor" type="unit">
+		<material_config path="units/payday2/equipment/gen_interactable_door_corridor/gen_interactable_door_corridor_debris" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_corridor/gen_interactable_door_corridor_debris" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_corridor/spawn_debris_interactable_door_corridor" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_reinforced/spawn_debris_door_reinforced" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_reinforced/spawn_debris_door_reinforced" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_reinforced/spawn_debris_door_reinforced" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_in" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_out" unload="true"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/shapecharger_explosion" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/fire_smoke_mid" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/dark_smoke_big" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_pillar_ext_1m_cube" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_ext_1m_cube" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_ext_1m_cube" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_ext_1m_cube" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_b" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_b" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_b" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_b" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_b" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_b" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_railing_int_050m_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_050m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_050m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_050m_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_b" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_b" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_railing_int_2m_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_2m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_2m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_2m_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_stair_bot_b" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_b" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_stair_bot_c" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_c" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_stair_bot_d" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_d" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_d" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_d" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_stair_bot_e" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_e" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_e" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_e" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_stair_bot_f" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_f" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_f" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_f" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_stair_top_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_stair_top_b" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_b" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_stair_top_c" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_c" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_stair_top_d" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_d" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_d" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_d" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_stair_top_e" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_e" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_e" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_e" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_stair_top_f" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_f" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_f" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_f" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_b" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_b" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_c" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_c" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_b" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_b" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_c" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_c" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_c" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_c" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_door_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_door_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_door_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_door_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" type="unit">
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" unload="true"/>
+	</add>
+	<add path="units/test/jocke/oneplanetorulethemall" type="unit">
+		<material_config path="units/test/jocke/simple_temp" unload="true"/>
+		<object path="units/test/jocke/oneplanetorulethemall" unload="true"/>
+		<unit path="units/test/jocke/oneplanetorulethemall" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" type="unit">
+		<material_config path="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<object path="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<unit path="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" unload="true"/>
+	</add>
+	<add path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7" type="unit">
+		<material_config path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7" unload="true"/>
+		<object path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7" unload="true"/>
+	</add>
+	<add path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3" type="unit">
+		<material_config path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3" unload="true"/>
+		<object path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m" unload="true"/>
+	</add>
+	<add path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_a" type="unit">
+		<material_config path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel" unload="true"/>
+		<object path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_a" unload="true"/>
+		<unit path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_a" unload="true"/>
+	</add>
+	<add path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_dmg_a" type="unit">
+		<material_config path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel" unload="true"/>
+		<object path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_dmg_a" unload="true"/>
+		<unit path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_dmg_a" unload="true"/>
+	</add>
+	<add path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_dmg_c" type="unit">
+		<material_config path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel" unload="true"/>
+		<object path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_dmg_c" unload="true"/>
+		<unit path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_dmg_c" unload="true"/>
+	</add>
+	<add path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_lid_a" type="unit">
+		<material_config path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel" unload="true"/>
+		<object path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_lid_a" unload="true"/>
+		<unit path="units/payday2/props/hwy_prop_yellowbarrel/hwy_prop_yellowbarrel_lid_a" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" type="unit">
+		<font path="fonts/font_digital" unload="true"/>
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" unload="true"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" unload="true"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal" unload="true"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<material_config path="units/pickups/pickup_bank_manager_key/pickup_bank_manager_key" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/drill" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/drill_jammed" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_wooden_a/spawn_debris_door_wooden_a" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_wooden_a/spawn_debris_door_wooden_a" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_wooden_a/spawn_debris_door_wooden_a" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" unload="true"/>
+	</add>
+	<add path="units/payday2/props/bnk_prop_vault_door_heavy/bnk_prop_vault_door_heavy" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_door_heavy/bnk_prop_vault_door_heavy" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_door_heavy/bnk_prop_vault_door_heavy" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_door_heavy/bnk_prop_vault_door_heavy" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_door_heavy/bnk_prop_vault_door_heavy" unload="true"/>
+	</add>
+	<add path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
+	</add>
+	<add path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
+	</add>
+	<add path="units/pd2_mod_phys/props/phys_prop_reinforced_window/phys_prop_reinforced_window" type="unit" unload_on_restart="true">
+		<material_config path="units/pd2_mod_phys/props/phys_prop_reinforced_window/phys_prop_reinforced_window" unload="true"/>
+		<model path="units/pd2_mod_phys/props/phys_prop_reinforced_window/phys_prop_reinforced_window" unload="true"/>
+		<object path="units/pd2_mod_phys/props/phys_prop_reinforced_window/phys_prop_reinforced_window" unload="true"/>
+		<unit path="units/pd2_mod_phys/props/phys_prop_reinforced_window/phys_prop_reinforced_window" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_collision/dev_collision_8x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_8x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_8x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_collision/dev_collision_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_1x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_1x3m" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
+		<model path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<object path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<unit load="true" path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<material_config path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<material_config path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
+		<model path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
+		<object path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
+		<unit load="true" path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
+		<sequence_manager path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<texture path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1"/>
+		<material_config path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+		<object path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+		<unit path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+		<model path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+		<material_config path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
+		<object path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
+		<unit path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
+		<model path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
+		<texture path="units/pd2_mod_phys/props/phys_2x2_1"/>
+		<texture path="units/pd2_mod_phys/props/phys_2x2_2"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_sign_2x2_1"/>
+		<material_config path="units/pd2_mod_phys/props/phys_sign_2x2_2"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+	</add>
+	<add path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" type="unit">
+		<cooked_physics path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<material_config path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<model path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<object path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<sequence_manager path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<unit path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" type="unit">
+		<material_config path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" unload="true"/>
+		<object path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" unload="true"/>
+		<unit path="units/payday2/props/com_prop_park_bench/com_prop_park_bench" unload="true"/>
+	</add>
+	<add path="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash" unload="true"/>
+		<object path="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash" unload="true"/>
+		<sequence_manager path="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash" unload="true"/>
+		<unit path="units/payday2/props/str_prop_park_trashbin/str_prop_park_trashbin_trash" unload="true"/>
+	</add>
+	<add path="units/payday2/vehicles/sub_vehicle_train/sub_vehicle_train_2" type="unit">
+		<material_config path="units/payday2/vehicles/shared_textures/sub_vehicle_train" unload="true"/>
+		<object path="units/payday2/vehicles/sub_vehicle_train/sub_vehicle_train_2" unload="true"/>
+		<unit path="units/payday2/vehicles/sub_vehicle_train/sub_vehicle_train_2" unload="true"/>
+	</add>
+	<add path="units/payday2/vehicles/sub_vehicle_train_frontdoor/sub_vehicle_train_frontdoor" type="unit">
+		<material_config path="units/payday2/vehicles/shared_textures/sub_vehicle_train" unload="true"/>
+		<object path="units/payday2/vehicles/sub_vehicle_train_frontdoor/sub_vehicle_train_frontdoor" unload="true"/>
+		<sequence_manager path="units/payday2/vehicles/sub_vehicle_train_frontdoor/sub_vehicle_train_frontdoor" unload="true"/>
+		<unit path="units/payday2/vehicles/sub_vehicle_train_frontdoor/sub_vehicle_train_frontdoor" unload="true"/>
+	</add>
+	<add path="units/payday2/vehicles/sub_vehicle_train_sidedoors/sub_vehicle_train_sidedoors" type="unit">
+		<material_config path="units/payday2/vehicles/shared_textures/sub_vehicle_train" unload="true"/>
+		<object path="units/payday2/vehicles/sub_vehicle_train_sidedoors/sub_vehicle_train_sidedoors" unload="true"/>
+		<sequence_manager path="units/payday2/vehicles/sub_vehicle_train_sidedoors/sub_vehicle_train_sidedoors" unload="true"/>
+		<unit path="units/payday2/vehicles/sub_vehicle_train_sidedoors/sub_vehicle_train_sidedoors" unload="true"/>
+	</add>
+	<add path="units/payday2/vehicles/sub_vehicle_train_halfdmg/sub_vehicle_train_hatch" type="unit">
+		<material_config path="units/payday2/vehicles/shared_textures/sub_vehicle_train" unload="true"/>
+		<object path="units/payday2/vehicles/sub_vehicle_train_halfdmg/sub_vehicle_train_hatch" unload="true"/>
+		<sequence_manager path="units/payday2/vehicles/sub_vehicle_train_halfdmg/sub_vehicle_train_hatch" unload="true"/>
+		<unit path="units/payday2/vehicles/sub_vehicle_train_halfdmg/sub_vehicle_train_hatch" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_tag/props/tag_prop_security_barrier/tag_prop_security_barrier" type="unit">
+		<material_config path="units/pd2_dlc_tag/props/tag_prop_security_barrier/tag_prop_security_barrier" unload="true"/>
+		<object path="units/pd2_dlc_tag/props/tag_prop_security_barrier/tag_prop_security_barrier" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_tag/props/tag_prop_security_barrier/tag_prop_security_barrier" unload="true"/>
+		<unit path="units/pd2_dlc_tag/props/tag_prop_security_barrier/tag_prop_security_barrier" unload="true"/>
+	</add>
+	<add path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" type="unit">
+		<material_config path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" unload="true"/>
+		<object path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" unload="true"/>
+		<unit path="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass" type="unit">
+		<material_config path="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass" unload="true"/>
+		<object path="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass" unload="true"/>
+		<unit path="units/payday2/props/com_prop_garage_ticketpass/com_prop_garage_ticketpass" unload="true"/>
+	</add>
+	<add path="units/payday2/characters/npc_acc_cage_bag_1/npc_acc_cage_bag_1" type="unit">
+		<material_config path="units/payday2/characters/npc_acc_cage_bag_1/npc_acc_cage_bag_1" unload="true"/>
+		<object path="units/payday2/characters/npc_acc_cage_bag_1/npc_acc_cage_bag_1" unload="true"/>
+		<unit path="units/payday2/characters/npc_acc_cage_bag_1/npc_acc_cage_bag_1" unload="true"/>
+	</add>
+	<add path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_coke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/grab/parts/coke_smoke" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>
+	</add>
+	<add path="units/payday2/characters/npc_acc_body_bag_1/npc_acc_body_bag_1" type="unit">
+		<material_config path="units/payday2/characters/npc_acc_body_bag_1/npc_acc_body_bag_1" unload="true"/>
+		<object path="units/payday2/characters/npc_acc_body_bag_1/npc_acc_body_bag_1" unload="true"/>
+		<unit path="units/payday2/characters/npc_acc_body_bag_1/npc_acc_body_bag_1" unload="true"/>
+	</add>
+	<add path="units/payday2/characters/npc_acc_tools_bag_1/npc_acc_tools_bag_1" type="unit">
+		<material_config path="units/payday2/characters/npc_acc_tools_bag_1/npc_acc_tools_bag_1" unload="true"/>
+		<object path="units/payday2/characters/npc_acc_tools_bag_1/npc_acc_tools_bag_1" unload="true"/>
+		<unit path="units/payday2/characters/npc_acc_tools_bag_1/npc_acc_tools_bag_1" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large" type="unit">
+		<effect load="true" path="effects/payday2/environment/thermal_lance" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_fire" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_spark" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large" type="unit">
+		<effect load="true" path="effects/payday2/environment/thermal_lance" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_fire" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_spark" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<material_config path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large" unload="true"/>
+		<object path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large" unload="true"/>
+		<unit path="units/pd2_dlc_vr/equipment/bbv_interactable_lance_large/bbv_interactable_lance_large" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" type="unit">
+		<material_config path="units/pickups/pickup_bank_manager_key/pickup_bank_manager_key" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+	</add>
+	<add path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard" type="unit">
+		<material_config path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<object path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<unit path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+	</add>
+	<add path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" type="unit">
+		<unit path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+	</add>
+	<add path="units/equipment/c4_charge/c4_plantable" type="unit">
+		<unit path="units/equipment/c4_charge/c4_plantable" unload="true"/>
+		<object path="units/equipment/c4_charge/c4_plantable" unload="true"/>
+		<material_config path="units/equipment/c4_charge/c4_plantable" unload="true"/>
+		<sequence_manager path="units/equipment/c4_charge/c4_plantable" unload="true"/>
+	</add>
 </table>

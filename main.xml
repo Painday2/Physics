@@ -12,7 +12,7 @@
 		<event name="control" source="null.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
 	<level ai_group_type="America" briefing_dialog="physics_citystreets_briefing_dialog" id="physics_citystreets" intro_event="physics_citystreets_intro_event" max_bags="5" orig_id="BoWorks" player_style="generic" team_ai_off="false">
-		<add file="levels/BoWorks/add.xml"/>
+		<add file="levels/physics_citystreets/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
@@ -25,7 +25,7 @@
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
 		</hooks>
-		<include directory="levels/BoWorks">
+		<include directory="levels/physics_citystreets">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
 			<file file="mission.mission" type="binary"/>
@@ -64,14 +64,14 @@
 		</script_data_mods>
 	</level>
 	<level ai_group_type="America" briefing_dialog="physics_tower_briefing_dialog" id="physics_tower" intro_event="physics_tower_intro_event" max_bags="54" orig_id="BoWorks_Tower" player_style="generic">
-		<add file="levels/BoWorks_Tower/add.xml"/>
+		<add file="levels/physics_tower/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
 		</assets>
-		<include directory="levels/BoWorks_Tower">
+		<include directory="levels/physics_tower">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
 			<file file="mission.mission" type="binary"/>
