@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<unit type="stn" slot="1">
+	<object file="units/payday2/props/stn_prop_office_divider/stn_prop_office_divider" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/window/office_divider_glass" />
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="attention" class="AIAttentionObject" />
+	</extensions>
+</unit>

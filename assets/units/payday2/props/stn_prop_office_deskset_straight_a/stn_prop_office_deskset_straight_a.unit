@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<unit type="stn" slot="1">
+	<object file="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/destruction/des_paper" />
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>q

@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel materials="units/payday2/props/gen_prop_sleepingbag/gen_prop_sleepingbag" orientation_object="rp_gen_prop_sleepingbag" />
+    <bodies>
+        <body name="static_body" enabled="true" template="static" >
+            <object name="c_convex" collision_type="convex" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh name="dm_sleepingbag" enabled="true" material="cloth" />
+    </decal_surfaces>
+    <graphics>
+        <object name="g_sleepingbag" enabled="true" />
+    </graphics>
+</dynamic_object>

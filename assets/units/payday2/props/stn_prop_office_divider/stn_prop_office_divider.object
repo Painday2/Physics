@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/stn_prop_office_divider/stn_prop_office_divider" orientation_object="rp_stn_prop_office_divider" />
+	<sequence_manager file="units/payday2/props/stn_prop_office_divider/stn_prop_office_divider" />
+	<bodies>
+		<body name="body_desk_collision" enabled="true" template="static">
+			<object name="rp_stn_prop_office_divider" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_glass" enabled="true" template="static">
+			<object name="rp_stn_prop_office_divider" />
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_glass_breakable" enabled="true" material="glass_breakable"/>
+		<decal_mesh name="dm_office_divider" enabled="true" material="thin_layer"/>
+	</decal_surfaces>
+	<graphics>
+		<object name="g_office_divider" enabled="true"  />
+		<object name="g_office_divider_glass" enabled="true"  />
+		<object name="g_glass_dmg" enabled="false"  />
+	</graphics>
+</dynamic_object>
