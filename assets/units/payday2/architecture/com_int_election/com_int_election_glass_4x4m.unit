@@ -1,0 +1,12 @@
+<unit type="com" slot="1" >
+    <object file="units/payday2/architecture/com_int_election/com_int_election_glass_4x4m" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/window/storefront_window_small" />		
+	</dependencies>
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+        <extension class="UnitDamage" 	name="damage" />
+		<extension name="attention" class="AIAttentionObject" />
+    </extensions>
+</unit>

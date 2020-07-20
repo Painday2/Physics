@@ -1,0 +1,97 @@
+<materials version="3">
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+    <material name="mat_int_ceiling" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_election/com_int_election_ceiling_df"/>
+        <bump_normal_texture file="units/payday2/architecture/com_int_election/com_int_election_ceiling_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_electionday_df"/>
+    </material>
+    <material name="mat_int_election" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_election/com_int_election_df"/>
+        <bump_normal_texture file="units/payday2/architecture/com_int_election/com_int_election_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_electionday_df"/>
+    </material>
+    <material version="2" decal_material="sheet_metal" name="mat_sign_glow" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DOUBLE_SIDED:VIEW_ANGLE_FALLOFF_OP">
+        <diffuse_texture file="units/payday2/architecture/com_int_election/com_int_election_sign_glow_df"/>
+        <variable value="0.4400999546051" type="scalar" name="falloff_exp"/>
+        <variable value="monitor" type="scalar" name="intensity"/>
+    </material>
+    <material name="mat_int_floor" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_election/com_int_election_floor_df"/>
+        <bump_normal_texture file="units/payday2/architecture/com_int_election/com_int_election_floor_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_electionday_df"/>
+    </material>
+    <material name="mat_int_pillar" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_election/com_int_election_pillar_df"/>
+        <bump_normal_texture file="units/payday2/architecture/com_int_election/com_int_election_pillar_nm"/>
+    </material>
+    <material name="mat_int_pillar_ceiling" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_election/com_int_election_pillar_ceiling_df"/>
+        <bump_normal_texture file="units/payday2/architecture/com_int_election/com_int_election_pillar_ceiling_nm"/>
+    </material>
+    <material name="mat_int_marble" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_election/com_int_election_marble_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_electionday_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_int_marble_vtx" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_election/com_int_election_marble_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_electionday_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_int_metal_buttons" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_election/com_int_election_elevator_controlpanel_df"/>
+        <bump_normal_texture file="units/payday2/architecture/com_int_election/com_int_election_elevator_controlpanel_nm"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_gold_strong_df"/>
+    </material>
+    <material name="mat_int_metal_01" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_election/com_int_election_metal_01_df"/>
+        <bump_normal_texture file="units/payday2/architecture/com_int_election/com_int_election_metal_01_nm"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_gold_strong_df"/>
+    </material>
+    <material name="mat_int_metal_02" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/payday2/architecture/com_int_election/com_int_election_metal_02_df"/>
+        <bump_normal_texture file="units/payday2/architecture/com_int_election/com_int_election_metal_02_nm"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_gold_strong_df"/>
+    </material>
+    <material name="mat_glass" decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2">
+        <variable value="0 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_small_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_small_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_electionday_df"/>
+    </material>
+    <material name="mat_glass_dark" decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2">
+        <variable value="0 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_small_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_small_dark_df"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_electionday_df"/>
+    </material>
+    <material name="mat_glass_shattered" decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <variable value="2 0 0" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_shattered_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_shattered_df"/>
+        <bump_normal_texture file="units/payday2/glass/glass_shattered_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_electionday_df"/>
+    </material>
+    <material name="hud_brackets" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_brackets_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mtr_lockpick" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/lockpick_indicator_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mtr_saw" render_template="effect:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/sawblade_indicator_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="2" type="scalar" name="falloff_exp"/>
+        <variable value="3 0 0" type="vector3" name="uv0_speed"/>
+    </material>
+    <material version="2" unique="true" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" name="mat_contour">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="0 1 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+</materials>

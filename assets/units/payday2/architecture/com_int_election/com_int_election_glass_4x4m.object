@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_int_election_glass_4x4m" materials="units/payday2/architecture/com_int_election/com_int_election" />
+    <sequence_manager file="units/payday2/architecture/com_int_election/com_int_election_glass_4x4m" />
+    <bodies>
+        <body enabled="true" template="window" name="static_body" >
+			<object name="e_glass" />
+			<object name="g_glass" collision_type="mesh_mopp" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+		<decal_mesh name="dm_glass" enabled="true" material="glass_breakable"/>
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_glass" />
+        <object enabled="false" name="g_glass_dmg" />
+    </graphics>
+</dynamic_object>
