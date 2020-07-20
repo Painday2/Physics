@@ -1,0 +1,555 @@
+
+<xml>
+	<state name="escort_prisoner" type="template_state" segment="base">
+		<to name="panic" redirect="escort_prisoner/still/cover/loop"/>
+		<to name="idle" redirect="escort_prisoner/still/hesitant_loop"/>
+		
+		<to name="walk_fwd" redirect="escort_prisoner/move/run/fwd/1"/>
+		<to name="walk_bwd" redirect="escort_prisoner/move/run/bwd"/>
+		<to name="walk_l" redirect="escort_prisoner/move/run/l"/>
+		<to name="walk_r" redirect="escort_prisoner/move/run/r"/>
+		
+		<to name="run_fwd" redirect="escort_prisoner/move/run/fwd/1"/>
+		<to name="run_bwd" redirect="escort_prisoner/move/run/bwd"/>
+		<to name="run_l" redirect="escort_prisoner/move/run/l"/>
+		<to name="run_r" redirect="escort_prisoner/move/run/r"/>
+		
+		<to name="run_start_fwd" redirect="escort_prisoner/move/run/start/fwd/from_crh"/>
+		<to name="run_start_bwd" redirect="escort_prisoner/move/run/start/bwd/from_crh"/>
+		<to name="run_start_l" redirect="escort_prisoner/move/run/start/l/from_crh"/>
+		<to name="run_start_r" redirect="escort_prisoner/move/run/start/r/from_crh"/>
+		
+		<to name="run_start_turn_bwd" redirect="escort_prisoner/move/run/start/turn/bwd/from_crh"/>
+		<to name="run_start_turn_l" redirect="escort_prisoner/move/run/start/turn/l/from_crh"/>
+		<to name="run_start_turn_r" redirect="escort_prisoner/move/run/start/turn/r/from_crh"/>
+		
+		<to name="cm_so_escort_get_up_hesitant" redirect="escort_prisoner/so/get_up_hesitant"/>
+		
+		<to name="so_enter_ejectionchair" redirect="escort_prisoner/so/so_enter_ejectionchair"/>
+
+		<to name="spawn_prisonvan_var1" redirect="escort_prisoner/spawn_prisonvan_var1"/>
+		<to name="spawn_prisonvan_var4" redirect="escort_prisoner/spawn_prisonvan_var4"/>
+		<to name="spawn_prisonvan_var5" redirect="escort_prisoner/spawn_prisonvan_var5"/>
+		<to name="spawn_prisonvan_var8" redirect="escort_prisoner/spawn_prisonvan_var8"/>
+		<to name="spawn_prisonvan_var9" redirect="escort_prisoner/spawn_prisonvan_var9"/>
+		<to name="spawn_prisonvan_var10" redirect="escort_prisoner/spawn_prisonvan_var10"/>
+		
+		<to name="civ_face_scan" redirect="escort_prisoner/so/face_scan"/>
+
+		<default blend="7"/>
+	</state>
+	
+	
+	
+	<state name="escort_prisoner/so/get_up_hesitant" type="once" segment="base">
+		<to name="panic" redirect="escort_prisoner/still/cover/loop"/>
+		<anim name="hesitant_enter"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/still/hesitant_loop"/>
+	</state>
+	
+
+
+	
+	<state name="escort_prisoner/so/so_enter_ejectionchair" type="once" segment="base">
+		<anim name="so_enter_ejectionchair"/>
+		<from_group name="escort_prisoner" blend="7"/>
+		<keys>
+			<key at="trigger" trigger="anim_act_04" callback="anim_clbk_play_sound" class_name="sound" param1="anim_sit_down_ejectionchair"/>
+			<key at="enter" callback="anim_act_clbk" class_name="base" param1="anim_act_01"/>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="unintimidateable" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="unintimidateable" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/so/so_ejectionchair_idle"/>
+	</state>
+
+	<state name="escort_prisoner/so/so_ejectionchair_idle" type="loop" segment="base">
+		<anim name="so_ejectionchair_idle"/>
+		<keys>
+			
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="unintimidateable" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="unintimidateable" extension_value="false"/>
+		</keys>
+	</state>
+
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	<state name="escort_prisoner/so/face_scan" type="once" segment="base">
+		<anim name="civ_face_scan"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" callback="anim_act_clbk" class_name="base" param1="anim_act_01"/>
+			<key at="exit" callback="anim_act_clbk" class_name="base" param1="anim_act_02"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/face_scan_exit_loop"/>
+	</state>
+	
+	<state name="escort_prisoner/face_scan_exit_loop" type="loop" segment="base">
+		<anim name="civ_face_scan2"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="full_blend" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="can_freeze" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="can_freeze" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="idle_full_blend" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle_full_blend" extension_value="false"/>
+		</keys>
+	</state>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	<state name="escort_prisoner/spawn_prisonvan_var1" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="spawn_prisonvan_var1"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/still/hesitant_loop"/>
+	</state>
+	
+	<state name="escort_prisoner/spawn_prisonvan_var4" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="spawn_prisonvan_var4"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/still/hesitant_loop"/>
+	</state>
+	
+	<state name="escort_prisoner/spawn_prisonvan_var5" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="spawn_prisonvan_var5"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/still/hesitant_loop"/>
+	</state>
+		
+	<state name="escort_prisoner/spawn_prisonvan_var8" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="spawn_prisonvan_var8"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/still/hesitant_loop"/>
+	</state>
+	
+	<state name="escort_prisoner/spawn_prisonvan_var9" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="spawn_prisonvan_var9"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/still/hesitant_loop"/>
+	</state>
+	
+	<state name="escort_prisoner/spawn_prisonvan_var10" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="spawn_prisonvan_var10"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/still/hesitant_loop"/>
+	</state>
+	
+	
+	
+
+
+	
+	
+	
+	<state name="escort_prisoner/still/cover/enter" type="once" segment="base">
+		<anim name="cover_enter"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="full_blend" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="panic" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="panic" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/still/cover/loop"/>
+	</state>
+	
+	<state name="escort_prisoner/still/cover/loop" type="loop" segment="base">
+		<anim name="cover_idle"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="full_blend" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="standing_hesitant" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="standing_hesitant" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="can_freeze" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="can_freeze" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="idle_full_blend" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle_full_blend" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/still/cover/exit"/>
+	</state>
+	
+	<state name="escort_prisoner/still/cover/exit" type="once" segment="base">
+		<anim name="cover_exit"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="full_blend" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="standing_hesitant" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="standing_hesitant" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="can_freeze" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="can_freeze" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="idle_full_blend" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle_full_blend" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/still/hesitant_loop"/>
+	</state>
+	
+	<state name="escort_prisoner/still/hesitant_loop" type="loop" segment="base">
+		<to name="run_start_fwd" redirect="escort_prisoner/move/run/start/fwd/from_std"/>
+		<to name="run_start_bwd" redirect="escort_prisoner/move/run/start/bwd/from_std"/>
+		<to name="run_start_l" redirect="escort_prisoner/move/run/start/l/from_std"/>
+		<to name="run_start_r" redirect="escort_prisoner/move/run/start/r/from_std"/>
+		
+		<to name="run_start_turn_bwd" redirect="escort_prisoner/move/run/start/turn/bwd/from_std"/>
+		<to name="run_start_turn_l" redirect="escort_prisoner/move/run/start/turn/l/from_std"/>
+		<to name="run_start_turn_r" redirect="escort_prisoner/move/run/start/turn/r/from_std"/>
+		
+		<anim name="hesitant_idle"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="full_blend" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="standing_hesitant" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="standing_hesitant" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="can_freeze" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="can_freeze" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="idle_full_blend" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle_full_blend" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_prisoner/move" type="template_state" segment="base" >
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="stand" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="stand" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+		</keys>
+	</state>
+	 
+	<!-- Run -->
+	<state name="escort_prisoner/move/run" type="template_state" segment="base" >
+		<default blend="5"/>
+		<from_group name="escort_prisoner/move/run/start" blend="0"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="walk" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="walk" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			
+			<key at="trigger" trigger="leftfoot" callback="anim_clbk_footstep" class_name="movement"/>
+			<key at="trigger" trigger="rightfoot" callback="anim_clbk_footstep" class_name="movement"/>
+		</keys>
+	</state>
+	
+	<state name="escort_prisoner/move/run/fwd" type="template_state" segment="base" >
+		<from_group name="escort_prisoner/move/run/fwd" blend="0" />
+		<to name="panic" redirect="escort_prisoner/still/cover/enter"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_fwd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_fwd" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="fwd"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+		
+		<exit name="escort_prisoner/move/run/fwd/1" weight="7" />
+		<exit name="escort_prisoner/move/run/fwd/2" weight="1" />
+		<exit name="escort_prisoner/move/run/fwd/3" weight="2" />
+		<exit name="escort_prisoner/move/run/fwd/4" weight="1" />
+	</state>
+	
+	<state name="escort_prisoner/move/run/fwd/1" type="once" segment="base" >
+		<anim name="run_fwd_var1"/>
+	</state>
+	<state name="escort_prisoner/move/run/fwd/2" type="once" segment="base" >
+		<anim name="run_fwd_var2"/>
+	</state>
+	<state name="escort_prisoner/move/run/fwd/3" type="once" segment="base" >
+		<anim name="run_fwd_var3"/>
+	</state>
+	<state name="escort_prisoner/move/run/fwd/4" type="once" segment="base" >
+		<anim name="run_fwd_var4"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/bwd" type="loop" segment="base" >
+		<anim name="run_bwd"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_bwd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_bwd" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="bwd"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_prisoner/move/run/l" type="loop" segment="base" >
+		<anim name="run_l"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_l" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_l" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="l"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_prisoner/move/run/r" type="loop" segment="base" speed="0,01">
+		<anim name="run_r"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_r" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_r" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="r"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start" type="template_state" segment="base" >
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="run_start" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="run_start" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="run_start_full_blend" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="run_start_full_blend" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/fwd" type="template_state" segment="base" >
+		<to name="panic" redirect="escort_prisoner/still/cover/enter"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_fwd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_fwd" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="fwd"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/move/run/fwd/1"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/fwd/from_std" type="once" segment="base" >
+		<anim name="std_run_start_fwd"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/fwd/from_crh" type="once" segment="base" >
+		<anim name="run_start_fwd"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/bwd" type="template_state" segment="base" >
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_bwd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_bwd" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="bwd"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/move/run/bwd"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/bwd/from_std" type="once" segment="base" >
+		<anim name="std_run_start_fwd"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/bwd/from_crh" type="once" segment="base" >
+		<anim name="run_start_bwd"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/l" type="template_state" segment="base" >
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_l" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_l" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="l"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/move/run/l"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/l/from_std" type="once" segment="base" >
+		<anim name="std_run_start_l"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/l/from_crh" type="once" segment="base" >
+		<anim name="run_start_l"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/r" type="template_state" segment="base" >
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_r" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_r" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="r"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/move/run/r"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/r/from_std" type="once" segment="base" >
+		<anim name="std_run_start_r"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/r/from_crh" type="once" segment="base" >
+		<anim name="run_start_r"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/turn" type="template_state" segment="base" >
+		<exit name="escort_prisoner/move/run/fwd/1"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/turn/bwd" type="template_state" segment="base" >
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_bwd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_bwd" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="bwd"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/turn/bwd/from_std" type="once" segment="base" >
+		<anim name="std_run_start_turn_bwd"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/turn/bwd/from_crh" type="once" segment="base" >
+		<anim name="run_start_turn_bwd"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/turn/l" type="template_state" segment="base" >
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_l" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_l" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="l"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/turn/l/from_std" type="once" segment="base" >
+		<anim name="std_run_start_turn_l"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/turn/l/from_crh" type="once" segment="base" >
+		<anim name="run_start_turn_l"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/turn/r" type="template_state" segment="base">
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_r" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_r" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="r"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/turn/r/from_std" type="once" segment="base">
+		<anim name="run_start_turn_r"/>
+	</state>
+	
+	<state name="escort_prisoner/move/run/start/turn/r/from_crh" type="once" segment="base">
+		<anim name="run_start_turn_r"/>
+	</state>
+	
+</xml>

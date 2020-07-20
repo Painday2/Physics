@@ -1,0 +1,65 @@
+<xml>
+	<state name="bo" type="template_state" segment="base">
+		<default blend="0"/>
+
+		<to	name="idle_off"	redirect="bo/idle_off"/>
+		<to	name="idle_on"	redirect="bo/idle_on"/>
+
+		<to	name="bootup"	redirect="bo/bootup"/>
+		<to	name="bootdown"	redirect="bo/bootdown"/>
+
+		<!-- Fancy Speaking Animations -->
+		<to	name="complete_fucking_overkill"	redirect="bo/speaking/complete_fucking_overkill"/>
+		<to name="going_to_be_epic"				redirect="bo/speaking/going_to_be_epic"/>
+
+		<to	name="holy_fuck_bananas"						redirect="bo/speaking/holy_fuck_bananas"/>
+		<to name="star_vr"						redirect="bo/speaking/star_vr"/>
+		<to	name="total_immersion"						redirect="bo/speaking/total_immersion"/>
+	</state>
+
+	<state name="bo/empty" type="emptyloop" segment="base"/>
+
+	<state name="bo/idle_off" type="loop" segment="base">
+		<anim name="idle_off"/>
+	</state>
+
+	<state name="bo/idle_on" type="loop" segment="base">
+		<anim name="idle_on"/>
+	</state>
+
+	<state name="bo/bootup" type="once" segment="base">
+		<anim name="bootup"/>
+		<exit name="bo/idle_on"/>
+	</state>
+
+	<state name="bo/bootdown" type="once" segment="base">
+		<anim name="bootdown"/>
+		<exit name="bo/idle_off"/>
+	</state>
+
+	<!-- Fancy Speaking Animations -->
+	<state name="bo/speaking/complete_fucking_overkill" type="once" segment="base">
+		<anim name="complete_fucking_overkill"/>
+		<exit name="bo/idle_on"/>
+	</state>
+
+	<state name="bo/speaking/going_to_be_epic" type="once" segment="base">
+		<anim name="going_to_be_epic"/>
+		<exit name="bo/idle_on"/>
+	</state>
+
+	<state name="bo/speaking/holy_fuck_bananas" type="once" segment="base">
+		<anim name="holy_fuck_bananas"/>
+		<exit name="bo/idle_on"/>
+	</state>
+
+	<state name="bo/speaking/star_vr" type="once" segment="base">
+		<anim name="star_vr"/>
+		<exit name="bo/idle_on"/>
+	</state>
+
+	<state name="bo/speaking/total_immersion" type="once" segment="base">
+		<anim name="total_immersion"/>
+		<exit name="bo/idle_on"/>
+	</state>
+</xml>

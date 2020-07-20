@@ -1,0 +1,14 @@
+
+<state_machine name="escort_prisoner" timebase="frames">
+	<segment name="base"/>
+	<segment name="upper_body"/>
+	
+	<global name="ntl" value="0"/>
+	<global name="hos" value="0"/>
+	<global name="cbt" value="0"/>
+	<global name="wnd" value="0"/> <!--not used but needed to share script with other characters-->
+	<default state="escort_prisoner/still/cover/loop"/>
+	
+	<states file="anims/units/escort_guy/escort_prisoner"/>
+</state_machine>
+ 

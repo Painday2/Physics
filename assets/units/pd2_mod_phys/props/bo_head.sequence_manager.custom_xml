@@ -1,0 +1,46 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'anim_idle_on'" triggable="true">
+			<animation_redirect name="'idle_on'"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_idle_off'" triggable="true">
+			<animation_redirect name="'idle_off'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'anim_bootup'" triggable="true">
+			<animation_redirect name="'bootup'"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_bootdown'" triggable="true">
+			<animation_redirect name="'bootdown'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'anim_complete_fucking_overkill'" triggable="true">
+			<sound action="'play'" event="'bo_head_complete_fucking_overkill'" object="'g_vert_343'"/>
+			<animation_redirect name="'complete_fucking_overkill'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'anim_going_to_be_epic'" triggable="true">
+			<sound action="'play'" event="'bo_head_going_to_be_epic'" object="'g_vert_343'"/>
+			<animation_redirect name="'going_to_be_epic'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'anim_holy_fuck_bananas'" triggable="true">
+			<sound action="'play'" event="'bo_head_holy_fuck_bananas'" object="'g_vert_343'"/>
+			<animation_redirect name="'holy_fuck_bananas'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'anim_star_vr'" triggable="true">
+			<sound action="'play'" event="'bo_head_star_vr'" object="'g_vert_343'"/>
+			<animation_redirect name="'star_vr'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'anim_total_immersion'" triggable="true">
+			<sound action="'play'" event="'bo_head_total_immersion'" object="'g_vert_343'"/>
+			<animation_redirect name="'total_immersion'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'anim_random_voiceline'" triggable="true">
+			<run_sequence name=" 'anim_'..pick('complete_fucking_overkill','going_to_be_epic','holy_fuck_bananas','star_vr','total_immersion')"/>
+		</sequence>
+	</unit>
+</table>

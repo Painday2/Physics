@@ -1,0 +1,14 @@
+<xml>
+	<anim	name="idle_on"	file="anims/bo_head/idle_on"	blend_set="all"/>
+	<anim	name="idle_off"	file="anims/bo_head/idle_off"	blend_set="all"/>
+
+	<anim	name="bootup"	file="anims/bo_head/bootup"		blend_set="all"/>
+	<anim	name="bootdown"	file="anims/bo_head/bootdown"	blend_set="all"/>
+
+	<!-- Fancy Speaking Animations -->
+	<anim	name="complete_fucking_overkill"	file="anims/bo_head/complete_fucking_overkill"	blend_set="voice"/>
+	<anim	name="going_to_be_epic"				file="anims/bo_head/going_to_be_epic"			blend_set="voice"/>
+	<anim	name="holy_fuck_bananas"			file="anims/bo_head/holy_fuck_bananas"			blend_set="voice"/>
+	<anim	name="star_vr"						file="anims/bo_head/star_vr"					blend_set="voice"/>
+	<anim	name="total_immersion"				file="anims/bo_head/total_immersion"			blend_set="voice"/>
+</xml>

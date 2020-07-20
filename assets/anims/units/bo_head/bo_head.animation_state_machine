@@ -1,0 +1,7 @@
+<state_machine name="bo_head" timebase="frames">
+	<segment name="base"/>
+
+	<default state="bo/empty"/>
+
+	<states file="anims/units/bo_head/bo"/>
+</state_machine>

@@ -1,0 +1,21 @@
+<unit type="dev" slot="1" >
+	<object file="units/pd2_mod_phys/props/bo_head"/>
+	<network sync="spawn"/>
+
+	<anim_state_machine name="anims/units/bo_head/bo_head"/>
+
+	<dependencies>
+		<depends_on animation_def="anims/units/bo_head/bo_head"/>
+		<depends_on animation_state_machine="anims/units/bo_head/bo_head"/>
+	</dependencies>
+
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData"/>
+		<extension name="damage" class="UnitDamage"/>
+	</extensions>
+
+	<sounds>
+		<default_soundsource source="root_point"/>
+		<soundsource name="body" source="root_point"/>
+	</sounds>
+</unit>

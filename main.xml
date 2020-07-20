@@ -105,10 +105,6 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
-	<Localization default="english.txt" directory="loc">
-		<loc file="english.txt" language="english"/>
-	</Localization>
 	<Sounds directory="assets/sounds/vo">
 		<sound id="physics_briefing_event" path="brief/physics_briefing_event.ogg"/>
 		<sound id="physics_crimenet_callouts" path="brief/physics_crimenet_callouts.ogg"/>
@@ -124,6 +120,17 @@
 		<sound id="museum_info_history_3" path="day1/museum_info_history_3.ogg" subtitle_id="museum_info_history_3_sub"/>
 		<sound id="museum_info_history_4" path="day1/museum_info_history_4.ogg" subtitle_id="museum_info_history_4_sub"/>
 	</Sounds>
+	<Sounds directory="assets/sounds/bo_head">
+		<sound id="bo_head_complete_fucking_overkill" path="complete_fucking_overkill.ogg"/>
+		<sound id="bo_head_going_to_be_epic" path="going_to_be_epic.ogg"/>
+		<sound id="bo_head_holy_fuck_bananas" path="holy_fuck_bananas.ogg"/>
+		<sound id="bo_head_star_vr" path="star_vr.ogg"/>
+		<sound id="bo_head_total_immersion" path="total_immersion.ogg"/>
+	</Sounds>
+	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
 	<instance id="physics_instance_d1_ticketmachine" orig_id="physics_instance_d1_ticketmachine">
 		<add file="levels/instances/physics_instance_d1_ticketmachine/add.xml"/>
 		<include directory="levels/instances/physics_instance_d1_ticketmachine">

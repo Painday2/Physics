@@ -1,0 +1,7 @@
+<state_machine name="stryder" timebase="frames">
+	<segment name="base"/>
+
+	<default state="std/empty"/>
+
+	<states file="anims/units/stryder/std"/>
+</state_machine>

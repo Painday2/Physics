@@ -1,0 +1,5 @@
+<materials version="3">
+	<material name="mat_verts" render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/payday2/architecture/mkp/mkp_grid_df"/>
+	</material>
+</materials>
