@@ -11,19 +11,18 @@
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="base" class="CopBase" >
-			<var name="_tweak_table" value="drug_lord_boss" />
-			<var name="_default_weapon_id" value="sg417" />
-			<var name="_stats_name" value="drug_lord_boss" />
+			<var name="_tweak_table" value="cop" />
+			<var name="_default_weapon_id" value="mp5" />
 		</extension>
 		<extension name="inventory" class="CopInventory" />
 		<extension name="brain" class="CopBrain" />
 		<extension name="anim_data" class="PlayerAnimationData" />
-		<extension name="character_damage" class="TankCopDamage">
+		<extension name="character_damage" class="CopDamage">
 			<var name="_head_body_name" value="head" />
 		</extension>
 		<extension name="movement" class="CopMovement" >
-			<var name="_footwear" value="bulldozer" />
-			<var name="_anim_global" value="tank" />
+			<var name="_footwear" value="hardsole" />
+			<var name="_anim_global" value="cop" />
 		</extension>
 		<extension name="interaction" class="IntimitateInteractionExt" >
 			<var name="tweak_data" value="intimidate" />
