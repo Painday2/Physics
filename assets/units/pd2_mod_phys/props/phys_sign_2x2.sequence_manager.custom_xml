@@ -1,34 +1,146 @@
 <table>
 	<unit>
-		<sequence editable_state="true" name="'chair/blammo'" triggable="true">
-			<object enabled="true"  name="'g_TR'"/>
+		<sequence editable_state="true" name="'chair'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_sign_2x2_1'"/>
+			<object enabled="true" name="'g_TR'"/>
 			<object enabled="false" name="'g_BR'"/>
 			<object enabled="false" name="'g_TL'"/>
 			<object enabled="false" name="'g_BL'"/>
 		</sequence>
-		<sequence editable_state="true" name="'stars/therapist'" triggable="true">
+		<sequence editable_state="true" name="'stars'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_sign_2x2_1'"/>
 			<object enabled="false" name="'g_TR'"/>
-			<object enabled="true"  name="'g_BR'"/>
+			<object enabled="true" name="'g_BR'"/>
 			<object enabled="false" name="'g_TL'"/>
 			<object enabled="false" name="'g_BL'"/>
 		</sequence>
-		<sequence editable_state="true" name="'cover/starvr'" triggable="true">
+		<sequence editable_state="true" name="'cover'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_sign_2x2_1'"/>
 			<object enabled="false" name="'g_TR'"/>
 			<object enabled="false" name="'g_BR'"/>
-			<object enabled="true"  name="'g_TL'"/>
+			<object enabled="true" name="'g_TL'"/>
 			<object enabled="false" name="'g_BL'"/>
 		</sequence>
-		<sequence editable_state="true" name="'fuckbo/cinema'" triggable="true">
+		<sequence editable_state="true" name="'fuckbo'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_sign_2x2_1'"/>
 			<object enabled="false" name="'g_TR'"/>
 			<object enabled="false" name="'g_BR'"/>
 			<object enabled="false" name="'g_TL'"/>
 			<object enabled="true" name="'g_BL'"/>
 		</sequence>
-		<sequence editable_state="true" name="'matconfg1'" triggable="true">
-			<material_config    name="'units/pd2_mod_phys/props/phys_sign_2x2_1'"/>
+		<sequence editable_state="true" name="'blammo'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_sign_2x2_2'"/>
+			<object enabled="true" name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
 		</sequence>
-		<sequence editable_state="true" name="'matconfg2'" triggable="true">
-			<material_config    name="'units/pd2_mod_phys/props/phys_sign_2x2_2'"/>
+		<sequence editable_state="true" name="'therapist'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_sign_2x2_2'"/>
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="true" name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'starvr'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_sign_2x2_2'"/>
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="true" name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'cinema'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_sign_2x2_2'"/>
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="true" name="'g_BL'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'bo2'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_bofaces_2x2'"/>
+			<object enabled="true" name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'bo4'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/pphys_bofaces_2x2'"/>
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="true" name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'bo1'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_bofaces_2x2'"/>
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="true" name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'bo3'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_bofaces_2x2'"/>
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="true" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'quarantine_lockdown'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_alerts_2x2'"/>
+			<object enabled="true" name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'return2office'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_alerts_2x2'"/>
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="true" name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'geometry'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_alerts_2x2'"/>
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="true" name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'security_alert'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_alerts_2x2'"/>
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="true" name="'g_BL'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'sbz_logo'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_utility_2x2'"/>
+			<object enabled="true" name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'andreas'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_utility_2x2'"/>
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="true" name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'blank'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_utility_2x2'"/>
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="true" name="'g_TL'"/>
+			<object enabled="false" name="'g_BL'"/>
+		</sequence>
+		<sequence editable_state="true" name="'stockos_logo'" triggable="true">
+			<material_config name="'units/pd2_mod_phys/props/phys_utility_2x2'"/>
+			<object enabled="false" name="'g_TR'"/>
+			<object enabled="false" name="'g_BR'"/>
+			<object enabled="false" name="'g_TL'"/>
+			<object enabled="true" name="'g_BL'"/>
 		</sequence>
 	</unit>
 </table>

@@ -760,6 +760,12 @@
 		<object path="units/pd2_mod_phys/props/phys_sign_1x1"/>
 		<unit path="units/pd2_mod_phys/props/phys_sign_1x1"/>
 		<model path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<texture path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
+		<texture path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
+		<texture path="units/pd2_mod_phys/props/phys_utility_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_utility_2x2"/>
 	</add>
 	<add path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" type="unit">
 		<cooked_physics path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>

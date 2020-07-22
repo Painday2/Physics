@@ -26,5 +26,13 @@
 		<object path="units/pd2_mod_phys/props/phys_3x12_banner"/>
 		<unit path="units/pd2_mod_phys/props/phys_3x12_banner"/>
 		<model path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+
+		
+		<material_config path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_utility_2x2"/>
+		<texture path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
+		<texture path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
+		<texture path="units/pd2_mod_phys/props/phys_utility_2x2"/>
 	</add>
 </table>
