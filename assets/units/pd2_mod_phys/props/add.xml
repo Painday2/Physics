@@ -27,7 +27,13 @@
 		<unit path="units/pd2_mod_phys/props/phys_3x12_banner"/>
 		<model path="units/pd2_mod_phys/props/phys_3x12_banner"/>
 
-		
+		<texture path="units/pd2_mod_phys/props/phys_bedding"/>
+		<texture path="units/pd2_mod_phys/props/phys_wood_df"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<material_config path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<object path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<unit path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<model path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
 		<material_config path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
 		<material_config path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
 		<material_config path="units/pd2_mod_phys/props/phys_utility_2x2"/>

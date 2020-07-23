@@ -1,0 +1,8 @@
+<materials version="3">
+	<material unique="true" render_template="generic:DIFFUSE_TEXTURE" version="2" name="wood">
+        <diffuse_texture file="units/pd2_mod_phys/props/phys_wood_df"/>
+    </material>
+    <material unique="true" render_template="generic:DIFFUSE_TEXTURE" version="2" name="partner">
+        <diffuse_texture file="units/pd2_mod_phys/props/phys_bedding"/>
+    </material>
+</materials>

@@ -1,0 +1,22 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'open'" triggable="true">
+			<body    enabled="true"    name="'body_open'"/>
+			<body    enabled="false"    name="'static_body'"/>
+			<object enabled="true"  name="'g_bed_open'"/>
+			<object enabled="false" name="'g_bed'"/>
+		</sequence>
+		<sequence editable_state="true" name="'closed'" triggable="true">
+			<body    enabled="true"    name="'static_body'"/>
+			<body    enabled="false"    name="'body_open'"/>
+			<object enabled="false" name="'g_bed_open'"/>
+			<object enabled="true"  name="'g_bed'"/>
+		</sequence>
+		<sequence editable_state="true" name="'open_animation'" triggable="true">
+			<animation_group enabled="true" name="'bed_anim'" from="0/30" to="30/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'close_animation'" triggable="true">
+			<animation_group enabled="true" name="'bed_anim'" from="30/30" speed="-1" to="0/30"/>
+		</sequence>
+	</unit>
+</table>
