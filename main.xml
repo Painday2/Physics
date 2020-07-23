@@ -17,7 +17,7 @@
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
-			<asset name="bodybags_bag"/>
+			<asset name="welcome_to_the_jungle_guards"/>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
