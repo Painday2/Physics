@@ -671,10 +671,31 @@
 		<unit path="units/world/props/office/water/watercooler" unload="true"/>
 	</add>
 	<add path="units/payday2/architecture/com_int_election/com_int_election_glass_4x4m" type="unit">
-		<unit path="units/payday2/architecture/com_int_election/com_int_election_glass_4x4m" unload="true"/>
-		<object path="units/payday2/architecture/com_int_election/com_int_election_glass_4x4m" unload="true"/>
 		<material_config path="units/payday2/architecture/com_int_election/com_int_election" unload="true"/>
-		<sequence_manager path="units/payday2/architecture/com_int_election/com_int_election_glass_4x4m" unload="true"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<object path="units/payday2/architecture/com_int_election/com_int_election_glass_4x4m" unload="true"/>
+		<sequence_manager path="units/payday2/architecture/com_int_election/com_int_election_glass_4x4m" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_election/com_int_election_glass_4x4m" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_bedroom_bed/lxa_prop_bedroom_bed" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_bedroom_bed/lxa_prop_bedroom_bed" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_bedroom_bed/lxa_prop_bedroom_bed" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_bedroom_bed/lxa_prop_bedroom_bed" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/props/cas_prop_bedroom_bed/cas_bedroom_bed" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_bedroom_bed/cas_bedroom_bed" unload="true"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_bedroom_bed/cas_bedroom_bed" unload="true"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_bedroom_bed/cas_bedroom_bed" unload="true"/>
+	</add>
+	<add path="core/units/light_omni/light_omni" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="core/units/light_omni/light_omni" unload="true"/>
+		<unit path="core/units/light_omni/light_omni" unload="true"/>
+	</add>
+	<add path="units/payday2/props/str_prop_street_trashbin/str_prop_street_trashbin" type="unit">
+		<unit path="units/payday2/props/str_prop_street_trashbin/str_prop_street_trashbin" unload="true"/>
+		<object path="units/payday2/props/str_prop_street_trashbin/str_prop_street_trashbin" unload="true"/>
+		<material_config path="units/payday2/props/str_prop_street_trashbin/str_prop_street_trashbin" unload="true"/>
+		<sequence_manager path="units/payday2/props/str_prop_street_trashbin/str_prop_street_trashbin" unload="true"/>
 	</add>
 </table>

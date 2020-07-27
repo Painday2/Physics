@@ -1,0 +1,33 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_casino/props/cas_prop_bedroom_bed/cas_bedroom_bed" orientation_object="rp_cas_bedroom_bed" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_cas_bedroom_bed" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_09" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_cloth_stuffed" enabled="true" material="cloth_stuffed" />
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="lod_g_m">
+			<object name="g_m_lod0" enabled="true" max_distance="4500" />
+			<object name="g_m_lod1" enabled="true" max_distance="5500" />
+			<object name="g_m_lod2" enabled="true" />
+		</lod_object>
+		<lod_object name="lod_g_m_fur">
+			<object name="g_m_fur_lod0" enabled="true" max_distance="4500" />
+			<object name="g_m_fur_lod1" enabled="true" max_distance="5500" />
+			<object name="g_m_fur_lod2" enabled="true" />
+		</lod_object>
+	</graphics>
+</dynamic_object>

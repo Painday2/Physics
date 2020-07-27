@@ -1,0 +1,22 @@
+<dynamic_object>
+    <diesel orientation_object="rp_lxa_prop_bedroom_bed" materials="units/payday2/props/lxa_prop_bedroom_bed/lxa_prop_bedroom_bed" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_lxa_prop_bedroom_bed" />
+            <object collision_type="box" name="c_trox_01" padding="-2.5" />
+            <object collision_type="box" name="c_trox_02" padding="-2.5" />
+            <object collision_type="box" name="c_trox_03" padding="-2.5" />
+        </body>
+    </bodies>
+	
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_wood" material="wood" />
+        <decal_mesh enabled="true" name="c_trox_01" material="cloth" />
+        <decal_mesh enabled="true" name="c_trox_02" material="cloth" />
+        <decal_mesh enabled="true" name="c_trox_03" material="cloth" />
+    </decal_surfaces>
+	
+    <graphics>
+        <object enabled="true" name="g_mesh" />
+    </graphics>
+</dynamic_object>
