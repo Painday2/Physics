@@ -112,10 +112,10 @@
 		<sound id="physics_debrief_event" path="brief/physics_debrief_event.ogg"/>
 		<sound id="physics_citystreets_briefing_dialog" path="brief/physics_citystreets_briefing_dialog.ogg"/>
 		<sound id="physics_citystreets_intro_event" path="brief/physics_citystreets_intro_event.ogg" subtitle_id="physics_citystreets_intro_event_sub"/>
-		<sound id="physics_citystreets_intro_event" path="brief/physics_citystreets_outro_event.ogg"/>
+		<sound id="physics_citystreets_outro_event" path="brief/physics_citystreets_outro_event.ogg"/>
 		<sound id="physics_tower_briefing_dialog" path="brief/physics_tower_briefing_dialog.ogg"/>
 		<sound id="physics_tower_intro_event" path="brief/physics_tower_intro_event.ogg" subtitle_id="physics_tower_intro_event_sub"/>
-		<sound id="physics_tower_intro_event" path="brief/physics_tower_outro_event.ogg"/>
+		<sound id="physics_tower_outro_event" path="brief/physics_tower_outro_event.ogg"/>
 		<sound id="museum_info_history_1" path="day1/museum_info_history_1.ogg" subtitle_id="museum_info_history_1_sub"/>
 		<sound id="museum_info_history_2" path="day1/museum_info_history_2.ogg" subtitle_id="museum_info_history_2_sub"/>
 		<sound id="museum_info_history_3" path="day1/museum_info_history_3.ogg" subtitle_id="museum_info_history_3_sub"/>
