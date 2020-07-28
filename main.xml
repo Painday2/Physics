@@ -1,12 +1,12 @@
 <table name="boworks">
-	<HeistMusic directory="assets/music/pain3_cbt" id="music_pain3_cbt" volume="0.9">
+	<HeistMusic directory="assets/sounds/music/pain3_cbt" id="music_pain3_cbt" volume="0.9">
 		<event name="setup" source="stealth.ogg"/>
 		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
 		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
-	<HeistMusic directory="assets/music/pain3_sex" id="music_pain3_sex" volume="0.7">
-		<event name="setup" source="null.ogg"/>
+	<HeistMusic directory="assets/sounds/music/pain3_sex" id="music_pain3_sex" volume="0.7">
+		<event name="setup" source="control.ogg" start_source="controlintro.ogg"/>
 		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
 		<event name="control" source="null.ogg" start_source="controlintro.ogg"/>
