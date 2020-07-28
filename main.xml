@@ -1,5 +1,5 @@
 <table name="boworks">
-	<HeistMusic directory="assets/sounds/music/pain3_cbt" id="music_pain3_cbt" volume="0.9">
+	<HeistMusic directory="assets/sounds/music/pain3_cbt" id="music_pain3_cbt" volume="0.8">
 		<event name="setup" source="stealth.ogg"/>
 		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
