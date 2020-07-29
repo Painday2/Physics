@@ -1,0 +1,6 @@
+<unit type="are" slot="1">
+	<object file="units/pd2_dlc_arena/props/are_lobby_popcornstand_logo/are_lobby_popcornstand_logo" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

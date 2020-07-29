@@ -1,0 +1,19 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gen_inter_hack_computer_finish" materials="units/pd2_dlc_cro/gen_interactable_hack_computer/gen_interactable_hack_computer_finish" />
+	<sequence_manager file="units/pd2_dlc_cro/gen_interactable_hack_computer/gen_interactable_hack_computer_finish" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_gen_inter_hack_computer_finish" />
+            <object collision_type="box" name="c_bottom_box" />
+            <object collision_type="box" name="c_screen_box" />
+        </body>
+    </bodies>
+    <graphics>
+		<object name="g_off" enabled="true"/>
+		<object name="g_computerscreen" enabled="true"/>
+                      <object name="g_finish" enabled="false"/>
+                      <object name="g_upload" enabled="false"/>
+                      <object name="g_on" enabled="false"/>
+
+    </graphics>
+</dynamic_object>

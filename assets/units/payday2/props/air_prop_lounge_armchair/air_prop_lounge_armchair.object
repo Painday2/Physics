@@ -1,0 +1,26 @@
+<dynamic_object>
+    <diesel orientation_object="rp_airport_lounge_chair" materials="units/payday2/props/air_prop_lounge_armchair/air_prop_lounge_armchair" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_airport_lounge_chair" />
+            <object collision_type="box" name="c_box_001" />
+            <object collision_type="box" name="c_box_002" />
+            <object collision_type="box" name="c_box_003" />
+            <object collision_type="box" name="c_capsule_000" />
+            <object collision_type="box" name="c_capsule_001" />
+            <object collision_type="box" name="c_capsule_002" />
+            <object collision_type="box" name="c_capsule_003" />
+            <object collision_type="box" name="c_box_000" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_metal" material="metal" />
+        <decal_mesh enabled="true" name="dm_pillows" material="cloth_stuffed" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_pillow" />
+        <object enabled="true" name="g_frame" />
+        <object enabled="true" shadow_caster="true" name="s_pillow" />
+        <object enabled="true" shadow_caster="true" name="s_frame" />
+    </graphics>
+</dynamic_object>

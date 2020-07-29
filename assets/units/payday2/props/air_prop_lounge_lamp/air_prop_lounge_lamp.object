@@ -1,0 +1,28 @@
+<dynamic_object>
+    <diesel orientation_object="rp_airport_lounge_tablelamp" materials="units/payday2/props/air_prop_lounge_lamp/air_prop_lounge_lamp" />
+    <sequence_manager file="units/payday2/props/air_prop_lounge_lamp/air_prop_lounge_lamp" />
+    <bodies>
+        <body name="static_lamp" enabled="true" template="static">
+            <object name="rp_airport_lounge_tablelamp"/>
+            <object name="c_convex_framebase" collision_type="convex" />
+            <object name="c_capsule_shade" collision_type="capsule" />
+        </body>
+        <body name="dynamic_lamp" enabled="false" template="small_prop" pushed_by_mover="false" collides_with_mover="false" ang_damping="3" >
+            <object name="rp_airport_lounge_tablelamp"/>
+            <object name="c_capsule_shade" collision_type="capsule" 	mass="10" />
+            <object name="c_convex_framebase" collision_type="convex" 	mass="20" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_tablelampframe" material="metal" />
+        <decal_mesh enabled="true" name="dm_tablelampshade" material="cloth" />
+    </decal_surfaces>
+    <graphics>
+        <object name="s_shadowcaster" shadow_caster="true" enabled="true"/>
+        <object name="g_glasball" enabled="true"/>
+        <object name="g_tablelampshade" enabled="true"/>
+    </graphics>
+	<lights>
+		<light multiplier="candle" editable="true" near_range="80" projection="true" far_range="350" name="lo_omni_01" enabled="true" type="cube_projection|omni|specular" texture="units/lights/light_omni_shadow_projection_01/default_df" />
+	</lights>
+</dynamic_object>

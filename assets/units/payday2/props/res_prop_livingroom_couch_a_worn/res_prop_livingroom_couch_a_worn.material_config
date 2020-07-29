@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="mtr_res_prop_livingroom_armchair_worn" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/res_prop_livingroom_couch_a_worn/res_prop_livingroom_couch_a_worn_df"/>
+        <bump_normal_texture file="units/payday2/props/res_prop_livingroom_couch_a_worn/res_prop_livingroom_couch_a_worn_nm"/>
+    </material>
+</materials>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<unit type="com" slot="1">
+	<object file="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_8"/>
+	<!--mass><spawn in="1500" method="pool" out="2000"/></mass-->
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+	<dependencies>
+		<depends_on effect="effects/particles/dest/green_bottle_dest" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

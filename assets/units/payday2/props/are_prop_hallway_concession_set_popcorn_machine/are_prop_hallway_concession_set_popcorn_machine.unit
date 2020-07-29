@@ -1,0 +1,10 @@
+<unit type="are" slot="1">
+	<object file="units/payday2/props/are_prop_hallway_concession_set_popcorn_machine/are_prop_hallway_concession_set_popcorn_machine" />
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/window/jewelry_counter_1" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

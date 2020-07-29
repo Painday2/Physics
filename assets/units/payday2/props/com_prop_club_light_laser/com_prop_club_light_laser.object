@@ -1,0 +1,22 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_club_light_laser" materials="units/payday2/props/com_prop_club_light_laser/com_prop_club_light_laser" />
+	<sequence_manager file="units/payday2/props/com_prop_club_light_laser/com_prop_club_light_laser" />
+    <animations>
+		<animation_group name="show" enabled="false" >
+			<object name="anim_rotate_y" />
+			<object name="anim_rotate_x" />
+		</animation_group>
+	</animations>
+	<bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    <decal_surfaces>
+		<decal_mesh name="dm_metal" enabled="true" material="metal"/>
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+        <object enabled="true" name="g_laser" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<unit type="com" slot="1">
+	<network sync="spawn" />
+	<object file="units/payday2/props/com_prop_store_cashregister_low/com_prop_store_cashregister_low" />
+	<dependencies>
+		<depends_on unit="units/payday2/props/com_prop_store_cashregister_low/item_money_bundle" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="cash_register" />
+			<var name="_interact_object" value="int_money" />
+		</extension>
+	</extensions>
+</unit>

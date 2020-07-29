@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_club_djcdplayer" materials="units/payday2/props/com_prop_club_djcdplayer/com_prop_club_djcdplayer" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="box" name="c_box_01" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_metal_chassis" material="thin_layer" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

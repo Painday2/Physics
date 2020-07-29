@@ -1,0 +1,18 @@
+<dynamic_object>
+    <diesel orientation_object="rp_lxa_prop_bedroom_loungeseat" materials="units/payday2/props/lxa_prop_bedroom_loungeseat/lxa_prop_bedroom_loungeseat" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_lxa_prop_bedroom_loungeseat" />
+            <object collision_type="box" name="c_box_01" />
+            <object collision_type="box" name="c_box_02" />
+            <object collision_type="box" name="c_box_03" />
+            <object collision_type="box" name="c_box_04" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_mesh" material="cloth" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_mesh" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,20 @@
+<dynamic_object>
+    <diesel orientation_object="rp_off_prop_officehigh_desk_boss_large" materials="units/payday2/props/off_prop_officehigh_desk/off_prop_officehigh_desk" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_off_prop_officehigh_desk_boss_large" />
+            <object collision_type="box" name="c_box_01" />
+            <object collision_type="box" name="c_box_02" />
+            <object collision_type="box" name="c_box_03" />
+            <object collision_type="box" name="c_box_04" />
+            <object collision_type="box" name="c_box_05" />
+            <object collision_type="box" name="c_box_06" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_wood" material="wood" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_mesh" />
+    </graphics>
+</dynamic_object>

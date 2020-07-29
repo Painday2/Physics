@@ -1,0 +1,6 @@
+<unit type="res" slot="1" >
+    <object file="units/payday2/props/res_prop_livingroom_couch_a_worn/res_prop_livingroom_armchair_a_worn" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="mat_com_prop_club_beer_tap" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_club_beer_tap/com_prop_club_beer_tap_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_club_beer_tap/com_prop_club_beer_tap_nm"/>
+        <self_illumination_texture file="units/payday2/props/com_prop_club_beer_tap/com_prop_club_beer_tap_il"/>
+        <variable value="reddot" type="scalar" name="il_multiplier"/>
+    </material>
+</materials>

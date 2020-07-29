@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2" orientation_object="rp_com_prop_club_bottle_2_stack" />
+  <bodies>
+    <body name="bullet_body" enabled="true" template="raycoll_static">
+      <object name="rp_com_prop_club_bottle_2_stack"/>
+      <object name="c_box_editor" collision_type="box" padding="-2.5"/>
+    </body>
+  </bodies>
+  
+  <decal_surfaces static="true" default_material="glass_breakable"/>
+  
+  <graphics>
+    <object name="g_g" enabled="true"/>
+  </graphics>
+</dynamic_object>

@@ -1,0 +1,13 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_bar_shelf_bottles_1m" materials="units/payday2/props/com_prop_bar_shelf_bottles/com_prop_bar_shelf_bottles" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+				<object name="rp_com_prop_bar_shelf_bottles_1m" />
+            <object collision_type="mesh_mopp" name="c_c" />
+            
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

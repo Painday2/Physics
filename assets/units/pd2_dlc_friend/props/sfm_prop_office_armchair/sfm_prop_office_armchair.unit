@@ -1,0 +1,6 @@
+<unit type="sfm" slot="1">
+	<object file="units/pd2_dlc_friend/props/sfm_prop_office_armchair/sfm_prop_office_armchair" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

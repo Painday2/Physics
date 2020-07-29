@@ -1,0 +1,40 @@
+<materials version="3">
+    <material name="mat_bar" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_nm"/>
+        <self_illumination_texture file="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_il"/>
+        <variable value="desklight" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2">
+        <variable value="0 1 0.66999995708466" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/architecture/com_int_nightclub/com_int_nightclub_glass_op"/>
+        <diffuse_texture file="units/payday2/architecture/com_int_nightclub/com_int_nightclub_glass_df"/>
+        <reflection_texture global_texture="current_global_texture" type="cube"/>
+    </material>
+    <material name="mat_add" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_bar_fridge/com_prop_bar_fridge_add_df"/>
+        <variable value="reddot" type="scalar" name="intensity"/>
+    </material>
+    <material name="mat_beer_logo" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_bar_fridge/com_prop_bar_counter_fridge_beer_sign_df"/>
+        <self_illumination_texture file="units/payday2/props/com_prop_bar_fridge/com_prop_bar_counter_fridge_beer_sign_il"/>
+        <variable value="reddot" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_fries_alpha" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_bar_counter/com_prop_bar_fryer_fries_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_bar_counter/com_prop_bar_fryer_fries_nm"/>
+        <variable value="0.30000001192093" type="scalar" name="alpha_ref"/>
+    </material>
+    <material name="mat_fryer" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_bar_counter/com_prop_bar_fryer_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_bar_counter/com_prop_bar_fryer_nm"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_griddle" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_bar_counter/com_prop_bar_griddle_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_bar_counter/com_prop_bar_griddle_nm"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+</materials>

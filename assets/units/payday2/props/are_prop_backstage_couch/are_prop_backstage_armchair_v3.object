@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_couch" orientation_object="rp_are_prop_backstage_armchair_v3" />
+	
+	<bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_are_prop_backstage_armchair_v3"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+		</body>
+		
+		<body name="mover_blocker_body" enabled="true" template="fence">
+			<object name="rp_are_prop_backstage_armchair_v3" />
+			<object name="c_box_player_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_player_02" collision_type="box" padding="-2.5"/>
+		</body>
+    </bodies>
+		
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_cloth" enabled="true" material="cloth_stuffed" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_g" enabled="true" shadow_caster="true"/>
+	</graphics>
+</dynamic_object>

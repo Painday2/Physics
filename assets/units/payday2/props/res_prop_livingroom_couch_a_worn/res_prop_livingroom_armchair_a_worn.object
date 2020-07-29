@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_res_prop_livingroom_armchair_a_worn" materials="units/payday2/props/res_prop_livingroom_couch_a_worn/res_prop_livingroom_couch_a_worn" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="convex" name="c_convex_01" padding="-2.5"/>
+            <object collision_type="convex" name="c_convex_02" padding="-2.5"/>
+            <object collision_type="convex" name="c_convex_03" padding="-2.5"/>
+            <object collision_type="convex" name="c_convex_04" padding="-2.5"/>
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_cloth_suffed" material="cloth_suffed" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

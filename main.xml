@@ -6,10 +6,10 @@
 		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
 	<HeistMusic directory="assets/sounds/music/pain3_sex" id="music_pain3_sex" volume="0.7">
-		<event name="setup" source="control.ogg" start_source="controlintro.ogg"/>
+		<event name="setup" source="stealth.ogg" start_source="stealthintro.ogg"/>
 		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
-		<event name="control" source="null.ogg" start_source="controlintro.ogg"/>
+		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
 	<level ai_group_type="America" briefing_dialog="physics_citystreets_briefing_dialog" id="physics_citystreets" intro_event="physics_citystreets_intro_event" max_bags="5" orig_id="BoWorks" player_style="generic" team_ai_off="false">
 		<add file="levels/physics_citystreets/add.xml"/>

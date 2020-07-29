@@ -1,0 +1,37 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_club_light_moving" materials="units/payday2/props/com_prop_club_light_moving/com_prop_club_light_moving" />
+    <sequence_manager file="units/payday2/props/com_prop_club_light_moving/com_prop_club_light_moving" />
+    <animations>		
+		<animation_group name="show" enabled="false" >
+			<object name="a_pivot_a" />
+			<object name="a_pivot_b" />
+		</animation_group>
+	</animations>
+	
+	<bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+        </body>
+        <body enabled="true" template="animated" name="static_body" >
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+        </body>
+        <body enabled="true" template="animated" name="static_body" >
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    <decal_surfaces>
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic"/>
+    </decal_surfaces>
+    <graphics>
+		<object name="g_light_cone" enabled="true"/>
+		<object name="g_machine" enabled="true"/>
+		<object name="g_off" enabled="false"/>
+		<object name="g_on" enabled="false"/>
+    </graphics>
+	<effects>
+		<effect_spawner name="flashlight" object="e_light_cone" effect="effects/payday2/particles/flares/disco_flare_big_03" enabled="true" assign_parent="true"/>
+	</effects>
+  <lights>
+		<light multiplier="sun" editable="false" name="ls_light" enabled="true" projection="true" type="plane_projection|spot|specular" far_range="1000" texture="units/lights/spot_light_projection_textures/spotprojection_20_discospot_df" />
+	</lights>
+</dynamic_object>

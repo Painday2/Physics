@@ -1,0 +1,19 @@
+<materials version="3">
+    <material name="mat_glow" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/props/are_lobby_popcornstand_logo/are_lobby_popcornstand_logo_glow_df"/>
+        <variable value="sun" type="scalar" name="intensity"/>
+    </material>
+    <material name="mat_logo" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/props/are_lobby_popcornstand_logo/logo_popcorn_generic_df"/>
+        <variable value="0.035000000149012" type="scalar" name="alpha_ref"/>
+        <bump_normal_texture file="units/pd2_dlc_arena/props/are_lobby_popcornstand_logo/logo_popcorn_generic_nm"/>
+    </material>
+    <material name="mat_red" decal_material="glass_breakable" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/props/are_lobby_popcornstand_logo/are_lobby_popcornstand_logo_red_df"/>
+    </material>
+    <material name="mat_white" render_template="generic" version="2"/>
+    <material name="mat_glow_text" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/props/are_lobby_popcornstand_logo/logo_popcorn_generic_glow_df"/>
+        <variable value="streetlight" type="scalar" name="intensity"/>
+    </material>
+</materials>

@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="mat_store_candy_f" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_f_df"/>
+    </material>
+    <material name="mat_store_candy_f_lod" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_f_df" mip="3"/>
+    </material>
+</materials>

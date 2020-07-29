@@ -1,0 +1,26 @@
+<dynamic_object>
+    <diesel materials="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" orientation_object="rp_off_prop_appliance_monitor" />
+	<sequence_manager file="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" />
+	
+	<bodies>
+		<body name="dynamic_monitor" enabled="false" template="small_prop">
+			<object name="rp_off_prop_appliance_monitor"/>
+			<object name="c_convex_hitbox_monitor" collision_type="convex" mass="20" padding="-2.5"/>	
+		</body>	
+		
+		<body name="hitbox_monitors" enabled="true" template="static">
+			<object name="c_convex_hitbox_monitor" collision_type="box" padding="-2.5"/>
+		</body>	
+	</bodies>
+	
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_dm" material="plastic" />
+    </decal_surfaces>
+	
+    <graphics>
+        <object enabled="true" name="g_monitor" />
+        <object enabled="true" name="g_screen_on" />
+        <object enabled="false" name="g_screen_off" />
+        <object enabled="false" name="g_screen_broken" />
+    </graphics>
+</dynamic_object>

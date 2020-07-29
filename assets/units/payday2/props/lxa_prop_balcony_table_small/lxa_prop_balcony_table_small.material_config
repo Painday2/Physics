@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="lxa_prop_livingroom_table_small" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/lxa_prop_balcony_table_small/lxa_prop_balcony_table_small_df"/>
+        <bump_normal_texture file="units/payday2/props/lxa_prop_balcony_table_small/lxa_prop_balcony_table_small_nm"/>
+    </material>
+</materials>

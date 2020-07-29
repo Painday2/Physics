@@ -306,11 +306,6 @@
 		<object path="units/world/environment/tunnels/sub01_train_seatb" unload="true"/>
 		<unit path="units/world/environment/tunnels/sub01_train_seatb" unload="true"/>
 	</add>
-	<add path="units/world/environment/tunnels/sub01_train_seatd" type="unit">
-		<material_config path="units/payday2/vehicles/shared_textures/sub_vehicle_train" unload="true"/>
-		<object path="units/world/environment/tunnels/sub01_train_seatd" unload="true"/>
-		<unit path="units/world/environment/tunnels/sub01_train_seatd" unload="true"/>
-	</add>
 	<add path="units/payday2/vehicles/sub_vehicle_train/sub_vehicle_train_2" type="unit">
 		<material_config path="units/payday2/vehicles/shared_textures/sub_vehicle_train" unload="true"/>
 		<object path="units/payday2/vehicles/sub_vehicle_train/sub_vehicle_train_2" unload="true"/>
@@ -693,9 +688,342 @@
 		<unit path="core/units/light_omni/light_omni" unload="true"/>
 	</add>
 	<add path="units/payday2/props/str_prop_street_trashbin/str_prop_street_trashbin" type="unit">
-		<unit path="units/payday2/props/str_prop_street_trashbin/str_prop_street_trashbin" unload="true"/>
-		<object path="units/payday2/props/str_prop_street_trashbin/str_prop_street_trashbin" unload="true"/>
 		<material_config path="units/payday2/props/str_prop_street_trashbin/str_prop_street_trashbin" unload="true"/>
+		<object path="units/payday2/props/str_prop_street_trashbin/str_prop_street_trashbin" unload="true"/>
 		<sequence_manager path="units/payday2/props/str_prop_street_trashbin/str_prop_street_trashbin" unload="true"/>
+		<unit path="units/payday2/props/str_prop_street_trashbin/str_prop_street_trashbin" unload="true"/>
 	</add>
+	<add path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_straight_1m" type="unit">
+		<material_config path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter" unload="true"/>
+		<object path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_straight_1m" unload="true"/>
+		<unit path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_straight_1m" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_straight_50_cm" type="unit">
+		<material_config path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter" unload="true"/>
+		<object path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_straight_50_cm" unload="true"/>
+		<unit path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_straight_50_cm" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_corner" type="unit">
+		<material_config path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter" unload="true"/>
+		<object path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_corner" unload="true"/>
+		<unit path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_corner" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_back_a" type="unit">
+		<material_config path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter" unload="true"/>
+		<object path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_back_a" unload="true"/>
+		<unit path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_back_a" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_under_b" type="unit">
+		<material_config path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter" unload="true"/>
+		<object path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_under_b" unload="true"/>
+		<unit path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_under_b" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_under_c" type="unit">
+		<material_config path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter" unload="true"/>
+		<object path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_under_c" unload="true"/>
+		<unit path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_under_c" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_bar_counter/com_prop_dj_booth" type="unit">
+		<material_config path="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter" unload="true"/>
+		<object path="units/payday2/props/com_prop_bar_counter/com_prop_dj_booth" unload="true"/>
+		<unit path="units/payday2/props/com_prop_bar_counter/com_prop_dj_booth" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_djmixer/com_prop_club_djmixer" type="unit">
+		<material_config path="units/payday2/props/com_prop_club_djmixer/com_prop_club_djmixer" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_djmixer/com_prop_club_djmixer" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_djmixer/com_prop_club_djmixer" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_djcdplayer/com_prop_club_djcdplayer" type="unit">
+		<material_config path="units/payday2/props/com_prop_club_djcdplayer/com_prop_club_djcdplayer" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_djcdplayer/com_prop_club_djcdplayer" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_djcdplayer/com_prop_club_djcdplayer" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_bar_fridge/com_prop_bar_fridge" type="unit">
+		<material_config path="units/payday2/props/com_prop_bar_fridge/com_prop_bar_fridge" unload="true"/>
+		<object path="units/payday2/props/com_prop_bar_fridge/com_prop_bar_fridge" unload="true"/>
+		<unit path="units/payday2/props/com_prop_bar_fridge/com_prop_bar_fridge" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_lobby_couches/com_prop_lobby_couch_2m" type="unit">
+		<material_config path="units/payday2/props/com_prop_lobby_couches/com_prop_lobby_couches" unload="true"/>
+		<object path="units/payday2/props/com_prop_lobby_couches/com_prop_lobby_couch_2m" unload="true"/>
+		<unit path="units/payday2/props/com_prop_lobby_couches/com_prop_lobby_couch_2m" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_lobby_couches/com_prop_lobby_couch_corner" type="unit">
+		<material_config path="units/payday2/props/com_prop_lobby_couches/com_prop_lobby_couches" unload="true"/>
+		<object path="units/payday2/props/com_prop_lobby_couches/com_prop_lobby_couch_corner" unload="true"/>
+		<unit path="units/payday2/props/com_prop_lobby_couches/com_prop_lobby_couch_corner" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_lobby_couches/com_prop_lobby_couch_ottoman" type="unit">
+		<material_config path="units/payday2/props/com_prop_lobby_couches/com_prop_lobby_couches" unload="true"/>
+		<object path="units/payday2/props/com_prop_lobby_couches/com_prop_lobby_couch_ottoman" unload="true"/>
+		<unit path="units/payday2/props/com_prop_lobby_couches/com_prop_lobby_couch_ottoman" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_light_laser/com_prop_club_light_laser" type="unit">
+		<material_config path="units/payday2/props/com_prop_club_light_laser/com_prop_club_light_laser" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_light_laser/com_prop_club_light_laser" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_club_light_laser/com_prop_club_light_laser" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_light_laser/com_prop_club_light_laser" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_light_moving/com_prop_club_light_moving" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/disco_flare_big_03" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_club_light_moving/com_prop_club_light_moving" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_light_moving/com_prop_club_light_moving" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_club_light_moving/com_prop_club_light_moving" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_light_moving/com_prop_club_light_moving" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_door_wooden/gen_interactable_door_wooden" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_door_wooden/gen_interactable_door_wooden" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_wooden/gen_interactable_door_wooden" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_wooden/gen_interactable_door_wooden" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_wooden/spawn_debris_door_wooden" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_wooden/spawn_debris_door_wooden" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_wooden/spawn_debris_door_wooden" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_wooden/gen_interactable_door_wooden" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_stack" type="unit">
+		<effect load="true" path="effects/particles/dest/green_bottle_dest" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_stack" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_stack" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_b_stack" type="unit">
+		<effect load="true" path="effects/particles/dest/green_bottle_dest" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_b_stack" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_b_stack" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_1" type="unit">
+		<effect load="true" path="effects/particles/dest/green_bottle_dest" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_1" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_1" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_1" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_1" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2" type="unit">
+		<effect load="true" path="effects/particles/dest/green_bottle_dest" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_b" type="unit">
+		<effect load="true" path="effects/particles/dest/green_bottle_dest" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_b" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_b" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_3" type="unit">
+		<effect load="true" path="effects/particles/dest/green_bottle_dest" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_3" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_3" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_3" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_3" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_5" type="unit">
+		<effect load="true" path="effects/particles/dest/green_bottle_dest" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_5_6_7" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_5" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_5" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_5" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_6" type="unit">
+		<effect load="true" path="effects/particles/dest/green_bottle_dest" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_5_6_7" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_6" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_6" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_6" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_7" type="unit">
+		<effect load="true" path="effects/particles/dest/green_bottle_dest" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_5_6_7" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_7" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_7" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_7" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_8" type="unit">
+		<effect load="true" path="effects/particles/dest/green_bottle_dest" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_8" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_8" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_8" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_8" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_9" type="unit">
+		<effect load="true" path="effects/particles/dest/green_bottle_dest" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_9" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_9" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_9" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_9" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_beer_tap/com_prop_club_beer_tap" type="unit">
+		<material_config path="units/payday2/props/com_prop_club_beer_tap/com_prop_club_beer_tap" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_beer_tap/com_prop_club_beer_tap" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_beer_tap/com_prop_club_beer_tap" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_balcony_table_small/lxa_prop_balcony_table_small" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_balcony_table_small/lxa_prop_balcony_table_small" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_balcony_table_small/lxa_prop_balcony_table_small" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_balcony_table_small/lxa_prop_balcony_table_small" unload="true"/>
+	</add>
+	<add path="units/payday2/props/air_prop_lounge_lamp/air_prop_lounge_lamp" type="unit">
+		<material_config path="units/payday2/props/air_prop_lounge_lamp/air_prop_lounge_lamp" unload="true"/>
+		<object path="units/payday2/props/air_prop_lounge_lamp/air_prop_lounge_lamp" unload="true"/>
+		<sequence_manager path="units/payday2/props/air_prop_lounge_lamp/air_prop_lounge_lamp" unload="true"/>
+		<unit path="units/payday2/props/air_prop_lounge_lamp/air_prop_lounge_lamp" unload="true"/>
+	</add>
+	<add path="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" unload="true"/>
+		<unit path="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/bnk/bnk_int_seat_triple" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int" unload="true"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_seat_triple" unload="true"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_seat_triple" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_wooden_a/spawn_debris_door_wooden_a" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_wooden_a/spawn_debris_door_wooden_a" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_wooden_a/spawn_debris_door_wooden_a" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" unload="true"/>
+	</add>
+	<add path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" type="unit">
+		<font path="fonts/font_digital" unload="true"/>
+		<material_config path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" unload="true"/>
+		<object path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" unload="true"/>
+		<sequence_manager path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" unload="true"/>
+		<unit path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" unload="true"/>
+	</add>
+	<add path="units/payday2/props/off_prop_officehigh_desk/off_prop_officehigh_desk_boss_straight_large" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_desk/off_prop_officehigh_desk" unload="true"/>
+		<object path="units/payday2/props/off_prop_officehigh_desk/off_prop_officehigh_desk_boss_straight_large" unload="true"/>
+		<unit path="units/payday2/props/off_prop_officehigh_desk/off_prop_officehigh_desk_boss_straight_large" unload="true"/>
+	</add>
+	<add path="units/world/props/office/chair/office_chair_boss" type="unit">
+		<material_config path="units/world/props/office/chair/office_chair_boss" unload="true"/>
+		<object path="units/world/props/office/chair/office_chair_boss" unload="true"/>
+		<unit path="units/world/props/office/chair/office_chair_boss" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_bedroom_loungeseat/lxa_prop_bedroom_loungeseat" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_bedroom_loungeseat/lxa_prop_bedroom_loungeseat" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_bedroom_loungeseat/lxa_prop_bedroom_loungeseat" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_bedroom_loungeseat/lxa_prop_bedroom_loungeseat" unload="true"/>
+	</add>
+	<add path="units/payday2/props/air_prop_lounge_armchair/air_prop_lounge_armchair" type="unit">
+		<material_config path="units/payday2/props/air_prop_lounge_armchair/air_prop_lounge_armchair" unload="true"/>
+		<object path="units/payday2/props/air_prop_lounge_armchair/air_prop_lounge_armchair" unload="true"/>
+	</add>
+	<add path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" unload="true"/>
+		<object path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" unload="true"/>
+		<sequence_manager path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" unload="true"/>
+		<unit path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" unload="true"/>
+	</add>
+	<add path="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" type="unit">
+		<material_config path="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" unload="true"/>
+		<object path="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" unload="true"/>
+		<unit path="units/payday2/props/off_prop_appliance_keyboard/off_prop_appliance_keyboard" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_cro/gen_interactable_hack_computer/gen_interactable_hack_computer_finish" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<material_config path="units/pd2_dlc_cro/gen_interactable_hack_computer/gen_interactable_hack_computer_finish" unload="true"/>
+		<object path="units/pd2_dlc_cro/gen_interactable_hack_computer/gen_interactable_hack_computer_finish" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_cro/gen_interactable_hack_computer/gen_interactable_hack_computer_finish" unload="true"/>
+		<unit path="units/pd2_dlc_cro/gen_interactable_hack_computer/gen_interactable_hack_computer_finish" unload="true"/>
+	</add>
+	<add path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_hack_computer_interaction_contour" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" unload="true"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" unload="true"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" unload="true"/>
+	</add>
+	<add path="units/payday2/props/off_prop_appliance_mouse/off_prop_appliance_mouse" type="unit">
+		<material_config path="units/payday2/props/off_prop_appliance_mouse/off_prop_appliance_mouse" unload="true"/>
+		<object path="units/payday2/props/off_prop_appliance_mouse/off_prop_appliance_mouse" unload="true"/>
+		<unit path="units/payday2/props/off_prop_appliance_mouse/off_prop_appliance_mouse" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_store_shelves/com_prop_store_shelves_counter" type="unit">
+		<material_config path="units/payday2/props/com_prop_store_shelves/com_prop_store_shelves_generic" unload="true"/>
+		<object path="units/payday2/props/com_prop_store_shelves/com_prop_store_shelves_counter" unload="true"/>
+		<unit path="units/payday2/props/com_prop_store_shelves/com_prop_store_shelves_counter" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_arena/props/are_prop_hallway_bar/are_prop_hallway_stand" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_hallway_bar/are_prop_hallway_stand" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_hallway_bar/are_prop_hallway_stand" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_hallway_bar/are_prop_hallway_stand" unload="true"/>
+	</add>
+	<add path="units/payday2/props/are_prop_hallway_concession_set_popcorn_machine/are_prop_hallway_concession_set_popcorn_machine" type="unit">
+		<material_config path="units/payday2/props/are_prop_hallway_concession_set_popcorn_machine/are_prop_hallway_concession_set_popcorn_machine" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/jewelry_counter_1" unload="true"/>
+		<object path="units/payday2/props/are_prop_hallway_concession_set_popcorn_machine/are_prop_hallway_concession_set_popcorn_machine" unload="true"/>
+		<sequence_manager path="units/payday2/props/are_prop_hallway_concession_set_popcorn_machine/are_prop_hallway_concession_set_popcorn_machine" unload="true"/>
+		<unit path="units/payday2/props/are_prop_hallway_concession_set_popcorn_machine/are_prop_hallway_concession_set_popcorn_machine" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_arena/props/are_lobby_popcornstand_logo/are_lobby_popcornstand_logo" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_lobby_popcornstand_logo/are_lobby_popcornstand_logo" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_lobby_popcornstand_logo/are_lobby_popcornstand_logo" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_lobby_popcornstand_logo/are_lobby_popcornstand_logo" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_a" type="unit">
+		<material_config path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_a" unload="true"/>
+		<object path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_a" unload="true"/>
+		<unit path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_a" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_b" type="unit">
+		<material_config path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_b" unload="true"/>
+		<object path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_b" unload="true"/>
+		<unit path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_b" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_c" type="unit">
+		<material_config path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_c" unload="true"/>
+		<object path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_c" unload="true"/>
+		<unit path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_c" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_d" type="unit">
+		<material_config path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_d" unload="true"/>
+		<object path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_d" unload="true"/>
+		<unit path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_d" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_e" type="unit">
+		<material_config path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_e" unload="true"/>
+		<object path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_e" unload="true"/>
+		<unit path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_e" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_f" type="unit">
+		<material_config path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_f" unload="true"/>
+		<object path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_f" unload="true"/>
+		<unit path="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_f" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_store_cashregister_low/com_prop_store_cashregister_low" type="unit">
+		<unit path="units/payday2/props/com_prop_store_cashregister_low/com_prop_store_cashregister_low" unload="true"/>
+		<object path="units/payday2/props/com_prop_store_cashregister_low/com_prop_store_cashregister_low" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_store_cashregister_low/com_prop_store_cashregister_low" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_store_cashregister_low/com_prop_store_cashregister_low" unload="true"/>
+		<unit path="units/payday2/props/com_prop_store_cashregister_low/item_money_bundle" unload="true"/>
+		<object path="units/payday2/props/com_prop_store_cashregister_low/item_money_bundle" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_store_cashregister_low/item_money_bundle" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_store_cashregister_low/item_money_bundle" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_vending_machine_01_illum" type="unit">
+		<material_config path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_vending_machine_01" unload="true"/>
+		<object path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_vending_machine_01_illum" unload="true"/>
+		<unit path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_vending_machine_01_illum" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m" unload="true"/>
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+	</add>
+	<texture path="levels/mods/physics_tower/cube_lights/104729"/>
 </table>

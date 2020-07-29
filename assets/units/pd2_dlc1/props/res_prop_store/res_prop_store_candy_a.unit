@@ -1,0 +1,6 @@
+<unit type="res" slot="1" >
+    <object file="units/pd2_dlc1/props/res_prop_store/res_prop_store_candy_a" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit> 

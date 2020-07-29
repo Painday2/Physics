@@ -1,0 +1,22 @@
+<materials version="3">
+    <material name="bottle_2" version="2" decal_material="glass_breakable" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:SELF_ILLUMINATION">
+        <diffuse_texture file="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_df"/>
+        <self_illumination_texture file="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_il"/>
+        <variable value="neonsign" type="scalar" name="il_multiplier"/>
+    </material>
+	<material name="bottle_2_b" version="2" decal_material="glass_breakable" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:SELF_ILLUMINATION">
+        <diffuse_texture file="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_b_df"/>
+        <self_illumination_texture file="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_b_il"/>
+        <variable value="neonsign" type="scalar" name="il_multiplier"/>
+    </material>
+	<material name="bottle_2_stack" version="2" decal_material="glass_breakable" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION">
+        <diffuse_texture file="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_df"/>
+        <self_illumination_texture file="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_il"/>
+        <variable value="neonsign" type="scalar" name="il_multiplier"/>
+    </material>
+	<material name="bottle_2_b_stack" version="2" decal_material="glass_breakable" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION">
+        <diffuse_texture file="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_b_df"/>
+        <self_illumination_texture file="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_b_il"/>
+        <variable value="neonsign" type="scalar" name="il_multiplier"/>
+    </material>
+</materials>

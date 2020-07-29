@@ -1,0 +1,6 @@
+<unit type="com" slot="1" >
+    <object file="units/payday2/props/com_prop_club_djmixer/com_prop_club_djmixer" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

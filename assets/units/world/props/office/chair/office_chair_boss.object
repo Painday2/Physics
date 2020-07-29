@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/office/chair/office_chair_boss" orientation_object="rp_office_chair_boss" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_office_chair_boss" />
+      <object name="c_office_chair_boss" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="cloth_stuffed" static="true">
+    <decal_mesh name="g_office_chair_boss" enabled="true" material="cloth_stuffed"/>
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_office_chair_boss" enabled="true" instance_struct="world_tm" />
+  </graphics>
+</dynamic_object>

@@ -1,0 +1,6 @@
+<unit type="com" slot="1" >
+    <object file="units/payday2/props/com_prop_bar_counter/com_prop_bar_counter_straight_1m" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

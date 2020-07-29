@@ -1,0 +1,9 @@
+<unit type="air" slot="1" >
+    <object file="units/payday2/props/air_prop_lounge_lamp/air_prop_lounge_lamp" />
+    <network sync="spawn"/>
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+        <extension name="damage" class="UnitDamage" />
+        <extension name="sync_unit_data" class="SyncUnitData" />
+    </extensions>
+</unit>

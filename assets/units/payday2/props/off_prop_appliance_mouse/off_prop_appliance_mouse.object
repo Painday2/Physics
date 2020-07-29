@@ -1,0 +1,11 @@
+<dynamic_object>
+    <diesel materials="units/payday2/props/off_prop_appliance_mouse/off_prop_appliance_mouse" orientation_object="rp_off_prop_appliance_mouse" />
+    <bodies>
+        <body enabled="true" template="editor" name="static_body" >
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_mouse" />
+    </graphics>
+</dynamic_object>

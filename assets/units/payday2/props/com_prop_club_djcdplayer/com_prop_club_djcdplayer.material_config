@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="mat_com_prop_club_djcdplayer" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_club_djcdplayer/com_prop_club_djcdplayer_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_club_djcdplayer/com_prop_club_djcdplayer_nm"/>
+    </material>
+</materials>

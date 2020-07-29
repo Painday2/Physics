@@ -1,0 +1,11 @@
+<dynamic_object>
+    <diesel materials="units/payday2/props/com_prop_lobby_couches/com_prop_lobby_couches" orientation_object="rp_couch_ottoman"/>
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_couch_ottoman" />
+    </graphics>
+</dynamic_object>

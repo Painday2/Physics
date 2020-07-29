@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="core/material_configs/hub_elements" orientation_object="rp_omnilight" />
+  <animations />
+  <bodies>
+    <body name="omnilight" enabled="true" template="editor">
+      <object name="rp_omnilight" enabled="true" />
+      <object name="c_omnilight_sphere" enabled="true" collision_type="sphere" />
+    </body>
+  </bodies>
+  
+  <graphics>
+    <object name="g_omnilight_il" enabled="true" instance_struct="world_tm" />
+    <object name="g_omnilight" enabled="true" instance_struct="world_tm" />
+  </graphics>
+  
+  <lights>
+    <!-- <light multiplier="identity" editable="true" name="lo_omni" enabled="true" type="cube_projection|omni|specular" texture="units/lights/light_projection_01/test_df" /> -->
+    <light multiplier="identity" editable="true" shadow_projection="true" name="lo_omni" enabled="true" type="cube_projection|omni|specular" texture="units/lights/light_omni_shadow_projection_01/default_df" />
+  </lights>
+  <objects />
+</dynamic_object>

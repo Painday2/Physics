@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_club_beer_tap" materials="units/payday2/props/com_prop_club_beer_tap/com_prop_club_beer_tap" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="c_mesh_mopp" collision_type="mesh_mopp" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_metal" material="thin_layer" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

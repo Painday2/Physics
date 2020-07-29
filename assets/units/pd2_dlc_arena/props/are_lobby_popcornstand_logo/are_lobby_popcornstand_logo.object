@@ -1,0 +1,15 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_arena/props/are_lobby_popcornstand_logo/are_lobby_popcornstand_logo" orientation_object="rp_are_lobby_popcornstand_logo" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_are_lobby_popcornstand_logo" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="plastic">
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>
