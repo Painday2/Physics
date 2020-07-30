@@ -1,0 +1,30 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_desk_cubicle" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_df"/>
+        <bump_normal_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_nm"/>
+        <material_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_gsma"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_desk_cubicle_lod" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_df" mip="4"/>
+        <bump_normal_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_nm" mip="4"/>
+        <material_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_gsma" mip="4"/>
+    </material>
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_desk_cubicle_black" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_black_df"/>
+        <bump_normal_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_nm"/>
+        <material_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_steel" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_desk_cubicle_black_lod" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_black_df" mip="4"/>
+        <bump_normal_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_nm" mip="4"/>
+        <material_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_gsma" mip="4"/>
+        <reflection_texture file="environments/cubemaps/cubemap_steel" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_desk_cubicle_brown" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_brown_df"/>
+        <material_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_nm"/>
+    </material>
+</materials>

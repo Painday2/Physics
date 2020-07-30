@@ -1,0 +1,18 @@
+<dynamic_object>
+    <diesel orientation_object="rp_off_prop_officehigh_conference_table_wenge" materials="units/payday2/props/off_prop_officehigh_desk/off_prop_officehigh_desk_wenge" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_off_prop_officehigh_conference_table_wenge" />
+            <object collision_type="convex" name="c_convex_01" padding="-2.5"/>
+			<object collision_type="box" name="c_box_01" padding="-2.5"/>
+			<object collision_type="box" name="c_box_02" padding="-2.5"/>
+			<object collision_type="box" name="c_box_03" padding="-2.5"/>
+        </body>
+    </bodies>
+  <decal_surfaces static="true" default_material="wood">
+    <decal_mesh name="dm_wood" enabled="true" material="wood"/>
+  </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_mesh" />
+    </graphics>
+</dynamic_object>
