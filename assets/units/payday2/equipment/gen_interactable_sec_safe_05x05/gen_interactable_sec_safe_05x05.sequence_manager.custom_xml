@@ -1,0 +1,277 @@
+<table>
+	<unit>
+		<sequence editable_state="false" name="'spawn_loot_crap_a'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_crap_b'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_crap_c'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_c'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_crap_d'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_crap_e'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_value_a'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_value_b'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_value_c'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_value_d'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_value_e'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_toast'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_toast'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_empty'" triggable="false"/>
+		<sequence editable_state="false" name="'spawn_loot_money'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_gold'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_jungle_1_objective_a'" triggable="false">
+			<spawn_unit name="'units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_jungle_1_objective_b'" triggable="false">
+			<spawn_unit name="'units/payday2/pickups/gen_pku_keycard/gen_pku_keycard'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_jungle_1_objective_c'" triggable="false">
+			<spawn_unit name="'units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event'" position="object_pos('sp_spawn')" rotation="object_rot('sp_spawn')"/>
+		</sequence>
+		<variables>
+			<var_type value="0"/>
+			<var_level value="0"/>
+		</variables>
+		<filter name="'filter_none'">
+			<check value="vars.var_type == 0"/>
+		</filter>
+		<filter name="'filter_isset'">
+			<check value="vars.var_type > 0"/>
+		</filter>
+		<filter name="'filter_type_1'">
+			<check value="vars.var_type == 1"/>
+		</filter>
+		<filter name="'filter_type_2'">
+			<check value="vars.var_type == 2"/>
+		</filter>
+		<filter name="'filter_type_3'">
+			<check value="vars.var_type == 3"/>
+		</filter>
+		<filter name="'filter_type_4'">
+			<check value="vars.var_type == 4"/>
+		</filter>
+		<filter name="'filter_type_5'">
+			<check value="vars.var_type == 5"/>
+		</filter>
+		<filter name="'filter_level_jungle_1'">
+			<check value="vars.var_level == 1"/>
+		</filter>
+		<filter name="'filter_level_jungle_2'">
+			<check value="vars.var_level == 2"/>
+		</filter>
+		<filter name="'filter_level_rat_2'">
+			<check value="vars.var_level == 3"/>
+		</filter>
+		<filter name="'filter_level_four_stores'">
+			<check value="vars.var_level == 4"/>
+		</filter>
+		<filter name="'filter_level_mia'">
+			<check value="vars.var_level == 5"/>
+		</filter>
+		<sequence editable_state="false" name="'set_type_1'" triggable="true">
+			<set_variables var_type="1"/>
+		</sequence>
+		<sequence editable_state="false" name="'set_type_2'" triggable="true">
+			<set_variables var_type="2"/>
+		</sequence>
+		<sequence editable_state="false" name="'set_type_3'" triggable="true">
+			<set_variables var_type="3"/>
+		</sequence>
+		<sequence editable_state="false" name="'set_type_4'" triggable="true">
+			<set_variables var_type="4"/>
+		</sequence>
+		<sequence editable_state="false" name="'set_type_5'" triggable="true">
+			<set_variables var_type="5"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_level_jungle_1'" triggable="true">
+			<set_variables var_type="1"/>
+			<set_variables var_level="1"/>
+			<run_sequence name="'activate_door'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_level_jungle_2'" triggable="true">
+			<set_variables var_type="1"/>
+			<set_variables var_level="2"/>
+			<run_sequence name="'activate_door'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_level_rat_2'" triggable="true">
+			<set_variables var_type="1"/>
+			<set_variables var_level="3"/>
+			<run_sequence name="'activate_door'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_level_four_stores'" triggable="true">
+			<set_variables var_type="1"/>
+			<set_variables var_level="4"/>
+			<run_sequence name="'activate_door'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_level_mia'" triggable="true">
+			<set_variables var_type="1"/>
+			<set_variables var_level="5"/>
+			<run_sequence name="'activate_door'"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn'" triggable="false">
+			<run_sequence filter="'filter_level_jungle_1'" name=" 'spawn_level_jungle_1' "/>
+			<run_sequence filter="'filter_level_jungle_2'" name=" 'spawn_level_jungle_2' "/>
+			<run_sequence filter="'filter_level_rat_2'" name=" 'spawn_level_rat_2' "/>
+			<run_sequence filter="'filter_level_four_stores'" name=" 'spawn_level_four_stores' "/>
+			<run_sequence filter="'filter_level_mia'" name=" 'spawn_level_mia' "/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_level_jungle_1'" triggable="false">
+			<run_sequence filter="'filter_type_1'" name=" 'spawn_loot_'..pick('crap_b','crap_c','crap_d','value_a','value_d','value_e','money','money')"/>
+			<run_sequence filter="'filter_type_3'" name=" 'spawn_loot_jungle_1_objective_a' "/>
+			<run_sequence filter="'filter_type_4'" name=" 'spawn_loot_jungle_1_objective_b' "/>
+			<run_sequence filter="'filter_type_5'" name=" 'spawn_loot_jungle_1_objective_c' "/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_level_jungle_2'" triggable="false">
+			<run_sequence filter="'filter_type_1'" name=" 'spawn_loot_'..pick('value_a','value_d','value_e','money','money','money','money','money','money','money','money','money','money')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_level_rat_2'" triggable="false">
+			<run_sequence filter="'filter_type_1'" name=" 'spawn_loot_'..pick('crap_b','crap_c','crap_d','value_a','value_d','value_e','money','money')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_level_four_stores'" triggable="false">
+			<run_sequence filter="'filter_type_1'" name=" 'spawn_loot_'..pick('value_a','value_a','value_b','value_b','value_c','value_c','value_d','value_d','value_e','value_e','value_e','value_e','value_e' )"/>
+			<run_sequence filter="'filter_type_2'" name=" 'spawn_loot_'..pick('gold','crap_a','crap_b','crap_c','crap_a','crap_b','crap_c','crap_a','crap_b','crap_c','crap_a','crap_b','crap_c','crap_a','crap_b','crap_c','crap_a','crap_b','crap_c' )"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_level_mia'" triggable="false">
+			<run_sequence filter="'filter_type_1'" name=" 'spawn_loot_'..pick('money','money','money','money','money','toast','crap_b')"/>
+		</sequence>
+		<sequence editable_state="false" name="'anim_open_door'" triggable="false">
+			<animation_group enabled="true" from="0/30" name="'anim_open_close'" to="80/30"/>
+			<sound action="'play'" event="'small_safe_open'" object="'anim_handle'"/>
+			<graphic_group name="'ghosticongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'anim_explosion_out'" triggable="false">
+			<animation_group enabled="true" from="0/30" name="'anim_explosion_in_out'" to="10/30"/>
+			<graphic_group name="'ghosticongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_door_open'" triggable="true">
+			<animation_group enabled="true" from="80/30" name="'anim_open_close'" speed="0" to="80/30"/>
+			<run_sequence name="'deactivate_door'"/>
+			<graphic_group name="'ghosticongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_door_close'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_open_close'" speed="0" to="0/30"/>
+			<graphic_group name="'ghosticongroup'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_hide'" triggable="true">
+			<interaction enabled="false"/>
+			<body enabled="false" name="'body_hitbox_door_handle_out'"/>
+			<body enabled="false" name="'body_frame'"/>
+			<body enabled="false" name="'body_door'"/>
+			<graphic_group name="'safe'" visibility="false"/>
+			<run_sequence name="'deactivate_door'"/>
+			<graphic_group name="'ghosticongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_show'" triggable="true">
+			<interaction enabled="true"/>
+			<body enabled="true" name="'body_hitbox_door_handle_out'"/>
+			<body enabled="true" name="'body_frame'"/>
+			<body enabled="true" name="'body_door'"/>
+			<graphic_group name="'safe'" visibility="true"/>
+			<run_sequence name="'activate_door'"/>
+			<graphic_group name="'ghosticongroup'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="false" name="'open_door'" triggable="true">
+			<run_sequence name="'int_seq_breach_common'"/>
+			<run_sequence name="'anim_open_door'"/>
+			<run_sequence name="'done_opened'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_breach_common'" triggable="false">
+			<interaction enabled="false"/>
+			<body enabled="false" name="'body_hitbox_door_handle_out'"/>
+			<run_sequence name="'deactivate_door'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_saw_out'" triggable="false">
+			<run_sequence name="'int_seq_breach_common'"/>
+			<run_sequence name="'anim_open_door'"/>
+			<run_sequence name="'done_opened'"/>
+		</sequence>
+		<sequence editable_state="false" name="'hide_door'" triggable="false">
+			<body enabled="false" name="'body_door'"/>
+			<object enabled="false" name="'g_door'"/>
+			<object enabled="false" name="'g_analog'"/>
+			<object enabled="false" name="'g_handle'"/>
+			<decal_mesh enabled="false" name="'g_door'"/>
+			<graphic_group name="'ghosticongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_explosion_out'" triggable="false">
+			<run_sequence name="'int_seq_breach_common'"/>
+			<run_sequence name="'hide_door'"/>
+			<spawn_unit name="'units/payday2/equipment/gen_interactable_sec_safe_05x05/dest_sec_safe_05x05_door'" position="object_pos('spawn_door')" rotation="object_rot('spawn_door')"/>
+			<physic_effect name="'physic_effects/push_sphere'" param1="100" param2="20" target="dest_unit:get_object( Idstring('a_physic_effect') )"/>
+			<effect name="'effects/particles/explosions/explosion_grenade'" parent="object( 'a_shp_charge' )" position="v()"/>
+			<effect name="'effects/particles/dest/smoke_pocket_puff'" parent="object( 'anim_explosion_in_out' )" position="v()"/>
+			<sound action="'play'" event="'c4_explode_metal'" object="'a_shp_charge'"/>
+			<run_sequence name="'done_exploded'"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false">
+			<run_sequence name="'open_door'"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'activate_door' " triggable="true">
+			<function extension="'base'" function="'activate'"/>
+			<graphic_group name="'ghosticongroup'" visibility="true"/>
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'deactivate_door' " triggable="true">
+			<function extension="'base'" function="'deactivate'"/>
+			<graphic_group name="'ghosticongroup'" visibility="false"/>
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="false" name=" 'explode_door' " triggable="false">
+			<run_sequence name="'int_seq_explosion_out'"/>
+		</sequence>
+		<sequence name=" 'power_off' " triggable="true">
+			<function extension="'base'" function="'set_powered'" param1="false"/>
+		</sequence>
+		<sequence name=" 'power_on' " triggable="true">
+			<function extension="'base'" function="'set_powered'" param1="true"/>
+		</sequence>
+		<sequence name=" 'turn_off' " triggable="true">
+			<function extension="'base'" function="'set_on'" param1="false"/>
+		</sequence>
+		<sequence name=" 'turn_on' " triggable="true">
+			<function extension="'base'" function="'set_on'" param1="true"/>
+		</sequence>
+		<sequence name=" 'door_opened' "/>
+		<sequence name=" 'door_closed' "/>
+		<sequence name=" 'drill_placed' "/>
+		<sequence name=" 'drill_jammed' "/>
+		<sequence name=" 'drill_resumed' "/>
+		<sequence name=" 'drill_power_off' "/>
+		<sequence name=" 'drill_power_on' "/>
+		<sequence name=" 'drill_completed' "/>
+		<sequence name=" 'all_drill_placed' "/>
+		<sequence name=" 'c4_placed' "/>
+		<sequence name=" 'c4_completed' "/>
+		<sequence name=" 'all_c4_placed' "/>
+		<sequence name=" 'key_placed' "/>
+		<sequence name=" 'key_completed' "/>
+		<sequence name=" 'all_key_placed' "/>
+		<sequence editable_state="false" name="'done_exploded'" triggable="false">
+			<run_sequence name="'done_opened'"/>
+		</sequence>
+		<sequence editable_state="false" name="'done_opened'" triggable="false">
+			<run_sequence filter="'filter_isset'" name="'spawn'"/>
+		</sequence>
+	</unit>
+</table>

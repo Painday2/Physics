@@ -72,6 +72,11 @@
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
 		</assets>
+		<hooks directory="hooks">
+			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+		</hooks>
 		<include directory="levels/physics_tower">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
@@ -128,10 +133,6 @@
 		<sound id="bo_head_star_vr" path="star_vr.ogg"/>
 		<sound id="bo_head_total_immersion" path="total_immersion.ogg"/>
 	</Sounds>
-	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
-	<Localization default="english.txt" directory="loc">
-		<loc file="english.txt" language="english"/>
-	</Localization>
 	<instance id="physics_instance_d1_ticketmachine" orig_id="physics_instance_d1_ticketmachine">
 		<add file="levels/instances/physics_instance_d1_ticketmachine/add.xml"/>
 		<include directory="levels/instances/physics_instance_d1_ticketmachine">
@@ -151,6 +152,29 @@
 		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
+	<instance id="physics_instance_d2_keycardsafe" orig_id="physics_instance_d2_keycardsafe">
+		<add file="levels/instances/physics_instance_d2_keycardsafe/add.xml"/>
+		<include directory="levels/instances/physics_instance_d2_keycardsafe">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
 	<narrative briefing_event="physics_briefing_event" contact="Pain" id="physics">
 		<chain>
 			<table level_id="physics_citystreets" type="d" type_id="heist_type_assault"/>
