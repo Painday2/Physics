@@ -1,0 +1,13 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_chill/props/chl_props_reset_button/chl_props_reset_button" orientation_object="rp_chl_props_reset_button" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_chl_props_reset_button" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,13 @@
+<materials version="3">
+    <material name="mtr_blender" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/mcm_prop_kitchen_blender/mcm_prop_kitchen_blender_df"/>
+        <bump_normal_texture file="units/payday2/props/mcm_prop_kitchen_blender/mcm_prop_kitchen_blender_nm"/>
+    </material>
+    <material name="mtr_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:DOUBLE_SIDED:OPACITY_FADE" version="2">
+        <variable value="0.55000001192093 1 0.37000000476837" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_vehicle_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_vehicle_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="10 4000 0" type="vector3" name="opacity_fade"/>
+    </material>
+</materials>

@@ -1,0 +1,7 @@
+<unit type="chl" slot="1">
+	<object file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

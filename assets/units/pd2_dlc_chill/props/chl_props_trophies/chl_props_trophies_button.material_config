@@ -1,0 +1,68 @@
+<materials version="3">
+    <material render_template="decal:DIFFUSE_TEXTURE" name="mat_ao" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_int_mullplan/ch_int_mullplan_circle_df" mip="1"/>
+    </material>
+
+
+
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_button" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_nm" mip="4"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_button_lod_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_nm" mip="4"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_button_lod_02" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_df" mip="6"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_nm" mip="6"/>
+    </material>
+
+
+
+
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_gensec_info_button" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec_nm" mip="4"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_gensec_info_button_lod_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec_nm" mip="4"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_gensec_info_button_lod_02" version="2">
+        <diffuse_texture file="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec_df" mip="6"/>
+        <bump_normal_texture file="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec_nm" mip="6"/>
+    </material>
+   
+
+
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_paintings" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_poster_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_poster_nm" mip="4"/>
+    </material>    
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_paintings_lod_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_poster_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_poster_nm" mip="4"/>
+    </material>    
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_paintings_lod_02" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_poster_df" mip="6"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_poster_nm" mip="6"/> 
+    </material>   
+
+
+
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_paintings_vxtc" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_poster_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_poster_nm" mip="4"/>
+    </material>   
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_paintings_vxtc_lod_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_poster_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_poster_nm" mip="4"/>
+    </material>    
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_paintings_vxtc_lod_02" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_poster_df" mip="6"/>
+        <bump_normal_texture file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button_poster_nm" mip="6"/>
+    </material>
+
+    <material render_template="generic:VERTEX_COLOR" name="mat_cable_vxtc" version="2"/>
+</materials>

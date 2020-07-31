@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel orientation_object="rp_mcm_prop_kitchen_blender" materials="units/payday2/props/mcm_prop_kitchen_blender/mcm_prop_kitchen_blender" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="box" name="c_box" padding="-2.5" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_dm" material="plastic" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_glass" />
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

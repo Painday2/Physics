@@ -1,0 +1,19 @@
+<dynamic_object>
+    <diesel orientation_object="rp_cabinet_03" materials="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object name="rp_cabinet_03" />
+            <object collision_type="box" name="c_box_01" padding="-2.5" />
+            <object collision_type="box" name="c_box_02" padding="-2.5" />
+        </body>
+    </bodies>
+	
+	<decal_surfaces >
+		<decal_mesh name="c_box_01" enabled="true" material="plastic" />
+		<decal_mesh name="c_box_02" enabled="true" material="plastic" />
+	</decal_surfaces>
+
+    <graphics>
+        <object enabled="true" name="g_mesh" />
+    </graphics>
+</dynamic_object>

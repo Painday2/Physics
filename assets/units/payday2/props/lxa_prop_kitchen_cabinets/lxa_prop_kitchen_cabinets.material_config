@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="mat_cabinets" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_df"/>
+        <bump_normal_texture file="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_nm"/>
+    </material>
+</materials>

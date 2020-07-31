@@ -1,0 +1,48 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button" orientation_object="rp_chl_props_trophies_button" />
+	<sequence_manager file="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_chl_props_trophies_button" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="plastic">
+		<decal_mesh name="dm_cloth_frame1" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_cloth_frame2" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic" />
+		<decal_mesh name="dm_wood_frame1" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_wood_frame2" enabled="true" material="thin_layer" />
+	</decal_surfaces>
+	<graphics>		
+		<lod_object name="lod_button">
+	        <object enabled="true" name="g_g" >
+			  	<material materials="mat_gensec_info_button, mat_button" max_distance="1300"/>
+	        	<material materials="mat_gensec_info_button_lod_01, mat_button_lod_01" max_distance="1900"/>
+	        	<material materials="mat_gensec_info_button_lod_02, mat_button_lod_02"/>
+			</object>
+		</lod_object>
+		<graphic_group name="painting_01" enabled="true">
+				<lod_object name="lod_paintings">
+			        <object enabled="true" name="g_frame1" >
+					  	<material materials="mat_paintings, mat_paintings_vxtc" max_distance="1300"/>
+			        	<material materials="mat_paintings_lod_01, mat_paintings_vxtc_lod_01" max_distance="2200"/>
+			        	<material materials="mat_paintings_lod_02, mat_paintings_vxtc_lod_02"/>
+					</object>
+				</lod_object>	
+		</graphic_group>
+		<graphic_group name="painting_02" enabled="true">
+			<lod_object name="lod_paintings2">
+		        <object enabled="true" name="g_frame2" >
+				  	<material materials="mat_paintings, mat_paintings_vxtc" max_distance="1300"/>
+		        	<material materials="mat_paintings_lod_01, mat_paintings_vxtc_lod_01" max_distance="2200"/>
+		        	<material materials="mat_paintings_lod_02, mat_paintings_vxtc_lod_02"/>
+				</object>
+			</lod_object>
+		</graphic_group>	
+	</graphics>
+</dynamic_object>

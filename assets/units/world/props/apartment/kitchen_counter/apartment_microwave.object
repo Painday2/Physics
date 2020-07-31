@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/apartment/kitchen_counter/apartment_microwave" orientation_object="rp_microwave" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_microwave" />
+      <object name="c_microwave" collision_type="box" padding="-2"/>
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="metal_chassis">
+    <decal_mesh name="g_microwave" enabled="true" material="metal_chassis" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_microwave" enabled="true" instance_struct="world_tm"/>
+  </graphics>
+</dynamic_object> 

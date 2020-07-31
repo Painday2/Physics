@@ -1,0 +1,11 @@
+<dynamic_object>
+    <diesel orientation_object="rp_mcm_prop_kitchen_utensils" materials="units/payday2/props/mcm_prop_kitchen_utensils/mcm_prop_kitchen_utensils" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="c_capsule" collision_type="capsule" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

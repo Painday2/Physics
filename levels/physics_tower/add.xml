@@ -1110,10 +1110,10 @@
 		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
 		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
 		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
-		<gui path="guis/timer_gui" unload="true"/>
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<unit path="units/payday2/equipment/gen_interactable_sec_safe_05x05_titan/dest_sec_safe_05x05_door_titan" unload="true"/>
 		<object path="units/payday2/equipment/gen_interactable_sec_safe_05x05_titan/dest_sec_safe_05x05_door_titan" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
 		<physic_effect path="physic_effects/push_sphere" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" type="unit">
@@ -1125,4 +1125,94 @@
 		<unit path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
 	</add>
 	<texture path="levels/mods/physics_tower/cube_lights/104729"/>
+	<texture path="levels/mods/physics_tower/cube_lights/105402"/>
+	<texture path="levels/mods/physics_tower/cube_lights/105400"/>
+	<texture path="levels/mods/physics_tower/cube_lights/105401"/>
+	<texture path="levels/mods/physics_tower/cube_lights/105405"/>
+	<texture path="levels/mods/physics_tower/cube_lights/105403"/>
+	<texture path="levels/mods/physics_tower/cube_lights/105406"/>
+	<texture path="levels/mods/physics_tower/cube_lights/105404"/>
+	<add path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/small_lamp_flare_fluorescent" unload="true"/>
+		<material_config path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp" unload="true"/>
+		<object path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v3" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_corner_01" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_corner_01" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_corner_01" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_03" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_03" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_03" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_02" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_02" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_02" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_01" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_01" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_floor_01" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_sink_single" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_sink_single" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_sink_single" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_sink" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_sink" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_sink" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_fridge/lxa_prop_kitchen_fridge_freezer" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_fridge/lxa_prop_kitchen_fridge_freezer" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_fridge/lxa_prop_kitchen_fridge_freezer" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_fridge/lxa_prop_kitchen_fridge_freezer" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_pantry" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_pantry" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_pantry" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_corner_01" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_corner_01" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_corner_01" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_01" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets" unload="true"/>
+		<object path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_01" unload="true"/>
+		<unit path="units/payday2/props/lxa_prop_kitchen_cabinets/lxa_prop_kitchen_cabinets_ceiling_01" unload="true"/>
+	</add>
+	<add path="units/world/props/apartment/kitchen_counter/apartment_microwave" type="unit">
+		<material_config path="units/world/props/apartment/kitchen_counter/apartment_microwave" unload="true"/>
+		<object path="units/world/props/apartment/kitchen_counter/apartment_microwave" unload="true"/>
+		<unit path="units/world/props/apartment/kitchen_counter/apartment_microwave" unload="true"/>
+	</add>
+	<add path="units/payday2/props/mcm_prop_kitchen_blender/mcm_prop_kitchen_blender" type="unit">
+		<material_config path="units/payday2/props/mcm_prop_kitchen_blender/mcm_prop_kitchen_blender" unload="true"/>
+		<object path="units/payday2/props/mcm_prop_kitchen_blender/mcm_prop_kitchen_blender" unload="true"/>
+		<unit path="units/payday2/props/mcm_prop_kitchen_blender/mcm_prop_kitchen_blender" unload="true"/>
+	</add>
+	<add path="units/payday2/props/mcm_prop_kitchen_utensils/mcm_prop_kitchen_utensils" type="unit">
+		<material_config path="units/payday2/props/mcm_prop_kitchen_utensils/mcm_prop_kitchen_utensils" unload="true"/>
+		<object path="units/payday2/props/mcm_prop_kitchen_utensils/mcm_prop_kitchen_utensils" unload="true"/>
+		<unit path="units/payday2/props/mcm_prop_kitchen_utensils/mcm_prop_kitchen_utensils" unload="true"/>
+	</add>
+	<add path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7" type="unit">
+		<material_config path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7" unload="true"/>
+		<object path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_circle_goal_marker_7x7/gen_prop_circle_goal_marker_7x7" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button" unload="true"/>
+		<object path="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button" unload="true"/>
+		<unit path="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_button" unload="true"/>
+	</add>
 </table>

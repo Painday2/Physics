@@ -1,0 +1,6 @@
+<unit type="lxa" slot="1" >
+    <object file="units/payday2/props/lxa_prop_kitchen_fridge/lxa_prop_kitchen_fridge_freezer" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

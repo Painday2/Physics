@@ -1,0 +1,6 @@
+<unit type="mcm" slot="1" >
+    <object file="units/payday2/props/mcm_prop_kitchen_blender/mcm_prop_kitchen_blender" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>
