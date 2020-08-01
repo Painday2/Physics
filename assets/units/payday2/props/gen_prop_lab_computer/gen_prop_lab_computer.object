@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/gen_prop_lab_computer/gen_prop_lab_computer" orientation_object="rp_gen_prop_lab_computer" />
+	<sequence_manager file="units/payday2/props/gen_prop_lab_computer/gen_prop_lab_computer" />
+	<bodies>
+		<!-- Static Bodies -->
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_gen_prop_lab_computer" />
+			<object name="c_box_computer" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_monitor" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="static_keyboard_and_mouse" enabled="true" template="static">
+			<object name="rp_gen_prop_lab_computer" />
+			<object name="c_box_keyboard" collision_type="box" padding="-2.5"/>
+			<object name="c_box_mouse" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="static_screen" enabled="true" template="static">
+			<object name="rp_gen_prop_lab_computer" />
+			<object name="c_box_screen" collision_type="box" padding="-2.5"/>
+		</body>
+		<!--
+		<body name="static_keyboard" enabled="true" template="static">
+			<object name="rp_gen_prop_lab_computer" />
+			<object name="c_box_keyboard" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="static_mouse" enabled="true" template="static">
+			<object name="rp_gen_prop_lab_computer" />
+			<object name="c_box_mouse" collision_type="box" padding="-2.5"/>
+		</body> -->
+		<!-- Dynamic Bodies -->
+		<!--
+		<body name="dynamic_keyboard" enabled="false" template="debris">
+			<object name="c_box_keyboard" collision_type="box" padding="-2.5" mass="-1"/>
+			<object name="g_keyboard" enabled="true"/>
+		</body>
+		<body name="dynamic_mouse" enabled="false" template="debris">
+			<object name="c_box_mouse" collision_type="box" padding="-2.5" material="plastic"/>
+			<object name="g_mouse" enabled="true"/>
+		</body>
+		-->
+	</bodies>
+	<decal_surfaces>
+		<decal_mesh name="dm_glass" enabled="true" material="glass_breakable"/>
+		<decal_mesh name="dm_plastic_computer" enabled="true" material="plastic"/>
+		<decal_mesh name="dm_plastic_keyboard" enabled="true" material="plastic"/>
+		<decal_mesh name="dm_plastic_mouse" enabled="true" material="plastic"/>
+	</decal_surfaces>
+	<graphics>
+		<object name="g_computer"  enabled="true" />
+		<object name="g_keyboard"  enabled="true" />
+		<object name="g_mouse" 	   enabled="true" />
+		<object name="g_screen_01" enabled="true" />
+		<object name="g_screen_02" enabled="false" />
+		<object name="g_screen_03" enabled="false" />
+	</graphics>
+</dynamic_object> 

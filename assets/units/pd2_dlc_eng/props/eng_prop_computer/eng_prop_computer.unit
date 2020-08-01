@@ -1,0 +1,16 @@
+<unit type="slu" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_dlc_eng/props/eng_prop_computer/eng_prop_computer" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="press_pick_up" />
+			<var name="_interact_object" value="interact"/>
+			<var name="_achievement_stat" value="eng_2_stats" />
+		</extension>
+		<extension name="flagged_unit" class="DLCFlaggedUnit">
+			<var name="dlc" value="eng" />
+		</extension>
+	</extensions>
+</unit>

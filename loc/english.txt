@@ -6,6 +6,8 @@
 	"heist_physics_tower_name":"StockOS Inbound",
 	"heist_physics_tower_brief":"The quick brown fox jumps over the lazy dog",
 
+	"heist_physics_transition":"Loading",
+
 	"menu_jukebox_music_pain3_cbt":"Cocke and Bo Torture",
 	"menu_jukebox_screen_music_pain3_cbt":"Cocke and Bo Torture",
 	"menu_jukebox_music_pain3_sex":"Stock Exception",
@@ -42,6 +44,18 @@
 	"boworks_mission11a":"Buy a Train Ticket",
 	"boworks_mission11a_desc":"StockOS doesn't take kindly to fare evaders! Find a working ticket machine and buy a train ticket.",
 	"boworks_mission0":"Continue Forward",
-	"boworks_mission0_desc":"Make your way towards the next area"
+	"boworks_mission0_desc":"Make your way towards the next area",
 	
+	"boworks2_mission1":"Go to the Starbreeze Tower",
+	"boworks2_mission1_desc":"Leave the train station and make your way towards the tower where Bo resides.",
+	"boworks2_mission2":"Make your way up the tower",
+	"boworks2_mission2_desc":"Fight your way towards the upper levels of the tower.",
+	"boworks2_mission2a":"Find Keycards",
+	"boworks2_mission2a_desc":"Access to higher floors was restricted after what happened earlier in the city. Look for keycards laying around the area to disable the security.",
+	"boworks2_mission2b":"Solve the puzzle",
+	"boworks2_mission2b_desc":"Access to higher floors requires solving an advanced VR puzzle. Complete it to continue.",
+	"boworks2_mission2c":"Hack computers",
+	"boworks2_mission2c_desc":"It's probably a good diea to get some insider info on Bo before we head up there to kill him. Hack a few Starbreeze employee computers to get some info for Cocke.",
+	"boworks2_mission3":"Escape!",
+	"boworks2_mission3_desc":"Call the elevator to escape the lower section of the tower, and confront Bo."
 }

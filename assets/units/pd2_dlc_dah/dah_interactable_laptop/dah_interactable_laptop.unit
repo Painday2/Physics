@@ -1,0 +1,18 @@
+<unit type="dah" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_dlc_dah/dah_interactable_laptop/dah_interactable_laptop" />
+	<dependencies>
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="hold_type_in_password" />
+			<var name="_interact_object" value="rp_dah_interactable_laptop"/>
+		</extension>
+	</extensions>
+	<sounds>
+		<default_soundsource source="rp_dah_interactable_laptop"/>
+	</sounds>
+</unit>

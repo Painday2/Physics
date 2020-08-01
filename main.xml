@@ -20,6 +20,7 @@
 			<asset name="welcome_to_the_jungle_guards"/>
 		</assets>
 		<hooks directory="hooks">
+			<hook file="tweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
@@ -97,6 +98,7 @@
 			<file file="editor_only/editor_only.continent" type="binary"/>
 			<file file="editor_only/editor_only.mission" type="binary"/>
 			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/physics_tower_interior_server.environment" type="custom_xml"/>
 			<file file="environments/physics_tower_interior_dark.environment" type="custom_xml"/>
 			<file file="environments/physics_tower_interior.environment" type="custom_xml"/>
 			<file file="environments/physics_tower_exterior.environment" type="custom_xml"/>
@@ -174,7 +176,29 @@
 		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
+	<instance id="physics_instance_d2_infocomputer">
+		<add directory="assets"/>
+		<include directory="levels/instances/physics_instance_d2_infocomputer">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
 	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
+	<Hooks directory="hooks">
+		<hook file="tweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
+	</Hooks>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>

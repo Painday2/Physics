@@ -1,0 +1,6 @@
+<materials version="3">
+	<material name="mtr_bag" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture file="units/payday2/pickups/gen_pku_canvasbag/gen_pku_canvasbag_df"/>
+		<bump_normal_texture file="units/payday2/pickups/gen_pku_canvasbag/gen_pku_canvasbag_nm"/>
+	</material>
+</materials>

@@ -1,0 +1,6 @@
+<unit type="tst" slot="1">
+	<object file="units/payday2/characters/npc_acc_canvas_bag_1/npc_acc_canvas_bag_1" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

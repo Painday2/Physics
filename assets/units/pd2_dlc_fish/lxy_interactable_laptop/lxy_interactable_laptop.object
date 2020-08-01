@@ -1,0 +1,21 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop" orientation_object="rp_lxy_interactable_laptop" />
+	<sequence_manager file="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_lxy_interactable_laptop" />
+			<object name="c_laptop" collision_type="box" padding="-2.5" />
+		</body>
+		<!--
+		<body name="body_collision_01" enabled="true" template="animated">
+			<object name="anim_hinge" />
+			<object name="c_laptop_screen" collision_type="box" padding="-2.5" />
+		</body>
+		-->
+	</bodies>
+	<graphics>
+		<object name="g_laptop" 		enabled="true" />
+		<object name="g_login_screen" 	enabled="false" />
+		<object name="g_hack_screen" 	enabled="false" />
+	</graphics>
+</dynamic_object>

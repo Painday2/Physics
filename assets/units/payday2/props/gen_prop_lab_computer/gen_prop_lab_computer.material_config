@@ -1,0 +1,15 @@
+<materials version="3">
+    <material name="mat_computer" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/props/gen_prop_lab_computer/gen_prop_lab_computer_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_computer_screen" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/payday2/props/gen_prop_lab_computer/gen_prop_lab_computer_monitor_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <self_illumination_texture file="units/payday2/props/gen_prop_lab_computer/gen_prop_lab_computer_monitor_df"/>
+        <variable value="streetlight" type="scalar" name="il_multiplier"/>
+    </material>
+    <material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+</materials>

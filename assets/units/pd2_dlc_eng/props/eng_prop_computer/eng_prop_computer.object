@@ -1,0 +1,28 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_eng/props/eng_prop_computer/eng_prop_computer" orientation_object="rp_eng_prop_computer" />
+	<sequence_manager file="units/pd2_dlc_eng/props/eng_prop_computer/eng_prop_computer" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_eng_prop_computer" />
+			<object name="c_capsule" collision_type="capsule" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<graphic_group name="grp_eng_trophy" enabled="true">
+			<lod_object name="lod_computer">
+	    	    <object enabled="true" name="g_computer" >
+				  	<material materials="mat_computer" max_distance="1000"/>
+	    	    	<material materials="mat_computer_lod_1" max_distance="2000"/>
+	    	    	<material materials="mat_computer_lod_2"  />
+				</object>
+			</lod_object>
+			<lod_object name="lod_base">
+	    	    <object enabled="true" name="g_base" >
+				  	<material materials="mat_trophy_base" max_distance="1000"/>
+	    	    	<material materials="mat_trophy_base_lod_1" max_distance="2000"/>
+	    	    	<material materials="mat_trophy_base_lod_2"  />
+				</object>
+			</lod_object>
+		</graphic_group>	
+	</graphics>
+</dynamic_object>

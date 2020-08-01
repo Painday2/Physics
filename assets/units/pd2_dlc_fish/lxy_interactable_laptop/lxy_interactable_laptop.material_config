@@ -1,0 +1,18 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" name="lxy_interactable_laptop" version="2">
+        <diffuse_texture file="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop_df"/>
+        <bump_normal_texture file="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop_nm"/>
+        <self_illumination_texture file="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop_il"/>
+        <variable type="scalar" name="il_multiplier" value="sun"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" name="mat_login_screen" version="2">
+        <diffuse_texture file="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop_login_df"/>
+        <self_illumination_texture file="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop_login_il"/>
+        <variable type="scalar" name="il_multiplier" value="monitor"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" name="mat_hack_screen" version="2">
+        <diffuse_texture file="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop_hack_df"/>
+        <self_illumination_texture file="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop_hack_il"/>
+        <variable type="scalar" name="il_multiplier" value="monitor"/>
+    </material>
+</materials>

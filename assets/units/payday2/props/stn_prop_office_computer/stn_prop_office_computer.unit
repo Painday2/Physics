@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<unit type="stn" slot="1">
+	<object file="units/payday2/props/stn_prop_office_computer/stn_prop_office_computer" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/window/storefront_window_small" />
+	</dependencies>
+
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

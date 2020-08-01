@@ -1,0 +1,11 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gen_prop_appliance_projector" materials="units/payday2/props/gen_prop_appliance_projector/gen_prop_appliance_projector" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="box" name="c_box" padding="-2.5" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

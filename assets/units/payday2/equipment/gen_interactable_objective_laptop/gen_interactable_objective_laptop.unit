@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<unit type="gen" slot="1">
+	<object file="units/payday2/equipment/gen_interactable_objective_laptop/gen_interactable_objective_laptop" />
+	<network sync="spawn" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="hold_use_computer" />
+		</extension>
+	</extensions>
+</unit>

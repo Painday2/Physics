@@ -1,0 +1,43 @@
+<effect force_synch="false">
+    <atom name="fire" min_size="6" max_size="6" lifetime="3" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <localboxrandomposition min="-80 -80 -1" max="80 80 15"/>
+            <centervelocity channel="local" center="0 0 200" direction="to" min="100" max="150" jitter="10"/>
+            <boxrandomaspectsize size="80 80" min="1.3" max="2"/>
+            <boxrandomage min="0" max=".6"/>
+            <boxrandomangle min="0" max="360"/>
+        </initializerstack>
+        <simulatorstack>
+            <scaledvelocityintegrator channel="local" per_particle_age="true">
+                <scale_keys loop="false">
+                    <key t="0.76112025976181" v="0"/>
+                    <key t="0.85996705293655" v="0.20000000298023"/>
+                    <key t="1.0543657541275" v="0.40000000596046"/>
+                    <key t="1.2092256546021" v="1"/>
+                </scale_keys>
+            </scaledvelocityintegrator>
+            <ager/>
+            <worldtransform transform_rotations="false"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/textures/add_atlas_df" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="add" render_template="effect_op_add" origo="0.5 0.5" per_particle_age="true" size_input="scaled_channel" color_input="keys" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 0 1" uv_size="0.25 0.0625" uv_offset_input="keys" frame_start="0 0.5" primary_step_direction="+x" secondary_step_direction="+y" num_frames="16" fps="24" loop="true">
+                <size_scale_keys loop="false">
+                    <key t="0.20304568111897" v="0.60000002384186 0.60000002384186"/>
+                    <key t="1.2182741165161" v="1 1"/>
+                    <key t="2.7495770454407" v="0.30000001192093 0.30000001192093"/>
+                </size_scale_keys>
+                <color_keys loop="false">
+                    <key t="0.57529610395432" v="0 0 0"/>
+                    <key t="1.2436547279358" v="137 89 69"/>
+                    <key t="2.0050761699677" v="100 100 100"/>
+                </color_keys>
+                <opacity_keys loop="false">
+                    <key t="0" v="0"/>
+                    <key t="0.46531304717064" v="255"/>
+                    <key t="2.0304567813873" v="255"/>
+                    <key t="3" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+</effect>

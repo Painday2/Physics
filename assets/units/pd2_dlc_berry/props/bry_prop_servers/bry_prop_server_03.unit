@@ -1,0 +1,6 @@
+<unit type="bry" slot="1">
+	<object file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_03" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

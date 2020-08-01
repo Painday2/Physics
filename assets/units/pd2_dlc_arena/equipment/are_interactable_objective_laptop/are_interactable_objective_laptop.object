@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/pd2_dlc_arena/equipment/are_interactable_objective_laptop/are_interactable_objective_laptop" orientation_object="rp_mcm_laptop" />
+  <sequence_manager file="units/pd2_dlc_arena/equipment/are_interactable_objective_laptop/are_interactable_objective_laptop" />
+  <bodies>
+    <body remove_ray_type="walk vis_graph" name="static_body" enabled="true" template="raycoll_static">
+      <object name="rp_mcm_laptop" />
+      <object name="c_laptop" enabled="true" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="plastic">
+    <decal_mesh name="g_glow" enabled="true" material="plastic" />
+  </decal_surfaces>
+  
+  <graphics>
+    <object name="g_laptop" enabled="true" />
+    <object name="g_screen_on" enabled="true" />
+    <object name="g_screen_off" enabled="false" />
+    <object name="g_glow" enabled="false" />
+  </graphics>
+</dynamic_object>

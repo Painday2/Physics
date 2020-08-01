@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel materials="units/payday2/props/gen_prop_security_servers/gen_prop_security_server" orientation_object="rp_gen_prop_security_server_rack" />
+    <bodies>
+        <body enabled="true" template="static" name="rack" >
+            <object collision_type="mesh_mopp" name="c_c" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_server_budget1" />
+        <object enabled="true" name="g_server_budget" />
+        <object enabled="true" name="g_rack" />
+        <object enabled="true" name="g_glow" />
+        <object enabled="true" shadow_caster="true" name="s_s" />
+    </graphics>
+</dynamic_object>

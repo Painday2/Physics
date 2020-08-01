@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel materials="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" orientation_object="rp_off_prop_appliance_computer" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="mesh_mopp" name="c_c" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_dm" material="sheet_metal" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_computer" />
+    </graphics>
+</dynamic_object>

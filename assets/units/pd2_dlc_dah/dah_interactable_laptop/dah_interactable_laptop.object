@@ -1,0 +1,45 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_dah/dah_interactable_laptop/dah_interactable_laptop" orientation_object="rp_dah_interactable_laptop" />
+	<sequence_manager file="units/pd2_dlc_dah/dah_interactable_laptop/dah_interactable_laptop"  />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_dah_interactable_laptop" />
+			<object name="c_laptop" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_laptop" enabled="true" />
+		<object name="g_lightglow" enabled="true" />
+		<object name="g_code_screen" enabled="false" />
+		<object name="g_number_red_00" enabled="false" />
+		<object name="g_number_red_01" enabled="false" />
+		<object name="g_number_red_02" enabled="false" />
+		<object name="g_number_red_03" enabled="false" />
+		<object name="g_number_red_04" enabled="false" />
+		<object name="g_number_red_05" enabled="false" />
+		<object name="g_number_red_06" enabled="false" />
+		<object name="g_number_red_07" enabled="false" />
+		<object name="g_number_red_08" enabled="false" />
+		<object name="g_number_red_09" enabled="false" />
+		<object name="g_number_green_00" enabled="false" />
+		<object name="g_number_green_01" enabled="false" />
+		<object name="g_number_green_02" enabled="false" />
+		<object name="g_number_green_03" enabled="false" />
+		<object name="g_number_green_04" enabled="false" />
+		<object name="g_number_green_05" enabled="false" />
+		<object name="g_number_green_06" enabled="false" />
+		<object name="g_number_green_07" enabled="false" />
+		<object name="g_number_green_08" enabled="false" />
+		<object name="g_number_green_09" enabled="false" />
+		<object name="g_number_blue_09" enabled="false" />
+		<object name="g_number_blue_08" enabled="false" />
+		<object name="g_number_blue_07" enabled="false" />
+		<object name="g_number_blue_06" enabled="false" />
+		<object name="g_number_blue_05" enabled="false" />
+		<object name="g_number_blue_04" enabled="false" />
+		<object name="g_number_blue_03" enabled="false" />
+		<object name="g_number_blue_02" enabled="false" />
+		<object name="g_number_blue_01" enabled="false" />
+		<object name="g_number_blue_00" enabled="false" />
+	</graphics>
+</dynamic_object>
