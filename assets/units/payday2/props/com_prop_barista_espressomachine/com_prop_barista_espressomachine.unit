@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="com" slot="1">
+  <object file="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" />	
+	<extensions>
+        <extension class="ScriptUnitData" name="unit_data"/>
+    </extensions>
+</unit>

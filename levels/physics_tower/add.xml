@@ -1409,9 +1409,52 @@
 		<unit path="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" type="unit">
-		<unit path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
-		<object path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
 		<material_config path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<object path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<unit path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_u_corner_l" type="unit">
+		<material_config path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counters" unload="true"/>
+		<object path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_u_corner_l" unload="true"/>
+		<unit path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_u_corner_l" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_shelf_100" type="unit">
+		<material_config path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counters" unload="true"/>
+		<object path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_shelf_100" unload="true"/>
+		<unit path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_shelf_100" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_cooler" type="unit">
+		<material_config path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counters" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/jewelry_counter_1" unload="true"/>
+		<object path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_cooler" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_cooler" unload="true"/>
+		<unit path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_cooler" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_200" type="unit">
+		<material_config path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counters" unload="true"/>
+		<object path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_200" unload="true"/>
+		<unit path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_200" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry" type="unit">
+		<material_config path="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry" unload="true"/>
+		<object path="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry" unload="true"/>
+		<unit path="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry_big_cake" type="unit">
+		<material_config path="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry_big_cake" unload="true"/>
+		<object path="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry_big_cake" unload="true"/>
+		<unit path="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry_big_cake" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry_cheesecake" type="unit">
+		<material_config path="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry_cheesecake" unload="true"/>
+		<object path="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry_cheesecake" unload="true"/>
+		<unit path="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry_cheesecake" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" type="unit">
+		<unit path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" unload="true"/>
+		<object path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" unload="true"/>
 	</add>
 </table>

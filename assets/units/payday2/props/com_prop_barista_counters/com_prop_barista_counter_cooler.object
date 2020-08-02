@@ -1,0 +1,36 @@
+<dynamic_object>
+    <diesel orientation_object="rp_counter_cooler" materials="units/payday2/props/com_prop_barista_counters/com_prop_barista_counters" />
+	<sequence_manager file="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_cooler" />
+    <bodies>
+		<!-- INDESTRUCTABLES -->
+        <body enabled="true" template="static" name="b_static" >
+			<object name="c_mesh_mopp" collision_type="mesh_mopp" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_03" collision_type="convex" padding="-2.5"/>
+        </body>
+        
+		<!-- BREAKABLE GLASS -->
+		<body enabled="true" template="static" name="b_glass_01" >
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>	
+        </body>
+        <body enabled="true" template="static" name="b_glass_02" >
+			<object name="c_convex_02" collision_type="convex" padding="-2.5"/>
+        </body>		
+    </bodies>
+	
+	<decal_surfaces static="true" default_material="glass_breakable">
+		<decal_mesh name="dm_glass_breakable_01" enabled="true" material="glass_breakable"/>
+		<decal_mesh name="dm_glass_breakable_02" enabled="true" material="glass_breakable"/>
+		<decal_mesh name="dm_metal" enabled="true" material="metal"/>
+		<decal_mesh name="dm_wood"  enabled="true" material="wood"/>
+	</decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+        <object enabled="true" name="g_glass_01" />
+        <object enabled="true" name="g_glass_02" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,13 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_barista_pastry_big_cake" materials="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry_big_cake" />
+    
+	<bodies>
+		<body name="editor_body" enabled="true" editable="true" template="editor">
+			<object name="rp_com_prop_barista_pastry_big_cake"/>
+			<object name="c_convex_000" collision_type="convex" />			
+		</body>
+	</bodies>
+	<graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

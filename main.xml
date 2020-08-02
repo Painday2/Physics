@@ -27,10 +27,10 @@
 			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
 		</hooks>
 		<include directory="levels/physics_citystreets">
+			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
 			<file file="mission.mission" type="binary"/>
-			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world_sounds.world_sounds" type="binary"/>
 			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="skybox/skybox.continent" type="binary"/>
@@ -196,9 +196,6 @@
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
-	<Hooks directory="hooks">
-		<hook file="tweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
-	</Hooks>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>

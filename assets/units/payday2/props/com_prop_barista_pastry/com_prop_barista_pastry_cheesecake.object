@@ -1,0 +1,13 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_barista_pastry_cheesecake" materials="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry_cheesecake" />
+    
+	<bodies>
+		<body name="editor_body" enabled="true" editable="true" template="editor">
+			<object name="rp_com_prop_barista_pastry_cheesecake"/>
+			<object name="c_box_editor" collision_type="box" padding="-110.0" />			
+		</body>
+	</bodies>
+	<graphics>
+        <object enabled="true" name="g_g" instance_struct="world_tm"/>
+    </graphics>
+</dynamic_object>

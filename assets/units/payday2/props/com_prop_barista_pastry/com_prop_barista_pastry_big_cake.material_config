@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="mat_big_cake" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry_big_cake_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry_big_cake_nm"/>
+    </material>
+</materials>

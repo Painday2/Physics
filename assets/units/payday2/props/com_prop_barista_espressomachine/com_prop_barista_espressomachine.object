@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" orientation_object="rp_com_prop_barista_espressomachine" />
+  <bodies>
+		<body name="body0" enabled="true" template="static" editable="true">
+			<object name="rp_com_prop_barista_espressomachine" />
+			<object name="c_box_000" collision_type="box" />
+		</body>	
+  </bodies>
+  <decal_surfaces default_material="metal_chassis">
+		<decal_mesh name="dm_metal_chassis" enabled="true" material="metal_chassis"/>
+    </decal_surfaces>
+  <graphics>
+    <object name="g_g" enabled="true" shadow_caster="false"/>
+  </graphics>
+</dynamic_object>
