@@ -311,12 +311,6 @@
 		<object path="units/payday2/vehicles/sub_vehicle_train/sub_vehicle_train_2" unload="true"/>
 		<unit path="units/payday2/vehicles/sub_vehicle_train/sub_vehicle_train_2" unload="true"/>
 	</add>
-	<add path="units/payday2/vehicles/sub_vehicle_train_sidedoor_right/sub_vehicle_train_sidedoor_right" type="unit">
-		<material_config path="units/payday2/vehicles/shared_textures/sub_vehicle_train" unload="true"/>
-		<object path="units/payday2/vehicles/sub_vehicle_train_sidedoor_right/sub_vehicle_train_sidedoor_right" unload="true"/>
-		<sequence_manager path="units/payday2/vehicles/sub_vehicle_train_sidedoor_right/sub_vehicle_train_sidedoor_right" unload="true"/>
-		<unit path="units/payday2/vehicles/sub_vehicle_train_sidedoor_right/sub_vehicle_train_sidedoor_right" unload="true"/>
-	</add>
 	<add path="units/payday2/vehicles/sub_vehicle_train_sidedoors/sub_vehicle_train_sidedoors" type="unit">
 		<material_config path="units/payday2/vehicles/shared_textures/sub_vehicle_train" unload="true"/>
 		<object path="units/payday2/vehicles/sub_vehicle_train_sidedoors/sub_vehicle_train_sidedoors" unload="true"/>
@@ -452,11 +446,6 @@
 		<object path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_hallway_tv_hanging" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_hallway_tv_hanging" unload="true"/>
 		<unit path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_hallway_tv_hanging" unload="true"/>
-	</add>
-	<add path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_lobby_tv_single_small" type="unit">
-		<material_config path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_lobby_tv_rack" unload="true"/>
-		<object path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_lobby_tv_single_small" unload="true"/>
-		<unit path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_lobby_tv_single_small" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_arena/props/are_prop_hallway_tv_menu/are_prop_hallway_tv_menu_02" type="unit">
 		<material_config path="units/pd2_dlc_arena/props/are_prop_hallway_tv_menu/are_prop_hallway_tv_menu_01" unload="true"/>
@@ -616,15 +605,6 @@
 		<sequence_manager path="units/payday2/props/stn_prop_office_deskset_straight_b/stn_prop_office_deskset_straight_b" unload="true"/>
 		<unit path="units/payday2/props/stn_prop_office_deskset_straight_b/stn_prop_office_deskset_straight_b" unload="true"/>
 	</add>
-	<add path="units/payday2/props/stn_prop_office_divider/stn_prop_office_divider" type="unit">
-		<material_config path="units/payday2/props/stn_prop_office_divider/stn_prop_office_divider" unload="true"/>
-		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
-		<effect load="true" path="effects/payday2/particles/window/office_divider_glass" unload="true"/>
-		<object path="units/payday2/props/stn_prop_office_divider/stn_prop_office_divider" unload="true"/>
-		<sequence_manager path="units/payday2/props/stn_prop_office_divider/stn_prop_office_divider" unload="true"/>
-		<unit path="units/payday2/props/stn_prop_office_divider/stn_prop_office_divider" unload="true"/>
-	</add>
 	<add path="units/payday2/props/gen_prop_sleepingbag/gen_prop_sleepingbag" type="unit">
 		<material_config path="units/payday2/props/gen_prop_sleepingbag/gen_prop_sleepingbag" unload="true"/>
 		<object path="units/payday2/props/gen_prop_sleepingbag/gen_prop_sleepingbag" unload="true"/>
@@ -771,17 +751,6 @@
 		<sequence_manager path="units/payday2/props/com_prop_club_light_moving/com_prop_club_light_moving" unload="true"/>
 		<unit path="units/payday2/props/com_prop_club_light_moving/com_prop_club_light_moving" unload="true"/>
 	</add>
-	<add path="units/payday2/equipment/gen_interactable_door_wooden/gen_interactable_door_wooden" type="unit">
-		<unit path="units/payday2/equipment/gen_interactable_door_wooden/gen_interactable_door_wooden" unload="true"/>
-		<object path="units/payday2/equipment/gen_interactable_door_wooden/gen_interactable_door_wooden" unload="true"/>
-		<material_config path="units/payday2/equipment/gen_interactable_door_wooden/gen_interactable_door_wooden" unload="true"/>
-		<unit path="units/payday2/equipment/gen_interactable_door_wooden/spawn_debris_door_wooden" unload="true"/>
-		<object path="units/payday2/equipment/gen_interactable_door_wooden/spawn_debris_door_wooden" unload="true"/>
-		<material_config path="units/payday2/equipment/gen_interactable_door_wooden/spawn_debris_door_wooden" unload="true"/>
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
-		<physic_effect path="physic_effects/push_sphere" unload="true"/>
-		<sequence_manager path="units/payday2/equipment/gen_interactable_door_wooden/gen_interactable_door_wooden" unload="true"/>
-	</add>
 	<add path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2_stack" type="unit">
 		<effect load="true" path="effects/particles/dest/green_bottle_dest" unload="true"/>
 		<material_config path="units/payday2/props/com_prop_club_bottles/com_prop_club_bottle_2" unload="true"/>
@@ -915,10 +884,6 @@
 		<material_config path="units/payday2/props/lxa_prop_bedroom_loungeseat/lxa_prop_bedroom_loungeseat" unload="true"/>
 		<object path="units/payday2/props/lxa_prop_bedroom_loungeseat/lxa_prop_bedroom_loungeseat" unload="true"/>
 		<unit path="units/payday2/props/lxa_prop_bedroom_loungeseat/lxa_prop_bedroom_loungeseat" unload="true"/>
-	</add>
-	<add path="units/payday2/props/air_prop_lounge_armchair/air_prop_lounge_armchair" type="unit">
-		<material_config path="units/payday2/props/air_prop_lounge_armchair/air_prop_lounge_armchair" unload="true"/>
-		<object path="units/payday2/props/air_prop_lounge_armchair/air_prop_lounge_armchair" unload="true"/>
 	</add>
 	<add path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" type="unit">
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
@@ -1115,14 +1080,6 @@
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<gui path="guis/timer_gui" unload="true"/>
 		<physic_effect path="physic_effects/push_sphere" unload="true"/>
-	</add>
-	<add path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" type="unit">
-		<cooked_physics path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
-		<material_config path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
-		<model path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
-		<object path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
-		<sequence_manager path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
-		<unit path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
 	</add>
 	<texture path="levels/mods/physics_tower/cube_lights/104729"/>
 	<texture path="levels/mods/physics_tower/cube_lights/105402"/>
@@ -1375,20 +1332,6 @@
 		<sequence_manager path="units/pd2_dlc_dah/dah_interactable_laptop/dah_interactable_laptop" unload="true"/>
 		<unit path="units/pd2_dlc_dah/dah_interactable_laptop/dah_interactable_laptop" unload="true"/>
 	</add>
-	<add path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop" type="unit">
-		<material_config path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop" unload="true"/>
-		<object path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop" unload="true"/>
-		<unit path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop" unload="true"/>
-	</add>
-	<add path="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop" type="unit">
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
-		<gui path="guis/timer_gui" unload="true"/>
-		<material_config path="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop" unload="true"/>
-		<object path="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop" unload="true"/>
-		<unit path="units/pd2_dlc_fish/lxy_interactable_laptop/lxy_interactable_laptop" unload="true"/>
-	</add>
 	<add path="units/pd2_dlc_arena/equipment/are_interactable_objective_laptop/are_interactable_objective_laptop" type="unit">
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<gui path="guis/timer_gui" unload="true"/>
@@ -1407,12 +1350,6 @@
 		<object path="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" unload="true"/>
 		<unit path="units/pd2_dlc_casino/dev/cas_gen_square_goal_marker_2_4x4_35/cas_gen_square_goal_marker_2_4x4_35" unload="true"/>
-	</add>
-	<add path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" type="unit">
-		<material_config path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
-		<object path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
-		<sequence_manager path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
-		<unit path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
 	</add>
 	<add path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counter_u_corner_l" type="unit">
 		<material_config path="units/payday2/props/com_prop_barista_counters/com_prop_barista_counters" unload="true"/>
@@ -1453,8 +1390,8 @@
 		<unit path="units/payday2/props/com_prop_barista_pastry/com_prop_barista_pastry_cheesecake" unload="true"/>
 	</add>
 	<add path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" type="unit">
-		<unit path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" unload="true"/>
-		<object path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" unload="true"/>
 		<material_config path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" unload="true"/>
+		<object path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" unload="true"/>
+		<unit path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" unload="true"/>
 	</add>
 </table>
