@@ -79,10 +79,10 @@
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 		</hooks>
 		<include directory="levels/physics_tower">
-			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
 			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world_sounds.world_sounds" type="binary"/>
 			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="elevator/elevator.continent" type="binary"/>
@@ -109,7 +109,7 @@
 		<packages>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 			<value_node value="levels/narratives/vlad/peta/stage2/world/world"/>
-			<value_node value="levels/instances/unique/san_box_tree001/world/world"/>
+			<value_node value="packages/narr_framing_1"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -178,7 +178,7 @@
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="physics_instance_d2_infocomputer">
-		<add directory="assets"/>
+		<add file="levels/instances/physics_instance_d2_infocomputer/add.xml"/>
 		<include directory="levels/instances/physics_instance_d2_infocomputer">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>

@@ -1314,6 +1314,8 @@
 		<unit path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3" unload="true"/>
 	</add>
 	<add path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_coke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/grab/parts/coke_smoke" unload="true"/>
 		<material_config path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>
 		<object path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>
 		<sequence_manager path="units/payday2/pickups/gen_pku_almir_sandwich/gen_pku_almir_sandwich" unload="true"/>

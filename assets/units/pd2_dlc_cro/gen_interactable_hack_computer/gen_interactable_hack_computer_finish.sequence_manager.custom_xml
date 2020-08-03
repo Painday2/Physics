@@ -1,0 +1,204 @@
+<table>
+	<unit>
+		<variables>
+			<var_int value="0"/>
+		</variables>
+		<filter name="'check_state_0'">
+			<check value="vars.var_int == 0"/>
+		</filter>
+		<filter name="'check_state_1'">
+			<check value="vars.var_int == 1"/>
+		</filter>
+		<filter name="'check_state_2'">
+			<check value="vars.var_int == 2"/>
+		</filter>
+		<filter name="'check_state_3'">
+			<check value="vars.var_int == 3"/>
+		</filter>
+		<filter name="'check_state_4'">
+			<check value="vars.var_int == 4"/>
+		</filter>
+		<filter name="'check_state_5'">
+			<check value="vars.var_int == 5"/>
+		</filter>
+		<filter name="'check_state_6'">
+			<check value="vars.var_int == 6"/>
+		</filter>
+		<filter name="'check_state_7'">
+			<check value="vars.var_int == 7"/>
+		</filter>
+		<filter name="'check_state_8'">
+			<check value="vars.var_int == 8"/>
+		</filter>
+		<filter name="'check_state_9'">
+			<check value="vars.var_int == 9"/>
+		</filter>
+		<filter name="'check_state_10'">
+			<check value="vars.var_int == 10"/>
+		</filter>
+		<sequence editable_state="false" name="'starup_seq'" startup="true" triggable="false">
+			<function extension="'timer_gui'" function="'set_visible'" param1="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false">
+			<function extension="'timer_gui'" function="'set_visible'" param1="true"/>
+			<run_sequence filter="'check_state_0'" name="'int_seq_state_0'"/>
+			<run_sequence filter="'check_state_1'" name="'int_seq_state_1'"/>
+			<run_sequence filter="'check_state_2'" name="'int_seq_state_2'"/>
+			<run_sequence filter="'check_state_3'" name="'int_seq_state_3'"/>
+			<run_sequence filter="'check_state_4'" name="'int_seq_state_4'"/>
+			<run_sequence filter="'check_state_5'" name="'int_seq_state_5'"/>
+			<run_sequence filter="'check_state_6'" name="'int_seq_state_6'"/>
+			<run_sequence filter="'check_state_7'" name="'int_seq_state_7'"/>
+			<run_sequence filter="'check_state_8'" name="'int_seq_state_8'"/>
+			<run_sequence filter="'check_state_9'" name="'int_seq_state_9'"/>
+			<run_sequence filter="'check_state_10'" name="'int_seq_state_10'"/>
+			<attention giveaway="'computer'" operation="'add'" preset_name="'prop_law_scary'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_0'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'100'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_1'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'200'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_2'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'300'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_3'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'400'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_4'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'30'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_5'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'30'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_6'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'60'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_7'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'40'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_8'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'80'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_9'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'120'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_state_10'" triggable="false">
+			<function extension="'timer_gui'" function="'start'" param1="'160'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_disabled'" triggable="true"/>
+		<sequence editable_state="true" name="'state_interaction_enabled'" triggable="true"/>
+		<sequence editable_state="true" name="'set_hack_time_state_0'" triggable="true">
+			<set_variables var_int="0"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_1'" triggable="true">
+			<set_variables var_int="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_2'" triggable="true">
+			<set_variables var_int="2"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_3'" triggable="true">
+			<set_variables var_int="3"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_4'" triggable="true">
+			<set_variables var_int="4"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_5'" triggable="true">
+			<set_variables var_int="5"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_6'" triggable="true">
+			<set_variables var_int="6"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_7'" triggable="true">
+			<set_variables var_int="7"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_8'" triggable="true">
+			<set_variables var_int="8"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_9'" triggable="true">
+			<set_variables var_int="9"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_hack_time_state_10'" triggable="true">
+			<set_variables var_int="10"/>
+		</sequence>
+		<sequence name="'power_off'" triggable="true">
+			<function extension="'timer_gui'" function="'set_powered'" param1="false"/>
+		</sequence>
+		<sequence name="'power_on'" triggable="true">
+			<function extension="'timer_gui'" function="'set_powered'" param1="true"/>
+		</sequence>
+		<sequence name="'state_device_jammed'" triggable="true">
+			<function extension="'timer_gui'" function="'set_jammed'" param1="true"/>
+		</sequence>
+		<sequence name="'state_device_resumed'" triggable="true">
+			<function extension="'timer_gui'" function="'set_jammed'" param1="false"/>
+		</sequence>
+		<sequence name="'state_device_start'" triggable="true">
+			<function extension="'timer_gui'" function="'set_visible'" param1="true"/>
+			<run_sequence filter="'check_state_0'" name="'int_seq_state_0'"/>
+			<run_sequence filter="'check_state_1'" name="'int_seq_state_1'"/>
+			<run_sequence filter="'check_state_2'" name="'int_seq_state_2'"/>
+			<run_sequence filter="'check_state_3'" name="'int_seq_state_3'"/>
+			<run_sequence filter="'check_state_4'" name="'int_seq_state_4'"/>
+			<run_sequence filter="'check_state_5'" name="'int_seq_state_5'"/>
+			<run_sequence filter="'check_state_6'" name="'int_seq_state_6'"/>
+			<run_sequence filter="'check_state_7'" name="'int_seq_state_7'"/>
+			<run_sequence filter="'check_state_8'" name="'int_seq_state_8'"/>
+			<run_sequence filter="'check_state_9'" name="'int_seq_state_9'"/>
+			<run_sequence filter="'check_state_10'" name="'int_seq_state_10'"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'state_hide' " triggable="true">
+			<body enabled="false" name="'body0'"/>
+			<object enabled="false" name=" 'g_off' "/>
+			<object enabled="false" name=" 'g_computerscreen' "/>
+			<object enabled="false" name=" 'g_finish' "/>
+			<object enabled="false" name=" 'g_upload' "/>
+			<object enabled="false" name="'g_on'"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'state_show' " triggable="true">
+			<body enabled="true" name="'body0'"/>
+			<object enabled="true" name=" 'g_off' "/>
+			<object enabled="true" name=" 'g_computerscreen' "/>
+			<object enabled="false" name=" 'g_finish' "/>
+			<object enabled="false" name=" 'g_upload' "/>
+			<object enabled="false" name="'g_on'"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'state_upload' " triggable="true">
+			<body enabled="true" name="'body0'"/>
+			<object enabled="false" name=" 'g_off' "/>
+			<object enabled="true" name=" 'g_computerscreen' "/>
+			<object enabled="true" name=" 'g_upload' "/>
+			<object enabled="false" name=" 'g_finish' "/>
+			<object enabled="false" name="'g_on'"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'state_finish' " triggable="true">
+			<body enabled="true" name="'body0'"/>
+			<object enabled="false" name=" 'g_off' "/>
+			<object enabled="true" name=" 'g_computerscreen' "/>
+			<object enabled="true" name=" 'g_finish' "/>
+			<object enabled="false" name=" 'g_upload' "/>
+			<object enabled="false" name="'g_on'"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'screen_on' " triggable="true">
+			<body enabled="true" name="'body0'"/>
+			<object enabled="false" name=" 'g_off' "/>
+			<object enabled="true" name=" 'g_computerscreen' "/>
+			<object enabled="false" name=" 'g_finish' "/>
+			<object enabled="false" name=" 'g_upload' "/>
+			<object enabled="true" name="'g_on'"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'screen_off' " triggable="true">
+			<body enabled="true" name="'body0'"/>
+			<object enabled="true" name=" 'g_off' "/>
+			<object enabled="true" name=" 'g_computerscreen' "/>
+			<object enabled="false" name=" 'g_finish' "/>
+			<object enabled="false" name=" 'g_upload' "/>
+			<object enabled="false" name="'g_on'"/>
+		</sequence>
+		<sequence name="'jammed_trigger'"/>
+		<sequence name="'timer_done'">
+			<attention giveaway="'computer'" operation="'remove'" preset_name="'prop_law_scary'"/>
+		</sequence>
+	</unit>
+</table>
