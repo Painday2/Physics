@@ -5,7 +5,7 @@
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
 		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
-	<HeistMusic directory="assets/sounds/music/pain3_sex" id="music_pain3_sex" volume="0.7">
+	<HeistMusic directory="assets/sounds/music/pain3_sex" id="music_pain3_sex" volume="1">
 		<event name="setup" source="stealth.ogg" start_source="stealthintro.ogg"/>
 		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
@@ -77,6 +77,7 @@
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
 		</hooks>
 		<include directory="levels/physics_tower">
 			<file file="world.world" type="binary"/>
