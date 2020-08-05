@@ -173,6 +173,9 @@
 		<object path="units/pd2_mod_phys/props/phys_sign_8x8"/>
 		<unit path="units/pd2_mod_phys/props/phys_sign_8x8"/>
 		<model path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_64x64"/>
 		<texture path="units/pd2_mod_phys/props/phys_2x8_banner"/>
 		<sequence_manager path="units/pd2_mod_phys/props/phys_2x8_banner"/>
 		<material_config path="units/pd2_mod_phys/props/phys_2x8_banner"/>
@@ -1395,5 +1398,24 @@
 		<material_config path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" unload="true"/>
 		<object path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" unload="true"/>
 		<unit path="units/payday2/props/com_prop_barista_espressomachine/com_prop_barista_espressomachine" unload="true"/>
+	</add>
+	<add path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" type="unit">
+		<object path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<sequence_manager path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<unit path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+	</add>
+	<add path="units/dev_tools/mission_elements/point_interaction/interaction_dummy_nosync" type="unit">
+		<object path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<sequence_manager path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<unit path="units/dev_tools/mission_elements/point_interaction/interaction_dummy_nosync" unload="true"/>
+	</add>
+	<add path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline" type="unit">
+		<unit path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline" unload="true"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
 	</add>
 </table>

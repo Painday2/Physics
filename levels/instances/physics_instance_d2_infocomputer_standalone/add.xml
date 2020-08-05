@@ -1,0 +1,38 @@
+<table directory="assets">
+	<add path="units/pd2_dlc_cro/gen_interactable_hack_computer/gen_interactable_hack_computer_finish" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<material_config path="units/pd2_dlc_cro/gen_interactable_hack_computer/gen_interactable_hack_computer_finish" unload="true"/>
+		<object path="units/pd2_dlc_cro/gen_interactable_hack_computer/gen_interactable_hack_computer_finish" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_cro/gen_interactable_hack_computer/gen_interactable_hack_computer_finish" unload="true"/>
+		<unit path="units/pd2_dlc_cro/gen_interactable_hack_computer/gen_interactable_hack_computer_finish" unload="true"/>
+	</add>
+	<add path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_hack_computer_interaction_contour" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" unload="true"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" unload="true"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" unload="true"/>
+	</add>
+	<add path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/destruction/des_paper" unload="true"/>
+		<material_config path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a" unload="true"/>
+		<sequence_manager path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a" unload="true"/>
+	</add>
+	<add path="units/payday2/props/stn_prop_office_deskset_straight_b/stn_prop_office_deskset_straight_b" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/destruction/des_paper" unload="true"/>
+		<material_config path="units/payday2/props/stn_prop_office_deskset_straight_b/stn_prop_office_deskset_straight_b" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_deskset_straight_b/stn_prop_office_deskset_straight_b" unload="true"/>
+		<sequence_manager path="units/payday2/props/stn_prop_office_deskset_straight_b/stn_prop_office_deskset_straight_b" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_deskset_straight_b/stn_prop_office_deskset_straight_b" unload="true"/>
+	</add>
+	<add path="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" type="unit">
+		<unit path="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" unload="true"/>
+		<object path="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" unload="true"/>
+		<material_config path="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" unload="true"/>
+	</add>
+</table>
