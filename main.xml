@@ -80,10 +80,10 @@
 			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
 		</hooks>
 		<include directory="levels/physics_tower">
+			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
 			<file file="mission.mission" type="binary"/>
-			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world_sounds.world_sounds" type="binary"/>
 			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="elevator/elevator.continent" type="binary"/>

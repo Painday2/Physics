@@ -1413,9 +1413,14 @@
 		<unit path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline" unload="true"/>
 		<object path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline" unload="true"/>
 		<material_config path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline" unload="true"/>
-		<sequence_manager path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline" unload="true"/>
 		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
 		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
 		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" type="unit">
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" unload="true"/>
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
 	</add>
 </table>
