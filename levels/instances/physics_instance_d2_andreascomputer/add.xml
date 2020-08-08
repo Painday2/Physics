@@ -1,0 +1,17 @@
+<table directory="assets">
+	<add path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" type="unit">
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" unload="true"/>
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_hack_computer_interaction_contour" unload="true"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+	</add>
+</table>

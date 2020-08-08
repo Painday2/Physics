@@ -1419,8 +1419,21 @@
 		<sequence_manager path="units/payday2/pickups/gen_pku_keycard_standard_outline/gen_pku_keycard_standard_outline" unload="true"/>
 	</add>
 	<add path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" type="unit">
-		<unit path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" unload="true"/>
-		<object path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" unload="true"/>
 		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+		<texture path="units/payday2/props/off_prop_appliance_monitor/monitor_nm" unload="true"/>
+		<texture path="units/payday2/props/off_prop_appliance_monitor/monitor_df" unload="true"/>
+		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_df" unload="true"/>
+		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_il" unload="true"/>
+		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_background_variations_df" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
 	</add>
 </table>
