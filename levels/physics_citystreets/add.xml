@@ -734,6 +734,7 @@
 		<model path="units/pd2_mod_phys/equipment/phys_4klift"/>
 		<object path="units/pd2_mod_phys/equipment/phys_4klift"/>
 		<unit load="true" path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<unit load="true" path="units/pd2_dlc_vr/equipment/phys_4klift_vr"/>
 		<material_config path="units/pd2_mod_phys/equipment/phys_4klift"/>
 		<material_config path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
 		<model path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
