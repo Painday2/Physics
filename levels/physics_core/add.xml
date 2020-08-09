@@ -1,0 +1,206 @@
+<table directory="assets">
+	<add unload_on_restart="true">
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_ext_1m_cube" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_ext_1m_cube" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_ext_1m_cube" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_2m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_2m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_2m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_050m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_050m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_050m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_c" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_d" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_d" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_d" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_e" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_e" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_e" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_f" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_f" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_f" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_c" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_d" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_d" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_d" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_e" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_e" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_e" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_f" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_f" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_f" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_c" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_door_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_door_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_door_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_window_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_window_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_window_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_c" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_c" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_c" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_door_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_door_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_door_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" unload="true"/>
+		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" unload="true"/>
+		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" unload="true"/>
+		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" unload="true"/>
+		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
+		<texture path="units/pd2_mod_phys/props/phys_2x2_1"/>
+		<texture path="units/pd2_mod_phys/props/phys_2x2_2"/>
+		<texture path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
+		<texture path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
+		<texture path="units/pd2_mod_phys/props/phys_utility_2x2"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_sign_2x2_1"/>
+		<material_config path="units/pd2_mod_phys/props/phys_sign_2x2_2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_utility_2x2"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<texture path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<material_config path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<object path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<unit path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<model path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<object path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+		<unit path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+		<model path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+		<texture path="units/pd2_mod_phys/props/phys_bedding"/>
+		<texture path="units/pd2_mod_phys/props/phys_wood_df"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<material_config path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<object path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<unit path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<model path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+	</add>
+	<add path="units/test/jocke/plane_black_temp" type="unit">
+		<material_config path="units/test/jocke/plane_black_temp" unload="true"/>
+		<object path="units/test/jocke/plane_black_temp" unload="true"/>
+		<unit path="units/test/jocke/plane_black_temp" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" type="unit">
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" unload="true"/>
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+	</add>
+</table>

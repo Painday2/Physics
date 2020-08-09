@@ -118,6 +118,46 @@
 			</mod>
 		</script_data_mods>
 	</level>
+	<level ai_group_type="america" id="physics_core" max_bags="54" orig_id="physics_core">
+		<add file="levels/physics_core/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
+		</hooks>
+		<include directory="levels/physics_core">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="exterior_mkp/exterior_mkp.continent" type="binary"/>
+			<file file="exterior_mkp/exterior_mkp.mission" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<outro_event/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
 	<Sounds directory="assets/sounds/vo">
 		<sound id="physics_briefing_event" path="brief/physics_briefing_event.ogg"/>
 		<sound id="physics_crimenet_callouts" path="brief/physics_crimenet_callouts.ogg"/>
@@ -248,6 +288,7 @@
 		<chain>
 			<table level_id="physics_citystreets" type="d" type_id="heist_type_assault"/>
 			<table level_id="physics_tower" type="d" type_id="heist_type_assault"/>
+			<table level_id="physics_core" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
 			<value_node value="4000"/>
