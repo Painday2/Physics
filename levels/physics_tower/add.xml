@@ -440,6 +440,7 @@
 		<material_config path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_lobby_tv_rack" unload="true"/>
 		<object path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_lobby_tv_rack" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_lobby_tv_rack" unload="true"/>
+		<texture force="true" path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_lobby_tv_df" unload="true"/>
 		<unit path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_lobby_tv_rack" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_hallway_tv_hanging" type="unit">
@@ -448,6 +449,7 @@
 		<material_config path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_hallway_tv_hanging" unload="true"/>
 		<object path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_hallway_tv_hanging" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_hallway_tv_hanging" unload="true"/>
+		<texture force="true" path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/screens_df" unload="true"/>
 		<unit path="units/pd2_dlc_arena/props/are_prop_hallway_tv_hanging/are_prop_hallway_tv_hanging" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_arena/props/are_prop_hallway_tv_menu/are_prop_hallway_tv_menu_02" type="unit">
@@ -889,6 +891,8 @@
 		<unit path="units/payday2/props/lxa_prop_bedroom_loungeseat/lxa_prop_bedroom_loungeseat" unload="true"/>
 	</add>
 	<add path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" type="unit">
+		<texture force="true" path="units/payday2/props/off_prop_appliance_monitor/screen_df" unload="true"/>
+		<texture force="true" path="units/payday2/props/off_prop_appliance_monitor/screen_il" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<material_config path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" unload="true"/>
 		<object path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" unload="true"/>
@@ -1424,16 +1428,28 @@
 		<unit path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" unload="true"/>
 	</add>
 	<add path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" type="unit">
-		<unit path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
-		<object path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
-		<material_config path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
 		<texture path="units/payday2/props/off_prop_appliance_monitor/monitor_nm" unload="true"/>
 		<texture path="units/payday2/props/off_prop_appliance_monitor/monitor_df" unload="true"/>
 		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_df" unload="true"/>
 		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_il" unload="true"/>
 		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_background_variations_df" unload="true"/>
-		<sequence_manager path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
-		<gui path="guis/timer_gui" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" unload="true"/>
+		<texture path="units/payday2/props/off_prop_appliance_monitor/monitor_nm" unload="true"/>
+		<texture path="units/payday2/props/off_prop_appliance_monitor/monitor_df" unload="true"/>
+		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_df" unload="true"/>
+		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_il" unload="true"/>
+		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_v2_df" unload="true"/>
+		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_background_variations_df" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" unload="true"/>
 	</add>
 </table>

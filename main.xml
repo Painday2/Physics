@@ -11,12 +11,7 @@
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
 		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
-	<AddFiles directory="assets">
-		<texture load="true" path="guis/mods/phys/textures/loading/job_physics_01_df"/>
-		<texture load="true" path="guis/mods/phys/textures/loading/job_physics_02_df"/>
-		<texture load="true" path="guis/mods/phys/textures/physics_icon"/>
-	</AddFiles>
-	<level ai_group_type="America" briefing_dialog="physics_citystreets_briefing_dialog" id="physics_citystreets" intro_event="physics_citystreets_intro_event" max_bags="5" orig_id="BoWorks" player_style="generic" team_ai_off="false" load_screen="guis/mods/phys/textures/loading/job_physics_01_df">
+	<level ai_group_type="America" briefing_dialog="physics_citystreets_briefing_dialog" id="physics_citystreets" intro_event="physics_citystreets_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_01_df" max_bags="5" orig_id="BoWorks" player_style="generic" team_ai_off="false">
 		<add file="levels/physics_citystreets/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -70,7 +65,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="America" briefing_dialog="physics_tower_briefing_dialog" id="physics_tower" intro_event="physics_tower_intro_event" max_bags="54" orig_id="BoWorks_Tower" player_style="generic" load_screen="guis/mods/phys/textures/loading/job_physics_02_df">
+	<level ai_group_type="America" briefing_dialog="physics_tower_briefing_dialog" id="physics_tower" intro_event="physics_tower_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_02_df" max_bags="54" orig_id="BoWorks_Tower" player_style="generic">
 		<add file="levels/physics_tower/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -240,11 +235,16 @@
 		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
+	<AddFiles directory="assets">
+		<texture load="true" path="guis/mods/phys/textures/loading/job_physics_01_df"/>
+		<texture load="true" path="guis/mods/phys/textures/loading/job_physics_02_df"/>
+		<texture load="true" path="guis/mods/phys/textures/physics_icon"/>
+	</AddFiles>
 	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
-	<narrative briefing_event="physics_briefing_event" contact="Pain" id="physics" icon="guis/mods/phys/textures/physics_icon">
+	<narrative briefing_event="physics_briefing_event" contact="Pain" icon="guis/mods/phys/textures/physics_icon" id="physics">
 		<chain>
 			<table level_id="physics_citystreets" type="d" type_id="heist_type_assault"/>
 			<table level_id="physics_tower" type="d" type_id="heist_type_assault"/>

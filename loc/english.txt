@@ -1,9 +1,9 @@
 {
 	"heist_physics_name":"BOWORKS",
 	"heist_physics_brief":"The creator of virtual reality is back with a narrative VR action adventure using advanced experimental physics mechanics. Dynamically navigate through environments, engage in physics heavy combat, and creatively approach puzzles with physics. \n\nAdvanced Physics» Designed entirely for consistent universal rules, the advanced physics mechanics encourage players to confidently and creatively interact with the virtual world however you want.\nCombat» Approach combat in any number of ways you can think of following the physical rules of the game's universe. Melee weapons, firearms, physics traps, environments, can all be used to aid you in fights with enemy entities.\nWeapons, lots of weapons» BOWORKS provides players with a plethora of physics based weaponry; guns, swords, axes, clubs, spears, hammers, experimental energy weapons, nonsensical mystery tools, and anomalous physics weapons.\nInteraction» Hyper realistic VR object and environment interaction.\nStory» Play through the game's mysterious narrative and explore the deep inner workings of OVERKILL: a STARBREEZE Studio's artificial intelligence operating system; Stock OS.\nCharacter Bodies» Accurate full IK body systems built from the ground up provide a realistic looking body presence and allow for a maximum level of immersion with physical interaction in the game space.",
-	"heist_physics_citystreets_name":"Return to Virtual Reality",
+	"heist_physics_citystreets_name":"Welcome to Starbreeze City",
 	"heist_physics_citystreets_brief":"Alright guys, I got in contact with the dude who made virtual reality again. You remember that dude, right? He just gave us exclusive early access to his sick new game.\n\nIf we go into VR and masturbate to poorly-executed gameplay mechanics, we'll be able to win the grand prize. I don't know what the prize is, but I fucking want it. So go do that for me.\n\nHe says he's been testing this since last year, so it should be bug free. Right?",
-	"heist_physics_tower_name":"StockOS Inbound",
+	"heist_physics_tower_name":"Stock OS Inbound",
 	"heist_physics_tower_brief":"The quick brown fox jumps over the lazy dog",
 
 	"heist_physics_transition":"Loading",
@@ -50,12 +50,14 @@
 	"boworks2_mission1_desc":"Leave the train station and make your way towards the tower where Bo resides.",
 	"boworks2_mission2":"Make your way up the tower",
 	"boworks2_mission2_desc":"Fight your way towards the upper levels of the tower.",
-	"boworks2_mission2a":"Find Keycards",
+	"boworks2_mission2a":"Find and use keycards",
 	"boworks2_mission2a_desc":"Access to higher floors was restricted after what happened earlier in the city. Look for keycards laying around the area to disable the security.",
 	"boworks2_mission2b":"Solve the puzzle",
 	"boworks2_mission2b_desc":"Access to higher floors requires solving an advanced VR puzzle. Complete it to continue.",
 	"boworks2_mission2c":"Hack computers",
 	"boworks2_mission2c_desc":"It's probably a good diea to get some insider info on Bo before we head up there to kill him. Hack a few Starbreeze employee computers to get some info for Cocke.",
+	"boworks2_mission2d":"Defend the computer",
+	"boworks2_mission2d_desc":"Defend the computer from the police while Cocke hacks into it.",
 	"boworks2_mission3":"Escape!",
 	"boworks2_mission3_desc":"Call the elevator to escape the lower section of the tower, and confront Bo."
 }

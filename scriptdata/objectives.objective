@@ -17,4 +17,5 @@
 	<objective description="boworks2_mission2b_desc" id="boworks2_mission2b" text="boworks2_mission2b"/>
 	<objective description="boworks2_mission2c_desc" id="boworks2_mission2c" text="boworks2_mission2c"/>
 	<objective description="boworks2_mission3_desc" id="boworks2_mission3" text="boworks2_mission3"/>
+	<objective description="boworks2_mission2d_desc" id="boworks2_mission2d" text="boworks2_mission2d"/>
 </table>
