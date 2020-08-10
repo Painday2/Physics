@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4" orientation_object="rp_gen_prop_square_goal_marker_7x4" />
+  <sequence_manager file="units/payday2/props/gen_prop_square_goal_marker_7x4/gen_prop_square_goal_marker_7x4" />
+  <bodies>
+    <body name="static_body" enabled="true" template="editor">
+      <object name="rp_gen_prop_square_goal_marker_7x4" />
+      <object name="c_cube" collision_type="box" />
+    </body>
+  </bodies>
+
+  <graphics>
+    <object name="g_goal" enabled="true" />
+    <object name="g_icon" enabled="true" />
+  </graphics>
+</dynamic_object>

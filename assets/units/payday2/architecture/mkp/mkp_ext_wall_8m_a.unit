@@ -1,0 +1,6 @@
+<unit type="deprecated" slot="1" >
+    <object file="units/payday2/architecture/mkp/mkp_ext_wall_8m_a" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>
