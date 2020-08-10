@@ -11,7 +11,7 @@
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
 		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
-	<level ai_group_type="America" briefing_dialog="physics_citystreets_briefing_dialog" id="physics_citystreets" intro_event="physics_citystreets_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_01_df" max_bags="5" orig_id="BoWorks" player_style="generic" team_ai_off="false">
+	<level ai_group_type="America" briefing_dialog="physics_citystreets_briefing_dialog" id="physics_citystreets" intro_event="physics_citystreets_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_01_df" max_bags="5" orig_id="BoWorks" team_ai_off="false">
 		<add file="levels/physics_citystreets/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -24,7 +24,7 @@
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
-			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
+			<!--hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/-->
 		</hooks>
 		<include directory="levels/physics_citystreets">
 			<file file="world.world" type="binary"/>
@@ -77,7 +77,7 @@
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
-			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
+			<!--hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/-->
 		</hooks>
 		<include directory="levels/physics_tower">
 			<file file="world.world" type="binary"/>
