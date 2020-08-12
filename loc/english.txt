@@ -14,6 +14,8 @@
 	"menu_jukebox_screen_music_pain3_cbt":"Cocke and Bo Torture",
 	"menu_jukebox_music_pain3_sex":"Stock Exception",
 	"menu_jukebox_screen_music_pain3_sex":"Stock Exception",
+	"menu_jukebox_music_pain3_cum":"Cornered Under the Market",
+	"menu_jukebox_screen_music_pain3_cum":"Cornered Under the Market",
 
 	"hud_carry_forklift":"Forklift",
 	"hud_carry_meth_lab":"Meth Lab",

@@ -5,11 +5,21 @@
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
 		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
-	<HeistMusic directory="assets/sounds/music/pain3_sex" id="music_pain3_sex" volume="1">
+	<HeistMusic directory="assets/sounds/music/pain3_sex" id="music_pain3_sex" volume="0.9">
 		<event name="setup" source="stealth.ogg" start_source="stealthintro.ogg"/>
 		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
 		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
+	</HeistMusic>
+	<HeistMusic directory="assets/sounds/music/pain3_cum" id="music_pain3_cum" volume="0.8">
+		<event name="setup" source="stealth.ogg" start_source="stealthintro.ogg"/>
+		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
+		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
+		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
+		<event name="physics_fakeassault" source="assault.ogg" start_source="anticipationfull.ogg"/>
+		<event name="cumtest1" source="test1.ogg"/>
+		<event name="cumtest2" source="test2.ogg"/>
+		<event name="cumtest3" source="test1.ogg" start_source="test2.ogg"/>
 	</HeistMusic>
 	<level ai_group_type="America" briefing_dialog="physics_citystreets_briefing_dialog" id="physics_citystreets" intro_event="physics_citystreets_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_01_df" max_bags="5" orig_id="BoWorks" team_ai_off="false">
 		<add file="levels/physics_citystreets/add.xml"/>
