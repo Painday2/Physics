@@ -34,7 +34,6 @@
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
-			<!--hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/-->
 		</hooks>
 		<include directory="levels/physics_citystreets">
 			<file file="world.world" type="binary"/>
@@ -87,7 +86,6 @@
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
-			<!--hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/-->
 		</hooks>
 		<include directory="levels/physics_tower">
 			<file file="world.world" type="binary"/>
