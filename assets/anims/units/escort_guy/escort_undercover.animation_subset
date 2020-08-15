@@ -1,0 +1,91 @@
+<xml>
+	
+	<!-- Spawn -->
+
+	<!-- SO -->
+
+	<anim name="secret_stash_so_crashed_limo1" file="anims/shared/unarmed/escort/secret_stash_so_crashed_limo1" blend_set="all"/>
+	<anim name="secret_stash_so_crashed_limo2" file="anims/shared/unarmed/escort/secret_stash_so_crashed_limo2" blend_set="all"/>
+	<anim name="secret_stash_so_crashed_limo3" file="anims/shared/unarmed/escort/secret_stash_so_crashed_limo3" blend_set="all"/>
+	<anim name="secret_stash_so_crashed_limo4" file="anims/shared/unarmed/escort/secret_stash_so_crashed_limo4" blend_set="all"/>
+	
+	<anim name="secret_stash_spawn_crashed_limo1" file="anims/shared/unarmed/escort/secret_stash_spawn_crashed_limo1" blend_set="all"/>
+	<anim name="secret_stash_spawn_crashed_limo2" file="anims/shared/unarmed/escort/secret_stash_spawn_crashed_limo2" blend_set="all"/>
+	<anim name="secret_stash_spawn_crashed_limo3" file="anims/shared/unarmed/escort/secret_stash_spawn_crashed_limo3" blend_set="all"/>
+	<anim name="secret_stash_spawn_crashed_limo4" file="anims/shared/unarmed/escort/secret_stash_spawn_crashed_limo4" blend_set="all"/>
+
+	<anim name="secret_stash_stand_enter" file="anims/shared/unarmed/escort/secret_stash_stand_enter" blend_set="all"/>
+	<anim name="secret_stash_stand_loop" file="anims/shared/unarmed/escort/secret_stash_stand_loop" blend_set="all"/>
+	<anim name="secret_stash_sit_enter" file="anims/shared/unarmed/escort/secret_stash_sit_enter" blend_set="all"/>
+	<anim name="secret_stash_sit_untied_loop" file="anims/shared/unarmed/escort/secret_stash_sit_untied_loop" blend_set="all"/>
+	<anim name="secret_stash_sit_tied_enter" file="anims/shared/unarmed/escort/secret_stash_sit_tied_enter" blend_set="all"/>
+	<anim name="secret_stash_sit_tied_loop" file="anims/shared/unarmed/escort/secret_stash_sit_tied_loop" blend_set="all"/>
+	<anim name="secret_stash_sit_tied_react" file="anims/shared/unarmed/escort/secret_stash_sit_tied_react" blend_set="all"/>
+	<anim name="secret_stash_sit_tied_react2" file="anims/shared/unarmed/escort/secret_stash_sit_tied_react2" blend_set="all"/>
+	<anim name="secret_stash_sit_tied_yes" file="anims/shared/unarmed/escort/secret_stash_sit_tied_yes" blend_set="all"/>
+	<anim name="secret_stash_sit_tied_no" file="anims/shared/unarmed/escort/secret_stash_sit_tied_no" blend_set="all"/>
+	<anim name="secret_stash_sit_tied_fwd_hit" file="anims/shared/unarmed/escort/secret_stash_sit_tied_fwd_hit" blend_set="all"/>
+	<anim name="secret_stash_sit_tied_bwd_hit" file="anims/shared/unarmed/escort/secret_stash_sit_tied_bwd_hit" blend_set="all"/>
+	<anim name="secret_stash_sit_tied_faint" file="anims/shared/unarmed/escort/secret_stash_sit_tied_faint" blend_set="all"/>
+	<anim name="secret_stash_sit_tied_fainted" file="anims/shared/unarmed/escort/secret_stash_sit_tied_fainted" blend_set="all"/>
+	<anim name="secret_stash_sit_tied_wakeup" file="anims/shared/unarmed/escort/secret_stash_sit_tied_wakeup" blend_set="all"/>
+
+	<anim name="civ_so_climb_up_out_3m" file="anims/shared/unarmed/escort/civ_so_climb_up_out_3m" blend_set="all"/>
+	<anim name="civ_so_die_on_ramp" file="anims/shared/unarmed/escort/civ_so_die_on_ramp" blend_set="all"/>
+	<anim name="civ_so_die_on_ramp_loop" file="anims/shared/unarmed/escort/civ_so_die_on_ramp_loop" blend_set="all"/>
+	<anim name="civ_so_crash_car_idle" file="anims/shared/unarmed/escort/civ_so_crash_car_idle" blend_set="all"/>
+	<anim name="civ_so_crash_car_exit" file="anims/shared/unarmed/escort/civ_so_crash_car_exit" blend_set="all"/>
+	<anim name="civ_so_crash_car_impact" file="anims/shared/unarmed/escort/civ_so_crash_car_impact" blend_set="all"/>
+	
+	<anim name="civ_so_crh_cover_exit" file="anims/shared/unarmed/escort/esc_crh_hurt_idle_to_std_hurt_idle" blend_set="all"/>
+	<anim name="civ_so_crh_cover_enter" file="anims/shared/unarmed/escort/esc_crh_hurt_idle_enter" blend_set="all"/>
+	<anim name="civ_so_crh_cover_idle" file="anims/shared/unarmed/escort/esc_crh_hurt_idle" blend_set="all"/>
+	
+<!-- BELOW ARE FOR PRISONER -->
+	<anim name="so_enter_ejectionchair" file="anims/shared/special/so_enter_ejectionchair" blend_set="all"/>
+	<anim name="so_ejectionchair_idle" file="anims/shared/special/so_ejectionchair_idle" blend_set="all"/>
+
+	<anim name="spawn_prisonvan_var1" file="anims/shared/special/spawn_prisonvan_var1" blend_set="all"/>
+	<anim name="spawn_prisonvan_var4" file="anims/shared/special/spawn_prisonvan_var4" blend_set="all"/>
+	<anim name="spawn_prisonvan_var5" file="anims/shared/special/spawn_prisonvan_var5" blend_set="all"/>
+	<anim name="spawn_prisonvan_var8" file="anims/shared/special/spawn_prisonvan_var8" blend_set="all"/>
+	<anim name="spawn_prisonvan_var9" file="anims/shared/special/spawn_prisonvan_var9" blend_set="all"/>
+	<anim name="spawn_prisonvan_var10" file="anims/shared/special/spawn_prisonvan_var10" blend_set="all"/>
+	<anim name="spawn_crawl_var1" file="anims/shared/special/spawn_crawl_var1" blend_set="all"/>
+	
+	<anim name="so_crawl_var1" file="anims/shared/special/spawn_crawl_var1" blend_set="all"/>
+	
+	<anim name="so_climb_into_chopper" file="anims/shared/special/so_climb_into_chopper" blend_set="all"/>
+	
+	<anim name="so_escort_hurt_opens_door" file="anims/shared/unarmed/escort/so_esc_hurt_opens_door" blend_set="all"/>
+	
+	
+	<anim name="e_escort_f_ckoff_to_van" file="anims/shared/unarmed/escort/e_escort_f_ckoff_to_van" blend_set="all"/>
+	
+	<anim name="so_escort_before_door_enter" file="anims/shared/unarmed/escort/esc_crh_hurt_idle_enter" blend_set="all"/>
+	<anim name="so_escort_before_door_idle" file="anims/shared/unarmed/escort/esc_crh_hurt_idle" blend_set="all"/>
+	
+	<anim name="ntl_irp_6_react_idle" file="anims/shared/unarmed/neutral/ntl_irp_1_react_idle_prisoner" blend_set="all_no_root"/>
+	<anim name="pnc_std_halt_idle_var1" file="anims/shared/unarmed/neutral/ntl_irp_1_react_idle_prisoner" blend_set="all_no_root"/>
+	<anim name="pnc_crh_cover_idle_var1" file="anims/shared/unarmed/neutral/ntl_irp_1_react_idle_prisoner" blend_set="all_no_root"/>
+
+<!-- ABOVE ARE FOR PRISONER -->
+
+
+
+	<!-- Walk -->
+	<anim name="walk_fwd_var1" file="anims/shared/unarmed/escort/esc_std_hurt_walk_fwd" blend_set="all"/>
+	<anim name="walk_fwd_var2" file="anims/shared/unarmed/escort/esc_std_hurt_walk_fwd_var2" blend_set="all"/>
+	<anim name="walk_fwd_var3" file="anims/shared/unarmed/escort/esc_std_hurt_walk_fwd_var3" blend_set="all"/>
+	<anim name="walk_fwd_var4" file="anims/shared/unarmed/escort/esc_std_hurt_walk_fwd_var4" blend_set="all"/>
+	<anim name="walk_bwd" file="anims/shared/unarmed/escort/esc_std_hurt_walk_bwd" blend_set="all"/>
+	<anim name="walk_l" file="anims/shared/unarmed/escort/esc_std_hurt_walk_l" blend_set="all"/>
+	<anim name="walk_r" file="anims/shared/unarmed/escort/esc_std_hurt_walk_r" blend_set="all"/>
+	
+	<!-- Idle -->
+	<anim name="cover_enter" file="anims/shared/unarmed/escort/esc_crh_hurt_idle_enter" blend_set="all_no_root"/>
+	<anim name="cover_idle" file="anims/shared/unarmed/escort/esc_crh_hurt_idle" blend_set="all_no_root"/>
+	<anim name="hesitant_idle" file="anims/shared/unarmed/escort/esc_std_hurt_idle" blend_set="all_no_root"/>
+	<anim name="hesitant_enter" file="anims/shared/unarmed/escort/esc_crh_hurt_idle_to_std_hurt_idle" blend_set="all_no_root"/>
+	
+</xml>

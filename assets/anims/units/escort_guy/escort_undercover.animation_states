@@ -1,0 +1,1006 @@
+<xml>
+	<state name="escort_undercover" type="template_state" segment="base">
+		<to name="panic" redirect="escort_undercover/still/cover/loop"/>
+		<to name="idle" redirect="escort_undercover/still/hesitant_loop"/>
+	
+		<to name="walk_fwd" redirect="escort_undercover/move/walk/fwd/1"/>
+		<to name="walk_bwd" redirect="escort_undercover/move/walk/bwd"/>
+		<to name="walk_l" redirect="escort_undercover/move/walk/l"/>
+		<to name="walk_r" redirect="escort_undercover/move/walk/r"/>
+		
+		<to name="cm_so_escort_get_up_hesitant" redirect="escort_undercover/so/get_up_hesitant"/>
+		
+		<to name="cm_so_crashed_limo1" redirect="escort_undercover/so/crashed/1"/>
+		<to name="cm_so_crashed_limo2" redirect="escort_undercover/so/crashed/2"/>
+		<to name="cm_so_crashed_limo3" redirect="escort_undercover/so/crashed/3"/>
+		<to name="cm_so_crashed_limo4" redirect="escort_undercover/so/crashed/4"/>
+		
+		<to name="sstash_spawn_crashed_limo1" redirect="escort_undercover/spawn/crashed/1"/>
+		<to name="sstash_spawn_crashed_limo2" redirect="escort_undercover/spawn/crashed/2"/>
+		<to name="sstash_spawn_crashed_limo3" redirect="escort_undercover/spawn/crashed/3"/>
+		<to name="sstash_spawn_crashed_limo4" redirect="escort_undercover/spawn/crashed/4"/>
+
+		<to name="civ_so_crash_car_impact" redirect="escort_suitcase/so/civ_so_crash_car_impact"/>
+		<to name="civ_so_crash_car_idle" redirect="escort_suitcase/so/civ_so_crash_car_idle"/>
+		<to name="civ_so_crash_car_exit" redirect="escort_suitcase/so/civ_so_crash_car_exit"/>
+		<to name="civ_so_die_on_ramp_loop" redirect="escort_suitcase/so/civ_so_die_on_ramp_loop"/>
+		<to name="civ_so_die_on_ramp" redirect="escort_suitcase/so/civ_so_die_on_ramp"/>
+		<to name="civ_so_climb_up_out_3m" redirect="escort_suitcase/so/civ_so_climb_up_out_3m"/>
+		<to name="civ_so_crh_cover_enter" redirect="escort_suitcase/so/civ_so_crh_cover_enter"/>
+		<to name="civ_so_crh_cover_idle" redirect="escort_suitcase/so/civ_so_crh_cover_idle"/>
+		<to name="civ_so_crh_cover_exit" redirect="escort_suitcase/so/civ_so_crh_cover_exit"/>
+		
+	<!-- BELOW ARE FOR PRISONER -->
+		<to name="so_escort_get_up_hesitant" redirect="escort_prisoner/so/get_up_hesitant"/>
+		
+		<to name="so_enter_ejectionchair" redirect="escort_prisoner/so/so_enter_ejectionchair"/>
+		<to name="so_ejectionchair_idle" redirect="escort_prisoner/so/so_ejectionchair_idle"/>
+		
+		
+		<to name="so_escort_before_door_idle" redirect="escort_suitcase/so/so_escort_before_door_idle"/>
+		<to name="so_escort_before_door_enter" redirect="escort_suitcase/so/so_escort_before_door_enter"/>
+		
+	
+		<to name="so_climb_into_chopper" redirect="escort_prisoner/so/so_climb_into_chopper"/>
+		
+		<to name="so_crawl_var1" redirect="escort_prisoner/so/so_crawl_var1"/>
+		
+		
+		<to name="spawn_prisonvan_var1" redirect="escort_prisoner/spawn_prisonvan_var1"/>
+		<to name="spawn_prisonvan_var4" redirect="escort_prisoner/spawn_prisonvan_var4"/>
+		<to name="spawn_prisonvan_var5" redirect="escort_prisoner/spawn_prisonvan_var5"/>
+		<to name="spawn_prisonvan_var8" redirect="escort_prisoner/spawn_prisonvan_var8"/>
+		<to name="spawn_prisonvan_var9" redirect="escort_prisoner/spawn_prisonvan_var9"/>
+		<to name="spawn_prisonvan_var10" redirect="escort_prisoner/spawn_prisonvan_var10"/>
+		<to name="spawn_crawl_var1" redirect="escort_prisoner/spawn_crawl_var1"/>
+
+		<to name="e_escort_f_ckoff_to_van" redirect="escort_suitcase/so/e_escort_f_ckoff_to_van"/>
+		
+		<to name="so_climb_into_chopper" redirect="escort_prisoner/so/so_climb_into_chopper"/>
+
+	<!-- ABOVE ARE FOR PRISONER -->
+		
+		
+
+		<to name="sstash_stand_enter" redirect="escort_undercover/secret_stash_stand_enter"/>
+		<to name="sstash_stand_loop" redirect="escort_undercover/secret_stash_stand_loop"/>
+		<to name="sstash_sit_enter" redirect="escort_undercover/interrogation/enter"/>
+		<to name="sstash_sit_untied_loop" redirect="escort_undercover/interrogation/untied_loop"/>
+		<to name="sstash_sit_tied_enter" redirect="escort_undercover/interrogation/tied_enter"/>
+		<to name="sstash_sit_tied_loop" redirect="escort_undercover/interrogation/tied_loop"/>
+		<to name="sstash_sit_tied_react" redirect="escort_undercover/interrogation/tied_react"/>
+		<to name="sstash_sit_tied_react2" redirect="escort_undercover/interrogation/tied_react2"/>
+		<to name="sstash_sit_tied_yes" redirect="escort_undercover/interrogation/tied_yes"/>
+		<to name="sstash_sit_tied_no" redirect="escort_undercover/interrogation/tied_no"/>
+		<to name="sstash_sit_tied_fwd_hit" redirect="escort_undercover/interrogation/tied_fwd_hit"/>
+		<to name="sstash_sit_tied_bwd_hit" redirect="escort_undercover/interrogation/tied_bwd_hit"/>
+		<to name="sstash_sit_tied_faint" redirect="escort_undercover/interrogation/tied_faint"/>
+		<to name="sstash_sit_tied_fainted" redirect="escort_undercover/interrogation/tied_fainted"/>
+		<to name="sstash_sit_tied_wakeup" redirect="escort_undercover/interrogation/tied_wakeup"/>
+		
+		<default blend="7"/>
+	</state>
+	
+	
+
+
+
+	<!-- BELOW ARE FOR PRISONER -->
+
+	<state name="escort_prisoner/so/so_climb_into_chopper" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="so_climb_into_chopper"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/spawn/loop"/>
+	</state>
+
+	
+	
+	
+	----------
+	<state name="escort_suitcase/so/civ_so_crh_cover_enter" type="once" segment="base">
+		<anim name="civ_so_crh_cover_enter"/>
+		<keys>
+			
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_suitcase/so/civ_so_crh_cover_idle"/>
+	</state>
+	
+	<state name="escort_suitcase/so/civ_so_crh_cover_idle" type="loop" segment="base">
+		<from name="escort_suitcase/so/civ_so_crh_cover_enter" blend="7" />
+		<anim name="civ_so_crh_cover_idle"/>
+		<keys>
+			
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_suitcase/so/civ_so_crh_cover_exit"/>
+	</state>
+	
+	<state name="escort_suitcase/so/civ_so_crh_cover_exit" type="once" segment="base">
+		<anim name="civ_so_crh_cover_exit"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+		</keys>
+		<exit name="escort_undercover/still/hesitant_loop"/>
+	</state>
+	
+	
+	
+	<state name="escort_suitcase/so/civ_so_crash_car_impact" type="once" segment="base">
+		<anim name="civ_so_crash_car_impact"/>
+		<keys>
+			
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_suitcase/so/civ_so_crash_car_idle"/>
+	</state>
+	
+	<state name="escort_suitcase/so/civ_so_crash_car_idle" type="loop" segment="base">
+		<anim name="civ_so_crash_car_idle"/>
+		<keys>
+			
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_suitcase/so/civ_so_crash_car_exit"/>
+	</state>
+	
+	<state name="escort_suitcase/so/civ_so_crash_car_exit" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="civ_so_crash_car_exit"/>
+		<keys>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+		</keys>
+		<exit name="escort_undercover/still/cover/loop"/>
+	</state>
+	
+	<state name="escort_suitcase/so/civ_so_climb_up_out_3m" type="once" segment="base">
+		<anim name="civ_so_climb_up_out_3m"/>
+		<keys>
+			
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_suitcase/so/so_escort_before_door_idle"/>
+	</state>
+	
+	
+	<state name="escort_suitcase/so/civ_so_die_on_ramp" type="once" segment="base">
+		<anim name="civ_so_die_on_ramp"/>
+		<keys>
+			<key at="enter" callback="anim_clbk_play_sound" class_name="sound" param1="rvd_npc_anim_die"/>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_suitcase/so/civ_so_die_on_ramp_loop"/>
+	</state>
+	
+	<state name="escort_suitcase/so/civ_so_die_on_ramp_loop" type="loop" segment="base">
+		<anim name="civ_so_die_on_ramp_loop"/>
+		<keys>
+			
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_suitcase/so/civ_so_die_on_ramp_loop"/>
+	</state>
+	
+	<state name="escort_suitcase/so/e_escort_f_ckoff_to_van" type="once" segment="base">
+		<anim name="e_escort_f_ckoff_to_van"/>
+		<keys>
+			<key at="enter" callback="anim_clbk_wanted_item" class_name="movement" param1="iphone" param2="hand_r" param3="true"/>
+			<key at="exit" callback="anim_clbk_flush_wanted_items" class_name="movement"/>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_suitcase/so/so_escort_before_door_idle"/>
+	</state>
+	
+	
+	
+	
+	<state name="escort_suitcase/so/so_escort_before_door_enter" type="once" segment="base">
+		<anim name="so_escort_before_door_enter"/>
+		<keys>
+			<key at="enter" callback="anim_clbk_wanted_item" class_name="movement" param1="iphone" param2="hand_r" param3="true"/>
+			<key at="exit" callback="anim_clbk_flush_wanted_items" class_name="movement"/>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_suitcase/so/so_escort_before_door_idle"/>
+	</state>
+	
+	<state name="escort_suitcase/so/so_escort_before_door_idle" type="loop" segment="base">
+		<anim name="so_escort_before_door_idle"/>
+		<keys>
+			
+			<key at="exit" callback="anim_clbk_flush_wanted_items" class_name="movement"/>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+		</keys>
+	</state>
+	------------
+	<state name="escort_suitcase/so/so_escort_hurt_opens_door" type="once" segment="base">
+		<anim name="so_escort_hurt_opens_door"/>
+		<keys>
+			
+			<key at="exit" callback="anim_clbk_flush_wanted_items" class_name="movement"/>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			<key at="trigger" trigger="anim_act_01" callback="anim_act_clbk" class_name="base" param1="anim_act_01"/>
+			<key at="trigger" trigger="anim_act_02" callback="anim_act_clbk" class_name="base" param1="anim_act_02"/>
+		</keys>
+		<exit name="escort_suitcase/so/so_escort_before_door_idle"/>
+	</state>
+	------
+	
+
+
+	<state name="escort_prisoner/so/so_enter_ejectionchair" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="7"/>
+		<anim name="so_enter_ejectionchair"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/so/so_ejectionchair_idle"/>
+	</state>
+
+	<state name="escort_prisoner/so/so_ejectionchair_idle" type="loop" segment="base">
+		<from_group name="escort_prisoner" blend="7"/>
+		<anim name="so_ejectionchair_idle"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+	</state>
+
+	
+	<state name="escort_prisoner/so/so_wait_prison_idle" type="loop" segment="base">
+		<anim name="pnc_crh_cover_idle_var1"/>
+		<keys>
+			
+			
+			<key at="enter" set_extension="anim_data" extension_key="act_idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act_idle" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="can_freeze" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="can_freeze" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="idle_full_blend" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle_full_blend" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_prisoner/so/so_wait_prison_idle2" type="loop" segment="base">
+		<anim name="ntl_irp_6_react_idle"/>
+		<keys>
+			
+			
+			<key at="enter" set_extension="anim_data" extension_key="act_idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act_idle" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="can_freeze" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="can_freeze" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="idle_full_blend" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle_full_blend" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_prisoner/so/so_wait_prison_idle3" type="loop" segment="base">
+		<anim name="pnc_std_halt_idle_var1"/>
+		<keys>
+			
+			
+			<key at="enter" set_extension="anim_data" extension_key="act_idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act_idle" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="can_freeze" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="can_freeze" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="idle_full_blend" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle_full_blend" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_prisoner/spawn_prisonvan_var1" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="spawn_prisonvan_var1"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/so/so_wait_prison_idle"/>
+	</state>
+	
+	<state name="escort_prisoner/spawn_prisonvan_var4" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="spawn_prisonvan_var4"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/so/so_wait_prison_idle3"/>
+	</state>
+	
+	<state name="escort_prisoner/spawn_prisonvan_var5" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="spawn_prisonvan_var5"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/so/so_wait_prison_idle3"/>
+	</state>
+		
+	<state name="escort_prisoner/spawn_prisonvan_var8" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="spawn_prisonvan_var8"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/so/so_wait_prison_idle3"/>
+	</state>
+	
+	<state name="escort_prisoner/spawn_prisonvan_var9" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="spawn_prisonvan_var9"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/so/so_wait_prison_idle3"/>
+	</state>
+	
+	<state name="escort_prisoner/spawn_prisonvan_var10" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="spawn_prisonvan_var10"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_prisoner/so/so_wait_prison_idle2"/>
+	</state>
+
+	<state name="escort_prisoner/spawn_crawl_var1" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="spawn_crawl_var1"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/spawn/loop"/>
+	</state>
+	
+	<state name="escort_prisoner/so/so_crawl_var1" type="once" segment="base">
+		<from_group name="escort_prisoner" blend="0"/>
+		<anim name="so_crawl_var1"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/still/hesitant_loop"/>
+	</state>
+	
+	<!-- ABOVE ARE FOR PRISONER -->
+
+
+
+
+	<state name="escort_undercover/empty" type="emptyloop" segment="base">
+		<from_group name="std" blend="3" />
+		<keys>
+			<!-- The "full_blend" flag does not work for emptyloop states. "at" should be equal to/longer than the longest blend -->
+			<key at="6" callback="anim_clbk_base_empty" class_name="anim_data"/>
+			<key at="6" callback="anim_clbk_death_exit" class_name="anim_data"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_empty" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_empty" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_undercover/spawn/loop" type="loop" segment="base">
+		<from_group name="escort_undercover" blend="0"/>
+		
+		<anim name="cover_idle"/>
+		
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="act_idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act_idle" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="can_freeze" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="can_freeze" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+		</keys>
+	</state>
+	
+	
+	
+	<state name="escort_undercover/spawn/crashed" type="template_state" segment="base">
+		<from name="escort_undercover/spawn/loop" blend="0" />
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/still/hesitant_loop"/>
+	</state>
+	
+	<state name="escort_undercover/spawn/crashed/1" type="once" segment="base">
+		<anim name="secret_stash_spawn_crashed_limo1"/>
+	</state>
+	
+	<state name="escort_undercover/spawn/crashed/2" type="once" segment="base">
+		<anim name="secret_stash_spawn_crashed_limo2"/>
+	</state>
+	
+	<state name="escort_undercover/spawn/crashed/3" type="once" segment="base">
+		<anim name="secret_stash_spawn_crashed_limo3"/>
+	</state>
+	
+	<state name="escort_undercover/spawn/crashed/4" type="once" segment="base">
+		<anim name="secret_stash_spawn_crashed_limo4"/>
+	</state>
+	
+	<state name="escort_undercover/still/cover/enter" type="once" segment="base">
+		<anim name="cover_enter"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="full_blend" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="panic" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="panic" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/still/cover/loop"/>
+	</state>
+	
+	<state name="escort_undercover/still/cover/loop" type="loop" segment="base">
+		<anim name="cover_idle"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="full_blend" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="can_freeze" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="can_freeze" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="idle_full_blend" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle_full_blend" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="panic" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="panic" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_undercover/still/hesitant_loop" type="loop" segment="base">
+		<anim name="hesitant_idle"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="full_blend" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="standing_hesitant" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="standing_hesitant" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="can_freeze" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="can_freeze" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="idle_full_blend" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle_full_blend" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_undercover/still/hesitant_act_loop" type="loop" segment="base"><!-- same as above but non-interruptable -->
+		<anim name="hesitant_idle"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="act_idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act_idle" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="full_blend" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="standing_hesitant" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="standing_hesitant" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="can_freeze" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="can_freeze" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="idle" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle" extension_value="false"/>
+			
+			<key at="full_blend" set_extension="anim_data" extension_key="idle_full_blend" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="idle_full_blend" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_undercover/move" type="template_state" segment="base">
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="stand" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="stand" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			
+			<!--key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/-->
+		</keys>
+	</state>
+	 
+	<!-- walk -->
+	<state name="escort_undercover/move/walk" type="template_state" segment="base">
+		<default blend="5"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="walk" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="walk" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="pose" extension_value="stand"/>
+			<key at="exit" set_extension="anim_data" extension_key="pose" extension_value="false"/>
+			
+			<key at="trigger" trigger="leftfoot" callback="anim_clbk_footstep" class_name="movement"/>
+			<key at="trigger" trigger="rightfoot" callback="anim_clbk_footstep" class_name="movement"/>
+		</keys>
+	</state>
+	
+	<state name="escort_undercover/move/walk/fwd" type="template_state" segment="base">
+		<from_group name="escort_undercover/move/walk/fwd" blend="0" />
+		<to name="panic" redirect="escort_undercover/still/cover/enter"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_fwd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_fwd" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="fwd"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+		
+		<exit name="escort_undercover/move/walk/fwd/1" weight="7" />
+		<exit name="escort_undercover/move/walk/fwd/2" weight="1" />
+		<exit name="escort_undercover/move/walk/fwd/3" weight="2" />
+		<exit name="escort_undercover/move/walk/fwd/4" weight="1" />
+	</state>
+	
+	<state name="escort_undercover/move/walk/fwd/1" type="once" segment="base">
+		<anim name="walk_fwd_var1"/>
+	</state>
+	<state name="escort_undercover/move/walk/fwd/2" type="once" segment="base">
+		<anim name="walk_fwd_var2"/>
+	</state>
+	<state name="escort_undercover/move/walk/fwd/3" type="once" segment="base">
+		<anim name="walk_fwd_var3"/>
+	</state>
+	<state name="escort_undercover/move/walk/fwd/4" type="once" segment="base">
+		<anim name="walk_fwd_var4"/>
+	</state>
+	
+	<state name="escort_undercover/move/walk/bwd" type="loop" segment="base">
+		<anim name="walk_bwd"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_bwd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_bwd" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="bwd"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_undercover/move/walk/l" type="loop" segment="base">
+		<anim name="walk_l"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_l" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_l" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="l"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_undercover/move/walk/r" type="loop" segment="base">
+		<anim name="walk_r"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="move_r" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_r" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="move_side" extension_value="r"/>
+			<key at="exit" set_extension="anim_data" extension_key="move_side" extension_value="false"/>
+		</keys>
+	</state>
+	
+	
+	<state name="escort_undercover/so/get_up_hesitant" type="once" segment="base">
+		<to name="panic" redirect="escort_undercover/still/cover/loop"/>
+		<anim name="hesitant_enter"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/still/hesitant_loop"/>
+	</state>
+	
+
+
+
+
+
+
+
+<!-- BELOW IS FOR PRISONER -->
+	
+	<state name="escort_undercover/so/exitcrashedvan/1" type="once" segment="base">
+		<to name="panic" redirect="escort_undercover/still/cover/loop"/>
+		<anim name="spawn_prisonvan_var1"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/still/hesitant_loop"/>
+	</state>
+	
+	<state name="escort_undercover/so/exitcrashedvan/2" type="once" segment="base">
+		<to name="panic" redirect="escort_undercover/still/cover/loop"/>
+		<anim name="spawn_prisonvan_var4"/>
+		<keys>
+			
+		</keys>
+		<exit name="escort_undercover/still/hesitant_loop"/>
+	</state>
+	
+	<state name="escort_undercover/so/exitcrashedvan/3" type="once" segment="base">
+		<to name="panic" redirect="escort_undercover/still/cover/loop"/>
+		<anim name="spawn_prisonvan_var5"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/still/hesitant_loop"/>
+	</state>
+	
+	<state name="escort_undercover/so/exitcrashedvan/4" type="once" segment="base">
+		<to name="panic" redirect="escort_undercover/still/cover/loop"/>
+		<anim name="spawn_prisonvan_var8"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/still/hesitant_loop"/>
+	</state>
+
+<!-- ABOVE IS FOR PRISONER -->
+
+
+	
+
+
+
+	<state name="escort_undercover/so/crashed" type="template_state" segment="base">
+		<from name="escort_undercover/spawn/loop" blend="0"/>
+	</state>
+	
+	<state name="escort_undercover/so/crashed/1" type="once" segment="base">
+		<to name="panic" redirect="escort_undercover/still/hesitant_loop"/>
+		<anim name="secret_stash_so_crashed_limo1"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/still/hesitant_loop"/>
+	</state>
+	
+	<state name="escort_undercover/so/crashed/2" type="once" segment="base">
+		<to name="panic" redirect="escort_undercover/still/hesitant_loop"/>
+		<anim name="secret_stash_so_crashed_limo2"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/still/hesitant_loop"/>
+	</state>
+	
+	<state name="escort_undercover/so/crashed/3" type="once" segment="base">
+		<to name="panic" redirect="escort_undercover/still/hesitant_loop"/>
+		<anim name="secret_stash_so_crashed_limo3"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/still/hesitant_loop"/>
+	</state>
+	
+	<state name="escort_undercover/so/crashed/4" type="once" segment="base">
+		<to name="panic" redirect="escort_undercover/still/hesitant_loop"/>
+		<anim name="secret_stash_so_crashed_limo4"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/still/hesitant_loop"/>
+	</state>
+	
+	
+	
+	<state name="escort_undercover/secret_stash_stand_enter" type="once" segment="base">
+		<anim name="secret_stash_stand_enter"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="unintimidateable" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="unintimidateable" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/secret_stash_stand_loop"/>
+	</state>
+	
+	<state name="escort_undercover/secret_stash_stand_loop" type="loop" segment="base">
+		<anim name="secret_stash_stand_loop"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+			
+		</keys>
+	</state>
+	
+	<state name="escort_undercover/interrogation" type="template_state" segment="base">
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="no_intimidation_by_dmg" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="no_intimidation_by_dmg" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="act" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="act" extension_value="false"/>
+		</keys>
+	</state>
+	
+	<state name="escort_undercover/interrogation/enter" type="once" segment="base">
+		<anim name="secret_stash_sit_enter"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="unintimidateable" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="unintimidateable" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/interrogation/untied_loop"/>
+	</state>
+	
+	<state name="escort_undercover/interrogation/untied_loop" type="loop" segment="base">
+		<anim name="secret_stash_sit_untied_loop"/>
+	</state>
+	
+	<state name="escort_undercover/interrogation/tied_enter" type="once" segment="base">
+		<anim name="secret_stash_sit_tied_enter"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+			<key at="enter" set_extension="anim_data" extension_key="unintimidateable" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="unintimidateable" extension_value="false"/>
+		</keys>
+		<exit name="escort_undercover/interrogation/tied_loop"/>
+	</state>
+	
+	<state name="escort_undercover/interrogation/tied_loop" type="loop" segment="base">
+		<anim name="secret_stash_sit_tied_loop"/>
+	</state>
+	
+	<state name="escort_undercover/interrogation/tied_react" type="once" segment="base">
+		<anim name="secret_stash_sit_tied_react"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+		</keys>
+		<exit name="escort_undercover/interrogation/tied_loop"/>
+	</state>
+	
+	<state name="escort_undercover/interrogation/tied_react2" type="once" segment="base">
+		<anim name="secret_stash_sit_tied_react2"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+		</keys>
+		<exit name="escort_undercover/interrogation/tied_loop"/>
+	</state>
+	
+	<state name="escort_undercover/interrogation/tied_yes" type="once" segment="base">
+		<anim name="secret_stash_sit_tied_yes"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+		</keys>
+		<exit name="escort_undercover/interrogation/tied_loop"/>
+	</state>
+	
+	<state name="escort_undercover/interrogation/tied_no" type="once" segment="base">
+		<anim name="secret_stash_sit_tied_no"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+		</keys>
+		<exit name="escort_undercover/interrogation/tied_loop"/>
+	</state>
+	
+	<state name="escort_undercover/interrogation/tied_fwd_hit" type="once" segment="base">
+		<anim name="secret_stash_sit_tied_fwd_hit"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+		</keys>
+		<exit name="escort_undercover/interrogation/tied_loop"/>
+	</state>
+	
+	<state name="escort_undercover/interrogation/tied_bwd_hit" type="once" segment="base">
+		<anim name="secret_stash_sit_tied_bwd_hit"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+		</keys>
+		<exit name="escort_undercover/interrogation/tied_loop"/>
+	</state>
+	
+	<state name="escort_undercover/interrogation/tied_faint" type="once" segment="base">
+		<anim name="secret_stash_sit_tied_faint"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+		</keys>
+		<exit name="escort_undercover/interrogation/tied_fainted"/>
+	</state>
+	
+	<state name="escort_undercover/interrogation/tied_fainted" type="loop" segment="base">
+		<anim name="secret_stash_sit_tied_fainted"/>
+	</state>
+	
+	<state name="escort_undercover/interrogation/tied_wakeup" type="once" segment="base">
+		<anim name="secret_stash_sit_tied_wakeup"/>
+		<keys>
+			<key at="enter" set_extension="anim_data" extension_key="base_need_upd" extension_value="true"/>
+			<key at="exit" set_extension="anim_data" extension_key="base_need_upd" extension_value="false"/>
+			
+		</keys>
+		<exit name="escort_undercover/interrogation/tied_loop"/>
+	</state>
+
+</xml>

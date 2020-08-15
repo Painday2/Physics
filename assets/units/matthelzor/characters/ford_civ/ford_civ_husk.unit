@@ -1,26 +1,27 @@
 <?xml version="1.0"?>
 <unit type="being" slot="21">
-	<anim_state_machine name="anims/units/escort_guy/escort_prisoner_machine" />
-	<object file="units/matthelzor/characters/ford/ford_civ" />
+	<anim_state_machine name="anims/units/escort_guy/escort_undercover_machine" />
+	<object file="units/matthelzor/characters/ford_civ/ford_civ" />
 
 	<dependencies>
-		
+		<depends_on animation_state_machine="anims/units/escort_guy/escort_undercover_machine" />
+		<depends_on animation_def="anims/units/escort_guy/escort_undercover_def" />
 		<depends_on bnk="soundbanks/regular_vox" />
 	</dependencies>
 
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData"/>
-		<extension name="base" class="CivilianBase" >
+		<extension name="base" class="HuskCivilianBase" >
 			<var name="_tweak_table" value="escort_chinese_prisoner" />
 		</extension>
-		<extension name="inventory" class="CopInventory" />
-		<extension name="brain" class="CivilianBrain" />
+		<extension name="inventory" class="HuskCopInventory" />
+		<extension name="brain" class="HuskCopBrain" />
 		<extension name="anim_data" class="PlayerAnimationData" />
-		<extension name="character_damage" class="CivilianDamage" >
+		<extension name="character_damage" class="HuskCivilianDamage" >
 			<var name="immortal" value="true" />
 			<var name="_no_blood" value="true" />
 		</extension>
-		<extension name="movement" class="CopMovement" >
+		<extension name="movement" class="HuskCopMovement" >
 			<var name="_footwear" value="hardsole" />
 		</extension>
 		<extension name="interaction" class="IntimitateInteractionExt" >
@@ -34,10 +35,9 @@
 			<!-- <var name="init_contour" value="taxman" /> -->
 		</extension>
 		<extension name="sound" class="CopSound" />
-	</extensions>
+	</extensions>>
 
-
-	<network sync="spawn" remote_unit="units/matthelzor/characters/ford/ford_civ_husk"/>
+	<network sync="spawn" remote_unit=""/>
 
 	<sounds>
 		<default_soundsource source="Hips"/>

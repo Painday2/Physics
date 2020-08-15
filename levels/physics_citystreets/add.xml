@@ -12,24 +12,33 @@
 	<animation_state_machine path="anims/units/bo_head/bo_head"/>
 	<animation_states path="anims/units/bo_head/bo"/>
 	<animation_subset path="anims/units/bo_head/bo"/>
-	<animation_def path="anims/units/escort_guy/escort_prisoner_def"/>
-	<animation_state_machine path="anims/units/escort_guy/escort_prisoner_machine"/>
-	<animation_states path="anims/units/escort_guy/escort_prisoner"/>
-	<animation_subset path="anims/units/escort_guy/escort_prisoner"/>
+	
+	<animation_def force="true" path="anims/units/escort_guy/escort_prisoner_def" unload="true"/>
+	<animation_state_machine force="true" path="anims/units/escort_guy/escort_prisoner_machine" unload="true"/>
+	<animation_states force="true" path="anims/units/escort_guy/escort_prisoner" unload="true"/>
+	<animation_subset force="true" path="anims/units/escort_guy/escort_prisoner" unload="true"/>
+	
+	<animation_states force="true" path="anims/units/escort_guy/escort_undercover" unload="true"/>
+	<animation_subset force="true" path="anims/units/escort_guy/escort_undercover" unload="true"/>
+	<animation_def force="true" path="anims/units/escort_guy/escort_undercover_def" unload="true"/>
+	<animation_state_machine force="true" path="anims/units/escort_guy/escort_undercover_machine" unload="true"/>
+	
 	<material_config path="units/pd2_mod_phys/props/bo_head"/>
 	<model path="units/pd2_mod_phys/props/bo_head"/>
 	<object path="units/pd2_mod_phys/props/bo_head"/>
 	<unit path="units/pd2_mod_phys/props/bo_head"/>
 	<unit load="true" path="units/matthelzor/characters/ford/ford" unload="true"/>
 	<unit load="true" path="units/matthelzor/characters/ford/ford_husk" unload="true"/>
-	<unit load="true" path="units/matthelzor/characters/ford/ford_civ" unload="true"/>
-	<unit load="true" path="units/matthelzor/characters/ford/ford_civ_husk" unload="true"/>
 	<material_config path="units/matthelzor/characters/ford/ford" unload="true"/>
-	<material_config path="units/matthelzor/characters/ford/ford_civ" unload="true"/>
 	<model path="units/matthelzor/characters/ford/ford" unload="true"/>
 	<object path="units/matthelzor/characters/ford/ford" unload="true"/>
-	<model path="units/matthelzor/characters/ford/ford_civ" unload="true"/>
-	<object path="units/matthelzor/characters/ford/ford_civ" unload="true"/>
+	
+	<unit load="true" path="units/matthelzor/characters/ford_civ/ford_civ" unload="true"/>
+	<unit load="true" path="units/matthelzor/characters/ford_civ/ford_civ_husk" unload="true"/>
+	<material_config path="units/matthelzor/characters/ford_civ/ford_civ" unload="true"/>
+	<model path="units/matthelzor/characters/ford_civ/ford_civ" unload="true"/>
+	<object path="units/matthelzor/characters/ford_civ/ford_civ" unload="true"/>
+	
 	<texture path="units/matthelzor/characters/ford/hair_df" unload="true"/>
 	<texture path="units/matthelzor/characters/ford/hair_op" unload="true"/>
 	<texture path="units/matthelzor/characters/ford/hair_nm" unload="true"/>

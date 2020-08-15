@@ -1,6 +1,6 @@
 local material_config_paths = {
   "units/matthelzor/characters/ford/ford",
-  "units/matthelzor/characters/ford/ford_civ"
+  "units/matthelzor/characters/ford_civ/ford_civ"
 }
 
 for i, material_config_path in pairs(material_config_paths) do

@@ -1,0 +1,14 @@
+
+<state_machine name="escort_undercover" timebase="frames">
+	<segment name="base"/>
+	<segment name="upper_body"/>
+	
+	<global name="ntl" value="1"/>
+	<global name="hos" value="0"/>
+	<global name="cbt" value="0"/>
+	<global name="wnd" value="0"/> <!--not used but needed to share script with other characters-->
+	
+	<default state="escort_undercover/spawn/loop"/>
+	
+	<states file="anims/units/escort_guy/escort_undercover"/>
+</state_machine>
