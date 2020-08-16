@@ -1441,15 +1441,46 @@
 		<unit path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
 	</add>
 	<add path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" type="unit">
-		<unit path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" unload="true"/>
-		<object path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" unload="true"/>
-		<material_config path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" unload="true"/>
 		<texture path="units/payday2/props/off_prop_appliance_monitor/monitor_nm" unload="true"/>
 		<texture path="units/payday2/props/off_prop_appliance_monitor/monitor_df" unload="true"/>
 		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_df" unload="true"/>
 		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_il" unload="true"/>
 		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_v2_df" unload="true"/>
 		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_background_variations_df" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" unload="true"/>
 		<sequence_manager path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal" unload="true"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<material_config path="units/pickups/pickup_bank_manager_key/pickup_bank_manager_key" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/shapecharger_explosion" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/fire_smoke_mid" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/dark_smoke_big" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
 	</add>
 </table>
