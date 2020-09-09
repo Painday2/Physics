@@ -151,6 +151,8 @@
 			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="elevator/elevator.continent" type="binary"/>
 			<file file="elevator/elevator.mission" type="binary"/>
+			<file file="entry_lobby/entry_lobby.continent" type="binary"/>
+			<file file="entry_lobby/entry_lobby.mission" type="binary"/>
 			<file file="world/world.continent" type="binary"/>
 			<file file="world/world.mission" type="binary"/>
 			<file file="exterior_mkp/exterior_mkp.continent" type="binary"/>
@@ -163,6 +165,7 @@
 		<outro_event/>
 		<packages>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/short1/stage1/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

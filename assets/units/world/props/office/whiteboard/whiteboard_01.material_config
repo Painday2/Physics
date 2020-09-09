@@ -1,0 +1,7 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:INSTANCED" decal_material="wood" version="2" name="whiteboard_01">
+        <diffuse_texture file="units/world/props/office/whiteboard/whiteboard_01_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="1 0.050000000745058 0.30000001192093" type="vector3" name="environment_settings"/>
+    </material>
+</materials>
