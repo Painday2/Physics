@@ -295,8 +295,76 @@
 		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" unload="true"/>
 	</add>
 	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" unload="true"/>
-		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" unload="true"/>
 		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+	</add>
+	<add path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" type="unit">
+		<object path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<sequence_manager path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<unit path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" type="unit">
+		<texture path="units/payday2/props/off_prop_appliance_monitor/monitor_nm" unload="true"/>
+		<texture path="units/payday2/props/off_prop_appliance_monitor/monitor_df" unload="true"/>
+		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_df" unload="true"/>
+		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_il" unload="true"/>
+		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_background_variations_df" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
+	</add>
+	<add path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_hack_computer_interaction_contour" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" unload="true"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" unload="true"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" unload="true"/>
+	</add>
+	<add path="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" type="unit">
+		<material_config path="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" unload="true"/>
+		<object path="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" unload="true"/>
+		<unit path="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" unload="true"/>
+	</add>
+	<add path="units/payday2/props/off_prop_appliance_mouse/off_prop_appliance_mouse" type="unit">
+		<material_config path="units/payday2/props/off_prop_appliance_mouse/off_prop_appliance_mouse" unload="true"/>
+		<object path="units/payday2/props/off_prop_appliance_mouse/off_prop_appliance_mouse" unload="true"/>
+		<unit path="units/payday2/props/off_prop_appliance_mouse/off_prop_appliance_mouse" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_01" unload="true"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_01" unload="true"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_01" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_01" unload="true"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_02" unload="true"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_02" unload="true"/>
+	</add>
+	<add path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" type="unit">
+		<unit path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" unload="true"/>
+		<object path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" unload="true"/>
+		<material_config path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" unload="true"/>
+		<sequence_manager path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
 	</add>
 </table>
