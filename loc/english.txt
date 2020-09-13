@@ -63,5 +63,14 @@
 	"boworks2_mission2d":"Defend the computer",
 	"boworks2_mission2d_desc":"Defend the computer from the police while Cocke hacks into it.",
 	"boworks2_mission3":"Escape!",
-	"boworks2_mission3_desc":"Call the elevator to escape the lower section of the tower, and confront Bo."
+	"boworks2_mission3_desc":"Call the elevator to escape the lower section of the tower, and confront Bo.",
+
+	"boworks3_mission1":"Enter the elevator up",
+	"boworks3_mission1_desc":"Find and face Bo, one more time.",
+	"boworks3_mission2":"Kill Bo",
+	"boworks3_mission2_desc":"Kill that son of a bitch!",
+	"boworks3_mission3":"Refund the game",
+	"boworks3_mission3_desc":"That sucked.",
+	"boworks3_mission4":"Rescue Pain",
+	"boworks3_mission4_desc":"secret secret secret"
 }

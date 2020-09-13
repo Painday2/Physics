@@ -1,0 +1,6 @@
+<unit type="res" slot="1" >
+    <object file="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_pavement" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

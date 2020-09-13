@@ -1,0 +1,12 @@
+<materials version="3">
+    <material name="mat_fan_ceiling" version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <bump_normal_texture file="units/world/props/gym/stn_prop_fan_ceiling/stn_prop_fan_ceiling_nm"/>
+        <diffuse_texture file="units/world/props/gym/stn_prop_fan_ceiling/stn_prop_fan_ceiling_df"/>
+    </material>
+    <material name="mat_lamp" version="2" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_TINT">
+        <variable value="light::color" type="listener" name="il_tint" object="ls_light"/>
+        <diffuse_texture file="units/world/props/gym/stn_prop_fan_ceiling/stn_prop_fan_ceiling_df"/>
+        <self_illumination_texture file="units/world/props/gym/stn_prop_fan_ceiling/stn_prop_fan_ceiling_il"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+    </material>
+</materials>

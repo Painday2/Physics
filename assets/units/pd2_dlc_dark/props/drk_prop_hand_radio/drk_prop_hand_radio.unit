@@ -1,0 +1,6 @@
+<unit type="drk" slot="1">
+	<object file="units/pd2_dlc_dark/props/drk_prop_hand_radio/drk_prop_hand_radio" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

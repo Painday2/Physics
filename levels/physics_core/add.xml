@@ -361,10 +361,93 @@
 		<unit path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_02" unload="true"/>
 	</add>
 	<add path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" type="unit">
-		<unit path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" unload="true"/>
-		<object path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" unload="true"/>
-		<material_config path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" unload="true"/>
-		<sequence_manager path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" unload="true"/>
+		<object path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" unload="true"/>
+		<sequence_manager path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" unload="true"/>
+		<unit path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker" unload="true"/>
+	</add>
+	<add path="units/world/props/gym/stn_prop_fan_ceiling/stn_prop_fan_ceiling" type="unit">
+		<material_config path="units/world/props/gym/stn_prop_fan_ceiling/stn_prop_fan_ceiling" unload="true"/>
+		<object path="units/world/props/gym/stn_prop_fan_ceiling/stn_prop_fan_ceiling" unload="true"/>
+		<sequence_manager path="units/world/props/gym/stn_prop_fan_ceiling/stn_prop_fan_ceiling" unload="true"/>
+		<unit path="units/world/props/gym/stn_prop_fan_ceiling/stn_prop_fan_ceiling" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_dark/props/drk_prop_hand_radio/drk_prop_hand_radio" type="unit">
+		<material_config path="units/pd2_dlc_dark/props/drk_prop_hand_radio/drk_prop_hand_radio" unload="true"/>
+		<object path="units/pd2_dlc_dark/props/drk_prop_hand_radio/drk_prop_hand_radio" unload="true"/>
+		<unit path="units/pd2_dlc_dark/props/drk_prop_hand_radio/drk_prop_hand_radio" unload="true"/>
+	</add>
+	<add path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/statue_woman" type="unit">
+		<effect load="true" path="effects/particles/dest/ceramic_cup_dest" unload="true"/>
+		<material_config path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/statue" unload="true"/>
+		<object path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/statue_woman" unload="true"/>
+		<sequence_manager path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/statue" unload="true"/>
+		<unit path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/statue_woman" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_barista_cup/com_prop_barista_cup_tall" type="unit">
+		<material_config path="units/payday2/props/com_prop_barista_cup/com_prop_barista_cup" unload="true"/>
+		<object path="units/payday2/props/com_prop_barista_cup/com_prop_barista_cup_tall" unload="true"/>
+		<unit path="units/payday2/props/com_prop_barista_cup/com_prop_barista_cup_tall" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_holly/mansion/props/lxa_prop_livingroom_tv_uhd/lxa_prop_livingroom_tv_uhd" type="unit">
+		<material_config path="units/pd2_dlc_holly/mansion/props/lxa_prop_livingroom_tv_uhd/lxa_prop_livingroom_tv_uhd" unload="true"/>
+		<object path="units/pd2_dlc_holly/mansion/props/lxa_prop_livingroom_tv_uhd/lxa_prop_livingroom_tv_uhd" unload="true"/>
+		<unit path="units/pd2_dlc_holly/mansion/props/lxa_prop_livingroom_tv_uhd/lxa_prop_livingroom_tv_uhd" unload="true"/>
+	</add>
+	<add path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_picture_01" type="unit">
+		<material_config path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_picture_01" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_small" unload="true"/>
+		<object path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_picture_01" unload="true"/>
+		<physic_effect path="core/physic_effects/sequencemanager_push" unload="true"/>
+		<sequence_manager path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_pictures" unload="true"/>
+		<unit path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_picture_01" unload="true"/>
+	</add>
+	<add path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_picture_07" type="unit">
+		<material_config path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_picture_07" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<object path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_picture_07" unload="true"/>
+		<physic_effect path="core/physic_effects/sequencemanager_push" unload="true"/>
+		<sequence_manager path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_pictures" unload="true"/>
+		<unit path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_picture_07" unload="true"/>
+	</add>
+	<add path="units/world/props/office/computer/computer_mouse" type="unit">
+		<material_config path="units/world/props/office/computer/computer_keyboard" unload="true"/>
+		<object path="units/world/props/office/computer/computer_mouse" unload="true"/>
+		<unit path="units/world/props/office/computer/computer_mouse" unload="true"/>
+	</add>
+	<add path="units/world/props/office/computer/computer_case" type="unit">
+		<material_config path="units/world/props/office/computer/computer_tower" unload="true"/>
+		<object path="units/world/props/office/computer/computer_case" unload="true"/>
+		<unit path="units/world/props/office/computer/computer_case" unload="true"/>
+	</add>
+	<add path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_wooden_a/spawn_debris_door_wooden_a" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_wooden_a/spawn_debris_door_wooden_a" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_wooden_a/spawn_debris_door_wooden_a" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_in" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_out" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/ind/ind_ext_backdrop_building_5" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_backdrop_building" unload="true"/>
+		<object path="units/payday2/architecture/ind/ind_ext_backdrop_building_5" unload="true"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_backdrop_building_5" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_pavement" type="unit">
+		<unit path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_pavement" unload="true"/>
+		<object path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_pavement" unload="true"/>
+		<material_config path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_pavement" unload="true"/>
 	</add>
 </table>

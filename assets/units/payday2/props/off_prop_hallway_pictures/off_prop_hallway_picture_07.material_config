@@ -1,0 +1,18 @@
+<materials version="3">
+    <material name="off_prop_hallway_picture_07_mat" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" decal_material="wood" version="2" >
+        <diffuse_texture file="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_pictures_07_df"/>
+		<bump_normal_texture file="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_pictures_nm"/>
+    </material>
+    <material name="glass_mat" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" decal_material="glass_breakable" version="2" >
+        <opacity_texture file="units/payday2/glass/glass_clear_small_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_small_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material name="glass_dmg_mat" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" decal_material="glass_breakable" version="2" >
+        <variable value="2 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_shattered_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_shattered_df"/>
+		<bump_normal_texture file="units/payday2/glass/glass_shattered_nm"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+</materials>

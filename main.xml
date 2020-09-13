@@ -76,7 +76,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="America" briefing_dialog="physics_tower_briefing_dialog" id="physics_tower" intro_event="physics_tower_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_02_df" max_bags="54" orig_id="BoWorks_Tower" player_style="generic">
+	<level ai_group_type="America" briefing_dialog="physics_tower_briefing_dialog" id="physics_tower" intro_event="physics_tower_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_02_df" max_bags="54" orig_id="BoWorks_Tower">
 		<add file="levels/physics_tower/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -128,13 +128,12 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="america" id="physics_core" max_bags="54" orig_id="physics_core">
+	<level ai_group_type="America" briefing_dialog="physics_core_briefind_dialog" id="physics_core" intro_event="physics_core_intro_event" max_bags="54" orig_id="physics_core">
 		<add file="levels/physics_core/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
-			<asset name="bodybags_bag"/>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
@@ -162,10 +161,13 @@
 			<file file="cover_data.cover_data" type="binary"/>
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
-		<outro_event/>
+		<outro_event>
+			<value_node value="physics_core_outro_event"/>
+		</outro_event>
 		<packages>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 			<value_node value="levels/narratives/short1/stage1/world/world"/>
+			<value_node value="levels/narratives/classics/red2/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -183,6 +185,9 @@
 		<sound id="physics_tower_briefing_dialog" path="brief/physics_tower_briefing_dialog.ogg"/>
 		<sound id="physics_tower_intro_event" path="brief/physics_tower_intro_event.ogg" subtitle_id="physics_tower_intro_event_sub"/>
 		<sound id="physics_tower_outro_event" path="brief/physics_tower_outro_event.ogg"/>
+		<sound id="physics_core_briefing_dialog" path="brief/physics_core_briefing_dialog.ogg"/>
+		<sound id="physics_core_intro_event" path="brief/physics_core_intro_event.ogg" subtitle_id="physics_core_intro_event_sub"/>
+		<sound id="physics_core_outro_event" path="brief/physics_core_outro_event.ogg"/>
 		<sound id="museum_info_history_1" path="day1/museum_info_history_1.ogg" subtitle_id="museum_info_history_1_sub"/>
 		<sound id="museum_info_history_2" path="day1/museum_info_history_2.ogg" subtitle_id="museum_info_history_2_sub"/>
 		<sound id="museum_info_history_3" path="day1/museum_info_history_3.ogg" subtitle_id="museum_info_history_3_sub"/>
@@ -274,6 +279,25 @@
 	<instance id="physics_instance_d2_andreascomputer">
 		<add directory="assets"/>
 		<include directory="levels/instances/physics_instance_d2_andreascomputer">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="physics_instance_d3_circuitbreaker">
+		<add file="levels/instances/physics_instance_d3_circuitbreaker/add.xml"/>
+		<include directory="levels/instances/physics_instance_d3_circuitbreaker">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
 			<file file="mission.mission" type="binary"/>

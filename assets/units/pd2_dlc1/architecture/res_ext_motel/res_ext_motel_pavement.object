@@ -1,0 +1,21 @@
+<dynamic_object>
+    <diesel orientation_object="rp_res_ext_motel_pavement" materials="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_pavement" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="rp_res_ext_motel_pavement"/>
+			<object name="c_mesh_mopp" collision_type="mesh_mopp" />
+		</body>
+        <body enabled="true" template="nav_walk" name="static_navigation" >
+			<object name="rp_res_ext_motel_pavement"/>
+			<object name="c_mesh_mopp_nav" collision_type="mesh_mopp" />
+		</body>
+    </bodies>
+	
+	<decal_surfaces default_material="concrete">
+		<decal_mesh name="dm_concrete" enabled="true" material="concrete"/>
+    </decal_surfaces>
+	<graphics>
+		<object name="g_ground" enabled="true"/>
+		<object name="s_s"  enabled="true" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

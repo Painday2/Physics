@@ -1,0 +1,14 @@
+<unit type="off" slot="1">
+  <object file="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_picture_01" />
+	<dependencies>
+		<depends_on physic_effect="core/physic_effects/sequencemanager_push"/>
+		<depends_on effect="effects/payday2/particles/window/storefront_window_small" />
+	</dependencies>	
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+	<sounds>
+		<soundsource name="snd" source="rp_off_prop_hallway_picture_01" />
+	</sounds>
+</unit>
