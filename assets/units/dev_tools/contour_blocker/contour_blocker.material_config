@@ -1,0 +1,8 @@
+<materials version="3">
+    <material render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" version="2" name="mtr_occlusion_blocker">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="0.0039215688593686 0.0039215688593686 0.0039215688593686" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+</materials>

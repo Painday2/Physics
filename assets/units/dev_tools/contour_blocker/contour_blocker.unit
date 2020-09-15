@@ -1,0 +1,7 @@
+<unit type="hsp" slot="1" >
+    <object file="units/dev_tools/contour_blocker/contour_blocker" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+        <extension name="damage" class="UnitDamage" />
+    </extensions>
+</unit>

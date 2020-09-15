@@ -628,4 +628,10 @@
 		<object path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_pavement" unload="true"/>
 		<material_config path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_pavement" unload="true"/>
 	</add>
+	<add path="units/dev_tools/contour_blocker/contour_blocker" type="unit">
+		<unit path="units/dev_tools/contour_blocker/contour_blocker" unload="true"/>
+		<object path="units/dev_tools/contour_blocker/contour_blocker" unload="true"/>
+		<material_config path="units/dev_tools/contour_blocker/contour_blocker" unload="true"/>
+		<sequence_manager path="units/dev_tools/contour_blocker/contour_blocker" unload="true"/>
+	</add>
 </table>

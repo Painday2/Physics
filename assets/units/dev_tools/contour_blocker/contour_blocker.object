@@ -1,0 +1,13 @@
+<dynamic_object>
+    <diesel orientation_object="rp_contour_blocker" materials="units/dev_tools/contour_blocker/contour_blocker" />
+    <sequence_manager file="units/dev_tools/contour_blocker/contour_blocker" />
+    <bodies>
+    	<body name="editor" enabled="true" template="editor">
+    		<object name="rp_contour_blocker" />
+    		<object name="g_contour_blocker" collision_type="box" />
+    	</body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_contour_blocker" />
+    </graphics>
+</dynamic_object>
