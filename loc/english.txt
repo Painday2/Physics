@@ -9,6 +9,14 @@
 	"heist_physics_core_brief":"Time to rescue Pain. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mollis ultrices dui in mollis. Donec id felis ante. Nulla mattis bibendum mi et aliquet. Nunc sed odio at neque venenatis pellentesque sit amet at urna. Aenean vel magna quis mi interdum molestie placerat sit amet ante. Duis id bibendum nunc. Fusce aliquet, nisl porttitor rutrum consequat, enim sem sodales tortor, nec tincidunt odio turpis finibus purus. Nulla tincidunt ultrices mi, quis ornare odio fringilla vulputate. Donec vitae vulputate augue. Suspendisse mi sem, luctus sit amet tincidunt nec, dignissim sollicitudin ante.\n\nAliquam erat volutpat. Curabitur in erat lacus. Mauris lacinia nisi lectus, ac scelerisque felis rhoncus sit amet. Vivamus ullamcorper erat nisl, at consequat dolor molestie quis. Quisque tincidunt ligula eu est ornare volutpat. Suspendisse in tellus vitae tellus tristique facilisis. Sed maximus ipsum quis gravida fringilla. Fusce iaculis auctor quam eget malesuada. Sed massa nisi, cursus ut ullamcorper quis, posuere ut justo. Sed ligula nisl, molestie eu tincidunt nec, cursus in ligula. Duis sagittis, ligula vitae imperdiet varius, nisl quam commodo nisi, vitae lobortis enim mauris quis enim.",
 
 	"heist_physics_transition":"Loading",
+	"physics_citystreets_bypass_name":"Authentication Bypass",
+	"physics_citystreets_bypass_desc":"Buy a way to skip exploring the Stock OS museum",
+	"physics_citystreets_gammon_name":"The Three Keys",
+	"physics_citystreets_gammon_desc":"You've had these three keys laying around for the past few years. Maybe it's worth bringing them?",
+	"physics_tower_reduced_security_name":"Reduced Security Presence",
+	"physics_tower_reduced_security_desc":"Bribe authorities for a reduced security presence on arrival",
+	"physics_core_dozer_name":"Bulldozer",
+	"physics_core_dozer_desc":"Hire a bulldozer to provide cover fire",
 
 	"menu_jukebox_music_pain3_cbt":"Cocke and Bo Torture",
 	"menu_jukebox_screen_music_pain3_cbt":"Cocke and Bo Torture",

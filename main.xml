@@ -21,21 +21,24 @@
 		<event name="cumtest2" source="test2.ogg"/>
 		<event name="cumtest3" source="test1.ogg" start_source="test2.ogg"/>
 	</HeistMusic>
-	<level ai_group_type="America" briefing_dialog="physics_citystreets_briefing_dialog" id="physics_citystreets" intro_event="physics_citystreets_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_01_df" max_bags="5" orig_id="BoWorks" team_ai_off="false">
+	<level ai_group_type="America" briefing_dialog="physics_citystreets_briefing_dialog" id="physics_citystreets" intro_event="physics_citystreets_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_01_df" max_bags="0" orig_id="BoWorks" team_ai_off="false">
 		<add file="levels/physics_citystreets/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
-			<asset name="welcome_to_the_jungle_guards"/>
+			<asset name="physics_citystreets_bypass"/>
+			<asset name="physics_citystreets_gammon"/>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="tweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
+			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
 		</hooks>
 		<include directory="levels/physics_citystreets">
 			<file file="world.world" type="binary"/>
@@ -78,19 +81,22 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="America" briefing_dialog="physics_tower_briefing_dialog" id="physics_tower" intro_event="physics_tower_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_02_df" max_bags="54" orig_id="BoWorks_Tower">
+	<level ai_group_type="America" briefing_dialog="physics_tower_briefing_dialog" id="physics_tower" intro_event="physics_tower_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_02_df" max_bags="0" orig_id="BoWorks_Tower">
 		<add file="levels/physics_tower/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
+			<asset name="physics_tower_reduced_security"/>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
 			<hook file="copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
 		</hooks>
 		<include directory="levels/physics_tower">
 			<file file="world.world" type="binary"/>
@@ -124,6 +130,8 @@
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 			<value_node value="levels/narratives/vlad/peta/stage2/world/world"/>
 			<value_node value="packages/narr_framing_1"/>
+			<value_node value="packages/escape_park"/>
+			<value_node value="packages/narr_jerry2"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -131,13 +139,14 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="America" briefing_dialog="physics_core_briefing_dialog" id="physics_core" intro_event="physics_core_intro_event" max_bags="54" orig_id="physics_core">
+	<level ai_group_type="America" briefing_dialog="physics_core_briefing_dialog" id="physics_core" intro_event="physics_core_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_03_df" max_bags="0" orig_id="physics_core">
 		<add file="levels/physics_core/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
 			<asset name="framing_frame_2_sniper"/>
+			<asset name="physics_core_dozer"/>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
@@ -146,6 +155,7 @@
 			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
 			<hook file="copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
 		</hooks>
 		<include directory="levels/physics_core">
 			<file file="world.world" type="binary"/>
@@ -323,6 +333,7 @@
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/mods/phys/textures/loading/job_physics_01_df"/>
 		<texture load="true" path="guis/mods/phys/textures/loading/job_physics_02_df"/>
+		<texture load="true" path="guis/mods/phys/textures/loading/job_physics_03_df"/>
 		<texture load="true" path="guis/mods/phys/textures/physics_icon"/>
 	</AddFiles>
 	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
@@ -336,13 +347,13 @@
 			<table level_id="physics_core" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
-			<value_node value="4000"/>
-			<value_node value="8000"/>
-			<value_node value="20000"/>
-			<value_node value="40000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
+			<value_node value="30"/>
+			<value_node value="60"/>
+			<value_node value="150"/>
+			<value_node value="300"/>
+			<value_node value="345"/>
+			<value_node value="390"/>
+			<value_node value="420"/>
 		</contract_cost>
 		<crimenet_callouts>
 			<value_node value="physics_crimenet_callouts"/>
@@ -381,13 +392,13 @@
 			<value_node value="2000"/>
 		</min_mission_xp>
 		<payout>
-			<value_node value="6000"/>
-			<value_node value="12000"/>
-			<value_node value="30000"/>
-			<value_node value="50000"/>
-			<value_node value="60000"/>
-			<value_node value="60000"/>
-			<value_node value="60000"/>
+			<value_node value="30"/>
+			<value_node value="60"/>
+			<value_node value="150"/>
+			<value_node value="300"/>
+			<value_node value="345"/>
+			<value_node value="390"/>
+			<value_node value="420"/>
 		</payout>
 	</narrative>
 </table>

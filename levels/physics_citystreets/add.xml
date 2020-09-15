@@ -1,4 +1,8 @@
 <table directory="assets">
+	<add unload_on_restart="true">
+		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d1_bypass"/>
+		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d1_gammon"/>
+	</add>
 	<add path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield" type="unit">
 		<cooked_physics path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
 		<model path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
