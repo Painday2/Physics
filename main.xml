@@ -132,7 +132,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="America" briefing_dialog="physics_core_briefind_dialog" id="physics_core" intro_event="physics_core_intro_event" max_bags="54" orig_id="physics_core">
+	<level ai_group_type="America" briefing_dialog="physics_core_briefing_dialog" id="physics_core" intro_event="physics_core_intro_event" max_bags="54" orig_id="physics_core">
 		<add file="levels/physics_core/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
