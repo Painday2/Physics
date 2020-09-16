@@ -4,182 +4,159 @@
 	</add>
 	<add path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield" type="unit">
 		<cooked_physics path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
+		<material_config path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
 		<model path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
 		<object path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
-		<material_config path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
 		<sequence_manager path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
 		<unit path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
 	</add>
 	<add path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield" type="unit">
 		<cooked_physics path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield"/>
+		<material_config path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield"/>
 		<model path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield"/>
 		<object path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield"/>
-		<material_config path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield"/>
 		<sequence_manager path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield"/>
 		<unit path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield"/>
 	</add>
 	<add path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield" type="unit">
 		<cooked_physics path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield"/>
+		<material_config path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield"/>
 		<model path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield"/>
 		<object path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield"/>
-		<material_config path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield"/>
 		<sequence_manager path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield"/>
 		<unit path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield"/>
 	</add>
-	<!-- Starbreeze -->
-		<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_sbz_df"/>
-
-		<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_sbz"/>
-		<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_sbz_contour"/>
-
-		<!-- Base Units -->
-			<!-- Normal -->
-				<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5" type="unit">
-					<cooked_physics path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5"/>
-					<model path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5"/>
-					<object path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5"/>
-					<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5"/>
-					<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5_husk"/>
-				</add>
-				<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_c45/ene_sbz_shield_c45" type="unit">
-					<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_c45/ene_sbz_shield_c45"/>
-					<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_c45/ene_sbz_shield_c45_husk"/>
-				</add>
-				<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_mp9/ene_sbz_shield_mp9" type="unit">
-					<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_mp9/ene_sbz_shield_mp9"/>
-					<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_mp9/ene_sbz_shield_mp9_husk"/>
-				</add>
-				<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870" type="unit">
-					<cooked_physics path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870"/>
-					<model path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870"/>
-					<object path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870"/>
-					<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870"/>
-					<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870_husk"/>
-				</add>
-
-			<!-- Heavy -->
-				<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4" type="unit">
-					<cooked_physics path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4"/>
-					<model path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4"/>
-					<object path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4"/>
-					<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4"/>
-					<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4_husk"/>
-				</add>
-				<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870" type="unit">
-					<cooked_physics path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870"/>
-					<model path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870"/>
-					<object path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870"/>
-					<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870"/>
-					<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870_husk"/>
-				</add>
-
-	<!-- Overkill -->
-		<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_ovk_df"/>
-		<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_ovk_heavy_df"/>
-
-		<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_ovk"/>
-		<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_ovk_contour"/>
-		<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_ovk_heavy"/>
-		<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_ovk_heavy_contour"/>
-
-		<!-- Base Units -->
-			<!-- Normal -->
-				<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4" type="unit">
-					<cooked_physics path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4"/>
-					<model path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4"/>
-					<object path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4"/>
-					<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4"/>
-					<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4_husk"/>
-				</add>
-				<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_c45/ene_ovk_shield_c45" type="unit">
-					<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_c45/ene_ovk_shield_c45"/>
-					<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_c45/ene_ovk_shield_c45_husk"/>
-				</add>
-				<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_c45/ene_ovk_shield_mp9" type="unit">
-					<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_mp9/ene_ovk_shield_mp9"/>
-					<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_mp9/ene_ovk_shield_mp9_husk"/>
-				</add>
-				<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870" type="unit">
-					<cooked_physics path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870"/>
-					<model path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870"/>
-					<object path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870"/>
-					<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870"/>
-					<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870_husk"/>
-				</add>
-
-			<!-- Heavy -->
-				<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4" type="unit">
-					<cooked_physics path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4"/>
-					<model path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4"/>
-					<object path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4"/>
-					<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4"/>
-					<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4_husk"/>
-				</add>
-				<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870" type="unit">
-					<cooked_physics path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870"/>
-					<model path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870"/>
-					<object path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870"/>
-					<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870"/>
-					<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870_husk"/>
-				</add>
-
-	<!-- Bo-Force Alpha -->
-		<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_bofa_df"/>
-		<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_bofa_heavy_df"/>
-
-		<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_bofa"/>
-		<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_bofa_contour"/>
-		<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_bofa_heavy"/>
-		<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_bofa_heavy_contour"/>
-
-		<!-- Base Units -->
-			<!-- Normal -->
-				<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36" type="unit">
-					<cooked_physics path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36"/>
-					<model path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36"/>
-					<object path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36"/>
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36"/>
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36_husk"/>
-				</add>
-				<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870" type="unit">
-					<cooked_physics path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870"/>
-					<model path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870"/>
-					<object path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870"/>
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870"/>
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870_husk"/>
-				</add>
-				<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_c45/ene_bofa_shield_c45" type="unit">
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_c45/ene_bofa_shield_c45"/>
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_c45/ene_bofa_shield_c45_husk"/>
-				</add>
-				<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_mp9/ene_bofa_shield_mp9" type="unit">
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_mp9/ene_bofa_shield_mp9"/>
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_mp9/ene_bofa_shield_mp9_husk"/>
-				</add>
-				<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_ump/ene_bofa_ump" type="unit">
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_ump/ene_bofa_ump"/>
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_ump/ene_bofa_ump_husk"/>
-				</add>
-				<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_benelli/ene_bofa_benelli" type="unit">
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_benelli/ene_bofa_benelli"/>
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_benelli/ene_bofa_benelli_husk"/>
-				</add>
-
-			<!-- Heavy -->
-				<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36" type="unit">
-					<cooked_physics path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36"/>
-					<model path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36"/>
-					<object path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36"/>
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36"/>
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36_husk"/>
-				</add>
-				<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870" type="unit">
-					<cooked_physics path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870"/>
-					<model path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870"/>
-					<object path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870"/>
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870"/>
-					<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870_husk"/>
-				</add>
+	<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_sbz_df"/>
+	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_sbz"/>
+	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_sbz_contour"/>
+	<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5"/>
+		<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5_husk"/>
+		<cooked_physics path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5"/>
+		<model path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5"/>
+		<object path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_c45/ene_sbz_shield_c45" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_c45/ene_sbz_shield_c45"/>
+		<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_c45/ene_sbz_shield_c45_husk"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_mp9/ene_sbz_shield_mp9" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_mp9/ene_sbz_shield_mp9"/>
+		<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_mp9/ene_sbz_shield_mp9_husk"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870"/>
+		<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870_husk"/>
+		<cooked_physics path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870"/>
+		<model path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870"/>
+		<object path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4"/>
+		<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4_husk"/>
+		<cooked_physics path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4"/>
+		<model path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4"/>
+		<object path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870"/>
+		<unit path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870_husk"/>
+		<cooked_physics path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870"/>
+		<model path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870"/>
+		<object path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870"/>
+	</add>
+	<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_ovk_df"/>
+	<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_ovk_heavy_df"/>
+	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_ovk"/>
+	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_ovk_contour"/>
+	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_ovk_heavy"/>
+	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_ovk_heavy_contour"/>
+	<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4"/>
+		<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4_husk"/>
+		<cooked_physics path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4"/>
+		<model path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4"/>
+		<object path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_c45/ene_ovk_shield_c45" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_c45/ene_ovk_shield_c45"/>
+		<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_c45/ene_ovk_shield_c45_husk"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_c45/ene_ovk_shield_mp9" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_mp9/ene_ovk_shield_mp9"/>
+		<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_mp9/ene_ovk_shield_mp9_husk"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870"/>
+		<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870_husk"/>
+		<cooked_physics path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870"/>
+		<model path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870"/>
+		<object path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4"/>
+		<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4_husk"/>
+		<cooked_physics path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4"/>
+		<model path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4"/>
+		<object path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870"/>
+		<unit path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870_husk"/>
+		<cooked_physics path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870"/>
+		<model path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870"/>
+		<object path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870"/>
+	</add>
+	<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_bofa_df"/>
+	<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_bofa_heavy_df"/>
+	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_bofa"/>
+	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_bofa_contour"/>
+	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_bofa_heavy"/>
+	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_bofa_heavy_contour"/>
+	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36"/>
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36_husk"/>
+		<cooked_physics path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36"/>
+		<model path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36"/>
+		<object path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870"/>
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870_husk"/>
+		<cooked_physics path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870"/>
+		<model path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870"/>
+		<object path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_c45/ene_bofa_shield_c45" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_c45/ene_bofa_shield_c45"/>
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_c45/ene_bofa_shield_c45_husk"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_mp9/ene_bofa_shield_mp9" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_mp9/ene_bofa_shield_mp9"/>
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_mp9/ene_bofa_shield_mp9_husk"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_ump/ene_bofa_ump" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_ump/ene_bofa_ump"/>
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_ump/ene_bofa_ump_husk"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_benelli/ene_bofa_benelli" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_benelli/ene_bofa_benelli"/>
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_benelli/ene_bofa_benelli_husk"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36"/>
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36_husk"/>
+		<cooked_physics path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36"/>
+		<model path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36"/>
+		<object path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36"/>
+	</add>
+	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870" type="unit">
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870"/>
+		<unit path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870_husk"/>
+		<cooked_physics path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870"/>
+		<model path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870"/>
+		<object path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870"/>
+	</add>
 	<add unload_on_restart="true">
 		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
 		<object path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
@@ -1649,19 +1626,39 @@
 		<material_config path="units/pickups/pickup_bank_manager_key/pickup_bank_manager_key" unload="true"/>
 		<sequence_manager path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
 		<unit path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<object path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
 		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
 		<sequence_manager path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
 		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
 		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
 		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
-		<gui path="guis/timer_gui" unload="true"/>
 		<effect load="true" path="effects/payday2/particles/explosions/shapecharger_explosion" unload="true"/>
 		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/smoke" unload="true"/>
 		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/fire_smoke_mid" unload="true"/>
 		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks" unload="true"/>
 		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/dark_smoke_big" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
 		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" unload="true"/>
+	</add>
+	<add path="units/payday2/mockup/occluder_plane_16x16" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane" unload="true"/>
+		<object path="units/payday2/mockup/occluder_plane_16x16" unload="true"/>
+		<unit path="units/payday2/mockup/occluder_plane_16x16" unload="true"/>
+	</add>
+	<add path="units/payday2/mockup/occluder_plane_16x8" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane" unload="true"/>
+		<object path="units/payday2/mockup/occluder_plane_16x8" unload="true"/>
+		<unit path="units/payday2/mockup/occluder_plane_16x8" unload="true"/>
+	</add>
+	<add path="units/payday2/mockup/occluder_plane_4x8" type="unit">
+		<unit path="units/payday2/mockup/occluder_plane_4x8" unload="true"/>
+		<object path="units/payday2/mockup/occluder_plane_4x8" unload="true"/>
+		<material_config path="units/payday2/mockup/occluder_plane" unload="true"/>
 	</add>
 </table>
