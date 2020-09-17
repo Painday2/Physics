@@ -28,12 +28,28 @@ Hooks:PostHook(AssetsTweakData, "init", "init_boworks_assets", function(self, tw
 	}
 
 	--DAY 3--
+	--Friendly sniper
+	self.physics_core_sniper = {
+		name_id = "menu_asset_sniper",
+		unlock_desc_id = "menu_asset_sniper_desc",
+		texture = "guis/mods/phys/textures/pd2/mission_briefing/assets/d3_sniper",
+		money_lock = tweak_data:get_value("money_manager", "mission_asset_cost_small", 6),
+		no_mystery = true
+	}
 	--Friendly minigun dozer
 	self.physics_core_dozer = {
 		name_id = "physics_core_dozer_name",
 		unlock_desc_id = "physics_core_dozer_desc",
 		texture = "guis/mods/phys/textures/pd2/mission_briefing/assets/d3_dozer",
-		money_lock = tweak_data:get_value("money_manager", "mission_asset_cost_medium", 10),
+		money_lock = tweak_data:get_value("money_manager", "mission_asset_cost_small", 10),
+		no_mystery = true
+	}
+	--Friendly bonco cop
+	self.physics_core_bronco = {
+		name_id = "physics_core_bronco_name",
+		unlock_desc_id = "physics_core_bronco_desc",
+		texture = "guis/mods/phys/textures/pd2/mission_briefing/assets/d3_bronco",
+		money_lock = tweak_data:get_value("money_manager", "mission_asset_cost_medium", 6),
 		no_mystery = true
 	}
 end)

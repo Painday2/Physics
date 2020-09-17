@@ -17,6 +17,8 @@
 	"physics_tower_reduced_security_desc":"Bribe authorities for a reduced security presence on arrival",
 	"physics_core_dozer_name":"Bulldozer",
 	"physics_core_dozer_desc":"Hire a bulldozer to provide cover fire",
+	"physics_core_bronco_name":"Beat Cop",
+	"physics_core_bronco_desc":"Hire a beat cop to provide cover fire",
 
 	"menu_jukebox_music_pain3_cbt":"Cocke and Bo Torture",
 	"menu_jukebox_screen_music_pain3_cbt":"Cocke and Bo Torture",

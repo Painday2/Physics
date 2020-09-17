@@ -170,7 +170,7 @@ local difficulty_specific = {}
 difficulty_specific[5] = {
 	FBI_tank = {
 		"units/payday2/characters/ene_bulldozer_1/ene_bulldozer_1",
-		"units/payday2/characters/ene_bulldozer_1/ene_bulldozer_2"
+		"units/payday2/characters/ene_bulldozer_2/ene_bulldozer_2"
 	}
 }
 
@@ -194,7 +194,7 @@ difficulty_specific[6] = {
 	},
 	FBI_tank = {
 		"units/payday2/characters/ene_bulldozer_1/ene_bulldozer_1",
-		"units/payday2/characters/ene_bulldozer_1/ene_bulldozer_2"
+		"units/payday2/characters/ene_bulldozer_2/ene_bulldozer_2"
 	}
 }
 

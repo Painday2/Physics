@@ -145,8 +145,9 @@
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
-			<asset name="framing_frame_2_sniper"/>
+			<asset name="physics_core_sniper"/>
 			<asset name="physics_core_dozer"/>
+			<asset name="physics_core_bronco"/>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
