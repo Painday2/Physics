@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<unit type="fwb" slot="1">
+	<object file="units/equipment/c4_charge/c4_mission_door" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on effect="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" />	
+	</dependencies>
+
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="mission_door_device" class="MissionDoorDevice"/>
+		<extension name="interaction" class="MissionDoorDeviceInteractionExt">
+			<var name="tweak_data" value="c4_mission_door" />
+		</extension>
+	</extensions>
+</unit>

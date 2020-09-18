@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/equipment/c4_charge/c4_mission_door" orientation_object="rp_c4_mission_door" />
+  <sequence_manager file="units/equipment/c4_charge/c4_mission_door" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static" remove_ray_type="walk">
+      <object name="rp_c4_mission_door" />
+      <object name="c_c4_box" collision_type="box" />
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="plastic" static="true">
+    <decal_mesh name="g_c4" enabled="true" material="plastic" />
+  </decal_surfaces>
+
+  <effects>
+    <effect_spawner name="effect_light" enabled="false" object="rp_c4_mission_door" effect="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" />
+  </effects>
+  
+  <graphics>
+    <object name="g_c4" enabled="false" />
+    <graphic_group name="grp_icon" enabled="true" >
+      <lod_object name="lod_icon">
+        <!-- <object name="g_icon_c4" enabled="true"  max_distance="450"  max_draw_lod="0" /> -->
+        <object name="g_c4_glow" enabled="true"  max_distance="450"  max_draw_lod="0" />
+        <object name="g_icon_c4_lod1" enabled="true" lod="1" />
+      </lod_object>
+    </graphic_group>
+  </graphics>
+  
+  <lights>
+    <light name="li_red" enabled="false" type="omni|specular" multiplier="identity" />
+  </lights>
+</dynamic_object>

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<small_prop_object>
+	<diesel materials="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c_v2" orientation_object="rp_spawn_debris_door_wooden_c_v2" />
+	
+    <bodies>
+        <body name="small_prop_shard_1" enabled="true" template="small_prop" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_shard01" collision_type="convex" padding="-2.5" mass="10" />
+        </body>
+        <body name="small_prop_shard_2" enabled="true" template="small_prop" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_shard02" collision_type="convex" padding="-2.5" mass="10" />
+        </body>
+        <body name="small_prop_shard_3" enabled="true" template="small_prop" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_shard03" collision_type="convex" padding="-2.5" mass="10" />
+        </body>
+        <body name="small_prop_shard_4" enabled="true" template="small_prop" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_shard04" collision_type="convex" padding="-2.5" mass="10" />
+        </body>
+        <body name="small_prop_shard_5" enabled="true" template="small_prop" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_shard05" collision_type="convex" padding="-2.5" mass="10" />
+        </body>
+        <body name="small_prop_shard_6" enabled="true" template="small_prop" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_shard06" collision_type="convex" padding="-2.5" mass="10" />
+        </body>
+        <body name="small_prop_shard_7" enabled="true" template="small_prop" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_shard07" collision_type="convex" padding="-2.5" mass="10" />
+        </body>
+        <body name="small_prop_shard_8" enabled="true" template="small_prop" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_shard08" collision_type="convex" padding="-2.5" mass="10" />
+        </body>
+        <body name="small_prop_shard_9" enabled="true" template="small_prop" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_shard09" collision_type="convex" padding="-2.5" mass="10" />
+        </body>
+        <body name="small_prop_shard_10" enabled="true" template="small_prop" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_shard10" collision_type="convex" padding="-2.5" mass="10" />
+        </body>
+        <body name="small_prop_shard_11" enabled="true" template="small_prop" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_shard11" collision_type="convex" padding="-2.5" mass="10" />
+        </body>
+        <body name="small_prop_shard_12" enabled="true" template="small_prop" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_shard12" collision_type="convex" padding="-2.5" mass="10" />
+        </body>
+        <body name="small_prop_shard_13" enabled="true" template="small_prop" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_shard13" collision_type="convex" padding="-2.5" mass="10" />
+        </body>
+        <body name="small_prop_shard_14" enabled="true" template="small_prop" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_shard14" collision_type="convex" padding="-2.5" mass="10" />
+        </body>
+    </bodies>
+    <graphics>
+        <object name="g_shard1" enabled="true" />
+        <object name="g_shard2" enabled="true" />
+        <object name="g_shard3" enabled="true" />
+        <object name="g_shard4" enabled="true" />
+        <object name="g_shard5" enabled="true" />
+        <object name="g_shard6" enabled="true" />
+        <object name="g_shard7" enabled="true" />
+        <object name="g_shard8" enabled="true" />
+        <object name="g_shard9" enabled="true" />
+        <object name="g_shard10" enabled="true" />
+        <object name="g_shard11" enabled="true" />
+        <object name="g_shard12" enabled="true" />
+        <object name="g_shard13" enabled="true" />
+        <object name="g_shard14" enabled="true" />
+    </graphics>
+</small_prop_object>
