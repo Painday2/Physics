@@ -233,7 +233,8 @@ local instigators = {}
 					"treasure",
 					"forklift",
 					"meth_lab",
-					"guilt"
+					"guilt",
+					"stocks"
 				}
 
 				if table.contains(carry_list, carry_id) then
