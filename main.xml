@@ -187,6 +187,7 @@
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 			<value_node value="levels/narratives/short1/stage1/world/world"/>
 			<value_node value="levels/narratives/classics/red2/world/world"/>
+			<value_node value="packages/narr_hox_3"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
