@@ -1656,4 +1656,9 @@
 		<object path="units/payday2/mockup/occluder_plane_4x8" unload="true"/>
 		<unit path="units/payday2/mockup/occluder_plane_4x8" unload="true"/>
 	</add>
+	<add path="units/pd2_dlc2/csgo_models/props_urban/plastic_chair001" type="unit">
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/plastic_chair001" unload="true"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/plastic_chair001" unload="true"/>
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/plastic_chair001" unload="true"/>
+	</add>
 </table>

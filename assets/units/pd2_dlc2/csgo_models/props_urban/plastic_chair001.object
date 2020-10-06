@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+    <diesel materials="units/pd2_dlc2/csgo_models/props_urban/plastic_chair001" orientation_object="rp_plastic_chair001" />
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_plastic_chair001"/>
+            <object name="c_convex_1" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_2" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_3" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_4" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_5" collision_type="convex" padding="-2.5"/>
+            <object name="c_convex_6" collision_type="convex" padding="-2.5"/>
+        </body>
+    </bodies>
+    
+    <decal_surfaces default_material="plastic" static="true">
+        <decal_mesh name="g_plastic_chair001" material="plastic" enabled="true"/>
+    </decal_surfaces> 
+    
+    <graphics>
+        <object enabled="true" name="g_plastic_chair001" shadow_caster="true"/>
+    </graphics>
+</dynamic_object> 
