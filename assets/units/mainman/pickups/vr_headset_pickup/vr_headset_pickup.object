@@ -1,0 +1,15 @@
+<dynamic_object>
+	<diesel materials="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup" orientation_object="rp_moon_paycheck_chains_mask" />
+	<sequence_manager file="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="rp_moon_paycheck_chains_mask" />
+			<object name="g_frame" collision_type="box" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_il" enabled="false" />
+		<object name="g_g" enabled="true" />
+		<object name="g_frame" enabled="false" />
+	</graphics>
+</dynamic_object>

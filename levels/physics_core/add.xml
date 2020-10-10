@@ -1,4 +1,19 @@
 <table directory="assets">
+	<cooked_physics path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
+	<material_config path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
+	<material_config path="units/mainman/characters/ene_the_boss/ene_the_boss_contour"/>
+	<model path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
+	<object path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
+	<unit load="true" path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
+	<unit load="true" path="units/mainman/characters/ene_the_boss/ene_the_boss_husk"/>
+	<unit load="true" path="units/mainman/characters/ene_bo/ene_bo"/>
+	<unit load="true" path="units/mainman/characters/ene_bo/ene_bo_husk"/>
+	<cooked_physics path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
+	<material_config path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
+	<model path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
+	<object path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
+	<sequence_manager path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
+	<unit load="true" path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
 	<add unload_on_restart="true">
 		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d3_sniper"/>
 		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d3_dozer"/>

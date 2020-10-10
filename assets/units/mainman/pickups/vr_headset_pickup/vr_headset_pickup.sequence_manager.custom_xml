@@ -1,0 +1,13 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence name="'interact'">
+			<run_sequence name="'disable_interaction'"/>
+		</sequence>
+	</unit>
+</table>

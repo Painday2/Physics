@@ -1,4 +1,6 @@
 local material_config_paths = {
+  "units/mainman/characters/ene_the_boss/ene_the_boss",
+  "units/mainman/characters/ene_bo/ene_bo",
   "units/matthelzor/characters/ford/ford",
   "units/matthelzor/characters/ford_civ/ford_civ",
   "units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5",

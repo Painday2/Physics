@@ -32,7 +32,6 @@
 	"hud_carry_guilt":"weight of what you did",
 	"hud_int_hold_take_guilt":"Hold $BTN_INTERACT to live with what you've done",
 	"hud_action_taking_guilt":"Taking responsibility for what they've done",
-	"hud_carry_stocks":"Stocks",
 
 	"boworks_mission1":"Learn all about StockOS",
 	"boworks_mission1_desc":"Educate yourself about the fabulous history of StockOS, from primitive April Fools jokes and rushed level copy-pastes to the revolutionary, innovative experience StockOS is today.",

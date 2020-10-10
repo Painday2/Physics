@@ -1,0 +1,11 @@
+<unit type="moo" slot="1">
+	<object file="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup" />
+   <network sync="spawn"/>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+	<extension name="damage" class="UnitDamage" />
+	<extension name="interaction" class="UseInteractionExt">
+		<var name="tweak_data" value="hold_take_vr_headset" />		
+	</extension>
+  </extensions>
+</unit>
