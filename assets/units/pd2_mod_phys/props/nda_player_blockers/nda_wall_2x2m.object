@@ -1,0 +1,18 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_phys/props/nda_player_blockers/nda_wall" orientation_object="rp_nda_2x2m" />
+	<sequence_manager file="units/pd2_mod_phys/props/nda_player_blockers/nda_wall" />
+	<animations>
+		<animation_group name="anim" >
+			<object name="anim_nda_2x2m_spin" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="static_body" enabled="true" template="bag" collision_class="bag_blocker">
+			<object name="c_nda_2x2m" collision_type="box" padding="2.5"/>
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_nda_2x2m" enabled="true" />
+		<object name="g_nda_2x2m_spin" enabled="true" />
+	</graphics>
+</dynamic_object>

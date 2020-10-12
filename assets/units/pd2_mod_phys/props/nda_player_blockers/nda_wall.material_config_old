@@ -1,0 +1,17 @@
+<materials version="3" group="nda_goal">
+
+    <material name="mat_lines" render_template="effect:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM" version="2">
+        <diffuse_texture	file="units/payday2/props/shared_textures/goal_red_df"/>
+        <variable			value="sun" type="scalar" name="intensity"/>
+        <variable			value="1 0 0" type="vector3" name="uv0_speed"/>
+    </material>
+    <material name="mat_red" render_template="effect:DIFFUSE0_TEXTURE" version="2">
+        <diffuse_texture	file="units/gui/area_indicator_red_df"/>
+        <variable			value="identity" type="scalar" name="intensity"/>
+    </material>
+    <material name="mat_nda" render_template="effect:DIFFUSE0_TEXTURE" version="2">
+        <diffuse_texture	file="units/pd2_mod_phys/props/nda_player_blockers/nda_bounds"/>
+        <variable			value="identity" type="scalar" name="intensity"/>
+    </material>
+	
+</materials>

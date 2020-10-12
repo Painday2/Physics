@@ -1,0 +1,23 @@
+<materials version="3" group="nda_goal">
+
+    <material name="mat_lines" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM:INTERSECTION_FADEOUT:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture	file="units/payday2/props/shared_textures/goal_red_df"/>
+        <variable			value="identity" type="scalar" name="intensity"/>
+        <variable			value="400" type="scalar" name="fadeout_distance"/>
+        <variable			value="2" type="scalar" name="falloff_exp"/>
+        <variable			value="1 0 0" type="vector3" name="uv0_speed"/>
+    </material>
+    <material name="mat_red" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:INTERSECTION_FADEOUT:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture	file="units/gui/area_indicator_red_df"/>
+        <variable			value="identity" type="scalar" name="intensity"/>
+        <variable			value="400" type="scalar" name="fadeout_distance"/>
+        <variable			value="2" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mat_nda" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:INTERSECTION_FADEOUT:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture	file="units/pd2_mod_phys/props/nda_player_blockers/nda_bounds"/>
+        <variable			value="identity" type="scalar" name="intensity"/>
+        <variable			value="400" type="scalar" name="fadeout_distance"/>
+        <variable			value="2" type="scalar" name="falloff_exp"/>
+    </material>
+	
+</materials>
