@@ -1,5 +1,5 @@
 <table directory="assets">
-	<add unload_on_restart="true">
+	<add>
 		<material_config	path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
 		<unit				path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
 		<object				path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>

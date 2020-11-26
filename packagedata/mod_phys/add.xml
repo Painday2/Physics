@@ -1,6 +1,6 @@
 <table directory="assets">
 	<!--Preplanning Assets (VxWolf)-->
-	<add unload_on_restart="true">
+	<add>
 		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d1_bypass"/>
 		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d1_gammon"/>
 		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d2_reduced_security"/>
@@ -10,7 +10,7 @@
 	</add>
 
 	<!--NDA Wall (Rex)-->
-	<add unload_on_restart="true">
+	<add>
 		<material_config	path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall"/>
 		<sequence_manager	path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall"/>
 		<texture			path="units/pd2_mod_phys/props/nda_player_blockers/nda_bounds"/>
@@ -22,7 +22,7 @@
 		<model				path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall_2x2m"/>
 	</add>
 	<!--Generic Physics Signs (Mako, VxWolf)-->
-	<add unload_on_restart="true">
+	<add>
 		<!--Scrolling text test sign-->
 		<!--texture					path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1"/>
 
@@ -95,7 +95,7 @@
 	</add>
 
 	<!--Lootbag Stuff-->
-	<add unload_on_restart="true">
+	<add>
 		<!--Forklift-->
 		<model path="units/pd2_mod_phys/equipment/phys_4klift"/>
 		<object path="units/pd2_mod_phys/equipment/phys_4klift"/>
@@ -120,7 +120,7 @@
 	</add>
 
 	<!--Folding bed (Mako)-->
-	<add unload_on_restart="true">
+	<add>
 		<texture path="units/pd2_mod_phys/props/phys_bedding"/>
 		<texture path="units/pd2_mod_phys/props/phys_wood_df"/>
 		<sequence_manager path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
@@ -192,7 +192,7 @@
 	</add-->
 
 	<VR Headset interactable (Lawsfercapcake)>
-	<add unload_on_restart="true">
+	<add>
 		<cooked_physics path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
 		<material_config path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
 		<model path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
