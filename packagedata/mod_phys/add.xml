@@ -110,12 +110,12 @@
 	</add>
 	<add path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" type="unit">
 		<!--The weight of what you did to those civilians-->
-		<cooked_physics path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
-		<material_config path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
-		<model path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
-		<object path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
-		<sequence_manager path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
-		<unit path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" unload="true"/>
+		<cooked_physics path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
+		<material_config path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
+		<model path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
+		<object path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
+		<sequence_manager path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
+		<unit path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
 
 	</add>
 
@@ -130,7 +130,7 @@
 		<model path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
 	</add>
 
-	<!--Bo Head (Cpone)>
+	<!--Bo Head (Cpone)-->
 	<add>
 		<animation path="anims/bo_head/idle_on"/>
 		<animation path="anims/bo_head/idle_off"/>
@@ -149,36 +149,37 @@
 		<model path="units/pd2_mod_phys/props/bo_head"/>
 		<object path="units/pd2_mod_phys/props/bo_head"/>
 		<unit path="units/pd2_mod_phys/props/bo_head"/>
-	</add-->
+	</add>
 
-	<!--Cocke (Matthelzor)>
-		<animation_def force="true" path="anims/units/escort_guy/escort_prisoner_def" unload="true"/>
-		<animation_state_machine force="true" path="anims/units/escort_guy/escort_prisoner_machine" unload="true"/>
-		<animation_states force="true" path="anims/units/escort_guy/escort_prisoner" unload="true"/>
-		<animation_subset force="true" path="anims/units/escort_guy/escort_prisoner" unload="true"/>
-		<animation_states force="true" path="anims/units/escort_guy/escort_undercover" unload="true"/>
-		<animation_subset force="true" path="anims/units/escort_guy/escort_undercover" unload="true"/>
-		<animation_def force="true" path="anims/units/escort_guy/escort_undercover_def" unload="true"/>
-		<animation_state_machine force="true" path="anims/units/escort_guy/escort_undercover_machine" unload="true"/>
-		<unit load="true" path="units/matthelzor/characters/ford/ford" unload="true"/>
-		<unit load="true" path="units/matthelzor/characters/ford/ford_husk" unload="true"/>
-		<material_config path="units/matthelzor/characters/ford/ford" unload="true"/>
-		<model path="units/matthelzor/characters/ford/ford" unload="true"/>
-		<object path="units/matthelzor/characters/ford/ford" unload="true"/>
-		<unit load="true" path="units/matthelzor/characters/ford_civ/ford_civ" unload="true"/>
-		<unit load="true" path="units/matthelzor/characters/ford_civ/ford_civ_husk" unload="true"/>
-		<material_config path="units/matthelzor/characters/ford_civ/ford_civ" unload="true"/>
-		<model path="units/matthelzor/characters/ford_civ/ford_civ" unload="true"/>
-		<object path="units/matthelzor/characters/ford_civ/ford_civ" unload="true"/>
-		<texture path="units/matthelzor/characters/ford/hair_df" unload="true"/>
-		<texture path="units/matthelzor/characters/ford/hair_op" unload="true"/>
-		<texture path="units/matthelzor/characters/ford/hair_nm" unload="true"/>
-		<texture path="units/matthelzor/characters/ford/head_df" unload="true"/>
-		<texture path="units/matthelzor/characters/ford/head_nm" unload="true"/>
-		<texture path="units/matthelzor/characters/ford/body_nm" unload="true"/>
-		<texture path="units/matthelzor/characters/ford/body_df" unload="true"/>
+	<!--Cocke (Matthelzor)-->
+		<!--animation_def force="true" path="anims/units/escort_guy/escort_prisoner_def"/>
+		<animation_state_machine force="true" path="anims/units/escort_guy/escort_prisoner_machine"/>
+		<animation_states force="true" path="anims/units/escort_guy/escort_prisoner"/>
+		<animation_subset force="true" path="anims/units/escort_guy/escort_prisoner"/>
+		<animation_states force="true" path="anims/units/escort_guy/escort_undercover"/>
+		<animation_subset force="true" path="anims/units/escort_guy/escort_undercover"/>
+		<animation_def force="true" path="anims/units/escort_guy/escort_undercover_def"/>
+		<animation_state_machine force="true" path="anims/units/escort_guy/escort_undercover_machine"/>
 
-	<!Bo (Lawsfercapcake)>
+		<unit load="true" path="units/matthelzor/characters/ford/ford"/>
+		<unit load="true" path="units/matthelzor/characters/ford/ford_husk"/>
+		<material_config path="units/matthelzor/characters/ford/ford"/>
+		<model path="units/matthelzor/characters/ford/ford"/>
+		<object path="units/matthelzor/characters/ford/ford"/>
+		<unit load="true" path="units/matthelzor/characters/ford_civ/ford_civ"/>
+		<unit load="true" path="units/matthelzor/characters/ford_civ/ford_civ_husk"/>
+		<material_config path="units/matthelzor/characters/ford_civ/ford_civ"/>
+		<model path="units/matthelzor/characters/ford_civ/ford_civ"/>
+		<object path="units/matthelzor/characters/ford_civ/ford_civ"/>
+		<texture path="units/matthelzor/characters/ford/hair_df"/>
+		<texture path="units/matthelzor/characters/ford/hair_op"/>
+		<texture path="units/matthelzor/characters/ford/hair_nm"/>
+		<texture path="units/matthelzor/characters/ford/head_df"/>
+		<texture path="units/matthelzor/characters/ford/head_nm"/>
+		<texture path="units/matthelzor/characters/ford/body_nm"/>
+		<texture path="units/matthelzor/characters/ford/body_df"/-->
+
+	<!--Bo (Lawsfercapcake)-->
 	<add>
 		<cooked_physics path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
 		<material_config path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
@@ -189,9 +190,9 @@
 		<unit load="true" path="units/mainman/characters/ene_the_boss/ene_the_boss_husk"/>
 		<unit load="true" path="units/mainman/characters/ene_bo/ene_bo"/>
 		<unit load="true" path="units/mainman/characters/ene_bo/ene_bo_husk"/>
-	</add-->
+	</add>
 
-	<VR Headset interactable (Lawsfercapcake)>
+	<!--VR Headset interactable (Lawsfercapcake)-->
 	<add>
 		<cooked_physics path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
 		<material_config path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>

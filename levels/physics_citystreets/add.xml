@@ -16,6 +16,34 @@
 	<model path="units/pd2_mod_phys/props/bo_head"/>
 	<object path="units/pd2_mod_phys/props/bo_head"/>
 	<unit path="units/pd2_mod_phys/props/bo_head"/>
+
+	<animation_def force="true" path="anims/units/escort_guy/escort_prisoner_def"/>
+	<animation_state_machine force="true" path="anims/units/escort_guy/escort_prisoner_machine"/>
+	<animation_states force="true" path="anims/units/escort_guy/escort_prisoner"/>
+	<animation_subset force="true" path="anims/units/escort_guy/escort_prisoner"/>
+	<animation_states force="true" path="anims/units/escort_guy/escort_undercover"/>
+	<animation_subset force="true" path="anims/units/escort_guy/escort_undercover"/>
+	<animation_def force="true" path="anims/units/escort_guy/escort_undercover_def"/>
+	<animation_state_machine force="true" path="anims/units/escort_guy/escort_undercover_machine"/>
+
+	<unit load="true" path="units/matthelzor/characters/ford/ford"/>
+	<unit load="true" path="units/matthelzor/characters/ford/ford_husk"/>
+	<material_config path="units/matthelzor/characters/ford/ford"/>
+	<model path="units/matthelzor/characters/ford/ford"/>
+	<object path="units/matthelzor/characters/ford/ford"/>
+	<unit load="true" path="units/matthelzor/characters/ford_civ/ford_civ"/>
+	<unit load="true" path="units/matthelzor/characters/ford_civ/ford_civ_husk"/>
+	<material_config path="units/matthelzor/characters/ford_civ/ford_civ"/>
+	<model path="units/matthelzor/characters/ford_civ/ford_civ"/>
+	<object path="units/matthelzor/characters/ford_civ/ford_civ"/>
+	<texture path="units/matthelzor/characters/ford/hair_df"/>
+	<texture path="units/matthelzor/characters/ford/hair_op"/>
+	<texture path="units/matthelzor/characters/ford/hair_nm"/>
+	<texture path="units/matthelzor/characters/ford/head_df"/>
+	<texture path="units/matthelzor/characters/ford/head_nm"/>
+	<texture path="units/matthelzor/characters/ford/body_nm"/>
+	<texture path="units/matthelzor/characters/ford/body_df"/>
+	
 	<add path="units/dev_tools/editable_text_long/editable_text_long" type="unit">
 		<material_config path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
 		<object path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
