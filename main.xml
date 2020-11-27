@@ -405,4 +405,7 @@
 			<value_node value="420"/>
 		</payout>
 	</narrative>
+	<hooks>
+		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+	</hooks>
 </table>
