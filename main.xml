@@ -1,4 +1,7 @@
 <table name="boworks">
+	<Package file="packagedata/mod_bofa/add.xml" id="modpackages/mod_bofa"/>
+	<Package file="packagedata/mod_mkp/add.xml" id="modpackages/mod_mkp"/>
+	<Package file="packagedata/mod_phys/add.xml" id="modpackages/mod_phys"/>
 	<HeistMusic directory="assets/sounds/music/pain3_cbt" id="music_pain3_cbt" volume="0.8">
 		<event name="setup" source="stealth.ogg"/>
 		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
@@ -244,6 +247,9 @@
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
 		<packages>
+			<value_node value="modpackages/mod_bofa"/>
+			<value_node value="modpackages/mod_mkp"/>
+			<value_node value="modpackages/mod_phys"/>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata"/>
@@ -263,6 +269,9 @@
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
 		<packages>
+			<value_node value="modpackages/mod_bofa"/>
+			<value_node value="modpackages/mod_mkp"/>
+			<value_node value="modpackages/mod_phys"/>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata"/>
@@ -301,6 +310,9 @@
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
 		<packages>
+			<value_node value="modpackages/mod_bofa"/>
+			<value_node value="modpackages/mod_mkp"/>
+			<value_node value="modpackages/mod_phys"/>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata"/>
@@ -320,6 +332,9 @@
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
 		<packages>
+			<value_node value="modpackages/mod_bofa"/>
+			<value_node value="modpackages/mod_mkp"/>
+			<value_node value="modpackages/mod_phys"/>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata"/>
@@ -339,13 +354,13 @@
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
 		<packages>
+			<value_node value="modpackages/mod_bofa"/>
+			<value_node value="modpackages/mod_mkp"/>
+			<value_node value="modpackages/mod_phys"/>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
-	<Package file="packagedata/mod_bofa/add.xml" id="modpackages/mod_bofa"/>
-	<Package file="packagedata/mod_mkp/add.xml" id="modpackages/mod_mkp"/>
-	<Package file="packagedata/mod_phys/add.xml" id="modpackages/mod_phys"/>
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/mods/phys/textures/loading/job_physics_01_df"/>
 		<texture load="true" path="guis/mods/phys/textures/loading/job_physics_02_df"/>
