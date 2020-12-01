@@ -12,6 +12,7 @@
 			<object name="c_box_07" collision_type="box" padding="-2.5" />
 			<object name="c_box_08" collision_type="box" padding="-2.5" />
 			<object name="c_box_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_10" collision_type="box" padding="-2.5" />
 		</body>
 	</bodies>
 	<decal_surfaces default_material="wood">
@@ -19,15 +20,11 @@
 		<decal_mesh name="dm_wood" enabled="true" material="wood" />
 	</decal_surfaces>
 	<graphics>
+		<object name="g_m_fur" enabled="true" />
 		<lod_object name="lod_g_m">
-			<object name="g_m_lod0" enabled="true" max_distance="4500" />
-			<object name="g_m_lod1" enabled="true" max_distance="5500" />
+			<object name="g_m_lod0" enabled="true" max_distance="1500" />
+			<object name="g_m_lod1" enabled="true" max_distance="3000" />
 			<object name="g_m_lod2" enabled="true" />
-		</lod_object>
-		<lod_object name="lod_g_m_fur">
-			<object name="g_m_fur_lod0" enabled="true" max_distance="4500" />
-			<object name="g_m_fur_lod1" enabled="true" max_distance="5500" />
-			<object name="g_m_fur_lod2" enabled="true" />
 		</lod_object>
 	</graphics>
 </dynamic_object>
