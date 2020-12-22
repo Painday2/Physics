@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import		file="nda_wall_4x3m.glb" type="gltf" create_objects="true"/>
+	<animation	file="nda_wall_4x3m.animation"/>
+</modelscript>
