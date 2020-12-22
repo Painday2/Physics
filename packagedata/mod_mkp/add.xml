@@ -1,6 +1,7 @@
 <table directory="assets">
 	<add>
 		<material_config	path="units/pd2_mod_mockup/tileset/mkp"/>
+		<texture			path="units/pd2_mod_mockup/tileset/completely_mkp_df"/>
 		<unit				path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m"/>
 		<object				path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m"/>
 		<model				path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m"/>
