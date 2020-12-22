@@ -1,0 +1,204 @@
+<table directory="assets">
+	<!--Preplanning Assets (VxWolf)-->
+	<add>
+		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d1_bypass"/>
+		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d1_gammon"/>
+		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d2_reduced_security"/>
+		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d3_sniper"/>
+		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d3_dozer"/>
+		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d3_bronco"/>
+	</add>
+
+	<!--NDA Wall (Rex)-->
+	<add>
+		<material_config	path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall"/>
+		<sequence_manager	path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall"/>
+		<texture			path="units/pd2_mod_phys/props/nda_player_blockers/nda_bounds"/>
+		<unit load="true"	path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall_4x3m"/>
+		<object				path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall_4x3m"/>
+		<model				path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall_4x3m"/>
+		<unit load="true"	path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall_2x2m"/>
+		<object				path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall_2x2m"/>
+		<model				path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall_2x2m"/>
+	</add>
+	<!--Generic Physics Signs (Mako, VxWolf)-->
+	<!--add-->
+		<!--Scrolling text test sign-->
+		<!--texture					path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1"/>
+
+		<material_config			path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+		<object						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+		<unit						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+		<model						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+
+		<material_config			path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
+		<object						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
+		<unit						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
+		<model						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/-->
+		
+		<!--Square Sign-->
+		<!--texture					path="units/pd2_mod_phys/props/phys_2x2_1"/>
+		<material_config			path="units/pd2_mod_phys/props/phys_sign_2x2_1"/>
+
+		<texture					path="units/pd2_mod_phys/props/phys_2x2_2"/>
+		<material_config			path="units/pd2_mod_phys/props/phys_sign_2x2_2"/>
+
+		<texture					path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
+		<material_config			path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
+
+		<texture					path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
+		<material_config			path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
+
+		<texture					path="units/pd2_mod_phys/props/phys_utility_2x2"/>
+		<material_config			path="units/pd2_mod_phys/props/phys_utility_2x2"/>
+
+		<sequence_manager			path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+
+		<object						path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<unit						path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<model						path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+
+		<object						path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<unit						path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<model						path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		
+		<object						path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+		<unit						path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+		<model						path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+
+		<object						path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+		<unit						path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+		<model						path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+
+		<object						path="units/pd2_mod_phys/props/phys_sign_32x32"/>
+		<unit						path="units/pd2_mod_phys/props/phys_sign_32x32"/>
+		<model						path="units/pd2_mod_phys/props/phys_sign_32x32"/>
+
+		<object						path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<unit						path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<model						path="units/pd2_mod_phys/props/phys_sign_64x64"/-->
+
+		<!--Rectangular Banner-->
+
+		<!--texture					path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<material_config			path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+
+		<sequence_manager			path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+
+		<object						path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<unit						path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<model						path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+
+		<object						path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+		<unit						path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+		<model						path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+	</add-->
+
+	<!--Lootbag Stuff-->
+	<add>
+		<!--Forklift-->
+		<model path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<object path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<unit load="true" path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<unit load="true" path="units/pd2_dlc_vr/equipment/phys_4klift_vr"/>
+		<material_config path="units/pd2_mod_phys/equipment/phys_4klift"/>
+		<material_config path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
+		<model path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
+		<object path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
+		<unit load="true" path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
+		<sequence_manager path="units/pd2_mod_phys/equipment/phys_4klift"/>
+	</add>
+	<add path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" type="unit">
+		<!--The weight of what you did to those civilians-->
+		<cooked_physics path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
+		<material_config path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
+		<model path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
+		<object path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
+		<sequence_manager path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
+		<unit path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
+
+	</add>
+
+	<!--Folding bed (Mako)-->
+	<!--add>
+		<texture path="units/pd2_mod_phys/props/phys_bedding"/>
+		<texture path="units/pd2_mod_phys/props/phys_wood_df"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<material_config path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<object path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<unit path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<model path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+	</add-->
+
+	<!--Bo Head (Cpone)-->
+	<add>
+		<animation path="anims/bo_head/idle_on"/>
+		<animation path="anims/bo_head/idle_off"/>
+		<animation path="anims/bo_head/bootup"/>
+		<animation path="anims/bo_head/bootdown"/>
+		<animation path="anims/bo_head/complete_fucking_overkill"/>
+		<animation path="anims/bo_head/going_to_be_epic"/>
+		<animation path="anims/bo_head/holy_fuck_bananas"/>
+		<animation path="anims/bo_head/star_vr"/>
+		<animation path="anims/bo_head/total_immersion"/>
+		<animation_def path="anims/units/bo_head/bo_head"/>
+		<animation_state_machine path="anims/units/bo_head/bo_head"/>
+		<animation_states path="anims/units/bo_head/bo"/>
+		<animation_subset path="anims/units/bo_head/bo"/>
+		<material_config path="units/pd2_mod_phys/props/bo_head"/>
+		<model path="units/pd2_mod_phys/props/bo_head"/>
+		<object path="units/pd2_mod_phys/props/bo_head"/>
+		<unit path="units/pd2_mod_phys/props/bo_head"/>
+	</add>
+
+	<!--Cocke (Matthelzor)-->
+		<!--animation_def force="true" path="anims/units/escort_guy/escort_prisoner_def"/>
+		<animation_state_machine force="true" path="anims/units/escort_guy/escort_prisoner_machine"/>
+		<animation_states force="true" path="anims/units/escort_guy/escort_prisoner"/>
+		<animation_subset force="true" path="anims/units/escort_guy/escort_prisoner"/>
+		<animation_states force="true" path="anims/units/escort_guy/escort_undercover"/>
+		<animation_subset force="true" path="anims/units/escort_guy/escort_undercover"/>
+		<animation_def force="true" path="anims/units/escort_guy/escort_undercover_def"/>
+		<animation_state_machine force="true" path="anims/units/escort_guy/escort_undercover_machine"/>
+
+		<unit load="true" path="units/matthelzor/characters/ford/ford"/>
+		<unit load="true" path="units/matthelzor/characters/ford/ford_husk"/>
+		<material_config path="units/matthelzor/characters/ford/ford"/>
+		<model path="units/matthelzor/characters/ford/ford"/>
+		<object path="units/matthelzor/characters/ford/ford"/>
+		<unit load="true" path="units/matthelzor/characters/ford_civ/ford_civ"/>
+		<unit load="true" path="units/matthelzor/characters/ford_civ/ford_civ_husk"/>
+		<material_config path="units/matthelzor/characters/ford_civ/ford_civ"/>
+		<model path="units/matthelzor/characters/ford_civ/ford_civ"/>
+		<object path="units/matthelzor/characters/ford_civ/ford_civ"/>
+		<texture path="units/matthelzor/characters/ford/hair_df"/>
+		<texture path="units/matthelzor/characters/ford/hair_op"/>
+		<texture path="units/matthelzor/characters/ford/hair_nm"/>
+		<texture path="units/matthelzor/characters/ford/head_df"/>
+		<texture path="units/matthelzor/characters/ford/head_nm"/>
+		<texture path="units/matthelzor/characters/ford/body_nm"/>
+		<texture path="units/matthelzor/characters/ford/body_df"/-->
+
+	<!--Bo (Lawsfercapcake)-->
+	<add>
+		<cooked_physics path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
+		<material_config path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
+		<material_config path="units/mainman/characters/ene_the_boss/ene_the_boss_contour"/>
+		<model path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
+		<object path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
+		<unit load="true" path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
+		<unit load="true" path="units/mainman/characters/ene_the_boss/ene_the_boss_husk"/>
+		<unit load="true" path="units/mainman/characters/ene_bo/ene_bo"/>
+		<unit load="true" path="units/mainman/characters/ene_bo/ene_bo_husk"/>
+	</add>
+
+	<!--VR Headset interactable (Lawsfercapcake)-->
+	<add>
+		<cooked_physics path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
+		<material_config path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
+		<model path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
+		<object path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
+		<sequence_manager path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
+		<unit load="true" path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
+	</add>
+</table>

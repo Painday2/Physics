@@ -1,348 +1,80 @@
 <table directory="assets">
-	<add unload_on_restart="true">
-		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d2_reduced_security"/>
+
+	<!--Generic Physics Signs (Mako, VxWolf)-->
+	<add>
+		<!--Scrolling text test sign-->
+		<!--texture					path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1"/>
+
+		<material_config			path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+		<object						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+		<unit						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+		<model						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
+
+		<material_config			path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
+		<object						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
+		<unit						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
+		<model						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/-->
+		
+		<!--Square Sign-->
+		<texture					path="units/pd2_mod_phys/props/phys_2x2_1"/>
+		<material_config			path="units/pd2_mod_phys/props/phys_sign_2x2_1"/>
+
+		<texture					path="units/pd2_mod_phys/props/phys_2x2_2"/>
+		<material_config			path="units/pd2_mod_phys/props/phys_sign_2x2_2"/>
+
+		<texture					path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
+		<material_config			path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
+
+		<texture					path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
+		<material_config			path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
+
+		<texture					path="units/pd2_mod_phys/props/phys_utility_2x2"/>
+		<material_config			path="units/pd2_mod_phys/props/phys_utility_2x2"/>
+
+		<sequence_manager			path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+
+		<object						path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<unit						path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<model						path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+
+		<object						path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<unit						path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<model						path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		
+		<object						path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+		<unit						path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+		<model						path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+
+		<object						path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+		<unit						path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+		<model						path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+
+		<object						path="units/pd2_mod_phys/props/phys_sign_32x32"/>
+		<unit						path="units/pd2_mod_phys/props/phys_sign_32x32"/>
+		<model						path="units/pd2_mod_phys/props/phys_sign_32x32"/>
+
+		<object						path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<unit						path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<model						path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+
+		<!--Rectangular Banner-->
+
+		<texture					path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<material_config			path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+
+		<sequence_manager			path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+
+		<object						path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<unit						path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<model						path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+
+		<object						path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+		<unit						path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+		<model						path="units/pd2_mod_phys/props/phys_3x12_banner"/>
 	</add>
-	<add path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield" type="unit">
-		<cooked_physics path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
-		<material_config path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
-		<model path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
-		<object path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
-		<sequence_manager path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_sbz_shield/ene_acc_sbz_shield"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield" type="unit">
-		<cooked_physics path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield"/>
-		<material_config path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield"/>
-		<model path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield"/>
-		<object path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield"/>
-		<sequence_manager path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_ovk_shield/ene_acc_ovk_shield"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield" type="unit">
-		<cooked_physics path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield"/>
-		<material_config path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield"/>
-		<model path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield"/>
-		<object path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield"/>
-		<sequence_manager path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/accessory_units/ene_acc_bofa_shield/ene_acc_bofa_shield"/>
-	</add>
-	<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_sbz_df"/>
-	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_sbz"/>
-	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_sbz_contour"/>
-	<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5_husk"/>
-		<cooked_physics path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5"/>
-		<model path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5"/>
-		<object path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_mp5/ene_sbz_mp5"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_c45/ene_sbz_shield_c45" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_c45/ene_sbz_shield_c45"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_c45/ene_sbz_shield_c45_husk"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_mp9/ene_sbz_shield_mp9" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_mp9/ene_sbz_shield_mp9"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_shield_mp9/ene_sbz_shield_mp9_husk"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870_husk"/>
-		<cooked_physics path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870"/>
-		<model path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870"/>
-		<object path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_r870/ene_sbz_r870"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4_husk"/>
-		<cooked_physics path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4"/>
-		<model path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4"/>
-		<object path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_m4/ene_sbz_heavy_m4"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870_husk"/>
-		<cooked_physics path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870"/>
-		<model path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870"/>
-		<object path="units/pd2_mod_bofa/characters/sbz_units/ene_sbz_heavy_r870/ene_sbz_heavy_r870"/>
-	</add>
-	<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_ovk_df"/>
-	<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_ovk_heavy_df"/>
-	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_ovk"/>
-	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_ovk_contour"/>
-	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_ovk_heavy"/>
-	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_ovk_heavy_contour"/>
-	<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4_husk"/>
-		<cooked_physics path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4"/>
-		<model path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4"/>
-		<object path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_m4/ene_ovk_m4"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_c45/ene_ovk_shield_c45" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_c45/ene_ovk_shield_c45"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_c45/ene_ovk_shield_c45_husk"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_mp9/ene_ovk_shield_mp9" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_mp9/ene_ovk_shield_mp9"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_shield_mp9/ene_ovk_shield_mp9_husk"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870_husk"/>
-		<cooked_physics path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870"/>
-		<model path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870"/>
-		<object path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_r870/ene_ovk_r870"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4_husk"/>
-		<cooked_physics path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4"/>
-		<model path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4"/>
-		<object path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_m4/ene_ovk_heavy_m4"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870_husk"/>
-		<cooked_physics path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870"/>
-		<model path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870"/>
-		<object path="units/pd2_mod_bofa/characters/ovk_units/ene_ovk_heavy_r870/ene_ovk_heavy_r870"/>
-	</add>
-	<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_bofa_df"/>
-	<texture path="units/pd2_mod_bofa/characters/shared_textures/ene_bofa_heavy_df"/>
-	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_bofa"/>
-	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_bofa_contour"/>
-	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_bofa_heavy"/>
-	<material_config path="units/pd2_mod_bofa/characters/shared_materials/ene_bofa_heavy_contour"/>
-	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36_husk"/>
-		<cooked_physics path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36"/>
-		<model path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36"/>
-		<object path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_g36/ene_bofa_g36"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870_husk"/>
-		<cooked_physics path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870"/>
-		<model path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870"/>
-		<object path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_r870/ene_bofa_r870"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_c45/ene_bofa_shield_c45" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_c45/ene_bofa_shield_c45"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_c45/ene_bofa_shield_c45_husk"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_mp9/ene_bofa_shield_mp9" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_mp9/ene_bofa_shield_mp9"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_shield_mp9/ene_bofa_shield_mp9_husk"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_ump/ene_bofa_ump" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_ump/ene_bofa_ump"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_ump/ene_bofa_ump_husk"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_benelli/ene_bofa_benelli" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_benelli/ene_bofa_benelli"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_benelli/ene_bofa_benelli_husk"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36_husk"/>
-		<cooked_physics path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36"/>
-		<model path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36"/>
-		<object path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_g36/ene_bofa_heavy_g36"/>
-	</add>
-	<add path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870" type="unit">
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870"/>
-		<unit load="true" path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870_husk"/>
-		<cooked_physics path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870"/>
-		<model path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870"/>
-		<object path="units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870"/>
-	</add>
-	<add unload_on_restart="true">
-		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_floor_1x1m" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_floor_4x4m_hole" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_ext_1m_cube" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_ext_1m_cube" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_ext_1m_cube" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_b" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_b" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_1m_b" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_b" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_b" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_050m_b" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_b" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_b" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_b" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_b" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_b" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_b" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_2m_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_2m_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_2m_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_railing_int_050m_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_railing_int_050m_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_railing_int_050m_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_b" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_b" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_b" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_c" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_c" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_c" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_d" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_d" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_d" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_e" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_e" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_e" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_bot_f" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_stair_bot_f" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_stair_bot_f" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_b" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_b" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_b" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_c" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_c" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_c" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_d" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_d" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_d" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_e" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_e" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_e" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_stair_top_f" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_stair_top_f" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_stair_top_f" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_b" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_b" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_b" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_c" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_c" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_1m_c" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_door_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_door_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_door_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_window_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_window_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_window_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_b" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_b" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_b" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_c" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_c" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m_door_c" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_c" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_c" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_c" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_door_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_door_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_door_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_2m_window_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_a" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" unload="true"/>
-		<unit path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" unload="true"/>
-		<object path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" unload="true"/>
-		<model path="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_c" unload="true"/>
-		<material_config path="units/pd2_mod_mockup/tileset/mkp" unload="true"/>
-	</add>
-	<add unload_on_restart="true">
-		<texture path="units/pd2_mod_phys/props/phys_2x2_1"/>
-		<texture path="units/pd2_mod_phys/props/phys_2x2_2"/>
-		<texture path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
-		<texture path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
-		<texture path="units/pd2_mod_phys/props/phys_utility_2x2"/>
-		<sequence_manager path="units/pd2_mod_phys/props/phys_sign_2x2"/>
-		<material_config path="units/pd2_mod_phys/props/phys_sign_2x2_1"/>
-		<material_config path="units/pd2_mod_phys/props/phys_sign_2x2_2"/>
-		<material_config path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
-		<material_config path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
-		<material_config path="units/pd2_mod_phys/props/phys_utility_2x2"/>
-		<object path="units/pd2_mod_phys/props/phys_sign_2x2"/>
-		<unit path="units/pd2_mod_phys/props/phys_sign_2x2"/>
-		<model path="units/pd2_mod_phys/props/phys_sign_2x2"/>
-		<object path="units/pd2_mod_phys/props/phys_sign_1x1"/>
-		<unit path="units/pd2_mod_phys/props/phys_sign_1x1"/>
-		<model path="units/pd2_mod_phys/props/phys_sign_1x1"/>
-		<object path="units/pd2_mod_phys/props/phys_sign_4x4"/>
-		<unit path="units/pd2_mod_phys/props/phys_sign_4x4"/>
-		<model path="units/pd2_mod_phys/props/phys_sign_4x4"/>
-		<object path="units/pd2_mod_phys/props/phys_sign_8x8"/>
-		<unit path="units/pd2_mod_phys/props/phys_sign_8x8"/>
-		<model path="units/pd2_mod_phys/props/phys_sign_8x8"/>
-		<object path="units/pd2_mod_phys/props/phys_sign_64x64"/>
-		<unit path="units/pd2_mod_phys/props/phys_sign_64x64"/>
-		<model path="units/pd2_mod_phys/props/phys_sign_64x64"/>
-		<texture path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-		<sequence_manager path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-		<material_config path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-		<object path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-		<unit path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-		<model path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-		<object path="units/pd2_mod_phys/props/phys_3x12_banner"/>
-		<unit path="units/pd2_mod_phys/props/phys_3x12_banner"/>
-		<model path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+
+	<!--Folding bed (Mako)-->
+	<add>
 		<texture path="units/pd2_mod_phys/props/phys_bedding"/>
 		<texture path="units/pd2_mod_phys/props/phys_wood_df"/>
 		<sequence_manager path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
