@@ -63,6 +63,8 @@
 	
 	"boworks2_mission1":"Go to the Starbreeze Tower",
 	"boworks2_mission1_desc":"Leave the train station and make your way towards the tower where Bo resides.",
+	"boworks2_mission1a":"Deactivate the security system",
+	"boworks2_mission1a_desc":"Find a way to override the city-wide lockdown.",
 	"boworks2_mission2":"Make your way up the tower",
 	"boworks2_mission2_desc":"Fight your way towards the upper levels of the tower.",
 	"boworks2_mission2a":"Find and use keycards",

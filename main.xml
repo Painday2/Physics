@@ -44,10 +44,10 @@
 			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
 		</hooks>
 		<include directory="levels/physics_citystreets">
+			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
 			<file file="mission.mission" type="binary"/>
-			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world_sounds.world_sounds" type="binary"/>
 			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="skybox/skybox.continent" type="binary"/>
@@ -292,6 +292,7 @@
 		</include>
 		<packages>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
@@ -318,7 +319,7 @@
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="physics_instance_d2_andreascomputer">
-		<add directory="assets"/>
+		<add file="levels/instances/physics_instance_d2_andreascomputer/add.xml"/>
 		<include directory="levels/instances/physics_instance_d2_andreascomputer">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>

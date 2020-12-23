@@ -12,6 +12,7 @@
 	<objective description="boworks_mission11_desc" id="boworks_mission11" text="boworks_mission11"/>
 	<objective description="boworks_mission11a_desc" id="boworks_mission11a" text="boworks_mission11a"/>
 	<objective description="boworks2_mission1_desc" id="boworks2_mission1" text="boworks2_mission1"/>
+	<objective description="boworks2_mission1a_desc" id="boworks2_mission1a" text="boworks2_mission1a"/>
 	<objective description="boworks2_mission2_desc" id="boworks2_mission2" text="boworks2_mission2"/>
 	<objective amount="3" description="boworks2_mission2a_desc" id="boworks2_mission2a" text="boworks2_mission2a"/>
 	<objective description="boworks2_mission2b_desc" id="boworks2_mission2b" text="boworks2_mission2b"/>

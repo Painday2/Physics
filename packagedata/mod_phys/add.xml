@@ -131,7 +131,7 @@
 	</add-->
 
 	<!--Bo Head (Cpone)-->
-	<add>
+	<!--add>
 		<animation path="anims/bo_head/idle_on"/>
 		<animation path="anims/bo_head/idle_off"/>
 		<animation path="anims/bo_head/bootup"/>
@@ -149,7 +149,7 @@
 		<model path="units/pd2_mod_phys/props/bo_head"/>
 		<object path="units/pd2_mod_phys/props/bo_head"/>
 		<unit path="units/pd2_mod_phys/props/bo_head"/>
-	</add>
+	</add-->
 
 	<!--Cocke (Matthelzor)-->
 		<!--animation_def force="true" path="anims/units/escort_guy/escort_prisoner_def"/>
