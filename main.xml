@@ -374,6 +374,9 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<hooks>
+		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+	</hooks>
 	<narrative briefing_event="physics_briefing_event" contact="Pain" icon="guis/mods/phys/textures/physics_icon" id="physics">
 		<chain>
 			<table level_id="physics_citystreets" type="d" type_id="heist_type_assault"/>
@@ -435,7 +438,4 @@
 			<value_node value="420"/>
 		</payout>
 	</narrative>
-	<hooks>
-		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
-	</hooks>
 </table>
