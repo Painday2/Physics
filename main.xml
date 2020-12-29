@@ -394,7 +394,7 @@
 			<value_node value="420"/>
 		</contract_cost>
 		<crimenet_callouts>
-			<value_node value="physics_crimenet_callouts"/>
+			<value_node value="nothing"/>
 		</crimenet_callouts>
 		<crimenet_videos>
 			<value_node value="cn_branchbank2"/>
