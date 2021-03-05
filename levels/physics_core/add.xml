@@ -130,17 +130,6 @@
 		<sequence_manager path="units/payday2/props/stn_prop_office_deskset_straight_b/stn_prop_office_deskset_straight_b" unload="true"/>
 		<unit path="units/payday2/props/stn_prop_office_deskset_straight_b/stn_prop_office_deskset_straight_b" unload="true"/>
 	</add>
-	<add path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" type="unit">
-		<texture path="units/payday2/props/off_prop_appliance_monitor/monitor_df" unload="true"/>
-		<texture path="units/payday2/props/off_prop_appliance_monitor/monitor_nm" unload="true"/>
-		<texture path="units/payday2/props/off_prop_appliance_monitor/screen_df" unload="true"/>
-		<texture path="units/payday2/props/off_prop_appliance_monitor/screen_il" unload="true"/>
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
-		<material_config path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" unload="true"/>
-		<object path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" unload="true"/>
-		<sequence_manager path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" unload="true"/>
-		<unit path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" unload="true"/>
-	</add>
 	<add path="units/world/props/office/whiteboard/whiteboard_01" type="unit">
 		<material_config path="units/world/props/office/whiteboard/whiteboard_01" unload="true"/>
 		<object path="units/world/props/office/whiteboard/whiteboard_01" unload="true"/>
@@ -209,19 +198,6 @@
 		<object path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
 		<sequence_manager path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
 		<unit path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
-	</add>
-	<add path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" type="unit">
-		<texture path="units/payday2/props/off_prop_appliance_monitor/monitor_nm" unload="true"/>
-		<texture path="units/payday2/props/off_prop_appliance_monitor/monitor_df" unload="true"/>
-		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_df" unload="true"/>
-		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_il" unload="true"/>
-		<texture path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_screen_a_background_variations_df" unload="true"/>
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
-		<gui path="guis/timer_gui" unload="true"/>
-		<material_config path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
-		<object path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
-		<sequence_manager path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
-		<unit path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" unload="true"/>
 	</add>
 	<add path="units/world/architecture/secret_stash/props/secret_stash_hack_keyboard_interaction" type="unit">
 		<bnk path="soundbanks/regular_sfx" unload="true"/>

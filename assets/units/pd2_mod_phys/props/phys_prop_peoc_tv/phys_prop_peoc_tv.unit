@@ -1,0 +1,8 @@
+<unit type="vit" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_mod_phys/props/phys_prop_peoc_tv/phys_prop_peoc_tv" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

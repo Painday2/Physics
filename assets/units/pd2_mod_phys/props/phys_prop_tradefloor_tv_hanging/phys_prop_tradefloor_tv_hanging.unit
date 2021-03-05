@@ -1,0 +1,19 @@
+<unit type="are" slot="1">
+	<object file="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging" />
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/explosions/sparks/flashbang_spark" />
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="blink" class="BlinkExt">
+			<var name="_objects" type="table">
+				<var value="g_screen_1" />
+				<var value="g_screen_2" />
+				<var value="g_screen_3" />
+				<var value="g_screen_4" />
+			</var>
+		</extension>
+	</extensions>
+</unit>

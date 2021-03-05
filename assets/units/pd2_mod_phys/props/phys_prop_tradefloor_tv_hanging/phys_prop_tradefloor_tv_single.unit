@@ -1,0 +1,6 @@
+<unit type="are" slot="1">
+	<object file="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_single" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

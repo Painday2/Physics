@@ -1,0 +1,41 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging" orientation_object="rp_are_prop_hallway_tv_hanging" />
+	<sequence_manager file="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging" />
+	
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_are_prop_hallway_tv_hanging" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_capsule" collision_type="capsule" padding="-2.5" />
+		</body>
+		<body name="body_tv" enabled="true" template="static">
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="plastic">
+		<decal_mesh name="dm_tv_hanging" enabled="true" material="plastic" />
+	</decal_surfaces>
+	
+	<graphics>		
+		<graphic_group name="grp_whole" enabled="true" >
+			<lod_object name="lod_whole">
+				<object name="g_tv_hanging_lod0" enabled="true" max_distance="1200" />
+				<object name="g_tv_hanging_lod1" enabled="true" />
+			</lod_object>
+			<object name="g_screen_1"	enabled="false"/>
+			<object name="g_screen_2"	enabled="false"/>
+			<object name="g_screen_3"	enabled="false"/>
+			<object name="g_screen_4"	enabled="false"/>
+			<object name="g_screen_off"	enabled="true"/>
+		</graphic_group>
+
+		<graphic_group name="grp_broken" enabled="false" >
+			<lod_object name="lod_broken">
+				<object name="g_tv_hanging_dmg_lod0" enabled="true" max_distance="1200" />
+				<object name="g_tv_hanging_dmg_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+	</graphics>
+</dynamic_object>

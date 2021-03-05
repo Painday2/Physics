@@ -94,6 +94,110 @@
 		<model						path="units/pd2_mod_phys/props/phys_3x12_banner"/>
 	</add-->
 
+	<!--Level Interactables-->
+	<add>
+		<!--Hackable Computers-->
+		<unit load="true" path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_a"/>
+		<unit load="true" path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_b"/>
+		<object path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_a"/>
+		<object path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_b"/>
+		<model path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_a"/>
+		<model path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_b"/>
+		<cooked_physics path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_a"/>
+		<cooked_physics path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_b"/>
+		<sequence_manager path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_a"/>
+		<sequence_manager path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_b"/>
+		<material_config path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_a"/>
+		<material_config path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_b"/>
+
+		<texture path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_screen_a_background_variations_df"/>
+		<texture path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_screen_a_df"/>
+		<texture path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_screen_a_il"/>
+		<texture path="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_screen_a_v2_df"/>
+
+		<!--Thermal Drill--> <!--CRASHY!-->
+		<!--unit load="true" path="units/pd2_mod_phys/equipment/phys_interactable_lance_large/phys_interactable_lance_large"/>
+		<object path="units/pd2_mod_phys/equipment/phys_interactable_lance_large/phys_interactable_lance_large"/>
+		<model path="units/pd2_mod_phys/equipment/phys_interactable_lance_large/phys_interactable_lance_large"/>
+		<cooked_physics path="units/pd2_mod_phys/equipment/phys_interactable_lance_large/phys_interactable_lance_large"/>
+		<sequence_manager path="units/pd2_mod_phys/equipment/phys_interactable_lance_large/phys_interactable_lance_large"/>
+		<material_config path="units/pd2_mod_phys/equipment/phys_interactable_lance_large/phys_interactable_lance_large"/-->
+	</add>
+
+	<!--Level Props-->
+	<add>
+		<!--Generic Monitor-->
+		<unit load="true" path="units/pd2_mod_phys/props/phys_prop_appliance_monitor/phys_prop_appliance_monitor"/>
+		<object path="units/pd2_mod_phys/props/phys_prop_appliance_monitor/phys_prop_appliance_monitor"/>
+		<model path="units/pd2_mod_phys/props/phys_prop_appliance_monitor/phys_prop_appliance_monitor"/>
+		<cooked_physics path="units/pd2_mod_phys/props/phys_prop_appliance_monitor/phys_prop_appliance_monitor"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_prop_appliance_monitor/phys_prop_appliance_monitor"/>
+		<material_config path="units/pd2_mod_phys/props/phys_prop_appliance_monitor/phys_prop_appliance_monitor"/>
+
+		<texture path="units/pd2_mod_phys/props/phys_prop_appliance_monitor/screen_df"/>
+		<texture path="units/pd2_mod_phys/props/phys_prop_appliance_monitor/screen_il"/>
+		<texture path="units/pd2_mod_phys/props/phys_prop_appliance_monitor/monitor_df"/>
+		<texture path="units/pd2_mod_phys/props/phys_prop_appliance_monitor/monitor_nm"/>
+
+		<!--Vape Stand-->
+		<unit load="true" path="units/pd2_mod_phys/props/phys_prop_vape_stand/phys_prop_vape_stand"/>
+		<object path="units/pd2_mod_phys/props/phys_prop_vape_stand/phys_prop_vape_stand"/>
+		<model path="units/pd2_mod_phys/props/phys_prop_vape_stand/phys_prop_vape_stand"/>
+		<cooked_physics path="units/pd2_mod_phys/props/phys_prop_vape_stand/phys_prop_vape_stand"/>
+		<material_config path="units/pd2_mod_phys/props/phys_prop_vape_stand/phys_prop_vape_stand"/>
+
+		<texture path="units/pd2_mod_phys/props/phys_prop_vape_stand/phys_prop_vape_stand_df"/>
+		<texture path="units/pd2_mod_phys/props/phys_prop_vape_stand/phys_prop_vape_stand_il"/>
+		<texture path="units/pd2_mod_phys/props/phys_prop_vape_stand/phys_prop_vape_stand_nm"/>
+
+		<!--Trade Floor TVs-->
+		<unit load="true" path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging"/>
+		<object path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging"/>
+		<model path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging"/>
+		<cooked_physics path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging"/>
+		<material_config path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging"/>
+
+		<unit load="true" path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_rack"/>
+		<object path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_rack"/>
+		<model path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_rack"/>
+		<cooked_physics path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_rack"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_rack"/>
+		<material_config path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_rack"/>
+
+		<unit load="true" path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_single"/>
+		<object path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_single"/>
+		<model path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_single"/>
+		<cooked_physics path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_single"/>
+
+		<unit load="true" path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_single_small"/>
+		<object path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_single_small"/>
+		<model path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_single_small"/>
+		<cooked_physics path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_single_small"/>
+
+		<unit load="true" path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_single_small_02"/>
+		<object path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_single_small_02"/>
+		<model path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_single_small_02"/>
+		<cooked_physics path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_single_small_02"/>
+
+		<texture path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/screens_df"/>
+		<texture path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/screens_nm"/>
+		<texture path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_df"/>
+		<texture path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging_df"/>
+		<texture path="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging_nm"/>
+
+		<!--PEOC Megascreen-->
+		<unit load="true" path="units/pd2_mod_phys/props/phys_prop_peoc_tv/phys_prop_peoc_tv"/>
+		<object path="units/pd2_mod_phys/props/phys_prop_peoc_tv/phys_prop_peoc_tv"/>
+		<model path="units/pd2_mod_phys/props/phys_prop_peoc_tv/phys_prop_peoc_tv"/>
+		<cooked_physics path="units/pd2_mod_phys/props/phys_prop_peoc_tv/phys_prop_peoc_tv"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_prop_peoc_tv/phys_prop_peoc_tv"/>
+		<material_config path="units/pd2_mod_phys/props/phys_prop_peoc_tv/phys_prop_peoc_tv"/>
+
+		<texture path="units/pd2_mod_phys/props/phys_prop_peoc_tv/phys_prop_peoc_tv_screens_df"/>
+		<texture path="units/pd2_mod_phys/props/phys_prop_peoc_tv/phys_prop_peoc_tv_screens_il"/>
+	</add>
+
 	<!--Lootbag Stuff-->
 	<add>
 		<!--Forklift-->

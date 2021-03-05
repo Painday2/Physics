@@ -1,0 +1,18 @@
+<materials version="3">
+    <material name="mat_tv_hanging" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging_df"/>
+        <bump_normal_texture file="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0.043000001460314 2.6000001430511" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_tv_hanging_lod" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture mip="2" file="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging_df"/>
+        <bump_normal_texture mip="2" file="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/phys_prop_tradefloor_tv_hanging_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mtr_screens" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture mip="2" file="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/screens_df" />
+        <bump_normal_texture mip="2" file="units/pd2_mod_phys/props/phys_prop_tradefloor_tv_hanging/screens_nm"/>
+    </material>
+</materials>
