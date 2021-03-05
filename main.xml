@@ -66,9 +66,9 @@
 			<value_node value="physics_citystreets_outro_event"/>
 		</outro_event>
 		<packages>
+			<value_node value="modpackages/mod_phys"/>
 			<value_node value="modpackages/mod_bofa"/>
 			<value_node value="modpackages/mod_mkp"/>
-			<value_node value="modpackages/mod_phys"/>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 			<value_node value="packages/escape_park"/>
 			<value_node value="packages/narr_framing_1"/>
