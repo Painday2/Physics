@@ -7,6 +7,9 @@
 		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d3_sniper"/>
 		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d3_dozer"/>
 		<texture path="guis/mods/phys/textures/pd2/mission_briefing/assets/d3_bronco"/>
+		<movie force="true" path="movies/contact_bain1"/>
+		<movie force="true" path="movies/contact_bain2"/>
+		<movie force="true" path="movies/contact_bain3"/>
 	</add>
 
 	<!--NDA Wall (Rex)-->
