@@ -20,7 +20,7 @@
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
 		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
-	<level ai_group_type="bo" briefing_dialog="physics_citystreets_briefing_dialog" id="physics_citystreets" intro_event="physics_citystreets_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_01_df" max_bags="0" orig_id="BoWorks" team_ai_off="false" narrator="locke">
+	<level ai_group_type="bo" briefing_dialog="physics_citystreets_briefing_dialog" id="physics_citystreets" intro_event="physics_citystreets_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_01_df" max_bags="0" narrator="locke" orig_id="BoWorks" team_ai_off="false">
 		<add file="levels/physics_citystreets/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -84,7 +84,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="bo" briefing_dialog="physics_tower_briefing_dialog" id="physics_tower" intro_event="physics_tower_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_02_df" max_bags="0" orig_id="BoWorks_Tower" narrator="locke">
+	<level ai_group_type="bo" briefing_dialog="physics_tower_briefing_dialog" id="physics_tower" intro_event="physics_tower_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_02_df" max_bags="0" narrator="locke" orig_id="BoWorks_Tower">
 		<add file="levels/physics_tower/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -147,7 +147,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="bo" briefing_dialog="physics_core_briefing_dialog" id="physics_core" intro_event="physics_core_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_03_df" max_bags="0" orig_id="physics_core" narrator="locke">
+	<level ai_group_type="bo" briefing_dialog="physics_core_briefing_dialog" id="physics_core" intro_event="physics_core_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_03_df" max_bags="0" narrator="locke" orig_id="physics_core">
 		<add file="levels/physics_core/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -383,13 +383,13 @@
 			<table level_id="physics_core" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
-			<value_node value="30"/>
-			<value_node value="60"/>
-			<value_node value="150"/>
-			<value_node value="300"/>
-			<value_node value="345"/>
-			<value_node value="390"/>
-			<value_node value="420"/>
+			<value_node value="6"/>
+			<value_node value="6"/>
+			<value_node value="6"/>
+			<value_node value="6"/>
+			<value_node value="6"/>
+			<value_node value="6"/>
+			<value_node value="6"/>
 		</contract_cost>
 		<crimenet_callouts>
 			<value_node value="nothing"/>
@@ -410,31 +410,31 @@
 			<value_node value="3"/>
 		</experience_mul>
 		<max_mission_xp>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
+			<value_node value="79000"/>
+			<value_node value="79000"/>
+			<value_node value="79000"/>
+			<value_node value="79000"/>
+			<value_node value="79000"/>
+			<value_node value="79000"/>
+			<value_node value="79000"/>
 		</max_mission_xp>
 		<min_mission_xp>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
+			<value_node value="79000"/>
+			<value_node value="79000"/>
+			<value_node value="79000"/>
+			<value_node value="79000"/>
+			<value_node value="79000"/>
+			<value_node value="79000"/>
+			<value_node value="79000"/>
 		</min_mission_xp>
 		<payout>
-			<value_node value="30"/>
-			<value_node value="60"/>
-			<value_node value="150"/>
-			<value_node value="300"/>
-			<value_node value="345"/>
-			<value_node value="390"/>
-			<value_node value="420"/>
+			<value_node value="6"/>
+			<value_node value="6"/>
+			<value_node value="6"/>
+			<value_node value="6"/>
+			<value_node value="6"/>
+			<value_node value="6"/>
+			<value_node value="6"/>
 		</payout>
 	</narrative>
 </table>
