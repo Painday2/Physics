@@ -362,11 +362,47 @@
 	<Package file="packagedata/mod_bofa/add.xml" id="modpackages/mod_bofa"/>
 	<Package file="packagedata/mod_mkp/add.xml" id="modpackages/mod_mkp"/>
 	<Package file="packagedata/mod_phys/add.xml" id="modpackages/mod_phys"/>
+	<Achievements banner="guis/achievements/p_ach_banner" icon="guis/achievements/phys_pack" id="physics_pain_achievements">
+		<achievement desc_id="p_phys_diffn_desc" icon="guis/achievements/phys/phys_diffn" id="p_phys_diffn" name_id="p_phys_diffn_name" rank="1"/>
+		<achievement desc_id="p_phys_diffh_desc" icon="guis/achievements/phys/phys_diffh" id="p_phys_diffh" name_id="p_phys_diffh_name" rank="1"/>
+		<achievement desc_id="p_phys_diffvh_desc" icon="guis/achievements/phys/phys_diffvh" id="p_phys_diffvh" name_id="p_phys_diffvh_name" rank="2"/>
+		<achievement desc_id="p_phys_diffovk_desc" icon="guis/achievements/phys/phys_diffovk" id="p_phys_diffovk" name_id="p_phys_diffovk_name" rank="2"/>
+		<achievement desc_id="p_phys_diffmh_desc" icon="guis/achievements/phys/phys_diffmh" id="p_phys_diffmh" name_id="p_phys_diffmh_name" rank="3"/>
+		<achievement desc_id="p_phys_diffdw_desc" icon="guis/achievements/phys/phys_diffdw" id="p_phys_diffdw" name_id="p_phys_diffdw_name" rank="3"/>
+		<achievement desc_id="p_phys_diffds_desc" icon="guis/achievements/phys/phys_diffds" id="p_phys_diffds" name_id="p_phys_diffds_name" rank="4"/>
+		<achievement desc_id="p_phys_diffdsod_desc" icon="guis/achievements/phys/phys_diffdsod" id="p_phys_diffdsod" name_id="p_phys_diffdsod_name" rank="4"/>
+		<achievement desc_id="p_phys_d1a_desc" icon="guis/achievements/phys/phys_d1a" id="p_phys_d1a" name_id="p_phys_d1a_name" rank="2"/>
+		<achievement desc_id="p_phys_d1b_desc" icon="guis/achievements/phys/phys_d1b" id="p_phys_d1b" name_id="p_phys_d1b_name" rank="3"/>
+		<achievement desc_id="p_phys_d2a_desc" icon="guis/achievements/phys/phys_d2a" id="p_phys_d2a" name_id="p_phys_d2a_name" rank="2"/>
+		<achievement desc_id="p_phys_d2b_desc" icon="guis/achievements/phys/phys_d2b" id="p_phys_d2b" name_id="p_phys_d2b_name" rank="3"/>
+		<achievement desc_id="p_phys_d3a_desc" icon="guis/achievements/phys/phys_d3a" id="p_phys_d3a" name_id="p_phys_d3a_name" rank="2"/>
+		<achievement desc_id="p_phys_d3b_desc" icon="guis/achievements/phys/phys_d3b" id="p_phys_d3b" name_id="p_phys_d3b_name" rank="3"/>
+		<achievement desc_id="p_phys_speedrun_desc" icon="guis/achievements/phys/phys_speedrun" id="p_phys_speedrun" name_id="p_phys_speedrun_name" rank="4"/>
+		<achievement desc_id="p_phys_secret_desc" hidden_achievement="true" icon="guis/achievements/phys/phys_secret" id="p_phys_secret" name_id="p_phys_secret_name" rank="4"/>
+	</Achievements>
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/mods/phys/textures/loading/job_physics_01_df"/>
 		<texture load="true" path="guis/mods/phys/textures/loading/job_physics_02_df"/>
 		<texture load="true" path="guis/mods/phys/textures/loading/job_physics_03_df"/>
 		<texture load="true" path="guis/mods/phys/textures/physics_icon"/>
+		<texture load="true" path="guis/achievements/p_ach_banner"/>
+		<texture load="true" path="guis/achievements/phys_pack"/>
+		<texture load="true" path="guis/achievements/phys/phys_diffn"/>
+		<texture load="true" path="guis/achievements/phys/phys_diffh"/>
+		<texture load="true" path="guis/achievements/phys/phys_diffvh"/>
+		<texture load="true" path="guis/achievements/phys/phys_diffovk"/>
+		<texture load="true" path="guis/achievements/phys/phys_diffmh"/>
+		<texture load="true" path="guis/achievements/phys/phys_diffdw"/>
+		<texture load="true" path="guis/achievements/phys/phys_diffds"/>
+		<texture load="true" path="guis/achievements/phys/phys_diffdsod"/>
+		<texture load="true" path="guis/achievements/phys/phys_d1a"/>
+		<texture load="true" path="guis/achievements/phys/phys_d1b"/>
+		<texture load="true" path="guis/achievements/phys/phys_d2a"/>
+		<texture load="true" path="guis/achievements/phys/phys_d2b"/>
+		<texture load="true" path="guis/achievements/phys/phys_d3a"/>
+		<texture load="true" path="guis/achievements/phys/phys_d3b"/>
+		<texture load="true" path="guis/achievements/phys/phys_speedrun"/>
+		<texture load="true" path="guis/achievements/phys/phys_secret"/>
 	</AddFiles>
 	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
 	<Localization default="english.txt" directory="loc">

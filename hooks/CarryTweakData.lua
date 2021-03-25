@@ -8,7 +8,7 @@ Hooks:PostHook(CarryTweakData, "init", "init_boworks", function(self, tweak_data
 	}
 	
 	self.meth_lab = {
-		type = "mega_heavy",
+		type = "heavy",
 		name_id = "hud_carry_meth_lab",
 		skip_exit_secure = true,
 		unit = "units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag",
