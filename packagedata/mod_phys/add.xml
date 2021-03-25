@@ -288,7 +288,7 @@
 		<texture path="units/matthelzor/characters/ford/body_nm"/>
 		<texture path="units/matthelzor/characters/ford/body_df"/-->
 
-	<!--Bo (Lawsfercapcake)-->
+	<!--Bo (Zdann)-->
 	<add>
 		<cooked_physics path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
 		<material_config path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
@@ -301,7 +301,7 @@
 		<unit load="true" path="units/mainman/characters/ene_bo/ene_bo_husk"/>
 	</add>
 
-	<!--VR Headset interactable (Lawsfercapcake)-->
+	<!--VR Headset interactable (Zdann)-->
 	<add>
 		<cooked_physics path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
 		<material_config path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>

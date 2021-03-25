@@ -1,0 +1,9 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_phys/props/phys_prop_cinema_screen/phys_prop_cinema_screen" orientation_object="rp_are_int_stage" />
+	<sequence_manager file="units/pd2_mod_phys/props/phys_prop_cinema_screen/phys_prop_cinema_screen" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_are_int_stage" />
+		</body>
+	</bodies>
+</dynamic_object>

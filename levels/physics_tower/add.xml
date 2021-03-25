@@ -83,6 +83,15 @@
 		<unit path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
 		<model path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
 	</add>
+	<!--Cinema Screen (Zdann)-->
+	<add>
+		<movie load="true" path="movies/phys_cinema"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_prop_cinema_screen/phys_prop_cinema_screen"/>
+		<material_config path="units/pd2_mod_phys/props/phys_prop_cinema_screen/phys_prop_cinema_screen"/>
+		<object path="units/pd2_mod_phys/props/phys_prop_cinema_screen/phys_prop_cinema_screen"/>
+		<unit path="units/pd2_mod_phys/props/phys_prop_cinema_screen/phys_prop_cinema_screen"/>
+		<model path="units/pd2_mod_phys/props/phys_prop_cinema_screen/phys_prop_cinema_screen"/>
+	</add>
 	<add path="units/test/jocke/plane_black_temp" type="unit">
 		<material_config path="units/test/jocke/plane_black_temp" unload="true"/>
 		<object path="units/test/jocke/plane_black_temp" unload="true"/>
