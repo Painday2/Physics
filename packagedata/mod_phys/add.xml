@@ -201,6 +201,14 @@
 
 		<texture path="units/pd2_mod_phys/props/phys_prop_peoc_tv/phys_prop_peoc_tv_screens_df"/>
 		<texture path="units/pd2_mod_phys/props/phys_prop_peoc_tv/phys_prop_peoc_tv_screens_il"/>
+
+		<!--Cinema Screen (Zdann)-->
+		<movie load="true" path="movies/phys_cinema"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_prop_cinema_screen/phys_prop_cinema_screen"/>
+		<material_config path="units/pd2_mod_phys/props/phys_prop_cinema_screen/phys_prop_cinema_screen"/>
+		<object path="units/pd2_mod_phys/props/phys_prop_cinema_screen/phys_prop_cinema_screen"/>
+		<unit path="units/pd2_mod_phys/props/phys_prop_cinema_screen/phys_prop_cinema_screen"/>
+		<model path="units/pd2_mod_phys/props/phys_prop_cinema_screen/phys_prop_cinema_screen"/>
 	</add>
 
 	<!--Lootbag Stuff-->
