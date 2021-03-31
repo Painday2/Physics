@@ -472,6 +472,225 @@
 			<sound id="physics_citystreets_outro_event_02"/>
 			<sound id="physics_citystreets_outro_event_03"/>
 		</sounds>
+		<sounds directory="day2">
+			<sound id="phys_d2_a1_01" subtitle_id="phys_d2_a1_01"/>
+			<sound id="phys_d2_a1_02" subtitle_id="phys_d2_a1_02"/>
+			<sound id="phys_d2_a1_03" subtitle_id="phys_d2_a1_03"/>
+			<random id="phys_d2_a1">
+				<sound id="phys_d2_a1_01" subtitle_id="phys_d2_a1_01"/>
+				<sound id="phys_d2_a1_02" subtitle_id="phys_d2_a1_02"/>
+				<sound id="phys_d2_a1_03" subtitle_id="phys_d2_a1_03"/>
+			</random>
+
+			<sound id="phys_d2_a2_01" subtitle_id="phys_d2_a2_01"/>
+			<sound id="phys_d2_a2_03" subtitle_id="phys_d2_a2_02"/>
+			<sound id="phys_d2_a2_02" subtitle_id="phys_d2_a2_03"/>
+			<random id="phys_d2_a2">
+				<sound id="phys_d2_a2_01" subtitle_id="phys_d2_a2_01"/>
+				<sound id="phys_d2_a2_03" subtitle_id="phys_d2_a2_02"/>
+				<sound id="phys_d2_a2_02" subtitle_id="phys_d2_a2_03"/>
+			</random>
+
+			<sound id="phys_d2_b1_01" subtitle_id="phys_d2_b1_01"/>
+			<sound id="phys_d2_b1_02" subtitle_id="phys_d2_b1_02"/>
+			<sound id="phys_d2_b1_03" subtitle_id="phys_d2_b1_03"/>
+			<sound id="phys_d2_b1_04" subtitle_id="phys_d2_b1_04"/>
+			<random id="phys_d2_b1">
+				<sound id="phys_d2_b1_01" subtitle_id="phys_d2_b1_01"/>
+				<sound id="phys_d2_b1_02" subtitle_id="phys_d2_b1_02"/>
+				<sound id="phys_d2_b1_03" subtitle_id="phys_d2_b1_03"/>
+				<sound id="phys_d2_b1_04" subtitle_id="phys_d2_b1_04"/>
+			</random>
+
+			<sound id="phys_d2_b2_01" subtitle_id="phys_d2_b2_01"/> <!--Not Random!-->
+			<sound id="phys_d2_b2_02" subtitle_id="phys_d2_b2_02"/>
+
+			<sound id="phys_d2_b3_01" subtitle_id="phys_d2_b3_01"/>
+			<sound id="phys_d2_b3_02" subtitle_id="phys_d2_b3_02"/>
+			<sound id="phys_d2_b3_03" subtitle_id="phys_d2_b3_03"/>
+			<random id="phys_d2_b3">
+				<sound id="phys_d2_b3_01" subtitle_id="phys_d2_b3_01"/>
+				<sound id="phys_d2_b3_02" subtitle_id="phys_d2_b3_02"/>
+				<sound id="phys_d2_b3_03" subtitle_id="phys_d2_b3_03"/>
+			</random>
+
+			<sound id="phys_d2_b4_01" subtitle_id="phys_d2_b4_01"/>
+			<random id="phys_d2_b4">
+				<sound id="phys_d2_b4_01" subtitle_id="phys_d2_b4_01"/>
+			</random>
+
+			<sound id="phys_d2_c1_01" subtitle_id="phys_d2_c1_01"/>
+			<sound id="phys_d2_c1_02" subtitle_id="phys_d2_c1_02"/>
+			<sound id="phys_d2_c1_03" subtitle_id="phys_d2_c1_03"/>
+			<sound id="phys_d2_c1_04" subtitle_id="phys_d2_c1_04"/>
+			<random id="phys_d2_c1">
+				<sound id="phys_d2_c1_01" subtitle_id="phys_d2_c1_01"/>
+				<sound id="phys_d2_c1_02" subtitle_id="phys_d2_c1_02"/>
+				<sound id="phys_d2_c1_03" subtitle_id="phys_d2_c1_03"/>
+				<sound id="phys_d2_c1_04" subtitle_id="phys_d2_c1_04"/>
+			</random>
+
+			<sound id="phys_d2_c2_01" subtitle_id="phys_d2_c2_01"/>
+			<random id="phys_d2_c2">
+				<sound id="phys_d2_c2_01" subtitle_id="phys_d2_c2_01"/>
+			</random>
+
+			<sound id="phys_d2_c3_01" subtitle_id="phys_d2_c3_01"/>
+			<sound id="phys_d2_c3_02" subtitle_id="phys_d2_c3_02"/>
+			<sound id="phys_d2_c3_03" subtitle_id="phys_d2_c3_03"/>
+			<random id="phys_d2_c3">
+				<sound id="phys_d2_c3_01" subtitle_id="phys_d2_c3_01"/>
+				<sound id="phys_d2_c3_02" subtitle_id="phys_d2_c3_02"/>
+				<sound id="phys_d2_c3_03" subtitle_id="phys_d2_c3_03"/>
+			</random>
+
+			<sound id="phys_d2_c3a_01" subtitle_id="phys_d2_c3a_01"/>
+			<sound id="phys_d2_c3a_02" subtitle_id="phys_d2_c3a_02"/>
+			<sound id="phys_d2_c3a_03" subtitle_id="phys_d2_c3a_03"/>
+			<sound id="phys_d2_c3a_04" subtitle_id="phys_d2_c3a_04"/>
+			<random id="phys_d2_c3a">
+				<sound id="phys_d2_c3a_01" subtitle_id="phys_d2_c3a_01"/>
+				<sound id="phys_d2_c3a_02" subtitle_id="phys_d2_c3a_02"/>
+				<sound id="phys_d2_c3a_03" subtitle_id="phys_d2_c3a_03"/>
+				<sound id="phys_d2_c3a_04" subtitle_id="phys_d2_c3a_04"/>
+			</random>
+
+			<sound id="phys_d2_c4_01" subtitle_id="phys_d2_c4_01"/>
+			<random id="phys_d2_c4">
+				<sound id="phys_d2_c4_01" subtitle_id="phys_d2_c4_01"/>
+			</random>
+
+			<sound id="phys_d2_c5_01" subtitle_id="phys_d2_c5_01"/>
+			<sound id="phys_d2_c5_02" subtitle_id="phys_d2_c5_02"/>
+			<sound id="phys_d2_c5_03" subtitle_id="phys_d2_c5_03"/>
+			<sound id="phys_d2_c5_04" subtitle_id="phys_d2_c5_04"/>
+			<random id="phys_d2_c5">
+				<sound id="phys_d2_c5_01" subtitle_id="phys_d2_c5_01"/>
+				<sound id="phys_d2_c5_02" subtitle_id="phys_d2_c5_02"/>
+				<sound id="phys_d2_c5_03" subtitle_id="phys_d2_c5_03"/>
+				<sound id="phys_d2_c5_04" subtitle_id="phys_d2_c5_04"/>
+			</random>
+
+			<sound id="phys_d2_d1_01" subtitle_id="phys_d2_d1_01"/>
+			<sound id="phys_d2_d1_02" subtitle_id="phys_d2_d1_02"/>
+			<random id="phys_d2_d1">
+				<sound id="phys_d2_d1_01" subtitle_id="phys_d2_d1_01"/>
+				<sound id="phys_d2_d1_02" subtitle_id="phys_d2_d1_02"/>
+			</random>
+
+			<sound id="phys_d2_d2_01" subtitle_id="phys_d2_d2_01"/>
+			<sound id="phys_d2_d2_02" subtitle_id="phys_d2_d2_02"/>
+			<random id="phys_d2_d2">
+				<sound id="phys_d2_d2_01" subtitle_id="phys_d2_d2_01"/>
+				<sound id="phys_d2_d2_02" subtitle_id="phys_d2_d2_02"/>
+			</random>
+
+			<sound id="phys_d2_d3_01" subtitle_id="phys_d2_d3_01"/>
+			<sound id="phys_d2_d3_02" subtitle_id="phys_d2_d3_02"/>
+			<sound id="phys_d2_d3_03" subtitle_id="phys_d2_d3_03"/>
+			<sound id="phys_d2_d3_04" subtitle_id="phys_d2_d3_04"/>
+			<sound id="phys_d2_d3_05" subtitle_id="phys_d2_d3_05"/>
+			<sound id="phys_d2_d3_06" subtitle_id="phys_d2_d3_06"/>
+			<random id="phys_d2_d3">
+				<sound id="phys_d2_d3_01" subtitle_id="phys_d2_d3_01"/>
+				<sound id="phys_d2_d3_02" subtitle_id="phys_d2_d3_02"/>
+				<sound id="phys_d2_d3_03" subtitle_id="phys_d2_d3_03"/>
+				<sound id="phys_d2_d3_04" subtitle_id="phys_d2_d3_04"/>
+				<sound id="phys_d2_d3_05" subtitle_id="phys_d2_d3_05"/>
+				<sound id="phys_d2_d3_06" subtitle_id="phys_d2_d3_06"/>
+			</random>
+
+			<sound id="phys_d2_d4_01" subtitle_id="phys_d2_d4_01"/>
+			<sound id="phys_d2_d4_02" subtitle_id="phys_d2_d4_02"/>
+			<random id="phys_d2_d4">
+				<sound id="phys_d2_d4_01" subtitle_id="phys_d2_d4_01"/>
+				<sound id="phys_d2_d4_02" subtitle_id="phys_d2_d4_02"/>
+			</random>
+
+			<sound id="phys_d2_d5_01" subtitle_id="phys_d2_d5_01"/>
+			<sound id="phys_d2_d5_02" subtitle_id="phys_d2_d5_02"/>
+			<sound id="phys_d2_d5_03" subtitle_id="phys_d2_d5_03"/>
+			<sound id="phys_d2_d5_04" subtitle_id="phys_d2_d5_04"/>
+			<sound id="phys_d2_d5_05" subtitle_id="phys_d2_d5_05"/>
+			<random id="phys_d2_d5">
+				<sound id="phys_d2_d5_01" subtitle_id="phys_d2_d5_01"/>
+				<sound id="phys_d2_d5_02" subtitle_id="phys_d2_d5_02"/>
+				<sound id="phys_d2_d5_03" subtitle_id="phys_d2_d5_03"/>
+				<sound id="phys_d2_d5_04" subtitle_id="phys_d2_d5_04"/>
+				<sound id="phys_d2_d5_05" subtitle_id="phys_d2_d5_05"/>
+			</random>
+		</sounds>
+		<sounds directory="day3">
+			<sound id="phys_d3_a1_01" subtitle_id="phys_d3_a1_01"/>
+			<sound id="phys_d3_a1_02" subtitle_id="phys_d3_a1_02"/>
+			<sound id="phys_d3_a1_03" subtitle_id="phys_d3_a1_03"/>
+			<random id="phys_d3_a1">
+				<sound id="phys_d3_a1_01" subtitle_id="phys_d3_a1_01"/>
+			<sound id="phys_d3_a1_02" subtitle_id="phys_d3_a1_02"/>
+			<sound id="phys_d3_a1_03" subtitle_id="phys_d3_a1_03"/>
+			</random>
+			
+
+			<sound id="phys_d3_a2_01" subtitle_id="phys_d3_a2_01"/>
+			<sound id="phys_d3_a2_02" subtitle_id="phys_d3_a2_02"/>
+			<sound id="phys_d3_a2_03" subtitle_id="phys_d3_a2_03"/>
+			<random id="phys_d3_a2">
+				<sound id="phys_d3_a2_01" subtitle_id="phys_d3_a2_01"/>
+				<sound id="phys_d3_a2_02" subtitle_id="phys_d3_a2_02"/>
+				<sound id="phys_d3_a2_03" subtitle_id="phys_d3_a2_03"/>
+			</random>
+
+			<sound id="phys_d3_b1_01" subtitle_id="phys_d3_b1_01"/>
+			<sound id="phys_d3_b1_02" subtitle_id="phys_d3_b1_02"/>
+			<sound id="phys_d3_b1_03" subtitle_id="phys_d3_b1_03"/>
+			<random id="phys_d3_b1">
+				<sound id="phys_d3_b1_01" subtitle_id="phys_d3_b1_01"/>
+				<sound id="phys_d3_b1_02" subtitle_id="phys_d3_b1_02"/>
+				<sound id="phys_d3_b1_03" subtitle_id="phys_d3_b1_03"/>
+			</random>
+
+			<sound id="phys_d3_b2_01" subtitle_id="phys_d3_b2_01"/>
+			<sound id="phys_d3_b2_02" subtitle_id="phys_d3_b2_02"/>
+			<sound id="phys_d3_b2_03" subtitle_id="phys_d3_b2_03"/>
+			<sound id="phys_d3_b2_04" subtitle_id="phys_d3_b2_04"/>
+			<sound id="phys_d3_b2_05" subtitle_id="phys_d3_b2_05"/>
+			<sound id="phys_d3_b2_06" subtitle_id="phys_d3_b2_06"/>
+			<random id="phys_d3_b2">
+				<sound id="phys_d3_b2_01" subtitle_id="phys_d3_b2_01"/>
+				<sound id="phys_d3_b2_02" subtitle_id="phys_d3_b2_02"/>
+				<sound id="phys_d3_b2_03" subtitle_id="phys_d3_b2_03"/>
+				<sound id="phys_d3_b2_04" subtitle_id="phys_d3_b2_04"/>
+				<sound id="phys_d3_b2_05" subtitle_id="phys_d3_b2_05"/>
+				<sound id="phys_d3_b2_06" subtitle_id="phys_d3_b2_06"/>
+			</random>
+
+			<sound id="phys_d3_b3_01" subtitle_id="phys_d3_b3_01"/>
+			<sound id="phys_d3_b3_02" subtitle_id="phys_d3_b3_02"/>
+			<sound id="phys_d3_b3_03" subtitle_id="phys_d3_b3_03"/>
+			<random id="phys_d3_b3">
+				<sound id="phys_d3_b3_01" subtitle_id="phys_d3_b3_01"/>
+				<sound id="phys_d3_b3_02" subtitle_id="phys_d3_b3_02"/>
+				<sound id="phys_d3_b3_03" subtitle_id="phys_d3_b3_03"/>
+			</random>
+
+			<sound id="phys_d3_b4_01" subtitle_id="phys_d3_b4_01"/>
+			<random id="phys_d3_b4">
+				<sound id="phys_d3_b4_01" subtitle_id="phys_d3_b4_01"/>
+			</random>
+
+			<sound id="phys_d3_b5_01" subtitle_id="phys_d3_b5_01"/>
+			<sound id="phys_d3_b5_02" subtitle_id="phys_d3_b5_02"/>
+			<sound id="phys_d3_b5_03" subtitle_id="phys_d3_b5_03"/>
+			<sound id="phys_d3_b5_04" subtitle_id="phys_d3_b5_04"/>
+			<sound id="phys_d3_b5_05" subtitle_id="phys_d3_b5_05"/>
+			<random id="phys_d3_b5">
+				<sound id="phys_d3_b5_01" subtitle_id="phys_d3_b5_01"/>
+				<sound id="phys_d3_b5_02" subtitle_id="phys_d3_b5_02"/>
+				<sound id="phys_d3_b5_03" subtitle_id="phys_d3_b5_03"/>
+				<sound id="phys_d3_b5_04" subtitle_id="phys_d3_b5_04"/>
+				<sound id="phys_d3_b5_05" subtitle_id="phys_d3_b5_05"/>
+			</random>
+		</sounds>
 	</Sounds>
 	<Sounds directory="assets/sounds/bo_head">
 		<sound id="bo_head_complete_fucking_overkill" path="complete_fucking_overkill.ogg"/>

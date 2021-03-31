@@ -1,3 +1,5 @@
 <table>
 	<include name="phys_day1"/>
+	<include name="phys_day2"/>
+	<include name="phys_day3"/>
 </table>

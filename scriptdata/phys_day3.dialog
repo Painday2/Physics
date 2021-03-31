@@ -1,0 +1,10 @@
+<table>
+	<dialog id="phys_d3_a1" priority="1" sound="phys_d3_a1"/>
+	<dialog id="phys_d3_a2" priority="1" sound="phys_d3_a2"/>
+
+	<dialog id="phys_d3_b1" priority="1" sound="phys_d3_b1"/>
+	<dialog id="phys_d3_b2" priority="1" sound="phys_d3_b2"/>
+	<dialog id="phys_d3_b3" priority="1" sound="phys_d3_b3"/>
+	<dialog id="phys_d3_b4" priority="1" sound="phys_d3_b4"/>
+	<dialog id="phys_d3_b5" priority="1" sound="phys_d3_b5"/>
+</table>
