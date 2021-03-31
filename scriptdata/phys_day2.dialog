@@ -1,0 +1,23 @@
+<table>
+	<dialog id="phys_d2_a1" priority="1" sound="phys_d2_a1"/>
+	<dialog id="phys_d2_a2" priority="1" sound="phys_d2_a2"/>
+
+	<dialog id="phys_d2_b1" priority="1" sound="phys_d2_b1"/>
+	<dialog id="phys_d2_b2_01" priority="1" sound="phys_d2_b2_01"/>
+	<dialog id="phys_d2_b2_02" priority="1" sound="phys_d2_b2_02"/>
+	<dialog id="phys_d2_b3" priority="1" sound="phys_d2_b3"/>
+	<dialog id="phys_d2_b4" priority="1" sound="phys_d2_b4"/>
+
+	<dialog id="phys_d2_c1" priority="1" sound="phys_d2_c1"/>
+	<dialog id="phys_d2_c2" priority="1" sound="phys_d2_c2"/>
+	<dialog id="phys_d2_c3" priority="1" sound="phys_d2_c3"/>
+	<dialog id="phys_d2_c3a" priority="1" sound="phys_d2_c3a"/>
+	<dialog id="phys_d2_c4" priority="1" sound="phys_d2_c4"/>
+	<dialog id="phys_d2_c5" priority="1" sound="phys_d2_c5"/>
+
+	<dialog id="phys_d2_d1" priority="1" sound="phys_d2_d1"/>
+	<dialog id="phys_d2_d2" priority="1" sound="phys_d2_d2"/>
+	<dialog id="phys_d2_d3" priority="1" sound="phys_d2_d3"/>
+	<dialog id="phys_d2_d4" priority="1" sound="phys_d2_d4"/>
+	<dialog id="phys_d2_d5" priority="1" sound="phys_d2_d5"/>
+</table>
