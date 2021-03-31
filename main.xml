@@ -36,7 +36,9 @@
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
 			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 			<hook file="copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
 		</hooks>
@@ -103,7 +105,9 @@
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 			<hook file="copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
 		</hooks>
@@ -168,7 +172,9 @@
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 			<hook file="copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
 		</hooks>
@@ -463,14 +469,14 @@
 			</sounds>
 			<sound id="physics_citystreets_briefing_dialog"/>
 			<sound id="physics_citystreets_intro_event" subtitle_id="physics_citystreets_intro_event_sub"/>
+			<sound id="physics_citystreets_outro_event_01"/>
+			<sound id="physics_citystreets_outro_event_02"/>
+			<sound id="physics_citystreets_outro_event_03"/>
 			<random id="physics_citystreets_outro_event">
 				<sound id="physics_citystreets_outro_event_01"/>
 				<sound id="physics_citystreets_outro_event_02"/>
 				<sound id="physics_citystreets_outro_event_03"/>
 			</random>
-			<sound id="physics_citystreets_outro_event_01"/>
-			<sound id="physics_citystreets_outro_event_02"/>
-			<sound id="physics_citystreets_outro_event_03"/>
 		</sounds>
 	</Sounds>
 	<Sounds directory="assets/sounds/bo_head">
@@ -610,9 +616,6 @@
 		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
-	<Package file="packagedata/mod_bofa/add.xml" id="modpackages/mod_bofa"/>
-	<Package file="packagedata/mod_mkp/add.xml" id="modpackages/mod_mkp"/>
-	<Package file="packagedata/mod_phys/add.xml" id="modpackages/mod_phys"/>
 	<Achievements banner="guis/achievements/p_ach_banner" icon="guis/achievements/phys_pack" id="physics_pain_achievements">
 		<achievement desc_id="p_phys_diffn_desc" icon="guis/achievements/phys/phys_diffn" id="p_phys_diffn" name_id="p_phys_diffn_name" rank="1"/>
 		<achievement desc_id="p_phys_diffh_desc" icon="guis/achievements/phys/phys_diffh" id="p_phys_diffh" name_id="p_phys_diffh_name" rank="1"/>

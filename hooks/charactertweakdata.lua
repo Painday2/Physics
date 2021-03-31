@@ -144,5 +144,10 @@ Hooks:PostHook(CharacterTweakData, "_init_drug_lord_boss", "thechase_boss", func
 		}
 		self.drug_lord_boss.damage.hurt_severity = presets.hurt_severities.no_hurts
 		self.drug_lord_boss.die_sound_event = "l1n_burndeath"
-		
+end)
+
+Hooks:PostHook(CharacterTweakData, "_init_security", "BOFA_Security_CharacterTweakData", function(self, presets)
+	self.security_no_pager = deep_clone(self.security)
+	self.security_no_pager.has_alarm_pager = false
+	table.insert(self._enemy_list, "security_no_pager")
 end)

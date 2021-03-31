@@ -1,0 +1,1 @@
+CopBrain._logic_variants.security_no_pager = CopBrain._logic_variants.security

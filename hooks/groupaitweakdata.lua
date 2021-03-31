@@ -150,10 +150,10 @@ local groups = {
 		"units/payday2/characters/ene_bulldozer_1/ene_bulldozer_1"
 	},
 	medic_M4 = {
-		"units/payday2/characters/ene_medic_m4/ene_medic_m4"
+		"units/pd2_mod_bofa/characters/special_units/ene_bofa_medic_m4/ene_bofa_medic_m4"
 	},
 	medic_R870 = {
-		"units/payday2/characters/ene_medic_r870/ene_medic_r870"
+		"units/pd2_mod_bofa/characters/special_units/ene_bofa_medic_r870/ene_bofa_medic_r870"
 	},
 	Phalanx_minion = {
 		"units/pd2_dlc_vip/characters/ene_phalanx_1/ene_phalanx_1"
@@ -231,43 +231,43 @@ difficulty_specific[8] = {
 		"units/pd2_dlc_gitgud/characters/ene_zeal_cloaker/ene_zeal_cloaker"
 	},
 	CS_swat_MP5 = {
-		"units/pd2_dlc_gitgud/characters/ene_zeal_swat/ene_zeal_swat"
+		"units/pd2_mod_bofa/characters/bofa_zeal_units/ene_bofa_zeal/ene_bofa_zeal"
 	},
 	CS_swat_R870 = {
-		"units/pd2_dlc_gitgud/characters/ene_zeal_swat/ene_zeal_swat"
+		"units/pd2_mod_bofa/characters/bofa_zeal_units/ene_bofa_zeal/ene_bofa_zeal"
 	},
 	CS_heavy_M4 = {
-		"units/pd2_dlc_gitgud/characters/ene_zeal_swat_heavy/ene_zeal_swat_heavy"
+		"units/pd2_mod_bofa/characters/bofa_zeal_units/ene_bofa_zeal_heavy/ene_bofa_zeal_heavy"
 	},
 	CS_heavy_R870  = {
-		"units/pd2_dlc_gitgud/characters/ene_zeal_swat_heavy/ene_zeal_swat_heavy"
+		"units/pd2_mod_bofa/characters/bofa_zeal_units/ene_bofa_zeal_heavy/ene_bofa_zeal_heavy"
 	},
 	CS_heavy_M4_w = {
-		"units/pd2_dlc_gitgud/characters/ene_zeal_swat_heavy/ene_zeal_swat_heavy"
+		"units/pd2_mod_bofa/characters/bofa_zeal_units/ene_bofa_zeal_heavy/ene_bofa_zeal_heavy"
 	},
 	CS_tazer = {
 		"units/pd2_dlc_gitgud/characters/ene_zeal_tazer/ene_zeal_tazer"
 	},
 	CS_shield = {
-		"units/pd2_dlc_gitgud/characters/ene_zeal_swat_shield/ene_zeal_swat_shield"
+		"units/pd2_mod_bofa/characters/bofa_zeal_units/ene_bofa_zeal_shield/ene_bofa_zeal_shield"
 	},
 	FBI_swat_M4 = {
-		"units/pd2_dlc_gitgud/characters/ene_zeal_swat/ene_zeal_swat"
+		"units/pd2_mod_bofa/characters/bofa_zeal_units/ene_bofa_zeal/ene_bofa_zeal"
 	},
 	FBI_swat_R870 = {
-		"units/pd2_dlc_gitgud/characters/ene_zeal_swat/ene_zeal_swat"
+		"units/pd2_mod_bofa/characters/bofa_zeal_units/ene_bofa_zeal/ene_bofa_zeal"
 	},
 	FBI_heavy_G36 = {
-		"units/pd2_dlc_gitgud/characters/ene_zeal_swat_heavy/ene_zeal_swat_heavy"
+		"units/pd2_mod_bofa/characters/bofa_zeal_units/ene_bofa_zeal_heavy/ene_bofa_zeal_heavy"
 	},
 	FBI_heavy_R870  = {
-		"units/payday2/characters/ene_fbi_heavy_r870/ene_fbi_heavy_r870"
+		"units/pd2_mod_bofa/characters/bofa_units/ene_bofa_heavy_r870/ene_bofa_heavy_r870"
 	},
 	FBI_heavy_G36_w = {
-		"units/pd2_dlc_gitgud/characters/ene_zeal_swat_heavy/ene_zeal_swat_heavy"
+		"units/pd2_mod_bofa/characters/bofa_zeal_units/ene_bofa_zeal_heavy/ene_bofa_zeal_heavy"
 	},
 	FBI_shield = {
-		"units/pd2_dlc_gitgud/characters/ene_zeal_swat_shield/ene_zeal_swat_shield"
+		"units/pd2_mod_bofa/characters/bofa_zeal_units/ene_bofa_zeal_shield/ene_bofa_zeal_shield"
 	},
 	FBI_tank = {
 		"units/pd2_dlc_gitgud/characters/ene_zeal_bulldozer/ene_zeal_bulldozer",
