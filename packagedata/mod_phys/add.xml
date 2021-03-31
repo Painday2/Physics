@@ -318,4 +318,13 @@
 		<sequence_manager path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
 		<unit load="true" path="units/mainman/pickups/vr_headset_pickup/vr_headset_pickup"/>
 	</add>
+	
+	<!--VR Headset Cops (Zdann)-->
+	<add>
+		<cooked_physics path="units/mainman/characters/ene_acc_vr/ene_acc_vr"/>
+		<material_config path="units/mainman/characters/ene_acc_vr/ene_acc_vr"/>
+		<model path="units/mainman/characters/ene_acc_vr/ene_acc_vr"/>
+		<object path="units/mainman/characters/ene_acc_vr/ene_acc_vr"/>
+		<unit load="true" path="units/mainman/characters/ene_acc_vr/ene_acc_vr"/>
+	</add>
 </table>

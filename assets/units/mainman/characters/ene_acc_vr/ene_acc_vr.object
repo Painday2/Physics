@@ -1,0 +1,7 @@
+<dynamic_object>
+	<diesel materials="units/mainman/characters/ene_acc_vr/ene_acc_vr" orientation_object="rp_starvr_mask" />
+	<graphics>
+		<object name="g_glow" enabled="true" />
+		<object name="g_starvr" enabled="true" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,6 @@
+<unit type="gen" slot="30" >
+    <object file="units/mainman/characters/ene_acc_vr/ene_acc_vr" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>
