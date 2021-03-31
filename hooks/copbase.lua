@@ -41,4 +41,3 @@ function CopBase:_chk_spawn_gear()
         self._unit:link(align_obj_name, self._headwear_unit, self._headwear_unit:orientation_object():name())
     end
 end
-end
