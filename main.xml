@@ -523,7 +523,7 @@
 				<sound id="phys_d2_b3_03" subtitle_id="phys_d2_b3_03"/>
 			</random>
 			<sound id="phys_d2_b4_01" subtitle_id="phys_d2_b4_01"/>
-			<random id="phys_d2_b4">
+			<random id="phys_d2_b4" subtitle_id="phys_d2_b4_01">
 				<sound id="phys_d2_b4_01" subtitle_id="phys_d2_b4_01"/>
 			</random>
 			<sound id="phys_d2_c1_01" subtitle_id="phys_d2_c1_01"/>
