@@ -71,10 +71,10 @@
 	"p_phys_d1b_objective" : "On Day 1 of the BOWORKS job, remember to buy a train pass.",
 	"p_phys_d1b_desc" : "Next time, we're driving.",
 
-    "p_phys_d2a_name" : "I Think I’m Dying!",
+    "p_phys_d2a_name" : "I Think I'm Dying!",
 	"p_phys_d2a_objective" : "On Day 2 of the BOWORKS job, fall to your death.",
 	"p_phys_d2a_desc" : "If you die in VR, you get banned from real life.",
-    "p_phys_d2b_name" : "You’re Too Young For That",
+    "p_phys_d2b_name" : "You're Too Young For That",
 	"p_phys_d2b_objective" : "On Day 2 of the BOWORKS job, model something giant in every store and facility in the StockOS Tower.",
 	"p_phys_d2b_desc" : "Starbreeze and its wholly owned studio OVERKILL Software do not endorse the film and its message.",
 
