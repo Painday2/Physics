@@ -130,7 +130,7 @@
 	"boworks2_mission2a":"Find and Use Keycards",
 	"boworks2_mission2a_desc":"'Why can't I pick up multiple keycards at the same time?', you may ask? Maybe you should sew more keycard pockets into that stupid outfit you're wearing. Damn Tailor Packs.",
 	"boworks2_mission2b":"Solve the Puzzle",
-	"boworks2_mission2b_desc":"This puzzle was once presented to a group of elementary school children. It was considered impossible to solve by the world's top thinkers, so presenting the problem to children seemed like a baffling decision. But, something unexpected happened. While all the other kids racked their brains trying to figure out a solution, one child in particular possessed such incredible intellect that he figured it out almost instantaneously. Everyone in the room clapped upon realizing that he had solved the unsolvable. That child's name? Albert Einstein.",
+	"boworks2_mission2b_desc":"This puzzle was once shown to a group of elementary school children. It was considered impossible to solve by the world's top thinkers, so presenting the problem to children seemed like a baffling decision. But, something unexpected happened. While all the other kids racked their brains trying to figure out a solution, one child in particular possessed such incredible intellect that he figured it out almost instantaneously. Everyone in the room clapped upon realizing that he had solved the unsolvable. That child's name? Albert Einstein.",
 	"boworks2_mission2c":"Hack the Computers",
 	"boworks2_mission2c_desc":"Username: admin Password: password. Okay, I'm in. All I have to do is overclock these subroutines and dereference a few null pointers, and I'll have this kid's IP address in no time.",
 	"boworks2_mission2d":"Defend the Computer",
