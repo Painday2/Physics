@@ -148,8 +148,8 @@
 	"boworks3_mission4_desc":"secret secret secret",
 	
 	
-	"physics_tower_intro_event_sub" : ",
-	"physics_tower_outro_event_sub" : " ",
+	"physics_tower_intro_event_sub" :" ",
+	"physics_tower_outro_event_sub" : "",
 	"physics_core_intro_event_sub": "          ",
 	"physics_core_outro_event_sub" : " ",
 	"museum_info_history_1_sub": "          ",

@@ -27,7 +27,6 @@
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
 			<asset name="physics_citystreets_bypass"/>
-			<asset name="physics_citystreets_gammon"/>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="tweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
@@ -467,6 +466,14 @@
 				<sound id="phys_d1_e3a_01" subtitle_id="phys_d1_e3a_01"/>
 				<sound id="phys_d1_e3a_02" subtitle_id="phys_d1_e3a_02"/>
 			</sounds>
+			<sound id="phys_d1_museumfact_01"/>
+			<sound id="phys_d1_museumfact_02"/>
+			<sound id="phys_d1_museumfact_03"/>
+			<sound id="phys_d1_museumfact_04"/>
+			<sound id="phys_d1_museumfact_05"/>
+			<sound id="phys_d1_museumfact_06"/>
+			<sound id="phys_d1_museumfact_07"/>
+			<sound id="phys_d1_museumfact_08"/>
 			<sound id="physics_citystreets_briefing_event"/>
 			<sound id="physics_citystreets_intro_event" subtitle_id="physics_citystreets_intro_event_sub"/>
 			<sound id="physics_citystreets_outro_event_01"/>
