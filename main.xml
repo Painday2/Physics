@@ -219,10 +219,8 @@
 		<sound id="physics_briefing_event" path="brief/physics_briefing_event.ogg"/>
 		<sound id="physics_crimenet_callouts" path="brief/physics_crimenet_callouts.ogg"/>
 		<sound id="physics_debrief_event" path="brief/physics_debrief_event.ogg"/>
-		<sound id="physics_tower_briefing_dialog" path="brief/physics_tower_briefing_dialog.ogg"/>
 		<sound id="physics_tower_intro_event" path="brief/physics_tower_intro_event.ogg" subtitle_id="physics_tower_intro_event_sub"/>
 		<sound id="physics_tower_outro_event" path="brief/physics_tower_outro_event.ogg"/>
-		<sound id="physics_core_briefing_dialog" path="brief/physics_core_briefing_dialog.ogg"/>
 		<sound id="physics_core_intro_event" path="brief/physics_core_intro_event.ogg" subtitle_id="physics_core_intro_event_sub"/>
 		<sound id="physics_core_outro_event" path="brief/physics_core_outro_event.ogg"/>
 		<sound id="museum_info_history_1" path="day1/museum_info_history_1.ogg" subtitle_id="museum_info_history_1_sub"/>
@@ -340,6 +338,11 @@
 					<sound id="phys_d1_c2_02" subtitle_id="phys_d1_c2_02"/>
 					<sound id="phys_d1_c2_03" subtitle_id="phys_d1_c2_03"/>
 				</random>
+				<random id="phys_d1_dial">
+					<sound id="phys_d1_dial_01" subtitle_id="phys_d1_dial_01"/>
+					<sound id="phys_d1_dial_02" subtitle_id="phys_d1_dial_02"/>
+					<sound id="phys_d1_dial_03" subtitle_id="phys_d1_dial_03"/>
+				</random>
 				<random id="phys_d1_c3">
 					<sound id="phys_d1_c3_01" subtitle_id="phys_d1_c3_01"/>
 					<sound id="phys_d1_c3_02" subtitle_id="phys_d1_c3_02"/>
@@ -371,6 +374,10 @@
 				<sound id="phys_d1_c5_02" subtitle_id="phys_d1_c5_02"/>
 				<sound id="phys_d1_c5_03" subtitle_id="phys_d1_c5_03"/>
 				<sound id="phys_d1_c5_04" subtitle_id="phys_d1_c5_04"/>
+				<sound id="phys_d1_dial_01" subtitle_id="phys_d1_dial_01"/>
+				<sound id="phys_d1_dial_02" subtitle_id="phys_d1_dial_02"/>
+				<sound id="phys_d1_dial_03" subtitle_id="phys_d1_dial_03"/>
+				<sound id="phys_d1_dial2_01" subtitle_id="phys_d1_dial2_01"/>
 			</sounds>
 			<sounds directory="d">
 				<random id="phys_d1_d1">
@@ -618,7 +625,7 @@
 				<sound id="phys_d2_d5_04" subtitle_id="phys_d2_d5_04"/>
 				<sound id="phys_d2_d5_05" subtitle_id="phys_d2_d5_05"/>
 			</random>
-			<sound id="phys_d2_briefing"/>
+			<sound id="physics_tower_briefing_dialog" path="phys_d2_briefing.ogg"/>
 		</sounds>
 		<sounds directory="day3">
 			<sound id="phys_d3_a1_01" subtitle_id="phys_d3_a1_01"/>
@@ -683,7 +690,7 @@
 				<sound id="phys_d3_b5_04" subtitle_id="phys_d3_b5_04"/>
 				<sound id="phys_d3_b5_05" subtitle_id="phys_d3_b5_05"/>
 			</random>
-			<sound id="phys_d3_briefing"/>
+			<sound id="physics_core_briefing_dialog" path="phys_d3_briefing.ogg"/>
 		</sounds>
 	</Sounds>
 	<Sounds directory="assets/sounds/bo_head">

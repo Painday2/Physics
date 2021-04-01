@@ -220,7 +220,12 @@
 
 	"phys_d1_c2_01": "Aah, Dial, my friend. We need you to drop a forklift lab. Fo' sho.",
 	"phys_d1_c2_02": "Dial, get your bloody robotic behind over here with the lab. We need it pronto, fo' sho!",
-	"phys_d1_c2_03": "Dial, it's your good pal, Cocke. Y'know, best friend of Pain? Anyways, we needed a meth lab like, yesterday.",				
+	"phys_d1_c2_03": "Dial, it's your good pal, Cocke. Y'know, best friend of Pain? Anyways, we needed a meth lab like, yesterday.",
+
+	"phys_d1_dial_01": "I'm Dial. Dropping off the meth lab in 1 minute. I'm disappointed you didn't even bring your own meth lab.",
+	"phys_d1_dial_02": "I'm Dial. The meth lab will arrive in 1 minute. Guess who's doing all the work for your incompetence.",
+	"phys_d1_dial_03": "I'm Dial. 1 minute until your meth lab arrives. I'm predicting with a 99.99% probability that this meth lab will explode, one way or another.",
+	"phys_d1_dial2_01": "Holy shit Dial, shut the fuck up.",
 
 	"phys_d1_c3_01": "Now, bring that back to the other side of the sewer. Why? Because it looks better over there, fo' sho.",
 	"phys_d1_c3_02": "You got the meth lab? Great. Go set it up. Over there, not here.",
