@@ -159,166 +159,167 @@
 
 
 
-	"phys_d1_a1_01": "Ah, gimme a second here, friends. Fo' Sho.",
-	"phys_d1_a1_02": "Good thing you're here. Keks keep trying to sell me this StarVR™ one. $3200 bucks, thats a robbery, Fo' Sho.",
-	"phys_d1_a1_03": "StockOS is an action packed 4 player coop first person VR investment simulation set in-Oh there you are, Friends.",
+	"phys_d1_a1_01": "Ah, gimme a second here, friends. Fo' sho.",
+	"phys_d1_a1_02": "Good thing you're here. Kaks keep trying to sell me this StarVR™ one. $3200 bucks! That's a robbery, fo' sho!",
+	"phys_d1_a1_03": "StockOS is an action packed 4 player coop first person VR investment simulation set in...oh there you are, friends.",
 				
 
-	"phys_d1_a2_01": "I only wish Starbreeze sold some more completely overkill packs, then they could have filled these displays, Fo' Sho.",
-	"phys_d1_a2_02": "Nice little place, isn't it yeah? Fo' Sho!",
-	"phys_d1_a2_03": "Do you think they keep a copy of Raid: World War 2 around here? Just asking, yeah. Fo' Sho.",
-	"phys_d1_a2_04": "Is there any copies of Overkill's the walking dead. Just asking because I was promised a season 2. Fo' Sho.",
-	"phys_d1_a2_05": "Friends, do you think they would ever put up Storm for display here? Just wondering, Fo' Sho.",
-	"phys_d1_a2_06": "So, did I ever tell you the time I visited that VR park in dubai once? Fo' Sho.",
-	"phys_d1_a2_07": "Anyone see a giant model anywhere? Uhh, secret stuff, Fo' Sho.",
-	"phys_d1_a2_08": "I was told they're planning on putting Wolf's voice up on display soon. Fo' Sho.",
+	"phys_d1_a2_01": "I only wish Starbreeze sold some more Completely Overkill packs, then they could have filled these displays, Fo' sho.",
+	"phys_d1_a2_02": "Nice little place, isn't it yeah? Fo' sho!",
+	"phys_d1_a2_03": "Do you think they keep a copy of RAID: World War II around here? Just asking, yeah. Fo' sho.",
+	"phys_d1_a2_04": "Is there any copy of Overkill's The Walking Dead around here? Just asking, because I was promised a season 2. Fo' sho!",
+	"phys_d1_a2_05": "Friends, do you think they would ever put up Storm for display here? Just wondering, fo' sho.",
+	"phys_d1_a2_06": "So, did I ever tell you about the time I visited that VR park in Dubai once? Fo' sho.",
+	"phys_d1_a2_07": "Anyone see a giant model anywhere? Uhh, secret stuff, fo' sho.",
+	"phys_d1_a2_08": "I was told they're planning to put Wolf's voice up on display soon. Fo' sho!",
 
-	"phys_d1_b1_01": "Hey Friends, it's me, Cocke! Now let us go find Pain. Fo' Sho.",
-	"phys_d1_b1_02": "Friends, it's me, Cocke! You probably didn't recognize me with the green beret. Fo' Sho.",
-	"phys_d1_b1_03": "Oh wow! Virtual Reality really is different. Isn't it friends? Fo' Sho.",
+	"phys_d1_b1_01": "Hey friends, it's me, Cocke! Now let us go find Pain. Fo' sho.",
+	"phys_d1_b1_02": "Friends, it's me, Cocke! You probably didn't recognize me with the green beret. Fo' sho.",
+	"phys_d1_b1_03": "Oh wow! Virtual Reality really is different. Isn't it, friends? Fo' sho.",
 				
 
 	"phys_d1_b2_01": "Is it normal to feel like I want to vomit?",
-	"phys_d1_b2_02": "Oh, Kak. This looks so good but Ol' Cockes stomach is not handling this. Fo' Sho.",
-	"phys_d1_b2_03": "Is this an ashetic choice or...",
-	"phys_d1_b2_04": "This looks way better than what that cheap level designer made for Ready Player None. Fo' Sho.",
-	"phys_d1_b2_05": "Fo' Sho.",
+	"phys_d1_b2_02": "Oh, kak. This looks so good but...ol' Cocke's stomach is not handling this. Fo' sho.",
+	"phys_d1_b2_03": "Is this an aesthetic choice or...",
+	"phys_d1_b2_04": "This looks way better than what that cheap level designer made for Ready Player None. Fo' sho.",
+	"phys_d1_b2_05": "Fo' sho.",
 	"phys_d1_b2_06": "For sure.",
 	"phys_d1_b2_07": "Whoa, what a view. I could fall for this, literally!",
 				
 
-	"phys_d1_b3_01": "oh, kak. The way forward is blocked off. Maybe this button over here can help us out. Fo' Sho.",
-	"phys_d1_b3_02": "Friends, our pathway is blocked off. Maybe this conveniently located button can help us out. Fo' Sho.",
-	"phys_d1_b3_03": "Ah, blerry the kaking way is blocked off. Maybe this button will help us through. Fo' Sho.",
+	"phys_d1_b3_01": "Oh, kak. The way forward is blocked off. Maybe this button over here can help us out. Fo' sho!",
+	"phys_d1_b3_02": "Friends, our pathway is blocked off. Maybe this conveniently located button can help us out. Fo' sho.",
+	"phys_d1_b3_03": "Ah, blerry. The kaking way is blocked off! Maybe this button will help us through. Fo' sho.",
 				
 
-	"phys_d1_b4_01": "Ah the button to stop the alarm is blocked off behind this door. Hm, maybe this giant ass button labled 'VR Puzzle' opens it. Fo' Sho.",
-	"phys_d1_b4_02": "In order to get through to the trench, we need to get through this door. Maybe follow this suspicously portal like line and see what we need to do.",
-	"phys_d1_b4_03": "Kak, the bloody door is bloody kaking closed. Friends, go and find a way to open it.",
+	"phys_d1_b4_01": "Ah, the button to stop the alarm is blocked off behind this door. Hm, maybe this giant ass button labeled 'VR Puzzle' opens it. Fo' sho.",
+	"phys_d1_b4_02": "In order to get through to the trench, we need to get behind this bloody door. Maybe follow that suspiciously portal-like line and see what we need to do.",
+	"phys_d1_b4_03": "Kak, the bloody door is bloody kaking closed. Friends, go find a way to open it.",
 				
 
-	"phys_d1_b4a_01": "Blerry, don't go in there. That room is for advanced VR users only. You bekaking cock. Fo' Sho.",
+	"phys_d1_b4a_01": "Blerry, don't go in there. That room is for advanced VR users only. You bekaking cock. Fo' sho.",
 				
 
 	"phys_d1_b4b_01": "",
 				
 
-	"phys_d1_b5_01": "          ",
-	"phys_d1_b5_02": "          ",
-	"phys_d1_b5_03": "          ",
-	"phys_d1_b5_04": "          ",
-	"phys_d1_b5_05": "          ",
+	"phys_d1_b5_01": "",
+	"phys_d1_b5_02": "",
+	"phys_d1_b5_03": "",
+	"phys_d1_b5_04": "",
+	"phys_d1_b5_05": "",
 
 	"phys_d1_b6_01": "Blerry, my insides are about to become outsides very soon, friends. I need to take this kak'n thing off me.",
-	"phys_d1_b6_02": "Oh fuck, oh I feel worse than that time I ate 5 burritos from that combination Pizzahut and Taco Bell. I need to get this thing off.",
+	"phys_d1_b6_02": "Oh fuck, oh I feel worse than that time I ate five burritos from that combination Pizza Hut and Taco Bell. I need to...get this thing off.",
 	"phys_d1_b6_03": "Barely made it out of the musuem and I already feel like I'm going to fill my knickers. Get this bloody thing off me.",
 
-	"phys_d1_c1_01": "Ah, much better. Friends, its the classic forklift wall. Ah, what did Pain always want for these things? Right, a forklift.",
+	"phys_d1_c1_01": "Ah, much better. Friends, it's the classic forklift wall. Ah, what did Pain always want for these things? Right, a forklift.",
 	"phys_d1_c1_02": "A forklift proof wall, blerry! Must go find a forklift to go blow that open friends.",
-	"phys_d1_c1_03": "Hah, a good ol' forklift proof wall never stopped Pain from blowing its behind open with a forklift. Lets go follow suit friends.",
-	"phys_d1_c1_04": "Kak, we are going to need a forklift for this. But theres no methlab, let me go call dial.",
+	"phys_d1_c1_03": "Hah, a good ol' forklift proof wall never stopped Pain from blowing its behind open with a forklift. Let's go follow suit friends.",
+	"phys_d1_c1_04": "Kak, we're going to need a forklift for this. But there's no meth lab. Let me call Dial.",
 
-	"phys_d1_c2_01": "Aah, Dial my friend. We need you to drop a forklift lab. Fo' Sho.",
-	"phys_d1_c2_02": "Dial, get your bloody robotic behind over here with the lab. We need it pronto, Fo' Sho.",
-	"phys_d1_c2_03": "Dial, its your good pal, Cocke. You know, best friend of Pain? Anyways we needed a methlab like yesterday.",				
+	"phys_d1_c2_01": "Aah, Dial, my friend. We need you to drop a forklift lab. Fo' sho.",
+	"phys_d1_c2_02": "Dial, get your bloody robotic behind over here with the lab. We need it pronto, fo' sho!",
+	"phys_d1_c2_03": "Dial, it's your good pal, Cocke. Y'know, best friend of Pain? Anyways, we needed a meth lab like, yesterday.",				
 
-	"phys_d1_c3_01": "Now, bring that back to the other side of the sewer. Why? Because it looks better over there, Fo' Sho.",
-	"phys_d1_c3_02": "You got the methlab. Great. Go set it up, over there not here.",
-	"phys_d1_c3_03": "Now if you're wondering why we cant just use the forklifts lying around. Shut up!",
+	"phys_d1_c3_01": "Now, bring that back to the other side of the sewer. Why? Because it looks better over there, fo' sho.",
+	"phys_d1_c3_02": "You got the meth lab? Great. Go set it up. Over there, not here.",
+	"phys_d1_c3_03": "Now if you're wondering why we can't just use the forklifts lying around, shut up!",
 
 	"phys_d1_c4_01": "Okay, the next ingredient is...fucking any of them I'm not a bekakin chemist.",
-	"phys_d1_c4_02": "Thats the wrong fucking ingredient! What do you mean we've already done that joke?",
+	"phys_d1_c4_02": "That's the wrong fucking ingredient! What do you mean we've already done that joke?",
 
-	"phys_d1_c5_01": "You fucking Cocks forgot to add the wheels! Kak. Find another way to bring it over.",
-	"phys_d1_c5_02": "Great, now bag that stuff and get it to the wall. It should go clean through, Fo' Sho.",
-	"phys_d1_c5_03": "The bloody wheels are gone. Friends, we can't let Pain down now. Usually VR objects don't have much weight, Fo' Sho.",
-	"phys_d1_c5_04": "Are you fucking stupid, you Cock! Why do you never know how to cook forklifts properly.",
+	"phys_d1_c5_01": "You fucking cocks forgot to add the wheels! Kak! Find another way to bring it over.",
+	"phys_d1_c5_02": "Great, now bag that stuff and get it to the wall. It should go clean through. Fo' sho!",
+	"phys_d1_c5_03": "The bloody wheels are gone. Friends, we can't let Pain down now. Try to carry it. Usually VR objects don't have much weight, fo' sho.",
+	"phys_d1_c5_04": "Are you fucking stupid, you cock! Why do you never know how to cook forklifts properly?",
 				
-	"phys_d1_d1_01": "Friends, the Civvies! Bloody hell, you better think long and hard about what you've done.",
+	"phys_d1_d1_01": "Friends, the civvies! Bloody hell, you better think long and hard about what you've done.",
 	"phys_d1_d1_02": "Ugh, killing civvies gives me a bloody headache. Stay here while it clears, friends.",
 	"phys_d1_d1_03": "Kak! Friends, watch out next time before we go kill civvies! Take a moment to think about what you've done to those innocent lives.",
 				
 
-	"phys_d1_d2_01": "Whoo boy. Making the player feel bad about something I made them do. I can already feel the game of the year award coming my way.",
-	"phys_d1_d2_02": "The burning you feel? It is shame. And that stuff is highly wanted by all modern triple A developers, so go secure it. We'll be rich. Fo' Sho. ",
-	"phys_d1_d2_03": "Now that you have those bags, I will get in contact with my contact: Druckmann. He'll know how to offload this stuff. Fo' Sho.",
+	"phys_d1_d2_01": "Whoo boy. Making the player feel bad about something I made them do. I can already see the game of the year award coming my way.",
+	"phys_d1_d2_02": "The burning you feel? It is shame. And that stuff is highly wanted by all modern triple A games developers, so go secure it. We'll be rich, fo' sho. ",
+	"phys_d1_d2_03": "Now that you have those bags, I will get in contact with my contact: Druckmann. He'll know how to offload this stuff. Fo' sho.",
 				
 
 	"phys_d1_d3_01": "Agh, bloody mazes. Find your way out to the other side safely, friends.",
 	"phys_d1_d3_02": "Kak, I hate mazes. Find a way out, friends.",
-	"phys_d1_d3_03": "Bloody hell. Get your ass to the other side quick before the kerrals find you first.",
+	"phys_d1_d3_03": "Bloody hell. Get your ass to the other side quick before the kerels find you first.",
 				
 
 	"phys_d1_d4_01": "A big boom should clear open that wall, yis?",
-	"phys_d1_d4_02": "If one has a wall, bekakin blow it up friends. Quickly now.",
-	"phys_d1_d4_03": "Bloody kerrals are all over. Maybe that wall over there leads somewhere useful. Like the escape, friends. Fo' Sho.",
+	"phys_d1_d4_02": "If one has a wall blocking their way, bekakin blow it up friends! Quickly now.",
+	"phys_d1_d4_03": "Bloody kerels are all over. Maybe that wall over there leads somewhere useful, like the escape, friends. Fo' sho.",
 
-	"phys_d1_e1_01": "Kak, bloody 2 foot high gate is in the way. Friends, go find us a ticket so we can get through.",
-	"phys_d1_e1_02": "I will not have my wonderful heist be jumping ticket gates at train stations. Go buy one, Fo' Sho.",
-	"phys_d1_e1_03": "Bloody hell, get your assess a ticket. Quickly, before the kerrals get them all.",
-	"phys_d1_e1_04": "Gah, I should have known a ticket was needed. I think there was some tickets back there. Go back and get it friends, Fo' Sho.",
+	"phys_d1_e1_01": "Kak, bloody two foot high gate is in the way. Friends, go find us a ticket so we can get through.",
+	"phys_d1_e1_02": "I will not have my wonderful heisters jumping ticket gates to train stations. Go buy one, fo' sho.",
+	"phys_d1_e1_03": "Bloody hell, get your asses a ticket, quickly, before the kerels get them all.",
+	"phys_d1_e1_04": "Gah, I should have known a ticket was needed. I think there was some ticket machines back there. Go back and get it friends, fo' sho!",
 				
 
-	"phys_d1_e2_01": "Gah, bloody machine didn't give us a ticket. Go find another.",
-	"phys_d1_e2_02": "I ain't paying 7 bucks for nothing, check the other ones.",
-	"phys_d1_e2_03": "Ugh, not this machine friends.",
-	"phys_d1_e2_04": "Kerrals emptied this one out.",
-	"phys_d1_e2_05": "We need another one. Fo' Sho.",
-	"phys_d1_e2_06": "Ah, bloody kakin kerrals got here before us.",
+	"phys_d1_e2_01": "Gah, bloody machine didn't give us a ticket! Go find another.",
+	"phys_d1_e2_02": "I ain't paying seven bucks for nothing! Check the other ones.",
+	"phys_d1_e2_03": "Ugh, not this machine, friends.",
+	"phys_d1_e2_04": "Kerels emptied this one out!",
+	"phys_d1_e2_05": "We need another one. Fo' sho.",
+	"phys_d1_e2_06": "Ah, hell. Bloody kakin kerels got here before us.",
 	"phys_d1_e2_07": "No ticket.",
 	"phys_d1_e2_08": "No ticket?",
 	"phys_d1_e2_09": "No ticket!",
 	"phys_d1_e2_10": "No ticket.",
-	"phys_d1_e2_11": "RNG got us again, blerry! Next one better have it, Fo' Sho.",
-	"phys_d1_e2_12": "Does anything in this piece of shit Virtual Reality work?",
-	"phys_d1_e2_13": "Eh, Fo' Sho.",
-	"phys_d1_e2_14": "Kak! Fo' Sho.",
+	"phys_d1_e2_11": "RNG got us again, blerry! Next one better have it, fo' sho.",
+	"phys_d1_e2_12": "Does anything in this piece of shit virtual reality work?",
+	"phys_d1_e2_13": "Eh, fo' sho.",
+	"phys_d1_e2_14": "Kak! Fo' sho.",
 				
 
-	"phys_d1_e2a_01": "Never expected anything to work in this piece of shit Virtual Reality anyway. Fo' Sho. Stop wasting your time.",
+	"phys_d1_e2a_01": "Never expected anything to work in this piece of shit virtual reality anyway. Fo' sho. Stop wasting your time.",
 	"phys_d1_e2a_02": "Give up already! Kak.",
 				
 
-	"phys_d1_e3_01": "Right, you got one friends. Now get your asses back to the train.",
-	"phys_d1_e3_02": "Took you long enough, yeah? Now get to the train. Fo' Sho.",
+	"phys_d1_e3_01": "Right, you got one friends. Now, get your asses back to that train.",
+	"phys_d1_e3_02": "Took you long enough, yeah? Now get to the train. Fo' sho.",
 				
 
 	"phys_d1_e3a_01": "What do you think you're gonna do with that?",
 	"phys_d1_e3a_02": "Look at you having forethought!",
 			
 	"physics_citystreets_intro_event": "          ",
-	"phys_d2_a1_01": "Gah, you poes suck at stealth. Whole city is under lockdown. You need to find security officers and lift this lockdown, yeah? Fo' Sho.",
-	"phys_d2_a1_02": "Kerrals have been alerted, and they're coming full force. We can't move on until we find the security offices and override this city wide lockdown.",
-	"phys_d2_a1_03": "Blerry, they must have been expecting us with all that security. Tower is blocked off with the security barriers before we find the security officers and take them down. Yeah?",
+	"phys_d2_a1_01": "Gah, you poes suck at stealth. Whole city is under lockdown. You'll need to find security offices and lift this lockdown, yeah? Fo' sho.",
+	"phys_d2_a1_02": "Kerels have been alerted, and they're coming full force. We can't move on until we find the security offices and override this city wide lockdown.",
+	"phys_d2_a1_03": "Blerry, they must have been expecting us with all that security! Tower is blocked off by the security barriers until we find the security offices and take them down. Yeah?",
 
 	"phys_d2_a2_01": "That big tower in the distance? Here we come.",
-	"phys_d2_a2_02": "Now, make your way to that obviously tall tower. You can't miss it. Fo' Sho.",
+	"phys_d2_a2_02": "Now, make your way to that obviously tall tower. You can't miss it. Fo' sho.",
 	"phys_d2_a2_03": "Stop admiring the view! Get your asses inside that tower.",
 
 	"phys_d2_b1_01": "Blerry, this place really showcases what VR is capable of.",
-	"phys_d2_b1_02": "Ah, I've only seen screenshots on the Steam store page but, wow. Anyways time to get to business.",
-	"phys_d2_b1_03": "Nice, big...place. Starbreeze really spared no expense on this one. Fo' Sho.",
+	"phys_d2_b1_02": "Ah, I've only seen screenshots on the Steam store page but, wow. Anyways, time to get to business.",
+	"phys_d2_b1_03": "Nice, big...place. Starbreeze really spared no expense on this one. Fo' sho.",
 	"phys_d2_b1_04": "How's the framerate in there, chaps?",
 
-	"phys_d2_b2_01": "Onto business friends, search these shops for keycards. We'll need them to access the path to the top floor. Fo' Sho.",
-	"phys_d2_b2_02": "And uh, don't go muddling something giant with the computers, yeah? Just friendly advice. Fo' Sho.",
-	"phys_d2_b3_01": "What, you don't have all of the spawns memorized? The keycards are over there!",
-	"phys_d2_b3_02": "Fuck me, whats taking so long. The keycard is right there.",
-	"phys_d2_b3_03": "You haven't found the keycard yet, so I guess this is the first time playing this heist, yeah? It's over there,friends.",
+	"phys_d2_b2_01": "Onto business friends. Search these shops for keycards. We'll need them to access the path to the top floor. Fo' sho.",
+	"phys_d2_b2_02": "And, uh, don't go modeling something giant with the computers, yeah? Just friendly advice. Fo' sho.",
+	"phys_d2_b3_01": "What, you don't have all the spawns memorized? The keycards are over there!",
+	"phys_d2_b3_02": "Fuck me, what's taking so long. The keycard is right there!",
+	"phys_d2_b3_03": "You haven't found the keycard yet, so I guess it's your first time playing this heist, yeah? It's over there, friends.",
 			
 	"phys_d2_b4_01": "Keep moving up, friends!",
 
 			
-	"phys_d2_c1_01": "I heard they were having some sort of audition for a payday movie here. Out looking for a giant 3D model I was told.",
-	"phys_d2_c1_02": "Maybe we can have a VR movie night when this is over, yeah?",
-	"phys_d2_c1_04": "Heard of Andreas' latest movie? A giant blockbuster, Fo' Sho.",
+	"phys_d2_c1_01": "I heard they were having some sort of audition for a PAYDAY movie here. Something involving giant 3D models, I was told.",
+	"phys_d2_c1_02": "I know they're planning to show something that isn't suitable for younger audiences in this theater.",
+	"phys_d2_c1_03": "Maybe we can have a VR movie night when this is over, yeah?",
+	"phys_d2_c1_04": "Heard of Andreas's latest movie? A giant blockbuster, fo' sho!",
 
 			
 	"phys_d2_c2_01": "Ah, you should be familiar with these.",
 
-	"phys_d2_c3_01": "What a comically large toast. It must have been made with an equally comically large toaster. Fo' Sho.",
-	"phys_d2_c3_02": "Ah, our StockOS weighted sustinence toast. It won't threaten to stab you, and in fact cannot speak. Fo' Sho.",
-	"phys_d2_c3_03": "You had fun carrying this around in the White XMAS job, yeah? This Almir fellow really enjoys throwing jokes everywhere. Fo' Sho.",
+	"phys_d2_c3_01": "What a comically large toast. It must have been made with an equally comically large toaster. Fo' sho.",
+	"phys_d2_c3_02": "Ah, our StockOS Weighted Sustenance Toast. Don't worry! It won't threaten to stab you, and in fact cannot speak. Fo' sho.",
+	"phys_d2_c3_03": "You had fun carrying this around in the White Xmas job, yeah? This Almir fellow really enjoys throwing jokes everywhere. Fo' sho.",
 
 	"phys_d2_c3a_01": "Nice fucking throw, dingus.",
 	"phys_d2_c3a_02": "Yeah, you have fun trying to carry that back up you wanker.",
@@ -329,60 +330,60 @@
 			
 	"phys_d2_c5_01": "That did the trick. Now, go upstairs.",
 	"phys_d2_c5_02": "Pain would have been proud of you. Now, proceed up the tower.",
-	"phys_d2_c5_03": "I bet you have some fun with these, yeah?",
+	"phys_d2_c5_03": "I bet you had some fun with these, yeah?",
 	"phys_d2_c5_04": "Huh, two toasts. Why didn't I think of that?",
 			
-	"phys_d2_d1_01": "Alright, we're at the top floor. Now, before we get out of here. We need to find out what we're up against, and get some important info about Bo and StockOS. Like how strong he is, how much money he's worth. Oh, and how to enable the elevator so we can get out of there.",
-	"phys_d2_d1_02": "kak, looks like the elevator up ahead is fucking broken. Hack into one of the Overkill employees computers and see if I can get it working again.",
+	"phys_d2_d1_01": "Alright, we're at the top floor. Now, before we get out of here, we need to find out what we're up against, and get some important info about Bo and StockOS. Like how strong he is, how much money he's worth. Oh, and how to enable the elevator so we can get out of there.",
+	"phys_d2_d1_02": "Kak, looks like the elevator up ahead is fucking broken. Hack into some of the Overkill employees' computers and see if I can get it working again.",
 			
-	"phys_d2_d2_01": "Like I said, this bekakin elevator isn't working. Go and find a terminal so I can restart it. Fo' Sho.",
-	"phys_d2_d2_02": "Are you lots listening to Ol' Cocke? Get me a computer first.",
+	"phys_d2_d2_01": "Like I said, this bekakin elevator isn't working. Go and find a terminal so I can restart it. Fo' sho.",
+	"phys_d2_d2_02": "Are you lots listening to ol' Cocke? Get me a computer first.",
 			
-	"phys_d2_d3_01": "Ah, so thats why Pain calls him a hard boiled turtle slapper. Ugh.",
+	"phys_d2_d3_01": "Ah, so that's why Pain calls him a hard boiled turtle slapper. Ugh.",
 	"phys_d2_d3_02": "Oh. OH. Oh that is a lot of debt! Do any of the employees know about this?",
 	"phys_d2_d3_03": "Ah, no wonder this game runs so terribly.",
 	"phys_d2_d3_04": "Ah, keep looking friends.",
-	"phys_d2_d3_05": "Why would you bekakin record that! Ugh.",
+	"phys_d2_d3_05": "W-why would you bekakin record that! Ugh.",
 	"phys_d2_d3_06": "Uh, nothing on here. Keep searching.",
 			
-	"phys_d2_d4_01": "Ah, something here. Now lets have a look. Bo Andersson Klint, partner of StockOS. Bro macho guy? Uh, just defend this computer from the kerrals while I dig through this.",
-	"phys_d2_d4_02": "Right, we're in. StockOS, main source of investment for Starbreeze AB. Powered by StarEnergy. Keep the kerrals off the computer while I work, yeah?",
+	"phys_d2_d4_01": "Ah, something here. Now let's have a look. Bo Andersson Klint, partner of StockOS. Bro macho guy? Uh, just defend this computer from the kerels while I dig through this.",
+	"phys_d2_d4_02": "Right, we're in. StockOS, main source of investment for Starbreeze AB. Powered by StarEnergy. Keep the kerels off the computer while I work, yeah?",
 			
 	"phys_d2_d5_01": "Right, I'm done. Let's get out of here.",
-	"phys_d2_d5_02": "Get to the elevator, lets finish this. Fo' Sho.",
-	"phys_d2_d5_03": "Hang on Pain, we're coming to rescue you. Fo' Sho.",
-	"phys_d2_d5_04": "Bo won't know what hit him heh? Fo' Sho.",
-	"phys_d2_d5_05": "You guys are a natural at VR, yeah? Fo' Sho.",		
+	"phys_d2_d5_02": "Get to the elevator, lets finish this. Fo' sho.",
+	"phys_d2_d5_03": "Hang on Pain, we're coming to rescue you. Fo' sho.",
+	"phys_d2_d5_04": "Bo won't know what hit him heh? Fo' sho.",
+	"phys_d2_d5_05": "You guys are a natural at VR, yeah? Fo' sho.",		
 
 	"phys_d3_a1_01": "That elevator will take you up to the main offies. So go up there.",
-	"phys_d3_a1_02": "Eh, are you guy's ready? Take that elevator, and face that kerral.",
-	"phys_d3_a1_03": "Next is the main office where Bo resides. Friends, let's do this. Fo' Sho.",
+	"phys_d3_a1_02": "Eh, are you guy's ready? Take that elevator, and face that kerel.",
+	"phys_d3_a1_03": "Next is the main office where Bo resides. Friends, let's do this. Fo' sho.",
 			
 	"phys_d3_a2_01": "There! Kill that son of a bitch.",
 	"phys_d3_a2_02": "That hard boiled turtle slapper! Get him!",
 	"phys_d3_a2_03": "Now this is going to be epic.",
 			
-	"phys_d3_b1_01": "What? Thats it? Lucky I spent less than two hours in this bekakin game so I can still get us a refund. Use that computer go to help.steampowered.com click on 'Purchaces' select 'Boworks', then select 'I would like a refund'. Fo' Sho.",
-	"phys_d3_b1_02": "That's all? I can't believe I spent $29.99 on this scam. Hack his computer and I will request a refund for this stupid game. I'll even leave a negative review, that'll show them. Fo' Sho.",
-	"phys_d3_b1_03": "Wow, that sucked. I want my money back. We can still hit StockOS and make them bankrupt, Fo' Sho. All you need to do is hack Bo's computer and request a refund straight from the system.",
+	"phys_d3_b1_01": "What? Thats it? Lucky I spent less than two hours in this bekakin game so I can still get us a refund. Use that computer go to help.steampowered.com click on 'Purchaces' select 'Boworks', then select 'I would like a refund'. Fo' sho.",
+	"phys_d3_b1_02": "That's all? I can't believe I spent $29.99 on this scam. Hack his computer and I will request a refund for this stupid game. I'll even leave a negative review, that'll show them. Fo' sho.",
+	"phys_d3_b1_03": "Wow, that sucked. I want my money back. We can still hit StockOS and make them bankrupt, Fo' sho. All you need to do is hack Bo's computer and request a refund straight from the system.",
 			
-	"phys_d3_b2_01": "Razing the bar for VR innovation in gaming? Yeah right, Fo' Sho.",
+	"phys_d3_b2_01": "Razing the bar for VR innovation in gaming? Yeah right, Fo' sho.",
 	"phys_d3_b2_02": "They're getting desperate to stop the refund at all costs! Pun intended. Hold them off, friends.",
 	"phys_d3_b2_03": "Did Overkill Jules design this game? No wonder it wasn't fun at all, that poe.",
-	"phys_d3_b2_04": "Did they seriously pick a racing engine to make this game? I'm sure that Valhalla engine they purchased earlier would have maked a better choice. Fo' Sho.",
+	"phys_d3_b2_04": "Did they seriously pick a racing engine to make this game? I'm sure that Valhalla engine they purchased earlier would have been a much better choice. Fo' sho.",
 	"phys_d3_b2_05": "Action packed? Check. 4 player? Check. Coop? Check. Fun? No check.",
 	"phys_d3_b2_06": "What a complete fucking overkill waste of time this was. I was expecting like a magnificent boss fight with explosions and giant Bo heads or some shit.",
 			
-	"phys_d3_b3_01": "Kerrals stopped the refund process. Get it fixed, quickly.",
+	"phys_d3_b3_01": "kerels stopped the refund process. Get it fixed, quickly.",
 	"phys_d3_b3_02": "Kak, my money stopped blowing back to my Steam wallet. Get back to that computer and keep it flowing.",
-	"phys_d3_b3_03": "Blerry, they got to the computer. I really need my money back, so get the refund going again. Fo' Sho.",
+	"phys_d3_b3_03": "Blerry, they got to the computer. I really need my money back, so get the refund going again. Fo' sho.",
 			
-	"phys_d3_b4_01": "Everyone disappeared for a minute, friends. What happened? Fo' Sho.",
+	"phys_d3_b4_01": "Everyone disappeared for a minute, friends. What happened? Fo' sho.",
 
 	"phys_d3_b5_01": "Got my refund! It was good playing with you, friends.",
-	"phys_d3_b5_02": "GG WP EZ. Now let's quit this game before it colapses on us, Fo' Sho.",
+	"phys_d3_b5_02": "GG WP EZ. Now let's quit this game before it collapses on us, Fo' sho.",
 	"phys_d3_b5_03": "Starbreeze shares are falling. Our work is done, friends.",
-	"phys_d3_b5_04": "Excelllent work gang, Fo' Sho. Wait, I feel like we're forgetting something.",
-	"phys_d3_b5_05": "We might not have rescued Pain but-Actually yeah we didn't rescue Pain, whoops!"
+	"phys_d3_b5_04": "Excellent work gang, Fo' sho. Wait, I feel like we're forgetting something.",
+	"phys_d3_b5_05": "We might not have rescued Pain but-actually yeah we didn't rescue Pain, whoops!"
 	
 }
