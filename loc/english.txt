@@ -119,7 +119,7 @@
 	"boworks_mission11a":"Buy a Train Ticket",
 	"boworks_mission11a_desc":"I don't take the train very often, but here's a lifehack to avoid those pesky train fees. You can just jump over the turnstiles. Easy, right? Thankfully, Wikipedia goes into even more detail if you need help: https://en.wikipedia.org/wiki/Fare_evasion",
 	"boworks_mission0":"Continue Forward",
-	"boworks_mission0_desc":"This objective is part of a subtle game design technique where you teach the player how to play without explicitly saying so. Previously, the player learned that to 'Find a Way Forward', they must hold the W key. This objective lets the player further develop and hone in this skill so that they can be prepared for actual scenarios.",
+	"boworks_mission0_desc":"This objective is part of a subtle game design technique where you teach the player how to play without explicitly saying so. Previously, the player learned that to 'Find a Way Forward', they must hold the W key. This objective lets the player further develop and hone in this skill so that they can be prepared for actual scenarios. Also I found out this objective was unused after I wrote this text. Look at you, localization file reader.",
 	
 	"boworks2_mission1":"Go to the Starbreeze Tower",
 	"boworks2_mission1_desc":"Have you ever had the opportunity to go to Starbreeze's actual studio? I sure did, and I don't regret not going! My face would've been immortalized on video and endlessly mocked in memes wondering where that $10k went.",
@@ -350,40 +350,40 @@
 	"phys_d2_d4_02": "Right, we're in. StockOS, main source of investment for Starbreeze AB. Powered by StarEnergy. Keep the kerels off the computer while I work, yeah?",
 			
 	"phys_d2_d5_01": "Right, I'm done. Let's get out of here.",
-	"phys_d2_d5_02": "Get to the elevator, lets finish this. Fo' sho.",
+	"phys_d2_d5_02": "Get to the elevator, let's finish this. Fo' sho.",
 	"phys_d2_d5_03": "Hang on Pain, we're coming to rescue you. Fo' sho.",
-	"phys_d2_d5_04": "Bo won't know what hit him heh? Fo' sho.",
+	"phys_d2_d5_04": "Bo won't know what hit him, heh? Fo' sho.",
 	"phys_d2_d5_05": "You guys are a natural at VR, yeah? Fo' sho.",		
 
-	"phys_d3_a1_01": "That elevator will take you up to the main offies. So go up there.",
-	"phys_d3_a1_02": "Eh, are you guy's ready? Take that elevator, and face that kerel.",
-	"phys_d3_a1_03": "Next is the main office where Bo resides. Friends, let's do this. Fo' sho.",
+	"phys_d3_a1_01": "That elevator will take you up to the main offices. So go up there.",
+	"phys_d3_a1_02": "Are you guys ready? Take that elevator, and face that kerel.",
+	"phys_d3_a1_03": "Next floor is the main office where Bo resides. Friends, let's do this. Fo' sho.",
 			
-	"phys_d3_a2_01": "There! Kill that son of a bitch.",
+	"phys_d3_a2_01": "There! Kill that son of a bitch!",
 	"phys_d3_a2_02": "That hard boiled turtle slapper! Get him!",
-	"phys_d3_a2_03": "Now this is going to be epic.",
+	"phys_d3_a2_03": "Now this, is going to be epic.",
 			
-	"phys_d3_b1_01": "What? Thats it? Lucky I spent less than two hours in this bekakin game so I can still get us a refund. Use that computer go to help.steampowered.com click on 'Purchaces' select 'Boworks', then select 'I would like a refund'. Fo' sho.",
-	"phys_d3_b1_02": "That's all? I can't believe I spent $29.99 on this scam. Hack his computer and I will request a refund for this stupid game. I'll even leave a negative review, that'll show them. Fo' sho.",
-	"phys_d3_b1_03": "Wow, that sucked. I want my money back. We can still hit StockOS and make them bankrupt, Fo' sho. All you need to do is hack Bo's computer and request a refund straight from the system.",
+	"phys_d3_b1_01": "W-what? That's it? Ah, lucky I spent less than two hours in this bekakin game so I can still request a refund. Use that computer, go to help.steampowered.com, click on 'Purchases', select 'Boworks', then select 'I would like a refund'. Fo' sho.",
+	"phys_d3_b1_02": "That's all? I can't believe I spent $29.99 on this scam. Hack his computer and I'll request a refund for this stupid game. I'll even leave a negative review. That'll show them, fo' sho.",
+	"phys_d3_b1_03": "Wow, that sucked. I want my money back. We can still hit StockOS and make them bankrupt, for real. Fo' sho! All you need to do is hack Bo's computer and request a refund straight from the system.",
 			
-	"phys_d3_b2_01": "Razing the bar for VR innovation in gaming? Yeah right, Fo' sho.",
+	"phys_d3_b2_01": "Raising the bar for innovation in VR gaming? Yeah, right, Fo' sho.",
 	"phys_d3_b2_02": "They're getting desperate to stop the refund at all costs! Pun intended. Hold them off, friends.",
-	"phys_d3_b2_03": "Did Overkill Jules design this game? No wonder it wasn't fun at all, that poe.",
+	"phys_d3_b2_03": "Did OVERKILL_Jules design this game? No wonder it wasn't fun at all, that poe.",
 	"phys_d3_b2_04": "Did they seriously pick a racing engine to make this game? I'm sure that Valhalla engine they purchased earlier would have been a much better choice. Fo' sho.",
-	"phys_d3_b2_05": "Action packed? Check. 4 player? Check. Coop? Check. Fun? No check.",
-	"phys_d3_b2_06": "What a complete fucking overkill waste of time this was. I was expecting like a magnificent boss fight with explosions and giant Bo heads or some shit.",
+	"phys_d3_b2_05": "Action packed? Check. Four player? Check. Coop? Check. Fun? No check.",
+	"phys_d3_b2_06": "What a complete fucking overkill waste of time this was. I was expecting like, a magnificent boss fight with explosions and giant Bo heads or some shit.",
 			
-	"phys_d3_b3_01": "kerels stopped the refund process. Get it fixed, quickly.",
-	"phys_d3_b3_02": "Kak, my money stopped blowing back to my Steam wallet. Get back to that computer and keep it flowing.",
-	"phys_d3_b3_03": "Blerry, they got to the computer. I really need my money back, so get the refund going again. Fo' sho.",
+	"phys_d3_b3_01": "Kerels stopped the refund process. Get it fixed, quickly!",
+	"phys_d3_b3_02": "Kak, my money stopped flowing back to my Steam wallet. Get back to that computer and keep it flowing.",
+	"phys_d3_b3_03": "Blerry, they got to the computer! I really need my money back, so get the refund going again. Fo' sho.",
 			
 	"phys_d3_b4_01": "Everyone disappeared for a minute, friends. What happened? Fo' sho.",
 
 	"phys_d3_b5_01": "Got my refund! It was good playing with you, friends.",
-	"phys_d3_b5_02": "GG WP EZ. Now let's quit this game before it collapses on us, Fo' sho.",
+	"phys_d3_b5_02": "GG WP EZ. Now let's quit this game before it collapses on us, fo' sho.",
 	"phys_d3_b5_03": "Starbreeze shares are falling. Our work is done, friends.",
-	"phys_d3_b5_04": "Excellent work gang, Fo' sho. Wait, I feel like we're forgetting something.",
-	"phys_d3_b5_05": "We might not have rescued Pain but-actually yeah we didn't rescue Pain, whoops!"
+	"phys_d3_b5_04": "Excellent work gang, fo' sho. Wait, I feel like we're forgetting something.",
+	"phys_d3_b5_05": "We might not have rescued Pain but...actually yeah we didn't rescue Pain. Whoops!"
 	
 }
