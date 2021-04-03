@@ -1,5 +1,4 @@
 <table name="BOWORKS">
-	<AssetUpdates id="31560" provider="modworkshop" use_local_dir="true" version="1.1"/>
 	<Package file="packagedata/mod_bofa/add.xml" id="modpackages/mod_bofa"/>
 	<Package file="packagedata/mod_mkp/add.xml" id="modpackages/mod_mkp"/>
 	<Package file="packagedata/mod_phys/add.xml" id="modpackages/mod_phys"/>
@@ -65,6 +64,7 @@
 			<value_node value="physics_citystreets_outro_event"/>
 		</outro_event>
 		<packages>
+			<value_node value="levels/narratives/bain/rvd/stage1/world_sounds"/>
 			<value_node value="modpackages/mod_phys"/>
 			<value_node value="modpackages/mod_bofa"/>
 			<value_node value="modpackages/mod_mkp"/>
@@ -141,11 +141,13 @@
 			<value_node value="physics_tower_outro_event"/>
 		</outro_event>
 		<packages>
+			<value_node value="levels/narratives/bain/rvd/stage1/world_sounds"/>
 			<value_node value="modpackages/mod_bofa"/>
 			<value_node value="modpackages/mod_mkp"/>
 			<value_node value="modpackages/mod_phys"/>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 			<value_node value="levels/narratives/vlad/peta/stage2/world/world"/>
+			<value_node value="levels/narratives/classics/man/world_sounds"/>
 			<value_node value="packages/narr_framing_1"/>
 			<value_node value="packages/escape_park"/>
 			<value_node value="packages/narr_jerry2"/>
@@ -202,6 +204,7 @@
 			<value_node value="phys_d3_debriefing"/>
 		</outro_event>
 		<packages>
+			<value_node value="levels/narratives/bain/rvd/stage1/world_sounds"/>
 			<value_node value="modpackages/mod_bofa"/>
 			<value_node value="modpackages/mod_mkp"/>
 			<value_node value="modpackages/mod_phys"/>
@@ -842,7 +845,7 @@
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="physics_instance_d2_keycard">
-		<add directory="assets"/>
+		<add file="levels/instances/physics_instance_d2_keycard/add.xml"/>
 		<include directory="levels/instances/physics_instance_d2_keycard">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
@@ -904,6 +907,7 @@
 		<texture load="true" path="guis/achievements/phys/phys_speedrun"/>
 		<texture load="true" path="guis/achievements/phys/phys_secret"/>
 	</AddFiles>
+	<AssetUpdates id="31560" provider="modworkshop" use_local_dir="true" version="1.1"/>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>

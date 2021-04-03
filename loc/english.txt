@@ -67,7 +67,7 @@
     "p_phys_d1a_name" : "Wall Street Bets",
 	"p_phys_d1a_objective" : "On Day 1 of the BOWORKS job, invest in all the wrong companies.",
 	"p_phys_d1a_desc" : ":rocket: :rocket: :rocket:",
-    "p_phys_d1b_name" : "I Lost My Myki",
+    "p_phys_d1b_name" : "Respect The Turnstile",
 	"p_phys_d1b_objective" : "On Day 1 of the BOWORKS job, remember to buy a train pass.",
 	"p_phys_d1b_desc" : "Next time, we're driving.",
 
