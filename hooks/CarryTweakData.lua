@@ -30,5 +30,23 @@ Hooks:PostHook(CarryTweakData, "init", "init_boworks", function(self, tweak_data
 		name_id = "hud_carry_stocks",
 		visual_unit_name = "units/payday2/characters/npc_acc_loot_bag_1/npc_acc_loot_bag_1",
 	}
+	
+	self.physics_key_rpn = {
+		type = "medium",
+		name_id = "hud_carry_key_rpn",
+		visual_unit_name = "units/payday2/characters/npc_acc_loot_bag_1/npc_acc_loot_bag_1",
+	}
+	
+	self.physics_key_sf = {
+		type = "medium",
+		name_id = "hud_carry_key_sf",
+		visual_unit_name = "units/payday2/characters/npc_acc_loot_bag_1/npc_acc_loot_bag_1",
+	}
+	
+	self.physics_key_tlhs = {
+		type = "medium",
+		name_id = "hud_carry_key_tlhs",
+		visual_unit_name = "units/payday2/characters/npc_acc_loot_bag_1/npc_acc_loot_bag_1",
+	}
 
 end)

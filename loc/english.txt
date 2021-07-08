@@ -36,6 +36,10 @@
 	"hud_int_hold_take_guilt":"Hold $BTN_INTERACT to live with what you've done",
 	"hud_action_taking_guilt":"Taking responsibility for what they've done",
 	"hud_carry_stocks":"Stocks",
+	"hud_carry_key_rpn":"Ready Player None Key",
+	"hud_carry_key_sf":"Stalk Fraud Key",
+	"hud_carry_key_tlhs":"The Late Holiday Special Key",
+	
 
 	"physics_pain_achievements_name" : "BOWORKS Achievements",
 

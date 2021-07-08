@@ -1,87 +1,52 @@
 <table directory="assets">
-
-	<!--Generic Physics Signs (Mako, VxWolf)-->
 	<add>
-		<!--Scrolling text test sign-->
-		<!--texture					path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1"/>
-
-		<material_config			path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
-		<object						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
-		<unit						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
-		<model						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
-
-		<material_config			path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
-		<object						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
-		<unit						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
-		<model						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/-->
-		
-		<!--Square Sign-->
-		<texture					path="units/pd2_mod_phys/props/phys_2x2_1"/>
-		<material_config			path="units/pd2_mod_phys/props/phys_sign_2x2_1"/>
-
-		<texture					path="units/pd2_mod_phys/props/phys_2x2_2"/>
-		<material_config			path="units/pd2_mod_phys/props/phys_sign_2x2_2"/>
-
-		<texture					path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
-		<material_config			path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
-
-		<texture					path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
-		<material_config			path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
-
-		<texture					path="units/pd2_mod_phys/props/phys_utility_2x2"/>
-		<material_config			path="units/pd2_mod_phys/props/phys_utility_2x2"/>
-
-		<sequence_manager			path="units/pd2_mod_phys/props/phys_sign_2x2"/>
-
-		<object						path="units/pd2_mod_phys/props/phys_sign_1x1"/>
-		<unit						path="units/pd2_mod_phys/props/phys_sign_1x1"/>
-		<model						path="units/pd2_mod_phys/props/phys_sign_1x1"/>
-
-		<object						path="units/pd2_mod_phys/props/phys_sign_2x2"/>
-		<unit						path="units/pd2_mod_phys/props/phys_sign_2x2"/>
-		<model						path="units/pd2_mod_phys/props/phys_sign_2x2"/>
-		
-		<object						path="units/pd2_mod_phys/props/phys_sign_4x4"/>
-		<unit						path="units/pd2_mod_phys/props/phys_sign_4x4"/>
-		<model						path="units/pd2_mod_phys/props/phys_sign_4x4"/>
-
-		<object						path="units/pd2_mod_phys/props/phys_sign_8x8"/>
-		<unit						path="units/pd2_mod_phys/props/phys_sign_8x8"/>
-		<model						path="units/pd2_mod_phys/props/phys_sign_8x8"/>
-
-		<object						path="units/pd2_mod_phys/props/phys_sign_32x32"/>
-		<unit						path="units/pd2_mod_phys/props/phys_sign_32x32"/>
-		<model						path="units/pd2_mod_phys/props/phys_sign_32x32"/>
-
-		<object						path="units/pd2_mod_phys/props/phys_sign_64x64"/>
-		<unit						path="units/pd2_mod_phys/props/phys_sign_64x64"/>
-		<model						path="units/pd2_mod_phys/props/phys_sign_64x64"/>
-
-		<!--Rectangular Banner-->
-
-		<texture					path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-		<material_config			path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-
-		<sequence_manager			path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-
-		<object						path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-		<unit						path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-		<model						path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-
-		<object						path="units/pd2_mod_phys/props/phys_3x12_banner"/>
-		<unit						path="units/pd2_mod_phys/props/phys_3x12_banner"/>
-		<model						path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+		<texture path="units/pd2_mod_phys/props/phys_2x2_1"/>
+		<material_config path="units/pd2_mod_phys/props/phys_sign_2x2_1"/>
+		<texture path="units/pd2_mod_phys/props/phys_2x2_2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_sign_2x2_2"/>
+		<texture path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
+		<texture path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
+		<texture path="units/pd2_mod_phys/props/phys_utility_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_utility_2x2"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_32x32"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_32x32"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_32x32"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<texture path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<material_config path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<object path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<unit path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<model path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<object path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+		<unit path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+		<model path="units/pd2_mod_phys/props/phys_3x12_banner"/>
 	</add>
-
-	<!--Folding bed (Mako)-->
 	<add>
 		<texture path="units/pd2_mod_phys/props/phys_bedding"/>
 		<texture path="units/pd2_mod_phys/props/phys_wood_df"/>
-		<sequence_manager path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
 		<material_config path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
-		<object path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
-		<unit path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
 		<model path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<object path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<unit path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
 	</add>
 	<add path="units/test/jocke/plane_black_temp" type="unit">
 		<material_config path="units/test/jocke/plane_black_temp" unload="true"/>
@@ -1360,8 +1325,13 @@
 		<unit path="units/pd2_dlc2/csgo_models/props_urban/plastic_chair001" unload="true"/>
 	</add>
 	<add path="units/dev_tools/level_tools/dev_collision/dev_collision_8x3m" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_8x3m" unload="true"/>
-		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_8x3m" unload="true"/>
 		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_8x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_8x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_pillar_1m_a" type="unit">
+		<unit path="units/payday2/architecture/mkp/mkp_int_pillar_1m_a" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_pillar_1m_a" unload="true"/>
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
 	</add>
 </table>

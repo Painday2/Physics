@@ -27,6 +27,7 @@
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
 			<asset name="physics_citystreets_bypass"/>
+			<asset name="physics_citystreets_gammon"/>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="tweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
@@ -41,25 +42,6 @@
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
 		</hooks>
-		<include directory="levels/physics_citystreets">
-			<file file="world.world" type="binary"/>
-			<file file="continents.continents" type="binary"/>
-			<file file="mission.mission" type="binary"/>
-			<file file="nav_manager_data.nav_data" type="binary"/>
-			<file file="world_sounds.world_sounds" type="binary"/>
-			<file file="world_cameras.world_cameras" type="binary"/>
-			<file file="skybox/skybox.continent" type="binary"/>
-			<file file="skybox/skybox.mission" type="binary"/>
-			<file file="world/world.continent" type="binary"/>
-			<file file="world/world.mission" type="binary"/>
-			<file file="sewer_ceiling/sewer_ceiling.continent" type="binary"/>
-			<file file="sewer_ceiling/sewer_ceiling.mission" type="binary"/>
-			<file file="editor_only/editor_only.continent" type="binary"/>
-			<file file="editor_only/editor_only.mission" type="binary"/>
-			<file file="cover_data.cover_data" type="binary"/>
-			<file file="environments/physics_citystreets_sewer.environment" type="custom_xml"/>
-			<file file="environments/default.environment" type="custom_xml"/>
-		</include>
 		<outro_event>
 			<value_node value="physics_citystreets_outro_event"/>
 		</outro_event>
@@ -111,32 +93,6 @@
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
 		</hooks>
-		<include directory="levels/physics_tower">
-			<file file="world.world" type="binary"/>
-			<file file="continents.continents" type="binary"/>
-			<file file="mission.mission" type="binary"/>
-			<file file="nav_manager_data.nav_data" type="binary"/>
-			<file file="world_sounds.world_sounds" type="binary"/>
-			<file file="world_cameras.world_cameras" type="binary"/>
-			<file file="elevator/elevator.continent" type="binary"/>
-			<file file="elevator/elevator.mission" type="binary"/>
-			<file file="tower_exterior/tower_exterior.continent" type="binary"/>
-			<file file="tower_exterior/tower_exterior.mission" type="binary"/>
-			<file file="cinema/cinema.continent" type="binary"/>
-			<file file="cinema/cinema.mission" type="binary"/>
-			<file file="world/world.continent" type="binary"/>
-			<file file="world/world.mission" type="binary"/>
-			<file file="skybox/skybox.continent" type="binary"/>
-			<file file="skybox/skybox.mission" type="binary"/>
-			<file file="editor_only/editor_only.continent" type="binary"/>
-			<file file="editor_only/editor_only.mission" type="binary"/>
-			<file file="cover_data.cover_data" type="binary"/>
-			<file file="environments/physics_tower_exterior_norain.environment" type="custom_xml"/>
-			<file file="environments/physics_tower_interior_server.environment" type="custom_xml"/>
-			<file file="environments/physics_tower_interior_dark.environment" type="custom_xml"/>
-			<file file="environments/physics_tower_interior.environment" type="custom_xml"/>
-			<file file="environments/physics_tower_exterior.environment" type="custom_xml"/>
-		</include>
 		<outro_event>
 			<value_node value="physics_tower_outro_event"/>
 		</outro_event>
