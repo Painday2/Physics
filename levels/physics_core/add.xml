@@ -312,14 +312,64 @@
 		<unit path="units/payday2/architecture/ind/ind_ext_backdrop_building_5" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_pavement" type="unit">
-		<unit path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_pavement" unload="true"/>
-		<object path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_pavement" unload="true"/>
 		<material_config path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_pavement" unload="true"/>
+		<object path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_pavement" unload="true"/>
+		<unit path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_pavement" unload="true"/>
 	</add>
 	<add path="units/dev_tools/contour_blocker/contour_blocker" type="unit">
-		<unit path="units/dev_tools/contour_blocker/contour_blocker" unload="true"/>
-		<object path="units/dev_tools/contour_blocker/contour_blocker" unload="true"/>
 		<material_config path="units/dev_tools/contour_blocker/contour_blocker" unload="true"/>
+		<object path="units/dev_tools/contour_blocker/contour_blocker" unload="true"/>
 		<sequence_manager path="units/dev_tools/contour_blocker/contour_blocker" unload="true"/>
+		<unit path="units/dev_tools/contour_blocker/contour_blocker" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_curtains/vit_prop_curtains_yellow" type="unit">
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_curtains/vit_prop_curtains_yellow" unload="true"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_curtains/vit_prop_curtains_yellow" unload="true"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_curtains/vit_prop_curtains_yellow" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_help/props/hlp_prop_giant_cloaker/hlp_prop_giant_cloaker" type="unit">
+		<effect load="true" path="effects/payday2/particles/explosions/flamethrower_big_alt" unload="true"/>
+		<effect load="true" path="effects/particles/explosions/smoke_grenade_big_pin" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/character/overkillpack/giant_cloaker_eyes" unload="true"/>
+		<animation_def path="anims/units/level/help/hlp_giant_cloaker/def" unload="true"/>
+		<animation_state_machine path="anims/units/level/help/hlp_giant_cloaker/machine" unload="true"/>
+		<animation_states path="anims/units/level/help/hlp_giant_cloaker/states" unload="true"/>
+		<animation_subset path="anims/units/level/help/hlp_giant_cloaker/anims" unload="true"/>
+		<bnk path="soundbanks/halloween_2016" unload="true"/>
+		<material_config path="units/pd2_dlc_help/props/hlp_prop_giant_cloaker/hlp_prop_giant_cloaker" unload="true"/>
+		<object path="units/pd2_dlc_help/props/hlp_prop_giant_cloaker/hlp_prop_giant_cloaker" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_help/props/hlp_prop_giant_cloaker/hlp_prop_giant_cloaker" unload="true"/>
+		<unit path="units/pd2_dlc_help/props/hlp_prop_giant_cloaker/hlp_prop_giant_cloaker" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/architecture/chl_whole_building/chl_shadowcaster" type="unit">
+		<material_config path="units/dev_tools/level_tools/shadow_caster" unload="true"/>
+		<object path="units/pd2_dlc_chill/architecture/chl_whole_building/chl_shadowcaster" unload="true"/>
+		<unit path="units/pd2_dlc_chill/architecture/chl_whole_building/chl_shadowcaster" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/shadow_caster_100x100" type="unit">
+		<material_config path="units/dev_tools/level_tools/shadow_caster" unload="true"/>
+		<object path="units/dev_tools/level_tools/shadow_caster_100x100" unload="true"/>
+		<sequence_manager path="units/dev_tools/level_tools/shadow_caster" unload="true"/>
+		<unit path="units/dev_tools/level_tools/shadow_caster_100x100" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_ext_wall_2m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_ext_wall_2m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_2m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_temp/mkp_temp_blue_1x1x1m" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp_temp/mkp_temp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_temp/mkp_temp_blue_1x1x1m" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_temp/mkp_temp_blue_1x1x1m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_light_cone" type="unit">
+		<unit path="units/payday2/architecture/mkp/mkp_light_cone" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_light_cone" unload="true"/>
+		<material_config path="units/payday2/architecture/mkp/mkp_light_cone" unload="true"/>
 	</add>
 </table>
