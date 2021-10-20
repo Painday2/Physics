@@ -368,8 +368,31 @@
 		<unit path="units/payday2/architecture/mkp/mkp_temp/mkp_temp_blue_1x1x1m" unload="true"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/mkp/mkp_light_cone" type="unit">
-		<unit path="units/payday2/architecture/mkp/mkp_light_cone" unload="true"/>
-		<object path="units/payday2/architecture/mkp/mkp_light_cone" unload="true"/>
 		<material_config path="units/payday2/architecture/mkp/mkp_light_cone" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_light_cone" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_light_cone" unload="true"/>
 	</add>
+	<add from_db="true" path="effects/payday2/environment/green_fire_large" type="effect">
+		<effect load="true" path="effects/payday2/environment/green_fire_large" unload="true"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/fire_big" type="effect">
+		<effect load="true" path="effects/payday2/environment/fire_big" unload="true"/>
+	</add>
+	<add from_db="true" path="effects/payday2/particles/explosions/molotov_grenade_enemy_on_fire_endless" type="effect">
+		<effect load="true" path="effects/payday2/particles/explosions/molotov_grenade_enemy_on_fire_endless" unload="true"/>
+	</add>
+	<add from_db="true" path="effects/payday2/particles/explosions/molotov_grenade" type="effect">
+		<effect load="true" path="effects/payday2/particles/explosions/molotov_grenade" unload="true"/>
+	</add>
+	<add from_db="true" path="effects/payday2/particles/fire/thermite_infinite" type="effect">
+		<effect load="true" path="effects/payday2/particles/fire/thermite_infinite" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/impacts/sparks/sparks_random_02_slow" unload="true"/>
+	</add>
+	<add from_db="true" path="effects/particles/explosions/smoke_screen" type="effect">
+		<effect load="true" path="effects/particles/explosions/smoke_screen" unload="true"/>
+	</add>
+	<material_config path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
+	<model path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
+	<object path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
+	<unit path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
 </table>

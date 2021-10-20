@@ -1,0 +1,5 @@
+<materials version="3">   
+	<material name="mtl_black" render_template="generic:DIFFUSE_TEXTURE" version="2">
+	<diffuse_texture		file="units/black_df"/>
+	</material>
+</materials>
