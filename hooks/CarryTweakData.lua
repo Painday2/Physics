@@ -49,4 +49,11 @@ Hooks:PostHook(CarryTweakData, "init", "init_boworks", function(self, tweak_data
 		visual_unit_name = "units/payday2/characters/npc_acc_loot_bag_1/npc_acc_loot_bag_1",
 	}
 
+	self.physics_flashbang = {
+		type = "medium",
+		name_id = "hud_carry_phys_flashbang",
+		unit = "units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang",
+		visual_unit_name = "units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang_tps",
+	}
+
 end)

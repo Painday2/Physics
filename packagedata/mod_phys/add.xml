@@ -226,6 +226,7 @@
 		<unit load="true" path="units/pd2_mod_phys/equipment/phys_4klift_tps"/>
 		<sequence_manager path="units/pd2_mod_phys/equipment/phys_4klift"/>
 	</add>
+
 	<add path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt" type="unit">
 		<!--The weight of what you did to those civilians-->
 		<cooked_physics path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
@@ -235,6 +236,20 @@
 		<sequence_manager path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
 		<unit path="units/pd2_mod_phys/dev_tools/invisible_interaction_bagguilt/invisible_interaction_bagguilt"/>
 
+	</add>
+
+	<add>
+		<!--Flashbang-->
+		<model path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang"/>
+		<object path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang"/>
+		<unit load="true" path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang"/>
+		<unit load="true" path="units/pd2_dlc_vr/equipment/phys_flashbang_vr"/>
+		<material_config path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang"/>
+		<material_config path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang_tps"/>
+		<model path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang_tps"/>
+		<object path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang_tps"/>
+		<unit load="true" path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang_tps"/>
+		<sequence_manager path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang"/>
 	</add>
 
 	<!--Folding bed (Mako)-->
