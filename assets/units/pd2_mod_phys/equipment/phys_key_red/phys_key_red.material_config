@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="mtr_key" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" unique="true" version="2">
+        <diffuse_texture file="units/pd2_mod_phys/equipment/phys_key_red/phys_key_red_df" />
+		<bump_normal_texture file="units/pd2_dlc_tng/equipment/gen_interactable_key_case/key_green_nm" />
+        <variable value="1 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+    </material>
+</materials>

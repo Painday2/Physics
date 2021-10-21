@@ -1,0 +1,6 @@
+<unit type="tst" slot="1">
+	<object file="units/pd2_mod_phys/equipment/phys_key_red/phys_key_red_tps" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>
