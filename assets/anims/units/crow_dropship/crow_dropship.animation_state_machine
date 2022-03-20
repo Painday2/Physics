@@ -1,7 +1,0 @@
-<state_machine name="crow_dropship" timebase="frames">
-	<segment name="base"/>
-
-	<default state="std/empty"/>
-
-	<states file="anims/units/crow_dropship/std"/>
-</state_machine>
