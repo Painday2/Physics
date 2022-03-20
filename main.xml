@@ -135,6 +135,8 @@
 			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
+
+			<hook file="GiantBoBase.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
 		</hooks>
 		<outro_event>
 			<value_node value="phys_d3_debriefing"/>

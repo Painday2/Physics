@@ -1,0 +1,9 @@
+<materials version="3">
+	<material name="mat_mkp" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/pd2_mod_mockup/tileset/completely_mkp_df"/>
+	</material>
+
+    <material name="mat_mkp_old" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/architecture/mkp/mkp_grid_df"/>
+    </material>
+</materials>

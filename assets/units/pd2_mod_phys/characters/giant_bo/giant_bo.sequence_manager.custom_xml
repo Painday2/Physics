@@ -1,0 +1,92 @@
+<table>
+	<unit>
+		<variables>
+			<var_direction value="0"/>
+		</variables>
+
+		<filter name="'facing_pos_y'">
+			<check value="vars.var_direction == 0"/>
+		</filter>
+		<filter name="'facing_pos_x'">
+			<check value="vars.var_direction == 1"/>
+		</filter>
+		<filter name="'facing_neg_y'">
+			<check value="vars.var_direction == 2"/>
+		</filter>
+		<filter name="'facing_neg_x'">
+			<check value="vars.var_direction == 3"/>
+		</filter>
+
+		<!-- Movement -->
+			<sequence name="'anim_turn_left'">
+				<animation_redirect name="'turn_left'"/>
+			</sequence>
+
+			<sequence name="'anim_turn_right'">
+				<animation_redirect name="'turn_right'"/>
+			</sequence>
+
+			<sequence name="'anim_turn_180'">
+				<animation_redirect name="'turn_180'"/>
+			</sequence>
+
+			<sequence editable_state="true" name="'anim_face_pos_y'" triggable="true">
+				<run_sequence filter="'facing_pos_x'" name="'anim_turn_right'"/>
+				<run_sequence filter="'facing_neg_y'" name="'anim_turn_180'"/>
+				<run_sequence filter="'facing_neg_x'" name="'anim_turn_left'"/>
+
+				<set_variables var_direction="0"/>
+			</sequence>
+
+			<sequence editable_state="true" name="'anim_face_pos_x'" triggable="true">
+				<run_sequence filter="'facing_pos_y'" name="'anim_turn_left'"/>
+				<run_sequence filter="'facing_neg_y'" name="'anim_turn_right'"/>
+				<run_sequence filter="'facing_neg_x'" name="'anim_turn_180'"/>
+
+				<set_variables var_direction="1"/>
+			</sequence>
+
+			<sequence editable_state="true" name="'anim_face_neg_y'" triggable="true">
+				<run_sequence filter="'facing_pos_y'" name="'anim_turn_180'"/>
+				<run_sequence filter="'facing_pos_x'" name="'anim_turn_left'"/>
+				<run_sequence filter="'facing_neg_x'" name="'anim_turn_right'"/>
+
+				<set_variables var_direction="2"/>
+			</sequence>
+
+			<sequence editable_state="true" name="'anim_face_neg_x'" triggable="true">
+				<run_sequence filter="'facing_pos_y'" name="'anim_turn_right'"/>
+				<run_sequence filter="'facing_pos_x'" name="'anim_turn_180'"/>
+				<run_sequence filter="'facing_neg_y'" name="'anim_turn_left'"/>
+
+				<set_variables var_direction="3"/>
+			</sequence>
+
+		<!-- Actions -->
+			<!-- Start/End -->
+				<sequence editable_state="true" name="'anim_intro'" triggable="true">
+					<animation_redirect name="'intro'"/>
+				</sequence>
+
+				<sequence editable_state="true" name="'anim_defeat'" triggable="true">
+					<animation_redirect name="'defeat'"/>
+				</sequence>
+
+			<!-- Attacks -->
+				<sequence editable_state="true" name="'anim_shoot_grenades'" triggable="true">
+					<animation_redirect name="'shoot_grenades'"/>
+				</sequence>
+
+				<sequence editable_state="true" name="'anim_breath_fire'" triggable="true">
+					<animation_redirect name="'breath_fire'"/>
+				</sequence>
+
+				<sequence editable_state="true" name="'anim_throw_molotov'" triggable="true">
+					<animation_redirect name="'throw_molotov'"/>
+				</sequence>
+
+				<sequence editable_state="true" name="'anim_throw_smoke'" triggable="true">
+					<animation_redirect name="'throw_smoke'"/>
+				</sequence>
+	</unit>
+</table>

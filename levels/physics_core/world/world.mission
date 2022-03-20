@@ -9504,15 +9504,6 @@
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="unit_ids" type="table">
-						<entry index="1" type="number" value="300045"/>
-						<entry index="2" type="number" value="102068"/>
-						<entry index="3" type="number" value="102069"/>
-						<entry index="4" type="number" value="102070"/>
-						<entry index="5" type="number" value="103989"/>
-						<entry index="6" type="number" value="103991"/>
-						<entry index="7" type="number" value="103995"/>
-						<entry index="8" type="number" value="103997"/>
-						<entry index="9" type="number" value="103999"/>
 					</entry>
 				</entry>
 			</entry>

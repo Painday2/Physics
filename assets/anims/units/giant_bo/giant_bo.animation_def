@@ -1,0 +1,83 @@
+<xml>
+	<animatable_set name="giant_bo">
+		<bone name="root_point" root="true" alignment="true" alias="all root"/>
+
+		<!-- Spine -->
+		<bone name="Hips" alias="all legs"/>
+		<bone name="Spine" alias="all upper lod"/>
+		<bone name="Spine1" alias="all upper lod"/>
+		<bone name="Spine2" alias="all upper lod"/>
+
+		<!-- Head and Neck -->
+		<bone name="Neck" alias="all upper lod"/>
+		<bone name="Head" alias="all upper lod"/>
+
+		<!-- Left Arm -->
+		<bone name="LeftShoulder" alias="all upper lod"/>
+		<bone name="LeftArm" alias="all upper lod"/>
+		<bone name="LeftForeArm" alias="all upper lod"/>
+		<bone name="LeftForeArmRoll" alias="all upper lod"/>
+
+		<!-- Left Hand -->
+		<bone name="LeftHand" alias="all upper lod"/>
+		<bone name="LeftHandThumb1" alias="all upper lod lod1"/>
+		<bone name="LeftHandThumb2" alias="all upper lod lod1"/>
+		<bone name="LeftHandThumb3" alias="all upper lod lod1"/>
+		<bone name="LeftHandIndex1" alias="all upper lod lod1"/>
+		<bone name="LeftHandIndex2" alias="all upper lod lod1"/>
+		<bone name="LeftHandIndex3" alias="all upper lod lod1"/>
+		<bone name="LeftHandMiddle1" alias="all upper lod lod1"/>
+		<bone name="LeftHandMiddle2" alias="all upper lod lod1"/>
+		<bone name="LeftHandMiddle3" alias="all upper lod lod1"/>
+		<bone name="LeftHandRing1" alias="all upper lod lod1"/>
+		<bone name="LeftHandRing2" alias="all upper lod lod1"/>
+		<bone name="LeftHandRing3" alias="all upper lod lod1"/>
+		<bone name="LeftHandPinky1" alias="all upper lod lod1"/>
+		<bone name="LeftHandPinky2" alias="all upper lod lod1"/>
+		<bone name="LeftHandPinky3" alias="all upper lod lod1"/>
+
+		<!-- Right Arm -->
+		<bone name="RightShoulder" alias="all upper lod"/>
+		<bone name="RightArm" alias="all upper lod"/>
+		<bone name="RightForeArm" alias="all upper lod"/>
+		<bone name="RightForeArmRoll" alias="all upper lod"/>
+
+		<!-- Right Hand -->
+		<bone name="RightHand" alias="all upper lod"/>	
+		<bone name="RightHandThumb1" alias="all upper lod lod1"/>
+		<bone name="RightHandThumb2" alias="all upper lod lod1"/>
+		<bone name="RightHandThumb3" alias="all upper lod lod1"/>
+		<bone name="RightHandIndex1" alias="all upper lod lod1"/>
+		<bone name="RightHandIndex2" alias="all upper lod lod1"/>
+		<bone name="RightHandIndex3" alias="all upper lod lod1"/>
+		<bone name="RightHandMiddle1" alias="all upper lod lod1"/>
+		<bone name="RightHandMiddle2" alias="all upper lod lod1"/>
+		<bone name="RightHandMiddle3" alias="all upper lod lod1"/>
+		<bone name="RightHandRing1" alias="all upper lod lod1"/>
+		<bone name="RightHandRing2" alias="all upper lod lod1"/>
+		<bone name="RightHandRing3" alias="all upper lod lod1"/>
+		<bone name="RightHandPinky1" alias="all upper lod lod1"/>
+		<bone name="RightHandPinky2" alias="all upper lod lod1"/>
+		<bone name="RightHandPinky3" alias="all upper lod lod1"/>
+
+		<!-- Left Leg -->
+		<bone name="LeftUpLeg" alias="all legs lod"/>
+		<bone name="LeftLeg" alias="all legs lod"/>
+		<bone name="LeftFoot" alias="all legs lod"/>
+
+		<!-- Right Leg -->
+		<bone name="RightUpLeg" alias="all legs lod"/>
+		<bone name="RightLeg" alias="all legs lod"/>
+		<bone name="RightFoot" alias="all legs lod"/>
+	</animatable_set>
+
+	<!-- Blend sets -->
+	<blend_set name="all" animatable_set="giant_bo">
+		<blend alias="all" weight="1.0"/>
+	</blend_set>
+
+	<!-- Animation sets -->
+	<animation_set name="giant_bo" animatable_set="giant_bo">
+		<subset file="anims/units/giant_bo/giant_bo"/>
+	</animation_set>
+</xml>

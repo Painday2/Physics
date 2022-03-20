@@ -1,0 +1,13 @@
+<xml>
+	<anim name="intro"        file="anims/giant_bo/intro"        blend_set="all"/>
+	<anim name="idle"         file="anims/giant_bo/idle"         blend_set="all"/>
+
+	<anim name="turn_left"    file="anims/giant_bo/turn_left"    blend_set="all"/>
+	<anim name="turn_right"   file="anims/giant_bo/turn_right"   blend_set="all"/>
+	<anim name="turn_180"     file="anims/giant_bo/turn_180"     blend_set="all"/>
+
+	<anim name="shoot_grenades" file="anims/giant_bo/shoot_grenades" blend_set="all"/>
+	<anim name="breath_fire" file="anims/giant_bo/breath_fire" blend_set="all"/>
+	<anim name="throw_molotov" file="anims/giant_bo/throw_molotov" blend_set="all"/>
+	<anim name="throw_smoke" file="anims/giant_bo/throw_smoke" blend_set="all"/>
+</xml>

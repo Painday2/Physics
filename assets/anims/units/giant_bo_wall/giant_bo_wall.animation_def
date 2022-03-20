@@ -1,0 +1,134 @@
+<xml>
+	<animatable_set name="giant_bo_wall">
+		<bone name="rp_giant_bo_wall" root="true" alignment="true" alias="link root"/>
+
+		<!-- Gibs -->
+		<bone name="g_structure_cell_0" alias="all"/>
+		<bone name="g_structure_cell_1" alias="all"/>
+		<bone name="g_structure_cell_2" alias="all"/>
+		<bone name="g_structure_cell_3" alias="all"/>
+		<bone name="g_structure_cell_4" alias="all"/>
+		<bone name="g_structure_cell_5" alias="all"/>
+		<bone name="g_structure_cell_6" alias="all"/>
+		<bone name="g_structure_cell_7" alias="all"/>
+		<bone name="g_structure_cell_8" alias="all"/>
+		<bone name="g_structure_cell_9" alias="all"/>
+		<bone name="g_structure_cell_10" alias="all"/>
+		<bone name="g_structure_cell_11" alias="all"/>
+		<bone name="g_structure_cell_12" alias="all"/>
+		<bone name="g_structure_cell_13" alias="all"/>
+		<bone name="g_structure_cell_14" alias="all"/>
+		<bone name="g_structure_cell_15" alias="all"/>
+		<bone name="g_structure_cell_16" alias="all"/>
+		<bone name="g_structure_cell_17" alias="all"/>
+		<bone name="g_structure_cell_18" alias="all"/>
+		<bone name="g_structure_cell_19" alias="all"/>
+		<bone name="g_structure_cell_20" alias="all"/>
+		<bone name="g_structure_cell_21" alias="all"/>
+		<bone name="g_structure_cell_22" alias="all"/>
+		<bone name="g_structure_cell_23" alias="all"/>
+		<bone name="g_structure_cell_24" alias="all"/>
+		<bone name="g_structure_cell_25" alias="all"/>
+		<bone name="g_structure_cell_26" alias="all"/>
+		<bone name="g_structure_cell_27" alias="all"/>
+		<bone name="g_structure_cell_28" alias="all"/>
+		<bone name="g_structure_cell_29" alias="all"/>
+		<bone name="g_structure_cell_30" alias="all"/>
+		<bone name="g_structure_cell_31" alias="all"/>
+		<bone name="g_structure_cell_32" alias="all"/>
+		<bone name="g_structure_cell_33" alias="all"/>
+		<bone name="g_structure_cell_34" alias="all"/>
+		<bone name="g_structure_cell_35" alias="all"/>
+		<bone name="g_structure_cell_36" alias="all"/>
+		<bone name="g_structure_cell_37" alias="all"/>
+		<bone name="g_structure_cell_38" alias="all"/>
+		<bone name="g_structure_cell_39" alias="all"/>
+		<bone name="g_structure_cell_40" alias="all"/>
+		<bone name="g_structure_cell_41" alias="all"/>
+		<bone name="g_structure_cell_42" alias="all"/>
+
+		<!-- Wall -->
+		<bone name="g_boss_wall_1_1" alias="all"/>
+		<bone name="g_boss_wall_1_2" alias="all"/>
+		<bone name="g_boss_wall_1_3" alias="all"/>
+		<bone name="g_boss_wall_1_4" alias="all"/>
+		<bone name="g_boss_wall_1_5" alias="all"/>
+		<bone name="g_boss_wall_1_6" alias="all"/>
+		<bone name="g_boss_wall_1_7" alias="all"/>
+		<bone name="g_boss_wall_1_8" alias="all"/>
+		<bone name="g_boss_wall_1_9" alias="all"/>
+		<bone name="g_boss_wall_2_1" alias="all"/>
+		<bone name="g_boss_wall_2_2" alias="all"/>
+		<bone name="g_boss_wall_2_3" alias="all"/>
+		<bone name="g_boss_wall_2_4" alias="all"/>
+		<bone name="g_boss_wall_2_5" alias="all"/>
+		<bone name="g_boss_wall_2_6" alias="all"/>
+		<bone name="g_boss_wall_2_7" alias="all"/>
+		<bone name="g_boss_wall_2_8" alias="all"/>
+		<bone name="g_boss_wall_2_9" alias="all"/>
+		<bone name="g_boss_wall_3_1" alias="all"/>
+		<bone name="g_boss_wall_3_2" alias="all"/>
+		<bone name="g_boss_wall_3_3" alias="all"/>
+		<bone name="g_boss_wall_3_4" alias="all"/>
+		<bone name="g_boss_wall_3_5" alias="all"/>
+		<bone name="g_boss_wall_3_6" alias="all"/>
+		<bone name="g_boss_wall_3_7" alias="all"/>
+		<bone name="g_boss_wall_3_8" alias="all"/>
+		<bone name="g_boss_wall_3_9" alias="all"/>
+		<bone name="g_boss_wall_4_1" alias="all"/>
+		<bone name="g_boss_wall_4_2" alias="all"/>
+		<bone name="g_boss_wall_4_3" alias="all"/>
+		<bone name="g_boss_wall_4_4" alias="all"/>
+		<bone name="g_boss_wall_4_5" alias="all"/>
+		<bone name="g_boss_wall_4_6" alias="all"/>
+		<bone name="g_boss_wall_4_7" alias="all"/>
+		<bone name="g_boss_wall_4_8" alias="all"/>
+		<bone name="g_boss_wall_4_9" alias="all"/>
+		<bone name="g_boss_wall_5_1" alias="all"/>
+		<bone name="g_boss_wall_5_2" alias="all"/>
+		<bone name="g_boss_wall_5_3" alias="all"/>
+		<bone name="g_boss_wall_5_4" alias="all"/>
+		<bone name="g_boss_wall_5_5" alias="all"/>
+		<bone name="g_boss_wall_5_6" alias="all"/>
+		<bone name="g_boss_wall_5_7" alias="all"/>
+		<bone name="g_boss_wall_5_8" alias="all"/>
+		<bone name="g_boss_wall_5_9" alias="all"/>
+		<bone name="g_boss_wall_6_1" alias="all"/>
+		<bone name="g_boss_wall_6_2" alias="all"/>
+		<bone name="g_boss_wall_6_3" alias="all"/>
+		<bone name="g_boss_wall_6_4" alias="all"/>
+		<bone name="g_boss_wall_6_5" alias="all"/>
+		<bone name="g_boss_wall_6_6" alias="all"/>
+		<bone name="g_boss_wall_6_7" alias="all"/>
+		<bone name="g_boss_wall_6_8" alias="all"/>
+		<bone name="g_boss_wall_6_9" alias="all"/>
+		<bone name="g_boss_wall_7_1" alias="all"/>
+		<bone name="g_boss_wall_7_2" alias="all"/>
+		<bone name="g_boss_wall_7_3" alias="all"/>
+		<bone name="g_boss_wall_7_4" alias="all"/>
+		<bone name="g_boss_wall_7_5" alias="all"/>
+		<bone name="g_boss_wall_7_6" alias="all"/>
+		<bone name="g_boss_wall_7_7" alias="all"/>
+		<bone name="g_boss_wall_7_8" alias="all"/>
+		<bone name="g_boss_wall_7_9" alias="all"/>
+		<bone name="g_boss_wall_8_1" alias="all"/>
+		<bone name="g_boss_wall_8_2" alias="all"/>
+		<bone name="g_boss_wall_8_3" alias="all"/>
+		<bone name="g_boss_wall_8_4" alias="all"/>
+		<bone name="g_boss_wall_8_5" alias="all"/>
+		<bone name="g_boss_wall_8_6" alias="all"/>
+		<bone name="g_boss_wall_8_7" alias="all"/>
+		<bone name="g_boss_wall_8_8" alias="all"/>
+		<bone name="g_boss_wall_8_9" alias="all"/>
+	</animatable_set>
+
+	<!-- Blend sets -->
+	<blend_set name="all" animatable_set="giant_bo_wall">
+		<blend alias="all" weight="1.0"/>
+	</blend_set>
+
+	<!-- Animation sets -->
+	<animation_set name="giant_bo_wall" animatable_set="giant_bo_wall">
+		<subset file="anims/units/giant_bo_wall/giant_bo_wall"/>
+	</animation_set>
+</xml>

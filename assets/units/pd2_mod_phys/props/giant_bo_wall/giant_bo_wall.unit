@@ -1,0 +1,21 @@
+<unit type="mkp" slot="1">
+	<object file="units/pd2_mod_phys/props/giant_bo_wall/giant_bo_wall"/>
+	<network sync="spawn"/>
+
+	<anim_state_machine name="anims/units/giant_bo_wall/giant_bo_wall"/>
+
+	<dependencies>
+		<depends_on animation_def="anims/units/giant_bo_wall/giant_bo_wall"/>
+		<depends_on animation_state_machine="anims/units/giant_bo_wall/giant_bo_wall"/>
+	</dependencies>
+
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData"/>
+		<extension name="damage" class="UnitDamage"/>
+	</extensions>
+
+	<sounds>
+		<default_soundsource source="rp_giant_bo_wall"/>
+		<soundsource name="root" source="rp_giant_bo_wall"/>
+	</sounds>
+</unit>

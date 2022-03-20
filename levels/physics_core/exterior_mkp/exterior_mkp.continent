@@ -138,9 +138,6 @@
 			<unit_data _prev_pos="16100 4350 -299.999" _prev_rot="-0.5 0.5 -0.5 -0.5" continent="exterior_mkp" instance_data="false" local_pos="0.000282288 3200 3200" local_rot="1 -2.98023e-008 -2.98023e-008 -2.98023e-008" name="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" name_id="mkp_int_floor_32x32_a_049" position="16100 4350 -299.999" rotation="-0.5 0.5 -0.5 -0.5" unit_id="300044"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="16100 1150 -300" _prev_rot="0 0.707107 0 -0.707107" continent="exterior_mkp" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" name_id="boss_fakeout_wall" position="16100 1150 -300" rotation="0 0.707107 0 -0.707107" unit_id="300045"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="16100 7550 -300" _prev_rot="0.707107 -3.09086e-008 0.707107 3.09086e-008" continent="exterior_mkp" instance_data="false" local_pos="0 -6400 0.000417057" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" name_id="mkp_int_floor_32x32_a_051" position="16100 7550 -300" rotation="0.707107 -3.09086e-008 0.707107 3.09086e-008" unit_id="300046"/>
 		</table>
 		<table>

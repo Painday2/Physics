@@ -395,4 +395,44 @@
 	<model path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
 	<object path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
 	<unit path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
+
+	<add>
+		<animation path="anims/giant_bo/intro"/>
+		<animation path="anims/giant_bo/idle"/>
+		<animation path="anims/giant_bo/turn_left"/>
+		<animation path="anims/giant_bo/turn_right"/>
+		<animation path="anims/giant_bo/turn_180"/>
+		<animation path="anims/giant_bo/shoot_grenades"/>
+		<animation path="anims/giant_bo/throw_molotov"/>
+		<animation path="anims/giant_bo/throw_smoke"/>
+		<animation path="anims/giant_bo/breath_fire"/>
+
+		<animation_def path="anims/units/giant_bo/giant_bo"/>
+		<animation_state_machine path="anims/units/giant_bo/giant_bo"/>
+		<animation_states path="anims/units/giant_bo/giant_bo"/>
+		<animation_subset path="anims/units/giant_bo/giant_bo"/>
+
+		<cooked_physics path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
+		<material_config path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
+		<model path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
+		<object path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
+		<sequence_manager path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
+		<unit path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
+	</add>
+
+	<add>
+		<animation path="anims/giant_bo_wall/intro"/>
+
+		<animation_def path="anims/units/giant_bo_wall/giant_bo_wall"/>
+		<animation_state_machine path="anims/units/giant_bo_wall/giant_bo_wall"/>
+		<animation_states path="anims/units/giant_bo_wall/giant_bo_wall"/>
+		<animation_subset path="anims/units/giant_bo_wall/giant_bo_wall"/>
+
+		<cooked_physics path="units/pd2_mod_phys/props/giant_bo_wall/giant_bo_wall"/>
+		<material_config path="units/pd2_mod_phys/props/giant_bo_wall/giant_bo_wall"/>
+		<model path="units/pd2_mod_phys/props/giant_bo_wall/giant_bo_wall"/>
+		<object path="units/pd2_mod_phys/props/giant_bo_wall/giant_bo_wall"/>
+		<sequence_manager path="units/pd2_mod_phys/props/giant_bo_wall/giant_bo_wall"/>
+		<unit path="units/pd2_mod_phys/props/giant_bo_wall/giant_bo_wall"/>
+	</add>
 </table>

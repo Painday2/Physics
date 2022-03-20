@@ -6490,9 +6490,6 @@
 			<unit_data _prev_pos="-25 162 -125" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/pd2_mod_phys/equipment/phys_interactable_hack_computer/phys_interactable_hack_computer_b" name_id="monitor_RefundPC001" position="-25 162 -125" rotation="0 0 1 4.37114e-008" unit_id="101208"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="20975 2475 -2975" _prev_rot="0 0 0 -1" continent="world" disable_collision="true" instance_data="false" local_pos="-1025 1825 475" local_rot="0 0 0 1" mesh_variation="state_vis_show" name="units/pd2_dlc_help/props/hlp_prop_giant_cloaker/hlp_prop_giant_cloaker" name_id="hlp_prop_giant_cloaker_001" position="20975 2475 -2975" rotation="-0 0 -0 -1" unit_id="102071"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="19000 4650 -3450" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="-1000 4000 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_009" position="19000 4650 -3450" rotation="-0 0 -0 -1" unit_id="102072"/>
 		</table>
 		<table>
@@ -7436,42 +7433,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="14650 1350 -500" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="150 -1398.04 -675.313" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_013" position="14650 1350 -500" rotation="0 0 -0.707107 -0.707107" unit_id="102385"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15225 3000 -500" _prev_rot="0 0 -5.96046e-008 -1" continent="world" instance_data="false" local_pos="725 251.957 -675.313" local_rot="0 0 5.96046e-008 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_015" position="15225 3000 -500" rotation="0 0 -5.96046e-008 -1" unit_id="102463"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15425 2900 -500" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="925 151.957 -675.313" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_016" position="15425 2900 -500" rotation="0 0 0.707107 -0.707107" unit_id="102464"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15425 3000 -300" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="925 251.957 -475.313" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" name_id="mkp_wall_int_1m_b_007" position="15425 3000 -300" rotation="0 0 0.707107 -0.707107" unit_id="102465"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15425 2700 -500" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="925 -48.0432 -675.313" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_017" position="15425 2700 -500" rotation="0 0 0.707107 -0.707107" unit_id="102466"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15425 2500 -300" _prev_rot="0 0 1 -1.19209e-007" continent="world" instance_data="false" local_pos="925 -248.043 -475.313" local_rot="0 0 -1 1.19209e-007" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" name_id="mkp_wall_int_1m_b_008" position="15425 2500 -300" rotation="0 0 1 -1.19209e-007" unit_id="102467"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15225 2525 -500" _prev_rot="0 0 -5.96046e-008 -1" continent="world" instance_data="false" local_pos="725 -223.043 -675.313" local_rot="0 0 5.96046e-008 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_019" position="15225 2525 -500" rotation="0 0 -5.96046e-008 -1" unit_id="102469"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15125 2500 -500" _prev_rot="0 0 1 -1.03316e-007" continent="world" instance_data="false" local_pos="625 -248.043 -675.313" local_rot="0 0 -1 1.03316e-007" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_020" position="15125 2500 -500" rotation="0 0 -1 1.03316e-007" unit_id="102470"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="14925 2500 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="425 -248.043 -475.313" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" name_id="mkp_wall_int_1m_b_009" position="14925 2500 -300" rotation="0 0 -0.707107 -0.707107" unit_id="102472"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="14925 2600 -500" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="425 -148.043 -675.313" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_021" position="14925 2600 -500" rotation="0 0 -0.707107 -0.707107" unit_id="102473"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="14925 2800 -500" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="425 51.957 -675.313" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_022" position="14925 2800 -500" rotation="0 0 -0.707107 -0.707107" unit_id="102474"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="14925 3000 -300" _prev_rot="0 0 -1.62921e-007 -1" continent="world" instance_data="false" local_pos="425 251.957 -475.313" local_rot="0 0 1.62921e-007 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_b" name_id="mkp_wall_int_1m_b_011" position="14925 3000 -300" rotation="0 0 -1.62921e-007 -1" unit_id="102475"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="15125 2975 -500" _prev_rot="0 0 1 -1.03316e-007" continent="world" instance_data="false" local_pos="625 226.957 -675.313" local_rot="0 0 -1 1.03316e-007" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_023" position="15125 2975 -500" rotation="0 0 -1 1.03316e-007" unit_id="102476"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="13600 2525 -500" _prev_rot="0 0 -5.96046e-008 -1" continent="world" instance_data="false" local_pos="-900 -223.044 -675.313" local_rot="0 0 5.96046e-008 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_1m_a" name_id="mkp_wall_int_1m_a_028" position="13600 2525 -500" rotation="0 0 -5.96046e-008 -1" unit_id="102480"/>
@@ -12070,28 +12031,10 @@
 			<unit_data _prev_pos="24875 6750 2900" _prev_rot="0.707107 -4.36445e-008 1.38422e-008 -0.707107" continent="world" instance_data="false" local_pos="400 400 0" local_rot="-1.49012e-007 -0.707107 0.707107 1.19209e-007" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_154" position="24900 6750 2900" rotation="0.707107 -4.36445e-008 1.38422e-008 -0.707107" unit_id="104011"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="16100 1550 2900" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="secret_fakeout_wall" position="16100 1550 2900" rotation="-0.5 0.5 0.5 -0.5" unit_id="102068"/>
+			<unit_data _prev_pos="16100 2750 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_phys/props/giant_bo_wall/giant_bo_wall" name_id="giant_bo_wall_001" position="16100 2750 -300" rotation="0 0 -0.707107 -0.707107" unit_id="102068"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="16100 1550 2900" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="secret_fakeout_wall001" position="16100 1950 2900" rotation="-0.5 0.5 0.5 -0.5" unit_id="102069"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="16100 2350 2900" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="secret_fakeout_wall002" position="16100 2350 2900" rotation="-0.5 0.5 0.5 -0.5" unit_id="102070"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="16100 2350 2900" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="secret_fakeout_wall003" position="16100 2750 2900" rotation="-0.5 0.5 0.5 -0.5" unit_id="103989"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="16100 2750 2900" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="secret_fakeout_wall004" position="16100 3150 2900" rotation="-0.5 0.5 0.5 -0.5" unit_id="103991"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="16100 3150 2900" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="secret_fakeout_wall005" position="16100 3550 2900" rotation="-0.5 0.5 0.5 -0.5" unit_id="103995"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="16100 3550 2900" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="secret_fakeout_wall006" position="16100 3950 2900" rotation="-0.5 0.5 0.5 -0.5" unit_id="103997"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="16100 3950 2900" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="secret_fakeout_wall007" position="16100 4350 2900" rotation="-0.5 0.5 0.5 -0.5" unit_id="103999"/>
+			<unit_data _prev_pos="18500 2750 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_phys/characters/giant_bo/giant_bo" name_id="giant_bo_001" position="18500 2750 -300" rotation="0 0 -0.707107 -0.707107" unit_id="102069"/>
 		</table>
 	</statics>
 	<values>

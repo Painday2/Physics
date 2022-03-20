@@ -1,0 +1,7 @@
+<state_machine name="giant_bo_wall" timebase="frames">
+	<segment name="base"/>
+
+	<default state="giant_bo_wall/empty"/>
+
+	<states file="anims/units/giant_bo_wall/giant_bo_wall"/>
+</state_machine>

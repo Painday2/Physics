@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<unit type="being" slot="21">
+	<object file="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
+	<network sync="spawn"/>
+
+	<anim_state_machine name="anims/units/giant_bo/giant_bo"/>
+
+	<dependencies>
+		<depends_on animation_def="anims/units/giant_bo/giant_bo"/>
+		<depends_on animation_state_machine="anims/units/giant_bo/giant_bo"/>
+	</dependencies>
+
+	<extensions>
+		<extension name="base" class="GiantBoBase"/>
+		<extension name="unit_data" class="ScriptUnitData"/>
+		<extension name="damage" class="UnitDamage"/>
+	</extensions>
+</unit>

@@ -1,0 +1,351 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_phys/characters/giant_bo/giant_bo_wall" orientation_object="rp_giant_bo_wall" />
+
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="g_structure" collision_type="mesh_mopp" padding="-2.5"/>
+		</body>
+
+		<body name="body_dynamic_1_1" enabled="true" template="dynamic">
+			<object name="g_boss_wall_1_1" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_1_2" enabled="true" template="dynamic">
+			<object name="g_boss_wall_1_2" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_1_3" enabled="true" template="dynamic">
+			<object name="g_boss_wall_1_3" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_1_4" enabled="true" template="dynamic">
+			<object name="g_boss_wall_1_4" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_1_5" enabled="true" template="dynamic">
+			<object name="g_boss_wall_1_5" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_1_6" enabled="true" template="dynamic">
+			<object name="g_boss_wall_1_6" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_1_7" enabled="true" template="dynamic">
+			<object name="g_boss_wall_1_7" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_1_8" enabled="true" template="dynamic">
+			<object name="g_boss_wall_1_8" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_1_9" enabled="true" template="dynamic">
+			<object name="g_boss_wall_1_9" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_2_1" enabled="true" template="dynamic">
+			<object name="g_boss_wall_2_1" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_2_2" enabled="true" template="dynamic">
+			<object name="g_boss_wall_2_2" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_2_3" enabled="true" template="dynamic">
+			<object name="g_boss_wall_2_3" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_2_4" enabled="true" template="dynamic">
+			<object name="g_boss_wall_2_4" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_2_5" enabled="true" template="dynamic">
+			<object name="g_boss_wall_2_5" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_2_6" enabled="true" template="dynamic">
+			<object name="g_boss_wall_2_6" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_2_7" enabled="true" template="dynamic">
+			<object name="g_boss_wall_2_7" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_2_8" enabled="true" template="dynamic">
+			<object name="g_boss_wall_2_8" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_2_9" enabled="true" template="dynamic">
+			<object name="g_boss_wall_2_9" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_3_1" enabled="true" template="dynamic">
+			<object name="g_boss_wall_3_1" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_3_2" enabled="true" template="dynamic">
+			<object name="g_boss_wall_3_2" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_3_3" enabled="true" template="dynamic">
+			<object name="g_boss_wall_3_3" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_3_4" enabled="true" template="dynamic">
+			<object name="g_boss_wall_3_4" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_3_5" enabled="true" template="dynamic">
+			<object name="g_boss_wall_3_5" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_3_6" enabled="true" template="dynamic">
+			<object name="g_boss_wall_3_6" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_3_7" enabled="true" template="dynamic">
+			<object name="g_boss_wall_3_7" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_3_8" enabled="true" template="dynamic">
+			<object name="g_boss_wall_3_8" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_3_9" enabled="true" template="dynamic">
+			<object name="g_boss_wall_3_9" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_4_1" enabled="true" template="dynamic">
+			<object name="g_boss_wall_4_1" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_4_2" enabled="true" template="dynamic">
+			<object name="g_boss_wall_4_2" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_4_3" enabled="true" template="dynamic">
+			<object name="g_boss_wall_4_3" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_4_4" enabled="true" template="dynamic">
+			<object name="g_boss_wall_4_4" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_4_5" enabled="true" template="dynamic">
+			<object name="g_boss_wall_4_5" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_4_6" enabled="true" template="dynamic">
+			<object name="g_boss_wall_4_6" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_4_7" enabled="true" template="dynamic">
+			<object name="g_boss_wall_4_7" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_4_8" enabled="true" template="dynamic">
+			<object name="g_boss_wall_4_8" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_4_9" enabled="true" template="dynamic">
+			<object name="g_boss_wall_4_9" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_5_1" enabled="true" template="dynamic">
+			<object name="g_boss_wall_5_1" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_5_2" enabled="true" template="dynamic">
+			<object name="g_boss_wall_5_2" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_5_3" enabled="true" template="dynamic">
+			<object name="g_boss_wall_5_3" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_5_4" enabled="true" template="dynamic">
+			<object name="g_boss_wall_5_4" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_5_5" enabled="true" template="dynamic">
+			<object name="g_boss_wall_5_5" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_5_6" enabled="true" template="dynamic">
+			<object name="g_boss_wall_5_6" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_5_7" enabled="true" template="dynamic">
+			<object name="g_boss_wall_5_7" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_5_8" enabled="true" template="dynamic">
+			<object name="g_boss_wall_5_8" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_5_9" enabled="true" template="dynamic">
+			<object name="g_boss_wall_5_9" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_6_1" enabled="true" template="dynamic">
+			<object name="g_boss_wall_6_1" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_6_2" enabled="true" template="dynamic">
+			<object name="g_boss_wall_6_2" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_6_3" enabled="true" template="dynamic">
+			<object name="g_boss_wall_6_3" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_6_4" enabled="true" template="dynamic">
+			<object name="g_boss_wall_6_4" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_6_5" enabled="true" template="dynamic">
+			<object name="g_boss_wall_6_5" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_6_6" enabled="true" template="dynamic">
+			<object name="g_boss_wall_6_6" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_6_7" enabled="true" template="dynamic">
+			<object name="g_boss_wall_6_7" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_6_8" enabled="true" template="dynamic">
+			<object name="g_boss_wall_6_8" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_6_9" enabled="true" template="dynamic">
+			<object name="g_boss_wall_6_9" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_7_1" enabled="true" template="dynamic">
+			<object name="g_boss_wall_7_1" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_7_2" enabled="true" template="dynamic">
+			<object name="g_boss_wall_7_2" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_7_3" enabled="true" template="dynamic">
+			<object name="g_boss_wall_7_3" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_7_4" enabled="true" template="dynamic">
+			<object name="g_boss_wall_7_4" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_7_5" enabled="true" template="dynamic">
+			<object name="g_boss_wall_7_5" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_7_6" enabled="true" template="dynamic">
+			<object name="g_boss_wall_7_6" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_7_7" enabled="true" template="dynamic">
+			<object name="g_boss_wall_7_7" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_7_8" enabled="true" template="dynamic">
+			<object name="g_boss_wall_7_8" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_7_9" enabled="true" template="dynamic">
+			<object name="g_boss_wall_7_9" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_8_1" enabled="true" template="dynamic">
+			<object name="g_boss_wall_8_1" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_8_2" enabled="true" template="dynamic">
+			<object name="g_boss_wall_8_2" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_8_3" enabled="true" template="dynamic">
+			<object name="g_boss_wall_8_3" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_8_4" enabled="true" template="dynamic">
+			<object name="g_boss_wall_8_4" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_8_5" enabled="true" template="dynamic">
+			<object name="g_boss_wall_8_5" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_8_6" enabled="true" template="dynamic">
+			<object name="g_boss_wall_8_6" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_8_7" enabled="true" template="dynamic">
+			<object name="g_boss_wall_8_7" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_8_8" enabled="true" template="dynamic">
+			<object name="g_boss_wall_8_8" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_dynamic_8_9" enabled="true" template="dynamic">
+			<object name="g_boss_wall_8_9" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="stone" static="true">
+		<decal_mesh name="g_structure" material="stone" enabled="true" />
+	</decal_surfaces>
+
+	<graphics>
+		<object name="g_structure" enabled="true" shadow_caster="true"/>
+
+		<object name="g_structure_cell_0" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_1" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_2" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_3" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_4" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_5" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_6" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_7" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_8" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_9" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_10" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_11" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_12" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_13" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_14" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_15" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_16" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_17" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_18" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_19" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_20" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_21" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_22" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_23" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_24" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_25" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_26" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_27" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_28" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_29" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_30" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_31" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_32" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_33" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_34" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_35" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_36" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_37" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_38" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_39" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_40" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_41" enabled="false" shadow_caster="true"/>
+		<object name="g_structure_cell_42" enabled="false" shadow_caster="true"/>
+
+		<object name="g_boss_wall_1_1" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_1_2" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_1_3" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_1_4" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_1_5" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_1_6" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_1_7" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_1_8" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_1_9" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_2_1" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_2_2" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_2_3" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_2_4" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_2_5" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_2_6" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_2_7" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_2_8" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_2_9" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_3_1" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_3_2" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_3_3" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_3_4" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_3_5" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_3_6" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_3_7" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_3_8" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_3_9" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_4_1" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_4_2" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_4_3" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_4_4" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_4_5" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_4_6" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_4_7" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_4_8" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_4_9" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_5_1" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_5_2" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_5_3" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_5_4" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_5_5" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_5_6" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_5_7" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_5_8" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_5_9" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_6_1" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_6_2" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_6_3" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_6_4" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_6_5" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_6_6" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_6_7" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_6_8" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_6_9" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_7_1" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_7_2" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_7_3" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_7_4" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_7_5" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_7_6" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_7_7" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_7_8" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_7_9" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_8_1" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_8_2" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_8_3" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_8_4" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_8_5" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_8_6" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_8_7" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_8_8" enabled="true" shadow_caster="true"/>
+		<object name="g_boss_wall_8_9" enabled="true" shadow_caster="true"/>
+	</graphics>
+</dynamic_object>

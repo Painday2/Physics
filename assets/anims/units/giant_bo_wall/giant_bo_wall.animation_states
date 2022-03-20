@@ -1,0 +1,12 @@
+<xml>
+	<state name="giant_bo_wall" type="template_state" segment="base">
+		<to	name="intro" redirect="giant_bo_wall/intro"/>
+	</state>
+
+	<state name="giant_bo_wall/empty" type="emptyloop" segment="base"/>
+
+	<state name="giant_bo_wall/intro" type="once" segment="base">
+		<anim name="intro"/>
+		<exit name="giant_bo_wall/empty"/>
+	</state>
+</xml>

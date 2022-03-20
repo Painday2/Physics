@@ -1,0 +1,7 @@
+<state_machine name="giant_bo" timebase="frames">
+	<segment name="base"/>
+
+	<default state="giant_bo/idle"/>
+
+	<states file="anims/units/giant_bo/giant_bo"/>
+</state_machine>

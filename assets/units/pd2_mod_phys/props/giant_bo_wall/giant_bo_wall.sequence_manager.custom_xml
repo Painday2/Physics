@@ -1,0 +1,143 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'anim_intro'" triggable="true">
+			<animation_redirect name="'intro'"/>
+
+			<run_sequence name="'show_gibs'" start_time="1/30"/>
+			<run_sequence name="'play_smash'" start_time="1/30"/>
+
+
+			<run_sequence name="'play_open'" start_time="71/30"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'play_smash'" triggable="true">
+			<sound action="'play'" event="'giant_bo_wall_smash'" object="'align_structure'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'play_open'" triggable="true">
+			<sound action="'play'" event="'giant_bo_wall_open'" object="'rp_giant_bo_wall'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'show_gibs'" triggable="true">
+			<object enabled="false" name="'g_structure'"/>
+
+			<body enabled="false" name="'body_0'"/>
+			<body enabled="false" name="'body_1'"/>
+			<body enabled="false" name="'body_2'"/>
+			<body enabled="false" name="'body_3'"/>
+			<body enabled="false" name="'body_4'"/>
+			<body enabled="false" name="'body_5'"/>
+			<body enabled="false" name="'body_6'"/>
+			<body enabled="false" name="'body_7'"/>
+			<body enabled="false" name="'body_8'"/>
+			<body enabled="false" name="'body_9'"/>
+			<body enabled="false" name="'body_10'"/>
+			<body enabled="false" name="'body_11'"/>
+
+			<object enabled="true" name="'g_structure_cell_0'"/>
+			<object enabled="true" name="'g_structure_cell_1'"/>
+			<object enabled="true" name="'g_structure_cell_2'"/>
+			<object enabled="true" name="'g_structure_cell_3'"/>
+			<object enabled="true" name="'g_structure_cell_4'"/>
+			<object enabled="true" name="'g_structure_cell_5'"/>
+			<object enabled="true" name="'g_structure_cell_6'"/>
+			<object enabled="true" name="'g_structure_cell_7'"/>
+			<object enabled="true" name="'g_structure_cell_8'"/>
+			<object enabled="true" name="'g_structure_cell_9'"/>
+			<object enabled="true" name="'g_structure_cell_10'"/>
+			<object enabled="true" name="'g_structure_cell_11'"/>
+			<object enabled="true" name="'g_structure_cell_12'"/>
+			<object enabled="true" name="'g_structure_cell_13'"/>
+			<object enabled="true" name="'g_structure_cell_14'"/>
+			<object enabled="true" name="'g_structure_cell_15'"/>
+			<object enabled="true" name="'g_structure_cell_16'"/>
+			<object enabled="true" name="'g_structure_cell_17'"/>
+			<object enabled="true" name="'g_structure_cell_18'"/>
+			<object enabled="true" name="'g_structure_cell_19'"/>
+			<object enabled="true" name="'g_structure_cell_20'"/>
+			<object enabled="true" name="'g_structure_cell_21'"/>
+			<object enabled="true" name="'g_structure_cell_22'"/>
+			<object enabled="true" name="'g_structure_cell_23'"/>
+			<object enabled="true" name="'g_structure_cell_24'"/>
+			<object enabled="true" name="'g_structure_cell_25'"/>
+			<object enabled="true" name="'g_structure_cell_26'"/>
+			<object enabled="true" name="'g_structure_cell_27'"/>
+			<object enabled="true" name="'g_structure_cell_28'"/>
+			<object enabled="true" name="'g_structure_cell_29'"/>
+			<object enabled="true" name="'g_structure_cell_30'"/>
+			<object enabled="true" name="'g_structure_cell_31'"/>
+			<object enabled="true" name="'g_structure_cell_32'"/>
+			<object enabled="true" name="'g_structure_cell_33'"/>
+			<object enabled="true" name="'g_structure_cell_34'"/>
+			<object enabled="true" name="'g_structure_cell_35'"/>
+			<object enabled="true" name="'g_structure_cell_36'"/>
+			<object enabled="true" name="'g_structure_cell_37'"/>
+			<object enabled="true" name="'g_structure_cell_38'"/>
+			<object enabled="true" name="'g_structure_cell_39'"/>
+			<object enabled="true" name="'g_structure_cell_40'"/>
+			<object enabled="true" name="'g_structure_cell_41'"/>
+			<object enabled="true" name="'g_structure_cell_42'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'hide_gibs'" triggable="true">
+			<object enabled="true" name="'g_structure'"/>
+
+			<body enabled="true" name="'body_0'"/>
+			<body enabled="true" name="'body_1'"/>
+			<body enabled="true" name="'body_2'"/>
+			<body enabled="true" name="'body_3'"/>
+			<body enabled="true" name="'body_4'"/>
+			<body enabled="true" name="'body_5'"/>
+			<body enabled="true" name="'body_6'"/>
+			<body enabled="true" name="'body_7'"/>
+			<body enabled="true" name="'body_8'"/>
+			<body enabled="true" name="'body_9'"/>
+			<body enabled="true" name="'body_10'"/>
+			<body enabled="true" name="'body_11'"/>
+
+			<object enabled="false" name="'g_structure_cell_0'"/>
+			<object enabled="false" name="'g_structure_cell_1'"/>
+			<object enabled="false" name="'g_structure_cell_2'"/>
+			<object enabled="false" name="'g_structure_cell_3'"/>
+			<object enabled="false" name="'g_structure_cell_4'"/>
+			<object enabled="false" name="'g_structure_cell_5'"/>
+			<object enabled="false" name="'g_structure_cell_6'"/>
+			<object enabled="false" name="'g_structure_cell_7'"/>
+			<object enabled="false" name="'g_structure_cell_8'"/>
+			<object enabled="false" name="'g_structure_cell_9'"/>
+			<object enabled="false" name="'g_structure_cell_10'"/>
+			<object enabled="false" name="'g_structure_cell_11'"/>
+			<object enabled="false" name="'g_structure_cell_12'"/>
+			<object enabled="false" name="'g_structure_cell_13'"/>
+			<object enabled="false" name="'g_structure_cell_14'"/>
+			<object enabled="false" name="'g_structure_cell_15'"/>
+			<object enabled="false" name="'g_structure_cell_16'"/>
+			<object enabled="false" name="'g_structure_cell_17'"/>
+			<object enabled="false" name="'g_structure_cell_18'"/>
+			<object enabled="false" name="'g_structure_cell_19'"/>
+			<object enabled="false" name="'g_structure_cell_20'"/>
+			<object enabled="false" name="'g_structure_cell_21'"/>
+			<object enabled="false" name="'g_structure_cell_22'"/>
+			<object enabled="false" name="'g_structure_cell_23'"/>
+			<object enabled="false" name="'g_structure_cell_24'"/>
+			<object enabled="false" name="'g_structure_cell_25'"/>
+			<object enabled="false" name="'g_structure_cell_26'"/>
+			<object enabled="false" name="'g_structure_cell_27'"/>
+			<object enabled="false" name="'g_structure_cell_28'"/>
+			<object enabled="false" name="'g_structure_cell_29'"/>
+			<object enabled="false" name="'g_structure_cell_30'"/>
+			<object enabled="false" name="'g_structure_cell_31'"/>
+			<object enabled="false" name="'g_structure_cell_32'"/>
+			<object enabled="false" name="'g_structure_cell_33'"/>
+			<object enabled="false" name="'g_structure_cell_34'"/>
+			<object enabled="false" name="'g_structure_cell_35'"/>
+			<object enabled="false" name="'g_structure_cell_36'"/>
+			<object enabled="false" name="'g_structure_cell_37'"/>
+			<object enabled="false" name="'g_structure_cell_38'"/>
+			<object enabled="false" name="'g_structure_cell_39'"/>
+			<object enabled="false" name="'g_structure_cell_40'"/>
+			<object enabled="false" name="'g_structure_cell_41'"/>
+			<object enabled="false" name="'g_structure_cell_42'"/>
+		</sequence>
+	</unit>
+</table>
