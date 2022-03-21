@@ -334,6 +334,7 @@
 		<animation path="anims/giant_bo/throw_molotov"/>
 		<animation path="anims/giant_bo/throw_smoke"/>
 		<animation path="anims/giant_bo/breath_fire"/>
+		<animation path="anims/giant_bo/stun"/>
 
 		<animation_def path="anims/units/giant_bo/giant_bo"/>
 		<animation_state_machine path="anims/units/giant_bo/giant_bo"/>

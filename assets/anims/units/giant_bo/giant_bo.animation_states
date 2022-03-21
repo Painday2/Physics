@@ -3,17 +3,19 @@
 		<default blend="3"/>
 
 		<!-- Turns -->
-		<to	name="turn_left"  redirect="giant_bo/turn/left"/>
-		<to	name="turn_right" redirect="giant_bo/turn/right"/>
-		<to	name="turn_180"   redirect="giant_bo/turn/180"/>
+		<to	name="turn_left"      redirect="giant_bo/turn/left"/>
+		<to	name="turn_right"     redirect="giant_bo/turn/right"/>
+		<to	name="turn_180"       redirect="giant_bo/turn/180"/>
 
 		<!-- Start/End -->
-		<to	name="intro"  redirect="giant_bo/action/intro"/>
+		<to	name="intro"          redirect="giant_bo/action/intro"/>
 
-		<to	name="shoot_grenades"  redirect="giant_bo/action/shoot_grenades"/>
-		<to name="breath_fire" redirect="giant_bo/action/breath_fire"/>
-		<to name="throw_molotov" redirect="giant_bo/action/throw_molotov"/>
-		<to name="throw_smoke" redirect="giant_bo/action/throw_smoke"/>
+		<to	name="shoot_grenades" redirect="giant_bo/action/shoot_grenades"/>
+		<to name="breath_fire"    redirect="giant_bo/action/breath_fire"/>
+		<to name="throw_molotov"  redirect="giant_bo/action/throw_molotov"/>
+		<to name="throw_smoke"    redirect="giant_bo/action/throw_smoke"/>
+
+		<to name="stun"           redirect="giant_bo/action/stun"/>
 	</state>
 
 	<!-- Idles -->
@@ -97,6 +99,11 @@
 					<key at="trigger" trigger="throw_smoke" callback="throw_smoke" class_name="base"/>
 				</keys>
 
+				<exit name="giant_bo/idle"/>
+			</state>
+
+			<state name="giant_bo/action/stun" type="once" segment="base">
+				<anim name="stun"/>
 				<exit name="giant_bo/idle"/>
 			</state>
 </xml>

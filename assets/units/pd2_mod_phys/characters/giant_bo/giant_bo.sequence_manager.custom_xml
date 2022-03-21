@@ -88,5 +88,10 @@
 				<sequence editable_state="true" name="'anim_throw_smoke'" triggable="true">
 					<animation_redirect name="'throw_smoke'"/>
 				</sequence>
+
+			<!-- Stun -->
+				<sequence editable_state="true" name="'anim_stun'" triggable="true">
+					<animation_redirect name="'stun'"/>
+				</sequence>
 	</unit>
 </table>
