@@ -1,6 +1,26 @@
 <table>
 	<unit>
-		<variables>
+		<body name="'Head'"/>
+		<body name="'Hips'"/>
+		<body name="'Spine'"/>
+		<body name="'Spine1'"/>
+		<body name="'Spine2'"/>
+		<body name="'RightUpLeg'"/>
+		<body name="'LeftUpLeg'"/>
+		<body name="'RightArm'"/>
+		<body name="'LeftArm'"/>
+		<body name="'RightForeArm'"/>
+		<body name="'LeftForeArm'"/>
+		<body name="'RightLeg'"/>
+		<body name="'LeftLeg'"/>
+
+		<sequence name="'activate'" editable_state="true" triggable="true">
+			<function extension="'base'" function="'activate'"/>
+		</sequence>
+
+		<sequence name="'died'" editable_state="false" triggable="true"/>
+
+		<!-- <variables>
 			<var_direction value="0"/>
 		</variables>
 
@@ -15,10 +35,10 @@
 		</filter>
 		<filter name="'facing_neg_x'">
 			<check value="vars.var_direction == 3"/>
-		</filter>
+		</filter> -->
 
 		<!-- Movement -->
-			<sequence name="'anim_turn_left'">
+			<!-- <sequence name="'anim_turn_left'">
 				<animation_redirect name="'turn_left'"/>
 			</sequence>
 
@@ -60,20 +80,20 @@
 				<run_sequence filter="'facing_neg_y'" name="'anim_turn_left'"/>
 
 				<set_variables var_direction="3"/>
-			</sequence>
+			</sequence> -->
 
 		<!-- Actions -->
 			<!-- Start/End -->
-				<sequence editable_state="true" name="'anim_intro'" triggable="true">
+<!-- 				<sequence editable_state="true" name="'anim_intro'" triggable="true">
 					<animation_redirect name="'intro'"/>
 				</sequence>
 
 				<sequence editable_state="true" name="'anim_defeat'" triggable="true">
 					<animation_redirect name="'defeat'"/>
-				</sequence>
+				</sequence> -->
 
 			<!-- Attacks -->
-				<sequence editable_state="true" name="'anim_shoot_grenades'" triggable="true">
+<!-- 				<sequence editable_state="true" name="'anim_shoot_grenades'" triggable="true">
 					<animation_redirect name="'shoot_grenades'"/>
 				</sequence>
 
@@ -87,11 +107,11 @@
 
 				<sequence editable_state="true" name="'anim_throw_smoke'" triggable="true">
 					<animation_redirect name="'throw_smoke'"/>
-				</sequence>
+				</sequence> -->
 
 			<!-- Stun -->
-				<sequence editable_state="true" name="'anim_stun'" triggable="true">
+<!-- 				<sequence editable_state="true" name="'anim_stun'" triggable="true">
 					<animation_redirect name="'stun'"/>
-				</sequence>
+				</sequence> -->
 	</unit>
 </table>

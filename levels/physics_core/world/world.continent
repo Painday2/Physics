@@ -12034,7 +12034,7 @@
 			<unit_data _prev_pos="16100 2750 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_phys/props/giant_bo_wall/giant_bo_wall" name_id="giant_bo_wall_001" position="16100 2750 -300" rotation="0 0 -0.707107 -0.707107" unit_id="102068"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="18500 2750 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_phys/characters/giant_bo/giant_bo" name_id="giant_bo_001" position="18500 2750 -300" rotation="0 0 -0.707107 -0.707107" unit_id="102069"/>
+			<unit_data _prev_pos="20900 2750 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_phys/characters/giant_bo/giant_bo" name_id="giant_bo_001" position="20900 2750 -300" rotation="0 0 -0.707107 -0.707107" unit_id="102069"/>
 		</table>
 	</statics>
 	<values>

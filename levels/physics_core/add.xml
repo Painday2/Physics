@@ -436,4 +436,7 @@
 		<sequence_manager path="units/pd2_mod_phys/props/giant_bo_wall/giant_bo_wall"/>
 		<unit path="units/pd2_mod_phys/props/giant_bo_wall/giant_bo_wall"/>
 	</add>
+	<add from_db="true" path="effects/payday2/particles/explosions/explosion_parts/big_blood" type="effect">
+		<effect load="true" path="effects/payday2/particles/explosions/explosion_parts/big_blood" unload="true"/>
+	</add>
 </table>

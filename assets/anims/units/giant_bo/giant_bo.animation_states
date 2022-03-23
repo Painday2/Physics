@@ -1,6 +1,6 @@
 <xml>
 	<state name="giant_bo" type="template_state" segment="base">
-		<default blend="3"/>
+		<default blend="5"/>
 
 		<!-- Turns -->
 		<to	name="turn_left"      redirect="giant_bo/turn/left"/>

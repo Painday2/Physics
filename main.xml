@@ -136,7 +136,12 @@
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
 
-			<hook file="GiantBoBase.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+			<hooks directory="big_bo_boss">
+				<hook file="GiantBoBase.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+
+				<hook file="HUDManager.lua" source_file="lib/managers/hudmanagerpd2"/>
+				<hook file="HUDBossHealth.lua" source_file="lib/managers/hud/hudobjectives"/>
+			</hooks>
 		</hooks>
 		<outro_event>
 			<value_node value="phys_d3_debriefing"/>
