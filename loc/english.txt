@@ -393,6 +393,13 @@
 	"phys_d3_b5_02": "GG WP EZ. Now let's quit this game before it collapses on us, fo' sho.",
 	"phys_d3_b5_03": "Starbreeze shares are falling. Our work is done, friends.",
 	"phys_d3_b5_04": "Excellent work gang, fo' sho. Wait, I feel like we're forgetting something.",
-	"phys_d3_b5_05": "We might not have rescued Pain but...actually yeah we didn't rescue Pain. Whoops!"
-	
+	"phys_d3_b5_05": "We might not have rescued Pain but...actually yeah we didn't rescue Pain. Whoops!",
+
+	"hud_carry_phys_flashbang": "Flashbang",
+
+	"hud_load_flashbang": "Hold $BTN_INTERACT to load a Flashbang",
+	"hud_turret_flash_cannon": "Hold $BTN_INTERACT to mount the Flashbang Cannon",
+
+	"hud_action_loading_flashbang": "Loading a Flashbang",
+	"hud_action_mounting_flash_cannon": "Mounting the Flashbang Cannon"
 }

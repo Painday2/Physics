@@ -1,0 +1,40 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+			<sound action="'play'" event="'flakshell_planted'" source="'snd'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+
+		<sequence editable_state="false" name="'interact'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim'" to="20/30"/>
+			<run_sequence name="'hide'" start_time="20/30"/>
+			<function extension="'damage'" function="'parent_run_sequence'" param1="'shell_interacted'"/>
+			<sound action="'play'" event="'flak_gun_reload'" source="'snd'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<graphic_group name="'shell_grp'" visibility="true"/>
+			<body enabled="true" name="'static_body'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<graphic_group name="'shell_grp'" visibility="false"/>
+			<body enabled="false" name="'static_body'"/>
+			<interaction enabled="false"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'start_state'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim'" to="0/30"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'reset'" triggable="true">
+			<run_sequence name="'start_state'"/>
+			<run_sequence name="'show'"/>
+			<run_sequence name="'enable_interaction'"/>
+		</sequence>
+	</unit>
+</table>

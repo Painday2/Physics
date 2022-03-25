@@ -1,0 +1,19 @@
+<unit type="props" slot="1">
+	<object file="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell"/>
+	<network sync="spawn"/>
+
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData"/>
+		<extension name="damage" class="UnitDamage"/>
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="load_flashbang" />
+			<var name="_interact_object" value="int_location"/>
+		</extension>
+	</extensions>
+
+	<sounds>
+		<default_soundsource source="rp_props_anti_aircraft_flak_88_shell"/>
+		<soundsource name="snd" source="rp_props_anti_aircraft_flak_88_shell"/>
+	</sounds> 
+</unit>
+

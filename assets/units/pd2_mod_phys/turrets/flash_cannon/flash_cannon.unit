@@ -1,0 +1,74 @@
+<unit type="props" slot="1">
+	<object file="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon"/>
+
+	<network sync="spawn"/>
+
+	<dependencies>
+		<depends_on effect="effects/phys/explosions/flash_cannon_shell"/>
+		<depends_on effect="effects/phys/explosions/flash_cannon_muzzle"/>
+		<depends_on effect="effects/phys/explosions/flash_cannon_destroy"/>
+
+		<depends_on unit="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell"/>
+		<!-- <depends_on bnk="soundbanks/weapon_flak88"/> -->
+	</dependencies>
+
+	<extensions>
+		<extension name="base" class="CrappyPhysicsTurretSyncBase"/>
+
+		<extension name="unit_data" class="ScriptUnitData"/>
+
+		<extension name="interaction" class="TurretInteractionExt">
+			<var name="tweak_data" value="turret_flash_cannon"/>
+			<var name="_interact_object" value="interact"/>
+		</extension>
+
+		<!-- <extension name="base" class="SentryGunBase">
+			<var name="sentry_gun" value="true"/>
+			<var name="_tweak_table_id" value="turret_flak_88"/>
+			<var name="_difficulty_sequences" value="normal_difficulty;normal_difficulty;normal_difficulty;normal_difficulty;hard_difficulty;hard_difficulty"/>
+			<var name="_skip_authentication" value="true"/>
+		</extension> -->
+
+		<extension name="spawn_manager" class="ManageSpawnedUnits"/>
+		<extension name="network" class="NetworkBaseExtension"/>
+
+		<!-- <extension name="brain" class="SentryGunBrain"/>
+
+		<extension name="movement" class="SentryGunMovement">
+			<var name="_spin_obj_name" value="anim_heading"/>
+			<var name="_pitch_obj_name" value="anim_pitch"/>
+			<var name="_activation_anim_group_name" value="anim_turret"/>
+			<var name="_pitch_min" value="0"/>
+			<var name="_pitch_max" value="80"/>
+
+			<var name="_spin_min" value="-45"/>
+			<var name="_spin_max" value="45"/>
+
+			<var name="_lights_on_sequence_name" value="state_light_on"/>
+			<var name="_spin_start_snd_event" value="swatturret_spin_start"/>
+			<var name="_spin_stop_snd_event" value="swatturret_spin_stop"/>
+			<var name="_attention_acquired_snd_event" value="swatturret_alert"/>
+			<var name="_rearm_snd_event" value="swatturret_reload"/>
+			<var name="_rearm_complete_snd_event" value="swatturret_reload_end"/>
+			<var name="_hacked_start_snd_event" value="swatturret_disarmed_loop"/>
+			<var name="_hacked_stop_snd_event" value="swatturret_disarmed_stop"/>
+		</extension> -->
+
+		<extension name="weapon" class="TurretWeapon">
+			<var name="name_id" value="turret_flak_88"/>
+		</extension>
+
+		<extension name="contour" class="ContourExt"/>
+		<extension name="damage" class="UnitDamage"/>
+
+		<!-- IMPORTANT: This extension must always be last -->
+		<!-- <extension name="character_damage" class="SentryGunDamage">
+			<var name="_invulnerable_body_names" value=""/>
+		</extension> -->
+	</extensions>
+
+	<sounds>
+		<default_soundsource source="rp_props_anti_aircraft_flak_88"/>
+		<soundsource name="snd" source="rp_props_anti_aircraft_flak_88"/>
+	</sounds>
+</unit>

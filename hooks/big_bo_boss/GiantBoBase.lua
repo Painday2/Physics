@@ -14,11 +14,8 @@
 	GiantBoBaseIntro = GiantBoBaseIntro or class(GiantBoBaseState)
 
 	function GiantBoBaseIntro:enter(t)
-		local intro_time = 140/30
-
+		local intro_time = self._base:do_action("intro")
 		self._intro_exit_t = t + intro_time
-
-		self._unit:play_redirect(Idstring("intro"))
 
 		self._unit:set_rotation(Rotation(self._base:state_data().current_angle, 0, 0))
 		self._unit:set_position(self._base:state_data().origin + Vector3(
@@ -26,13 +23,19 @@
 			math.cos(self._base:state_data().current_angle) * self._base:state_data().radius,
 			0
 		))
+
+		self._unit:network():send("sync_stored_pos", true, self._base:state_data().origin, Vector3(
+			self._base:state_data().radius,
+			speed_multiplier,
+			self._base:state_data().target_angle
+		))
 	end
 
 	function GiantBoBaseIntro:update(t, dt)
 		if t > self._intro_exit_t then
 			self._base:set_state("idle")
 
-			managers.hud:open_boss_health("GIANT BO")
+			self._base:do_action("show_health")
 		end
 	end
 
@@ -124,6 +127,12 @@
 		self._transition_t = 1 / speed_multiplier
 
 		self._base:state_data().start_angle = self._base:state_data().current_angle
+
+		self._unit:network():send("sync_stored_pos", true, self._base:state_data().origin, Vector3(
+			self._base:state_data().radius,
+			speed_multiplier,
+			self._base:state_data().target_angle
+		))
 	end
 
 	function GiantBoBaseMove:update(t)
@@ -155,29 +164,10 @@
 	GiantBoBaseAttack._attack_distances = {
 		4300, 6000, 10000
 	}
-	GiantBoBaseAttack._attacks = {
-		{ -- Near
-			{
-				animation = "breath_fire",
-				length = 120/30
-			}
-		},
-		{ -- Mid
-			{
-				animation = "throw_smoke",
-				length = 40/30
-			},
-			{
-				animation = "throw_molotov",
-				length = 40/30
-			}
-		},
-		{ -- Far
-			{
-				animation = "shoot_grenades",
-				length = 40/30
-			}
-		}
+	GiantBoBaseAttack._attack_map = {
+		{"breath_fire"},
+		{"throw_smoke", "throw_molotov"},
+		{"shoot_grenades"}
 	}
 
 	function GiantBoBaseAttack:enter(t)
@@ -212,24 +202,21 @@
 		end
 
 		-- Not same attack twice if there's more than one
-		if #self._attacks[distance_index] > 1 then
+		if #self._attack_map[distance_index] > 1 then
 			while self._current_attack == self._last_attack do
-				self._current_attack = table.random(self._attacks[distance_index])
+				self._current_attack = table.random(self._attack_map[distance_index])
 			end
 		else
-			self._current_attack = self._attacks[distance_index][1]
+			self._current_attack = self._attack_map[distance_index][1]
 		end
-
-		local speed_multiplier = math.lerp(1, 1.5, self._base:state_data().aggressiveness)
 
 		self._last_attack = self._current_attack
 
-		if self._current_attack.animation then
-			local result = self._unit:play_redirect(Idstring(self._current_attack.animation))
-			self._unit:anim_state_machine():set_speed(result, speed_multiplier)
+		if self._current_attack then
+			self._exit_attack_t = t + self._base:do_action(self._current_attack)
+		else
+			self._exit_attack_t = t
 		end
-
-		self._exit_attack_t = t + (self._current_attack.length / speed_multiplier)
 	end
 
 	function GiantBoBaseAttack:update(t)
@@ -238,18 +225,193 @@
 		end
 	end
 
+-- GiantBoBaseStun
+	GiantBoBaseStun = GiantBoBaseStun or class(GiantBoBaseState)
+
+	function GiantBoBaseStun:enter(t)
+		local stun_time = self._base:do_action("stun")
+
+		self._stun_exit_t = t + stun_time
+	end
+
+	function GiantBoBaseStun:update(t, dt)
+		if t > self._stun_exit_t then
+			self._base:set_state("idle")
+		end
+	end
+
 -- GiantBoBaseDead
 	GiantBoBaseDead = GiantBoBaseDead or class(GiantBoBaseState)
 
 	function GiantBoBaseDead:enter(t)
-		self._unit:damage():run_sequence("died")
+		self._base:do_action("death")
+		self._base:do_action("hide_health")
+	end
 
-		self._unit:play_redirect(Idstring("stun"))
+-- GiantBoDamage
+	GiantBoDamage = GiantBoDamage or class()
+	GiantBoDamage._DAMAGE_GRANULARITY = 512 + 512 + 128 + 300 + 7
+	GiantBoDamage._MAX_DAMAGE = 2500
+	GiantBoDamage._DAMAGE_GRANULARITY_PERCENT = GiantBoDamage._MAX_DAMAGE / GiantBoDamage._DAMAGE_GRANULARITY
 
-		managers.hud:close_boss_health()
+	function GiantBoDamage:init(unit)
+		self._unit = unit
+
+		self._max_health = 10000
+		self._health = self._max_health
+
+		self._listener_holder = EventListenerHolder:new()
+	end
+
+	function GiantBoDamage:add_listener(key, events, clbk)
+		self._listener_holder:add(key, events, clbk)
+	end
+
+	function GiantBoDamage:remove_listener(key)
+		self._listener_holder:remove(key)
+	end
+
+	local function split_number(number, ...)
+		local output = {}
+		local bins = {...}
+
+		for _, bin_size in pairs(bins) do
+			local value = math.min(number, bin_size)
+			number = number - value
+
+			table.insert(output, value)
+		end
+
+		return output
+	end
+
+	function GiantBoDamage:add_damage(attacker_unit, type, damage)
+		damage = math.clamp(damage, 0, self._MAX_DAMAGE)
+		local damage_percent = math.ceil(damage / self._DAMAGE_GRANULARITY_PERCENT)
+		damage = damage_percent * self._DAMAGE_GRANULARITY_PERCENT
+
+		-- Abusing other melee network data to sync more detailed damage data.
+		local split_damage_percent = split_number(damage_percent, 512, 512, 128, 300, 7)
+		self._unit:network():send("damage_melee", attacker_unit, split_damage_percent[1], split_damage_percent[2], split_damage_percent[3], split_damage_percent[4], split_damage_percent[5], false)
+
+		return self:do_damage(attacker_unit, damage)
+	end
+
+	function GiantBoDamage:do_damage(attacker_unit, damage)
+		self._health = self._health - damage
+		self._health = math.clamp(self._health, 0, self._max_health)
+
+		self._listener_holder:call("on_take_damage", self._unit, attacker_unit, damage)
+
+		return false, 0
+	end
+
+	-- Using this to sync all damage.
+	function GiantBoDamage:sync_damage_melee(attacker_unit, damage_percent_1, damage_percent_2, damage_percent_3, damage_percent_4, damage_percent_5, death)
+		local damage_percent = damage_percent_1 + damage_percent_2 + damage_percent_3 + damage_percent_4 + damage_percent_5
+		local damage = damage_percent * self._DAMAGE_GRANULARITY_PERCENT
+
+		self:do_damage(attacker_unit, damage)
+	end
+
+	function GiantBoDamage:health_percentage()
+		return self._health / self._max_health
+	end
+
+	function GiantBoDamage:damage_bullet(attack_data)
+		return self:add_damage(attack_data.attacker_unit, "bullet", attack_data.damage)
+	end
+
+	function GiantBoDamage:damage_fire(attack_data)
+		return self:add_damage(attack_data.attacker_unit, "fire", attack_data.damage)
+	end
+
+	function GiantBoDamage:damage_dot(attack_data)
+		return self:add_damage(attack_data.attacker_unit, "dot", attack_data.damage)
+	end
+
+	function GiantBoDamage:damage_explosion(attack_data)
+		return self:add_damage(attack_data.attacker_unit, "explosion", attack_data.damage)
+	end
+
+	function GiantBoDamage:damage_simple(attack_data)
+		return self:add_damage(attack_data.attacker_unit, "simple", attack_data.damage)
+	end
+
+	function GiantBoDamage:damage_tase(attack_data)
+		return self:add_damage(attack_data.attacker_unit, "tase", attack_data.damage)
+	end
+
+	function GiantBoDamage:damage_melee(attack_data)
+		return self:add_damage(attack_data.attacker_unit, "melee", attack_data.damage)
+	end
+
+	function GiantBoDamage:damage_mission(attack_data)
+		return self:add_damage(attack_data.attacker_unit, "mission", attack_data.damage)
+	end
+
+	function GiantBoDamage:dead()
+		return false
+	end
+
+	function GiantBoDamage:save(data)
+		local save_health = self._health ~= self._max_health
+
+		if save_health then
+			data.health = self._health
+			data.max_health = self._max_health
+		end
+	end
+
+	function GiantBoDamage:load(data)
+		if data.health then
+			self._health = data.health
+			self._max_health = data.max_health
+		end
 	end
 
 GiantBoBase = GiantBoBase or class(UnitBase)
+GiantBoBase._actions = {
+	intro = {
+		animation = "intro",
+		length = 140/30
+	},
+	breath_fire = {
+		animation = "breath_fire",
+		length = 120/30,
+		use_aggressiveness = true
+	},
+	throw_smoke = {
+		animation = "throw_smoke",
+		length = 40/30,
+		use_aggressiveness = true
+	},
+	throw_molotov = {
+		animation = "throw_molotov",
+		length = 40/30,
+		use_aggressiveness = true
+	},
+	shoot_grenades = {
+		animation = "shoot_grenades",
+		length = 40/30,
+		use_aggressiveness = true
+	},
+	stun = {
+		animation = "stun",
+		length = 145/30,
+	},
+	death = {
+		animation = "stun",
+		sequence = "died",
+		length = 145/30
+	},
+	show_health = {
+		func = "show_health"
+	},
+	hide_health = {
+		func = "hide_health"
+	}
+}
 
 function GiantBoBase:init(unit)
 	GiantBoBase.super.init(self, unit, true)
@@ -263,6 +425,7 @@ function GiantBoBase:init(unit)
 		search = GiantBoBaseSearch:new(unit, self),
 		move = GiantBoBaseMove:new(unit, self),
 		attack = GiantBoBaseAttack:new(unit, self),
+		stun = GiantBoBaseStun:new(unit, self),
 		dead = GiantBoBaseDead:new(unit, self)
 	}
 
@@ -312,30 +475,72 @@ function GiantBoBase:init(unit)
 	self._sound:link(self._head)
 	self._sound:set_switch("suppressed", "regular")
 
-	self._max_health = 1000
-	self._health = self._max_health
-
-	self._unit:damage():add_listener("giant_bo_take_damage", { "on_take_damage" }, callback(self, self, "_on_damage"))
+	self._unit:character_damage():add_listener("giant_bo_take_damage", { "on_take_damage" }, callback(self, self, "_on_damage"))
 end
 
-function GiantBoBase:_on_damage(unit, attacker, damage_type, damage)
+function GiantBoBase:save(data)
+	data.enabled = self._enabled
+
+	data.origin = self:state_data().origin
+	data.radius = self:state_data().radius
+
+	data.current_angle = self:state_data().current_angle
+	data.target_angle = self:state_data().target_angle
+end
+
+function GiantBoBase:do_action(action)
+	log(action)
+
+	local action_data = self._actions[action]
+	if not action_data then return 0 end
+
+	local speed_multiplier = 1
+	if action_data.use_aggressiveness then
+		speed_multiplier = math.lerp(1, 1.5, self:state_data().aggressiveness)
+	end
+
+	if action_data.animation then
+		local result = self._unit:play_redirect(Idstring(action_data.animation))
+		self._unit:anim_state_machine():set_speed(result, speed_multiplier)
+	end
+
+	if action_data.sequence then
+		self._unit:damage():run_sequence(action_data.sequence)
+	end
+
+	if action_data.func and self[action_data.func] then
+		self[action_data.func]()
+	end
+
+	self._unit:network():send("run_mission_door_sequence", action)
+
+	return (action_data.length or 0) / speed_multiplier
+end
+
+function GiantBoBase:show_health()
+	managers.hud:open_boss_health("GIANT BO")
+end
+
+function GiantBoBase:hide_health()
+	managers.hud:close_boss_health()
+end
+
+function GiantBoBase:_on_damage(unit, attacker, damage)
 	if self._current_state == "dead" then return end
 
-	self._health = self._health - damage
-	self._health = math.clamp(self._health, 0, self._max_health)
-
-	local health_percentage = self._health / self._max_health
-	managers.hud:set_boss_health(self._health / self._max_health)
+	local health_percentage = self._unit:character_damage():health_percentage()
+	managers.hud:set_boss_health(health_percentage)
 
 	self:state_data().aggressiveness = 1 - health_percentage
 
-	if self._health == 0 then
+	if health_percentage == 0 then
 		self:set_state("dead")
+		return
 	end
-end
 
-function GiantBoBase:deactivate()
-	self._enabled = false
+	if damage > 1000 then
+		self:set_state("stun")
+	end
 end
 
 function GiantBoBase:activate()
@@ -550,3 +755,8 @@ end
 			ProjectileBase.throw_projectile_npc("molotov", right_position, right_direction * 2.5)
 		end
 	end
+
+if not Network:is_server() then
+	GiantBoBaseHusk._actions = GiantBoBase._actions
+	GiantBoBase = GiantBoBaseHusk
+end

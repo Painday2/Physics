@@ -237,7 +237,8 @@ local instigators = {}
 					"stocks",
 					"physics_key_rpn",
 					"physics_key_sf",
-					"physics_key_tlhs"
+					"physics_key_tlhs",
+					"physics_flashbang"
 				}
 
 				if table.contains(carry_list, carry_id) then

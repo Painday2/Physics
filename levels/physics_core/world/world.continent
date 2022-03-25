@@ -18,6 +18,9 @@
 		<table continent="world" folder="levels/instances/mods/physics_instance_d3_circuitbreaker/world" index_size="250" mission_placed="true" name="instance_breaker_easy" position="0 -2450 200" rotation="0 0 0 1" script="default" start_index="0"/>
 		<table continent="world" folder="levels/instances/mods/physics_instance_d3_circuitbreaker/world" index_size="250" mission_placed="true" name="instance_breaker_medium" position="100 -2450 200" rotation="0 0 0 1" script="default" start_index="250"/>
 		<table continent="world" folder="levels/instances/mods/physics_instance_d3_circuitbreaker/world" index_size="250" mission_placed="true" name="instance_breaker_hard" position="200 -2450 200" rotation="0 0 0 1" script="default" start_index="500"/>
+		<table continent="world" folder="levels/instances/mods/physics_instance_d3_flash_cannon/world" index_size="250" name="flash_cannon_1" position="20900 -3650 -300" rotation="-0 0 -0 -1" script="default" start_index="750"/>
+		<table continent="world" folder="levels/instances/mods/physics_instance_d3_flash_cannon/world" index_size="250" name="flash_cannon_2" position="27300 2750 -300" rotation="0 0 -0.707107 -0.707107" script="default" start_index="1000"/>
+		<table continent="world" folder="levels/instances/mods/physics_instance_d3_flash_cannon/world" index_size="250" name="flash_cannon_3" position="20900 9150 -300" rotation="0 0 1 -4.37114e-008" script="default" start_index="1250"/>
 	</instances>
 	<statics>
 		<table>

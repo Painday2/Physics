@@ -1,0 +1,185 @@
+<effect force_synch="false">
+   
+    <use name="effects/phys/explosions/flash_cannon_destroy_smoke"/>
+    <use name="effects/phys/explosions/flash_cannon_destroy_smoke_fire"/>
+    <use name="effects/phys/explosions/flash_cannon_destroy_sparks"/>
+    <use name="effects/phys/explosions/flash_cannon_destroy_aftersmoke"/>
+    <use name="effects/phys/explosions/flash_cannon_destroy_smoke_big"/>
+
+    <atom name="smoke lines" min_size="5" max_size="10" lifetime="2" random_start_time="false" start_time="0.05" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="1" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomvelocity relative="effect" min="0 0 0" max="0 0 0"/>
+            <boxrandomangle min="0" max="0"/>
+            <boxrandomaspectsize size="20 60" min="3" max="6"/>
+            <boxrandomuvoffset uv_size="0.125 0.5" frame_start="0.5 0.5" primary_step_direction="+x" secondary_step_direction="+y" num_frames="3"/>
+            <boxrandomrotation relative="effect" min="-400 -400 -220" max="600 600 800" min_rot="0" max_rot="0"/>
+            <boxrandomposition relative="effect" min="0 0 0" max="0 0 0"/>
+        </initializerstack>
+        <simulatorstack>
+            <velocityintegrator channel="world"/>
+            <constantacceleration relative="world" acceleration="0 0 0"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/phys/textures/effects_atlas_df" intensity="match" billboard_type="normal_locked" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="0.5 0.9" per_particle_age="false" size_input="scaled_channel" color_input="keys" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="constant" uv_offset="0 0.5">
+                <size_scale_keys loop="false">
+                    <key t="0.099827885627747" v="0 0"/>
+                    <key t="0.56798624992371" v="1 3"/>
+                </size_scale_keys>
+                <color_keys loop="false">
+                    <key t="0" v="255 255 255"/>
+                    <key t="1.1471698284149" v="82 82 82"/>
+                    <key t="2" v="79 79 79"/>
+                </color_keys>
+                <opacity_keys loop="false">
+                    <key t="0" v="200"/>
+                    <key t="0.11698113381863" v="70"/>
+                    <key t="0.91320753097534" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+    <atom name="central_explosion" min_size="3" max_size="10" lifetime="2" random_start_time="false" start_time="0.08" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="kill" cull_gracetime="1" max_particle_radius="300" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomposition relative="effect" min="-180 -180 -80" max="180 180 80"/>
+            <boxrandomvelocity relative="world" min="-10 -10 10" max="10 10 30"/>
+            <boxrandomangle min="-3.14" max="3.14"/>
+            <boxrandomaspectsize size="188 188" min="1.3" max="1"/>
+            <boxrandomrotation relative="effect" min="0 -10 0" max="0 -10 0" min_rot="0" max_rot="365"/>
+            <boxrandomage min="0" max="0.05"/>
+        </initializerstack>
+        <simulatorstack>
+            <scaledvelocityintegrator channel="world" per_particle_age="false">
+                <scale_keys loop="false">
+                    <key t="0.079999998211861" v="0.5"/>
+                </scale_keys>
+            </scaledvelocityintegrator>
+            <ager/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/phys/textures/effects_atlas_df" intensity="monitor" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="add" render_template="effect_geometry_fade_out_add" origo="0.5 0.5" per_particle_age="true" size_input="scaled_channel" color_input="constant" color="234.00001525879 171 85" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="keys" frame_start="0 0.5" primary_step_direction="+x" secondary_step_direction="+y" num_frames="4" fps="64" loop="false">
+                <size_scale_keys loop="false">
+                    <key t="0" v="0.5 0.5"/>
+                    <key t="0.12392427027225" v="3 3"/>
+                    <key t="0.70223754644394" v="4 4"/>
+                </size_scale_keys>
+                <opacity_keys loop="false">
+                    <key t="0" v="255"/>
+                    <key t="0.20654045045376" v="0"/>
+                    <key t="0.31669536232948" v="100"/>
+                    <key t="0.42340791225433" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+    <atom name="Glow" min_size="1" max_size="1" lifetime="1" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="kill" cull_gracetime="1" max_particle_radius="400" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomvelocity relative="effect" min="0 0 0" max="0 0 0"/>
+            <boxrandomposition relative="effect" min="0 -100 0" max="0 -100 0"/>
+            <boxrandomrotation relative="effect" min="0 1 0" max="0 1 0" min_rot="0" max_rot="365"/>
+            <boxrandomangle min="0" max="360"/>
+        </initializerstack>
+        <simulatorstack>
+            <velocityintegrator channel="world"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/phys/textures/effects_atlas_df" intensity="sun" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="add" render_template="effect_op_glow" origo="0.5 0.5" per_particle_age="false" size_input="keys" color_input="keys" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="constant" uv_offset="0 0.5">
+                <size_keys loop="false">
+                    <key t="0" v="600 600"/>
+                    <key t="0.034423407167196" v="1200 1200"/>
+                    <key t="0.50602412223816" v="600 600"/>
+                    <key t="0.52323579788208" v="1200 1200"/>
+                </size_keys>
+                <color_keys loop="false">
+                    <key t="0.05163511261344" v="240 190 19"/>
+                    <key t="0.11359724402428" v="192 46 3"/>
+                    <key t="0.14802065491676" v="0 0 0"/>
+                </color_keys>
+                <opacity_keys loop="false">
+                    <key t="0.017211703583598" v="255"/>
+                    <key t="0.72289156913757" v="0"/>
+                    <key t="0.81239241361618" v="255"/>
+                    <key t="1.3941479921341" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+    <atom name="dist" min_size="2" max_size="2" lifetime="2" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="freeze" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomposition relative="effect" min="-1 -1 -1" max="1 1 1"/>
+            <boxrandomaspectsize size="2 2" min="8" max="12"/>
+            <constantage age="0"/>
+            <boxrandomvelocity relative="effect" min="-100 -100 -100" max="100 100 100"/>
+            <boxrandomangle min="0" max="360"/>
+            <boxrandomanglevelocity min="-3" max="3"/>
+        </initializerstack>
+        <simulatorstack>
+            <anglevelocityintegrator/>
+            <teleporter name="" trigger_teleport="frequency" frequency_input="keys" min_age="2000" teleport_cap="1" current_position="true" channel="world" normal_variation="0.14000000059605" teleport_event="false" positioner="box">
+                <frequency_keys loop="false">
+                    <key t="0" v="8"/>
+                    <key t="0.26584866642952" v="16"/>
+                    <key t="0.71574640274048" v="0"/>
+                </frequency_keys>
+                <box min="-10 -10 0" max="10 10 10" min_normal="0 0 1" max_normal="0 0 1"/>
+                <normal min_velocity="600" max_velocity="650"/>
+            </teleporter>
+            <ager/>
+            <velocityintegrator channel="world"/>
+            <constantacceleration relative="world" acceleration="0 0 100"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/phys/textures/effects_atlas_df" intensity="" billboard_type="camera_facing" rotation_channel="rotation" blend_mode="normal" render_template="heat_shimmer" origo="0.5 0.5" per_particle_age="true" size_input="scaled_channel" color_input="constant" color="255 255 255" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="constant" uv_offset="0 0.5">
+                <size_scale_keys loop="false">
+                    <key t="0.0042110001668334" v="10 10"/>
+                    <key t="0.13740457594395" v="60 60"/>
+                    <key t="2" v="60 60"/>
+                </size_scale_keys>
+                <opacity_keys loop="false">
+                    <key t="0.096069872379303" v="255"/>
+                    <key t="0.16793893277645" v="127"/>
+                    <key t="0.42533081769943" v="127"/>
+                    <key t="0.75614368915558" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+    <atom name="smoke" min_size="2" max_size="3" lifetime="5" random_start_time="false" start_time="0.08" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="kill" cull_gracetime="1" max_particle_radius="300" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomposition relative="effect" min="-180 -180 -80" max="180 180 80"/>
+            <boxrandomvelocity relative="world" min="-10 -10 10" max="10 10 30"/>
+            <boxrandomangle min="-3.14" max="3.14"/>
+            <boxrandomaspectsize size="200 200" min="1.3" max="1"/>
+            <boxrandomrotation relative="effect" min="0 -10 0" max="0 -10 0" min_rot="0" max_rot="365"/>
+            <boxrandomage min="0" max="0.05"/>
+        </initializerstack>
+        <simulatorstack>
+            <scaledvelocityintegrator channel="world" per_particle_age="false">
+                <scale_keys loop="false">
+                    <key t="0.36789298057556" v="0.5"/>
+                </scale_keys>
+            </scaledvelocityintegrator>
+            <ager/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/phys/textures/effects_atlas_df" intensity="monitor" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="add" render_template="effect_geometry_fade_out" origo="0.5 0.5" per_particle_age="true" size_input="scaled_channel" color_input="keys" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 1" uv_size="0.25 0.25" uv_offset_input="keys" frame_start="0 0.5" primary_step_direction="+x" secondary_step_direction="+y" num_frames="4" fps="32" loop="false">
+                <size_scale_keys loop="false">
+                    <key t="0" v="3 3"/>
+                    <key t="0.39622640609741" v="3 3"/>
+                    <key t="1.1049914360046" v="4 4"/>
+                </size_scale_keys>
+                <color_keys loop="false">
+                    <key t="0" v="255 255 255"/>
+                    <key t="0.25283017754555" v="153 107 21"/>
+                    <key t="0.47169810533524" v="122 115 88"/>
+                    <key t="0.81509435176849" v="69 69 69"/>
+                </color_keys>
+                <opacity_keys loop="false">
+                    <key t="0.22719448804855" v="0"/>
+                    <key t="0.37865751981735" v="200"/>
+                    <key t="0.68846815824509" v="100"/>
+                    <key t="1.540447473526" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+</effect>

@@ -135,12 +135,27 @@
 			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
-
 			<hooks directory="big_bo_boss">
+				<hook file="GiantBoBaseHusk.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
 				<hook file="GiantBoBase.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
-
 				<hook file="HUDManager.lua" source_file="lib/managers/hudmanagerpd2"/>
 				<hook file="HUDBossHealth.lua" source_file="lib/managers/hud/hudobjectives"/>
+				<hook file="TimeSpeedEffectTweakData.lua" source_file="lib/tweak_data/timespeedeffecttweakdata"/>
+			</hooks>
+			<hooks directory="flash_cannon">
+				<hook file="CrappyPhysicsTurretSyncBase.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+				<hook file="FPCameraPlayerBase.lua" source_file="lib/units/cameras/fpcameraplayerbase"/>
+				<hook file="GuiTweakData.lua" source_file="lib/tweak_data/guitweakdata"/>
+				<hook file="HUDManager.lua" source_file="lib/managers/hudmanagerpd2"/>
+				<hook file="HUDTurret.lua" source_file="lib/setups/gamesetup"/>
+				<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+				<hook file="PlayerManager.lua" source_file="lib/managers/playermanager"/>
+				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
+				<hook file="PlayerTurret.lua" source_file="lib/setups/gamesetup"/>
+				<hook file="TurretInteractionExt.lua" source_file="lib/setups/gamesetup"/>
+				<hook file="TurretWeapon.lua" source_file="lib/setups/gamesetup"/>
+				<hook file="UnitDamage.lua" source_file="lib/units/unitdamage"/>
+				<hook file="WeaponTweakData.lua" source_file="lib/tweak_data/weapontweakdata"/>
 			</hooks>
 		</hooks>
 		<outro_event>
@@ -806,6 +821,12 @@
 			<value_node value="levels/instances/unique/dark/keycard/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="physics_instance_d3_flash_cannon">
+		<hooks directory="hooks">
+			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
+		</hooks>
 	</instance>
 	<Achievements banner="guis/achievements/p_ach_banner" icon="guis/achievements/phys_pack" id="physics_pain_achievements">
 		<achievement desc_id="p_phys_diffn_desc" icon="guis/achievements/phys/phys_diffn" id="p_phys_diffn" name_id="p_phys_diffn_name" rank="1"/>

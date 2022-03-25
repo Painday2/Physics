@@ -1,0 +1,59 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'destroy'" triggable="true">
+			<sound action="'play'" event="'metal_destruction'" source="'snd'"/>
+			<effect_spawner enabled="true" name="'explosion'"/>
+			<graphic_group name="'gfx_grp'" visibility="false"/>
+			<object enabled="true" name="'g_g_destroyed'"/>
+			<body enabled="true" name="'destroyed'"/>
+			<body enabled="false" name="'static_body'"/>
+			<body enabled="false" name="'animated_body'"/>
+		</sequence>
+
+		<sequence editable_state="false" name="'activate'" triggable="false"/>
+		<sequence editable_state="false" name="'interact'" triggable="false"/>
+
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+
+		<sequence editable_state="false" name="'turret_is_occupied'" triggable="false"/>
+		<sequence editable_state="false" name="'turret_is_available'" triggable="false"/>
+
+		<sequence editable_state="false" name="'fired'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim'" to="60/30"/>
+			<run_sequence name="'lock_fire'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'lock_fire'" triggable="true">
+			<function extension="'weapon'" function="'lock_fire'" param1="true"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'unlock_fire'" triggable="true">
+			<function extension="'weapon'" function="'lock_fire'" param1="false"/>
+		</sequence>
+
+		<sequence editable_state="false" name="'reset'" triggable="false"/>
+		<sequence editable_state="false" name="'shell_interacted'" triggable="true">
+			<function extension="'spawn_manager'" function="'remove_unit'" param1="'bomb1'" start_time="20/30"/>
+			<run_sequence name="'unlock_fire'" start_time="20/30"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'spawn_shell'" triggable="true">
+			<function extension="'spawn_manager'" function="'spawn_unit'" param1="'bomb1'" param2="'anim_shell_parent'" param3="'units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell'"/>
+			<function extension="'spawn_manager'" function="'spawn_run_sequence'" param1="'bomb1'" param2="'enable_interaction'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'add_outline'" triggable="true">
+			<function extension="'weapon'" function="'add_outline'"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'remove_outline'" triggable="true">
+			<function extension="'weapon'" function="'remove_outline'"/>
+		</sequence>
+	</unit>
+</table>

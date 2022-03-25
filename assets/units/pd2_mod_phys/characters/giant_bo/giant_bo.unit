@@ -13,6 +13,8 @@
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData"/>
 		<extension name="damage" class="UnitDamage"/>
+		<extension name="character_damage" class="GiantBoDamage"/>
+		<extension name="network" class="NetworkBaseExtension"/>
 		<extension name="base" class="GiantBoBase"/>
 	</extensions>
 </unit>

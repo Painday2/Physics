@@ -439,4 +439,52 @@
 	<add from_db="true" path="effects/payday2/particles/explosions/explosion_parts/big_blood" type="effect">
 		<effect load="true" path="effects/payday2/particles/explosions/explosion_parts/big_blood" unload="true"/>
 	</add>
+	<add>
+		<texture path="effects/phys/textures/add_atlas_df"/>
+		<texture path="effects/phys/textures/effects_atlas_df"/>
+		<texture path="effects/phys/textures/smoke/e_smoke_04_6x6_seq"/>
+
+		<effect path="effects/phys/explosions/flash_cannon_destroy"/>
+		<effect path="effects/phys/explosions/flash_cannon_destroy_aftersmoke"/>
+		<effect path="effects/phys/explosions/flash_cannon_destroy_smoke"/>
+		<effect path="effects/phys/explosions/flash_cannon_destroy_smoke_big"/>
+		<effect path="effects/phys/explosions/flash_cannon_destroy_smoke_fire"/>
+		<effect path="effects/phys/explosions/flash_cannon_destroy_sparks"/>
+		<effect path="effects/phys/explosions/flash_cannon_muzzle"/>
+		<effect path="effects/phys/explosions/flash_cannon_shell"/>
+		<effect path="effects/phys/explosions/flash_cannon_shell_burnpuff"/>
+		<effect path="effects/phys/explosions/flash_cannon_shell_burnpuff_big"/>
+		<effect path="effects/phys/explosions/flash_cannon_shell_burnpuff_small"/>
+
+		<texture path="ui/atlas/phys_atlas_hud"/>
+		<texture path="ui/hud/atlas/phys_atlas_reticles"/>
+
+		<cooked_physics path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon"/>
+		<material_config path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon"/>
+		<model path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon"/>
+		<object path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon"/>
+		<sequence_manager path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon"/>
+		<unit path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon"/>
+
+		<texture path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_df"/>
+		<texture path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_gsm"/>
+		<texture path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_nm"/>
+
+		<cooked_physics path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell"/>
+		<material_config path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell"/>
+		<model path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell"/>
+		<object path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell"/>
+		<sequence_manager path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell"/>
+		<unit path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_fireworks/cas_gen_square_drop_marker_2x3_fireworks" type="unit">
+		<unit path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_fireworks/cas_gen_square_drop_marker_2x3_fireworks" unload="true"/>
+		<object path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_fireworks/cas_gen_square_drop_marker_2x3_fireworks" unload="true"/>
+		<material_config path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_fireworks/cas_gen_square_drop_marker_2x3_fireworks" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_fireworks/cas_gen_square_drop_marker_2x3_fireworks" unload="true"/>
+	</add>
+	<material_config path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
+	<model path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
+	<object path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
+	<unit path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
 </table>

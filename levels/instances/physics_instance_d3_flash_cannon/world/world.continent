@@ -1,0 +1,13 @@
+<table>
+	<statics>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon" name_id="flash_cannon" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 -170 5" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_fireworks/cas_gen_square_drop_marker_2x3_fireworks" name_id="shell_drop_marker" position="0 -170 5" rotation="0 0 -0.707107 -0.707107" unit_id="100001"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>
