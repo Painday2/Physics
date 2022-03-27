@@ -1,0 +1,24 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator" orientation_object="rp_shield_generator"/>
+
+	<animations>  
+		<animation_group name="spin" enabled="true">
+			<object name="anim_chassis_1"/>
+			<object name="anim_chassis_2"/>
+		</animation_group>
+	</animations>
+
+	<bodies>
+		<body enabled="true" template="animated" name="body_convex">
+			<object collision_type="convex" name="c_convex"/>
+		</body>
+	</bodies>
+
+	<graphics>
+		<object enabled="true" name="g_dish"/>
+		<object enabled="true" name="g_chassis_1"/>
+		<object enabled="true" name="g_chassis_2"/>
+
+		<object enabled="true" shadow_caster="true" name="s_s"/>
+	</graphics>
+</dynamic_object>

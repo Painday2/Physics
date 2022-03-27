@@ -1,0 +1,13 @@
+<materials version="3">
+	<material name="mtr_dish" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/payday2/props/str_prop_rooftop_satellitedish/str_prop_rooftop_satellitedish_df"/>
+		<bump_normal_texture file="units/payday2/props/str_prop_rooftop_satellitedish/str_prop_rooftop_satellitedish_nm"/>
+	</material>
+
+	<material name="mtr_server" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/payday2/props/gen_prop_security_servers/server_df"/>
+		<bump_normal_texture file="units/payday2/props/gen_prop_security_servers/server_nm"/>
+	</material>
+
+	<material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

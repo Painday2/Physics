@@ -1,87 +1,52 @@
 <table directory="assets">
-	
-	<!--Generic Physics Signs (Mako, VxWolf)-->
 	<add>
-		<!--Scrolling text test sign-->
-		<!--texture					path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1"/>
-
-		<material_config			path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
-		<object						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
-		<unit						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
-		<model						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_vertical"/>
-
-		<material_config			path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
-		<object						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
-		<unit						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/>
-		<model						path="units/pd2_mod_phys/props/phys_scrollingtxt_8x1_horiziontal"/-->
-		
-		<!--Square Sign-->
-		<texture					path="units/pd2_mod_phys/props/phys_2x2_1"/>
-		<material_config			path="units/pd2_mod_phys/props/phys_sign_2x2_1"/>
-
-		<texture					path="units/pd2_mod_phys/props/phys_2x2_2"/>
-		<material_config			path="units/pd2_mod_phys/props/phys_sign_2x2_2"/>
-
-		<texture					path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
-		<material_config			path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
-
-		<texture					path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
-		<material_config			path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
-
-		<texture					path="units/pd2_mod_phys/props/phys_utility_2x2"/>
-		<material_config			path="units/pd2_mod_phys/props/phys_utility_2x2"/>
-
-		<sequence_manager			path="units/pd2_mod_phys/props/phys_sign_2x2"/>
-
-		<object						path="units/pd2_mod_phys/props/phys_sign_1x1"/>
-		<unit						path="units/pd2_mod_phys/props/phys_sign_1x1"/>
-		<model						path="units/pd2_mod_phys/props/phys_sign_1x1"/>
-
-		<object						path="units/pd2_mod_phys/props/phys_sign_2x2"/>
-		<unit						path="units/pd2_mod_phys/props/phys_sign_2x2"/>
-		<model						path="units/pd2_mod_phys/props/phys_sign_2x2"/>
-		
-		<object						path="units/pd2_mod_phys/props/phys_sign_4x4"/>
-		<unit						path="units/pd2_mod_phys/props/phys_sign_4x4"/>
-		<model						path="units/pd2_mod_phys/props/phys_sign_4x4"/>
-
-		<object						path="units/pd2_mod_phys/props/phys_sign_8x8"/>
-		<unit						path="units/pd2_mod_phys/props/phys_sign_8x8"/>
-		<model						path="units/pd2_mod_phys/props/phys_sign_8x8"/>
-
-		<object						path="units/pd2_mod_phys/props/phys_sign_32x32"/>
-		<unit						path="units/pd2_mod_phys/props/phys_sign_32x32"/>
-		<model						path="units/pd2_mod_phys/props/phys_sign_32x32"/>
-
-		<object						path="units/pd2_mod_phys/props/phys_sign_64x64"/>
-		<unit						path="units/pd2_mod_phys/props/phys_sign_64x64"/>
-		<model						path="units/pd2_mod_phys/props/phys_sign_64x64"/>
-
-		<!--Rectangular Banner-->
-
-		<texture					path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-		<material_config			path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-
-		<sequence_manager			path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-
-		<object						path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-		<unit						path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-		<model						path="units/pd2_mod_phys/props/phys_2x8_banner"/>
-
-		<object						path="units/pd2_mod_phys/props/phys_3x12_banner"/>
-		<unit						path="units/pd2_mod_phys/props/phys_3x12_banner"/>
-		<model						path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+		<texture path="units/pd2_mod_phys/props/phys_2x2_1"/>
+		<material_config path="units/pd2_mod_phys/props/phys_sign_2x2_1"/>
+		<texture path="units/pd2_mod_phys/props/phys_2x2_2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_sign_2x2_2"/>
+		<texture path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_alerts_2x2"/>
+		<texture path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_bofaces_2x2"/>
+		<texture path="units/pd2_mod_phys/props/phys_utility_2x2"/>
+		<material_config path="units/pd2_mod_phys/props/phys_utility_2x2"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_1x1"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_2x2"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_4x4"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_8x8"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_32x32"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_32x32"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_32x32"/>
+		<object path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<unit path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<model path="units/pd2_mod_phys/props/phys_sign_64x64"/>
+		<texture path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<material_config path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<object path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<unit path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<model path="units/pd2_mod_phys/props/phys_2x8_banner"/>
+		<object path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+		<unit path="units/pd2_mod_phys/props/phys_3x12_banner"/>
+		<model path="units/pd2_mod_phys/props/phys_3x12_banner"/>
 	</add>
-
-	<!--Folding bed (Mako)-->
 	<add>
 		<texture path="units/pd2_mod_phys/props/phys_bedding"/>
 		<texture path="units/pd2_mod_phys/props/phys_wood_df"/>
-		<sequence_manager path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
 		<material_config path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
-		<object path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
-		<unit path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
 		<model path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<object path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<unit path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
 	</add>
 	<add path="units/test/jocke/plane_black_temp" type="unit">
 		<material_config path="units/test/jocke/plane_black_temp" unload="true"/>
@@ -395,7 +360,6 @@
 	<model path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
 	<object path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
 	<unit path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
-
 	<add>
 		<animation path="anims/giant_bo/intro"/>
 		<animation path="anims/giant_bo/idle"/>
@@ -407,12 +371,10 @@
 		<animation path="anims/giant_bo/throw_smoke"/>
 		<animation path="anims/giant_bo/breath_fire"/>
 		<animation path="anims/giant_bo/stun"/>
-
 		<animation_def path="anims/units/giant_bo/giant_bo"/>
 		<animation_state_machine path="anims/units/giant_bo/giant_bo"/>
 		<animation_states path="anims/units/giant_bo/giant_bo"/>
 		<animation_subset path="anims/units/giant_bo/giant_bo"/>
-
 		<cooked_physics path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
 		<material_config path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
 		<model path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
@@ -420,15 +382,19 @@
 		<sequence_manager path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
 		<unit path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
 	</add>
-
+	<add>
+		<cooked_physics path="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator"/>
+		<material_config path="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator"/>
+		<model path="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator"/>
+		<object path="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator"/>
+		<unit path="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator"/>
+	</add>
 	<add>
 		<animation path="anims/giant_bo_wall/intro"/>
-
 		<animation_def path="anims/units/giant_bo_wall/giant_bo_wall"/>
 		<animation_state_machine path="anims/units/giant_bo_wall/giant_bo_wall"/>
 		<animation_states path="anims/units/giant_bo_wall/giant_bo_wall"/>
 		<animation_subset path="anims/units/giant_bo_wall/giant_bo_wall"/>
-
 		<cooked_physics path="units/pd2_mod_phys/props/giant_bo_wall/giant_bo_wall"/>
 		<material_config path="units/pd2_mod_phys/props/giant_bo_wall/giant_bo_wall"/>
 		<model path="units/pd2_mod_phys/props/giant_bo_wall/giant_bo_wall"/>
@@ -443,7 +409,6 @@
 		<texture path="effects/phys/textures/add_atlas_df"/>
 		<texture path="effects/phys/textures/effects_atlas_df"/>
 		<texture path="effects/phys/textures/smoke/e_smoke_04_6x6_seq"/>
-
 		<effect path="effects/phys/explosions/flash_cannon_destroy"/>
 		<effect path="effects/phys/explosions/flash_cannon_destroy_aftersmoke"/>
 		<effect path="effects/phys/explosions/flash_cannon_destroy_smoke"/>
@@ -455,21 +420,17 @@
 		<effect path="effects/phys/explosions/flash_cannon_shell_burnpuff"/>
 		<effect path="effects/phys/explosions/flash_cannon_shell_burnpuff_big"/>
 		<effect path="effects/phys/explosions/flash_cannon_shell_burnpuff_small"/>
-
 		<texture path="ui/atlas/phys_atlas_hud"/>
 		<texture path="ui/hud/atlas/phys_atlas_reticles"/>
-
 		<cooked_physics path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon"/>
 		<material_config path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon"/>
 		<model path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon"/>
 		<object path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon"/>
 		<sequence_manager path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon"/>
 		<unit path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon"/>
-
 		<texture path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_df"/>
 		<texture path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_gsm"/>
 		<texture path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_nm"/>
-
 		<cooked_physics path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell"/>
 		<material_config path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell"/>
 		<model path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell"/>
@@ -478,13 +439,192 @@
 		<unit path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_fireworks/cas_gen_square_drop_marker_2x3_fireworks" type="unit">
-		<unit path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_fireworks/cas_gen_square_drop_marker_2x3_fireworks" unload="true"/>
-		<object path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_fireworks/cas_gen_square_drop_marker_2x3_fireworks" unload="true"/>
 		<material_config path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_fireworks/cas_gen_square_drop_marker_2x3_fireworks" unload="true"/>
+		<object path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_fireworks/cas_gen_square_drop_marker_2x3_fireworks" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_fireworks/cas_gen_square_drop_marker_2x3_fireworks" unload="true"/>
+		<unit path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_fireworks/cas_gen_square_drop_marker_2x3_fireworks" unload="true"/>
 	</add>
 	<material_config path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
 	<model path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
 	<object path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
 	<unit path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_roof_antenna/dah_prop_roof_antenna_a" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_roof_antenna/dah_prop_roof_antenna_a" unload="true"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_roof_antenna/dah_prop_roof_antenna_a" unload="true"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_roof_antenna/dah_prop_roof_antenna_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_antenna" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway" unload="true"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_antenna" unload="true"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_antenna" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/street/roof_addons/roof_antenna_far_01" type="unit">
+		<material_config path="units/world/props/street/roof_addons/roof_addons" unload="true"/>
+		<object path="units/world/props/street/roof_addons/roof_antenna_far_01" unload="true"/>
+		<unit path="units/world/props/street/roof_addons/roof_antenna_far_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/street/roof_addons/roof_antenna_near" type="unit">
+		<material_config path="units/world/props/street/roof_addons/roof_addons" unload="true"/>
+		<object path="units/world/props/street/roof_addons/roof_antenna_near" unload="true"/>
+		<unit path="units/world/props/street/roof_addons/roof_antenna_near" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/street/roof_addons/roof_antenna_far_04" type="unit">
+		<material_config path="units/world/props/street/roof_addons/roof_addons" unload="true"/>
+		<object path="units/world/props/street/roof_addons/roof_antenna_far_04" unload="true"/>
+		<unit path="units/world/props/street/roof_addons/roof_antenna_far_04" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/street/roof_addons/roof_antenna_far_03" type="unit">
+		<material_config path="units/world/props/street/roof_addons/roof_addons" unload="true"/>
+		<object path="units/world/props/street/roof_addons/roof_antenna_far_03" unload="true"/>
+		<unit path="units/world/props/street/roof_addons/roof_antenna_far_03" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_rooftop/antenna01a" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_rooftop/antenna01a" unload="true"/>
+		<object path="units/pd2_dlc2/csgo_models/props_rooftop/antenna01a" unload="true"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_rooftop/antenna01a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_roof_antenna/dah_prop_roof_antenna_b" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_roof_antenna/dah_prop_roof_antenna_a" unload="true"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_roof_antenna/dah_prop_roof_antenna_b" unload="true"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_roof_antenna/dah_prop_roof_antenna_b" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_antenna_6" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_antenna" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_antenna_6" unload="true"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_antenna_6" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_roof/des_prop_roof_antenna_big" type="unit">
+		<material_config path="units/world/props/desert/des_prop_roof/des_prop_roof_antenna_big" unload="true"/>
+		<object path="units/world/props/desert/des_prop_roof/des_prop_roof_antenna_big" unload="true"/>
+		<unit path="units/world/props/desert/des_prop_roof/des_prop_roof_antenna_big" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_6m_server" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int_wall_6m_server" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_6m_server" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_6m_server" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_hightech_open" type="unit">
+		<material_config path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server" unload="true"/>
+		<object path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_hightech_open" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_hightech_open" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_rack" type="unit">
+		<material_config path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server" unload="true"/>
+		<object path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_rack" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_rack" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/res_prop_livingroom_server_c_worn_grime/res_prop_livingroom_server_c_worn_grime" type="unit">
+		<material_config path="units/payday2/props/res_prop_livingroom_server_c_worn_grime/res_prop_livingroom_server_c_worn_grime" unload="true"/>
+		<object path="units/payday2/props/res_prop_livingroom_server_c_worn_grime/res_prop_livingroom_server_c_worn_grime" unload="true"/>
+		<unit path="units/payday2/props/res_prop_livingroom_server_c_worn_grime/res_prop_livingroom_server_c_worn_grime" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/pickups/bry_pku_master_server/bry_pku_master_server" type="unit">
+		<material_config path="units/pd2_dlc_berry/pickups/bry_pku_master_server/bry_pku_master_server" unload="true"/>
+		<object path="units/pd2_dlc_berry/pickups/bry_pku_master_server/bry_pku_master_server" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_berry/pickups/bry_pku_master_server/bry_pku_master_server" unload="true"/>
+		<unit path="units/pd2_dlc_berry/pickups/bry_pku_master_server/bry_pku_master_server" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/props/drk_mobile_sever_rack/drk_prop_mobile_server_rack_a" type="unit">
+		<material_config path="units/pd2_dlc_dark/props/drk_mobile_sever_rack/drk_prop_mobile_server_rack_a" unload="true"/>
+		<object path="units/pd2_dlc_dark/props/drk_mobile_sever_rack/drk_prop_mobile_server_rack_a" unload="true"/>
+		<unit path="units/pd2_dlc_dark/props/drk_mobile_sever_rack/drk_prop_mobile_server_rack_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_large" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big" unload="true"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_int_basement/lxy_int_basement_server_access" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_int_basement/lxy_int_basement" unload="true"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_int_basement/lxy_int_basement_server_access" unload="true"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_int_basement/lxy_int_basement_server_access" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/architecture/des_int/des_int_laser_room/des_int_laser_room" type="unit">
+		<effect load="true" path="effects/payday2/particles/window/des_window_large" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/des_window_medium" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/des_window_small" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_des/architecture/des_int/des_int_laser_room/des_int_laser_room" unload="true"/>
+		<object path="units/pd2_dlc_des/architecture/des_int/des_int_laser_room/des_int_laser_room" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/architecture/des_int/des_int_laser_room/des_int_laser_room" unload="true"/>
+		<unit path="units/pd2_dlc_des/architecture/des_int/des_int_laser_room/des_int_laser_room" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_laser_emitter/dah_prop_laser_emitter" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_laser_emitter/dah_prop_laser_emitter" unload="true"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_laser_emitter/dah_prop_laser_emitter" unload="true"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_laser_emitter/dah_prop_laser_emitter" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_interactable_joystick_laser_panel/des_interactable_joystick_laser_panel" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_laser_panel/des_prop_laser_panel" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_interactable_joystick_laser_panel/des_interactable_joystick_laser_panel" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_interactable_joystick_laser_panel/des_interactable_joystick_laser_panel" unload="true"/>
+		<unit path="units/pd2_dlc_des/props/des_interactable_joystick_laser_panel/des_interactable_joystick_laser_panel" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_laser_panel/des_prop_laser_panel" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel" unload="true"/>
+		<unit path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/architecture/des_int/des_int_laser_storage/des_int_laser_storage" type="unit">
+		<material_config path="units/pd2_dlc_des/architecture/des_main_mesh/des_main_mesh" unload="true"/>
+		<object path="units/pd2_dlc_des/architecture/des_int/des_int_laser_storage/des_int_laser_storage" unload="true"/>
+		<unit path="units/pd2_dlc_des/architecture/des_int/des_int_laser_storage/des_int_laser_storage" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamond_heist/laser/laser_red_2" type="unit">
+		<material_config path="units/world/props/diamond_heist/laser/laser_red" unload="true"/>
+		<object path="units/world/props/diamond_heist/laser/laser_red" unload="true"/>
+		<sequence_manager path="units/world/props/diamond_heist/laser/laser_red" unload="true"/>
+		<unit path="units/world/props/diamond_heist/laser/laser_red_2" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_ray_turret/des_prop_ray_turret" type="unit">
+		<bnk path="soundbanks/des_sfx" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/laser/laser_beam" unload="true"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_ray_turret/des_prop_ray_turret" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_prop_ray_turret/des_prop_ray_turret" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_ray_turret/des_prop_ray_turret" unload="true"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_ray_turret/des_prop_ray_turret" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_ray_battery/des_prop_ray_battery" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_ray_battery/des_prop_ray_battery" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_prop_ray_battery/des_prop_ray_battery" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_ray_battery/des_prop_ray_battery" unload="true"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_ray_battery/des_prop_ray_battery" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_rooftop_satellitedish/str_prop_rooftop_satellitedish" type="unit">
+		<material_config path="units/payday2/props/str_prop_rooftop_satellitedish/str_prop_rooftop_satellitedish" unload="true"/>
+		<object path="units/payday2/props/str_prop_rooftop_satellitedish/str_prop_rooftop_satellitedish" unload="true"/>
+		<unit path="units/payday2/props/str_prop_rooftop_satellitedish/str_prop_rooftop_satellitedish" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/props/bry_prop_rooftop_satellitedish/bry_prop_rooftop_satellitedish" type="unit">
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_rooftop_satellitedish/bry_prop_rooftop_satellitedish" unload="true"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_rooftop_satellitedish/bry_prop_rooftop_satellitedish" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_berry/props/bry_prop_rooftop_satellitedish/bry_prop_rooftop_satellitedish" unload="true"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_rooftop_satellitedish/bry_prop_rooftop_satellitedish" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_dishcloth/flt_prop_apartment_dishcloth" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_dishcloth/flt_prop_apartment_dishcloth" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_dishcloth/flt_prop_apartment_dishcloth" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_dishcloth/flt_prop_apartment_dishcloth" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_dish_1" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_2" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_dish_1" unload="true"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/dynamic_prop" unload="true"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_dish_1" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_dish_2" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_2" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_dish_2" unload="true"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/dynamic_prop" unload="true"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_dish_2" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/mansion/man_prop_int_dishholder/man_prop_int_dishholder" type="unit">
+		<material_config path="units/world/props/mansion/man_prop_int_dishholder/man_prop_int_dishholder" unload="true"/>
+		<object path="units/world/props/mansion/man_prop_int_dishholder/man_prop_int_dishholder" unload="true"/>
+		<unit path="units/world/props/mansion/man_prop_int_dishholder/man_prop_int_dishholder" unload="true"/>
+	</add>
 </table>
