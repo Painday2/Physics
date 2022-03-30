@@ -897,8 +897,8 @@
 	</hooks>
 	<narrative briefing_event="physics_briefing_event" contact="Pain" icon="guis/mods/phys/textures/physics_icon" id="physics">
 		<chain>
-			<!-- <table level_id="physics_citystreets" type="d" type_id="heist_type_assault"/>
-			<table level_id="physics_tower" type="d" type_id="heist_type_assault"/> -->
+			<table level_id="physics_citystreets" type="d" type_id="heist_type_assault"/>
+			<table level_id="physics_tower" type="d" type_id="heist_type_assault"/>
 			<table level_id="physics_core" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
