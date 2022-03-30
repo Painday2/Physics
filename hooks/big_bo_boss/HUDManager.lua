@@ -18,6 +18,10 @@ function HUDManager:set_boss_health(health)
 	self._hud_boss_health:set_health(health)
 end
 
+function HUDManager:set_boss_health_shield(state)
+	self._hud_boss_health:set_shielded(state)
+end
+
 Hooks:PostHook(HUDManager, "_setup_player_info_hud_pd2", "_setup_player_info_hud_pd2_boworks", function(self)
 	if not self:alive(PlayerBase.PLAYER_INFO_HUD_PD2) then
 		return

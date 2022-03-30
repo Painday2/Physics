@@ -782,12 +782,6 @@ function TurretWeapon:_turret_shell_explode(from_pos, to_pos, detonate_now)
 		self._shell_cumulative_gravity = 0
 	end
 
-	World:effect_manager():spawn({
-		effect = Idstring("effects/phys/explosions/flash_cannon_shell"),
-		position = shell_position,
-		normal = math.UP
-	})
-
 	if self._turret_shell_sound_source then
 		self._turret_shell_sound_source:set_position(shell_position)
 		self._turret_shell_sound_source:post_event("dynamite_explosion")

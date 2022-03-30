@@ -12,4 +12,8 @@
 	<anim name="throw_smoke"    file="anims/giant_bo/throw_smoke"    blend_set="all"/>
 
 	<anim name="stun"           file="anims/giant_bo/stun"           blend_set="all"/>
+
+	<anim name="shield_idle"    file="anims/giant_bo/shield_idle"    blend_set="all"/>
+	<anim name="shield_enter"   file="anims/giant_bo/shield_enter"   blend_set="all"/>
+	<anim name="shield_exit"    file="anims/giant_bo/shield_exit"    blend_set="all"/>
 </xml>

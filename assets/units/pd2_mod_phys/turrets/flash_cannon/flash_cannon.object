@@ -127,10 +127,6 @@
 		<object name="s_s" shadow_caster="true" enabled="true"/>
 	</graphics>
 
-	<effects>
-		<effect_spawner name="explosion" enabled="false" object="rp_props_anti_aircraft_flak_88" effect="effects/phys/explosions/flash_cannon_destroy"/>
-	</effects>
-
 	<align_objects>
 		<align_object name="interact" parent="anim_heading" position="0 0 -10" rotation="0 0 0 0"/>
 	</align_objects>

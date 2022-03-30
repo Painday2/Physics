@@ -136,8 +136,25 @@
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
 			<hooks directory="big_bo_boss">
-				<hook file="GiantBoBaseHusk.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+				<hook file="GiantBoState.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+
+				<hooks directory="states">
+					<hook file="GiantBoStateIntro.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+					<hook file="GiantBoStateIdle.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+					<hook file="GiantBoStateSearch.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+					<hook file="GiantBoStateMove.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+					<hook file="GiantBoStateAttack.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+					<hook file="GiantBoStateStun.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+					<hook file="GiantBoStateDead.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+					<hook file="GiantBoStateShield.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+				</hooks>
+
 				<hook file="GiantBoBase.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+				<hook file="GiantBoBaseHusk.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+
+				<hook file="GiantBoDamage.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+				<hook file="GiantBoShieldGeneratorDamage.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
+
 				<hook file="HUDManager.lua" source_file="lib/managers/hudmanagerpd2"/>
 				<hook file="HUDBossHealth.lua" source_file="lib/managers/hud/hudobjectives"/>
 				<hook file="TimeSpeedEffectTweakData.lua" source_file="lib/tweak_data/timespeedeffecttweakdata"/>
@@ -880,8 +897,8 @@
 	</hooks>
 	<narrative briefing_event="physics_briefing_event" contact="Pain" icon="guis/mods/phys/textures/physics_icon" id="physics">
 		<chain>
-			<table level_id="physics_citystreets" type="d" type_id="heist_type_assault"/>
-			<table level_id="physics_tower" type="d" type_id="heist_type_assault"/>
+			<!-- <table level_id="physics_citystreets" type="d" type_id="heist_type_assault"/>
+			<table level_id="physics_tower" type="d" type_id="heist_type_assault"/> -->
 			<table level_id="physics_core" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>

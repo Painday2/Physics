@@ -4,9 +4,7 @@
 	<network sync="spawn"/>
 
 	<dependencies>
-		<depends_on effect="effects/phys/explosions/flash_cannon_shell"/>
 		<depends_on effect="effects/phys/explosions/flash_cannon_muzzle"/>
-		<depends_on effect="effects/phys/explosions/flash_cannon_destroy"/>
 
 		<depends_on unit="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell"/>
 		<!-- <depends_on bnk="soundbanks/weapon_flak88"/> -->

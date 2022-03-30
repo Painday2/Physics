@@ -16,6 +16,9 @@
 		<to name="throw_smoke"    redirect="giant_bo/action/throw_smoke"/>
 
 		<to name="stun"           redirect="giant_bo/action/stun"/>
+
+		<to name="shield_enter"   redirect="giant_bo/shield/enter"/>
+		<to name="shield_exit"    redirect="giant_bo/shield/exit"/>
 	</state>
 
 	<!-- Idles -->
@@ -25,6 +28,22 @@
 
 		<state name="giant_bo/idle/intro" type="once" segment="base">
 			<anim name="intro"/>
+
+			<exit name="giant_bo/idle"/>
+		</state>
+
+		<state name="giant_bo/shield/enter" type="once" segment="base">
+			<anim name="shield_enter"/>
+
+			<exit name="giant_bo/shield/idle"/>
+		</state>
+
+		<state name="giant_bo/shield/idle" type="loop" segment="base">
+			<anim name="shield_idle"/>
+		</state>
+
+		<state name="giant_bo/shield/exit" type="once" segment="base">
+			<anim name="shield_exit"/>
 
 			<exit name="giant_bo/idle"/>
 		</state>

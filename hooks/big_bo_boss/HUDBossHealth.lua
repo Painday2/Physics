@@ -95,6 +95,28 @@ function HUDBossHealth:set_health(health)
 	self._health_bar:set_width(self._health_bg:w() * health)
 end
 
+function HUDBossHealth:_animate_change_color(input_panel, start_color, end_color)
+	local TOTAL_T = 0.25
+	local t = 0
+
+	while TOTAL_T > t do
+		local dt = coroutine.yield()
+		t = t + dt
+
+		input_panel:set_color(math.lerp(start_color, end_color, t/TOTAL_T))
+	end
+
+	input_panel:set_color(end_color)
+end
+
+function HUDBossHealth:set_shielded(state)
+	if state then
+		self._health_bar:animate(callback(self, self, "_animate_change_color"), Color.red, Color(0, 1, 1))
+	else
+		self._health_bar:animate(callback(self, self, "_animate_change_color"), Color(0, 1, 1), Color.red)
+	end
+end
+
 function HUDBossHealth:open()
 	self._boss_text:set_alpha(0)
 	self._health_bg:set_alpha(0)

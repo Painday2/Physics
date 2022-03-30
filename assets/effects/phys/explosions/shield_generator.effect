@@ -1,6 +1,6 @@
 <effect force_synch="false">
     <atom name="fireball_2" min_size="1" max_size="3" lifetime="1.5" random_start_time="false" start_time="0.2" preroll="0" inherit_velocity_multiplier="2" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="update" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
-        <effect_spawn event="tick" effect="effects/phys/explosions/flash_cannon_shell_burnpuff_small"/>
+        <effect_spawn event="tick" effect="effects/phys/explosions/shield_generator_burnpuff_small"/>
         <initializerstack>
             <boxrandomposition relative="effect" min="-100 -10 10" max="100 10 10"/>
             <boxrandomvelocity relative="effect" min="-150 -250 100" max="250 250 600"/>
@@ -368,7 +368,7 @@
         </visualizerstack>
     </atom>
     <atom name="fireball_3" min_size="2" max_size="3" lifetime="3.5" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="2" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="update" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
-        <effect_spawn event="tick" effect="effects/phys/explosions/flash_cannon_shell_burnpuff"/>
+        <effect_spawn event="tick" effect="effects/phys/explosions/shield_generator_burnpuff"/>
         <initializerstack>
             <boxrandomposition relative="effect" min="-100 -10 10" max="100 10 10"/>
             <boxrandomvelocity relative="effect" min="-250 -250 300" max="250 250 500"/>
@@ -429,7 +429,7 @@
         </visualizerstack>
     </atom>
     <atom name="fireball" min_size="2" max_size="4" lifetime="2.3" random_start_time="false" start_time="0.2" preroll="0" inherit_velocity_multiplier="2" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="update" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
-        <effect_spawn event="tick" effect="effects/phys/explosions/flash_cannon_shell_burnpuff_small"/>
+        <effect_spawn event="tick" effect="effects/phys/explosions/shield_generator_burnpuff_small"/>
         <initializerstack>
             <boxrandomposition relative="effect" min="-100 -10 10" max="100 10 10"/>
             <boxrandomvelocity relative="effect" min="-150 -150 200" max="150 150 400"/>
@@ -462,7 +462,7 @@
         </visualizerstack>
     </atom>
     <atom name="fireball_big_1" min_size="1" max_size="1" lifetime="1" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="2" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="update" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
-        <effect_spawn event="tick" effect="effects/phys/explosions/flash_cannon_shell_burnpuff_big"/>
+        <effect_spawn event="tick" effect="effects/phys/explosions/shield_generator_burnpuff_big"/>
         <initializerstack>
             <boxrandomposition relative="effect" min="-100 -10 10" max="100 10 10"/>
             <boxrandomvelocity relative="effect" min="-50 -50 300" max="50 50 500"/>
