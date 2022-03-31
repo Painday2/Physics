@@ -8,6 +8,7 @@
 
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData"/>
+		<extension name="damage" class="UnitDamage"/>
 		<extension name="character_damage" class="GiantBoShieldGeneratorDamage"/>
 	</extensions>
 

@@ -395,11 +395,13 @@
 		<effect path="effects/phys/explosions/shield_generator_burnpuff_big"/>
 		<effect path="effects/phys/explosions/shield_generator_burnpuff_small"/>
 
-		<cooked_physics path="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator"/>
 		<effect path="effects/phys/lasers/shield_laser"/>
+
+		<cooked_physics path="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator"/>
 		<material_config path="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator"/>
 		<model path="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator"/>
 		<object path="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator"/>
+		<sequence_manager path="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator"/>
 		<unit path="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator"/>
 	</add>
 	<add>

@@ -1,0 +1,7 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'play'" startup="true" triggable="true">
+			<animation_group enabled="true" from="0/24" loop="true" name="'spin'" to="20/24"/>
+		</sequence>
+	</unit>
+</table>

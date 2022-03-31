@@ -1,8 +1,9 @@
 <dynamic_object>
 	<diesel materials="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator" orientation_object="rp_shield_generator"/>
+	<sequence_manager file="units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator"/>
 
 	<animations>
-		<animation_group name="spin" enabled="true" loop="true">
+		<animation_group name="spin" enabled="false">
 			<object name="anim_chassis_1"/>
 			<object name="anim_chassis_2"/>
 		</animation_group>
