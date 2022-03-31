@@ -1,0 +1,16 @@
+<unit type="dev" slot="23">
+	<network sync="spawn"/>
+	<object file="units/pd2_mod_phys/projectiles/ammo_projectile/ammo_projectile"/>
+
+	<extensions>
+		<extension name="base" class="GrenadeBase"/>
+		<extension name="unit_data" class="ScriptUnitData"/>
+		<extension name="damage" class="UnitDamage">
+			<var name="_collision_event" value="concussion_bounce"/>
+			<var name="_collision_sfx_quite_time" value="0.1"/>
+		</extension>
+
+		<extension name="contour" class="ContourExt"/>
+		<extension name="pickup" class="BoAmmoClip"/>
+	</extensions>
+</unit>

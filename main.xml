@@ -149,6 +149,10 @@
 					<hook file="GiantBoStateShield.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
 				</hooks>
 
+				<hooks directory="custom_projectile_classes">
+					<hook file="BoAmmoClip.lua" source_file="lib/units/pickups/ammoclip"/>
+				</hooks>
+
 				<hook file="GiantBoBase.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
 				<hook file="GiantBoBaseHusk.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
 
@@ -157,8 +161,11 @@
 
 				<hook file="HUDManager.lua" source_file="lib/managers/hudmanagerpd2"/>
 				<hook file="HUDBossHealth.lua" source_file="lib/managers/hud/hudobjectives"/>
+
+				<hook file="ProjectilesTweakData.lua" source_file="lib/tweak_data/blackmarket/projectilestweakdata"/>
 				<hook file="TimeSpeedEffectTweakData.lua" source_file="lib/tweak_data/timespeedeffecttweakdata"/>
 			</hooks>
+
 			<hooks directory="flash_cannon">
 				<hook file="CrappyPhysicsTurretSyncBase.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
 				<hook file="FPCameraPlayerBase.lua" source_file="lib/units/cameras/fpcameraplayerbase"/>
@@ -173,6 +180,11 @@
 				<hook file="TurretWeapon.lua" source_file="lib/setups/gamesetup"/>
 				<hook file="UnitDamage.lua" source_file="lib/units/unitdamage"/>
 				<hook file="WeaponTweakData.lua" source_file="lib/tweak_data/weapontweakdata"/>
+			</hooks>
+
+			<hooks directory="credits">
+				<hook file="HUDManager.lua" source_file="lib/managers/hudmanagerpd2"/>
+				<hook file="HUDBoworksCredits.lua" source_file="lib/managers/hud/hudobjectives"/>
 			</hooks>
 		</hooks>
 		<outro_event>

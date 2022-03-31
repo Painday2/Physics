@@ -10444,26 +10444,6 @@
 				</entry>
 			</entry>
 			<entry index="400" type="table">
-				<entry key="class" type="string" value="ElementLootBag"/>
-				<entry key="editor_name" type="string" value="loot_bag_002"/>
-				<entry key="id" type="number" value="100403"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="carry_id" type="string" value="physics_flashbang"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="true"/>
-					<entry key="from_respawn" type="boolean" value="false"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="20906.4 -4060.59 -181"/>
-					<entry key="push_multiplier" type="number" value="0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="spawn_dir" type="vector3" value="0.0969147 0 0.995293"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="401" type="table">
 				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
 				<entry key="editor_name" type="string" value="bo_death_trigger"/>
 				<entry key="id" type="number" value="100411"/>
@@ -10498,7 +10478,7 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
-			<entry index="402" type="table">
+			<entry index="401" type="table">
 				<entry key="class" type="string" value="ElementFakeAssaultState"/>
 				<entry key="editor_name" type="string" value="end_assault_1"/>
 				<entry key="id" type="number" value="100412"/>
@@ -10519,7 +10499,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="403" type="table">
+			<entry index="402" type="table">
 				<entry key="class" type="string" value="ElementFakeAssaultState"/>
 				<entry key="editor_name" type="string" value="end_assault_2"/>
 				<entry key="id" type="number" value="100413"/>
@@ -10536,7 +10516,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="404" type="table">
+			<entry index="403" type="table">
 				<entry key="class" type="string" value="ElementTerminateAssault"/>
 				<entry key="editor_name" type="string" value="terminate_assault"/>
 				<entry key="id" type="number" value="100414"/>
@@ -10552,7 +10532,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="405" type="table">
+			<entry index="404" type="table">
 				<entry key="class" type="string" value="ElementSlowMotion"/>
 				<entry key="editor_name" type="string" value="slow_motion"/>
 				<entry key="id" type="number" value="100415"/>
@@ -10569,7 +10549,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="406" type="table">
+			<entry index="405" type="table">
 				<entry key="class" type="string" value="ElementSlowMotion"/>
 				<entry key="editor_name" type="string" value="slow_motion_death"/>
 				<entry key="id" type="number" value="100416"/>
@@ -10586,7 +10566,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="407" type="table">
+			<entry index="406" type="table">
 				<entry key="class" type="string" value="ElementExplosion"/>
 				<entry key="editor_name" type="string" value="explosion_005"/>
 				<entry key="id" type="number" value="100227"/>
@@ -10622,7 +10602,7 @@
 					<entry key="use_rumble" type="boolean" value="true"/>
 				</entry>
 			</entry>
-			<entry index="408" type="table">
+			<entry index="407" type="table">
 				<entry key="class" type="string" value="ElementShape"/>
 				<entry key="editor_name" type="string" value="shape_cubby_005"/>
 				<entry key="id" type="number" value="100244"/>

@@ -366,6 +366,10 @@ function GiantBoBaseHusk:reset_shield_generator_health()
 	self._last_shield_generator_angle = 0
 end
 
+function GiantBoBaseHusk:start_credits()
+	managers.hud:open_boworks_credits()
+end
+
 if not Network:is_server() then
 	-- I should really make GiantBoBaseHusk inherit GiantBoBase but I'm too lazy to set it up for that now.
 	GiantBoBaseHusk._actions = GiantBoBase._actions

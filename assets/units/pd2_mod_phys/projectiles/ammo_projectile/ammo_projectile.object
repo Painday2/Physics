@@ -1,0 +1,14 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_phys/projectiles/ammo_projectile/ammo_projectile" orientation_object="rp_ammo_projectile"/>
+
+	<bodies>
+		<body name="body_prop" enabled="true" template="small_prop" friction="0.5" sweep="true" restitution="0.5" ang_damping="0.1" pushed_by_mover="false">
+			<object name="rp_ammo_projectile"/>
+			<object name="c_convex" collision_type="convex" mass="0.5"/>
+		</body>
+	</bodies>
+
+	<graphics>
+		<object name="g_ammo_pickup" enabled="true"/>
+	</graphics>
+</dynamic_object>

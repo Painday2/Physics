@@ -55,6 +55,9 @@ GiantBoBase._actions = {
 	shield_exit = {
 		animation = "shield_exit",
 		length = 10/30
+	},
+	start_credits = {
+		func = "start_credits"
 	}
 }
 
@@ -175,7 +178,7 @@ function GiantBoBase:_on_shield_generator_damage(unit, attacker_unit, damage, in
 	end
 
 	if self._unit:character_damage():all_shield_generators_dead() then
-		self:set_state("idle")
+		self:set_state("idle", 0.3)
 		self._last_shield_generator_reset = nil
 		self._last_shield_generator_angle = nil
 	end
@@ -250,7 +253,7 @@ end
 
 function GiantBoBase:_on_damage(unit, attacker, damage)
 	if self._current_state == "dead" then return end
-	if not self._unit:character_damage():all_shield_generators_dead() then return end
+	if self._current_state == "shield" then return end
 
 	local health_percentage = self._unit:character_damage():health_percentage()
 	managers.hud:set_boss_health(health_percentage)
@@ -273,6 +276,8 @@ end
 function GiantBoBase:activate()
 	self._enabled = true
 
+	self:do_action("start_credits")
+
 	self:set_state("intro")
 end
 
@@ -280,13 +285,29 @@ function GiantBoBase:state_data()
 	return self._state_data
 end
 
-function GiantBoBase:set_state(new_state)
-	self._current_state = new_state
+function GiantBoBase:set_state(new_state, delay)
+	if not delay or delay == 0 then
+		self._current_state = new_state
+
+		return
+	end
+
+	self._next_wanted_state = new_state
+	self._next_state_t = Application:time() + delay
 end
 
 local flame_mvec1 = Vector3()
 function GiantBoBase:update(unit, t, dt)
 	if not self._enabled then return end
+
+	if self._next_wanted_state and self._next_state_t then
+		if t > self._next_state_t then
+			self._current_state = self._next_wanted_state
+
+			self._next_wanted_state = nil
+			self._next_state_t = nil
+		end
+	end
 
 	if self._last_state ~= self._current_state then
 		if self._states[self._last_state] then
@@ -413,6 +434,10 @@ function GiantBoBase:update(unit, t, dt)
 			self._shield_generators[i]:set_position(position)
 		end
 	end
+end
+
+function GiantBoBase:start_credits()
+	managers.hud:open_boworks_credits()
 end
 
 -- Attack Stuff
