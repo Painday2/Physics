@@ -276,8 +276,6 @@ end
 function GiantBoBase:activate()
 	self._enabled = true
 
-	self:do_action("start_credits")
-
 	self:set_state("intro")
 end
 

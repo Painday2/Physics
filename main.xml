@@ -20,6 +20,7 @@
 		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
 		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
+	<MenuMusic id="music_boworks_credits" source="assets/sounds/music/boworks_credits.ogg"/>
 	<level ai_group_type="bo" briefing_dialog="physics_citystreets_briefing_event" id="physics_citystreets" intro_event="phys_d1_intro_event" load_screen="guis/mods/phys/textures/loading/job_physics_01_df" max_bags="0" narrator="locke" orig_id="BoWorks" team_ai_off="false">
 		<add file="levels/physics_citystreets/add.xml"/>
 		<assets>
@@ -201,6 +202,9 @@
 			<value_node value="packages/narr_hox_3"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
+			<mod replacement="boworks_credits.credits" replacement_type="custom_xml" target_ext="credits" target_path="gamedata/boworks_credits">
+				<options merge_mode="replace"/>
+			</mod>
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
 			</mod>

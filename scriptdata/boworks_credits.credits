@@ -1,0 +1,192 @@
+<table>
+	<br/>
+	<br/>
+	<br/>
+
+	<!-- READY PLAYER NONE -->
+		<text text="READY PLAYER NONE" type="title"/>
+		<br/>
+		<image scale="0.2" src="guis/textures/Ready_Player_None_icon"/>
+		<br/>
+
+		<text text="Lawsfercapcake?" type="name"/>
+		<text text="Mission Scripting, Heist Concept" type="image-text"/>
+		<br/>
+
+		<text text="DryBittenCuticles" type="name"/>
+		<text text="The Voice of Pain, Writing" type="image-text"/>
+		<br/>
+
+		<text text="Zdann" type="name"/>
+		<text text="Custom Assets, Writing Dialogue" type="image-text"/>
+		<br/>
+
+		<text text="LycanCHKN / Leecan" type="name"/>
+		<text text="Italian Update Assistance" type="image-text"/>
+		<br/>
+
+		<text text="VxWolf" type="name"/>
+		<text text="Music" type="image-text"/>
+		<br/>
+
+		<text text="The Crazy Vaper" type="name"/>
+		<text text="The Face of Pain" type="image-text"/>
+		<br/>
+
+		<text text="Special Thanks" type="title"/>
+		<br/>
+
+		<text text="SC" type="name"/>
+		<text text="Coding Assistance" type="image-text"/>
+		<br/>
+
+		<text text="Ernest Cline" type="name"/>
+		<text text="Author of Ready Player One" type="image-text"/>
+		<br/>
+	<br/>
+
+	<!-- Stalk Fraud -->
+		<text text="Stalk Fraud" type="title"/>
+		<br/>
+		<image scale="0.3" src="guis/thechase_icon"/>
+		<br/>
+
+		<text text="Lawsfercapcake?" type="name"/>
+		<text text="Mission Scripting, Heist Concept" type="image-text"/>
+		<br/>
+
+		<text text="DryBittenCuticles" type="name"/>
+		<text text="The Voice of Pain, Writing" type="image-text"/>
+		<br/>
+
+		<text text="Zdann" type="name"/>
+		<text text="Custom Assets, Writing Dialogue" type="image-text"/>
+		<br/>
+
+		<text text="VxWolf" type="name"/>
+		<text text="Music, Sound Editing, Writing" type="image-text"/>
+		<br/>
+
+		<text text="The Crazy Vaper" type="name"/>
+		<text text="The Face of Pain" type="image-text"/>
+		<br/>
+
+		<text text="Special Thanks" type="title"/>
+		<br/>
+
+		<text text="Sora" type="name"/>
+		<text text="Additional Coding" type="image-text"/>
+		<br/>
+	<br/>
+
+	<!-- The Late Holiday Special -->
+		<text text="The Late Holiday Special" type="title"/>
+		<br/>
+		<image scale="1.5" src="guis/textures/spain_icon"/>
+		<br/>
+
+		<text text="Lawsfercapcake?" type="name"/>
+		<text text="Mission Scripting, Heist Concept" type="image-text"/>
+		<br/>
+
+		<text text="DryBittenCuticles" type="name"/>
+		<text text="The Voice of Pain, Writing" type="image-text"/>
+		<br/>
+
+		<text text="PickleSmith" type="name"/>
+		<text text="The Voice of Switch, Writing" type="image-text"/>
+		<br/>
+
+		<text text="VyseM4H" type="name"/>
+		<text text="The Voice of Mrs. Claus' Secretary" type="image-text"/>
+		<br/>
+
+		<text text="Thanatou" type="name"/>
+		<text text="The Voice of Santa" type="image-text"/>
+		<br/>
+
+		<text text="Zdann" type="name"/>
+		<text text="Custom Assets, Writing Dialogue" type="image-text"/>
+		<br/>
+
+		<text text="VxWolf" type="name"/>
+		<text text="Music, Sound Editing, Writing" type="image-text"/>
+		<br/>
+
+		<text text="Matthelzor" type="name"/>
+		<text text="Custom Assets" type="image-text"/>
+		<br/>
+
+		<text text="The Crazy Vaper" type="name"/>
+		<text text="The Face of Pain" type="image-text"/>
+		<br/>
+
+		<text text="Guard Voices" type="title"/>
+		<br/>
+
+		<text text="Matthelzor" type="name"/>
+		<text text="Mako" type="name"/>
+		<text text="Kuziz" type="name"/>
+		<text text="wekk" type="name"/>
+		<text text="VxWolf" type="name"/>
+		<br/>
+	<br/>
+
+	<!-- BOWORKS -->
+		<text text="BOWORKS" type="title"/>
+		<br/>
+		<image scale="1.5" src="guis/mods/phys/textures/physics_icon"/>
+		<br/>
+
+		<text text="VxWolf" type="name"/>
+		<text text="Heist Concept, Level Design, Mission Scripting, Music, Sound Effects," type="image-text"/>
+		<text text="The Voice of Cocke, Custom Assets/Textures, Writing" type="image-text"/>
+		<br/>
+
+		<text text="Lawsfercapcake?" type="name"/>
+		<text text="Level Design, Mission Scripting, Writing" type="image-text"/>
+		<br/>
+
+		<text text="Zdann" type="name"/>
+		<text text="Custom World Assets, Custom Character Assets, Writing" type="image-text"/>
+		<br/>
+
+		<text text="Mako" type="name"/>
+		<text text="Custom World Assets, Custom Equipment Assets" type="image-text"/>
+		<br/>
+
+		<text text="Cpone" type="name"/>
+		<text text="Custom Faction Programming and Setup, Custom World Assets, Giant Bo Fight" type="image-text"/>
+		<br/>
+
+		<text text="Matthelzor" type="name"/>
+		<text text="Custom Character Assets" type="image-text"/>
+		<br/>
+
+		<text text="Rex" type="name"/>
+		<text text="Custom World Assets" type="image-text"/>
+		<br/>
+
+		<text text="wekk" type="name"/>
+		<text text="Writing, Custom Faction Textures" type="image-text"/>
+		<br/>
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<text text="Thank you for playing you fucking asshole." type="title"/>
+		<command cmd="speed" param="0.01"/>
+	<br/>
+</table>
