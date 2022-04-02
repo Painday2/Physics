@@ -475,8 +475,10 @@ end
 
 			do_spread(direction, 20.0, 10.0)
 
-			local grenade = ProjectileBase.throw_projectile_npc("frag", position, direction * 1.5)
+			local grenade = ProjectileBase.throw_projectile_npc("frag", position, direction * 1.6)
 			grenade:base()._timer = 5
+			grenade:base()._range = 2000
+			grenade:base()._damage = 15
 		end
 	end
 
@@ -488,6 +490,40 @@ end
 		end
 
 		self._flames = state == "true"
+	end
+
+	local new_spawn_fire = function(self, normal) 
+			
+				local position = self._unit:position()
+				local rotation = self._unit:rotation()
+				local data = tweak_data.env_effect:molotov_fire()
+
+				EnvironmentFire.spawn(position, rotation, data, normal, self._thrower_unit, 0, 1)
+				EnvironmentFire.spawn(position, rotation, data, normal, self._thrower_unit, 0, 1)
+				EnvironmentFire.spawn(position, rotation, data, normal, self._thrower_unit, 0, 1)
+
+				self._unit:set_visible(false)
+	
+				if Network:is_server() then
+					self.burn_stop_time = TimerManager:game():time() + data.burn_duration + data.fire_dot_data.dot_length + 1
+				end
+			
+	end
+
+	local new_spawn_smoke = function(self, normal) 
+			
+				local position = self._unit:position()
+				local rotation = self._unit:rotation()
+				local data = tweak_data.env_effect:smoke_fire()
+
+				EnvironmentFire.spawn(position, rotation, data, normal, self._thrower_unit, 0, 1)
+
+				self._unit:set_visible(false)
+	
+				if Network:is_server() then
+					self.burn_stop_time = TimerManager:game():time() + data.burn_duration + data.fire_dot_data.dot_length + 1
+				end
+			
 	end
 
 	function GiantBoBase:throw_molotov(unit)
@@ -503,8 +539,11 @@ end
 			do_spread(left_direction, 5, 20)
 			do_spread(right_direction, 5, 20)
 
-			ProjectileBase.throw_projectile_npc("molotov", left_position, left_direction * 3)
-			ProjectileBase.throw_projectile_npc("molotov", right_position, right_direction * 3)
+			local grenadel = ProjectileBase.throw_projectile_npc("molotov", left_position, left_direction * 3)
+			local grenader = ProjectileBase.throw_projectile_npc("molotov", right_position, right_direction * 3)
+			
+			grenadel:base()._spawn_environment_fire = new_spawn_fire
+			grenader:base()._spawn_environment_fire = new_spawn_fire
 		end
 	end
 
@@ -521,7 +560,12 @@ end
 			do_spread(left_direction, 5, 2)
 			do_spread(right_direction, 5, 2)
 
-			ProjectileBase.throw_projectile_npc("molotov", left_position, left_direction * 2.5)
-			ProjectileBase.throw_projectile_npc("molotov", right_position, right_direction * 2.5)
+			local grenadel = ProjectileBase.throw_projectile_npc("molotov", left_position, left_direction * 2.5)
+			local grenader = ProjectileBase.throw_projectile_npc("molotov", right_position, right_direction * 2.5)
+
+			grenadel:base()._spawn_environment_fire = new_spawn_smoke
+			grenader:base()._spawn_environment_fire = new_spawn_smoke
+
+
 		end
 	end

@@ -152,6 +152,7 @@
 
 				<hooks directory="custom_projectile_classes">
 					<hook file="BoAmmoClip.lua" source_file="lib/units/pickups/ammoclip"/>
+					<hook file="BoSmokeGrenade.lua" source_file="lib/tweak_data/enveffecttweakdata"/>
 				</hooks>
 
 				<hook file="GiantBoBase.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
