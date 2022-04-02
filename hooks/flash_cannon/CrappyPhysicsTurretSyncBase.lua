@@ -29,10 +29,37 @@ function CrappyPhysicsTurretSyncBase:send_rotation()
 	managers.network:session():send_to_peers_synched("sync_stored_pos", self._unit, false, Vector3(), Vector3(rotation:yaw() / 10, rotation:pitch() / 10, rotation:roll() / 10))
 end
 
-function CrappyPhysicsTurretSyncBase:sync_rotation(sync, position, rotation)
+function CrappyPhysicsTurretSyncBase:send_hit(position, hit_generator)
+	managers.network:session():send_to_peers_synched("sync_stored_pos", self._unit, true, position, Vector3(hit_generator and 1 or 0, 0, 0))
+
+	self:do_hit(position, hit_generator)
+end
+
+function CrappyPhysicsTurretSyncBase:do_hit(position, hit_generator)
+	if hit_generator then
+		managers.environment_controller:set_flashbang(self._unit:position(), true, nil, 1000, 1.5)
+		managers.player:player_unit():character_damage():on_flashbanged(1)
+	elseif Network:is_server() then
+		local carry_id = "physics_flashbang"
+		local pos = position
+		local rot = Rotation()
+		local dir = Vector3()
+
+		managers.player:server_drop_carry(carry_id, 1, true, false, 1, pos, rot, dir, 0, nil, nil)
+	end
+end
+
+function CrappyPhysicsTurretSyncBase:sync_shot_or_rotation(shot, position, rotation)
+	if shot then
+		local hit_generator = rotation.x > 0.3
+		self:do_hit(position, hit_generator)
+
+		return
+	end
+
 	self._unit:weapon()._player_rotation = Rotation(rotation.x * 10, rotation.y * 10, rotation.z * 10)
 end
-CrappyPhysicsTurretSyncBase.sync_stored_pos = CrappyPhysicsTurretSyncBase.sync_rotation
+CrappyPhysicsTurretSyncBase.sync_stored_pos = CrappyPhysicsTurretSyncBase.sync_shot_or_rotation
 
 local actions = {
 	"lock_fire",

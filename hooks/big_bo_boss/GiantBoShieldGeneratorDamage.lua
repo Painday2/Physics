@@ -1,4 +1,5 @@
 GiantBoShieldGeneratorDamage = GiantBoShieldGeneratorDamage or class()
+GiantBoShieldGeneratorDamage.SHIELD_GENERATOR = true
 
 function GiantBoShieldGeneratorDamage:init(unit)
 	self._unit = unit

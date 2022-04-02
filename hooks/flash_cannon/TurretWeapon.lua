@@ -768,6 +768,7 @@ function TurretWeapon:_fire_shell(from_pos, direction)
 end
 
 function TurretWeapon:_turret_shell_explode(from_pos, to_pos, detonate_now)
+	local is_generator = false
 	local shell_position = from_pos
 
 	if not detonate_now then
@@ -777,35 +778,41 @@ function TurretWeapon:_turret_shell_explode(from_pos, to_pos, detonate_now)
 			return
 		end
 
+		is_generator = col_ray.unit and col_ray.unit.character_damage and col_ray.unit:character_damage() and col_ray.unit:character_damage().SHIELD_GENERATOR
 		shell_position = col_ray.hit_position
-		self._turret_shell = nil
-		self._shell_cumulative_gravity = 0
 	end
 
-	if self._turret_shell_sound_source then
-		self._turret_shell_sound_source:set_position(shell_position)
-		self._turret_shell_sound_source:post_event("dynamite_explosion")
+	self._turret_shell = nil
+	self._shell_cumulative_gravity = 0
+
+	if is_generator then
+		if self._turret_shell_sound_source then
+			self._turret_shell_sound_source:set_position(shell_position)
+			self._turret_shell_sound_source:post_event("dynamite_explosion")
+		end
+
+		local pos = shell_position
+		local slot_mask = managers.slot:get_mask("explosion_targets")
+		local damage = tweak_data.weapon[self.name_id].damage or 1000
+		local damage_radius = tweak_data.weapon[self.name_id].damage_radius or 1000
+		local player_damage = tweak_data.weapon[self.name_id].player_damage or 10
+		local armor_piercing = tweak_data.weapon[self.name_id].armor_piercing
+		local curve_pow = 3
+		local hit_units, splinters = managers.explosion:detect_and_give_dmg({
+			alert_radius = 10000,
+			hit_pos = pos,
+			range = damage_radius,
+			collision_slotmask = slot_mask,
+			curve_pow = curve_pow,
+			damage = damage,
+			player_damage = player_damage,
+			ignore_unit = managers.player:local_player(),
+			user = managers.player:local_player(),
+			armor_piercing = armor_piercing
+		})
 	end
 
-	local pos = shell_position
-	local slot_mask = managers.slot:get_mask("explosion_targets")
-	local damage = tweak_data.weapon[self.name_id].damage or 1000
-	local damage_radius = tweak_data.weapon[self.name_id].damage_radius or 1000
-	local player_damage = tweak_data.weapon[self.name_id].player_damage or 10
-	local armor_piercing = tweak_data.weapon[self.name_id].armor_piercing
-	local curve_pow = 3
-	local hit_units, splinters = managers.explosion:detect_and_give_dmg({
-		alert_radius = 10000,
-		hit_pos = pos,
-		range = damage_radius,
-		collision_slotmask = slot_mask,
-		curve_pow = curve_pow,
-		damage = damage,
-		player_damage = player_damage,
-		ignore_unit = managers.player:local_player(),
-		user = managers.player:local_player(),
-		armor_piercing = armor_piercing
-	})
+	self._unit:base():send_hit(shell_position, is_generator)
 
 	--managers.network:session():send_to_peers_synched("sync_ground_turret_shell_explosion", self._unit, pos, damage_radius, damage, player_damage, curve_pow)
 end
@@ -1385,7 +1392,7 @@ function TurretWeapon:on_puppet_damaged(data, damage_info)
 	local player_is_visible = false--self._unit:movement():is_target_visible()
 
 	if not player_is_visible then
-		--TODO: add this back fuck managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
+		--TODO: add this back  managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
 		self:deactivate()
 
 		return
@@ -1401,7 +1408,7 @@ function TurretWeapon:on_puppet_damaged(data, damage_info)
 		local shot_from_behind = false--self._unit:movement():is_unit_behind(attacker_unit)
 
 		if shot_from_behind then
-			--TODO: add this back fuck managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
+			--TODO: add this back  managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
 			self:deactivate()
 
 			return
@@ -1412,13 +1419,13 @@ function TurretWeapon:on_puppet_damaged(data, damage_info)
 	local dazed_duration = tweak_data.weapon[self.name_id].dazed_duration or 3
 
 	self:deactivate_sentry()
-	--TODO: add this back fuck managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
-	--TODO: add this back fuck managers.queued_tasks:queue(self._activate_turret_clbk_id, self.activate_turret, self, nil, dazed_duration)
+	--TODO: add this back  managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
+	--TODO: add this back  managers.queued_tasks:queue(self._activate_turret_clbk_id, self.activate_turret, self, nil, dazed_duration)
 end
 
 function TurretWeapon:on_puppet_death(data, damage_info)
 	--managers.network:session():send_to_peers_synched("sync_ground_turret_puppet_death", self._unit)
-	--TODO: add this back fuck managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
+	--TODO: add this back  managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
 	self:deactivate()
 	--self:_create_turret_SO()
 end
@@ -1435,7 +1442,7 @@ function TurretWeapon:on_puppet_damaged_client(attacker_unit)
 	local player_is_visible = false--self._unit:movement():is_target_visible()
 
 	if not player_is_visible then
-		--TODO: add this back fuck managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
+		--TODO: add this back  managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
 		self:deactivate()
 
 		return
@@ -1447,7 +1454,7 @@ function TurretWeapon:on_puppet_damaged_client(attacker_unit)
 		local shot_from_behind = false--self._unit:movement():is_unit_behind(attacker_unit)
 
 		if shot_from_behind then
-			--TODO: add this back fuck managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
+			--TODO: add this back  managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
 			self:deactivate()
 
 			return
@@ -1458,12 +1465,12 @@ function TurretWeapon:on_puppet_damaged_client(attacker_unit)
 	local dazed_duration = tweak_data.weapon[self.name_id].dazed_duration or 3
 
 	self:deactivate_sentry()
-	--TODO: add this back fuck managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
-	--TODO: add this back fuck managers.queued_tasks:queue(self._activate_turret_clbk_id, self.activate_turret, self, nil, dazed_duration)
+	--TODO: add this back  managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
+	--TODO: add this back  managers.queued_tasks:queue(self._activate_turret_clbk_id, self.activate_turret, self, nil, dazed_duration)
 end
 
 function TurretWeapon:on_puppet_death_client()
-	--TODO: add this back fuck managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
+	--TODO: add this back  managers.queued_tasks:unqueue_all(self._activate_turret_clbk_id, self)
 	self:deactivate()
 end
 
@@ -1479,7 +1486,7 @@ function TurretWeapon:set_active(state)
 	if state then
 		self._unit:set_extension_update_enabled(Idstring("weapon"), true)
 	else
-		--TODO: add this back fuck managers.queued_tasks:queue(nil, self._disable_extension, self, nil, 5, nil)
+		--TODO: add this back  managers.queued_tasks:queue(nil, self._disable_extension, self, nil, 5, nil)
 	end
 end
 

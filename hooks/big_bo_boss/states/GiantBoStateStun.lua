@@ -9,7 +9,7 @@ function GiantBoStateStun:enter(t)
 			type = "loot_bag",
 			id = "physics_flashbang",
 			velocity = 3,
-			amount = GiantBoBase.shield_generator_count * 3
+			amount = GiantBoBase.shield_generator_count
 		},
 		{
 			type = "throwable",
@@ -44,11 +44,10 @@ function GiantBoStateStun:launch_loot()
 			local rotation = self._base._head:rotation()
 			local direction = Rotation(math.random(1, 360), 0, 0):y() * (item.velocity or 1)
 
-			local unit = nil
 			if item.type == "loot_bag" and item.id then
-				unit = managers.player:server_drop_carry(item.id, 1, true, false, 1, position, rotation, direction, 0, nil, nil)
+				managers.player:server_drop_carry(item.id, 1, true, false, 1, position, rotation, direction, 0, nil, nil)
 			elseif item.type == "throwable" and item.id then
-				unit = ProjectileBase.throw_projectile_npc(item.id, position, direction)
+				ProjectileBase.throw_projectile_npc(item.id, position, direction)
 			end
 
 			dropped_loot = true
