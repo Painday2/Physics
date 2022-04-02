@@ -22,7 +22,6 @@ function HUDBoworksCredits:init(hud)
 		"Mrs. Claus' Assistant's got promoted & now is the husband of ex-Mrs. Claus.",
 		"Santa became depressed after what had happened in the last few years & decided to end Christmas forever.",
 		"Zdann huffed too much paint thinner, irreversibly increasing his IQ. He is now too smart to write for Pain heists.",
-		"After the events of Garnet Group Tower, the gang social distanced, wore masks and gloves, and hand sanitized and the zombies got eradicated.",
 		"Luke voiced Pain for over 30 years, Luke died peacefully from throat cancer. His death inspired no one.",
 		"Capcake, after crashing for the 666th time making the next pain heist, went clinically insane. He has since been admitted to Dr. Bill Dorfman's care centre. "
 	}

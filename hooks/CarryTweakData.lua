@@ -34,19 +34,19 @@ Hooks:PostHook(CarryTweakData, "init", "init_boworks", function(self, tweak_data
 	self.physics_key_rpn = {
 		type = "medium",
 		name_id = "hud_carry_key_rpn",
-		visual_unit_name = "units/payday2/characters/npc_acc_loot_bag_1/npc_acc_loot_bag_1",
+		visual_unit_name = "units/pd2_mod_phys/equipment/phys_key_blue/phys_key_red",
 	}
 	
 	self.physics_key_sf = {
 		type = "medium",
 		name_id = "hud_carry_key_sf",
-		visual_unit_name = "units/payday2/characters/npc_acc_loot_bag_1/npc_acc_loot_bag_1",
+		visual_unit_name = "units/pd2_mod_phys/equipment/phys_key_blue/phys_key_blue",
 	}
 	
 	self.physics_key_tlhs = {
 		type = "medium",
 		name_id = "hud_carry_key_tlhs",
-		visual_unit_name = "units/payday2/characters/npc_acc_loot_bag_1/npc_acc_loot_bag_1",
+		visual_unit_name = "units/pd2_mod_phys/equipment/phys_key_blue/phys_key_green",
 	}
 
 	self.physics_flashbang = {
