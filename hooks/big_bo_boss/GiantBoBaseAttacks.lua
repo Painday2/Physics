@@ -168,6 +168,41 @@ local function do_spread(direction, spread_x, spread_y)
 	mvector3.normalize(direction)
 end
 
+local bo_spawn_smoke = function(self, normal) 	
+	local position = self._unit:position()
+	local rotation = self._unit:rotation()
+	local data = {
+		sound_event = "trip_mine_explode",
+		range = 75,
+		curve_pow = 3,
+		damage = 1,
+		fire_alert_radius = 1500,
+		alert_radius = 1500,
+		sound_event_burning = "burn_loop_gen",
+		is_molotov = true,
+		player_damage = 2,
+		sound_event_impact_duration = 4,
+		burn_tick_period = 0.5,
+		burn_duration = 15,
+		effect_name = "effects/particles/explosions/smoke_grenade_smoke",
+		fire_dot_data = {
+			dot_trigger_chance = 35,
+			dot_damage = 15,
+			dot_length = 6,
+			dot_trigger_max_distance = 3000,
+			dot_tick_period = 0.5
+		}
+	}
+
+	EnvironmentFire.spawn(position, rotation, data, normal, self._thrower_unit, 0, 1)
+
+	self._unit:set_visible(false)
+
+	if Network:is_server() then
+		self.burn_stop_time = TimerManager:game():time() + data.burn_duration + data.fire_dot_data.dot_length + 1
+	end
+end
+
 function GiantBoBaseAttacks:throw_smoke()
 	if Network:is_server() then
 		local left_position = self._left_hand:position()
@@ -181,8 +216,27 @@ function GiantBoBaseAttacks:throw_smoke()
 		do_spread(left_direction, 5, 2)
 		do_spread(right_direction, 5, 2)
 
-		ProjectileBase.throw_projectile_npc("molotov", left_position, left_direction * 2.5)
-		ProjectileBase.throw_projectile_npc("molotov", right_position, right_direction * 2.5)
+		local grenade_left = ProjectileBase.throw_projectile_npc("molotov", left_position, left_direction * 2.5)
+		local grenade_right = ProjectileBase.throw_projectile_npc("molotov", right_position, right_direction * 2.5)
+
+		grenade_left:base()._spawn_environment_fire = bo_spawn_smoke
+		grenade_right:base()._spawn_environment_fire = bo_spawn_smoke
+	end
+end
+
+local bo_spawn_fire = function(self, normal) 	
+	local position = self._unit:position()
+	local rotation = self._unit:rotation()
+	local data = tweak_data.env_effect:molotov_fire()
+
+	EnvironmentFire.spawn(position, rotation, data, normal, self._thrower_unit, 0, 1)
+	EnvironmentFire.spawn(position, rotation, data, normal, self._thrower_unit, 0, 1)
+	EnvironmentFire.spawn(position, rotation, data, normal, self._thrower_unit, 0, 1)
+
+	self._unit:set_visible(false)
+
+	if Network:is_server() then
+		self.burn_stop_time = TimerManager:game():time() + data.burn_duration + data.fire_dot_data.dot_length + 1
 	end
 end
 
@@ -199,8 +253,11 @@ function GiantBoBaseAttacks:throw_molotov()
 		do_spread(left_direction, 5, 20)
 		do_spread(right_direction, 5, 20)
 
-		ProjectileBase.throw_projectile_npc("molotov", left_position, left_direction * 3)
-		ProjectileBase.throw_projectile_npc("molotov", right_position, right_direction * 3)
+		local grenade_left = ProjectileBase.throw_projectile_npc("molotov", left_position, left_direction * 3)
+		local grenade_right = ProjectileBase.throw_projectile_npc("molotov", right_position, right_direction * 3)
+
+		grenade_left:base()._spawn_environment_fire = bo_spawn_fire
+		grenade_right:base()._spawn_environment_fire = bo_spawn_fire
 	end
 end
 
@@ -212,6 +269,8 @@ function GiantBoBaseAttacks:shoot_grenade_left()
 
 		local grenade = ProjectileBase.throw_projectile_npc("frag", position, direction * 1.5)
 		grenade:base()._timer = 5
+		grenade:base()._range = 2000
+		grenade:base()._damage = 15
 	end
 end
 
@@ -223,5 +282,7 @@ function GiantBoBaseAttacks:shoot_grenade_right()
 
 		local grenade = ProjectileBase.throw_projectile_npc("frag", position, direction * 1.5)
 		grenade:base()._timer = 5
+		grenade:base()._range = 2000
+		grenade:base()._damage = 15
 	end
 end
