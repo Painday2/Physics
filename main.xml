@@ -154,6 +154,7 @@
 					<hook file="BoAmmoClip.lua" source_file="lib/units/pickups/ammoclip"/>
 				</hooks>
 
+				<hook file="GiantBoBaseAttacks.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
 				<hook file="GiantBoBase.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
 				<hook file="GiantBoBaseHusk.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
 

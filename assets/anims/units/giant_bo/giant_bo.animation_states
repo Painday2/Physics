@@ -82,8 +82,8 @@
 				<anim name="shoot_grenades"/>
 
 				<keys>
-					<key at="trigger" trigger="shoot_left" callback="shoot_grenade" class_name="base" param1="true"/>
-					<key at="trigger" trigger="shoot_right" callback="shoot_grenade" class_name="base" param1="false"/>
+					<key at="trigger" trigger="shoot_left" callback="do_action_attack" class_name="base" param1="1"/>
+					<key at="trigger" trigger="shoot_right" callback="do_action_attack" class_name="base" param1="2"/>
 				</keys>
 
 				<exit name="giant_bo/idle"/>
@@ -93,9 +93,9 @@
 				<anim name="breath_fire"/>
 
 				<keys>
-					<key at="trigger" trigger="flame_on" callback="set_flames" class_name="base" param1="true"/>
-					<key at="trigger" trigger="flame_off" callback="set_flames" class_name="base" param1="false"/>
-					<key at="exit" callback="set_flames" class_name="base" param1="false"/>
+					<key at="trigger" trigger="flame_on" callback="do_action_attack" class_name="base" param1="1"/>
+					<key at="trigger" trigger="flame_off" callback="do_action_attack" class_name="base" param1="2"/>
+					<key at="exit" callback="do_action_attack" class_name="base" param1="2"/>
 				</keys>
 
 				<exit name="giant_bo/idle"/>
@@ -105,7 +105,7 @@
 				<anim name="throw_molotov"/>
 
 				<keys>
-					<key at="trigger" trigger="throw_molotov" callback="throw_molotov" class_name="base"/>
+					<key at="trigger" trigger="throw_molotov" callback="do_action_attack" class_name="base" param1="1"/>
 				</keys>
 
 				<exit name="giant_bo/idle"/>
@@ -115,7 +115,7 @@
 				<anim name="throw_smoke"/>
 
 				<keys>
-					<key at="trigger" trigger="throw_smoke" callback="throw_smoke" class_name="base"/>
+					<key at="trigger" trigger="throw_smoke" callback="do_action_attack" class_name="base" param1="1"/>
 				</keys>
 
 				<exit name="giant_bo/idle"/>

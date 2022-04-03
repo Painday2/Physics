@@ -3,6 +3,8 @@ GiantBoStateStun = GiantBoStateStun or class(GiantBoState)
 function GiantBoStateStun:enter(t)
 	local stun_time = self._base:do_action("stun")
 
+	self._head = self._unit:get_object(Idstring("Head"))
+
 	self._loot_left = true
 	self._loot_to_drop = {
 		{
@@ -40,8 +42,8 @@ function GiantBoStateStun:launch_loot()
 		if item.amount and item.amount > 0 then
 			item.amount = item.amount - 1
 
-			local position = self._base._head:position() + Vector3(0, 0, 1000)
-			local rotation = self._base._head:rotation()
+			local position = self._head:position() + Vector3(0, 0, 1000)
+			local rotation = self._head:rotation()
 			local direction = Rotation(math.random(1, 360), 0, 0):y() * (item.velocity or 1)
 
 			if item.type == "loot_bag" and item.id then
