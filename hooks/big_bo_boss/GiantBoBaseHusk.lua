@@ -281,6 +281,10 @@ function GiantBoBaseHusk:start_credits()
 	managers.hud:open_boworks_credits()
 end
 
+function GiantBoBase:invincible_players()
+	managers.player:player_unit():character_damage():set_invulnerable(true)
+end
+
 if not Network:is_server() then
 	-- I should really make GiantBoBaseHusk inherit GiantBoBase but I'm too lazy to set it up for that now.
 	GiantBoBaseHusk._actions = GiantBoBase._actions

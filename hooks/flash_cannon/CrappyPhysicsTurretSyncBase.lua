@@ -39,6 +39,19 @@ function CrappyPhysicsTurretSyncBase:do_hit(position, hit_generator)
 	if hit_generator then
 		managers.environment_controller:set_flashbang(self._unit:position(), true, nil, 1000, 1.5)
 		managers.player:player_unit():character_damage():on_flashbanged(1)
+
+		if Network:is_server() then
+			for c_key, c_data in pairs(managers.enemy:all_enemies()) do
+				c_data.unit:character_damage():damage_explosion({
+					damage = 0,
+					variant = "stun",
+					col_ray = {
+						position = c_data.unit:position(),
+						ray = math.UP
+					}
+				})
+			end
+		end
 	elseif Network:is_server() then
 		local carry_id = "physics_flashbang"
 		local pos = position

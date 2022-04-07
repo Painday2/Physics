@@ -161,6 +161,8 @@
 				<hook file="GiantBoDamage.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
 				<hook file="GiantBoShieldGeneratorDamage.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
 
+				<hook file="HUDAssaultCorner.lua" source_file="lib/managers/hud/hudassaultcorner"/>
+
 				<hook file="HUDManager.lua" source_file="lib/managers/hudmanagerpd2"/>
 				<hook file="HUDBossHealth.lua" source_file="lib/managers/hud/hudobjectives"/>
 

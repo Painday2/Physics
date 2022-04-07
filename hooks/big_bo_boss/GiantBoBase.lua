@@ -72,6 +72,9 @@ GiantBoBase._actions = {
 	},
 	start_credits = {
 		func = "start_credits"
+	},
+	invincible_players = {
+		func = "invincible_players"
 	}
 }
 
@@ -346,4 +349,8 @@ end
 
 function GiantBoBase:start_credits()
 	managers.hud:open_boworks_credits()
+end
+
+function GiantBoBase:invincible_players()
+	managers.player:player_unit():character_damage():set_invulnerable(true)
 end

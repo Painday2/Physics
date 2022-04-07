@@ -401,5 +401,8 @@
 	"hud_turret_flash_cannon": "Hold $BTN_INTERACT to mount the Flashbang Cannon",
 
 	"hud_action_loading_flashbang": "Loading a Flashbang",
-	"hud_action_mounting_flash_cannon": "Mounting the Flashbang Cannon"
+	"hud_action_mounting_flash_cannon": "Mounting the Flashbang Cannon",
+
+	"hud_assault_bo" : "Kill Bo",
+	"hud_assault_bo_shield" : "Destroy Shield Generators"
 }
