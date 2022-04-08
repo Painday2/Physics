@@ -13,7 +13,7 @@ GiantBoBase._actions = {
 		},
 		use_aggressiveness = true
 	},
-	throw_smoke = {
+	throw_smoke_mid = {
 		animation = "throw_smoke",
 		length = 40/30,
 		attack_funcs = {
@@ -21,7 +21,23 @@ GiantBoBase._actions = {
 		},
 		use_aggressiveness = true
 	},
-	throw_molotov = {
+	throw_smoke_sides = {
+		animation = "throw_molotov",
+		length = 40/30,
+		attack_funcs = {
+			"throw_smoke"
+		},
+		use_aggressiveness = true
+	},
+	throw_molotov_mid = {
+		animation = "throw_smoke",
+		length = 40/30,
+		attack_funcs = {
+			"throw_molotov"
+		},
+		use_aggressiveness = true
+	},
+	throw_molotov_sides = {
 		animation = "throw_molotov",
 		length = 40/30,
 		attack_funcs = {
@@ -29,7 +45,25 @@ GiantBoBase._actions = {
 		},
 		use_aggressiveness = true
 	},
-	shoot_grenades = {
+	shoot_grenades_close = {
+		animation = "throw_smoke",
+		length = 40/30,
+		attack_funcs = {
+			"shoot_grenade_close_left",
+			"shoot_grenade_close_right"
+		},
+		use_aggressiveness = true
+	},
+	shoot_grenades_mid = {
+		animation = "throw_smoke",
+		length = 40/30,
+		attack_funcs = {
+			"shoot_grenade_mid_left",
+			"shoot_grenade_mid_right"
+		},
+		use_aggressiveness = true
+	},
+	shoot_grenades_far = {
 		animation = "shoot_grenades",
 		length = 40/30,
 		attack_funcs = {

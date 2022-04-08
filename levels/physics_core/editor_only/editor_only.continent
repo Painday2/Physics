@@ -47,48 +47,6 @@
 			<unit_data _prev_pos="0 -2100 200" _prev_rot="-0 0 -0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="dummyfloor_002" position="0 -2100 200" rotation="-0 0 -0 -1" unit_id="200005"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="700 -1651 -200" _prev_rot="-0.707107 0 0 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_005" position="700 -1651 -200" rotation="-0.707107 0 0 -0.707107" unit_id="200006">
-				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.58824" render_template="diffuse_vc_decal" text="Bossfight Debug" vertical="center" word_wrap="false" wrap="false">
-					<shape>
-						<value_node value="0"/>
-						<value_node value="0"/>
-						<value_node value="1"/>
-						<value_node value="1"/>
-					</shape>
-				</editable_gui>
-			</unit_data>
-		</table>
-		<table>
-			<unit_data _prev_pos="600 -1651 -250" _prev_rot="-0.707107 0 0 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_006" position="600 -1651 -250" rotation="-0.707107 0 0 -0.707107" unit_id="200007">
-				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.58824" render_template="diffuse_vc_decal" text="Refund" vertical="center" word_wrap="false" wrap="false">
-					<shape>
-						<value_node value="0"/>
-						<value_node value="0"/>
-						<value_node value="1"/>
-						<value_node value="1"/>
-					</shape>
-				</editable_gui>
-			</unit_data>
-		</table>
-		<table>
-			<unit_data _prev_pos="800 -1651 -250" _prev_rot="-0.707107 0 0 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_007" position="800 -1651 -250" rotation="-0.707107 0 0 -0.707107" unit_id="200008">
-				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.58824" render_template="diffuse_vc_decal" text="Breakout" vertical="center" word_wrap="false" wrap="false">
-					<shape>
-						<value_node value="0"/>
-						<value_node value="0"/>
-						<value_node value="1"/>
-						<value_node value="1"/>
-					</shape>
-				</editable_gui>
-			</unit_data>
-		</table>
-		<table>
-			<unit_data _prev_pos="700 -1650 -300" _prev_rot="-0.707107 0 0 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enable" name="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" name_id="debug_button_refundgame" position="700 -1650 -300" rotation="-0.707107 0 0 -0.707107" unit_id="200009"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="900 -1650 -300" _prev_rot="-0.707107 0 0 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enable" name="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" name_id="debug_button_rescuepain" position="900 -1650 -300" rotation="-0.707107 0 0 -0.707107" unit_id="200010"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-500 -5325 0" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_008" position="-500 -5325 0" rotation="-0 0 -0 -1" unit_id="200011">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.58824" render_template="Text" text="BOSS FIGHT" vertical="center" word_wrap="false" wrap="false">
 					<shape>

@@ -4,9 +4,9 @@ GiantBoStateAttack._attack_distances = {
 	4300, 6000, 10000
 }
 GiantBoStateAttack._attack_map = {
-	{"breath_fire"},
-	{"throw_smoke", "throw_molotov"},
-	{"shoot_grenades"}
+	{"breath_fire", "shoot_grenades_close"},
+	{"throw_smoke_mid", "throw_molotov_mid", "shoot_grenades_mid"},
+	{"shoot_grenades_far", "throw_molotov_mid"}
 }
 
 function GiantBoStateAttack:enter(t)
