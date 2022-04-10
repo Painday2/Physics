@@ -5,7 +5,7 @@ GiantBoStateAttack._attack_distances = {
 }
 GiantBoStateAttack._attack_map = {
 	{"breath_fire", "shoot_grenades_close"},
-	{"throw_smoke_mid", "throw_molotov_mid", "shoot_grenades_mid"},
+	{"throw_smoke_mid", "throw_molotov_mid", "shoot_grenades_mid", "shoot_grenades_mid", "shoot_grenades_mid", "shoot_grenades_mid"},
 	{"shoot_grenades_far", "throw_molotov_mid"}
 }
 

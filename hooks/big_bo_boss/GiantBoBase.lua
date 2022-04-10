@@ -112,10 +112,10 @@ GiantBoBase._actions = {
 	}
 }
 
-GiantBoBase.health = 1000
+GiantBoBase.health = 7500
 
 GiantBoBase.shield_generator_count = 3
-GiantBoBase.shield_generator_health = 10
+GiantBoBase.shield_generator_health = GiantBoBase.health/10
 GiantBoBase.shield_generator_spin_speed = 10
 GiantBoBase.shield_generator_height = 1200
 
@@ -150,6 +150,18 @@ function GiantBoBase:init(unit)
 	}
 
 	self._last_health_percentage = 1
+
+	local players = Global.running_simulation and managers.editor:mission_player()
+	players = players or managers.network:session() and managers.network:session():amount_of_players()
+
+	log(players)
+
+	GiantBoBase.health = GiantBoBase.health * players
+
+	GiantBoBase.shield_generator_count = GiantBoBase.shield_generator_count * players
+
+	log(GiantBoBase.shield_generator_count)
+	log(GiantBoBase.health)
 
 	self._shield_generators = {}
 	self:spawn_shield_generators()

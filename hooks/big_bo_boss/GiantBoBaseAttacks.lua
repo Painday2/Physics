@@ -173,7 +173,7 @@ local bo_spawn_smoke = function(self, normal)
 	local rotation = self._unit:rotation()
 	local data = {
 		sound_event = "trip_mine_explode",
-		range = 150,
+		range = 225,
 		curve_pow = 3,
 		damage = 0,
 		fire_alert_radius = 1500,
@@ -208,7 +208,7 @@ local bo_spawn_fire = function(self, normal)
 	local rotation = self._unit:rotation()
 	local data = {
 		sound_event = "molotov_impact",
-		range = 250,
+		range = 300,
 		curve_pow = 3,
 		damage = 0,
 		fire_alert_radius = 1500,
@@ -287,10 +287,10 @@ function GiantBoBaseAttacks:shoot_grenade_left()
 		do_spread(direction, 20.0, 10.0)
 
 		local grenade = ProjectileBase.throw_projectile_npc("frag", position, direction * 1.7)
-		grenade:base()._timer = 5
-		grenade:base()._range = 2000
+		grenade:base()._timer = 7
+		grenade:base()._range = 2500
 		grenade:base()._damage = 0
-		grenade:base()._player_damage = 15
+		grenade:base()._player_damage = 10
 	end
 end
 
@@ -301,10 +301,10 @@ function GiantBoBaseAttacks:shoot_grenade_right()
 		do_spread(direction, 20.0, 10.0)
 
 		local grenade = ProjectileBase.throw_projectile_npc("frag", position, direction * 1.7)
-		grenade:base()._timer = 5
-		grenade:base()._range = 2000
+		grenade:base()._timer = 7
+		grenade:base()._range = 2500
 		grenade:base()._damage = 0
-		grenade:base()._player_damage = 15
+		grenade:base()._player_damage = 10
 	end
 end
 
@@ -315,10 +315,10 @@ function GiantBoBaseAttacks:shoot_grenade_close_left()
 		do_spread(direction, 20.0, 10.0)
 
 		local grenade = ProjectileBase.throw_projectile_npc("frag", position, direction * 0.6)
-		grenade:base()._timer = 5
-		grenade:base()._range = 2000
+		grenade:base()._timer = 7
+		grenade:base()._range = 2500
 		grenade:base()._damage = 0
-		grenade:base()._player_damage = 15
+		grenade:base()._player_damage = 10
 	end
 end
 
@@ -329,10 +329,10 @@ function GiantBoBaseAttacks:shoot_grenade_close_left()
 		do_spread(direction, 20.0, 10.0)
 
 		local grenade = ProjectileBase.throw_projectile_npc("frag", position, direction * 0.6)
-		grenade:base()._timer = 5
-		grenade:base()._range = 2000
+		grenade:base()._timer = 7
+		grenade:base()._range = 2500
 		grenade:base()._damage = 0
-		grenade:base()._player_damage = 15
+		grenade:base()._player_damage = 10
 	end
 end
 
@@ -343,10 +343,10 @@ function GiantBoBaseAttacks:shoot_grenade_mid_left()
 		do_spread(direction, 20.0, 10.0)
 
 		local grenade = ProjectileBase.throw_projectile_npc("frag", position, direction * 1)
-		grenade:base()._timer = 5
-		grenade:base()._range = 2000
+		grenade:base()._timer = 7
+		grenade:base()._range = 2500
 		grenade:base()._damage = 0
-		grenade:base()._player_damage = 15
+		grenade:base()._player_damage = 10
 	end
 end
 
@@ -357,9 +357,9 @@ function GiantBoBaseAttacks:shoot_grenade_mid_left()
 		do_spread(direction, 20.0, 10.0)
 
 		local grenade = ProjectileBase.throw_projectile_npc("frag", position, direction * 1)
-		grenade:base()._timer = 5
-		grenade:base()._range = 2000
+		grenade:base()._timer = 7
+		grenade:base()._range = 2500
 		grenade:base()._damage = 0
-		grenade:base()._player_damage = 15
+		grenade:base()._player_damage = 10
 	end
 end
