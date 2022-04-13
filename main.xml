@@ -28,7 +28,6 @@
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
 			<asset name="physics_citystreets_bypass"/>
-			<asset name="physics_citystreets_gammon"/>
 		</assets>
 		<hooks directory="hooks">
 			<hook file="tweakdata.lua" source_file="lib/tweak_data/tweakdata"/>

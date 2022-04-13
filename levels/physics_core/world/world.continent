@@ -12264,6 +12264,46 @@
 				</editable_gui>
 			</unit_data>
 		</table>
+		<table>
+			<unit_data _prev_pos="802.241 -1890.25 -308" _prev_rot="-6.90252e-031 -7.8886e-031 8.9407e-008 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/computer/computer_keyboard" name_id="computer_keyboard_002" position="802.241 -1840.25 -308" rotation="-6.90252e-031 -7.8886e-031 8.9407e-008 -1" unit_id="100376"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="750.671 -1844.36 -308" _prev_rot="0 0 -0.258819 -0.965926" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-51.5703 45.8906 -1.44716e-028" local_rot="-8.70904e-031 -5.8333e-031 0.258819 0.965926" mesh_variation="display_off" name="units/pd2_dlc_red/props/red_prop_monitor/red_prop_monitor" name_id="red_prop_monitor_004" position="750.671 -1794.36 -308" rotation="0 0 -0.258819 -0.965926" unit_id="104062"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="808.001 -1828 -308" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="5.75975 62.25 -7.68491e-029" local_rot="-6.90252e-031 -7.8886e-031 8.9407e-008 1" mesh_variation="display_off" name="units/pd2_dlc_red/props/red_prop_monitor/red_prop_monitor" name_id="red_prop_monitor_005" position="808.001 -1778 -308" rotation="0 0 0 -1" unit_id="104063"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="865.651 -1844.2 -308" _prev_rot="0 0 0.258819 -0.965926" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="63.4097 46.0498 3.64708e-029" local_rot="-4.6256e-031 -9.40631e-031 -0.258819 0.965926" mesh_variation="display_off" name="units/pd2_dlc_red/props/red_prop_monitor/red_prop_monitor" name_id="red_prop_monitor_006" position="865.651 -1794.2 -308" rotation="0 0 0.258819 -0.965926" unit_id="104064"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="818.001 -1816 -399" _prev_rot="7.8886e-031 -6.90252e-031 1 -8.9407e-008" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/desks/boss_desk" name_id="boss_desk_002" position="818.001 -1816 -399" rotation="7.8886e-031 -6.90252e-031 1 -8.9407e-008" unit_id="104065"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="851.531 -1888.08 -308" _prev_rot="-7.87313e-031 -6.92015e-031 -0.130526 -0.991445" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="49.2896 2.16993 7.47695e-029" local_rot="-5.43824e-037 -3.35016e-037 0.130526 0.991445" name="units/world/props/office/computer/computer_mouse" name_id="computer_mouse_002" position="851.531 -1838.08 -308" rotation="-7.87313e-031 -6.92015e-031 -0.130526 -0.991445" unit_id="104066"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="652.001 -1868 -308" _prev_rot="-6.90252e-031 -7.8886e-031 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-150.24 22.25 -2.67753e-028" local_rot="-7.05296e-038 6.17134e-038 8.9407e-008 1" name="units/pd2_dlc_red/props/red_prop_desk_lamp/red_prop_desk_lamp" name_id="red_prop_desk_lamp_002" position="652.001 -1818 -308" rotation="-6.90252e-031 -7.8886e-031 0 -1" unit_id="104067">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="4" far_range="50" multiplier="@ID18ceffa252d5a43d@" name="li_small" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="910.291 -1883.38 -308.159" _prev_rot="-3.35826e-031 -9.92959e-031 0.382683 -0.92388" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="108.05 6.87014 -0.158997" local_rot="-7.94074e-037 -6.11257e-037 -0.382683 0.92388" name="units/pd2_dlc_dark/props/drk_prop_hand_radio/drk_prop_hand_radio" name_id="drk_prop_hand_radio_002" position="910.291 -1833.38 -308.159" rotation="-3.35826e-031 -9.92959e-031 0.382683 -0.92388" unit_id="104068"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="941.161 -1860.54 -308" _prev_rot="-1.04589e-030 -6.97265e-032 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="138.92 29.71 1.78162e-028" local_rot="-4.70198e-037 2.35099e-037 0.707107 0.707107" name="units/world/props/office/desk_accessories/desk_folderpile_01" name_id="desk_folderpile_01_004" position="941.161 -1810.54 -308" rotation="-1.04589e-030 -6.97265e-032 -0.707107 -0.707107" unit_id="104069"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="974.641 -1868.32 -300" _prev_rot="9.92959e-031 -3.35826e-031 0.92388 0.382683" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="172.4 21.9302 8" local_rot="6.28252e-037 -7.52316e-037 -0.92388 -0.382683" name="units/world/props/office/desk_accessories/desk_folderpile_01" name_id="desk_folderpile_01_005" position="974.641 -1818.32 -300" rotation="9.92959e-031 -3.35826e-031 0.92388 0.382683" unit_id="104070"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="907.241 -1860.25 -400" _prev_rot="7.8886e-031 -6.90252e-031 1 8.9407e-008" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="105 30 -92" local_rot="-1.46936e-038 0 -1 0" name="units/world/props/office/computer/computer_case" name_id="computer_case_002" position="907.241 -1810.25 -400" rotation="7.8886e-031 -6.90252e-031 1 8.9407e-008" unit_id="104071"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="598.338 -1999.65 -400" _prev_rot="0 0 -0.258819 -0.965926" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/chair/office_chair_leather" name_id="office_chair_leather_001" position="598.338 -1999.65 -400" rotation="0 0 -0.382683 -0.92388" unit_id="104072"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

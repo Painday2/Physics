@@ -665,9 +665,101 @@
 		<unit path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case_green"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case_blue" type="unit">
-		<unit path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case_blue"/>
-		<object path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case_blue"/>
 		<material_config path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_case"/>
+		<object path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case_blue"/>
 		<sequence_manager path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case"/>
+		<unit path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case_blue"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/chair/office_chair_boss" type="unit">
+		<material_config path="units/world/props/office/chair/office_chair_boss"/>
+		<object path="units/world/props/office/chair/office_chair_boss"/>
+		<unit path="units/world/props/office/chair/office_chair_boss"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/chair/office_chair_leather" type="unit">
+		<material_config path="units/world/props/office/chair/office_chair_leather"/>
+		<object path="units/world/props/office/chair/office_chair_leather"/>
+		<unit path="units/world/props/office/chair/office_chair_leather"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/characters/civ_male_bain/civ_male_bain" type="unit">
+		<unit path="units/pd2_dlc_bph/characters/civ_male_bain/civ_male_bain"/>
+		<animation_states path="anims/units/enemies/cop/std"/>
+		<animation_states path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/std"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
+		<animation_subset path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/civ_male_bain/civ_male_bain_husk"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+		<material_config path="units/pd2_dlc_bph/characters/civ_male_bain/civ_male_bain"/>
+		<object path="units/pd2_dlc_bph/characters/civ_male_bain/civ_male_bain"/>
+		<sequence_manager path="units/payday2/characters/ragdoll"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/chair_office2" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/chair_office2"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/chair_office2"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/chair_office2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/furniture_chair03a" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/furniture_chair03a"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/furniture_chair03a"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/furniture_chair03a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_furniture/hotel_chair" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_furniture/hotel_chair"/>
+		<object path="units/pd2_dlc2/csgo_models/props_furniture/hotel_chair"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_furniture/hotel_chair"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/architecture/jry_diner/jry_prop_diner_chair" type="unit">
+		<material_config path="units/pd2_dlc_jerry/architecture/jry_diner/jry_prop_diner_chair"/>
+		<object path="units/pd2_dlc_jerry/architecture/jry_diner/jry_prop_diner_chair"/>
+		<unit path="units/pd2_dlc_jerry/architecture/jry_diner/jry_prop_diner_chair"/>
+	</add>
+	<add from_db="true" path="units/world/props/mansion/man_prop_int_armchair/man_prop_int_armchair" type="unit">
+		<material_config path="units/world/props/mansion/man_prop_int_armchair/man_prop_int_armchair"/>
+		<object path="units/world/props/mansion/man_prop_int_armchair/man_prop_int_armchair"/>
+		<unit path="units/world/props/mansion/man_prop_int_armchair/man_prop_int_armchair"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" type="unit">
+		<unit path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+		<animation_states path="anims/units/enemies/cop/std"/>
+		<animation_states path="anims/units/enemies/cop/civilian"/>
+		<object path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1"/>
+		<material_config path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1"/>
+		<sequence_manager path="units/payday2/characters/ragdoll"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_subset path="anims/units/enemies/cop/std"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
+		<animation_subset path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<bnk path="soundbanks/regular_vox"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1_husk"/>
 	</add>
 </table>
