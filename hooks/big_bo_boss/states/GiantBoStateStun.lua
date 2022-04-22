@@ -11,7 +11,7 @@ function GiantBoStateStun:enter(t)
 			type = "loot_bag",
 			id = "physics_flashbang",
 			velocity = 3,
-			amount = GiantBoBase.shield_generator_count
+			amount = self._unit:character_damage():shield_generator_count()
 		},
 		{
 			type = "throwable",

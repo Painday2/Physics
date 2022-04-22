@@ -90,12 +90,6 @@ GiantBoBase._actions = {
 	reset_shield_generator_health = {
 		func = "reset_shield_generator_health"
 	},
-	set_health_shielded = {
-		func = "set_health_shielded"
-	},
-	set_health_unshielded = {
-		func ="set_health_unshielded"
-	},
 	shield_enter = {
 		animation = "shield_enter",
 		length = 10/30
@@ -111,13 +105,6 @@ GiantBoBase._actions = {
 		func = "invincible_players"
 	}
 }
-
-GiantBoBase.health = 7500
-
-GiantBoBase.shield_generator_count = 3
-GiantBoBase.shield_generator_health = GiantBoBase.health/10
-GiantBoBase.shield_generator_spin_speed = 10
-GiantBoBase.shield_generator_height = 1200
 
 function GiantBoBase:init(unit)
 	GiantBoBase.super.init(self, unit, true)
@@ -149,22 +136,9 @@ function GiantBoBase:init(unit)
 		aggressiveness = 0
 	}
 
+	self._unit:character_damage():set_shield_generator_origin(self._state_data.origin)
+
 	self._last_health_percentage = 1
-
-	local players = Global.running_simulation and managers.editor:mission_player()
-	players = players or managers.network:session() and managers.network:session():amount_of_players()
-
-	log(players)
-
-	GiantBoBase.health = GiantBoBase.health * players
-
-	GiantBoBase.shield_generator_count = GiantBoBase.shield_generator_count * players
-
-	log(GiantBoBase.shield_generator_count)
-	log(GiantBoBase.health)
-
-	self._shield_generators = {}
-	self:spawn_shield_generators()
 
 	self._unit:character_damage():add_listener("giant_bo_take_damage", { "on_take_damage" }, callback(self, self, "_on_damage"))
 	self._unit:character_damage():add_listener("giant_bo_shield_generator_damage", { "on_take_shield_generator_damage" }, callback(self, self, "_on_shield_generator_damage"))
@@ -172,59 +146,13 @@ function GiantBoBase:init(unit)
 	self._attack_class = GiantBoBaseAttacks:new(unit, self)
 end
 
-local shield_generator_unit = Idstring("units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator")
-function GiantBoBase:spawn_shield_generators()
-	for i = 1, GiantBoBase.shield_generator_count do
-		local angle = 360 * i/GiantBoBase.shield_generator_count
-		local rotation = Rotation(angle, 0, 0)
-		local position = self:state_data().origin + Vector3(
-			math.sin(angle) * self:state_data().radius,
-			-math.cos(angle) * self:state_data().radius,
-			GiantBoBase.shield_generator_height
-		)
-
-		self._shield_generators[i] = World:spawn_unit(shield_generator_unit, position, rotation)
-		self._shield_generators[i]:character_damage():add_listener("shield_generator_take_damage", { "on_take_damage" }, function(unit, attacker, damage)
-			self._unit:character_damage():add_shield_generator_damage(attacker, damage, i)
-		end)
-
-		self._shield_generators[i]:set_enabled(false)
-		self._shield_generators[i]:effect_spawner(Idstring("laser")):kill_effect()
-	end
-end
-
 function GiantBoBase:_on_shield_generator_damage(unit, attacker_unit, damage, index)
-	local shield_generator_health_percentage = self._unit:character_damage():shield_generator_health_percentage(index)
-
-	if shield_generator_health_percentage == 0 then
-		self._shield_generators[index]:set_enabled(false)
-		self._shield_generators[index]:effect_spawner(Idstring("laser")):kill_effect()
-
-		World:effect_manager():spawn({
-			effect = Idstring("effects/phys/explosions/shield_generator"),
-			position = self._shield_generators[index]:position(),
-			normal = math.UP
-		})
-
-		self._shield_generators[index]:sound_source():post_event("trip_mine_explode")
-	end
-
 	if self._unit:character_damage():all_shield_generators_dead() then
 		self:set_state("idle", 0.3)
-		self._last_shield_generator_reset = nil
-		self._last_shield_generator_angle = nil
 	end
 end
 
 function GiantBoBase:reset_shield_generator_health()
-	for i = 1, GiantBoBase.shield_generator_count do
-		self._shield_generators[i]:set_enabled(true)
-		self._shield_generators[i]:effect_spawner(Idstring("laser")):activate()
-	end
-
-	self._last_shield_generator_reset = Application:time()
-	self._last_shield_generator_angle = 0
-
 	self._unit:character_damage():reset_shield_generator_health()
 end
 
@@ -236,8 +164,6 @@ function GiantBoBase:save(data)
 
 	data.current_angle = self:state_data().current_angle
 	data.target_angle = self:state_data().target_angle
-
-	data.last_shield_generator_angle = self._last_shield_generator_angle
 end
 
 function GiantBoBase:do_action(action)
@@ -283,28 +209,15 @@ function GiantBoBase:do_action_attack(unit, attack_index)
 end
 
 function GiantBoBase:show_health()
-	managers.hud:open_boss_health("GIANT BO")
+	self._unit:character_damage():set_health_display(true)
 end
 
 function GiantBoBase:hide_health()
-	managers.hud:close_boss_health()
-end
-
-function GiantBoBase:set_health_shielded()
-	managers.hud:set_boss_health_shield(true)
-end
-
-function GiantBoBase:set_health_unshielded()
-	managers.hud:set_boss_health_shield(false)
+	self._unit:character_damage():set_health_display(false)
 end
 
 function GiantBoBase:_on_damage(unit, attacker, damage)
-	if self._current_state == "dead" then return end
-	if self._current_state == "shield" then return end
-
 	local health_percentage = self._unit:character_damage():health_percentage()
-	managers.hud:set_boss_health(health_percentage)
-
 	self:state_data().aggressiveness = 1 - health_percentage
 
 	if health_percentage == 0 then
@@ -368,26 +281,6 @@ function GiantBoBase:update(unit, t, dt)
 
 	if self._states[self._current_state] then
 		self._states[self._current_state]:update(t, dt)
-	end
-
-	if self._last_shield_generator_reset then
-		local shield_generator_time = t - self._last_shield_generator_reset
-		local base_angle = (shield_generator_time * GiantBoBase.shield_generator_spin_speed) % 360
-
-		self._last_shield_generator_angle = base_angle
-
-		for i = 1, GiantBoBase.shield_generator_count do
-			local angle = base_angle + (360 * i/GiantBoBase.shield_generator_count)
-			local rotation = Rotation(angle, 0, 0)
-			local position = self:state_data().origin + Vector3(
-				math.sin(angle) * self:state_data().radius,
-				-math.cos(angle) * self:state_data().radius,
-				GiantBoBase.shield_generator_height
-			)
-
-			self._shield_generators[i]:set_rotation(rotation)
-			self._shield_generators[i]:set_position(position)
-		end
 	end
 
 	self._attack_class:update(t, dt)

@@ -38,7 +38,11 @@ end
 function CrappyPhysicsTurretSyncBase:do_hit(position, hit_generator)
 	if hit_generator then
 		managers.environment_controller:set_flashbang(self._unit:position(), true, nil, 1000, 1.5)
-		managers.player:player_unit():character_damage():on_flashbanged(1)
+
+		-- If the player unit doesn't exist (downed) then don't do this part.
+		if managers.player:player_unit() and alive(managers.player:player_unit()) then
+			managers.player:player_unit():character_damage():on_flashbanged(1)
+		end
 
 		if Network:is_server() then
 			for c_key, c_data in pairs(managers.enemy:all_enemies()) do
