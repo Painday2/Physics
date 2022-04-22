@@ -65,7 +65,6 @@ function PlayerTurret:_init_locators()
 		return
 	end
 
-	log("go do it nbitch")
 	self._unit:camera():play_redirect(self:get_animation("unequip"), 3)
 	self._unit:kill_mover()
 	self:_position_player()
