@@ -19,6 +19,7 @@
 		</sequence>
 
 		<sequence name="'died'" editable_state="false" triggable="true"/>
+		<sequence name="'credits_end'" editable_state="false" triggable="true"/>
 
 		<!-- <variables>
 			<var_direction value="0"/>

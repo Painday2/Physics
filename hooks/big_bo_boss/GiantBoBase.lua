@@ -106,6 +106,9 @@ GiantBoBase._actions = {
 	},
 	spew_ammo = {
 		func = "spew_ammo"
+	},
+	credits_end = {
+		sequence = "credits_end"
 	}
 }
 
@@ -291,7 +294,9 @@ function GiantBoBase:update(unit, t, dt)
 end
 
 function GiantBoBase:start_credits()
-	managers.hud:open_boworks_credits()
+	managers.hud:open_boworks_credits(function()
+		self:do_action("credits_end")
+	end)
 end
 
 function GiantBoBase:invincible_players()

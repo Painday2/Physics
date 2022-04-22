@@ -187,6 +187,7 @@
 		<br/>
 		<br/>
 		<text text="Thank you for playing you fucking asshole." type="title"/>
+		<command cmd="close"/>
 		<command cmd="speed" param="0.01"/>
 	<br/>
 </table>

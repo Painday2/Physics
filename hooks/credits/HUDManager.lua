@@ -3,8 +3,8 @@ function HUDManager:_create_boworks_credits(hud)
 	self._hud_boworks_credits = HUDBoworksCredits:new(hud)
 end
 
-function HUDManager:open_boworks_credits()
-	self._hud_boworks_credits:open()
+function HUDManager:open_boworks_credits(close_clbk)
+	self._hud_boworks_credits:open(close_clbk)
 end
 
 function HUDManager:close_boworks_credits()
