@@ -1,5 +1,4 @@
 <unit type="dev" slot="23">
-	<network sync="spawn"/>
 	<object file="units/pd2_mod_phys/projectiles/ammo_projectile/ammo_projectile"/>
 
 	<extensions>

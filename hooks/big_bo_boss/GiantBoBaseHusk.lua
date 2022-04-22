@@ -33,12 +33,7 @@ function GiantBoBaseHusk:init(unit)
 	}
 
 	self._unit:character_damage():set_shield_generator_origin(self._rotation_data.origin)
-
 	self._head = self._unit:get_object(Idstring("Head"))
-
-	self._sound = SoundDevice:create_source("giant_bo")
-	self._sound:link(self._head)
-	self._sound:set_switch("suppressed", "regular")
 
 	self._unit:character_damage():add_listener("giant_bo_take_damage", { "on_take_damage" }, callback(self, self, "_on_damage"))
 
@@ -165,8 +160,22 @@ function GiantBoBaseHusk:start_credits()
 	managers.hud:open_boworks_credits()
 end
 
-function GiantBoBase:invincible_players()
+function GiantBoBaseHusk:invincible_players()
 	managers.player:player_unit():character_damage():set_invulnerable(true)
+end
+
+local ammo_unit = Idstring("units/pd2_mod_phys/projectiles/ammo_projectile/ammo_projectile")
+function GiantBoBaseHusk:spew_ammo()
+	local position = self._head:position() + Vector3(0, 0, 1000)
+	local rotation = self._head:rotation()
+	local direction = Rotation(math.random(1, 360), 0, 0):y() * 2
+
+	local unit = World:spawn_unit(ammo_unit, position, Rotation(direction, math.UP))
+
+	unit:base():throw({
+		dir = direction,
+		projectile_entry = "ammo_projectile"
+	})
 end
 
 if not Network:is_server() then

@@ -14,10 +14,9 @@ function GiantBoStateStun:enter(t)
 			amount = self._unit:character_damage():shield_generator_count()
 		},
 		{
-			type = "throwable",
-			id = "ammo_projectile",
-			velocity = 2,
-			amount = 30
+			type = "action",
+			id = "spew_ammo",
+			amount = 30 -- We spawn ammo clientsided so there is always enough for each player.
 		}
 	}
 
@@ -42,14 +41,18 @@ function GiantBoStateStun:launch_loot()
 		if item.amount and item.amount > 0 then
 			item.amount = item.amount - 1
 
-			local position = self._head:position() + Vector3(0, 0, 1000)
-			local rotation = self._head:rotation()
-			local direction = Rotation(math.random(1, 360), 0, 0):y() * (item.velocity or 1)
+			if item.type == "action" then
+				self._base:do_action(item.id)
+			else
+				local position = self._head:position() + Vector3(0, 0, 1000)
+				local rotation = self._head:rotation()
+				local direction = Rotation(math.random(1, 360), 0, 0):y() * (item.velocity or 1)
 
-			if item.type == "loot_bag" and item.id then
-				managers.player:server_drop_carry(item.id, 1, true, false, 1, position, rotation, direction, 0, nil, nil)
-			elseif item.type == "throwable" and item.id then
-				ProjectileBase.throw_projectile_npc(item.id, position, direction)
+				if item.type == "loot_bag" and item.id then
+					managers.player:server_drop_carry(item.id, 1, true, false, 1, position, rotation, direction, 0, nil, nil)
+				elseif item.type == "throwable" and item.id then
+					ProjectileBase.throw_projectile_npc(item.id, position, direction)
+				end
 			end
 
 			dropped_loot = true

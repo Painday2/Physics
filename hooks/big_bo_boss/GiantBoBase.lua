@@ -103,6 +103,9 @@ GiantBoBase._actions = {
 	},
 	invincible_players = {
 		func = "invincible_players"
+	},
+	spew_ammo = {
+		func = "spew_ammo"
 	}
 }
 
@@ -137,6 +140,7 @@ function GiantBoBase:init(unit)
 	}
 
 	self._unit:character_damage():set_shield_generator_origin(self._state_data.origin)
+	self._head = self._unit:get_object(Idstring("Head"))
 
 	self._last_health_percentage = 1
 
@@ -292,4 +296,18 @@ end
 
 function GiantBoBase:invincible_players()
 	managers.player:player_unit():character_damage():set_invulnerable(true)
+end
+
+local ammo_unit = Idstring("units/pd2_mod_phys/projectiles/ammo_projectile/ammo_projectile")
+function GiantBoBase:spew_ammo()
+	local position = self._head:position() + Vector3(0, 0, 1000)
+	local rotation = self._head:rotation()
+	local direction = Rotation(math.random(1, 360), 0, 0):y() * 2
+
+	local unit = World:spawn_unit(ammo_unit, position, Rotation(direction, math.UP))
+
+	unit:base():throw({
+		dir = direction,
+		projectile_entry = "ammo_projectile"
+	})
 end

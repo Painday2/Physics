@@ -4,6 +4,4 @@ Hooks:PostHook(BlackMarketTweakData, "_init_projectiles", "projectiles_init_bowo
 		unit = "units/pd2_mod_phys/projectiles/ammo_projectile/ammo_projectile",
 		no_cheat_count = true
 	}
-
-	table.insert(self._projectiles_index, "ammo_projectile")
 end)
