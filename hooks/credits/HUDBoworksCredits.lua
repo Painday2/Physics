@@ -81,7 +81,7 @@ local fades = {
 		sustain = 0,
 		play_paused = false,
 		fade_in = 2,
-		fade_out = 2,
+		fade_out = 5,
 		sustain = 300,
 		color = Color(1, 0, 0, 0),
 		timer = TimerManager:main()
@@ -372,7 +372,8 @@ function HUDBoworksCredits:close()
 		if self._black_effect then
 			managers.overlay_effect:fade_out_effect(self._black_effect)
 		end
-		managers.music:stop()
+
+		managers.music:post_event(tweak_data.levels:get_music_event("control"))
 
 		self._boworks_credit_panel:set_visible(false)
 

@@ -12304,6 +12304,297 @@
 		<table>
 			<unit_data _prev_pos="598.338 -1999.65 -400" _prev_rot="0 0 -0.258819 -0.965926" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/chair/office_chair_leather" name_id="office_chair_leather_001" position="598.338 -1999.65 -400" rotation="0 0 -0.382683 -0.92388" unit_id="104072"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="12400 8000 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" name_id="mkp_floor_4x4m_001" position="12400 7975 0" rotation="0 0 -0.707107 -0.707107" unit_id="104073"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12400 8400 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-400 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" name_id="mkp_floor_4x4m_002" position="12400 8375 0" rotation="0 0 -0.707107 -0.707107" unit_id="104074"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12400 8800 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" name_id="mkp_floor_4x4m_003" position="12400 8775 0" rotation="0 0 -0.707107 -0.707107" unit_id="104075"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13200 7800 0" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="400 1000 -10" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_113" position="12600 9200 0" rotation="0 0 -0.707107 -0.707107" unit_id="104076"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13200 8400 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-200 1000 -10" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" name_id="mkp_wall_int_4m_door_b_001" position="12000 9200 0" rotation="0 0 -0 -1" unit_id="104077"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12400 8800 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_132" position="12400 8775 0" rotation="0 0 -0.707107 -0.707107" unit_id="104078"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12400 8400 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-400 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_134" position="12400 8375 0" rotation="0 0 -0.707107 -0.707107" unit_id="104079"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12400 8000 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_138" position="12400 7975 0" rotation="0 0 -0.707107 -0.707107" unit_id="104080"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12000 9200 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="400 400 0" local_rot="0 0 -1 0" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_140" position="12000 9175 0" rotation="0 0 0.707107 -0.707107" unit_id="104081"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12000 8800 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 400 0" local_rot="0 0 -1 0" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_142" position="12000 8775 0" rotation="0 0 0.707107 -0.707107" unit_id="104082"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12000 8400 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-400 400 0" local_rot="0 0 -1 0" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_144" position="12000 8375 0" rotation="0 0 0.707107 -0.707107" unit_id="104083"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12000 8000 0" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 400 0" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m_door_b" name_id="mkp_wall_int_4m_door_b_002" position="12000 7975 0" rotation="0 0 0 -1" unit_id="104084"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12200 7992 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fex/architecture/ext/fex_facade/fex_door_05" name_id="fex_door_05_001" position="12200 7967 0" rotation="0 0 -0.707107 -0.707107" unit_id="104085"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13183 8200 0" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 983 -10" local_rot="0 0 0.707107 0.707107" mesh_variation="" name="units/pd2_dlc_fex/architecture/ext/fex_facade/fex_door_03" name_id="fex_door_03_001" position="12200 9183 0" rotation="0 0 -0.707107 -0.707107" unit_id="104086"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11700 9174 250" _prev_rot="-0.707107 0 0 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_003" position="11700 9174 250" rotation="-0.707107 0 0 -0.707107" unit_id="104087">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.79855" render_template="diffuse_vc_decal" text="Bo's Actual Real Office" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="12400 8000 325" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 0 325" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" name_id="mkp_floor_4x4m_004" position="12400 7975 325" rotation="0 0 -0.707107 -0.707107" unit_id="104088"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12400 8400 325" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-400 0 325" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" name_id="mkp_floor_4x4m_005" position="12400 8375 325" rotation="0 0 -0.707107 -0.707107" unit_id="104089"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12400 8800 325" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 325" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" name_id="mkp_floor_4x4m_006" position="12400 8775 325" rotation="0 0 -0.707107 -0.707107" unit_id="104090"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13200 8000 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 1000 -10" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" name_id="mkp_wall_int_2m_001" position="12400 9200 0" rotation="0 0 -0 -1" unit_id="104091"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13200 8600 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-400 1000 -10" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_2m" name_id="mkp_wall_int_2m_002" position="11800 9200 0" rotation="0 0 -0 -1" unit_id="104092"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11800 9600 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_155" position="11800 9600 0" rotation="0 0 0.707107 -0.707107" unit_id="104093"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12400 7575 0" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" name_id="mkp_floor_4x4m_007" position="12400 7975 0" rotation="0.5 -0.5 -0.5 -0.5" unit_id="104094"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13200 7800 0" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="400 1000 -10" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_157" position="12600 9200 0" rotation="0 0 -0.707107 -0.707107" unit_id="104096"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13600 7800 0" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="400 1400 -10" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_158" position="12600 9600 0" rotation="0 0 -0.707107 -0.707107" unit_id="104097"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14000 7800 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="400 1800 -10" local_rot="0 0 -1 0" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_159" position="12600 10000 0" rotation="0 0 -1 0" unit_id="104098"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14000 8200 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 1800 -10" local_rot="0 0 -1 0" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_160" position="12200 10000 0" rotation="0 0 -1 0" unit_id="104099"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13200 7800 425" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="400 1000 415" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_148" position="12600 9200 425" rotation="0 0 -0.707107 -0.707107" unit_id="104100"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13675 8200 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 1475 -10" local_rot="0 0 -1 0" name="units/pd2_dlc_vit/props/vit_prop_oval_office_desk/vit_prop_oval_office_desk" name_id="vit_prop_oval_office_desk_001" position="12200 9675 0" rotation="0 0 -1 0" unit_id="104101"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13216 7950 15" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="250 1016 5" local_rot="0 0 -1 0" mesh_variation="open" name="units/pd2_mod_phys/props/phys_fold_out_bed_large" name_id="phys_fold_out_bed_large_002" position="12450 9216 15" rotation="0 0 -1 0" unit_id="104102"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13721 8200 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 1521 -10" local_rot="0 0 0 1" name="units/pd2_dlc_vit/props/vit_prop_oval_office_desk_chair_pad/vit_prop_oval_office_desk_chair_pad" name_id="vit_prop_oval_office_desk_chair_pad_001" position="12200 9721 0" rotation="0 0 -0 -1" unit_id="104103"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13305.6 8602.07 -99" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1105.6 -109" local_rot="0 0 0 1" mesh_variation="street" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_001" position="11797.9 9305.6 -99" rotation="0 0 -0 -1" unit_id="104104"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13363.6 8602.07 -11" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1163.6 -21" local_rot="0 0 0 1" mesh_variation="apartment" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_002" position="11797.9 9363.6 -11" rotation="0 0 -0 -1" unit_id="104105"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13305.6 8602.07 77" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1105.6 67" local_rot="0 0 0 1" mesh_variation="street" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_003" position="11797.9 9305.6 77" rotation="0 0 -0 -1" unit_id="104106"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13363.6 8602.07 165" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1163.6 155" local_rot="0 0 0 1" mesh_variation="apartment" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_004" position="11797.9 9363.6 165" rotation="0 0 -0 -1" unit_id="104107"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13305.6 8602.07 250" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1105.6 240" local_rot="0 0 0 1" mesh_variation="street" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_005" position="11797.9 9305.6 250" rotation="0 0 -0 -1" unit_id="104108"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13392.6 8602.07 -99" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1192.6 -109" local_rot="0 0 0 1" mesh_variation="apartment" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_031" position="11797.9 9392.6 -99" rotation="0 0 -0 -1" unit_id="104134"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13274.6 8602.07 -11" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1074.6 -21" local_rot="0 0 0 1" mesh_variation="street" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_032" position="11797.9 9274.6 -11" rotation="0 0 -0 -1" unit_id="104109"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13392.6 8602.07 77" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1192.6 67" local_rot="0 0 0 1" mesh_variation="apartment" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_033" position="11797.9 9392.6 77" rotation="0 0 -0 -1" unit_id="104110"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13275.6 8602.07 165" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1075.6 155" local_rot="0 0 0 1" mesh_variation="street" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_034" position="11797.9 9275.6 165" rotation="0 0 -0 -1" unit_id="104111"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13392.6 8602.07 253" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1192.6 243" local_rot="0 0 0 1" mesh_variation="apartment" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_035" position="11797.9 9392.6 253" rotation="0 0 -0 -1" unit_id="104112"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13481.6 8602.07 -99" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1281.6 -109" local_rot="0 0 0 1" mesh_variation="office" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_006" position="11797.9 9481.6 -99" rotation="0 0 -0 -1" unit_id="104113"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13568.6 8602.07 -99" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1368.6 -109" local_rot="0 0 0 1" mesh_variation="forest" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_036" position="11797.9 9568.6 -99" rotation="0 0 -0 -1" unit_id="104114"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13539.6 8602.07 -11" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1339.6 -21" local_rot="0 0 0 1" mesh_variation="office" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_007" position="11797.9 9539.6 -11" rotation="0 0 -0 -1" unit_id="104115"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13450.6 8602.07 -11" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1250.6 -21" local_rot="0 0 0 1" mesh_variation="forest" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_037" position="11797.9 9450.6 -11" rotation="0 0 -0 -1" unit_id="104116"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13481.6 8602.07 77" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1281.6 67" local_rot="0 0 0 1" mesh_variation="forest" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_008" position="11797.9 9481.6 77" rotation="0 0 -0 -1" unit_id="104117"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13568.6 8602.07 77" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1368.6 67" local_rot="0 0 0 1" mesh_variation="office" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_038" position="11797.9 9568.6 77" rotation="0 0 -0 -1" unit_id="104118"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13539.6 8602.07 165" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1339.6 155" local_rot="0 0 0 1" mesh_variation="office" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_009" position="11797.9 9539.6 165" rotation="0 0 -0 -1" unit_id="104119"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13451.6 8602.07 165" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1251.6 155" local_rot="0 0 0 1" mesh_variation="forest" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_039" position="11797.9 9451.6 165" rotation="0 0 -0 -1" unit_id="104120"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13481.6 8602.07 250" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1281.6 240" local_rot="0 0 0 1" mesh_variation="office" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_010" position="11797.9 9481.6 250" rotation="0 0 -0 -1" unit_id="104121"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13568.6 8602.07 253" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1368.6 243" local_rot="0 0 0 1" mesh_variation="forest" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_040" position="11797.9 9568.6 253" rotation="0 0 -0 -1" unit_id="104122"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13656.6 8602.07 -99" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1456.6 -109" local_rot="0 0 0 1" mesh_variation="street" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_011" position="11797.9 9656.6 -99" rotation="0 0 -0 -1" unit_id="104123"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13743.6 8602.07 -99" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1543.6 -109" local_rot="0 0 0 1" mesh_variation="apartment" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_041" position="11797.9 9743.6 -99" rotation="0 0 -0 -1" unit_id="104124"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13714.6 8602.07 -11" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1514.6 -21" local_rot="0 0 0 1" mesh_variation="apartment" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_012" position="11797.9 9714.6 -11" rotation="0 0 -0 -1" unit_id="104125"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13625.6 8602.07 -11" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1425.6 -21" local_rot="0 0 0 1" mesh_variation="street" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_042" position="11797.9 9625.6 -11" rotation="0 0 -0 -1" unit_id="104126"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13656.6 8602.07 77" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1456.6 67" local_rot="0 0 0 1" mesh_variation="street" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_013" position="11797.9 9656.6 77" rotation="0 0 -0 -1" unit_id="104127"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13743.6 8602.07 77" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1543.6 67" local_rot="0 0 0 1" mesh_variation="apartment" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_043" position="11797.9 9743.6 77" rotation="0 0 -0 -1" unit_id="104128"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13714.6 8602.07 165" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1514.6 155" local_rot="0 0 0 1" mesh_variation="apartment" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_014" position="11797.9 9714.6 165" rotation="0 0 -0 -1" unit_id="104129"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13626.6 8602.07 165" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1426.6 155" local_rot="0 0 0 1" mesh_variation="street" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_044" position="11797.9 9626.6 165" rotation="0 0 -0 -1" unit_id="104130"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13656.6 8602.07 250" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1456.6 240" local_rot="0 0 0 1" mesh_variation="street" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_015" position="11797.9 9656.6 250" rotation="0 0 -0 -1" unit_id="104131"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13743.6 8602.07 253" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1543.6 243" local_rot="0 0 0 1" mesh_variation="apartment" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_045" position="11797.9 9743.6 253" rotation="0 0 -0 -1" unit_id="104132"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13832.6 8602.07 -99" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1632.6 -109" local_rot="0 0 0 1" mesh_variation="forest" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_016" position="11797.9 9832.6 -99" rotation="0 0 -0 -1" unit_id="104133"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13919.6 8602.07 -99" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1719.6 -109" local_rot="0 0 0 1" mesh_variation="office" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_046" position="11797.9 9919.6 -99" rotation="0 0 -0 -1" unit_id="104135"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13890.6 8602.07 -11" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1690.6 -21" local_rot="0 0 0 1" mesh_variation="office" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_017" position="11797.9 9890.6 -11" rotation="0 0 -0 -1" unit_id="104136"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13801.6 8602.07 -11" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1601.6 -21" local_rot="0 0 0 1" mesh_variation="forest" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_047" position="11797.9 9801.6 -11" rotation="0 0 -0 -1" unit_id="104137"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13832.6 8602.07 77" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1632.6 67" local_rot="0 0 0 1" mesh_variation="forest" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_018" position="11797.9 9832.6 77" rotation="0 0 -0 -1" unit_id="104138"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13919.6 8602.07 77" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1719.6 67" local_rot="0 0 0 1" mesh_variation="office" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_048" position="11797.9 9919.6 77" rotation="0 0 -0 -1" unit_id="104139"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13890.6 8602.07 165" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1690.6 155" local_rot="0 0 0 1" mesh_variation="office" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_019" position="11797.9 9890.6 165" rotation="0 0 -0 -1" unit_id="104140"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13802.6 8602.07 165" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1602.6 155" local_rot="0 0 0 1" mesh_variation="forest" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_049" position="11797.9 9802.6 165" rotation="0 0 -0 -1" unit_id="104141"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13832.6 8602.07 250" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1632.6 240" local_rot="0 0 0 1" mesh_variation="forest" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_four_wall" name_id="gen_prop_security_monitors_four_wall_020" position="11797.9 9832.6 250" rotation="0 0 -0 -1" unit_id="104142"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13919.6 8602.07 253" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-402.07 1719.6 243" local_rot="0 0 0 1" mesh_variation="office" name="units/payday2/props/gen_prop_security_monitors/gen_prop_security_monitors_two_wall" name_id="gen_prop_security_monitors_four_wall_050" position="11797.9 9919.6 253" rotation="0 0 -0 -1" unit_id="104143"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12196.2 9645.5 92.535" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" name_id="bo_secret_documents" position="12196.2 9645.5 92.535" rotation="0 0 -0.707107 -0.707107" unit_id="104144"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11800 9600 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="mkp_wall_int_4m_156" position="11800 10000 0" rotation="0 0 0.707107 -0.707107" unit_id="104095"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12200 10000 150" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enable" name="units/pd2_dlc_chas/props/chas_prop_lever/chas_prop_lever" name_id="vr_shutdown_lever" position="12200 10000 150" rotation="-0 0 -0 -1" unit_id="104145"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11700 9998 250" _prev_rot="-0.707107 0 0 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_008" position="11700 9998 250" rotation="-0.707107 0 0 -0.707107" unit_id="104146">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.8" render_template="diffuse_vc_decal" text="Master VR Shutdown Switch" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="11700 9998 215" _prev_rot="-0.707107 0 0 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_009" position="11700 9998 200" rotation="-0.707107 0 0 -0.707107" unit_id="104147">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.8" render_template="diffuse_vc_decal" text="\/" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="12100 9998 114" _prev_rot="-0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_005" position="12100 9998 114" rotation="-0.707107 0 0 -0.707107" unit_id="104148">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 0" font_size="1.01" render_template="diffuse_vc_decal" text="WARNING: THIS WILL REFUND EVERYONE" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="12222.3 9998 178.193" _prev_rot="-0.701057 -0.092296 0.092296 -0.701057" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_006" position="12222.3 9998 176.193" rotation="-0.701057 -0.092296 0.092296 -0.701057" unit_id="104149">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 0 0" font_size="2.30066" render_template="diffuse_vc_decal" text="!! DO NOT PULL !!" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="11987.3 9998 153.193" _prev_rot="-0.701057 0.092296 -0.0922959 -0.701057" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_007" position="11987.3 9998 153.193" rotation="-0.701057 0.092296 -0.0922959 -0.701057" unit_id="104150">
+				<editable_gui align="center" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 0 0" font_size="2.30066" render_template="diffuse_vc_decal" text="!! DO NOT PULL !!" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="12400 7975 0" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_4x4m" name_id="mkp_floor_4x4m_008" position="12400 9200 0" rotation="0.5 -0.5 -0.5 -0.5" unit_id="104151"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

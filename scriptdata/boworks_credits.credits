@@ -170,24 +170,38 @@
 		<text text="wekk" type="name"/>
 		<text text="Writing, Custom Faction Textures" type="image-text"/>
 		<br/>
-
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<text text="Thank you for playing you fucking asshole." type="title"/>
-		<command cmd="close"/>
-		<command cmd="speed" param="0.01"/>
 	<br/>
+
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<text text="Thank you for playing you fucking asshole." type="title"/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<command cmd="close"/>
 </table>
