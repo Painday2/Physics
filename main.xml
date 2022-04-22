@@ -130,6 +130,7 @@
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="MissionManager.lua" source_file="lib/managers/missionmanager"/>
+			<hook file="ElementRelativeTeleport.lua" source_file="lib/managers/missionmanager"/><!-- REMOVE THIS WHEN BEARDLIB UPDATES TO FIX THIS!!!!!!!!!!!!! -->
 			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 			<hook file="copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
 			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
