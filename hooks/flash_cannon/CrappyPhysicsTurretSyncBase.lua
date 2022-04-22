@@ -37,7 +37,10 @@ end
 
 function CrappyPhysicsTurretSyncBase:do_hit(position, hit_generator)
 	if hit_generator then
-		managers.environment_controller:set_flashbang(self._unit:position(), true, nil, 1000, 1.5)
+		local env_controller = managers.environment_controller
+		env_controller._flashbang_duration = 1
+		env_controller._current_flashbang = env_controller._flashbang_duration
+		env_controller._current_flashbang_flash = env_controller._flashbang_duration
 
 		-- If the player unit doesn't exist (downed) then don't do this part.
 		if managers.player:player_unit() and alive(managers.player:player_unit()) then
