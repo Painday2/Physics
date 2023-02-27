@@ -18,101 +18,26 @@
 			<function extension="'base'" function="'activate'"/>
 		</sequence>
 
-		<sequence name="'died'" editable_state="false" triggable="true"/>
-		<sequence name="'credits_end'" editable_state="false" triggable="true"/>
-
-		<!-- <variables>
-			<var_direction value="0"/>
-		</variables>
-
-		<filter name="'facing_pos_y'">
-			<check value="vars.var_direction == 0"/>
-		</filter>
-		<filter name="'facing_pos_x'">
-			<check value="vars.var_direction == 1"/>
-		</filter>
-		<filter name="'facing_neg_y'">
-			<check value="vars.var_direction == 2"/>
-		</filter>
-		<filter name="'facing_neg_x'">
-			<check value="vars.var_direction == 3"/>
-		</filter> -->
-
-		<!-- Movement -->
-			<!-- <sequence name="'anim_turn_left'">
-				<animation_redirect name="'turn_left'"/>
-			</sequence>
-
-			<sequence name="'anim_turn_right'">
-				<animation_redirect name="'turn_right'"/>
-			</sequence>
-
-			<sequence name="'anim_turn_180'">
-				<animation_redirect name="'turn_180'"/>
-			</sequence>
-
-			<sequence editable_state="true" name="'anim_face_pos_y'" triggable="true">
-				<run_sequence filter="'facing_pos_x'" name="'anim_turn_right'"/>
-				<run_sequence filter="'facing_neg_y'" name="'anim_turn_180'"/>
-				<run_sequence filter="'facing_neg_x'" name="'anim_turn_left'"/>
-
-				<set_variables var_direction="0"/>
-			</sequence>
-
-			<sequence editable_state="true" name="'anim_face_pos_x'" triggable="true">
-				<run_sequence filter="'facing_pos_y'" name="'anim_turn_left'"/>
-				<run_sequence filter="'facing_neg_y'" name="'anim_turn_right'"/>
-				<run_sequence filter="'facing_neg_x'" name="'anim_turn_180'"/>
-
-				<set_variables var_direction="1"/>
-			</sequence>
-
-			<sequence editable_state="true" name="'anim_face_neg_y'" triggable="true">
-				<run_sequence filter="'facing_pos_y'" name="'anim_turn_180'"/>
-				<run_sequence filter="'facing_pos_x'" name="'anim_turn_left'"/>
-				<run_sequence filter="'facing_neg_x'" name="'anim_turn_right'"/>
-
-				<set_variables var_direction="2"/>
-			</sequence>
-
-			<sequence editable_state="true" name="'anim_face_neg_x'" triggable="true">
-				<run_sequence filter="'facing_pos_y'" name="'anim_turn_right'"/>
-				<run_sequence filter="'facing_pos_x'" name="'anim_turn_180'"/>
-				<run_sequence filter="'facing_neg_y'" name="'anim_turn_left'"/>
-
-				<set_variables var_direction="3"/>
-			</sequence> -->
-
-		<!-- Actions -->
-			<!-- Start/End -->
-<!-- 				<sequence editable_state="true" name="'anim_intro'" triggable="true">
-					<animation_redirect name="'intro'"/>
-				</sequence>
-
-				<sequence editable_state="true" name="'anim_defeat'" triggable="true">
-					<animation_redirect name="'defeat'"/>
-				</sequence> -->
-
-			<!-- Attacks -->
-<!-- 				<sequence editable_state="true" name="'anim_shoot_grenades'" triggable="true">
-					<animation_redirect name="'shoot_grenades'"/>
-				</sequence>
-
-				<sequence editable_state="true" name="'anim_breath_fire'" triggable="true">
-					<animation_redirect name="'breath_fire'"/>
-				</sequence>
-
-				<sequence editable_state="true" name="'anim_throw_molotov'" triggable="true">
-					<animation_redirect name="'throw_molotov'"/>
-				</sequence>
-
-				<sequence editable_state="true" name="'anim_throw_smoke'" triggable="true">
-					<animation_redirect name="'throw_smoke'"/>
-				</sequence> -->
-
-			<!-- Stun -->
-<!-- 				<sequence editable_state="true" name="'anim_stun'" triggable="true">
-					<animation_redirect name="'stun'"/>
-				</sequence> -->
+		<!-- Matches `GiantBoBase._actions` -->
+		<sequence name="'intro'"                         editable_state="false" triggable="true"/>
+		<sequence name="'breath_fire'"                   editable_state="false" triggable="true"/>
+		<sequence name="'throw_smoke_mid'"               editable_state="false" triggable="true"/>
+		<sequence name="'throw_smoke_sides'"             editable_state="false" triggable="true"/>
+		<sequence name="'throw_molotov_mid'"             editable_state="false" triggable="true"/>
+		<sequence name="'throw_molotov_sides'"           editable_state="false" triggable="true"/>
+		<sequence name="'shoot_grenades_close'"          editable_state="false" triggable="true"/>
+		<sequence name="'shoot_grenades_mid'"            editable_state="false" triggable="true"/>
+		<sequence name="'shoot_grenades_far'"            editable_state="false" triggable="true"/>
+		<sequence name="'stun'"                          editable_state="false" triggable="true"/>
+		<sequence name="'death'"                         editable_state="false" triggable="true"/>
+		<sequence name="'show_health'"                   editable_state="false" triggable="true"/>
+		<sequence name="'hide_health'"                   editable_state="false" triggable="true"/>
+		<sequence name="'reset_shield_generator_health'" editable_state="false" triggable="true"/>
+		<sequence name="'shield_enter'"                  editable_state="false" triggable="true"/>
+		<sequence name="'shield_exit'"                   editable_state="false" triggable="true"/>
+		<sequence name="'start_credits'"                 editable_state="false" triggable="true"/>
+		<sequence name="'invincible_players'"            editable_state="false" triggable="true"/>
+		<sequence name="'spew_ammo'"                     editable_state="false" triggable="true"/>
+		<sequence name="'credits_end'"                   editable_state="false" triggable="true"/>
 	</unit>
 </table>

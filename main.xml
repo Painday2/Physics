@@ -41,6 +41,7 @@
 			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="PlayerCamera.lua" source_file="lib/units/beings/player/playercamera"/>
 		</hooks>
 		<outro_event>
 			<value_node value="phys_d1_debriefing_01"/>
@@ -460,6 +461,7 @@
 			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="PlayerCamera.lua" source_file="lib/units/beings/player/playercamera"/>
 		</hooks>
 		<packages>
 			<value_node value="levels/narratives/bain/rvd/stage1/world_sounds"/>
@@ -705,6 +707,7 @@
 			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="PlayerCamera.lua" source_file="lib/units/beings/player/playercamera"/>
 			<hooks directory="big_bo_boss">
 				<hook file="GiantBoState.lua" source_file="lib/units/vehicles/animatedvehiclebase"/>
 

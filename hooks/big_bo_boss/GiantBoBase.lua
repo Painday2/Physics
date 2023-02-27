@@ -78,7 +78,6 @@ GiantBoBase._actions = {
 	},
 	death = {
 		animation = "stun",
-		sequence = "died",
 		length = 145/30
 	},
 	show_health = {
@@ -107,9 +106,7 @@ GiantBoBase._actions = {
 	spew_ammo = {
 		func = "spew_ammo"
 	},
-	credits_end = {
-		sequence = "credits_end"
-	}
+	credits_end = {}
 }
 
 function GiantBoBase:init(unit)
@@ -191,7 +188,12 @@ function GiantBoBase:do_action(action)
 		self._unit:anim_state_machine():set_speed(result, speed_multiplier)
 	end
 
-	if action_data.sequence then
+	local unit_damage = self._unit:damage()
+	if unit_damage:has_sequence(action) then
+		self._unit:damage():run_sequence(action)
+	end
+
+	if action_data.sequence and unit_damage:has_sequence(action_data.sequence) then
 		self._unit:damage():run_sequence(action_data.sequence)
 	end
 
