@@ -11,7 +11,7 @@
 
 	<material name="mtr_shield" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM:SKINNED_3WEIGHTS" version="2">
 		<diffuse_texture 		file="units/pd2_mod_phys/characters/giant_bo/giant_bo_shield"/>
-		<variable 				type="vector3" 	name="uv0_speed" 	value="0.05 0.05 0"/>
+		<variable 				type="vector3" 	name="uv0_speed" 	value="0.05 0.04 0"/>
 		<variable 				type="scalar" 	name="intensity" 	value="searchlight"/>
 	</material>
 
