@@ -1,6 +1,7 @@
 GiantBoShieldGeneratorDamage = GiantBoShieldGeneratorDamage or class()
 GiantBoShieldGeneratorDamage.SHIELD_GENERATOR = true
 
+local nda_unit = Idstring("units/pd2_mod_phys/props/nda_player_blockers/nda_wall_4x3m")
 function GiantBoShieldGeneratorDamage:init(unit)
 	self._unit = unit
 

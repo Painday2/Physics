@@ -111,9 +111,9 @@ end
 
 function HUDBossHealth:set_shielded(state)
 	if state then
-		self._health_bar:animate(callback(self, self, "_animate_change_color"), Color.red, Color(0, 1, 1))
+		self._health_bar:animate(callback(self, self, "_animate_change_color"), Color.red, Color(0.2, 0, 0))
 	else
-		self._health_bar:animate(callback(self, self, "_animate_change_color"), Color(0, 1, 1), Color.red)
+		self._health_bar:animate(callback(self, self, "_animate_change_color"), Color(0.2, 0, 0), Color.red)
 	end
 end
 

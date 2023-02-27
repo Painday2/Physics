@@ -10,27 +10,42 @@
 	<bodies>
 		<body name="Head" enabled="true" template="animated">
 			<object name="Neck" />
-			<object name="c_capsule_Head" collision_type="capsule"/> 
+			<object name="c_convex_Head" collision_type="convex"/> 
 		</body>
 
 		<body name="Hips" enabled="true" template="animated">
 			<object name="Hips" />
-			<object name="c_capsule_Hips" collision_type="capsule"/> 
+			<object name="c_convex_Hips" collision_type="convex"/> 
 		</body>
 
 		<body name="Spine" enabled="true" template="animated">
 			<object name="Spine" />
-			<object name="c_capsule_Spine" collision_type="capsule"/> 
-		</body>
-
-		 <body name="Spine1" enabled="true" template="animated">
-			<object name="Spine1" />
-			<object name="c_capsule_Spine1" collision_type="capsule"/> 
+			<object name="c_convex_Spine" collision_type="convex"/> 
 		</body>
 
 		<body name="Spine2" enabled="true" template="animated">
 			<object name="Spine2" />
-			<object name="c_capsule_Spine2" collision_type="capsule"/> 
+			<object name="c_convex_Spine2" collision_type="convex"/> 
+		</body>
+
+		<body name="RightForeArm" enabled="true" template="animated">
+			<object name="RightForeArm" />
+			<object name="c_convex_RightForeArm" collision_type="convex"/> 
+		</body>
+
+		<body name="RightArm" enabled="true" template="animated">
+			<object name="RightArm" />
+			<object name="c_convex_RightArm" collision_type="convex"/> 
+		</body>
+
+		<body name="LeftArm" enabled="true" template="animated">
+			<object name="LeftArm" />
+			<object name="c_convex_LeftArm" collision_type="convex"/> 
+		</body>
+
+		<body name="LeftForeArm" enabled="true" template="animated">
+			<object name="LeftForeArm" />
+			<object name="c_convex_LeftForeArm" collision_type="convex"/> 
 		</body>
 
 		<body name="RightUpLeg" enabled="true" template="animated">
@@ -38,34 +53,14 @@
 			<object name="c_capsule_RightUpLeg" collision_type="capsule"/> 
 		</body>
 
-		<body name="LeftUpLeg" enabled="true" template="animated">
-			<object name="LeftUpLeg" />
-			<object name="c_capsule_LeftUpLeg" collision_type="capsule"/> 
-		</body>
-
-		<body name="RightArm" enabled="true" template="animated">
-			<object name="RightArm" />
-			<object name="c_capsule_RightArm" collision_type="capsule"/> 
-		</body>
-
-		<body name="LeftArm" enabled="true" template="animated">
-			<object name="LeftArm" />
-			<object name="c_capsule_LeftArm" collision_type="capsule"/> 
-		</body>
-
-		<body name="RightForeArm" enabled="true" template="animated">
-			<object name="RightForeArm" />
-			<object name="c_capsule_RightForeArm" collision_type="capsule"/> 
-		</body>
-
-		<body name="LeftForeArm" enabled="true" template="animated">
-			<object name="LeftForeArm" />
-			<object name="c_capsule_LeftForeArm" collision_type="capsule"/> 
-		</body>
-
 		<body name="RightLeg" enabled="true" template="animated">
 			<object name="RightLeg" />
 			<object name="c_capsule_RightLeg" collision_type="capsule"/> 
+		</body>
+
+		<body name="LeftUpLeg" enabled="true" template="animated">
+			<object name="LeftUpLeg" />
+			<object name="c_capsule_LeftUpLeg" collision_type="capsule"/> 
 		</body>
 
 		<body name="LeftLeg" enabled="true" template="animated">
@@ -75,33 +70,13 @@
 	</bodies>
 
 	<graphics>
-		<graphic_group name="character" enabled="true" culling_object="g_body">
-			<object name="g_body" enabled="true" cpy_material_vars="contour_color, contour_opacity">
-				<material materials="mtr_body"      max_distance="500" />
-                <material materials="mtr_body_lod1" max_distance="1000" />
-                <material materials="mtr_body_lod2" />
-            </object>
-			<object name="g_head" enabled="true" cpy_material_vars="contour_color, contour_opacity">
-				<material materials="mtr_head"      max_distance="500" />
-                <material materials="mtr_head_lod1" max_distance="1000" />
-                <material materials="mtr_head_lod2" />
-            </object>
+		<graphic_group name="character" enabled="true" culling_object="co_culling">
+			<object name="g_body" enabled="true"/>
+			<object name="g_head" enabled="true"/>
+
+			<object name="g_shield" enabled="false"/>
 
 			<object name="s_body" enabled="true" shadow_caster="true"/>
 		</graphic_group>
-
-<!-- 		<object enabled="true" name="c_sphere_head"/>
-		<object enabled="true" name="c_sphere_Hips"/>
-		<object enabled="true" name="c_sphere_Spine"/>
-		<object enabled="true" name="c_sphere_Spine1"/>
-		<object enabled="true" name="c_sphere_Spine2"/> -->
-		<!-- <object enabled="true" name="c_capsule_RightUpLeg"/>
-		<object enabled="true" name="c_capsule_LeftUpLeg"/>
-		<object enabled="true" name="c_capsule_RightArm"/>
-		<object enabled="true" name="c_capsule_LeftArm"/>
-		<object enabled="true" name="c_capsule_RightForeArm"/>
-		<object enabled="true" name="c_capsule_LeftForeArm"/>
-		<object enabled="true" name="c_capsule_RightLeg"/>
-		<object enabled="true" name="c_capsule_LeftLeg"/> -->
 	</graphics>
 </dynamic_object>

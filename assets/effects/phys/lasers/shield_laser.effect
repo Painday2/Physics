@@ -1,5 +1,5 @@
 <effect force_synch="false">
-    <atom name="blue_flames_01" min_size="10" max_size="10" lifetime="-1" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="0" fade_in_length="0" fade_out_start="1000" spawn_cull_policy="initialize" cull_policy="update" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+    <atom name="red_flames_01" min_size="10" max_size="10" lifetime="-1" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="0" fade_in_length="0" fade_out_start="1000" spawn_cull_policy="initialize" cull_policy="update" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
         <initializerstack>
             <boxrandomposition relative="world" min="0 0 0" max="0 0 0"/>
             <boxrandomvelocity relative="effect" min="0 0 0" max="0 0 0"/>
@@ -19,7 +19,7 @@
             <worldtransform transform_rotations="true"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/misc/laser_test_edf" intensity="dimlight" billboard_type="rotation_aligned" rotation_channel="world_rotation" blend_mode="add" render_template="effect_op_glow" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="0 255 255" opacity_input="constant" opacity="255" rotation_input="constant" rotation="0" rotation_axis="0 0 0" uv_size="1 1" uv_offset_input="constant" uv_offset="0 0">
+            <billboard texture="effects/textures/misc/laser_test_edf" intensity="dimlight" billboard_type="rotation_aligned" rotation_channel="world_rotation" blend_mode="add" render_template="effect_op_glow" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="255 1 1" opacity_input="constant" opacity="255" rotation_input="constant" rotation="0" rotation_axis="0 0 0" uv_size="1 1" uv_offset_input="constant" uv_offset="0 0">
                 <size_keys loop="false">
                     <key t="0" v="2000 10"/>
                     <key t="0.01742160320282" v="2000 90"/>
@@ -57,7 +57,7 @@
             <worldtransform transform_rotations="false"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/fire/e_fire_dynamic_01_8x4_seq_loop_greyscale" intensity="searchlight" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="add" render_template="effect_op_glow" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="0 255 255" opacity_input="constant" opacity="255" rotation_input="channel" rotation_axis="0 0 1" uv_size="0.125 0.25" uv_offset_input="keys" frame_start="0 0" primary_step_direction="+x" secondary_step_direction="+y" num_frames="64" fps="30" loop="false">
+            <billboard texture="effects/textures/fire/e_fire_dynamic_01_8x4_seq_loop_greyscale" intensity="searchlight" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="add" render_template="effect_op_glow" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="255 1 1" opacity_input="constant" opacity="255" rotation_input="channel" rotation_axis="0 0 1" uv_size="0.125 0.25" uv_offset_input="keys" frame_start="0 0" primary_step_direction="+x" secondary_step_direction="+y" num_frames="64" fps="30" loop="false">
                 <size_keys loop="false">
                     <key t="0" v="0 0"/>
                     <key t="0.37282231450081" v="400 400"/>
@@ -65,7 +65,7 @@
             </billboard>
         </visualizerstack>
     </atom>
-    <atom name="blue_flames_02" min_size="10" max_size="10" lifetime="-1" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="0" fade_in_length="0" fade_out_start="1000" spawn_cull_policy="initialize" cull_policy="update" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+    <atom name="red_flames_02" min_size="10" max_size="10" lifetime="-1" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="0" fade_in_length="0" fade_out_start="1000" spawn_cull_policy="initialize" cull_policy="update" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
         <initializerstack>
             <boxrandomposition relative="world" min="0 0 0" max="0 0 0"/>
             <boxrandomvelocity relative="effect" min="0 0 0" max="0 0 0"/>
@@ -85,7 +85,7 @@
             <worldtransform transform_rotations="true"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/misc/laser_test_edf" intensity="dimlight" billboard_type="rotation_aligned" rotation_channel="world_rotation" blend_mode="add" render_template="effect_op_glow" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="0 255 255" opacity_input="constant" opacity="255" rotation_input="constant" rotation="0" rotation_axis="0 0 0" uv_size="1 1" uv_offset_input="constant" uv_offset="0 0">
+            <billboard texture="effects/textures/misc/laser_test_edf" intensity="dimlight" billboard_type="rotation_aligned" rotation_channel="world_rotation" blend_mode="add" render_template="effect_op_glow" origo="0.5 0.5" per_particle_age="true" size_input="keys" color_input="constant" color="255 1 1" opacity_input="constant" opacity="255" rotation_input="constant" rotation="0" rotation_axis="0 0 0" uv_size="1 1" uv_offset_input="constant" uv_offset="0 0">
                 <size_keys loop="false">
                     <key t="0" v="2000 200"/>
                     <key t="0.01742160320282" v="2000 100"/>
@@ -118,7 +118,7 @@
             <worldtransform transform_rotations="false"/>
         </simulatorstack>
         <visualizerstack>
-            <light per_particle_age="false" shadow_caster="false" specular="false" color_input="constant" color="0 255 255" multiplier_input="keys" far_range_input="constant" far_range="400">
+            <light per_particle_age="false" shadow_caster="false" specular="false" color_input="constant" color="255 1 1" multiplier_input="keys" far_range_input="constant" far_range="400">
                 <multiplier_keys loop="true">
                     <key t="0" v="5"/>
                     <key t="0.15" v="10"/>

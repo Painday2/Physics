@@ -31,7 +31,7 @@ function HUDAssaultCorner:_get_assault_strings()
 	end
 
 	if self._assault_mode == "phalanx" then
-		self:_update_assault_hud_color(Color(0, 1, 1))
+		self:_update_assault_hud_color(Color(1, 1/255, 1/255))
 
 		if managers.job:current_difficulty_stars() > 0 then
 			local ids_risk = Idstring("risk")

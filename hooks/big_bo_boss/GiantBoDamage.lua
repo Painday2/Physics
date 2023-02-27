@@ -46,16 +46,22 @@ function GiantBoDamage:init(unit)
 	self._shield_spinning = false
 	self._shield_generator_origin = self._unit:position()
 	self._shield_generator_radius = 2400
+	self._shield_nda_wall_radius = 1300
 	self._shield_generators = {}
+	self._shield_nda_walls = {}
+	self._shield_object = self._unit:get_object(Idstring("g_shield"))
 	self:spawn_shield_generators()
 
 	self._listener_holder = EventListenerHolder:new()
 end
 
+local nda_wall_unit = Idstring("units/pd2_mod_phys/props/nda_player_blockers/nda_wall_4x3m")
+local nda_wall_length = 377
+local nda_wall_height = 300
 local shield_generator_unit = Idstring("units/pd2_mod_phys/props/giant_bo_shield_generator/giant_bo_shield_generator")
 function GiantBoDamage:spawn_shield_generators()
-	for i = 1, self._shield_generator_count do
-		local angle = 360 * i/self._shield_generator_count
+	for i = 1, self:shield_generator_count() do
+		local angle = 360 * i/self:shield_generator_count()
 		local rotation = Rotation(angle, 0, 0)
 		local position = self._shield_generator_origin + Vector3(
 			math.sin(angle) * self._shield_generator_radius,
@@ -70,6 +76,24 @@ function GiantBoDamage:spawn_shield_generators()
 
 		self._shield_generators[i]:set_enabled(false)
 		self._shield_generators[i]:effect_spawner(Idstring("laser")):kill_effect()
+	end
+
+	-- Calculate how many walls we can fit into the desired radius and then calculate the actual radius that'll make it fit perfectly.	
+	local single_nda_wall_angle = 2 * math.asin(nda_wall_length / (2 * self._shield_nda_wall_radius))
+	local nda_wall_count = math.floor(360 / single_nda_wall_angle)
+	self._shield_nda_wall_actual_radius = (nda_wall_length/2) / math.sin(180 / nda_wall_count)
+
+	for i = 1, nda_wall_count do
+		local angle = 360 * i/nda_wall_count
+		local rotation = Rotation(angle, 0, 0)
+		local position = self._shield_generator_origin + Vector3(
+			math.sin(angle) * self._shield_nda_wall_actual_radius,
+			-math.cos(angle) * self._shield_nda_wall_actual_radius,
+			GiantBoDamage.base_shield_generator_height - (nda_wall_height/2)
+		)
+
+		self._shield_nda_walls[i] = World:spawn_unit(nda_wall_unit, position, rotation)
+		self._shield_nda_walls[i]:set_enabled(false)
 	end
 end
 
@@ -97,6 +121,27 @@ function GiantBoDamage:update(unit, t, dt)
 			self._shield_generators[i]:set_rotation(rotation)
 			self._shield_generators[i]:set_position(position)
 		end
+
+		for i, nda_wall in pairs(self._shield_nda_walls) do
+			local angle = (self._shield_generator_angle + (360 * i/#self._shield_nda_walls)) * -1
+			local rotation = Rotation(angle, 0, 0)
+			local position = self._shield_generator_origin + Vector3(
+				math.sin(angle) * self._shield_nda_wall_actual_radius,
+				-math.cos(angle) * self._shield_nda_wall_actual_radius,
+				GiantBoDamage.base_shield_generator_height - (nda_wall_height/2)
+			)
+
+			nda_wall:set_rotation(rotation)
+			nda_wall:set_position(position)
+		end
+	end
+end
+
+function GiantBoDamage:set_shield_visibility(state)
+	self._shield_object:set_visibility(state)
+
+	for i, nda_wall in pairs(self._shield_nda_walls) do
+		nda_wall:set_enabled(state)
 	end
 end
 
@@ -143,6 +188,8 @@ function GiantBoDamage:reset_shield_generator_health()
 		self._shield_generators[i]:effect_spawner(Idstring("laser")):activate()
 	end
 
+	self:set_shield_visibility(true)
+
 	managers.hud:set_boss_health_shield(true)
 end
 
@@ -177,6 +224,9 @@ function GiantBoDamage:do_shield_generator_damage(attacker_unit, damage, index)
 
 		if self:all_shield_generators_dead() then
 			self._shield_spinning = false
+
+			self:set_shield_visibility(false)
+
 			managers.hud:set_boss_health_shield(false)
 		end
 	end
@@ -331,6 +381,10 @@ function GiantBoDamage:load(data)
 	self._shield_generator_count = data.shield_generator_count
 	self._shield_generator_max_health = data.shield_generator_max_health
 	self._shield_generator_healths = data.shield_generator_healths
+
+	if not self._shield_spinning then
+		self:set_shield_visibility(false)
+	end
 
 	if data.health_display_wanted then
 		self:set_health_display(true)

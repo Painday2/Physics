@@ -376,6 +376,7 @@
 		<animation path="anims/giant_bo/shield_exit"/>
 		<cooked_physics path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
 		<material_config path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
+		<texture path="units/pd2_mod_phys/characters/giant_bo/giant_bo_shield"/>
 		<model path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
 		<object path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
 		<unit path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>

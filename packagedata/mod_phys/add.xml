@@ -335,18 +335,28 @@
 		<animation path="anims/giant_bo/throw_smoke"/>
 		<animation path="anims/giant_bo/breath_fire"/>
 		<animation path="anims/giant_bo/stun"/>
+		<animation path="anims/giant_bo/shield_idle"/>
+		<animation path="anims/giant_bo/shield_enter"/>
+		<animation path="anims/giant_bo/shield_exit"/>
+
+		<cooked_physics path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
+		<material_config path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
+		<texture path="units/pd2_mod_phys/characters/giant_bo/giant_bo_shield"/>
+		<model path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
+		<object path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
+		<unit path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
+
+		<cooked_physics path="units/pd2_mod_phys/projectiles/ammo_projectile/ammo_projectile"/>
+		<material_config path="units/pd2_mod_phys/projectiles/ammo_projectile/ammo_projectile"/>
+		<model path="units/pd2_mod_phys/projectiles/ammo_projectile/ammo_projectile"/>
+		<object path="units/pd2_mod_phys/projectiles/ammo_projectile/ammo_projectile"/>
+		<unit path="units/pd2_mod_phys/projectiles/ammo_projectile/ammo_projectile"/>
 
 		<animation_def path="anims/units/giant_bo/giant_bo"/>
 		<animation_state_machine path="anims/units/giant_bo/giant_bo"/>
 		<animation_states path="anims/units/giant_bo/giant_bo"/>
 		<animation_subset path="anims/units/giant_bo/giant_bo"/>
-
-		<cooked_physics path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
-		<material_config path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
-		<model path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
-		<object path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
 		<sequence_manager path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
-		<unit path="units/pd2_mod_phys/characters/giant_bo/giant_bo"/>
 	</add> -->
 
 	<!--Giant Bo Wall (Cpone)-->

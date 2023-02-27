@@ -1,28 +1,19 @@
 <materials version="3" group="civ_male_bank_manager_4">
-    <material name="mtr_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
-        <bump_normal_texture 	file="units/payday2/characters/shared_textures/civ_male_bank_manager_5_head_nm"/>
-        <diffuse_texture 		file="units/payday2/characters/shared_textures/civ_male_bank_manager_5_head_df"/>
-    </material>
-    <material name="mtr_head_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
-        <bump_normal_texture 	file="units/payday2/characters/shared_textures/civ_male_bank_manager_5_head_nm" mip="1"/>
-        <diffuse_texture 		file="units/payday2/characters/shared_textures/civ_male_bank_manager_5_head_df" mip="1"/>
-    </material>
-    <material name="mtr_head_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
-        <bump_normal_texture 	file="units/payday2/characters/shared_textures/civ_male_bank_manager_5_head_nm" mip="4"/>
-        <diffuse_texture 		file="units/payday2/characters/shared_textures/civ_male_bank_manager_5_head_df" mip="4"/>
-    </material>
+	<material name="mtr_head" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture 	file="units/payday2/characters/shared_textures/civ_male_bank_manager_5_head_nm"/>
+		<diffuse_texture 		file="units/payday2/characters/shared_textures/civ_male_bank_manager_5_head_df"/>
+	</material>
 
-    <material name="mtr_body" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
-        <bump_normal_texture 	file="units/pd2_dlc1/characters/shared_textures/civ_male_bank_manager_2_nm"/>
-        <diffuse_texture 		file="units/pd2_dlc1/characters/shared_textures/civ_male_bank_manager_2_df"/>
-    </material>
-    <material name="mtr_body_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
-        <bump_normal_texture 	file="units/pd2_dlc1/characters/shared_textures/civ_male_bank_manager_2_nm" mip="1"/>
-        <diffuse_texture 		file="units/pd2_dlc1/characters/shared_textures/civ_male_bank_manager_2_df" mip="1"/>
-    </material>
-    <material name="mtr_body_lod2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
-        <bump_normal_texture 	file="units/pd2_dlc1/characters/shared_textures/civ_male_bank_manager_2_nm" mip="4"/>
-        <diffuse_texture 		file="units/pd2_dlc1/characters/shared_textures/civ_male_bank_manager_2_df" mip="4"/>
-    </material>
-    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
+	<material name="mtr_body" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CIVILIANS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture 	file="units/pd2_dlc1/characters/shared_textures/civ_male_bank_manager_2_nm"/>
+		<diffuse_texture 		file="units/pd2_dlc1/characters/shared_textures/civ_male_bank_manager_2_df"/>
+	</material>
+
+	<material name="mtr_shield" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM:SKINNED_3WEIGHTS" version="2">
+		<diffuse_texture 		file="units/pd2_mod_phys/characters/giant_bo/giant_bo_shield"/>
+		<variable 				type="vector3" 	name="uv0_speed" 	value="0.05 0.05 0"/>
+		<variable 				type="scalar" 	name="intensity" 	value="searchlight"/>
+	</material>
+
+	<material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT" version="2"/>
 </materials>
