@@ -1,5 +1,6 @@
 <table>
 	<editor_groups/>
+	<instances/>
 	<statics>
 		<table>
 			<unit_data _prev_pos="0 -5000 25" _prev_rot="-0 0 -0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_005" position="0 -5000 0" rotation="-0 0 -0 -1" unit_id="200000"/>
@@ -242,5 +243,4 @@
 	<values>
 		<workviews/>
 	</values>
-	<instances/>
 </table>
