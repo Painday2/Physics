@@ -122,6 +122,10 @@ function HUDBoworksCredits:update(t, dt)
 	if self._start_actual_credits and t > self._start_actual_credits then
 		self._start_actual_credits = nil
 
+		TimerManager:game_animation():play()
+		TimerManager:timer(Idstring("player")):play()
+		managers.player:set_player_state("clean")
+
 		HUDBoworksCredits:_build_credits_panel("boworks_credits")
 	end
 end
@@ -239,26 +243,17 @@ function HUDBoworksCredits:_build_credits_panel(file)
 			local color = Color(1, 1, 0, 0)
 
 			if data.type == "title" then
-				height = 24
+				height = 32
 				color = Color(255, 0, 161, 255) / 255
+			elseif data.type == "header" then
+				height = 26
+				color = Color(255, 0, 161, 220) / 255
 			elseif data.type == "name" then
 				height = 24
 				color = Color(1, 0.9, 0.9, 0.9)
-			elseif data.type == "fill" then
-				height = 26
-				color = Color(1, 1, 1, 1)
-			elseif data.type == "song" then
-				height = 24
-				color = Color(1, 0.8, 0.8, 0.8)
-			elseif data.type == "song-credit" then
+			elseif data.type == "name-credit" then
 				height = 24
 				color = Color(1, 0.5, 0.5, 0.5)
-			elseif data.type == "image-text" then
-				height = 24
-				color = Color(1, 0.5, 0.5, 0.5)
-			elseif data.type == "eula" then
-				height = 22
-				color = Color(1, 0.7, 0.7, 0.7)
 			end
 
 			height = height * global_scale
@@ -331,6 +326,14 @@ function HUDBoworksCredits:_build_credits_panel(file)
 					return
 				elseif cmd.cmd == "stop" then
 					return
+				elseif cmd.cmd == "dialog" then
+					local player_unit = managers.player:player_unit()
+					managers.dialog:quit_dialog()
+					managers.dialog:queue_dialog(cmd.param, {
+						case = managers.criminals:character_name_by_unit(player_unit),
+						position = player_unit:position(),
+						skip_idle_check = Application:editor()
+					})
 				end
 			end
 		end
@@ -350,8 +353,11 @@ function HUDBoworksCredits:open(close_clbk)
 
 		self._open = true
 
-		if managers.player:local_player() and managers.player:local_player():camera() and managers.player:local_player():camera()._camera_unit then
-			managers.player:local_player():camera()._camera_unit:set_extension_update_enabled(Idstring("base"), false) -- Stop janky camera rotation.
+		if managers.player:local_player() then
+			managers.player:local_player():set_extension_update_enabled(Idstring("movement"), false)
+			if managers.player:local_player():camera() and managers.player:local_player():camera()._camera_unit then
+				managers.player:local_player():camera()._camera_unit:set_extension_update_enabled(Idstring("base"), false) -- Stop janky camera rotation.
+			end
 		end
 
 		self._grey_effect = managers.overlay_effect:play_effect(fades.to_grey)
@@ -373,7 +379,7 @@ function HUDBoworksCredits:close()
 			managers.overlay_effect:fade_out_effect(self._black_effect)
 		end
 
-		managers.music:post_event(tweak_data.levels:get_music_event("control"))
+		managers.music:stop_custom()
 
 		self._boworks_credit_panel:set_visible(false)
 
@@ -385,12 +391,14 @@ function HUDBoworksCredits:close()
 
 		self._open = false
 
-		if managers.player:local_player() and managers.player:local_player():camera() and managers.player:local_player():camera()._camera_unit then
-			managers.player:local_player():camera()._camera_unit:set_extension_update_enabled(Idstring("base"), true) -- Start camera rotation.
+		if managers.player:local_player() then
+			managers.player:local_player():set_extension_update_enabled(Idstring("movement"), true)
+			if managers.player:local_player():camera() and managers.player:local_player():camera()._camera_unit then
+				managers.player:local_player():camera()._camera_unit:set_extension_update_enabled(Idstring("base"), true) -- Start janky camera rotation.
+			end
 		end
 
-		TimerManager:game_animation():play()
-		TimerManager:timer(Idstring("player")):play()
+		managers.player:set_player_state("standard")
 
 		if self._close_callback then
 			self._close_callback()

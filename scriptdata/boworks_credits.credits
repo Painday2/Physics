@@ -4,124 +4,187 @@
 	<br/>
 
 	<!-- READY PLAYER NONE -->
+		<command cmd="dialog" param="phys_rpn_intro"/>
 		<text text="READY PLAYER NONE" type="title"/>
 		<br/>
-		<image scale="0.2" src="guis/textures/Ready_Player_None_icon"/>
+		<image scale="0.2" src="guis/textures/boworks_credits/rpn_icon"/>
 		<br/>
 
 		<text text="Lawsfercapcake?" type="name"/>
-		<text text="Mission Scripting, Heist Concept" type="image-text"/>
+		<text text="Mission Scripting, Heist Concept" type="name-credit"/>
 		<br/>
 
 		<text text="DryBittenCuticles" type="name"/>
-		<text text="The Voice of Pain, Writing" type="image-text"/>
+		<text text="The Voice of Pain, Writing" type="name-credit"/>
+		<br/>
+
+		<!-- Incorrect Wall -->
+		<command cmd="dialog" param="phys_rpn_1"/>
+		<image scale="0.2" src="guis/textures/boworks_credits/rpn_1"/>
 		<br/>
 
 		<text text="Zdann" type="name"/>
-		<text text="Custom Assets, Writing Dialogue" type="image-text"/>
+		<text text="Custom Assets, Writing Dialogue" type="name-credit"/>
 		<br/>
 
 		<text text="LycanCHKN / Leecan" type="name"/>
-		<text text="Italian Update Assistance" type="image-text"/>
+		<text text="Italian Update Assistance" type="name-credit"/>
+		<br/>
+
+		<!-- Bag Hauling -->
+		<command cmd="dialog" param="phys_rpn_2"/>
+		<image scale="0.2" src="guis/textures/boworks_credits/rpn_2"/>
 		<br/>
 
 		<text text="VxWolf" type="name"/>
-		<text text="Music" type="image-text"/>
+		<text text="Music" type="name-credit"/>
 		<br/>
 
 		<text text="The Crazy Vaper" type="name"/>
-		<text text="The Face of Pain" type="image-text"/>
+		<text text="The Face of Pain" type="name-credit"/>
 		<br/>
 
-		<text text="Special Thanks" type="title"/>
+		<!-- Electrified Fence -->
+		<command cmd="dialog" param="phys_rpn_3"/>
+		<image scale="0.2" src="guis/textures/boworks_credits/rpn_3"/>
+		<br/>
+
+		<text text="Special Thanks" type="header"/>
 		<br/>
 
 		<text text="SC" type="name"/>
-		<text text="Coding Assistance" type="image-text"/>
+		<text text="Coding Assistance" type="name-credit"/>
 		<br/>
 
 		<text text="Ernest Cline" type="name"/>
-		<text text="Author of Ready Player One" type="image-text"/>
+		<text text="Author of Ready Player One" type="name-credit"/>
 		<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
 	<br/>
 
 	<!-- Stalk Fraud -->
+		<command cmd="dialog" param="phys_stalk_fraud_intro"/>
 		<text text="Stalk Fraud" type="title"/>
 		<br/>
-		<image scale="0.3" src="guis/thechase_icon"/>
+		<image scale="0.3" src="guis/textures/boworks_credits/sf_icon"/>
 		<br/>
 
 		<text text="Lawsfercapcake?" type="name"/>
-		<text text="Mission Scripting, Heist Concept" type="image-text"/>
+		<text text="Mission Scripting, Heist Concept" type="name-credit"/>
 		<br/>
 
 		<text text="DryBittenCuticles" type="name"/>
-		<text text="The Voice of Pain, Writing" type="image-text"/>
+		<text text="The Voice of Pain, Writing" type="name-credit"/>
+		<br/>
+
+		<!-- Cooking Papers? -->
+		<command cmd="dialog" param="phys_stalk_fraud_1"/>
+		<image scale="0.2" src="guis/textures/boworks_credits/sf_1"/>
 		<br/>
 
 		<text text="Zdann" type="name"/>
-		<text text="Custom Assets, Writing Dialogue" type="image-text"/>
+		<text text="Custom Assets, Writing Dialogue" type="name-credit"/>
 		<br/>
 
 		<text text="VxWolf" type="name"/>
-		<text text="Music, Sound Editing, Writing" type="image-text"/>
+		<text text="Music, Sound Editing, Writing" type="name-credit"/>
 		<br/>
 
 		<text text="The Crazy Vaper" type="name"/>
-		<text text="The Face of Pain" type="image-text"/>
+		<text text="The Face of Pain" type="name-credit"/>
 		<br/>
 
-		<text text="Special Thanks" type="title"/>
+		<!-- Snipe Bo? -->
+		<command cmd="dialog" param="phys_stalk_fraud_2"/>
+		<image scale="0.2" src="guis/textures/boworks_credits/sf_2"/>
+		<br/>
+
+		<text text="Special Thanks" type="header"/>
 		<br/>
 
 		<text text="Sora" type="name"/>
-		<text text="Additional Coding" type="image-text"/>
+		<text text="Additional Coding" type="name-credit"/>
 		<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
 	<br/>
 
 	<!-- The Late Holiday Special -->
+		<command cmd="dialog" param="phys_holiday_special_intro"/>
 		<text text="The Late Holiday Special" type="title"/>
 		<br/>
-		<image scale="1.5" src="guis/textures/spain_icon"/>
+		<image scale="1.5" src="guis/textures/boworks_credits/tlhs_icon"/>
 		<br/>
 
 		<text text="Lawsfercapcake?" type="name"/>
-		<text text="Mission Scripting, Heist Concept" type="image-text"/>
+		<text text="Mission Scripting, Heist Concept" type="name-credit"/>
+		<br/>
+
+		<!-- Tricycle -->
+		<command cmd="dialog" param="phys_holiday_special_1"/>
+		<image scale="0.2" src="guis/textures/boworks_credits/tlhs_1"/>
 		<br/>
 
 		<text text="DryBittenCuticles" type="name"/>
-		<text text="The Voice of Pain, Writing, Heist Concept" type="image-text"/>
+		<text text="The Voice of Pain, Writing, Heist Concept" type="name-credit"/>
 		<br/>
 
 		<text text="PickleSmith" type="name"/>
-		<text text="The Voice of Switch, Writing" type="image-text"/>
+		<text text="The Voice of Switch, Writing" type="name-credit"/>
+		<br/>
+
+		<!-- Reindeer -->
+		<command cmd="dialog" param="phys_holiday_special_2"/>
+		<image scale="0.2" src="guis/textures/boworks_credits/tlhs_2"/>
 		<br/>
 
 		<text text="VyseM4H" type="name"/>
-		<text text="The Voice of Mrs. Claus' Secretary" type="image-text"/>
+		<text text="The Voice of Mrs. Claus' Secretary" type="name-credit"/>
 		<br/>
 
 		<text text="Thanatou" type="name"/>
-		<text text="The Voice of Santa" type="image-text"/>
+		<text text="The Voice of Santa" type="name-credit"/>
+		<br/>
+
+		<!-- Hacking Computers -->
+		<command cmd="dialog" param="phys_holiday_special_3"/>
+		<image scale="0.2" src="guis/textures/boworks_credits/tlhs_3"/>
 		<br/>
 
 		<text text="Zdann" type="name"/>
-		<text text="Custom Assets, Writing Dialogue" type="image-text"/>
+		<text text="Custom Assets, Writing Dialogue" type="name-credit"/>
 		<br/>
 
 		<text text="VxWolf" type="name"/>
-		<text text="Music, Sound Editing, Writing" type="image-text"/>
+		<text text="Music, Sound Editing, Writing" type="name-credit"/>
+		<br/>
+
+		<!-- Vault -->
+		<command cmd="dialog" param="phys_holiday_special_4"/>
+		<image scale="0.2" src="guis/textures/boworks_credits/tlhs_4"/>
 		<br/>
 
 		<text text="Matthelzor" type="name"/>
-		<text text="Custom Assets" type="image-text"/>
+		<text text="Custom Assets" type="name-credit"/>
 		<br/>
 
 		<text text="The Crazy Vaper" type="name"/>
-		<text text="The Face of Pain" type="image-text"/>
+		<text text="The Face of Pain" type="name-credit"/>
 		<br/>
 
-		<text text="Guard Voices" type="title"/>
+		<!-- Santa's Dick -->
+		<command cmd="dialog" param="phys_holiday_special_5"/>
+		<image scale="0.2" src="guis/textures/boworks_credits/tlhs_5"/>
+		<br/>
+
+		<text text="Guard Voices" type="header"/>
 		<br/>
 
 		<text text="Matthelzor" type="name"/>
@@ -131,6 +194,11 @@
 		<text text="VxWolf" type="name"/>
 		<br/>
 	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
 
 	<!-- BOWORKS -->
 		<text text="BOWORKS" type="title"/>
@@ -139,36 +207,37 @@
 		<br/>
 
 		<text text="VxWolf" type="name"/>
-		<text text="Heist Concept, Level Design, Mission Scripting, Music, Sound Effects," type="image-text"/>
-		<text text="The Voice of Cocke, Custom Assets/Textures, Writing" type="image-text"/>
+		<text text="Heist Concept, Level Design, Mission Scripting, Music, Sound Effects," type="name-credit"/>
+		<text text="The Voice of Cocke, Custom Assets/Textures, Writing" type="name-credit"/>
 		<br/>
 
 		<text text="Lawsfercapcake?" type="name"/>
-		<text text="Level Design, Mission Scripting, Writing" type="image-text"/>
+		<text text="Level Design, Mission Scripting, Writing" type="name-credit"/>
 		<br/>
 
 		<text text="Zdann" type="name"/>
-		<text text="Custom World Assets, Custom Character Assets, Writing" type="image-text"/>
+		<text text="Custom World Assets, Custom Character Assets, Writing" type="name-credit"/>
 		<br/>
 
 		<text text="Mako" type="name"/>
-		<text text="Custom World Assets, Custom Equipment Assets" type="image-text"/>
+		<text text="Custom World Assets, Custom Equipment Assets" type="name-credit"/>
 		<br/>
 
 		<text text="Cpone" type="name"/>
-		<text text="Custom Faction Programming and Setup, Custom World Assets, Giant Bo Fight" type="image-text"/>
+		<text text="Custom Faction Programming and Setup, Custom World Assets" type="name-credit"/>
+		<text text="Giant Bo Fight, Credits Scripting" type="name-credit"/>
 		<br/>
 
 		<text text="Matthelzor" type="name"/>
-		<text text="Custom Character Assets" type="image-text"/>
+		<text text="Custom Character Assets" type="name-credit"/>
 		<br/>
 
 		<text text="Rex" type="name"/>
-		<text text="Custom World Assets" type="image-text"/>
+		<text text="Custom World Assets" type="name-credit"/>
 		<br/>
 
 		<text text="wekk" type="name"/>
-		<text text="Writing, Custom Faction Textures" type="image-text"/>
+		<text text="Writing, Custom Faction Textures" type="name-credit"/>
 		<br/>
 	<br/>
 

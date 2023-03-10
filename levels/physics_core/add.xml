@@ -1,5 +1,20 @@
 <table directory="assets">
 	<add>
+		<texture path="guis/textures/boworks_credits/rpn_1"/>
+		<texture path="guis/textures/boworks_credits/rpn_2"/>
+		<texture path="guis/textures/boworks_credits/rpn_3"/>
+		<texture path="guis/textures/boworks_credits/rpn_icon"/>
+		<texture path="guis/textures/boworks_credits/sf_1"/>
+		<texture path="guis/textures/boworks_credits/sf_2"/>
+		<texture path="guis/textures/boworks_credits/sf_icon"/>
+		<texture path="guis/textures/boworks_credits/tlhs_1"/>
+		<texture path="guis/textures/boworks_credits/tlhs_2"/>
+		<texture path="guis/textures/boworks_credits/tlhs_3"/>
+		<texture path="guis/textures/boworks_credits/tlhs_4"/>
+		<texture path="guis/textures/boworks_credits/tlhs_5"/>
+		<texture path="guis/textures/boworks_credits/tlhs_icon"/>
+	</add>
+	<add>
 		<texture path="units/pd2_mod_phys/props/phys_2x2_1"/>
 		<material_config path="units/pd2_mod_phys/props/phys_sign_2x2_1"/>
 		<texture path="units/pd2_mod_phys/props/phys_2x2_2"/>

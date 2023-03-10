@@ -460,5 +460,78 @@
 	"hud_action_mounting_flash_cannon": "Mounting the Flashbang Cannon",
 
 	"hud_assault_bo" : "Kill Bo",
-	"hud_assault_bo_shield" : "Destroy NDA Generators"
+	"hud_assault_bo_shield" : "Destroy NDA Generators",
+
+	"phys_big_bo_1_s1" : "HOLY SHIT!",
+	"phys_big_bo_1_s2" : "HELL YEAH!",
+	"phys_big_bo_1_s3" : "NOW THIS IS A FUCKING BOSS FIGHT!",
+	"phys_big_bo_1_s4" : "SHOOT THAT BIG MOTHERFUCKER!",
+
+	"phys_big_bo_2_s1" : "Aww fuck yeah! Finally!",
+	"phys_big_bo_2_s2" : "A worthy Bo.",
+	"phys_big_bo_2_s3" : "Your guys' battle will be fucking legendary!",
+	"phys_big_bo_2_s4" : "SHOOT THAT BANKRUPT MOTHERFUCKER!",
+
+	"phys_big_bo_3_s1" : "HOLY FUCK YEAH!",
+	"phys_big_bo_3_s2" : "NOW THIS IS A FUCKING BOSS FIGHT!",
+	"phys_big_bo_3_s3" : "SHOOT THE FUCKER!",
+
+	"phys_big_bo_fire_attack" : "Jesus fuck he's fucking breathing fire! The fuck..",
+	"phys_big_bo_firebomb_attack" : "Molotovs, watch out!",
+	"phys_big_bo_grenades_attack" : "Grenades!",
+	"phys_big_bo_smoke_attack" : "Smokebombs! Stay clear of the toxic gas.",
+
+	"phys_gen_phase_1_s1" : "YEAH! HOW DO YOU LIKE THAT FOR BABY DIFFICULTY MOTHERFUCKER!",
+	"phys_gen_phase_1_s2" : "What the fuck... Wait... Wait what the fuck is this shit.",
+	"phys_gen_phase_1_s3" : "An NDA?",
+	"phys_gen_phase_1_s4" : "God fucking damn it man...",
+	"phys_gen_phase_1_s5" : "Well, nothing the power of a trusty Flashbang Cannon can't solve.",
+
+	"phys_gen_phase_2_1_s1" : "God! Come on, again?",
+	"phys_gen_phase_2_1_s2" : "Fuck, just get rid of 'em.",
+	"phys_gen_phase_2_2_s1" : "Guys, uh. Not trying to rush you but please jus... jus.. jus.. just end this please.",
+	"phys_gen_phase_2_2_s2" : "Please, I'm like running out of my vape juice. Please just end it, please.",
+	"phys_gen_phase_2_3" : "God! Come on, gang. I'm late for my date with my waifu! Get those things outta here!",
+
+	"phys_see_pain_s1" : "Fucking finally, took you guys long enough. Damn, it's only been a week, but it's felt like almost 3 years since I've been rotting here.",
+	"phys_see_pain_s2" : "I knew I could always trust Cocke to find me. Anyways, gather round my children of virtual reality. Time to finally end this, once and for all.",
+	"phys_see_pain_s3" : "I hope you're ready, cause it's going to be one helluva boss fight.",
+
+	"phys_tiny_bo_1_s1" : "...or not.",
+	"phys_tiny_bo_1_s2" : "This lazy fuck is never original.",
+	"phys_tiny_bo_1_s3" : "Kill him I guess.",
+	"phys_tiny_bo_2" : "...or not. God, this is boring. Just fucking kill him.",
+	"phys_tiny_bo_3" : "God damnit, again with this? Bo you really need some new tricks or some shit. Just end him so we can get this over with. I wanna go home.",
+
+	"phys_holiday_special_intro" : "Oh my god. That one time we went to the North Pole.",
+	"phys_holiday_special_1" : "You finally got me my tricycle.",
+	"phys_holiday_special_2" : "We kept getting the reindeer wrong. Like... You're kinda racist for that. Like, come on. They don't all look the same.",
+	"phys_holiday_special_3" : "Hacking computers after computers after computers in the North Pole.",
+	"phys_holiday_special_4" : "God, that vault gave me diabetes. Did I ever mention that? Jesus, all those cookies? Fucking hell.",
+	"phys_holiday_special_5_s1" : "When we almost...",
+	"phys_holiday_special_5_s2" : "...we almost...",
+	"phys_holiday_special_5_s3" : "...cut Santa's...",
+	"phys_holiday_special_5_s4" : "...dick off.",
+	"phys_holiday_special_5_s5" : "Uhm. God. Makes me tear up a little.",
+
+	"phys_rpn_intro" : "God, think of everything we've been through together. The endless bugs you have to deal with in this godforsaken, fucking, game.",
+	"phys_rpn_1" : "Heh, that one time you couldn't get the right wall.",
+	"phys_rpn_2" : "Aww, remember when we were hauling all those bags. One after one... That was funny, probably not to you, but funny to me.",
+	"phys_rpn_3" : "Remember when you touched the fence! You didn't even check if it was electrified or not. Dude, come on man.",
+
+	"phys_stalk_fraud_intro" : "Oh wait, and that second map? I forgot about it.",
+	"phys_stalk_fraud_1" : "Cooking fucking what? Papers for some shit.",
+	"phys_stalk_fraud_2" : "Did you ever snipe Bo, right at the beginning? You should try it, it's pretty funny.",
+
+	"phys_the_end_act1_s1" : "Well gamers, I think it's finally it.",
+	"phys_the_end_act1_s2" : "Fuckin' finally.",
+	"phys_the_end_act1_s3" : "Game over.",
+	"phys_the_end_act1_s4" : "We hit that button or.. lever. I think they changed it to a lever.",
+	"phys_the_end_act1_s5" : "*Vape Induced Coughing*",
+	"phys_the_end_act1_s6" : "Sorry. Uhhh, well it's gonna be the end of it.",
+	"phys_the_end_act1_s7" : "All of it.",
+
+	"phys_the_end_intro_s1" : "Alright, it's about time.",
+	"phys_the_end_intro_s2" : "We end, \"the pain\".",
+	"phys_the_end_intro_s3" : "(Who fucking wrote that line.)",
 }
