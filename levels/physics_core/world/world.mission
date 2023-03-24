@@ -11452,8 +11452,20 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0.7"/>
+							<entry key="delay" type="number" value="5"/>
 							<entry key="id" type="number" value="100432"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100464"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100465"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100466"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="12199.1 9951.92 11"/>
@@ -12262,6 +12274,62 @@
 					<entry key="state" type="string" value="remove"/>
 					<entry key="sub_objective" type="string" value="none"/>
 					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="465" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="ach_secret"/>
+				<entry key="id" type="number" value="100464"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="p_phys_secret"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="physics_pain_achievements"/>
+					<entry key="position" type="vector3" value="12122.3 9953.67 1.49012e-006"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="466" type="table">
+				<entry key="class" type="string" value="ElementOverlayEffect"/>
+				<entry key="editor_name" type="string" value="overlay_end"/>
+				<entry key="id" type="number" value="100465"/>
+				<entry key="module" type="string" value="CoreElementOverlayEffect"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="effect" type="string" value="fade_out"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="fade_in" type="number" value="0.001"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="12271.9 9959 1.49012e-006"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="sustain" type="number" value="5"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="467" type="table">
+				<entry key="class" type="string" value="ElementEndscreenVariant"/>
+				<entry key="editor_name" type="string" value="endscreen_variant_001"/>
+				<entry key="id" type="number" value="100466"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="12123.1 9902.73 1.49012e-006"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="variant" type="number" value="30"/>
 				</entry>
 			</entry>
 		</entry>
