@@ -374,10 +374,6 @@
 	<add from_db="true" path="effects/particles/explosions/smoke_screen" type="effect">
 		<effect load="true" path="effects/particles/explosions/smoke_screen" unload="true"/>
 	</add>
-	<material_config path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
-	<model path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
-	<object path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
-	<unit path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
 	<add>
 		<animation path="anims/giant_bo/intro"/>
 		<animation path="anims/giant_bo/idle"/>
@@ -464,10 +460,6 @@
 		<unit path="units/pd2_mod_phys/turrets/flash_cannon/flash_cannon_shell"/>
 		<effect path="effects/phys/explosions/flash_cannon_muzzle"/>
 	</add>
-	<material_config path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
-	<model path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
-	<object path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
-	<unit path="units/pd2_mods_phys/props/onecubetorulethemall" unload="true"/>
 	<add from_db="true" path="effects/payday2/environment/environment_heavy_fire" type="effect">
 		<effect load="true" path="effects/payday2/environment/environment_heavy_fire"/>
 	</add>

@@ -864,24 +864,23 @@
 				<sound id="phys_big_bo_1">
 					<markers>
 						<marker label="phys_big_bo_1_s1" position="0.000"/>
-						<marker label="phys_big_bo_1_s2" position="1.672"/>
+						<marker label="phys_big_bo_1_s2" position="1.602"/>
 						<marker label="phys_big_bo_1_s3" position="2.854"/>
-						<marker label="phys_big_bo_1_s4" position="5.583"/>
+						<marker label="phys_big_bo_1_s4" position="5.500"/>
 					</markers>
 				</sound>
 				<sound id="phys_big_bo_2">
 					<markers>
 						<marker label="phys_big_bo_2_s1" position="0.000"/>
-						<marker label="phys_big_bo_2_s2" position="2.219"/>
-						<marker label="phys_big_bo_2_s3" position="3.761"/>
-						<marker label="phys_big_bo_2_s4" position="6.780"/>
+						<marker label="phys_big_bo_2_s2" position="2.166"/>
+						<marker label="phys_big_bo_2_s3" position="3.767"/>
 					</markers>
 				</sound>
 				<sound id="phys_big_bo_3">
 					<markers>
 						<marker label="phys_big_bo_3_s1" position="0.000"/>
-						<marker label="phys_big_bo_3_s2" position="2.060"/>
-						<marker label="phys_big_bo_3_s3" position="4.514"/>
+						<marker label="phys_big_bo_3_s2" position="2.27"/>
+						<marker label="phys_big_bo_3_s3" position="4.714"/>
 					</markers>
 				</sound>
 				<random id="phys_big_bo">
@@ -897,24 +896,24 @@
 
 				<sound id="phys_gen_phase_1">
 					<markers>
-						<marker label="phys_gen_phase_1_s1" position="1.000"/>
-						<marker label="phys_gen_phase_1_s2" position="7.009"/>
-						<marker label="phys_gen_phase_1_s3" position="10.350"/>
-						<marker label="phys_gen_phase_1_s4" position="11.868"/>
-						<marker label="phys_gen_phase_1_s5" position="14.589"/>
+						<marker label="phys_gen_phase_1_s1" position="0.186"/>
+						<marker label="phys_gen_phase_1_s2" position="6.806"/>
+						<marker label="phys_gen_phase_1_s3" position="10.171"/>
+						<marker label="phys_gen_phase_1_s4" position="11.567"/>
+						<marker label="phys_gen_phase_1_s5" position="14.234"/>
 					</markers>
 				</sound>
 
 				<sound id="phys_gen_phase_2_1">
 					<markers>
 						<marker label="phys_gen_phase_2_1_s1" position="0.000"/>
-						<marker label="phys_gen_phase_2_1_s2" position="2.387"/>
+						<marker label="phys_gen_phase_2_1_s2" position="2.157"/>
 					</markers>
 				</sound>
 				<sound id="phys_gen_phase_2_2">
 					<markers>
 						<marker label="phys_gen_phase_2_2_s1" position="0.000"/>
-						<marker label="phys_gen_phase_2_2_s2" position="5.128"/>
+						<marker label="phys_gen_phase_2_2_s2" position="5.194"/>
 					</markers>
 				</sound>
 				<sound id="phys_gen_phase_2_3" subtitle_id="phys_gen_phase_2_3"/>
@@ -927,15 +926,15 @@
 				<sound id="phys_see_pain">
 					<markers>
 						<marker label="phys_see_pain_s1" position="0.000"/>
-						<marker label="phys_see_pain_s2" position="8.240"/>
-						<marker label="phys_see_pain_s3" position="17.680"/>
+						<marker label="phys_see_pain_s2" position="7.537"/>
+						<marker label="phys_see_pain_s3" position="18.223"/>
 					</markers>
 				</sound>
 
 				<sound id="phys_tiny_bo_1">
 					<markers>
 						<marker label="phys_tiny_bo_1_s1" position="0.000"/>
-						<marker label="phys_tiny_bo_1_s2" position="1.689"/>
+						<marker label="phys_tiny_bo_1_s2" position="1.604"/>
 						<marker label="phys_tiny_bo_1_s3" position="3.974"/>
 					</markers>
 				</sound>
@@ -975,23 +974,24 @@
 					<sound id="phys_bowo_1" subtitle_id="phys_bowo_1"/>
 					<sound id="phys_bowo_2" subtitle_id="phys_bowo_2"/>
 					<sound id="phys_bowo_3" subtitle_id="phys_bowo_3"/>
+					<sound id="phys_bowo_4" subtitle_id="phys_bowo_4"/>
 
 					<sound id="phys_the_end_act1">
 						<markers>
-							<marker label="phys_the_end_act1_s1" position="1.300"/>
-							<marker label="phys_the_end_act1_s2" position="4.600"/>
-							<marker label="phys_the_end_act1_s3" position="6.232"/>
-							<marker label="phys_the_end_act1_s4" position="7.851"/>
-							<marker label="phys_the_end_act1_s5" position="11.030"/>
-							<marker label="phys_the_end_act1_s6" position="13.403"/>
-							<marker label="phys_the_end_act1_s7" position="17.483"/>
+							<marker label="phys_the_end_act1_s1" position="0.000"/>
+							<marker label="phys_the_end_act1_s2" position="3.212"/>
+							<marker label="phys_the_end_act1_s3" position="5.000"/>
+							<marker label="phys_the_end_act1_s4" position="6.503"/>
+							<marker label="phys_the_end_act1_s5" position="9.718"/>
+							<marker label="phys_the_end_act1_s6" position="12.082"/>
+							<marker label="phys_the_end_act1_s7" position="17.268"/>
 						</markers>
 					</sound>
 					<sound id="phys_the_end_intro">
 						<markers>
 							<marker label="phys_the_end_intro_s1" position="0.000"/>
-							<marker label="phys_the_end_intro_s2" position="2.556"/>
-							<marker label="phys_the_end_intro_s3" position="4.906"/>
+							<marker label="phys_the_end_intro_s2" position="2.518"/>
+							<marker label="phys_the_end_intro_s3" position="4.892"/>
 						</markers>
 					</sound>
 				</sounds>

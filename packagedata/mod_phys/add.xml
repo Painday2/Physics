@@ -243,52 +243,12 @@
 		<model path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang"/>
 		<object path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang"/>
 		<unit load="true" path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang"/>
-		<unit load="true" path="units/pd2_dlc_vr/equipment/phys_flashbang_vr"/>
 		<material_config path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang"/>
 		<material_config path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang_tps"/>
 		<model path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang_tps"/>
 		<object path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang_tps"/>
 		<unit load="true" path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang_tps"/>
 		<sequence_manager path="units/pd2_mod_phys/equipment/phys_flashbang/phys_flashbang"/>
-
-		<!--Red Key-->
-		<texture path="units/pd2_mod_phys/equipment/phys_key_red/phys_key_red_df"/>
-		<model path="units/pd2_mod_phys/equipment/phys_key_red/phys_key_red"/>
-		<object path="units/pd2_mod_phys/equipment/phys_key_red/phys_key_red"/>
-		<unit load="true" path="units/pd2_mod_phys/equipment/phys_key_red/phys_key_red"/>
-		<unit load="true" path="units/pd2_dlc_vr/equipment/phys_key_red_vr"/>
-		<material_config path="units/pd2_mod_phys/equipment/phys_key_red/phys_key_red"/>
-		<material_config path="units/pd2_mod_phys/equipment/phys_key_red/phys_key_red_tps"/>
-		<model path="units/pd2_mod_phys/equipment/phys_key_red/phys_key_red_tps"/>
-		<object path="units/pd2_mod_phys/equipment/phys_key_red/phys_key_red_tps"/>
-		<unit load="true" path="units/pd2_mod_phys/equipment/phys_key_red/phys_key_red_tps"/>
-		<sequence_manager path="units/pd2_mod_phys/equipment/phys_key_red/phys_key_red"/>
-
-		<!--Blue Key-->
-		<texture path="units/pd2_mod_phys/equipment/phys_key_blue/phys_key_blue_df"/>
-		<model path="units/pd2_mod_phys/equipment/phys_key_blue/phys_key_blue"/>
-		<object path="units/pd2_mod_phys/equipment/phys_key_blue/phys_key_blue"/>
-		<unit load="true" path="units/pd2_mod_phys/equipment/phys_key_blue/phys_key_blue"/>
-		<unit load="true" path="units/pd2_dlc_vr/equipment/phys_key_blue_vr"/>
-		<material_config path="units/pd2_mod_phys/equipment/phys_key_blue/phys_key_blue"/>
-		<material_config path="units/pd2_mod_phys/equipment/phys_key_blue/phys_key_blue_tps"/>
-		<model path="units/pd2_mod_phys/equipment/phys_key_blue/phys_key_blue_tps"/>
-		<object path="units/pd2_mod_phys/equipment/phys_key_blue/phys_key_blue_tps"/>
-		<unit load="true" path="units/pd2_mod_phys/equipment/phys_key_blue/phys_key_blue_tps"/>
-		<sequence_manager path="units/pd2_mod_phys/equipment/phys_key_blue/phys_key_blue"/>
-
-		<!--Green Key-->
-		<texture path="units/pd2_mod_phys/equipment/phys_key_green/phys_key_green_df"/>
-		<model path="units/pd2_mod_phys/equipment/phys_key_green/phys_key_green"/>
-		<object path="units/pd2_mod_phys/equipment/phys_key_green/phys_key_green"/>
-		<unit load="true" path="units/pd2_mod_phys/equipment/phys_key_green/phys_key_green"/>
-		<unit load="true" path="units/pd2_dlc_vr/equipment/phys_key_green_vr"/>
-		<material_config path="units/pd2_mod_phys/equipment/phys_key_green/phys_key_green"/>
-		<material_config path="units/pd2_mod_phys/equipment/phys_key_green/phys_key_green_tps"/>
-		<model path="units/pd2_mod_phys/equipment/phys_key_green/phys_key_green_tps"/>
-		<object path="units/pd2_mod_phys/equipment/phys_key_green/phys_key_green_tps"/>
-		<unit load="true" path="units/pd2_mod_phys/equipment/phys_key_green/phys_key_green_tps"/>
-		<sequence_manager path="units/pd2_mod_phys/equipment/phys_key_green/phys_key_green"/>
 	</add>
 
 	<!--Folding bed (Mako)-->

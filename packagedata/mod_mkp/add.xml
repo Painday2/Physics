@@ -101,9 +101,6 @@
 		<unit				path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m"/>
 		<object				path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m"/>
 		<model				path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m"/>
-		<unit				path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_door_a"/>
-		<object				path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_door_a"/>
-		<model				path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_door_a"/>
 		<unit				path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_window_a"/>
 		<object				path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_window_a"/>
 		<model				path="units/pd2_mod_mockup/tileset/mkp_wall_ext_2m_window_a"/>

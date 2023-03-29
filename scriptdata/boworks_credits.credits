@@ -212,7 +212,7 @@
 		<br/>
 	
 		<!-- Cooking Forklift -->
-		<command cmd="dialog" param="phys_stalk_fraud_1"/>
+		<command cmd="dialog" param="phys_bowo_1"/>
 		<image scale="0.2" src="guis/textures/boworks_credits/bowo_1"/>
 		<br/>
 
@@ -229,7 +229,7 @@
 		<br/>
 
 		<!-- Building a giant -->
-		<command cmd="dialog" param="phys_stalk_fraud_1"/>
+		<command cmd="dialog" param="phys_bowo_2"/>
 		<image scale="0.2" src="guis/textures/boworks_credits/bowo_2"/>
 		<br/>
 
@@ -243,7 +243,7 @@
 		<br/>
 
 		<!-- Refunding -->
-		<command cmd="dialog" param="phys_stalk_fraud_1"/>
+		<command cmd="dialog" param="phys_bowo_3"/>
 		<image scale="0.2" src="guis/textures/boworks_credits/bowo_3"/>
 		<br/>
 
@@ -272,6 +272,7 @@
 	<br/>
 	<br/>
 	<text text="Thank you for playing you fucking asshole." type="title"/>
+	<command cmd="dialog" param="phys_bowo_4"/>
 	<br/>
 	<br/>
 	<br/>

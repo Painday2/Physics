@@ -90,7 +90,7 @@
 	"p_phys_d3b_desc" : "69% of the 420 user reviews in the last 30 days are positive.",
 
     "p_phys_secret_name" : "Access Violated",
-	"p_phys_secret_objective" : "In the BOWORKS job, complete the Stock OS secret.\n\nUnlocks the \"Myth OS Tracking Suit\" outfit.",
+	"p_phys_secret_objective" : "In the BOWORKS job, complete the Stock OS secret.",
 	"p_phys_secret_desc" : " ",
 	"p_phys_speedrun_name" : "Execute On Startup",
 	"p_phys_speedrun_objective" : "Complete the BOWORKS job in 6 minutes or less.",
@@ -470,7 +470,6 @@
 	"phys_big_bo_2_s1" : "Aww fuck yeah! Finally!",
 	"phys_big_bo_2_s2" : "A worthy Bo.",
 	"phys_big_bo_2_s3" : "Your guys' battle will be fucking legendary!",
-	"phys_big_bo_2_s4" : "SHOOT THAT BANKRUPT MOTHERFUCKER!",
 
 	"phys_big_bo_3_s1" : "HOLY FUCK YEAH!",
 	"phys_big_bo_3_s2" : "NOW THIS IS A FUCKING BOSS FIGHT!",
@@ -526,7 +525,7 @@
 	"phys_the_end_act1_s1" : "Well gamers, I think it's finally it.",
 	"phys_the_end_act1_s2" : "Fuckin' finally.",
 	"phys_the_end_act1_s3" : "Game over.",
-	"phys_the_end_act1_s4" : "We hit that button or.. lever. I think they changed it to a lever.",
+	"phys_the_end_act1_s4" : "We hit that button or...lever. I think they changed it to a lever.",
 	"phys_the_end_act1_s5" : "*Vape Induced Coughing*",
 	"phys_the_end_act1_s6" : "Sorry. Uhhh, well it's gonna be the end of it.",
 	"phys_the_end_act1_s7" : "All of it.",
@@ -534,4 +533,9 @@
 	"phys_the_end_intro_s1" : "Alright, it's about time.",
 	"phys_the_end_intro_s2" : "We end, \"the pain\".",
 	"phys_the_end_intro_s3" : "(Who fucking wrote that line.)",
+
+	"phys_bowo_1" : "Ah, friends. Remember when we cooked that forklift 20 minutes ago? Good times.",
+	"phys_the_end_intro_s3" : "Or when we stormed that movie theatre, fo, sho.",
+	"phys_the_end_intro_s3" : "Or when you refunded my game. Wait a bloody minute, this didn't happen.",
+	"phys_the_end_intro_s3" : "My money....hey my 30 bucks my money. No no no, I need to get my money back wa-",
 }
