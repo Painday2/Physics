@@ -1,0 +1,12 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_phys/props/mex_prop_red_room_map/mex_prop_red_room_map" orientation_object="rp_mex_prop_red_room_map" />
+	<bodies>
+		<body name="body_static" enabled="true" template="editor">
+			<object name="rp_mex_prop_red_room_map" />
+			<object name="c_c" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_map" enabled="true" />
+	</graphics>
+</dynamic_object>

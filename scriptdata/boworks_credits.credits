@@ -210,6 +210,11 @@
 		<text text="Heist Concept, Level Design, Mission Scripting, Music, Sound Effects," type="name-credit"/>
 		<text text="The Voice of Cocke, Custom Assets/Textures, Writing" type="name-credit"/>
 		<br/>
+	
+		<!-- Cooking Forklift -->
+		<command cmd="dialog" param="phys_stalk_fraud_1"/>
+		<image scale="0.2" src="guis/textures/boworks_credits/bowo_1"/>
+		<br/>
 
 		<text text="Lawsfercapcake?" type="name"/>
 		<text text="Level Design, Mission Scripting, Writing" type="name-credit"/>
@@ -223,6 +228,11 @@
 		<text text="Custom World Assets, Custom Equipment Assets" type="name-credit"/>
 		<br/>
 
+		<!-- Building a giant -->
+		<command cmd="dialog" param="phys_stalk_fraud_1"/>
+		<image scale="0.2" src="guis/textures/boworks_credits/bowo_2"/>
+		<br/>
+
 		<text text="Cpone" type="name"/>
 		<text text="Custom Faction Programming and Setup, Custom World Assets" type="name-credit"/>
 		<text text="Giant Bo Fight, Credits Scripting" type="name-credit"/>
@@ -230,6 +240,11 @@
 
 		<text text="Matthelzor" type="name"/>
 		<text text="Custom Character Assets" type="name-credit"/>
+		<br/>
+
+		<!-- Refunding -->
+		<command cmd="dialog" param="phys_stalk_fraud_1"/>
+		<image scale="0.2" src="guis/textures/boworks_credits/bowo_3"/>
 		<br/>
 
 		<text text="Rex" type="name"/>

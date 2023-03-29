@@ -972,6 +972,10 @@
 					<sound id="phys_stalk_fraud_1" subtitle_id="phys_stalk_fraud_1"/>
 					<sound id="phys_stalk_fraud_2" subtitle_id="phys_stalk_fraud_2"/>
 
+					<sound id="phys_bowo_1" subtitle_id="phys_bowo_1"/>
+					<sound id="phys_bowo_2" subtitle_id="phys_bowo_2"/>
+					<sound id="phys_bowo_3" subtitle_id="phys_bowo_3"/>
+
 					<sound id="phys_the_end_act1">
 						<markers>
 							<marker label="phys_the_end_act1_s1" position="1.300"/>
