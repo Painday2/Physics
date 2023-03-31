@@ -618,10 +618,40 @@
 		<sequence_manager path="units/pd2_dlc_chas/props/chas_prop_lever/chas_prop_lever" unload="true"/>
 	</add>
 	<unit force="true" path="units/pd2_mod_phys/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
-	<material_config force="true" path="units/pd2_mod_phys/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
+	<unit force="true" path="units/pd2_mod_phys/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_64x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_64x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_64x32m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m"/>
+		<material_config path="core/material_configs/hub_elements"/>
+	</add>
 	<cooked_physics force="true" path="units/pd2_mod_phys/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
+	<material_config force="true" path="units/pd2_mod_phys/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
 	<model force="true" path="units/pd2_mod_phys/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
 	<object force="true" path="units/pd2_mod_phys/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
-	<unit force="true" path="units/pd2_mod_phys/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
 	<texture force="true" path="units/pd2_mod_phys/props/mex_prop_red_room_map/mex_prop_red_room_map_df" unload="true"/>
 </table>

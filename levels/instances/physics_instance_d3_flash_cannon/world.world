@@ -16,6 +16,8 @@
 	<entry key="brush" type="table">
 		<entry key="file" type="string" value="massunit"/>
 	</entry>
+	<entry key="camera_bookmarks" type="table">
+	</entry>
 	<entry key="environment" type="table">
 		<entry key="cubemap_gizmos" type="table">
 		</entry>
