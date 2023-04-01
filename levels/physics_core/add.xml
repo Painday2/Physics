@@ -507,7 +507,7 @@
 		<unit path="units/world/props/office/chair/office_chair_leather"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/civ_male_bain/civ_male_bain" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/civ_male_bain/civ_male_bain"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/civ_male_bain/civ_male_bain"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/std"/>
@@ -535,7 +535,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" type="unit">
-		<unit path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/std"/>
