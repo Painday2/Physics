@@ -3,7 +3,7 @@ GiantBoDamage._DAMAGE_GRANULARITY = 512 + 512 + 128 + 300
 GiantBoDamage._MAX_DAMAGE = 2500
 GiantBoDamage._DAMAGE_GRANULARITY_PERCENT = GiantBoDamage._MAX_DAMAGE / GiantBoDamage._DAMAGE_GRANULARITY
 
-GiantBoDamage.base_health = 5000
+GiantBoDamage.base_health = 7500
 GiantBoDamage.base_shield_generator_count = 3
 GiantBoDamage.base_shield_generator_health = 750
 GiantBoDamage.base_shield_generator_spin_speed = 10
