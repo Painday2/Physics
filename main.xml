@@ -1201,7 +1201,7 @@
 		<texture load="true" path="guis/achievements/phys/phys_speedrun"/>
 		<texture load="true" path="guis/achievements/phys/phys_secret"/>
 	</AddFiles>
-	<AssetUpdates id="Painday2/Physics" provider="github" branch="master"/>
+	<AssetUpdates id="Painday2/Physics" provider="github" release="true" version="1.4"/>
 	<Localization default="english.json" directory="localization">
 		<localization file="english.json" language="english"/>
 	</Localization>
