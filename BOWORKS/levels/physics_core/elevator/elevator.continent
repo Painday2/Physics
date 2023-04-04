@@ -1,0 +1,57 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="-3000 -3000 -400" _prev_rot="0.707107 0 0 -0.707107" continent="elevator" local_pos="-400 25 0" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="unit_elevator_floor" position="-3000 -3000 -800" rotation="0.707107 0 0 -0.707107" unit_id="600000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3000 -3000 -400" _prev_rot="0 0 0 -1" continent="elevator" local_pos="-400 25 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" name_id="unit_elevator_siding_001" position="-3000 -3000 -800" rotation="0 0 0 -1" unit_id="600001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2600 -3000 -400" _prev_rot="0 0 -0.707107 -0.707107" continent="elevator" local_pos="0 25 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" name_id="unit_elevator_siding_003" position="-2600 -3000 -800" rotation="0 0 -0.707107 -0.707107" unit_id="600002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2600 -2700 -400" _prev_rot="0 0 -0.707107 -0.707107" continent="elevator" local_pos="0 325 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" name_id="unit_elevator_siding_004" position="-2600 -2700 -800" rotation="0 0 -0.707107 -0.707107" unit_id="600003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2600 -2600 -400" _prev_rot="0 0 1 -4.37114e-008" continent="elevator" local_pos="0 425 0" local_rot="0 0 -1 4.37114e-008" name="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" name_id="unit_elevator_siding_005" position="-2600 -2600 -800" rotation="0 0 1 -4.37114e-008" unit_id="600004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2900 -2600 -400" _prev_rot="0 0 1 -4.37114e-008" continent="elevator" local_pos="-300 425 0" local_rot="0 0 -1 4.37114e-008" name="units/pd2_mod_mockup/tileset/mkp_railing_int_1m_a" name_id="unit_elevator_siding_006" position="-2900 -2600 -800" rotation="0 0 1 -4.37114e-008" unit_id="600005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3000 -2600 -400" _prev_rot="0 0 0.707107 -0.707107" continent="elevator" local_pos="-400 425 0" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" name_id="unit_elevator_siding_002" position="-3000 -2600 -800" rotation="0 0 0.707107 -0.707107" unit_id="600006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2600 -3025 -400" _prev_rot="0 0 0 -1" continent="elevator" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" name_id="unit_elevator_corner_001" position="-2600 -3025 -800" rotation="0 0 0 -1" unit_id="600007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2600 -2600 -400" _prev_rot="0 0 0 -1" continent="elevator" local_pos="0 425 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" name_id="unit_elevator_corner_004" position="-2600 -2600 -800" rotation="0 0 0 -1" unit_id="600008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3025 -2600 -400" _prev_rot="0 0 0 -1" continent="elevator" local_pos="-425 425 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" name_id="unit_elevator_corner_003" position="-3025 -2600 -800" rotation="0 0 0 -1" unit_id="600009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3025 -3025 -400" _prev_rot="0 0 0 -1" continent="elevator" local_pos="-425 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_pillar_int_025m_a" name_id="unit_elevator_corner_002" position="-3025 -3025 -800" rotation="0 0 0 -1" unit_id="600010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3000 -2600 0" _prev_rot="-0.707107 0 0 -0.707107" continent="elevator" local_pos="-399.999 425 400" local_rot="0.707107 0 0 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_int_4m" name_id="unit_elevator_roof" position="-3000 -2600 -400" rotation="-0.707107 0 0 -0.707107" unit_id="600011"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3000 -2600 -100" _prev_rot="0 0 0.707107 -0.707107" continent="elevator" local_pos="-400 425 300" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" name_id="unit_elevator_siding_009" position="-3000 -2600 -500" rotation="0 0 0.707107 -0.707107" unit_id="600012"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3000 -3000 -100" _prev_rot="0 0 0 -1" continent="elevator" local_pos="-400 25 300" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" name_id="unit_elevator_siding_010" position="-3000 -3000 -500" rotation="0 0 0 -1" unit_id="600013"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2600 -3000 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="elevator" local_pos="0 25 300" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" name_id="unit_elevator_siding_007" position="-2600 -3000 -500" rotation="0 0 -0.707107 -0.707107" unit_id="600014"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2600 -2600 -100" _prev_rot="0 0 1 4.37114e-008" continent="elevator" local_pos="0 425 300" local_rot="0 0 -1 -4.37114e-008" name="units/pd2_mod_mockup/tileset/mkp_railing_int_4m_a" name_id="unit_elevator_siding_008" position="-2600 -2600 -500" rotation="0 0 1 4.37114e-008" unit_id="600015"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

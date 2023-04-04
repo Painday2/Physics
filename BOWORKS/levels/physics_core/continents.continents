@@ -1,0 +1,7 @@
+<table>
+	<editor_only base_id="200000" editor_only="true" name="editor_only"/>
+	<elevator base_id="400000" name="elevator"/>
+	<entry_lobby base_id="500000" name="entry_lobby"/>
+	<exterior_mkp base_id="300000" name="exterior_mkp"/>
+	<world base_id="100000" editor_only="false" name="world"/>
+</table>

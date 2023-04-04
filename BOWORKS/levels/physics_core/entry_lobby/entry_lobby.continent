@@ -1,0 +1,1152 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="-3800 -3400 -400" _prev_rot="-0 0 -0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_013" position="-3800 -3400 -400" rotation="-0 0 -0 -1" unit_id="500000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3400 -3800 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="400 -400 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_011" position="-3400 -3800 -400" rotation="0 0 0 -1" unit_id="500001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2600 -3200 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1200 200 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" name_id="mkp_floor_2x2m_004" position="-2600 -3200 -400" rotation="0 0 0 -1" unit_id="500002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2600 -3000 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1200 400 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" name_id="mkp_floor_2x2m_003" position="-2600 -3000 -400" rotation="0 0 0 -1" unit_id="500003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2600 -2800 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1200 600 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" name_id="mkp_floor_2x2m_002" position="-2600 -2800 -400" rotation="0 0 0 -1" unit_id="500004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2600 -2600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1200 800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" name_id="mkp_floor_2x2m_001" position="-2600 -2600 -400" rotation="0 0 0 -1" unit_id="500005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2800 -2600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1000 800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" name_id="mkp_floor_2x2m_005" position="-2800 -2600 -400" rotation="0 0 0 -1" unit_id="500006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3000 -2600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="800 800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" name_id="mkp_floor_2x2m_006" position="-3000 -2600 -400" rotation="0 0 0 -1" unit_id="500007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3200 -2600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="600 800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_2x2m" name_id="mkp_floor_2x2m_007" position="-3200 -2600 -400" rotation="0 0 0 -1" unit_id="500008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3200 -2400 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_012" position="-3200 -2400 -400" rotation="0 0 0 -1" unit_id="500009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2400 -2400 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1400 1000 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_010" position="-2400 -2400 -400" rotation="0 0 0 -1" unit_id="500010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2400 -3200 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1400 200 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_009" position="-2400 -3200 -400" rotation="0 0 0 -1" unit_id="500011"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1600 -3200 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="2200 200 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_005" position="-1600 -3200 -400" rotation="0 0 0 -1" unit_id="500012"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1600 -2400 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="2200 1000 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_001" position="-1600 -2400 -400" rotation="0 0 0 -1" unit_id="500013"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 -2400 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_002" position="-800 -2400 -400" rotation="0 0 0 -1" unit_id="500014"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 -3200 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="3000 200 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_006" position="-800 -3200 -400" rotation="0 0 0 -1" unit_id="500015"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 -2400 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_003" position="0 -2400 -400" rotation="0 0 0 -1" unit_id="500016"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 -3200 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="3800 200 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_007" position="0 -3200 -400" rotation="0 0 0 -1" unit_id="500017"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="800 -2400 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="4600 1000 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_004" position="800 -2400 -400" rotation="0 0 0 -1" unit_id="500018"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="800 -3200 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="4600 200 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_008" position="800 -3200 -400" rotation="0 0 0 -1" unit_id="500019"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 -2800 -400" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="secret_wall_breakaway" position="1200 -2800 -400" rotation="0 0 0.707107 -0.707107" unit_id="500020"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 -2400 -400" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="5000 1000 0" local_rot="-0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_018" position="1200 -2400 -400" rotation="0 0 0.707107 -0.707107" unit_id="500021"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 -2000 -400" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="5000 1400 0" local_rot="-0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_017" position="1200 -2000 -400" rotation="0 0 0.707107 -0.707107" unit_id="500022"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 -1600 -400" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="5000 1800 0" local_rot="-0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_014" position="1200 -1600 -400" rotation="0 0 0.707107 -0.707107" unit_id="500023"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="800 -1600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="4600 1800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_012" position="800 -1600 -400" rotation="0 0 0 -1" unit_id="500024"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -1600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="4200 1800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_011" position="400 -1600 -400" rotation="0 0 0 -1" unit_id="500025"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 -1600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="3800 1800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_016" position="0 -1600 -400" rotation="0 0 0 -1" unit_id="500026"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 -1600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="3400 1800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_015" position="-400 -1600 -400" rotation="0 0 0 -1" unit_id="500027"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 -1600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="3000 1800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_009" position="-800 -1600 -400" rotation="0 0 0 -1" unit_id="500028"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1200 -1600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="2600 1800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_010" position="-1200 -1600 -400" rotation="0 0 0 -1" unit_id="500029"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1600 -1600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="2200 1800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_013" position="-1600 -1600 -400" rotation="0 0 0 -1" unit_id="500030"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2000 -1600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1800 1800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_265" position="-2000 -1600 -400" rotation="0 0 0 -1" unit_id="500031"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2400 -1600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1400 1800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_273" position="-2400 -1600 -400" rotation="0 0 0 -1" unit_id="500032"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2800 -1600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1000 1800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_281" position="-2800 -1600 -400" rotation="0 0 0 -1" unit_id="500033"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3200 -1600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="600 1800 0" local_rot="-0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_290" position="-3200 -1600 -400" rotation="0 0 0 -1" unit_id="500034"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3200 -2400 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_014" position="-3200 -2400 0" rotation="0 0 0 -1" unit_id="500035"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3200 -2400 0" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_015" position="-3200 -3200 0" rotation="0 0 0 -1" unit_id="500036"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2400 -3200 0" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_016" position="-2400 -3200 0" rotation="0 0 0 -1" unit_id="500037"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2400 -2400 0" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_017" position="-2400 -2400 0" rotation="0 0 0 -1" unit_id="500038"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-500 -2400 -400" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_339" position="-500 -2400 -400" rotation="0 0 -0.707107 -0.707107" unit_id="500039"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 -2000 -400" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_336" position="-400 -2000 -400" rotation="0 0 0.707107 -0.707107" unit_id="500040"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -2400 -400" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0.000488281 -900 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_337" position="400 -2400 -400" rotation="0 0 -0.707107 -0.707107" unit_id="500041"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="500 -2000 -400" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="400 -1000 0" local_rot="0 0 -1 -8.9407e-008" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_341" position="500 -2000 -400" rotation="0 0 0.707107 -0.707107" unit_id="500042"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="500 -1600 -400" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="800 -1000 0" local_rot="0 0 -1 -8.9407e-008" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_342" position="500 -1600 -400" rotation="0 0 0.707107 -0.707107" unit_id="500043"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -2000 -400" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="400 -900 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_338" position="400 -2000 -400" rotation="0 0 -0.707107 -0.707107" unit_id="500044"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-500 -2000 -400" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_340" position="-500 -2000 -400" rotation="0 0 -0.707107 -0.707107" unit_id="500045"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 -1600 -400" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="800 -100 0" local_rot="0 0 -1 -8.9407e-008" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_335" position="-400 -1600 -400" rotation="0 0 0.707107 -0.707107" unit_id="500046"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-501 -1900 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="stockos_logo" name="units/pd2_mod_phys/props/phys_sign_2x2" name_id="phys_sign_2x2_001" position="-501 -1900 -200" rotation="0 0 -0.707107 -0.707107" unit_id="500047"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2400 -3200 0" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_060" position="-1600 -3200 0" rotation="0 0 0 -1" unit_id="500049"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1600 -2400 0" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_061" position="-1600 -2400 0" rotation="0 0 0 -1" unit_id="500050"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -3200 0" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_062" position="400 -3200 0" rotation="0 0 0 -1" unit_id="500051"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1600 -2400 0" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_063" position="400 -2400 0" rotation="0 0 0 -1" unit_id="500052"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 -3200 0" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_064" position="-800 -3200 0" rotation="0 0 0 -1" unit_id="500053"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 -3200 0" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_065" position="0 -3200 0" rotation="0 0 0 -1" unit_id="500054"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1600 -2400 0" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_066" position="-1200 -2400 0" rotation="0 0 0 -1" unit_id="500055"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 -2800 0" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_067" position="-400 -2900 0" rotation="0 0 0 -1" unit_id="500056"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1600 -2800 -400" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -400 0" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_037" position="1600 -2800 -400" rotation="0 0 0.707107 -0.707107" unit_id="500057"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 -3200 0" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-400 -800 400" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_089" position="1200 -3200 0" rotation="0 0 0 -1" unit_id="500058"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1600 -2400 -400" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_041" position="1600 -2400 -400" rotation="0 0 0.707107 -0.707107" unit_id="500059"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1600 -2000 -400" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 400 0" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_043" position="1600 -2000 -400" rotation="0 0 0.707107 -0.707107" unit_id="500061"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 -2400 0" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-400 0 400" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_090" position="1200 -2400 0" rotation="0 0 0 -1" unit_id="500062"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 -1600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-400 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_019" position="1200 -1600 -400" rotation="0 0 0 -1" unit_id="500060"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1600 -2400 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_091" position="1600 -2400 -400" rotation="0 0 0 -1" unit_id="500063"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1600 -1600 -400" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_042" position="1600 -1600 -400" rotation="0 0 0 -1" unit_id="500064"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12100 2325 2925" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_092" position="12090 2325 2925" rotation="0 0 0 -1" unit_id="500065"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11900 1525 2925" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_093" position="11889 1525 2925" rotation="0 0 0 -1" unit_id="500066"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12500 2150 2925" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="400 0 -400" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_044" position="12500 2150 2925" rotation="0 0 0.707107 -0.707107" unit_id="500067"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12500 1750 2925" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="400 -400 -400" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_045" position="12500 1750 2925" rotation="0 0 0.707107 -0.707107" unit_id="500068"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12500 2550 2925" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_046" position="12500 2550 2925" rotation="0 0 0.707107 -0.707107" unit_id="500069"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12100 1350 3325" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_094" position="12100 1350 3325" rotation="0 0 0 -1" unit_id="500070"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12100 2150 3325" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_095" position="12100 2150 3325" rotation="0 0 0 -1" unit_id="500071"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12100 2150 2925" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 -400" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_047" position="12100 2150 2925" rotation="0 0 0.707107 -0.707107" unit_id="500072"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12100 2550 2925" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 400 -400" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_048" position="12100 2550 2925" rotation="0 0 0.707107 -0.707107" unit_id="500073"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12100 2950 2925" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 800 -400" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_049" position="12100 2950 2925" rotation="0 0 0.707107 -0.707107" unit_id="500074"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12100 2950 2925" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 800 -400" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_050" position="12100 2950 2925" rotation="0 0 0 -1" unit_id="500075"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12500 2950 2925" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_051" position="12500 2950 2925" rotation="0 0 0 -1" unit_id="500076"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12100 1750 2925" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -400 -400" local_rot="0 0 -0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_052" position="12100 1750 2925" rotation="0 0 0.707107 -0.707107" unit_id="500078"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12500 2550 2925" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_053" position="12500 2550 2925" rotation="0 0 0 -1" unit_id="500079"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12100 1525 2925" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -625 -400" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_055" position="12100 1525 2925" rotation="0 0 0 -1" unit_id="500081"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12900 3550 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 1400 -3625" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_096" position="12900 3550 -300" rotation="0 0 0 -1" unit_id="500077"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12900 2750 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 600 -3625" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_097" position="12900 2750 -300" rotation="0 0 0 -1" unit_id="500082"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12900 1150 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -1000 -3625" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_098" position="12900 1150 -300" rotation="0 0 0 -1" unit_id="500083"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12900 1950 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -200 -3625" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_099" position="12900 1950 -300" rotation="0 0 0 -1" unit_id="500084"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13700 1150 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1600 -1000 -3625" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_100" position="13700 1150 -300" rotation="0 0 0 -1" unit_id="500085"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13700 1950 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1600 -200 -3625" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_101" position="13700 1950 -300" rotation="0 0 0 -1" unit_id="500086"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13700 2750 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1600 600 -3625" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_102" position="13700 2750 -300" rotation="0 0 0 -1" unit_id="500087"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13700 3550 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1600 1400 -3625" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_103" position="13700 3550 -300" rotation="0 0 0 -1" unit_id="500088"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="15300 1150 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="3200 -1000 -3625" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_104" position="15300 1150 -300" rotation="0 0 0 -1" unit_id="500089"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="15300 1950 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_105" position="15300 1950 -300" rotation="0 0 0 -1" unit_id="500090"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="15300 2750 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="3200 600 -3625" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_106" position="15300 2750 -300" rotation="0 0 0 -1" unit_id="500091"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="15300 3550 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="3200 1400 -3625" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_107" position="15300 3550 -300" rotation="0 0 0 -1" unit_id="500092"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14500 1150 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2400 -1000 -3625" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_108" position="14500 1150 -300" rotation="0 0 0 -1" unit_id="500093"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14500 1950 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2400 -200 -3625" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_109" position="14500 1950 -300" rotation="0 0 0 -1" unit_id="500094"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14500 2750 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_110" position="14500 2750 -300" rotation="0 0 0 -1" unit_id="500095"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14500 3550 -300" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2400 1400 -3625" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_111" position="14500 3550 -300" rotation="0 0 0 -1" unit_id="500096"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21500 -6050 3325" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_112" position="21500 -6050 3375" rotation="0 0 -0.707107 -0.707107" unit_id="500097"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21100 -5650 2925" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="400 -400 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_057" position="21100 -5650 2925" rotation="0 0 -0.707107 -0.707107" unit_id="500102"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20700 -5650 2925" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -400 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_059" position="20700 -5650 2925" rotation="0 0 -0.707107 -0.707107" unit_id="500104"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21325 -6050 2925" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="625 -800 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_114" position="21325 -6050 2925" rotation="0 0 -0.707107 -0.707107" unit_id="500106"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21100 -6050 2925" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="400 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_062" position="21100 -6050 2925" rotation="0 0 0 -1" unit_id="500108"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20700 -6050 2925" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -800 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_064" position="20700 -6050 2925" rotation="0 0 -0.707107 -0.707107" unit_id="500110"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20700 -6050 2925" _prev_rot="0 0 0 -1" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_065" position="20700 -6050 2925" rotation="0 0 0 -1" unit_id="500111"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22125 -6250 2925" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_115" position="22125 -6200 2925" rotation="0 0 -0.707107 -0.707107" unit_id="500112"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 -2850 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1000 2400 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_116" position="21700 -2850 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500113"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 -2850 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 2400 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_117" position="20900 -2850 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500114"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 -2850 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1800 2400 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_118" position="22500 -2850 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500115"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 -2850 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-600 2400 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_119" position="20100 -2850 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500116"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 -3650 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1000 1600 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_120" position="21700 -3650 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500117"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 -3650 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 1600 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_121" position="20900 -3650 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500118"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 -3650 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1800 1600 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_122" position="22500 -3650 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500119"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 -3650 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-600 1600 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_123" position="20100 -3650 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500120"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 -4450 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1000 800 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_124" position="21700 -4450 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500121"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 -4450 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 800 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_125" position="20900 -4450 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500122"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 -4450 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1800 800 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_126" position="22500 -4450 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500123"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 -4450 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-600 800 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_127" position="20100 -4450 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500124"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 -5250 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1000 0 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_128" position="21700 -5250 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500125"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 -5250 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 0 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_129" position="20900 -5250 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500126"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 -5250 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1800 0 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_130" position="22500 -5250 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500127"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 -5250 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-600 0 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_131" position="20100 -5250 -300" rotation="0 0 -0.707107 -0.707107" unit_id="500128"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="26525 3550 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1000 2400 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_132" position="26500 3550 -300" rotation="0 0 -1 0" unit_id="500130"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="26525 2750 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 2400 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_133" position="26500 2750 -300" rotation="0 0 -1 0" unit_id="500131"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="26525 4350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1800 2400 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_134" position="26500 4350 -300" rotation="0 0 -1 0" unit_id="500132"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="26525 1950 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-600 2400 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_135" position="26500 1950 -300" rotation="0 0 -1 0" unit_id="500133"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="27325 3550 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1000 1600 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_136" position="27300 3550 -300" rotation="0 0 -1 0" unit_id="500134"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="27325 2750 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 1600 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_137" position="27300 2750 -300" rotation="0 0 -1 0" unit_id="500135"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="27325 4350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1800 1600 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_138" position="27300 4350 -300" rotation="0 0 -1 0" unit_id="500136"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="27325 1950 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-600 1600 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_139" position="27300 1950 -300" rotation="0 0 -1 0" unit_id="500137"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="28125 3550 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1000 800 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_140" position="28100 3550 -300" rotation="0 0 -1 0" unit_id="500138"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="28125 2750 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 800 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_141" position="28100 2750 -300" rotation="0 0 -1 0" unit_id="500139"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="28125 4350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1800 800 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_142" position="28100 4350 -300" rotation="0 0 -1 0" unit_id="500140"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="28125 1950 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-600 800 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_143" position="28100 1950 -300" rotation="0 0 -1 0" unit_id="500141"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="28925 3550 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1000 0 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_144" position="28900 3550 -300" rotation="0 0 -1 0" unit_id="500142"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="28925 2750 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 0 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_145" position="28900 2750 -300" rotation="0 0 -1 0" unit_id="500143"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="28925 4350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1800 0 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_146" position="28900 4350 -300" rotation="0 0 -1 0" unit_id="500144"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="28925 1950 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-600 0 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_147" position="28900 1950 -300" rotation="0 0 -1 0" unit_id="500145"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="29725 3175 2925" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="625 -800 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_150" position="29700 3175 2925" rotation="0 0 -1 0" unit_id="500149"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="29900 3975 2925" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_151" position="29750 3975 2925" rotation="0 0 1 -0" unit_id="500153"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="29725 2550 2925" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_070" position="29700 2550 2925" rotation="0 0 -0.707107 -0.707107" unit_id="500154"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="29725 2550 2925" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -800 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_071" position="29700 2550 2925" rotation="0 0 -1 0" unit_id="500155"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="29325 2950 2925" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="400 -400 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_072" position="29300 2950 2925" rotation="0 0 -1 0" unit_id="500156"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="29325 2550 2925" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -400 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_073" position="29300 2550 2925" rotation="0 0 -1 0" unit_id="500157"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 8300 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1000 2400 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_152" position="20100 8350 -300" rotation="0 0 0.707107 -0.707107" unit_id="500159"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 8300 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 2400 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_153" position="20900 8350 -300" rotation="0 0 0.707107 -0.707107" unit_id="500160"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 8300 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1800 2400 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_154" position="19300 8350 -300" rotation="0 0 0.707107 -0.707107" unit_id="500161"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 8300 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-600 2400 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_155" position="21700 8350 -300" rotation="0 0 0.707107 -0.707107" unit_id="500162"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 9100 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1000 1600 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_156" position="20100 9150 -300" rotation="0 0 0.707107 -0.707107" unit_id="500163"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 9100 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 1600 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_157" position="20900 9150 -300" rotation="0 0 0.707107 -0.707107" unit_id="500164"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 9100 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1800 1600 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_158" position="19300 9150 -300" rotation="0 0 0.707107 -0.707107" unit_id="500165"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 9100 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-600 1600 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_159" position="21700 9150 -300" rotation="0 0 0.707107 -0.707107" unit_id="500166"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 9900 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1000 800 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_160" position="20100 9950 -300" rotation="0 0 0.707107 -0.707107" unit_id="500167"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 9900 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 800 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_161" position="20900 9950 -300" rotation="0 0 0.707107 -0.707107" unit_id="500168"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 9900 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1800 800 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_162" position="19300 9950 -300" rotation="0 0 0.707107 -0.707107" unit_id="500169"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 9900 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-600 800 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_163" position="21700 9950 -300" rotation="0 0 0.707107 -0.707107" unit_id="500170"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 10700 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1000 0 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_164" position="20100 10750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500171"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 10700 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 0 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_165" position="20900 10750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500172"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 10700 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1800 0 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_166" position="19300 10750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500173"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 10700 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-600 0 -3225" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_167" position="21700 10750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500174"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20475 11560 2925" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_170" position="20475 11560 2925" rotation="0 0 0.707107 -0.707107" unit_id="500178"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19675 11750 2925" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_171" position="19675 11650 2925" rotation="0 0 0.707107 -0.707107" unit_id="500182"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21100 11500 2925" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_078" position="21100 11550 2925" rotation="0 0 -1 0" unit_id="500183"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21100 11500 2925" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -800 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_079" position="21100 11550 2925" rotation="0 0 0.707107 -0.707107" unit_id="500184"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20700 11100 2925" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="400 -400 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_080" position="20700 11150 2925" rotation="0 0 0.707107 -0.707107" unit_id="500185"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21100 11100 2925" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -400 0" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_081" position="21100 11150 2925" rotation="0 0 0.707107 -0.707107" unit_id="500186"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13166.3 2925 3063.83" _prev_rot="-0.270598 0.270598 0.653282 -0.653282" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_046" position="13184 2925 3081.51" rotation="-0.270598 0.270598 0.653282 -0.653282" unit_id="500187"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12599.5 2951 3048.74" _prev_rot="0 -0.382683 0 -0.92388" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_083" position="12599.5 2951 3048.74" rotation="0 -0.382683 0 -0.92388" unit_id="500189"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12599.5 2550 3048.74" _prev_rot="0 -0.382683 0 -0.92388" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_084" position="12599.5 2549 3048.74" rotation="0 -0.382683 0 -0.92388" unit_id="500188"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_172" position="19300 6750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500098"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 7550 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 -3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_173" position="19300 7550 -300" rotation="0 0 0.707107 -0.707107" unit_id="500129"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 7550 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 -2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_174" position="20100 7550 -300" rotation="0 0 0.707107 -0.707107" unit_id="500158"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_175" position="20100 6750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500190"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_176" position="20900 6750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500191"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 7550 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 -1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_177" position="20900 7550 -300" rotation="0 0 0.707107 -0.707107" unit_id="500192"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 7550 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_178" position="21700 7550 -300" rotation="0 0 0.707107 -0.707107" unit_id="500193"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_179" position="21700 6750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500194"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16100 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -6400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_180" position="16100 6750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500195"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16900 7550 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 -5600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_182" position="16900 7550 -300" rotation="0 0 0.707107 -0.707107" unit_id="500197"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16900 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -5600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_183" position="16900 6750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500198"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17700 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -5600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_184" position="17700 6750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500199"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17700 7550 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 -4800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_185" position="17700 7550 -300" rotation="0 0 0.707107 -0.707107" unit_id="500200"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 7550 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 -4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_186" position="18500 7550 -300" rotation="0 0 0.707107 -0.707107" unit_id="500201"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_187" position="18500 6750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500202"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_188" position="22500 6750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500203"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 7550 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_190" position="23300 7550 -300" rotation="0 0 0.707107 -0.707107" unit_id="500205"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_191" position="23300 6750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500206"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24100 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_192" position="24100 6750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500207"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24100 7550 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_193" position="24100 7550 -300" rotation="0 0 0.707107 -0.707107" unit_id="500208"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_195" position="24900 6750 -300" rotation="0 0 0.707107 -0.707107" unit_id="500210"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 -1225 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_196" position="22500 -1250 -300" rotation="0 0 0.707107 -0.707107" unit_id="500211"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 -450 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 4800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_197" position="22500 -450 -300" rotation="0 0 0.707107 -0.707107" unit_id="500212"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 -425 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_198" position="23300 -450 -300" rotation="0 0 0.707107 -0.707107" unit_id="500213"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 -1225 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_199" position="23300 -1250 -300" rotation="0 0 0.707107 -0.707107" unit_id="500214"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24100 -1225 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_200" position="24100 -1250 -300" rotation="0 0 0.707107 -0.707107" unit_id="500215"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24100 -425 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_201" position="24100 -450 -300" rotation="0 0 0.707107 -0.707107" unit_id="500216"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 -425 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_202" position="24900 -450 -300" rotation="0 0 0.707107 -0.707107" unit_id="500217"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16100 -450 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_204" position="16100 -450 -300" rotation="0 0 0.707107 -0.707107" unit_id="500219"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16900 -1250 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_206" position="16900 -1250 -300" rotation="0 0 0.707107 -0.707107" unit_id="500221"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16900 -450 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_207" position="16900 -450 -300" rotation="0 0 0.707107 -0.707107" unit_id="500222"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17700 -450 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_208" position="17700 -450 -300" rotation="0 0 0.707107 -0.707107" unit_id="500223"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17700 -1225 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_209" position="17700 -1250 -300" rotation="0 0 0.707107 -0.707107" unit_id="500224"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 -1225 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_210" position="18500 -1250 -300" rotation="0 0 0.707107 -0.707107" unit_id="500225"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 -450 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_211" position="18500 -450 -300" rotation="0 0 0.707107 -0.707107" unit_id="500226"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 -450 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_212" position="19300 -450 -300" rotation="0 0 0.707107 -0.707107" unit_id="500227"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 -450 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_213" position="20100 -450 -300" rotation="0 0 0.707107 -0.707107" unit_id="500228"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 -450 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_214" position="20900 -450 -300" rotation="0 0 0.707107 -0.707107" unit_id="500229"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 -450 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_215" position="21700 -450 -300" rotation="0 0 0.707107 -0.707107" unit_id="500230"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 -1225 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_216" position="21700 -1250 -300" rotation="0 0 0.707107 -0.707107" unit_id="500231"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 -1225 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_217" position="20900 -1250 -300" rotation="0 0 0.707107 -0.707107" unit_id="500232"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 -1225 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_218" position="20100 -1250 -300" rotation="0 0 0.707107 -0.707107" unit_id="500233"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 -1225 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_219" position="19300 -1250 -300" rotation="0 0 0.707107 -0.707107" unit_id="500234"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="25700 1950 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_220" position="25700 1950 -300" rotation="0 0 1 -0" unit_id="500235"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 1950 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_221" position="24900 1950 -300" rotation="0 0 1 -0" unit_id="500236"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 2750 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_222" position="24900 2750 -300" rotation="0 0 1 -0" unit_id="500237"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 3550 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_223" position="24900 3550 -300" rotation="0 0 1 -0" unit_id="500238"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 4350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_224" position="24900 4350 -300" rotation="0 0 1 -0" unit_id="500239"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="25700 4350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_225" position="25700 4350 -300" rotation="0 0 1 -0" unit_id="500240"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="25700 3550 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_226" position="25700 3550 -300" rotation="0 0 1 -0" unit_id="500241"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="25700 2750 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_227" position="25700 2750 -300" rotation="0 0 1 -0" unit_id="500242"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="25700 1150 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 4800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_228" position="25700 1150 -300" rotation="0 0 1 -0" unit_id="500243"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 4800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_229" position="24900 350 -300" rotation="0 0 1 -0" unit_id="500244"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 1150 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_230" position="24900 1150 -300" rotation="0 0 1 -0" unit_id="500245"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="25700 350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 5600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_231" position="25700 350 -300" rotation="0 0 1 -0" unit_id="500246"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 5950 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_232" position="24900 5950 -300" rotation="0 0 1 -0" unit_id="500247"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="25700 5950 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_233" position="25700 5950 -300" rotation="0 0 1 -0" unit_id="500248"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="25700 5150 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_234" position="25700 5150 -300" rotation="0 0 1 -0" unit_id="500249"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 5150 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_235" position="24900 5150 -300" rotation="0 0 1 -0" unit_id="500250"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16925 5950 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_236" position="16900 5950 -300" rotation="0 0 1 -0" unit_id="500251"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17725 5950 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_237" position="17700 5950 -300" rotation="0 0 1 -0" unit_id="500252"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17700 5150 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_238" position="17700 5150 -300" rotation="0 0 1 -0" unit_id="500253"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16925 5150 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_239" position="16900 5150 -300" rotation="0 0 1 -0" unit_id="500254"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16925 4350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_240" position="16900 4350 -300" rotation="0 0 1 -0" unit_id="500255"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16925 3550 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_241" position="16900 3550 -300" rotation="0 0 1 -0" unit_id="500256"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16925 2750 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_242" position="16900 2750 -300" rotation="0 0 1 -0" unit_id="500257"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16925 1950 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_243" position="16900 1950 -300" rotation="0 0 1 -0" unit_id="500258"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16925 1150 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 4800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_244" position="16900 1150 -300" rotation="0 0 1 -0" unit_id="500259"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16925 350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 5600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_245" position="16900 350 -300" rotation="0 0 1 -0" unit_id="500260"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17725 350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-800 5600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_246" position="17700 350 -300" rotation="0 0 1 -0" unit_id="500261"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17700 1150 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_247" position="17700 1150 -300" rotation="0 0 1 -0" unit_id="500262"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17700 1950 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_248" position="17700 1950 -300" rotation="0 0 1 -0" unit_id="500263"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17700 2750 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_249" position="17700 2750 -300" rotation="0 0 1 -0" unit_id="500264"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17700 3550 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_250" position="17700 3550 -300" rotation="0 0 1 -0" unit_id="500265"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17700 4350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_251" position="17700 4350 -300" rotation="0 0 1 -0" unit_id="500266"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_252" position="23300 5950 -300" rotation="0 0 0.707107 -0.707107" unit_id="500267"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_253" position="22500 5950 -300" rotation="0 0 0.707107 -0.707107" unit_id="500268"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_254" position="21700 5950 -300" rotation="0 0 0.707107 -0.707107" unit_id="500269"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_255" position="20900 5950 -300" rotation="0 0 0.707107 -0.707107" unit_id="500270"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_256" position="20100 5950 -300" rotation="0 0 0.707107 -0.707107" unit_id="500271"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_257" position="19300 5950 -300" rotation="0 0 0.707107 -0.707107" unit_id="500272"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_258" position="18500 5950 -300" rotation="0 0 0.707107 -0.707107" unit_id="500273"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17700 6750 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -5600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_259" position="17700 5950 -300" rotation="0 0 0.707107 -0.707107" unit_id="500274"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 5150 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_260" position="24100 5150 -300" rotation="0 0 1 -0" unit_id="500275"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 4350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_261" position="24100 4350 -300" rotation="0 0 1 -0" unit_id="500276"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 3550 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_262" position="24100 3550 -300" rotation="0 0 1 -0" unit_id="500277"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 2750 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_263" position="24100 2750 -300" rotation="0 0 1 -0" unit_id="500278"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 1950 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_264" position="24100 1950 -300" rotation="0 0 1 -0" unit_id="500279"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 1150 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_265" position="24100 1150 -300" rotation="0 0 1 -0" unit_id="500280"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="24900 350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 4800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_266" position="24100 350 -300" rotation="0 0 1 -0" unit_id="500281"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17700 375 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_267" position="17700 350 -300" rotation="0 0 0.707107 -0.707107" unit_id="500282"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 375 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_268" position="18500 350 -300" rotation="0 0 0.707107 -0.707107" unit_id="500283"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 375 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_269" position="19300 350 -300" rotation="0 0 0.707107 -0.707107" unit_id="500284"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 375 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_270" position="20100 350 -300" rotation="0 0 0.707107 -0.707107" unit_id="500285"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 375 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_271" position="20900 350 -300" rotation="0 0 0.707107 -0.707107" unit_id="500286"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 375 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_272" position="21700 350 -300" rotation="0 0 0.707107 -0.707107" unit_id="500287"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 375 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 4800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_273" position="22500 350 -300" rotation="0 0 0.707107 -0.707107" unit_id="500288"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 5150 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_274" position="18500 5150 -300" rotation="0 0 1 -0" unit_id="500289"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 4350 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_275" position="18500 4350 -300" rotation="0 0 1 -0" unit_id="500290"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 3550 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_276" position="18500 3550 -300" rotation="0 0 1 -0" unit_id="500291"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 2750 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_277" position="18500 2750 -300" rotation="0 0 1 -0" unit_id="500292"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 1950 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_278" position="18500 1950 -300" rotation="0 0 1 -0" unit_id="500293"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 1150 -300" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_279" position="18500 1150 -300" rotation="0 0 1 -0" unit_id="500294"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 1150 -300" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_280" position="18475 1150 -325" rotation="0.707107 0 -0.707107 -0" unit_id="500295"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 1950 -300" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -800 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_281" position="18475 1950 -325" rotation="0.707107 0 -0.707107 -0" unit_id="500296"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 2750 -300" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -1600 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_282" position="18475 2750 -325" rotation="0.707107 0 -0.707107 -0" unit_id="500297"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 3550 -300" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -2400 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_283" position="18475 3550 -325" rotation="0.707107 0 -0.707107 -0" unit_id="500298"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 4350 -300" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -3200 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_284" position="18475 4350 -325" rotation="0.707107 0 -0.707107 -0" unit_id="500299"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 5150 -300" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4000 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_285" position="18475 5150 -325" rotation="0.707107 0 -0.707107 -0" unit_id="500300"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 1150 -1100" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 0 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_286" position="18475 1150 -1125" rotation="0.707107 0 -0.707107 -0" unit_id="500301"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 1950 -1100" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -800 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_287" position="18475 1950 -1125" rotation="0.707107 0 -0.707107 -0" unit_id="500302"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 2750 -1100" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -1600 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_288" position="18475 2750 -1125" rotation="0.707107 0 -0.707107 -0" unit_id="500303"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 3550 -1100" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -2400 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_289" position="18475 3550 -1125" rotation="0.707107 0 -0.707107 -0" unit_id="500304"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 4350 -1100" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -3200 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_290" position="18475 4350 -1125" rotation="0.707107 0 -0.707107 -0" unit_id="500305"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 5150 -1100" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -4000 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_291" position="18475 5150 -1125" rotation="0.707107 0 -0.707107 -0" unit_id="500306"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 1150 -1875" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 0 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_292" position="18475 1150 -1900" rotation="0.707107 0 -0.707107 -0" unit_id="500307"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 1950 -1875" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -800 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_293" position="18475 1950 -1900" rotation="0.707107 0 -0.707107 -0" unit_id="500308"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 2750 -1875" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -1600 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_294" position="18475 2750 -1900" rotation="0.707107 0 -0.707107 -0" unit_id="500309"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 3550 -1875" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -2400 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_295" position="18475 3550 -1900" rotation="0.707107 0 -0.707107 -0" unit_id="500310"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 4350 -1875" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -3200 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_296" position="18475 4350 -1900" rotation="0.707107 0 -0.707107 -0" unit_id="500311"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 5150 -1875" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -4000 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_297" position="18475 5150 -1900" rotation="0.707107 0 -0.707107 -0" unit_id="500312"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 1150 -2675" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 0 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_298" position="18475 1150 -2700" rotation="0.707107 0 -0.707107 -0" unit_id="500313"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 1950 -2675" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -800 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_299" position="18475 1950 -2700" rotation="0.707107 0 -0.707107 -0" unit_id="500314"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 2750 -2675" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -1600 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_300" position="18475 2750 -2700" rotation="0.707107 0 -0.707107 -0" unit_id="500315"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 3550 -2675" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -2400 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_301" position="18475 3550 -2700" rotation="0.707107 0 -0.707107 -0" unit_id="500316"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 4350 -2675" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -3200 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_302" position="18475 4350 -2700" rotation="0.707107 0 -0.707107 -0" unit_id="500317"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18475 5150 -2675" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -4000 4825" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_303" position="18475 5150 -2700" rotation="0.707107 0 -0.707107 -0" unit_id="500318"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 1150 -2675" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_304" position="23300 1150 -2700" rotation="0.707107 0 -0.707107 -0" unit_id="500319"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 1150 -1875" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_305" position="23300 1150 -1900" rotation="0.707107 0 -0.707107 -0" unit_id="500320"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 1150 -1100" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_306" position="23300 1150 -1125" rotation="0.707107 0 -0.707107 -0" unit_id="500321"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 1150 -300" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_307" position="23300 1150 -325" rotation="0.707107 0 -0.707107 -0" unit_id="500322"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 1950 -300" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_308" position="23300 1950 -325" rotation="0.707107 0 -0.707107 -0" unit_id="500323"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 1950 -1100" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_309" position="23300 1950 -1125" rotation="0.707107 0 -0.707107 -0" unit_id="500324"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 1950 -1875" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_310" position="23300 1950 -1900" rotation="0.707107 0 -0.707107 -0" unit_id="500325"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 2750 -1875" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_311" position="23300 2750 -1900" rotation="0.707107 0 -0.707107 -0" unit_id="500326"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 2750 -2675" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_312" position="23300 2750 -2700" rotation="0.707107 0 -0.707107 -0" unit_id="500327"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 1950 -2675" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_313" position="23300 1950 -2700" rotation="0.707107 0 -0.707107 -0" unit_id="500328"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 3550 -2675" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_314" position="23300 3550 -2700" rotation="0.707107 0 -0.707107 -0" unit_id="500329"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 4350 -2675" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_315" position="23300 4350 -2700" rotation="0.707107 0 -0.707107 -0" unit_id="500330"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 5150 -2675" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_316" position="23300 5150 -2700" rotation="0.707107 0 -0.707107 -0" unit_id="500331"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 5150 -1875" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_317" position="23300 5150 -1900" rotation="0.707107 0 -0.707107 -0" unit_id="500332"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 4350 -1875" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_318" position="23300 4350 -1900" rotation="0.707107 0 -0.707107 -0" unit_id="500333"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 3550 -1875" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_319" position="23300 3550 -1900" rotation="0.707107 0 -0.707107 -0" unit_id="500334"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 3550 -1100" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_320" position="23300 3550 -1125" rotation="0.707107 0 -0.707107 -0" unit_id="500335"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 2750 -1100" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_321" position="23300 2750 -1125" rotation="0.707107 0 -0.707107 -0" unit_id="500336"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 4350 -1100" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_322" position="23300 4350 -1125" rotation="0.707107 0 -0.707107 -0" unit_id="500337"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 5150 -1100" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_323" position="23300 5150 -1125" rotation="0.707107 0 -0.707107 -0" unit_id="500338"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 5150 -300" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_324" position="23300 5150 -325" rotation="0.707107 0 -0.707107 -0" unit_id="500339"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 4350 -300" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_325" position="23300 4350 -325" rotation="0.707107 0 -0.707107 -0" unit_id="500340"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 3550 -300" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_326" position="23300 3550 -325" rotation="0.707107 0 -0.707107 -0" unit_id="500341"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 2750 -300" _prev_rot="0.707107 0 -0.707107 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_327" position="23300 2750 -325" rotation="0.707107 0 -0.707107 -0" unit_id="500342"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 350 -325" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_328" position="22500 325 -325" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500343"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 350 -1125" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_329" position="22500 325 -1125" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500344"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 350 -1900" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_330" position="22500 325 -1900" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500345"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 350 -2700" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_331" position="22500 325 -2700" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500346"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 350 -2700" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_332" position="21700 325 -2700" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500347"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 350 -1900" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_333" position="21700 325 -1900" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500348"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 350 -1125" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_334" position="21700 325 -1125" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500349"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 350 -325" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -800 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_335" position="21700 325 -325" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500350"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 350 -325" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_336" position="20900 325 -325" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500351"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 350 -1125" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_337" position="20900 325 -1125" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500352"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 350 -1900" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_338" position="20900 325 -1900" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500353"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 350 -2700" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -1600 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_339" position="20900 325 -2700" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500354"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 350 -2675" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2350 -2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_340" position="20100 325 -2675" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500355"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 350 -1875" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1550 -2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_341" position="20100 325 -1875" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500356"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 350 -1125" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_342" position="20100 325 -1125" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500357"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 350 -325" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -2400 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_343" position="20100 325 -325" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500358"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 350 -325" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_344" position="19300 325 -325" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500359"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 350 -325" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_345" position="18500 325 -325" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500360"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 350 -1125" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_346" position="18500 325 -1125" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500361"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 350 -1900" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_347" position="18500 325 -1900" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500362"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 350 -1900" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_348" position="19300 325 -1900" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500363"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 350 -2700" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_349" position="19300 325 -2700" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500364"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 350 -2700" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -4000 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_350" position="18500 325 -2700" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500365"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 350 -1125" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -3200 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_351" position="19300 325 -1125" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500366"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 5150 -300" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4000 800" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_352" position="22500 5150 -325" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500367"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 5150 -1100" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -4000 800" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_353" position="22500 5150 -1125" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500368"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 5150 -1875" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -4000 800" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_354" position="22500 5150 -1900" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500369"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="22500 5150 -2675" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -4000 800" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_355" position="22500 5150 -2700" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500370"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 5150 -2675" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -4000 1600" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_356" position="21700 5150 -2700" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500371"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 5150 -1875" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -4000 1600" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_357" position="21700 5150 -1900" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500372"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 5150 -1100" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -4000 1600" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_358" position="21700 5150 -1125" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500373"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21700 5150 -300" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4000 1600" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_359" position="21700 5150 -325" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500374"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 5150 -300" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4000 2400" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_360" position="20900 5150 -325" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500375"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 5150 -1100" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -4000 2400" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_361" position="20900 5150 -1125" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500376"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 5150 -1875" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -4000 2400" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_362" position="20900 5150 -1900" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500377"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20900 5150 -2675" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -4000 2400" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_363" position="20900 5150 -2700" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500378"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 5150 -2675" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -4000 3200" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_364" position="20100 5150 -2700" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500379"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 5150 -1875" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -4000 3200" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_365" position="20100 5150 -1900" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500380"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 5150 -1100" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -4000 3200" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_366" position="20100 5150 -1125" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500381"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20100 5150 -300" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4000 3200" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_367" position="20100 5150 -325" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500382"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 5150 -300" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4000 4000" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_368" position="19300 5150 -325" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500383"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 5150 -300" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -4000 4800" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_369" position="18500 5150 -325" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500384"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 5150 -1100" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -4000 4800" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_370" position="18500 5150 -1125" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500385"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 5150 -1875" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -4000 4800" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_371" position="18500 5150 -1900" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500386"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 5150 -1875" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="1575 -4000 4000" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_372" position="19300 5150 -1900" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500387"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 5150 -2675" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -4000 4000" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_373" position="19300 5150 -2700" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500388"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18500 5150 -2675" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2375 -4000 4800" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_374" position="18500 5150 -2700" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500389"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19300 5150 -1100" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="800 -4000 4000" local_rot="0.707107 0 0 -0.707107" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_375" position="19300 5150 -1125" rotation="-0.5 -0.5 0.5 -0.5" unit_id="500390"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="23300 7550 -300" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_194" position="22500 7550 -300" rotation="0 0 0.707107 -0.707107" unit_id="500080"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20699 -5575.52 3048.74" _prev_rot="0.270598 -0.270598 -0.653282 -0.653281" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="3500.52 1801 251.257" local_rot="0 0.92388 0 -0.382683" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_085" position="20699 -5550.52 3048.74" rotation="0.270598 -0.270598 -0.653281 -0.653281" unit_id="500196"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20725 -4991.04 3081.51" _prev_rot="-0.382683 0 0 -0.92388" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2916.04 1775 218.493" local_rot="-0.653282 0.653282 -0.270598 0.270598" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_086" position="20725 -4966.04 3081.51" rotation="-0.382683 0 0 -0.92388" unit_id="500204"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21101 -5575.52 3048.74" _prev_rot="0.270598 -0.270598 -0.653282 -0.653281" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="3500.52 1399 251.257" local_rot="0 0.92388 0 -0.382683" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_087" position="21101 -5550.52 3048.74" rotation="0.270598 -0.270598 -0.653281 -0.653281" unit_id="500209"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="29200.5 2524 3048.74" _prev_rot="-0.382683 0 0.92388 -2.98023e-008" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="3500.52 1801 251.256" local_rot="2.98023e-008 0.92388 0 -0.382684" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_088" position="29200.5 2549 3048.74" rotation="0.382683 0 -0.92388 2.98023e-008" unit_id="500218"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="28616 2550 3081.51" _prev_rot="-0.270598 -0.270598 -0.653282 -0.653282" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2916.04 1775 218.493" local_rot="-0.653282 0.653282 -0.270598 0.270598" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_089" position="28616 2575 3081.51" rotation="-0.270598 -0.270598 -0.653282 -0.653282" unit_id="500220"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="29200.5 2926 3048.74" _prev_rot="-0.382683 0 0.92388 -2.98023e-008" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="3500.52 1399 251.256" local_rot="2.98023e-008 0.92388 0 -0.382684" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_090" position="29200.5 2951 3048.74" rotation="0.382683 0 -0.92388 2.98023e-008" unit_id="500391"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21101 10825.5 3048.74" _prev_rot="-0.270598 -0.270598 0.653282 -0.653281" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="3500.52 1801 251.256" local_rot="-2.98023e-008 0.92388 0 -0.382684" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_091" position="21101 11050.5 3048.74" rotation="-0.270598 -0.270598 0.653281 -0.653281" unit_id="500392"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21075 10241 3081.51" _prev_rot="0 0.382683 0.92388 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2916.04 1775 218.494" local_rot="-0.653282 0.653282 -0.270598 0.270598" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_092" position="21075 10466 3081.51" rotation="0 -0.382683 -0.92388 0" unit_id="500393"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20699 10825.5 3048.74" _prev_rot="-0.270598 -0.270598 0.653282 -0.653281" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="3500.52 1399 251.256" local_rot="-2.98023e-008 0.92388 0 -0.382684" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_093" position="20699 11050.5 3048.74" rotation="-0.270598 -0.270598 0.653281 -0.653281" unit_id="500394"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="21100 11550 2925" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_094" position="20700 11550 2925" rotation="0 0 1 -0" unit_id="500175"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="29700 2550 2925" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_074" position="29700 2950 2925" rotation="0 0 -0.707107 -0.707107" unit_id="500146"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20475 11560 2925" _prev_rot="0 0 0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_181" position="20475 11560 3350" rotation="0 0 0.707107 -0.707107" unit_id="500147"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="29700 3175 2925" _prev_rot="0 0 1 -0" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_floor_8x8m" name_id="mkp_floor_8x8m_168" position="29700 3175 3375" rotation="0 0 1 -0" unit_id="500148"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -2800 -400" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="secret_bo_breakaway" position="400 -2800 -400" rotation="0 0 -0.707107 -0.707107" unit_id="500099"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -2800 -400" _prev_rot="0 0 -0.707107 -0.707107" continent="entry_lobby" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_mockup/tileset/mkp_wall_ext_4m" name_id="mkp_wall_ext_4m_346" position="400 -3200 -400" rotation="0 0 -0.707107 -0.707107" unit_id="500100"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

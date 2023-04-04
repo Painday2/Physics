@@ -1,0 +1,7 @@
+<table>
+	<editor_only file="editor_only/editor_only"/>
+	<elevator file="elevator/elevator"/>
+	<entry_lobby file="entry_lobby/entry_lobby"/>
+	<exterior_mkp file="exterior_mkp/exterior_mkp"/>
+	<world file="world/world"/>
+</table>
