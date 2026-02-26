@@ -194,7 +194,7 @@ local bo_spawn_smoke = function(self, normal)
 		}
 	}
 
-	EnvironmentFire.spawn(position, rotation, data, normal, self._thrower_unit, 0, 1)
+	EnvironmentFire.spawn(position, rotation, data, normal, self._thrower_unit, nil, 1, 1)
 
 	self._unit:set_visible(false)
 
@@ -229,8 +229,8 @@ local bo_spawn_fire = function(self, normal)
 		}
 	}
 
-	EnvironmentFire.spawn(position, rotation, data, normal, self._thrower_unit, 0, 1)
-
+	EnvironmentFire.spawn(position, rotation, data, normal, self._thrower_unit, nil, 1, 1)
+	
 	self._unit:set_visible(false)
 
 	if Network:is_server() then
